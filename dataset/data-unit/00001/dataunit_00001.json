@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00001",
+  "file_path": "dataset/data-unit/00001/dataunit_00001.json",
+  "category": "primary-environmental-observation",
+  "captured_at_local": "2025-12-25 06:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "early_morning_weather_observation",
+  "summary": "Early morning weather and sky conditions observed at MaMeeFarm during dawn hours.",
+  "description": "This record documents the early morning atmospheric conditions at MaMeeFarm, showing calm sky, layered clouds, soft dawn light, and surrounding vegetation under low wind conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00001/hash/dataunit_00001.sha256",
+    "ots_file": "dataset/data-unit/00001/ots/dgcp_dataunit_00001.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20251225_064625.jpg",
+    "cid": "bafybeifpi6c2gc7m5zeasargg476tnn5m52fxc5avvv7xn3odu47qqspuu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifpi6c2gc7m5zeasargg476tnn5m52fxc5avvv7xn3odu47qqspuu",
+    "reference_folder": "dataset/data-unit/00001/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
+
+DGCP | MMFARM-POL-2025  
+This work is licensed under the DGCP (Data Governance & Continuous Proof) framework.  
+All content is part of the MaMeeFarm™ Real-Work Data & Philosophy archive.  
+Redistribution, citation, or derivative use must preserve attribution and license reference.
