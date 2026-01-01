@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00002",
+  "file_path": "dataset/data-unit/00002/dataunit_00002.json",
+  "category": "primary-agricultural-observation",
+  "captured_at_local": "2026-01-01 07:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_plant_morning_observation",
+  "summary": "Morning observation of a banana plant with developing fruit bunch at MaMeeFarm.",
+  "description": "This data unit documents a banana plant bearing a developing fruit bunch observed in the morning light at MaMeeFarm. The image captures plant condition, leaf structure, and surrounding field context under clear sky conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00002/hash/dataunit_00002.sha256",
+    "ots_file": "dataset/data-unit/00002/ots/DGCP_dataunit_00002.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260101_0748.jpg",
+    "cid": "bafybeic45zcfguqpj6x7zs7j3qurwximnztzzcrl7q4zeij776fj7sbglm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic45zcfguqpj6x7zs7j3qurwximnztzzcrl7q4zeij776fj7sbglm",
+    "reference_folder": "dataset/data-unit/00002/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary cryptographic anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
