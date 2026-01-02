@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00003",
+  "file_path": "dataset/data-unit/00003/dataunit_00003.json",
+  "category": "primary-agricultural-labor-observation",
+  "captured_at_local": "2026-01-02 12:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_midday_fieldwork",
+  "summary": "Midday grass cutting work under direct sunlight at MaMeeFarm.",
+  "description": "This data unit records real agricultural labor activity involving grass cutting performed under strong midday sunlight at MaMeeFarm. The observation documents physical fieldwork conditions, environmental exposure, and on-site labor as part of routine farm maintenance.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00003/hash/dataunit_00003.sha256",
+    "ots_file": "DGCP_dataunit_00003.json.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd20260102_1204.jpg",
+    "cid": "bafybeidloabyas6mwtdw6cxwufn5tcrkmpcajow7ie2iuskrulqfk4bwd4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidloabyas6mwtdw6cxwufn5tcrkmpcajow7ie2iuskrulqfk4bwd4",
+    "reference_folder": "dataset/data-unit/00003/external-reference/",
+    "note": "External reference is provided for inspection convenience only and does not function as a cryptographic anchor within the DGCP verification chain."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
