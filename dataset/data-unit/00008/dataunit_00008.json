@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00008",
+  "file_path": "dataset/data-unit/00008/dataunit_00008.json",
+  "category": "primary-agricultural-observation",
+  "captured_at_local": "2026-01-03 09:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "chemical_free_kale_growth_observation",
+  "summary": "Kale grown naturally for approximately 2 months with water-only care, no fertilizer, and no chemical inputs; ready for household consumption.",
+  "description": "This record documents a kale plant cultivated at MaMeeFarm under minimal-input conditions. The plant was maintained with water-only care and without the use of fertilizers or chemical treatments. At approximately 2 months of growth, the kale is suitable for harvesting and consumption as part of household food supply.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00008/hash/dataunit_00008.sha256",
+    "ots_file": "dataset/data-unit/00008/ots/dgcp_dataunit_00008.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_0957.jpg",
+    "cid": "bafybeibihcf5l4xbaxk7u6cj2h4tsrzcgn2ud3grzw3durcs7eclq2bdb4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibihcf5l4xbaxk7u6cj2h4tsrzcgn2ud3grzw3durcs7eclq2bdb4",
+    "reference_folder": "dataset/data-unit/00008/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
