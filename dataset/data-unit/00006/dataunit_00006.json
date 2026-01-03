@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00006",
+  "file_path": "dataset/data-unit/00006/dataunit_00006.json",
+  "category": "primary-agricultural-observation",
+  "captured_at_local": "2026-01-03 07:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "marigold_companion_planting_observation",
+  "summary": "Marigold flowers planted near vegetable beds to support pest control and improve farm ecosystem aesthetics.",
+  "description": "This record documents marigold flowers cultivated adjacent to vegetable plots at MaMeeFarm. The planting serves dual purposes: natural pest deterrence through companion planting practices and enhancement of visual and ecological vitality within the farm environment.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00006/hash/dataunit_00006.sha256",
+    "ots_file": "dataset/data-unit/00006/ots/dgcp_dataunit_00006.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_0750.jpg",
+    "cid": "bafybeihzqudruqbvnjrcinqug3kqjqa6l2jctgtsgzfoou4holnhd2fsn4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihzqudruqbvnjrcinqug3kqjqa6l2jctgtsgzfoou4holnhd2fsn4",
+    "reference_folder": "dataset/data-unit/00006/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
