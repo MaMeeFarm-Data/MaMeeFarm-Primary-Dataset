@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00004",
+  "file_path": "dataset/data-unit/00004/dataunit_00004.json",
+  "category": "primary-environmental-observation",
+  "captured_at_local": "2026-01-03 07:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm (adjacent cornfield), Thailand",
+  "data_type": "image",
+  "title": "cool_morning_adjacent_cornfield",
+  "summary": "Cool early-morning conditions observed at a cornfield adjacent to MaMeeFarm.",
+  "description": "This data unit documents cool morning atmospheric conditions at a cornfield adjacent to MaMeeFarm. The observation captures early daylight, low-temperature ambience, and crop rows under calm conditions, providing contextual environmental data relevant to surrounding agricultural activity.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00004/hash/dataunit_00004.sha256",
+    "ots_file": "DGCP_dataunit_00004.json.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_0716.jpg",
+    "cid": "bafybeiaikp7yoair6akeudtpckzxdanutw3jpdbwh52dnx75q4z3j6fi6a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiaikp7yoair6akeudtpckzxdanutw3jpdbwh52dnx75q4z3j6fi6a",
+    "reference_folder": "dataset/data-unit/00004/external-reference/",
+    "note": "External reference is provided for inspection convenience only and does not function as a cryptographic anchor within the DGCP verification chain."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
