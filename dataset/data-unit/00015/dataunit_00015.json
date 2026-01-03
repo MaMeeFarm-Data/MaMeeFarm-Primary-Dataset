@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00015",
+  "file_path": "dataset/data-unit/00015/dataunit_00015.json",
+  "category": "primary-farm-maintenance-activity",
+  "captured_at_local": "2026-01-03 18:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_completed_single_zone",
+  "summary": "Completion of grass cutting in a specific farm zone within a defined time period.",
+  "description": "This record documents the completion of grass cutting work in a designated zone of MaMeeFarm. The activity was completed in a single session lasting 18 minutes, demonstrating time-bounded manual farm maintenance under real operational conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00015/hash/dataunit_00015.sha256",
+    "ots_file": "dataset/data-unit/00015/ots/dgcp_dataunit_00015.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_1803.jpg",
+    "cid": "bafybeigvw5saolw5ealwcel7lnsd7sskkqu4ennxmsc5wqtm7fmtexro6i",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigvw5saolw5ealwcel7lnsd7sskkqu4ennxmsc5wqtm7fmtexro6i",
+    "reference_folder": "dataset/data-unit/00015/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
