@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00007",
+  "file_path": "dataset/data-unit/00007/dataunit_00007.json",
+  "category": "primary-agricultural-observation",
+  "captured_at_local": "2026-01-03 07:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_plant_fruiting_stage_observation",
+  "summary": "Banana plant approximately eight months after planting, observed with inflorescence and developing fruit.",
+  "description": "This record documents a banana plant at MaMeeFarm approximately eight months after planting. The plant has produced an inflorescence and is bearing fruit, indicating successful vegetative growth and transition into the fruiting stage under real farm conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00007/hash/dataunit_00007.sha256",
+    "ots_file": "dataset/data-unit/00007/ots/dgcp_dataunit_00007.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_0752.jpg",
+    "cid": "bafybeihdlaljww7xq563qii74gsav6tnpweqwhetno3yycol2qdidvdn3m",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihdlaljww7xq563qii74gsav6tnpweqwhetno3yycol2qdidvdn3m",
+    "reference_folder": "dataset/data-unit/00007/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
