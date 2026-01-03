@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00009",
+  "file_path": "dataset/data-unit/00009/dataunit_00009.json",
+  "category": "primary-livelihood-observation",
+  "captured_at_local": "2026-01-05 10:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "wood_fired_cooking_daily_meal",
+  "summary": "Preparation of a simple daily meal using a wood-fired stove, optimizing limited resources through shared ingredients.",
+  "description": "This record documents the preparation of a household meal at MaMeeFarm using a traditional wood-fired stove. The dish consists of stir-fried cucumber with pork sausage. The sausage was purchased for 49 THB and portioned across five meals, demonstrating resource efficiency, cost-conscious living, and everyday food security practices within a small-scale farm context.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00009/hash/dataunit_00009.sha256",
+    "ots_file": "dataset/data-unit/00009/ots/dgcp_dataunit_00009.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1033.jpg",
+    "cid": "bafybeia3yk4fsx4shrvecig5i342matpv3nr4l574yq742pnm4j5nsb2vm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeia3yk4fsx4shrvecig5i342matpv3nr4l574yq742pnm4j5nsb2vm",
+    "reference_folder": "dataset/data-unit/00009/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
