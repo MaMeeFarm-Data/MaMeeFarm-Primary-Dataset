@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00013",
+  "file_path": "dataset/data-unit/00013/dataunit_00013.json",
+  "category": "primary-human-rest-recovery",
+  "captured_at_local": "2026-01-03 14:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "short_rest_break_with_farm_dogs_presence",
+  "summary": "Short rest break before returning to work, with farm dogs staying close.",
+  "description": "This record documents a brief rest period at MaMeeFarm. The image shows MaMee reclining for recovery before continuing work. Farm dogs are present nearby, reflecting companionship and on-site daily living conditions within the farm environment.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00013/hash/dataunit_00013.sha256",
+    "ots_file": "dataset/data-unit/00013/ots/dgcp_dataunit_00013.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_1401.jpg",
+    "cid": "bafybeic4xny76343dvzn5ijj6a37xkmq724xjiqyuxr225e4f4l4av7r2a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic4xny76343dvzn5ijj6a37xkmq724xjiqyuxr225e4f4l4av7r2a",
+    "reference_folder": "dataset/data-unit/00013/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
