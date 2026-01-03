@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00014",
+  "file_path": "dataset/data-unit/00014/dataunit_00014.json",
+  "category": "primary-farm-maintenance-activity",
+  "captured_at_local": "2026-01-03 17:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_progress_small_scale_farm",
+  "summary": "Grass cutting activity at MaMeeFarm conducted in short time intervals over multiple days.",
+  "description": "This record documents grass cutting work at MaMeeFarm covering a total area of 1 rai 2 ngan 17 square wah. The activity is carried out incrementally, with approximately 15–20 minutes of work per session. The full area is completed over a period of seven days, reflecting time-managed labor under real-life constraints.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00014/hash/dataunit_00014.sha256",
+    "ots_file": "dataset/data-unit/00014/ots/dgcp_dataunit_00014.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_1745.jpg",
+    "cid": "bafybeidr32xywer4zs6mb33iwak3arew6fcggccahfwenbut5nktzkq5re",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidr32xywer4zs6mb33iwak3arew6fcggccahfwenbut5nktzkq5re",
+    "reference_folder": "dataset/data-unit/00014/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
