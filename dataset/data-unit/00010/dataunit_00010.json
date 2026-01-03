@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00010",
+  "file_path": "dataset/data-unit/00010/dataunit_00010.json",
+  "category": "primary-livelihood-observation",
+  "captured_at_local": "2026-01-03 10:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "single_meal_system_builder_food_record",
+  "summary": "Single-meal food record: rice with stir-fried cucumber and pork sausage (moo yor), documenting constrained daily living while building the farm data system.",
+  "description": "This record documents a simple meal consumed as the only meal of the day by P'To (system builder) at MaMeeFarm. The meal consists of rice with stir-fried cucumber and pork sausage (moo yor). This data unit captures real livelihood constraints and daily subsistence context behind continuous DGCP system-building work.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00010/hash/dataunit_00010.sha256",
+    "ots_file": "dataset/data-unit/00010/ots/dgcp_dataunit_00010.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_1050.jpg",
+    "cid": "bafybeid2fotwkl23blrxvaewxgpxqznz46jhaqufenxnzykdynh5beyf5u",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeid2fotwkl23blrxvaewxgpxqznz46jhaqufenxnzykdynh5beyf5u",
+    "reference_folder": "dataset/data-unit/00010/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
