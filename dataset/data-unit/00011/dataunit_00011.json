@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00011",
+  "file_path": "dataset/data-unit/00011/dataunit_00011.json",
+  "category": "environmental-temperature-record",
+  "captured_at_local": "2026-01-03 13:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "ambient_temperature_humidity_record",
+  "summary": "Ambient temperature and humidity measurement recorded at MaMeeFarm using a digital thermometer-hygrometer.",
+  "description": "This record documents ambient environmental conditions at MaMeeFarm captured via a digital thermometer-hygrometer (HTC-1). The device display shows a temperature of 25.5°C and relative humidity of 53% at the recorded time. This data unit provides verifiable environmental context for daily farm operations under the DGCP framework.",
+  "measurement": {
+    "temperature_celsius": 25.5,
+    "humidity_percent": 53,
+    "device_model": "HTC-1",
+    "measurement_type": "ambient"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00011/hash/dataunit_00011.sha256",
+    "ots_file": "dataset/data-unit/00011/ots/dgcp_dataunit_00011.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_1341.jpg",
+    "cid": "bafybeieb73fvaq2gjkiwnkugrnfgs36un3jebzkruo5cjeppwa2osxeeza",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieb73fvaq2gjkiwnkugrnfgs36un3jebzkruo5cjeppwa2osxeeza",
+    "reference_folder": "dataset/data-unit/00011/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
