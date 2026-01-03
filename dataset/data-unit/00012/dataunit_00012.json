@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00012",
+  "file_path": "dataset/data-unit/00012/dataunit_00012.json",
+  "category": "primary-agricultural-activity",
+  "captured_at_local": "2026-01-03 13:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "manual_land_preparation_weed_clearing",
+  "summary": "Manual grass clearing activity to prepare planting area at MaMeeFarm.",
+  "description": "This record documents a manual land preparation activity at MaMeeFarm. The image shows MaMee clearing grass using a hand tool to prepare soil for future vegetable planting. The activity takes place under direct sunlight and reflects real agricultural labor conducted as part of daily farm operations.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00012/hash/dataunit_00012.sha256",
+    "ots_file": "dataset/data-unit/00012/ots/dgcp_dataunit_00012.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_1343.jpg",
+    "cid": "bafybeihgv6nazwaqvxowwr7oldlqgoc57jkl6ib4vjqtujl3zjbq34rvby",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihgv6nazwaqvxowwr7oldlqgoc57jkl6ib4vjqtujl3zjbq34rvby",
+    "reference_folder": "dataset/data-unit/00012/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
