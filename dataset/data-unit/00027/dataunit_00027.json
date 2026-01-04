@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-PrimaryDataset-2025",
+  "dataset": "MaMeeFarm Primary Dataset",
+  "data_unit_id": "00027",
+  "title": "Irrigation runoff reaches MaMeeFarm canal",
+  "type": "environment_observation",
+  "timestamp_local": "2026-01-04 15:42",
+  "timezone": "+0700",
+  "location_context": {
+    "country": "Thailand",
+    "province": "Lampang",
+    "site": "MaMeeFarm"
+  },
+  "summary": "Water runoff from a corn field flows into the canal near MaMeeFarm. The farm canal was already low/dry, and this inflow adds water back into the canal.",
+  "observations": [
+    {
+      "what": "Runoff water enters canal",
+      "detail": "Water from a nearby corn field flows into the canal connected to/near the farm."
+    },
+    {
+      "what": "Farm canal condition",
+      "detail": "The farm canal was already dry/low; the inflow adds water to the canal."
+    }
+  ],
+  "constraints": [
+    "Water availability is limited; inflow depends on upstream irrigation/runoff conditions."
+  ],
+  "evidence": {
+    "media_type": "image",
+    "captured_text_on_image": "2026/01/04 15:42 DGCP MaMeeFarm",
+    "external_reference": [
+      {
+        "type": "ipfs_gateway",
+        "provider": "Pinata",
+        "url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifs2kekpj5ej4733ghjs3jwbkrukkwjdy65zlsexdgxuh6uta4quu"
+      }
+    ]
+  },
+  "tags": [
+    "water",
+    "canal",
+    "runoff",
+    "irrigation",
+    "environment",
+    "farm-constraints"
+  ],
+  "integrity": {
+    "sha256": null,
+    "ots": null,
+    "notes": "SHA-256 and OpenTimestamps (OTS) will be recorded after commit, following the established workflow."
+  },
+  "license": "DGCP | MMFARM-POL-2025\nThis work is licensed under the DGCP (Data Governance & Continuous Proof) framework.\nAll content is part of the MaMeeFarm™ Real-Work Data & Philosophy archive.\nRedistribution, citation, or derivative use must preserve attribution and license reference."
+}
