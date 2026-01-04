@@ -1,0 +1,36 @@
+{
+  "data_unit_id": "00019",
+  "project": "MaMeeFarm",
+  "framework": "DGCP",
+  "title": "Home inverter turned on for daily operation",
+  "timestamp_local": "2026-01-04T08:36:00+07:00",
+  "location": {
+    "site": "MaMeeFarm",
+    "country": "Thailand"
+  },
+  "context": {
+    "category": "energy",
+    "activity_type": "infrastructure_operation",
+    "description": "Daily activation of the home hybrid solar inverter. The inverter draws electricity from solar panels, enabling limited power usage under system constraints."
+  },
+  "data_capture": {
+    "method": "photographic_record",
+    "device": "mobile_camera",
+    "evidence_type": "image"
+  },
+  "external_reference": {
+    "type": "ipfs",
+    "provider": "pinata",
+    "url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifhwx32lkvqixik4szaqpzacgd5t4cpil5hdvlu2lik7v3g54lx5i"
+  },
+  "conditions": {
+    "power_source": "solar_inverter",
+    "operational_status": "active",
+    "constraints": "limited electricity availability based on solar input"
+  },
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_value": ""
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
