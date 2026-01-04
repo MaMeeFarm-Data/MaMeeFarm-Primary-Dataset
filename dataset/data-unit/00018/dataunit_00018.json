@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00018",
+  "file_path": "dataset/data-unit/00018/dataunit_00018.json",
+  "category": "primary-agricultural-observation",
+  "captured_at_local": "2026-01-04 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "vegetable_bed_preparation_in_empty_duck_house",
+  "summary": "Preparation of a vegetable bed inside a former duck house area after ducks were removed, utilizing direct sunlight exposure for crop planting.",
+  "description": "This data unit records manual soil excavation to prepare a vegetable planting bed inside a former duck housing area. With no ducks present, the space is repurposed for crop production. The location receives sufficient direct sunlight, making it suitable for growing vegetables and maintaining productive land use.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00018/hash/dataunit_00018.sha256",
+    "ots_file": "dataset/data-unit/00018/ots/dgcp_dataunit_00018.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260104_0757.jpg",
+    "cid": "bafybeigxrozgh7qig63jlkmtenaliawzcm7uoxiujhvcprn76k2enswaou",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigxrozgh7qig63jlkmtenaliawzcm7uoxiujhvcprn76k2enswaou",
+    "reference_folder": "dataset/data-unit/00018/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
