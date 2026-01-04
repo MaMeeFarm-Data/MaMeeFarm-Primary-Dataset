@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00025",
+  "file_path": "dataset/data-unit/00025/dataunit_00025.json",
+  "category": "primary-agricultural-observation",
+  "captured_at_local": "2026-01-04 13:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "additional_water_storage_for_vegetable_expansion",
+  "summary": "An additional water barrel was installed to support increased vegetable cultivation under financial and infrastructure constraints.",
+  "description": "This record documents the addition of one more water storage barrel at MaMeeFarm. As vegetable cultivation expands, water demand increases. Due to limited capital and lack of access to formal irrigation systems, water storage is incrementally expanded using available resources. The farm continues to operate under systemic constraints that limit infrastructure development.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260104_1355.jpg",
+    "cid": "bafybeid2zwi742hnsrmrms2s7p7ykij6nbysadtobxw5suo7bwq36lkg44",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeid2zwi742hnsrmrms2s7p7ykij6nbysadtobxw5suo7bwq36lkg44",
+    "reference_folder": "dataset/data-unit/00025/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
