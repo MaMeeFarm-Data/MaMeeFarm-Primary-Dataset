@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00016",
+  "file_path": "dataset/data-unit/00016/dataunit_00016.json",
+  "category": "primary-energy-constraint-observation",
+  "captured_at_local": "2026-01-03 23:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "home_inverter_shutdown_due_to_power_limit",
+  "summary": "Home inverter shutdown time recorded as part of operating under energy constraints.",
+  "description": "This record documents the moment a home hybrid solar inverter is turned off at the end of available power usage. It captures real operating constraints that directly affect the ability to continue work after electricity is depleted.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00016/hash/dataunit_00016.sha256",
+    "ots_file": "dataset/data-unit/00016/ots/dgcp_dataunit_00016.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260103_2344.jpg",
+    "cid": "bafybeifksk3vhv7mu73nuw2lh3qohowoldhoct2om3fr2en7643axur7xq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifksk3vhv7mu73nuw2lh3qohowoldhoct2om3fr2en7643axur7xq",
+    "reference_folder": "dataset/data-unit/00016/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
