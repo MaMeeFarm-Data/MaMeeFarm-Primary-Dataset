@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "1.0",
+  "dataset": "MaMeeFarm Primary Dataset",
+  "data_unit_id": "00024",
+  "record_type": "water_pump_operation_log",
+  "title": "Well pump operation and water depletion event",
+  "timestamp_local": "2026-01-04T11:09:00+07:00",
+  "location": {
+    "name": "MaMeeFarm",
+    "country": "TH"
+  },
+  "source_media": {
+    "proof_image": {
+      "label": "Proof_024",
+      "ipfs_gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeid5cdyk2gl4acvmesdbmxby534t7byhr4cmh2bqgkfz7bkhk6rso4"
+    }
+  },
+  "observations": {
+    "pump_on_time_local": "2026-01-04T10:17:00+07:00",
+    "pump_off_time_local": "2026-01-04T11:09:00+07:00",
+    "event_note": "Water in the well ran low because groundwater inflow could not replenish fast enough during pumping."
+  },
+  "activity": {
+    "category": "farm_operations",
+    "sub_category": "water_management",
+    "operation": "pump_water_from_well",
+    "constraints": [
+      "limited groundwater inflow rate"
+    ]
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
