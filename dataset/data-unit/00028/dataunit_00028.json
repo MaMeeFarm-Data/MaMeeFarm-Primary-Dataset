@@ -1,0 +1,29 @@
+{
+  "data_unit_id": "00028",
+  "project": "MaMeeFarm",
+  "framework": "DGCP",
+  "type": "daily-care",
+  "title": "Feeding dogs at MaMeeFarm (evening)",
+  "description": "Providing evening meal for dogs at MaMeeFarm. Dogs are fed twice daily (morning and evening) as part of routine animal care at the farm.",
+  "activity": {
+    "category": "animal-care",
+    "action": "feeding",
+    "frequency": "twice daily",
+    "time_of_day": "evening"
+  },
+  "timestamp": {
+    "recorded_at": "2026-01-04T17:07",
+    "timezone": "Asia/Bangkok",
+    "source": "camera watermark"
+  },
+  "location": {
+    "site": "MaMeeFarm",
+    "country": "Thailand"
+  },
+  "evidence": {
+    "media_type": "image",
+    "ipfs_gateway": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifklwxddy7bst5k6a65zj4cve442an3tlb7vnblaowgxuc6qccgly"
+  },
+  "notes": "Routine animal welfare activity. Feeding dogs consistently despite limited farm resources.",
+  "license": "DGCP | MMFARM-POL-2025"
+}
