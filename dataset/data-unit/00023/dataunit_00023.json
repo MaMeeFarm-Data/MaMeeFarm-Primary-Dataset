@@ -1,0 +1,32 @@
+{
+  "data_unit_id": "00023",
+  "project": "MaMeeFarm",
+  "framework": "DGCP",
+  "timestamp": "2026-01-04T10:17:00+07:00",
+  "location": {
+    "farm_name": "MaMeeFarm",
+    "country": "Thailand"
+  },
+  "activity": {
+    "type": "water_pumping_operation",
+    "description": "Water pump operating normally using electricity generated from on-farm solar panels. No electricity cost incurred; operation conducted under equipment depreciation constraints."
+  },
+  "energy": {
+    "source": "solar",
+    "grid_electricity_cost": 0,
+    "note": "No electricity bill; equipment depreciation applies."
+  },
+  "asset": {
+    "equipment": "water_pump",
+    "condition": "operational"
+  },
+  "external_reference": {
+    "ipfs": "bafybeif4m4olyhg54ykzfeqorl4hiqhxaj5cfotfniyz6uzdyfl6eshrbe"
+  },
+  "evidence": {
+    "media_type": "image",
+    "watermarked": true,
+    "timestamp_visible": true
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
