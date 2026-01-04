@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00022",
+  "file_path": "dataset/data-unit/00022/dataunit_00022.json",
+  "category": "primary-agricultural-infrastructure",
+  "captured_at_local": "2026-01-04 10:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "damaged_water_pump_purchase_under_time_constraint",
+  "summary": "A water pump purchased for farm use arrived with physical defects, but was accepted due to urgent operational necessity.",
+  "description": "This data unit documents the purchase of a water pump priced at 900 THB that arrived in damaged condition, specifically missing a handle. Due to urgent farm operational needs and the inability to wait 7–15 days for a replacement, the pump was tested and accepted despite the defect. The pump was confirmed to be functional and integrated into farm operations under time and resource constraints.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260104_1004.jpg",
+    "cid": "bafybeigyzvtuoimnsezxlpluot4nhg2bn4spcfboaummwjwfamhiqeih5a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigyzvtuoimnsezxlpluot4nhg2bn4spcfboaummwjwfamhiqeih5a",
+    "reference_folder": "dataset/data-unit/00022/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
