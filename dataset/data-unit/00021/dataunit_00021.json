@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00021",
+  "file_path": "dataset/data-unit/00021/dataunit_00021.json",
+  "category": "primary-land-use-observation",
+  "captured_at_local": "2026-01-04 09:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mameefarm_land_area_overview",
+  "summary": "Overview of MaMeeFarm land area and usage zones.",
+  "description": "This record documents the land area of MaMeeFarm, totaling 1 rai 2 ngan 17 square wah. The front zone is land-filled, the central zone is designated for house construction, and the rear zone is used for agricultural activities including vegetable cultivation and duck farming. At the time of capture, no ducks are present.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260104_0958.jpg",
+    "cid": "bafybeig7r4vxyc4espthhnrax4iu7zw7yaloqwuxcowemsefaj4dqc4434",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig7r4vxyc4espthhnrax4iu7zw7yaloqwuxcowemsefaj4dqc4434",
+    "reference_folder": "dataset/data-unit/00021/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
