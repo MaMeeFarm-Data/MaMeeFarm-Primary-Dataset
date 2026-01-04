@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00017",
+  "file_path": "dataset/data-unit/00017/dataunit_00017.json",
+  "category": "primary-environmental-observation",
+  "captured_at_local": "2026-01-04 07:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_farm_atmosphere_cool_weather",
+  "summary": "Early morning atmosphere at MaMeeFarm with relatively cool weather conditions.",
+  "description": "This record documents the early morning atmosphere at MaMeeFarm. The image captures calm farmland scenery under cool weather conditions, reflecting the environmental context at the start of the working day.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00017/hash/dataunit_00017.sha256",
+    "ots_file": "dataset/data-unit/00017/ots/dgcp_dataunit_00017.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260104_0710.jpg",
+    "cid": "bafybeigtywhzodfjn3fftvmgrtl4z4gxydrl6mvypa4z5xu3gvfvygyree",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigtywhzodfjn3fftvmgrtl4z4gxydrl6mvypa4z5xu3gvfvygyree",
+    "reference_folder": "dataset/data-unit/00017/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
