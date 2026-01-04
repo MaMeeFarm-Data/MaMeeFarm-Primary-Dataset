@@ -1,0 +1,27 @@
+{
+  "data_unit_id": "00020",
+  "project": "MaMeeFarm",
+  "system": "DGCP",
+  "timestamp": "2026-01-04T09:47:00+07:00",
+  "location": "MaMeeFarm, Lampang, Thailand",
+  "activity_type": "farm-infrastructure-adaptation",
+  "title": "Reuse duck house frame for climbing vegetable cultivation",
+  "description": "Existing wooden frame of the former duck house is intentionally preserved and repurposed as a climbing structure for gourd and vine vegetables. No dismantling is performed; the structure will support plant growth upward along the wooden beams.",
+  "method": "structural reuse, natural climbing cultivation",
+  "inputs": [
+    "existing wooden duck house frame",
+    "vine vegetable seedlings (planned)"
+  ],
+  "constraints": [
+    "no reconstruction",
+    "use existing materials only"
+  ],
+  "external_reference": {
+    "ipfs": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiamfnhegcdzkpgz6mo3hyfzel2wr3plwcbcrrxiznnxuud3vczfie"
+  },
+  "evidence": {
+    "image_timestamp": "2026-01-04 09:47",
+    "source": "mobile camera"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
