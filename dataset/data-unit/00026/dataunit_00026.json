@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00026",
+  "file_path": "dataset/data-unit/00026/dataunit_00026.json",
+  "category": "primary-agricultural-activity",
+  "captured_at_local": "2026-01-04 15:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "spring_onion_transplanting",
+  "summary": "Transplanting spring onion seedlings into a prepared vegetable bed.",
+  "description": "This data unit documents the activity of transplanting spring onion seedlings into a newly prepared vegetable bed at MaMeeFarm. The activity reflects manual labor-based cultivation under limited resources, emphasizing adaptive use of available land and inputs without access to external capital or automated systems.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260104_1541.jpg",
+    "cid": "bafybeibgixuodocvtczywa2oybv6yiehfhsl6xbhtwqh5otvsnjhwa6dte",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibgixuodocvtczywa2oybv6yiehfhsl6xbhtwqh5otvsnjhwa6dte",
+    "reference_folder": "dataset/data-unit/00026/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "verification": {
+    "hash_file": "",
+    "ots_file": ""
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
