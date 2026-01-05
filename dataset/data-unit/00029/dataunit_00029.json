@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00029",
+  "file_path": "dataset/data-unit/00029/dataunit_00029.json",
+  "category": "primary-agricultural-activity",
+  "captured_at_local": "2026-01-04 17:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_back_farm_zone",
+  "summary": "Grass cutting at the back zone of MaMeeFarm to maintain access and farm boundaries.",
+  "description": "This data unit records grass cutting activity at the back zone of MaMeeFarm. The cleared area is approximately 2 meters wide and 45 meters long, supporting farm maintenance, access, and waterway management under limited resources.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00029/hash/dataunit_00029.sha256",
+    "ots_file": "dataset/data-unit/00029/ots/dgcp_dataunit_00029.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260104_1759.jpg",
+    "cid": "bafybeiertreg27nk5tn4a5m6a4t534a663sr5bn3rmpdo7ust4kdlerlpy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiertreg27nk5tn4a5m6a4t534a663sr5bn3rmpdo7ust4kdlerlpy",
+    "reference_folder": "dataset/data-unit/00029/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
