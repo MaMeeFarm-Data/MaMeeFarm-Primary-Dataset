@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00039",
+  "file_path": "dataset/data-unit/00039/dataunit_00039.json",
+  "category": "crop-condition",
+  "captured_at_local": "2026-01-05 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "papaya_tree_low_yield_due_to_weeds_and_flood_zone",
+  "summary": "Papaya tree observed with heavy weed cover and low fruit set; limited maintenance and flood-prone zone.",
+  "description": "This data unit records the condition of a papaya tree at MaMeeFarm on 2026-01-05 08:09. The area is covered by weeds, and the tree shows small fruit size and low fruit set. Soil has lacked supplementation. During periods of heavy rainfall, this zone experiences flooding. Grass-cutting equipment is not available for maintenance in this area.",
+  "reference_data_unit": "",
+  "verification": {
+    "hash_file": "dataset/data-unit/00039/hash/dataunit_00039.sha256",
+    "ots_file": "dataset/data-unit/00039/ots/dgcp_dataunit_00039.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_0809.jpg",
+    "cid": "bafybeigf5hmddksiv7aqwet4lno37strkvtlb6x4xglni3tfez6lymc6cq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigf5hmddksiv7aqwet4lno37strkvtlb6x4xglni3tfez6lymc6cq",
+    "reference_folder": "dataset/data-unit/00039/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
