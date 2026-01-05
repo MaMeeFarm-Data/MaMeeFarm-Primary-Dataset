@@ -1,0 +1,21 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00031",
+  "file_path": "dataset/data-unit/00031/dataunit_00031.json",
+  "category": "animal-care",
+  "captured_at_local": "2026-01-04 18:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "title": "Dog bedding sheets collected after dew exposure",
+  "description": "Collection of dog bedding sheets at MaMeeFarm occurred later than optimal time. Dew had already formed, resulting in moisture retention in the fabric. Recommended collection time is around 17:00 to prevent humidity exposure.",
+  "activity_type": "routine-care",
+  "related_data_unit": null,
+  "external_reference": {
+    "platform": "ipfs",
+    "provider": "pinata",
+    "cid": "bafybeidrl7i466o7coihgdh6vy4cxnlivn7dg7lplqvvlkhhp23kkannfq",
+    "binding": "non-binding"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
