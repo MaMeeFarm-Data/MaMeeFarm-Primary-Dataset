@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00038",
+  "file_path": "dataset/data-unit/00038/dataunit_00038.json",
+  "category": "water-condition",
+  "captured_at_local": "2026-01-05 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_level_drop_in_farm_canal",
+  "summary": "Observed water level reduction in MaMeeFarm canal after inflow from cornfield.",
+  "description": "This data unit records the water level condition of the MaMeeFarm canal on the morning of 2026-01-05. Water that flowed into the canal from a neighboring cornfield on 2026-01-04 (referenced in data unit 00027) was not retained due to the canal being an earthen pond. The water level decreased approximately 45 centimeters from the previously observed level.",
+  "reference_data_unit": "00027",
+  "verification": {
+    "hash_file": "dataset/data-unit/00038/hash/dataunit_00038.sha256",
+    "ots_file": "dataset/data-unit/00038/ots/dgcp_dataunit_00038.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_0808.jpg",
+    "cid": "bafybeihzgprnznz5dqx6l4wrhevbq7xiddwivfsecqtoaooomodzk4leo4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihzgprnznz5dqx6l4wrhevbq7xiddwivfsecqtoaooomodzk4leo4",
+    "reference_folder": "dataset/data-unit/00038/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
