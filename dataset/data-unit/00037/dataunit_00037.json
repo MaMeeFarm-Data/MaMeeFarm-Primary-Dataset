@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00037",
+  "file_path": "dataset/data-unit/00037/dataunit_00037.json",
+  "category": "farm-maintenance",
+  "captured_at_local": "2026-01-05 08:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_next_to_duck_house",
+  "summary": "Grass cutting activity beside the duck house under resource constraints.",
+  "description": "This data unit documents grass cutting activity beside the duck house at MaMeeFarm under resource constraints. The record captures on-site maintenance work and current conditions around the duck house area at the time of capture. Notes about future improvements (fence rebuild and adding ducks) reflect ongoing operational constraints and planned upgrades, without asserting completion.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00037/hash/dataunit_00037.sha256",
+    "ots_file": "dataset/data-unit/00037/ots/dgcp_dataunit_00037.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_0805.jpg",
+    "cid": "bafybeibrv7sj5yersu4lj37ez7rny3u6fwcxljsuktig7gas6fgryyncd4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibrv7sj5yersu4lj37ez7rny3u6fwcxljsuktig7gas6fgryyncd4",
+    "reference_folder": "dataset/data-unit/00037/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
