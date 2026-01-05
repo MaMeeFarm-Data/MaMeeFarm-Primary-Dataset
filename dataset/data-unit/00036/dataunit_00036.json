@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00036",
+  "file_path": "dataset/data-unit/00036/dataunit_00036.json",
+  "category": "farm-infrastructure-observation",
+  "captured_at_local": "2026-01-05 07:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "empty_duck_house_on_site",
+  "summary": "Empty duck house observed on site at MaMeeFarm.",
+  "description": "This data unit documents the real on-site condition of an empty duck house at MaMeeFarm. The structure is currently unused, showing ground condition and bamboo construction without ducks present. This record serves as verifiable ground-truth evidence of farm infrastructure status at the time of capture.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00036/hash/dataunit_00036.sha256",
+    "ots_file": "dataset/data-unit/00036/ots/dgcp_dataunit_00036.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_0756.jpg",
+    "cid": "bafybeieeveluela7gvtyolng2bbnhf36lokvnziufoflf4srl2kzbxw2wu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieeveluela7gvtyolng2bbnhf36lokvnziufoflf4srl2kzbxw2wu",
+    "reference_folder": "dataset/data-unit/00036/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
