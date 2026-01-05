@@ -1,0 +1,21 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00032",
+  "file_path": "dataset/data-unit/00032/dataunit_00032.json",
+  "category": "community-interaction",
+  "captured_at_local": "2026-01-04 18:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "title": "Bamboo gifted by neighboring corn farmer",
+  "description": "A neighboring corn farmer provided bamboo poles to MaMeeFarm for making traditional khao lam without requesting payment. This record documents rural community sharing, mutual support, and non-monetary exchange based on goodwill.",
+  "activity_type": "community-sharing",
+  "related_data_unit": null,
+  "external_reference": {
+    "platform": "ipfs",
+    "provider": "pinata",
+    "cid": "bafybeield7yljihpdpkbzncicllirqggpbsdlnkib3xhz5ti42ljt3yali",
+    "binding": "non-binding"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
