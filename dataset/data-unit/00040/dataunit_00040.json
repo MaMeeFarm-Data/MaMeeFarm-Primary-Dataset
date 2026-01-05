@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00040",
+  "file_path": "dataset/data-unit/00040/dataunit_00040.json",
+  "category": "energy-system",
+  "captured_at_local": "2026-01-05 08:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "inverter_power_on_after_night_shutdown_constraint_operation",
+  "summary": "Hybrid solar inverter turned on to restore household power after earlier shutdown; operation resumed later due to constraints.",
+  "description": "This data unit records the hybrid solar inverter being turned on at MaMeeFarm on 2026-01-05 08:40 (Asia/Bangkok) to restore household power. This action references the inverter shutdown recorded in data unit 00033 at 01:11. Power was restored relatively late in the morning, reflecting operational constraints at the farm.",
+  "reference_data_unit": "00033",
+  "verification": {
+    "hash_file": "dataset/data-unit/00040/hash/dataunit_00040.sha256",
+    "ots_file": "dataset/data-unit/00040/ots/dgcp_dataunit_00040.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_0840.jpg",
+    "cid": "bafybeig2c2zycvtdhhu4bpz5jvuq72sakh7f2pdeibrczsz5dwlkwlocha",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig2c2zycvtdhhu4bpz5jvuq72sakh7f2pdeibrczsz5dwlkwlocha",
+    "reference_folder": "dataset/data-unit/00040/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
