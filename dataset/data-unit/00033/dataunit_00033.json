@@ -1,0 +1,16 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00033",
+  "file_path": "dataset/data-unit/00033/dataunit_00033.json",
+  "category": "energy-system-operation",
+  "captured_at_local": "2026-01-05 01:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "description": "Inverter system shutdown recorded after audible system alert. Electrical operation stopped following system warning. Event references inverter activation recorded in data unit 00019.",
+  "external_reference": {
+    "ipfs": "bafybeie3mnq2ucqenvgccsqkd76fn5qsthpjh5cyy2dtrgdqdedebqkzz4",
+    "pinata": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie3mnq2ucqenvgccsqkd76fn5qsthpjh5cyy2dtrgdqdedebqkzz4"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
