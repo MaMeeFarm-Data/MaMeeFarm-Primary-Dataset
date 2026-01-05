@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00035",
+  "file_path": "dataset/data-unit/00035/dataunit_00035.json",
+  "category": "animal-care-observation",
+  "captured_at_local": "2026-01-05 07:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_food_bag_opened_20kg",
+  "summary": "Opening a 20 kg bag of dog food for daily feeding.",
+  "description": "This data unit records the opening of a 20-kilogram bag of dry dog food at MaMeeFarm. The food is intended for nine dogs living on the farm and is part of routine animal care and daily feeding operations.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00035/hash/dataunit_00035.sha256",
+    "ots_file": "dataset/data-unit/00035/ots/dgcp_dataunit_00035.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_0701.jpg",
+    "cid": "bafybeihoczb4cgpp553i3f5j2r2r3rrnhaiikusqa7oeok2rimgswzqtrq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihoczb4cgpp553i3f5j2r2r3rrnhaiikusqa7oeok2rimgswzqtrq",
+    "reference_folder": "dataset/data-unit/00035/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
