@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00041",
+  "file_path": "dataset/data-unit/00041/dataunit_00041.json",
+  "category": "animal-welfare-observation",
+  "captured_at_local": "2026-01-05 11:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_sunbathing_winter_morning",
+  "summary": "Dogs resting and sunbathing during winter morning at MaMeeFarm.",
+  "description": "This data unit records dogs lying on gravel ground and sunbathing during a winter morning at MaMeeFarm. The behavior reflects natural thermal regulation, where dogs seek sunlight for warmth in colder seasonal conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00041/hash/dataunit_00041.sha256",
+    "ots_file": "dataset/data-unit/00041/ots/dgcp_dataunit_00041.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1103.jpg",
+    "cid": "bafybeif4qza7v24o5lg3b3okqgkjgr62zoionmxqizolzfostdodupuc5i",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif4qza7v24o5lg3b3okqgkjgr62zoionmxqizolzfostdodupuc5i",
+    "reference_folder": "dataset/data-unit/00041/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
