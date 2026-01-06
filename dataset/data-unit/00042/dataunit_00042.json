@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00042",
+  "file_path": "dataset/data-unit/00042/dataunit_00042.json",
+  "category": "environmental-measurement",
+  "captured_at_local": "2026-01-05 11:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "temperature_humidity_check_midday",
+  "summary": "Temperature and humidity measurement recorded during late morning at MaMeeFarm.",
+  "description": "This data unit records an on-site temperature and humidity check using a digital thermometer-hygrometer device. The display shows a temperature of 21.4 degrees Celsius and relative humidity of 67 percent, captured during late morning under strong sunlight conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00042/hash/dataunit_00042.sha256",
+    "ots_file": "dataset/data-unit/00042/ots/dgcp_dataunit_00042.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1110.jpg",
+    "cid": "bafybeiajvlcasvpnnunvzdqgbul2vzazvaw4s5j6x7qqzyeix7wnf2rfka",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiajvlcasvpnnunvzdqgbul2vzazvaw4s5j6x7qqzyeix7wnf2rfka",
+    "reference_folder": "dataset/data-unit/00042/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
