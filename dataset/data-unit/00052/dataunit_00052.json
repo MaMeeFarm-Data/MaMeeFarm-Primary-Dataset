@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00052",
+  "file_path": "dataset/data-unit/00052/dataunit_00052.json",
+  "category": "energy-system",
+  "captured_at_local": "2026-01-05 23:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "inverter_red_warning_and_shutdown_time",
+  "summary": "Inverter shows red warning indicator; farm power becomes unavailable; inverter is shut down for the night.",
+  "description": "The hybrid solar inverter shows a red warning light indicating an energy/power status alert. Farm electricity is no longer available at this time. This record marks the inverter shutdown time for the night. Reference is made to the inverter start/open time recorded earlier (data unit 00033). Work continues under electrical system constraints.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00052/hash/dataunit_00052.sha256",
+    "ots_file": "dataset/data-unit/00052/ots/dgcp_dataunit_00052.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_2353_00052.jpg",
+    "cid": "bafybeif5abnytcelc4qvtotkedb6fa6d22d36xuh3q2xfh5s7efdtv5xje",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif5abnytcelc4qvtotkedb6fa6d22d36xuh3q2xfh5s7efdtv5xje",
+    "reference_folder": "dataset/data-unit/00052/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
