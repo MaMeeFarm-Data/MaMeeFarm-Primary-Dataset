@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00051",
+  "file_path": "dataset/data-unit/00051/dataunit_00051.json",
+  "category": "animal-care",
+  "captured_at_local": "2026-01-05 18:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "goat_milk_supplement_for_smallest_puppy",
+  "summary": "Goat milk supplementation provided to the smallest puppy in the litter group.",
+  "description": "Goat milk is being fed to the smallest puppy in the pen. The puppies were born as a group totaling 11 puppies. There are 2 mother dogs: one gave birth to 6 puppies and the other gave birth to 5 puppies. Both mother dogs help raise the puppies, and the puppies nurse from both mothers. This particular puppy is not growing as fast as the others and receives supplemental goat milk.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00051/hash/dataunit_00051.sha256",
+    "ots_file": "dataset/data-unit/00051/ots/dgcp_dataunit_00051.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1834_00051.jpg",
+    "cid": "bafybeibz2urerxxs7pcexzfkh5g3pckjighccxyd5bvcdh6v6gsfj7veeu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibz2urerxxs7pcexzfkh5g3pckjighccxyd5bvcdh6v6gsfj7veeu",
+    "reference_folder": "dataset/data-unit/00051/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
