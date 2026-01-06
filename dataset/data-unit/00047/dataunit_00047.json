@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00047",
+  "file_path": "dataset/data-unit/00047/dataunit_00047.json",
+  "category": "animal-care",
+  "captured_at_local": "2026-01-05 15:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cook_rice_for_dogs_evening_meal",
+  "summary": "Cooking rice for dogs as evening food at MaMeeFarm.",
+  "description": "Rice was cooked as evening food for dogs at MaMeeFarm. This preparation supports dogs in the farm diet. Two dogs that recently gave birth were not eating dry kibble, so rice was prepared as an alternative meal component. Captured at 15:04 local time.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00047/hash/dataunit_00047.sha256",
+    "ots_file": "dataset/data-unit/00047/ots/dgcp_dataunit_00047.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1504.jpg",
+    "cid": "bafybeifkiijkvsh2sveb7x4aw3agznfxkzgjfq5326obdjtkgq265d5tne",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifkiijkvsh2sveb7x4aw3agznfxkzgjfq5326obdjtkgq265d5tne",
+    "reference_folder": "dataset/data-unit/00047/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
