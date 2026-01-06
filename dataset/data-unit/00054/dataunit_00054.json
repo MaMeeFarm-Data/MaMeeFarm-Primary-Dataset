@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00054",
+  "file_path": "dataset/data-unit/00054/dataunit_00054.json",
+  "category": "daily-routine-animal-care",
+  "captured_at_local": "2026-01-06 07:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "drying_dog_bedding_morning_routine",
+  "summary": "Morning routine of drying dog bedding as part of daily animal care at MaMeeFarm.",
+  "description": "Regular morning activity at MaMeeFarm involving hanging and drying dog bedding sheets. This task is part of daily hygiene and animal welfare routines performed every morning, reflecting ongoing care for farm dogs within normal farm operations.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00054/hash/dataunit_00054.sha256",
+    "ots_file": "dataset/data-unit/00054/ots/dgcp_dataunit_00054.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_0732_00054.jpg",
+    "cid": "bafybeihhuetchq4mw3gazsu5mamlmh22onwv6zt5p3tawnxx737vael77y",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihhuetchq4mw3gazsu5mamlmh22onwv6zt5p3tawnxx737vael77y",
+    "reference_folder": "dataset/data-unit/00054/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
