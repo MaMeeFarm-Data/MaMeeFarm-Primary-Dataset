@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00045",
+  "file_path": "dataset/data-unit/00045/dataunit_00045.json",
+  "category": "water-management",
+  "captured_at_local": "2026-01-05 11:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "200_liter_tank_full_water_pumping_result",
+  "summary": "Water tank reached full capacity (200 liters) in ~5 minutes after pumping setup.",
+  "description": "This data unit documents the 200-liter tank reaching full capacity at 11:43 (Asia/Bangkok). The fill time was approximately 5 minutes for 200 liters. The water source is a well with an approximate depth of 7 meters. This record references the pumping setup and initial water flow captured in data units 00043 and 00044.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00045/hash/dataunit_00045.sha256",
+    "ots_file": "dataset/data-unit/00045/ots/dgcp_dataunit_00045.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1143.jpg",
+    "cid": "bafybeicimor4g7dwscwsqrustwcoxr4hkdvhu7wk2hrywt6indis2uajd4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicimor4g7dwscwsqrustwcoxr4hkdvhu7wk2hrywt6indis2uajd4",
+    "reference_folder": "dataset/data-unit/00045/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
