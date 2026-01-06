@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00050",
+  "file_path": "dataset/data-unit/00050/dataunit_00050.json",
+  "category": "animal-care",
+  "captured_at_local": "2026-01-05 16:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mother_dog_nursing_puppies",
+  "summary": "Mother dog nursing puppies at MaMeeFarm.",
+  "description": "Mother dog nursing her puppies. This dog does not consume commercial dog food and requires cooked rice prepared daily. This record references food preparation activity documented earlier the same day.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00050/hash/dataunit_00050.sha256",
+    "ots_file": "dataset/data-unit/00050/ots/dgcp_dataunit_00050.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1629_00050.jpg",
+    "cid": "bafybeifoz42rwrprllif6wzl42qifg45gsaua5nqp3fcnbwrbsfne6vac4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifoz42rwrprllif6wzl42qifg45gsaua5nqp3fcnbwrbsfne6vac4",
+    "reference_folder": "dataset/data-unit/00050/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
