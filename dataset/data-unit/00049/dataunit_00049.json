@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00049",
+  "file_path": "dataset/data-unit/00049/dataunit_00049.json",
+  "category": "crop-activity",
+  "captured_at_local": "2026-01-05 15:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "green_onion_bulbs_prepared_for_planting",
+  "summary": "Green onion bulbs prepared and placed on soil for planting at MaMeeFarm.",
+  "description": "Green onion bulbs prepared and placed directly on soil surface prior to planting during evening garden work at MaMeeFarm. Image documents seed material condition and real field preparation without mechanized tools.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00049/hash/dataunit_00049.sha256",
+    "ots_file": "dataset/data-unit/00049/ots/dgcp_dataunit_00049.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1551_00049.jpg",
+    "cid": "<PASTE_CID_IF_UPLOADED>",
+    "gateway_url": "<PASTE_GATEWAY_URL_IF_AVAILABLE>",
+    "reference_folder": "dataset/data-unit/00049/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
