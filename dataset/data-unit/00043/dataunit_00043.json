@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00043",
+  "file_path": "dataset/data-unit/00043/dataunit_00043.json",
+  "category": "water-management",
+  "captured_at_local": "2026-01-05 11:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "lower_submersible_pump_into_well",
+  "summary": "Submersible water pump lowered into a well to pump water for farm use.",
+  "description": "This data unit documents the action of lowering a submersible water pump into an on-site well to pump water for use at MaMeeFarm. The image shows the pump being positioned with hoses and power cable managed at the well opening.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00043/hash/dataunit_00043.sha256",
+    "ots_file": "dataset/data-unit/00043/ots/dgcp_dataunit_00043.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1133.jpg",
+    "cid": "bafybeifu6ugv64l7fj3k3qmftgj2dfelev7nxixdp3qjpostuy23q4e7j4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifu6ugv64l7fj3k3qmftgj2dfelev7nxixdp3qjpostuy23q4e7j4",
+    "reference_folder": "dataset/data-unit/00043/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
