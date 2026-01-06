@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00048",
+  "file_path": "dataset/data-unit/00048/dataunit_00048.json",
+  "category": "crop-activity",
+  "captured_at_local": "2026-01-05 15:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_garden_work_planting_green_onion",
+  "summary": "Evening garden activity planting green onion at MaMeeFarm.",
+  "description": "Evening garden work at MaMeeFarm involving planting green onion seedlings directly into prepared soil beds. Activity reflects small-scale crop cultivation under real working conditions, captured at 15:51 local time.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00048/hash/dataunit_00048.sha256",
+    "ots_file": "dataset/data-unit/00048/ots/dgcp_dataunit_00048.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1551.jpg",
+    "cid": "bafybeie43l37c3d7sbsyrynf5u7ci6mvwelrgkxcf5fepzy6lddiuleyly",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie43l37c3d7sbsyrynf5u7ci6mvwelrgkxcf5fepzy6lddiuleyly",
+    "reference_folder": "dataset/data-unit/00048/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
