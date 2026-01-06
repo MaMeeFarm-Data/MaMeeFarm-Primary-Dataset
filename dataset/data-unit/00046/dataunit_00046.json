@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00046",
+  "file_path": "dataset/data-unit/00046/dataunit_00046.json",
+  "category": "environmental-monitoring",
+  "captured_at_local": "2026-01-05 15:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "afternoon_temperature_record",
+  "summary": "Afternoon temperature and humidity record at MaMeeFarm.",
+  "description": "This data unit records afternoon environmental conditions at MaMeeFarm. The temperature measured was 26.5°C with relative humidity at 42%. The reading was captured at 15:03 local time using a digital thermometer-hygrometer (HTC-1).",
+  "verification": {
+    "hash_file": "dataset/data-unit/00046/hash/dataunit_00046.sha256",
+    "ots_file": "dataset/data-unit/00046/ots/dgcp_dataunit_00046.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260105_1503.jpg",
+    "cid": "bafybeicu4mop5lgd427bcnai3sigubty7njpm45in2uampp5e6dc3mwrfe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicu4mop5lgd427bcnai3sigubty7njpm45in2uampp5e6dc3mwrfe",
+    "reference_folder": "dataset/data-unit/00046/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
