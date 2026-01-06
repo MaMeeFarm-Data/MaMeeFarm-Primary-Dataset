@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00053",
+  "file_path": "dataset/data-unit/00053/dataunit_00053.json",
+  "category": "environment-morning",
+  "captured_at_local": "2026-01-06 06:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cold_morning_cornfield_near_mameefarm",
+  "summary": "Cold morning atmosphere at the start of daily work, showing a cornfield next to MaMeeFarm.",
+  "description": "Early morning environment at 06:53 with cold weather conditions. The image captures a calm agricultural landscape of a cornfield located adjacent to MaMeeFarm, marking the beginning of daily work activities and providing environmental context for farm operations.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00053/hash/dataunit_00053.sha256",
+    "ots_file": "dataset/data-unit/00053/ots/dgcp_dataunit_00053.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_0653_00053.jpg",
+    "cid": "bafybeidgl564vnxmlkjlm255qtjijmn2acw2royotrgrugamfzyho3lbjq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidgl564vnxmlkjlm255qtjijmn2acw2royotrgrugamfzyho3lbjq",
+    "reference_folder": "dataset/data-unit/00053/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
