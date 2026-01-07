@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00058",
+  "file_path": "dataset/data-unit/00058/dataunit_00058.json",
+  "category": "food-preparation",
+  "captured_at_local": "2026-01-06 10:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "minced_pork_cooked_without_refrigeration",
+  "summary": "Cooking minced pork to preserve food due to insufficient electrical power for refrigeration.",
+  "description": "Minced pork purchased from a local shop for 30 THB is cooked thoroughly to prevent spoilage. This food preparation decision is made due to limited electrical power availability, which prevents the use of a refrigerator. The cooked pork is intended to be consumed over two days.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00058/hash/dataunit_00058.sha256",
+    "ots_file": "dataset/data-unit/00058/ots/dgcp_dataunit_00058.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_1057_00058.jpg",
+    "cid": "bafybeigekhb7wy4r3uynudlwtj6ecjp6cp4ope6gxwww2bzcboyqcdwjya",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigekhb7wy4r3uynudlwtj6ecjp6cp4ope6gxwww2bzcboyqcdwjya",
+    "reference_folder": "dataset/data-unit/00058/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
