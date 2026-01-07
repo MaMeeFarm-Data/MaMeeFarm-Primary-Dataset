@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00077",
+  "file_path": "dataset/data-unit/00077/dataunit_00077.json",
+  "category": "environment-monitoring",
+  "captured_at_local": "2026-01-07 11:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "farm_temperature_humidity_midday_record",
+  "summary": "Midday temperature and humidity measurement recorded inside the farm.",
+  "description": "This record documents a temperature and humidity reading captured inside the farm environment. The digital thermometer shows a temperature of 22.2 degrees Celsius and relative humidity of 56 percent at the recorded time.",
+  "measurement": {
+    "temperature_celsius": 22.2,
+    "relative_humidity_percent": 56,
+    "device_model": "HTC-1 clock/humidity thermometer"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00077/hash/dataunit_00077.sha256",
+    "ots_file": "dataset/data-unit/00077/ots/dgcp_dataunit_00077.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1157_00077.jpg",
+    "cid": "bafybeif7r7rredekvedxywy6h6fymgkbvmps2rlhvcjmc3yfhxkay6hfka",
+    "reference_folder": "dataset/data-unit/00077/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
