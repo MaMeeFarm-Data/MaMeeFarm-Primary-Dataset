@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00067",
+  "file_path": "dataset/data-unit/00067/dataunit_00067.json",
+  "category": "food-preparation",
+  "captured_at_local": "2026-01-06 19:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "firewood_rice_cooking_completion",
+  "summary": "Completion of rice cooking using firewood stove under energy constraints.",
+  "description": "This image documents the completion of rice cooking using a firewood stove at MaMeeFarm. Cooking duration was approximately 19 minutes. After rice reached cooked state, the pot remained on residual heat for an additional 2–3 minutes before removal from the stove. This activity references the cooking start time recorded in data unit 00065.",
+  "process": {
+    "cooking_method": "firewood stove",
+    "fuel_type": "firewood",
+    "cooking_duration_minutes": 19,
+    "rest_time_minutes": "2-3",
+    "energy_context": "limited electrical power availability"
+  },
+  "reference": {
+    "related_data_unit": "00065",
+    "relationship": "cooking_start_time_reference"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00067/hash/dataunit_00067.sha256",
+    "ots_file": "dataset/data-unit/00067/ots/dgcp_dataunit_00067.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_1915_00067.jpg",
+    "cid": "bafybeigsnklpaq4gup2uztsgmlrhgibtf5ipqok5gcuvfam6err2kw2gbu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigsnklpaq4gup2uztsgmlrhgibtf5ipqok5gcuvfam6err2kw2gbu",
+    "reference_folder": "dataset/data-unit/00067/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
