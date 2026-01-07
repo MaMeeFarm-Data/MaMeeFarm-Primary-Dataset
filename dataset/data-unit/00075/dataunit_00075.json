@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00075",
+  "file_path": "dataset/data-unit/00075/dataunit_00075.json",
+  "category": "energy-system",
+  "captured_at_local": "2026-01-07 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Power System",
+  "data_type": "image",
+  "title": "morning_inverter_start",
+  "summary": "Morning inverter system startup marking the beginning of farm operations under DGCP.",
+  "description": "This record documents the inverter being turned on in the morning to start daily operations. The system is operated under limited on-farm power resources as part of normal DGCP-compliant workflow.",
+  "system_event": {
+    "event_type": "inverter_on",
+    "operation_context": "start of working day",
+    "resource_condition": "limited on-farm power availability"
+  },
+  "cross_reference": {
+    "related_data_unit": "00068",
+    "relation_type": "system_continuity",
+    "note": "This startup follows the inverter shutdown recorded in data unit 00068 on the previous night."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00075/hash/dataunit_00075.sha256",
+    "ots_file": "dataset/data-unit/00075/ots/dgcp_dataunit_00075.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_0809_00075.jpg",
+    "cid": "bafybeibdpmsv4onjaodn4kbhadbzgoojywbbazwlrxrkvjlibntetizdua",
+    "reference_folder": "dataset/data-unit/00075/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
