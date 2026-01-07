@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00070",
+  "file_path": "dataset/data-unit/00070/dataunit_00070.json",
+  "category": "animal-care",
+  "captured_at_local": "2026-01-07 07:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_feeding_first_task_of_day",
+  "summary": "First daily task: feeding dogs in the farm during the morning.",
+  "description": "This image documents the first work activity of the day at MaMeeFarm: feeding dogs in the morning. Adult dogs are fed dry dog food, divided into two meals per day. Seven adult dogs consume dry food, while two dogs are fed cooked rice that must be prepared daily.",
+  "activity_context": {
+    "activity_type": "dog_feeding",
+    "time_of_day": "morning",
+    "feeding_schedule": "twice_per_day",
+    "dog_groups": {
+      "adult_dogs_dry_food": 7,
+      "dogs_cooked_rice": 2
+    },
+    "task_order": "first_task_of_day"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00070/hash/dataunit_00070.sha256",
+    "ots_file": "dataset/data-unit/00070/ots/dgcp_dataunit_00070.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_0718_00070.jpg",
+    "cid": "<CID_TO_BE_INSERTED_IF_APPLICABLE>",
+    "reference_folder": "dataset/data-unit/00070/external-reference/",
+    "note": "External reference is optional and non-binding. Primary verification relies on hash and OTS."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
