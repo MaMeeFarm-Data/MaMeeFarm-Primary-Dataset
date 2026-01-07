@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00069",
+  "file_path": "dataset/data-unit/00069/dataunit_00069.json",
+  "category": "environment-context",
+  "captured_at_local": "2026-01-07 07:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_environment_near_farm_start_of_workday",
+  "summary": "Morning environment near the farm marking the beginning of a new workday.",
+  "description": "This image records the environmental atmosphere near MaMeeFarm at 07:18 local time, marking the start of a new workday. The surrounding farmland and distant mountains are visible under cold morning conditions.",
+  "environment_context": {
+    "time_of_day": "morning",
+    "weather_condition": "cold",
+    "visibility": "clear",
+    "activity_state": "workday_start"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00069/hash/dataunit_00069.sha256",
+    "ots_file": "dataset/data-unit/00069/ots/dgcp_dataunit_00069.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_0718_00069.jpg",
+    "cid": "bafybeif5juwvcqkvytsipugjbru3f6zk2f2ljbgzfbaej73j5tjb3nz2wa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif5juwvcqkvytsipugjbru3f6zk2f2ljbgzfbaej73j5tjb3nz2wa",
+    "reference_folder": "dataset/data-unit/00069/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
