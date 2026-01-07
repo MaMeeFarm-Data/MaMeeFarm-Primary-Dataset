@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00061",
+  "file_path": "dataset/data-unit/00061/dataunit_00061.json",
+  "category": "water-system",
+  "captured_at_local": "2026-01-06 12:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "household_water_storage_tanks_3000_liters",
+  "summary": "Household water storage tanks totaling 3000 liters: 2000L (blue) and 1000L (cream), estimated 14-day use for two people.",
+  "description": "Documentation of household water storage system at MaMeeFarm. Two tanks are shown on an elevated platform: a blue tank with 2000-liter capacity and a cream tank with 1000-liter capacity, totaling 3000 liters. The recorded operational estimate indicates two people can use this stored water for approximately 14 days.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00061/hash/dataunit_00061.sha256",
+    "ots_file": "dataset/data-unit/00061/ots/dgcp_dataunit_00061.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_1222_00061.jpg",
+    "cid": "bafybeibslyng2ijzrxn2svqpfm7t53g27pfe6xhemjkpg64ralzmwtsz7i",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibslyng2ijzrxn2svqpfm7t53g27pfe6xhemjkpg64ralzmwtsz7i",
+    "reference_folder": "dataset/data-unit/00061/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
