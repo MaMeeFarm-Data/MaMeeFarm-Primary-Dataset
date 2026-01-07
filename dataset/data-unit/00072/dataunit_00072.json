@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00072",
+  "file_path": "dataset/data-unit/00072/dataunit_00072.json",
+  "category": "routine-care",
+  "captured_at_local": "2026-01-07 07:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "drying_dog_bedding_morning_routine",
+  "summary": "Morning routine of drying dog bedding under sunlight as part of daily farm hygiene and care.",
+  "description": "This image documents the routine morning task of drying dog bedding using natural sunlight. The activity supports hygiene, animal well-being, and resource-efficient farm management without reliance on electrical appliances.",
+  "activity_context": {
+    "activity_type": "animal_care",
+    "sub_activity": "bedding_maintenance",
+    "method": "sun_drying",
+    "frequency": "daily_morning",
+    "resource_usage": "natural_sunlight"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00072/hash/dataunit_00072.sha256",
+    "ots_file": "dataset/data-unit/00072/ots/dgcp_dataunit_00072.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_0754_00072.jpg",
+    "cid": "<CID_TO_BE_INSERTED_IF_APPLICABLE>",
+    "reference_folder": "dataset/data-unit/00072/external-reference/",
+    "note": "External reference is optional and non-binding. Primary verification relies on hash and OTS."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
