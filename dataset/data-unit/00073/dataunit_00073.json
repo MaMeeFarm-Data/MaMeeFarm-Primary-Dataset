@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00073",
+  "file_path": "dataset/data-unit/00073/dataunit_00073.json",
+  "category": "environment-monitoring",
+  "captured_at_local": "2026-01-07 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Duck House (Empty)",
+  "data_type": "image",
+  "title": "duck_house_temperature_record_empty",
+  "summary": "Temperature and humidity record inside an empty duck house.",
+  "description": "This record documents the measured environmental conditions inside an empty duck house using a digital thermometer-hygrometer device. The data reflects the real state of the facility regardless of animal presence.",
+  "measurement": {
+    "temperature_celsius": 14.0,
+    "humidity_percent": 85,
+    "device_model": "HTC-2",
+    "measurement_type": "manual_visual_record"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00073/hash/dataunit_00073.sha256",
+    "ots_file": "dataset/data-unit/00073/ots/dgcp_dataunit_00073.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_0757_00073.jpg",
+    "cid": "bafybeid5bf2rgo6ba77knd6zgqcjewxl5fdlkdqwwmg5oulw56j22wpaxa",
+    "reference_folder": "dataset/data-unit/00073/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
