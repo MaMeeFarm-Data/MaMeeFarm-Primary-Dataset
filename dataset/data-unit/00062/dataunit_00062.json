@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00062",
+  "file_path": "dataset/data-unit/00062/dataunit_00062.json",
+  "category": "water-system",
+  "captured_at_local": "2026-01-06 12:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_water_storage_tanks_4000_liters",
+  "summary": "Farm water storage tanks for irrigation: two tanks of 2000 liters each, totaling 4000 liters, with continuous refill strategy for risk mitigation.",
+  "description": "Documentation of farm water storage system used for plant irrigation at MaMeeFarm. Two blue tanks are shown, each with a capacity of 2000 liters, totaling 4000 liters. Under normal usage, the water supports farm activities for approximately one week. The operational strategy emphasizes continuous refilling to prevent depletion and to maintain reserves in case of pump failure or system breakdown.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00062/hash/dataunit_00062.sha256",
+    "ots_file": "dataset/data-unit/00062/ots/dgcp_dataunit_00062.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_1250_00062.jpg",
+    "cid": "bafybeiflnnqr2jsftotzwmacaasc6xwon4koa7ses6rdotdi6pmzudx674",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiflnnqr2jsftotzwmacaasc6xwon4koa7ses6rdotdi6pmzudx674",
+    "reference_folder": "dataset/data-unit/00062/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
