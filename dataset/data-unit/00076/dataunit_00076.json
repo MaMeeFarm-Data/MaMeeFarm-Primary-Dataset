@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00076",
+  "file_path": "dataset/data-unit/00076/dataunit_00076.json",
+  "category": "energy-resource",
+  "captured_at_local": "2026-01-07 11:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "firewood_collection_from_farm_trees",
+  "summary": "Collection of dried wood from farm trees for use as firewood in cooking.",
+  "description": "This record documents the collection of dried wood cut from trees within the farm. The collected wood is prepared for use as firewood fuel for cooking, representing on-farm energy resource utilization.",
+  "activity": {
+    "activity_type": "firewood_collection",
+    "resource_origin": "on-farm trees",
+    "intended_use": "cooking fuel"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00076/hash/dataunit_00076.sha256",
+    "ots_file": "dataset/data-unit/00076/ots/dgcp_dataunit_00076.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1133_00076.jpg",
+    "cid": "bafybeig6ex2bgjz5zyfekniscbmtfrvxvpnjgzb535djat5ws6zveq3t24",
+    "reference_folder": "dataset/data-unit/00076/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
