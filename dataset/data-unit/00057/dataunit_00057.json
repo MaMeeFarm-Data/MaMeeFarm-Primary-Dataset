@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00057",
+  "file_path": "dataset/data-unit/00057/dataunit_00057.json",
+  "category": "crop-planting",
+  "captured_at_local": "2026-01-06 09:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "coriander_planting_with_puppy",
+  "summary": "Planting coriander during late morning under warm sunlight, with a young puppy present.",
+  "description": "Coriander planting activity conducted during late morning when sunlight is warm and suitable for soil work. A young puppy accompanies the activity in the garden area, reflecting integrated daily farm life involving crops and animals.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00057/hash/dataunit_00057.sha256",
+    "ots_file": "dataset/data-unit/00057/ots/dgcp_dataunit_00057.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_0929_00057.jpg",
+    "cid": "bafybeib5novjus6assjvurmil4ltuzkkqvsxopqwlqtfyvzxlvjswaaveu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeib5novjus6assjvurmil4ltuzkkqvsxopqwlqtfyvzxlvjswaaveu",
+    "reference_folder": "dataset/data-unit/00057/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
