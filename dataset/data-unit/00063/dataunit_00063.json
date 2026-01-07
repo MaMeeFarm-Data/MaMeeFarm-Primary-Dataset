@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00063",
+  "file_path": "dataset/data-unit/00063/dataunit_00063.json",
+  "category": "animal-care",
+  "captured_at_local": "2026-01-06 12:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_bedding_sun_drying_continuity_proof",
+  "summary": "Sun-drying of dog bedding during midday with clear weather, serving as continuity evidence linked to the morning drying activity.",
+  "description": "This image documents the dog bedding that was laid out for sun-drying earlier in the morning. Captured at 12:51 local time, the bedding remains under strong sunlight, demonstrating continuity of care and hygiene practices for puppies at MaMeeFarm. This record explicitly references Data Unit 00054 to establish temporal linkage and activity consistency within the same operational day.",
+  "linkage": {
+    "reference_data_unit_id": "00054",
+    "relationship": "continuation_of_activity",
+    "note": "This data unit serves as continuity proof of the bedding drying process initiated in the morning."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00063/hash/dataunit_00063.sha256",
+    "ots_file": "dataset/data-unit/00063/ots/dgcp_dataunit_00063.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_1251_00063.jpg",
+    "cid": "bafybeidu2hazz4smur3c4rx6fbbhp2qfyciaqzpnifj6by44j4cgkzemge",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidu2hazz4smur3c4rx6fbbhp2qfyciaqzpnifj6by44j4cgkzemge",
+    "reference_folder": "dataset/data-unit/00063/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
