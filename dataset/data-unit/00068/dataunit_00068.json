@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00068",
+  "file_path": "dataset/data-unit/00068/dataunit_00068.json",
+  "category": "energy-system",
+  "captured_at_local": "2026-01-07 00:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "hybrid_solar_inverter_shutdown_due_to_power_depletion",
+  "summary": "End-of-day inverter shutdown caused by depleted electrical power resources.",
+  "description": "This image documents the end-of-day shutdown of a hybrid solar inverter at MaMeeFarm. At 00:14 local time, the inverter stopped operating due to depleted power availability. This activity reflects operation under limited energy resources and marks the closure of daily work activities.",
+  "system_context": {
+    "device_type": "hybrid solar inverter",
+    "operation_status": "stopped",
+    "shutdown_reason": "power depletion",
+    "resource_condition": "limited electrical resources"
+  },
+  "reference": {
+    "related_data_unit": "00056",
+    "relationship": "opening_time_reference"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00068/hash/dataunit_00068.sha256",
+    "ots_file": "dataset/data-unit/00068/ots/dgcp_dataunit_00068.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_0014_00068.jpg",
+    "cid": "bafybeiak6qw5c2ri2um4tlas6222n4yut7n2nnrq32kcmfcb3btruzjfqe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiak6qw5c2ri2um4tlas6222n4yut7n2nnrq32kcmfcb3btruzjfqe",
+    "reference_folder": "dataset/data-unit/00068/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
