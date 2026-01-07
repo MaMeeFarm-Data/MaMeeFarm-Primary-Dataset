@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00056",
+  "file_path": "dataset/data-unit/00056/dataunit_00056.json",
+  "category": "energy-system-operation",
+  "captured_at_local": "2026-01-06 08:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "inverter_power_on_morning_operation",
+  "summary": "Opening the hybrid solar inverter to start a new working day under energy constraints.",
+  "description": "Hybrid solar inverter is powered on in the morning to resume farm operations. This action references the prior shutdown due to low energy status recorded in data unit 00052 on the previous day. Farm work continues under electrical system limitations.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00056/hash/dataunit_00056.sha256",
+    "ots_file": "dataset/data-unit/00056/ots/dgcp_dataunit_00056.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_0820_00056.jpg",
+    "cid": "bafybeigmnsgl6ntvjxbi6jfrafgckjgshk57p4fbnqhdhrdkrl67ckfjqa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigmnsgl6ntvjxbi6jfrafgckjgshk57p4fbnqhdhrdkrl67ckfjqa",
+    "reference_folder": "dataset/data-unit/00056/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
