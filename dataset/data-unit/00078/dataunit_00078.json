@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00078",
+  "file_path": "dataset/data-unit/00078/dataunit_00078.json",
+  "category": "water-system",
+  "captured_at_local": "2026-01-07 12:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "vegetable_plot_water_tank_refill_solar_pump",
+  "summary": "Refilling water storage tank for vegetable plots during midday using solar-powered pumping.",
+  "description": "This record documents the refilling of a water storage tank in the vegetable plot zone. The operation was performed during midday when solar power from panels was available to drive the water pump. Outside the 10:00–15:00 window, electrical power is required for both pumping and farm data system operations, so water was prepared and stored in advance.",
+  "operation_context": {
+    "energy_source": "solar",
+    "optimal_operation_window": "10:00-15:00",
+    "system_constraint": "limited electrical availability outside solar generation hours"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00078/hash/dataunit_00078.sha256",
+    "ots_file": "dataset/data-unit/00078/ots/dgcp_dataunit_00078.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1204_00078.jpg",
+    "cid": "bafybeiekiss6p4fxnbgktohnk6n66eldx6hdms4cwrhwdqzqdhcpeyn6cu",
+    "reference_folder": "dataset/data-unit/00078/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
