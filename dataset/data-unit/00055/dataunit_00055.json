@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00055",
+  "file_path": "dataset/data-unit/00055/dataunit_00055.json",
+  "category": "farm-work-garden-maintenance",
+  "captured_at_local": "2026-01-06 07:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_weeding_with_hoe_backyard_garden",
+  "summary": "Morning garden maintenance work using a hoe to clear weeds in the backyard garden area.",
+  "description": "Upon arriving at the backyard garden area, farm work begins immediately by using hand tools (hoe) to clear weeds. This reflects routine manual labor for maintaining planting areas and controlling weed growth as part of ongoing farm operations.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00055/hash/dataunit_00055.sha256",
+    "ots_file": "dataset/data-unit/00055/ots/dgcp_dataunit_00055.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_0733_00055.jpg",
+    "cid": "bafybeiew2nj2gfybxdepzmckm3ywow2oubucfio7643zqyrjwm7ppjsdei",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiew2nj2gfybxdepzmckm3ywow2oubucfio7643zqyrjwm7ppjsdei",
+    "reference_folder": "dataset/data-unit/00055/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
