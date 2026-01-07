@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00074",
+  "file_path": "dataset/data-unit/00074/dataunit_00074.json",
+  "category": "field-condition",
+  "captured_at_local": "2026-01-07 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Vegetable Plot",
+  "data_type": "image",
+  "title": "morning_field_moisture_condition",
+  "summary": "Observation of high soil surface moisture in vegetable beds during early morning hours.",
+  "description": "This record documents visible soil moisture and dew accumulation on vegetable beds observed in the early morning. The field surface appears wet, indicating sufficient moisture without active irrigation at the time of observation.",
+  "observation": {
+    "soil_surface_condition": "wet",
+    "dew_presence": "visible",
+    "irrigation_action": "not required at observation time",
+    "observation_window": "03:00-07:00"
+  },
+  "cross_reference": {
+    "related_data_unit": "00073",
+    "relation_type": "environmental_context",
+    "note": "High humidity recorded in data unit 00073 supports observed field moisture condition."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00074/hash/dataunit_00074.sha256",
+    "ots_file": "dataset/data-unit/00074/ots/dgcp_dataunit_00074.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_0758_00074.jpg",
+    "cid": "bafybeicv2qzsngkpsnz7f67b6dzpsciosbxa7nrxbqtvaov2ft4ofsarp4",
+    "reference_folder": "dataset/data-unit/00074/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
