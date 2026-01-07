@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00065",
+  "file_path": "dataset/data-unit/00065/dataunit_00065.json",
+  "category": "animal-care",
+  "captured_at_local": "2026-01-06 18:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_rice_cooking_for_dogs",
+  "summary": "Evening preparation of rice for dogs using solid fuel stove at MaMeeFarm.",
+  "description": "This image documents the evening activity of cooking rice for dogs using a solid fuel stove. The activity took place at 18:56 local time as part of routine daily animal care operations at MaMeeFarm.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00065/hash/dataunit_00065.sha256",
+    "ots_file": "dataset/data-unit/00065/ots/dgcp_dataunit_00065.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260106_1856_00065.jpg",
+    "cid": "bafybeicnvbkiellmwuim3u3phf6lwzl24hr3e53cp4mlbexfkk46vgydim",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicnvbkiellmwuim3u3phf6lwzl24hr3e53cp4mlbexfkk46vgydim",
+    "reference_folder": "dataset/data-unit/00065/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
