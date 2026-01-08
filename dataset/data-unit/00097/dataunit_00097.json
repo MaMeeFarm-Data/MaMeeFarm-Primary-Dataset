@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00097",
+  "file_path": "dataset/data-unit/00097/dataunit_00097.json",
+  "category": "agricultural_activity",
+  "sub_category": "crop_harvest",
+  "captured_at_local": "2026-01-08 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "kale_harvest_six_weeks",
+  "summary": "Harvesting kale grown for household consumption after six weeks.",
+  "description": "Visual documentation of kale harvest at six weeks of growth, suitable for consumption.",
+  "crop_data": {
+    "crop_type": "kale",
+    "age_weeks": 6,
+    "harvest_stage": "ready_for_consumption",
+    "intended_use": "household_cooking"
+  },
+  "operation_context": {
+    "activity_type": "routine_harvest",
+    "labor_type": "manual",
+    "field_status": "active_vegetable_plot"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0757_00097.jpg",
+    "cid": "bafybeidsdet76mwitb3jmbwhjnjfi7qzuc64u44je5jpofjlmu2ohhzb4a",
+    "reference_folder": "dataset/data-unit/00097/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00097/hash/dataunit_00097.sha256",
+    "ots_file": "dataset/data-unit/00097/ots/dgcp_dataunit_00097.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
