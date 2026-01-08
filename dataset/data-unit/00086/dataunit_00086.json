@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00086",
+  "file_path": "dataset/data-unit/00086/dataunit_00086.json",
+  "category": "risk-mitigation",
+  "captured_at_local": "2026-01-07 16:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "vegetation_cutting_after_progress_6_minutes",
+  "summary": "After-cut progress evidence showing a significantly cleaner ground area after 6 minutes of vegetation cutting; follow-up plan is to dry then collect and mulch.",
+  "description": "Documentation of the same vegetation-control zone after initial cutting (reference: data unit 00085). The operator reports 6 minutes spent cutting, with visible improvement. Next step is to wait for cut grass to dry, then gather using tools and apply as mulch around trees for ground cover.",
+  "linkage": {
+    "related_data_units": [
+      {
+        "data_unit_id": "00085",
+        "relationship": "after_progress_reference"
+      }
+    ]
+  },
+  "risk_context": {
+    "risk_type": "snake_presence",
+    "risk_trigger": "overgrown_grass",
+    "mitigation_action": "vegetation_cutting"
+  },
+  "operation": {
+    "task": "grass_cutting",
+    "elapsed_time_minutes": 6,
+    "result_note": "area_cleaner_after_cutting",
+    "next_step_plan": [
+      "wait_for_cut_grass_to_dry",
+      "collect_with_tools",
+      "apply_as_mulch_around_trees"
+    ],
+    "mulch_intent": "ground_cover_moisture_retention_and_weeds_control"
+  },
+  "observation_notes": {
+    "recorded_facts": [
+      "Cutting completed for 6 minutes",
+      "Ground area appears cleaner than start reference",
+      "Plan to collect after drying",
+      "Collected biomass will be used as mulch around trees"
+    ],
+    "status": "in_progress_followup_planned"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1639_00086.jpg",
+    "cid": "bafybeif4jkylwdt4mjpli44vjwo4ybbo7yaob6jqwos2uml255cxwk7c6y",
+    "reference_folder": "dataset/data-unit/00086/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00086/hash/dataunit_00086.sha256",
+    "ots_file": "dataset/data-unit/00086/ots/dgcp_dataunit_00086.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
