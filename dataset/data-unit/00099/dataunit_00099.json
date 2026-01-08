@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00099",
+  "file_path": "dataset/data-unit/00099/dataunit_00099.json",
+  "category": "human_routine_energy",
+  "sub_category": "pre_work_preparation",
+  "captured_at_local": "2026-01-08 08:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "black_coffee_before_system_work",
+  "summary": "Black coffee prepared and consumed before starting system development work.",
+  "description": "Visual record of black coffee prepared using a gas stove prior to beginning system-building work. This reflects minimal resource usage and routine preparation before digital and physical labor.",
+  "resource_context": {
+    "beverage": "black coffee",
+    "energy_source": "gas stove",
+    "consumption_context": "single beverage before work"
+  },
+  "work_context": {
+    "activity_phase": "pre-work",
+    "work_type": "system_building",
+    "constraint_condition": "limited resources"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0814_00099.jpg",
+    "cid": "bafybeiacpam4lgtzazu5qqfvtuuha52cy4kxrqmnymlbn2y23ptfhghisa",
+    "reference_folder": "dataset/data-unit/00099/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00099/hash/dataunit_00099.sha256",
+    "ots_file": "dataset/data-unit/00099/ots/dgcp_dataunit_00099.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
