@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00089",
+  "file_path": "dataset/data-unit/00089/dataunit_00089.json",
+  "category": "agricultural_production",
+  "sub_category": "crop_harvest_readiness",
+  "captured_at_local": "2026-01-07 18:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm - Garden Area",
+  "data_type": "image",
+  "title": "namwa_banana_harvest_ready",
+  "summary": "Namwa banana bunch observed at harvest-ready stage.",
+  "description": "Visual inspection of a Namwa banana bunch indicates harvest readiness. Fruit size and maturity consistent with cutting stage.",
+  "crop": {
+    "plant_type": "banana",
+    "variety": "namwa",
+    "growth_stage": "harvest_ready",
+    "harvest_status": "ready_to_cut"
+  },
+  "context_notes": {
+    "observation_type": "visual_assessment",
+    "time_of_day": "evening",
+    "farm_condition": "normal_operation",
+    "purpose": "crop_yield_monitoring"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1801_00089.jpg",
+    "cid": "bafybeidt7knutnfzavhgcarzvu4yejjeu5sclkls256qoacsnhkqntagau",
+    "reference_folder": "dataset/data-unit/00089/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00089/hash/dataunit_00089.sha256",
+    "ots_file": "dataset/data-unit/00089/ots/dgcp_dataunit_00089.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
