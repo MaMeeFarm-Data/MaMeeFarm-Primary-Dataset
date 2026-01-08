@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00087",
+  "file_path": "dataset/data-unit/00087/dataunit_00087.json",
+  "category": "food_production_preparation",
+  "captured_at_local": "2026-01-07 17:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "vegetable_bed_expansion_coriander_area",
+  "summary": "Labor expands a new vegetable bed around the unused duck coop area, preparing soil for coriander planting.",
+  "description": "Documentation of labor expanding additional vegetable beds surrounding the currently unused duck coop area. The soil is manually prepared and leveled. This specific bed is designated for coriander cultivation.",
+  "operation": {
+    "task": "vegetable_bed_preparation",
+    "crop_target": "coriander",
+    "method": "manual_soil_preparation",
+    "status": "pre_planting"
+  },
+  "context_notes": {
+    "farm_condition": "duck_coop_area_currently_unused",
+    "land_use_strategy": "temporary_crop_production",
+    "objective": "maximize_idle_land_use"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1754_00087.jpg",
+    "cid": "bafybeie6l3tbbtqsy7kya43xlgwclmhjkvmsb75ljtncyq22kblyxsl434",
+    "reference_folder": "dataset/data-unit/00087/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00087/hash/dataunit_00087.sha256",
+    "ots_file": "dataset/data-unit/00087/ots/dgcp_dataunit_00087.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
