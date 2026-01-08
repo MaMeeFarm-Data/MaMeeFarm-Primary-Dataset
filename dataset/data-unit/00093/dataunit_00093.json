@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00093",
+  "file_path": "dataset/data-unit/00093/dataunit_00093.json",
+  "category": "livestock_management",
+  "sub_category": "animal_feeding",
+  "captured_at_local": "2026-01-08 07:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "morning_dog_feeding",
+  "summary": "Morning feeding routine for dogs at MaMeeFarm.",
+  "description": "Routine feeding activity for farm dogs. Dry dog food prepared and provided during morning schedule.",
+  "livestock_context": {
+    "animal_type": "dog",
+    "feeding_type": "dry_food",
+    "feeding_time_period": "morning",
+    "management_mode": "daily_routine"
+  },
+  "reference_context": {
+    "event_type": "routine_livestock_care",
+    "system_continuity": "daily_operations"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0721_00093.jpg",
+    "cid": "bafybeig7gu2dvb6fy4w6a2gc6mqg5hpgx6kkwjihilxpxnnx5zhq44fw7y",
+    "reference_folder": "dataset/data-unit/00093/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00093/hash/dataunit_00093.sha256",
+    "ots_file": "dataset/data-unit/00093/ots/dgcp_dataunit_00093.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
