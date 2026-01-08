@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00090",
+  "file_path": "dataset/data-unit/00090/dataunit_00090.json",
+  "category": "farm_infrastructure",
+  "sub_category": "energy_system_event",
+  "captured_at_local": "2026-01-08 00:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm - Power System Area",
+  "data_type": "image",
+  "title": "inverter_shutdown_alert",
+  "summary": "Inverter alert indicating shutdown condition with red indicator light.",
+  "description": "Hybrid solar inverter emitted alert signal with red warning light, indicating shutdown condition. Event marks closure of daily operations under limited electrical availability.",
+  "system_context": {
+    "system_type": "hybrid_solar_inverter",
+    "power_source": [
+      "solar_panel",
+      "battery_storage"
+    ],
+    "system_status": "shutdown_alert",
+    "indicator_status": "red_light_on",
+    "operational_constraint": "no_grid_power_24h"
+  },
+  "reference_context": {
+    "related_dataunit_open": "00075",
+    "event_type": "end_of_day_system_shutdown",
+    "operating_condition": "battery_degradation_observed"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0010_00090.jpg",
+    "cid": "bafybeif2vqklwj6qnisn252xb5ymvijmzansu45yppt4whx3nz3pr6qncm",
+    "reference_folder": "dataset/data-unit/00090/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00090/hash/dataunit_00090.sha256",
+    "ots_file": "dataset/data-unit/00090/ots/dgcp_dataunit_00090.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
