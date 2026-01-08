@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00100",
+  "file_path": "dataset/data-unit/00100/dataunit_00100.json",
+  "category": "animal_behavior_environment",
+  "sub_category": "thermal_regulation",
+  "captured_at_local": "2026-01-08 08:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "dogs_sunbathing_cold_morning",
+  "summary": "Dogs resting under sunlight to warm their bodies during a cold morning.",
+  "description": "Visual record of farm dogs lying in sunlight during a cold morning period. The behavior indicates natural thermal regulation through sun exposure. Environmental condition referenced from the first temperature record of the day.",
+  "environment_reference": {
+    "related_data_unit_id": "00091",
+    "reference_type": "temperature_record",
+    "time_relation": "same_day_first_measurement"
+  },
+  "animal_context": {
+    "species": "dog",
+    "behavior": "sunbathing",
+    "purpose": "body_warming",
+    "condition": "cool_temperature"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0840_00100.jpg",
+    "cid": "bafybeigy7otoqaep5oberl43zvrusipzmlkwrcdfv5vjfibzk37rhpjpgq",
+    "reference_folder": "dataset/data-unit/00100/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00100/hash/dataunit_00100.sha256",
+    "ots_file": "dataset/data-unit/00100/ots/dgcp_dataunit_00100.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
