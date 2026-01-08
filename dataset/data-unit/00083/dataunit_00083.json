@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00083",
+  "file_path": "dataset/data-unit/00083/dataunit_00083.json",
+  "category": "crop-observation",
+  "captured_at_local": "2026-01-07 15:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "papaya_tree_flowering_without_fruit_set",
+  "summary": "Papaya tree observation showing flowering without fruit set.",
+  "description": "Observation of a papaya tree approximately 9 months old. The plant is producing flowers but no fruit is observed at the time of recording.",
+  "crop": {
+    "species_common_name": "Papaya",
+    "estimated_age_months": 9,
+    "growth_stage": "flowering",
+    "fruit_set_observed": false
+  },
+  "environment_context": {
+    "light_condition": "partial_sun",
+    "observation_time": "afternoon"
+  },
+  "observation_notes": {
+    "recorded_facts": [
+      "Flowers present on the papaya trunk",
+      "No visible fruit set at the time of observation"
+    ],
+    "open_questions": [
+      "Possible male papaya plant",
+      "Possible insufficient sunlight exposure"
+    ],
+    "status": "monitoring"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1512_00083.jpg",
+    "cid": "bafybeicuzaj7sm4sacvz4ywnuvupvbh3d2es2tjefblhwzw7wdgptrll2a",
+    "reference_folder": "dataset/data-unit/00083/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00083/hash/dataunit_00083.sha256",
+    "ots_file": "dataset/data-unit/00083/ots/dgcp_dataunit_00083.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
