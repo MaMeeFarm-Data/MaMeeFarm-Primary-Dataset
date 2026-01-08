@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00092",
+  "file_path": "dataset/data-unit/00092/dataunit_00092.json",
+  "category": "environment_monitoring",
+  "sub_category": "ambient_light_condition",
+  "captured_at_local": "2026-01-08 06:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "winter_morning_light_condition",
+  "summary": "Winter morning ambient light condition at MaMeeFarm.",
+  "description": "Visual environmental record showing delayed morning light conditions during winter season. Image captured at the same time reference as temperature data unit 00091.",
+  "environment_context": {
+    "season": "winter",
+    "light_condition": "low_ambient_light",
+    "note": "Morning light appears later during winter period."
+  },
+  "reference_context": {
+    "related_temperature_dataunit": "00091",
+    "event_type": "daily_morning_environment_context",
+    "system_continuity": "morning_verification_extension"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0648_00092.jpg",
+    "cid": "bafybeiajfz6tpzhkm3ove6z74oqjodjl3dnhruacvv5p6budcs74462dji",
+    "reference_folder": "dataset/data-unit/00092/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00092/hash/dataunit_00092.sha256",
+    "ots_file": "dataset/data-unit/00092/ots/dgcp_dataunit_00092.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
