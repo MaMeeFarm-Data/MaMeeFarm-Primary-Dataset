@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00091",
+  "file_path": "dataset/data-unit/00091/dataunit_00091.json",
+  "category": "environment_monitoring",
+  "sub_category": "temperature_humidity_record",
+  "captured_at_local": "2026-01-08 06:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "morning_temperature_check",
+  "summary": "Morning temperature and humidity check recorded at MaMeeFarm.",
+  "description": "Environmental monitoring record captured in the early morning. Temperature and humidity displayed on HTC-1 digital thermometer/hygrometer.",
+  "sensor_data": {
+    "device_model": "HTC-1",
+    "temperature_celsius": 13.4,
+    "humidity_percent": 70,
+    "measurement_period": "morning"
+  },
+  "reference_context": {
+    "related_previous_dataunit": "00090",
+    "event_type": "daily_morning_environment_check",
+    "system_continuity": "post_shutdown_verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0648_00091.jpg",
+    "cid": "bafybeiattf2z3knh3pifrvqj62vdfcwesdwjdn6bx432e2bq76tg2bxmyi",
+    "reference_folder": "dataset/data-unit/00091/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00091/hash/dataunit_00091.sha256",
+    "ots_file": "dataset/data-unit/00091/ots/dgcp_dataunit_00091.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
