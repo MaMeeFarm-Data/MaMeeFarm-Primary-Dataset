@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00085",
+  "file_path": "dataset/data-unit/00085/dataunit_00085.json",
+  "category": "risk-mitigation",
+  "captured_at_local": "2026-01-07 16:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "vegetation_cutting_snake_risk_prevention_zone",
+  "summary": "Vegetation cutting in a farm zone for snake-risk prevention while continuing digital system work.",
+  "description": "Documentation of brush/grass cutting activity in an overgrown farm area due to perceived snake-risk. The work is performed while ongoing digital system work continues on-screen.",
+  "risk_context": {
+    "risk_type": "snake_presence",
+    "risk_trigger": "overgrown_grass",
+    "mitigation_action": "vegetation_cutting"
+  },
+  "operation": {
+    "task": "grass_cutting",
+    "tool_visible": "brush_cutter",
+    "zone_note": "overgrown_area_near_farm_work_zone"
+  },
+  "work_context": {
+    "concurrent_activity": "system_building_thinking",
+    "constraint_note": "farm_work_continues_alongside_digital_work"
+  },
+  "observation_notes": {
+    "recorded_facts": [
+      "Area observed as overgrown",
+      "Vegetation cutting performed",
+      "Motivation stated as snake-risk prevention",
+      "Digital work continued concurrently"
+    ],
+    "status": "completed"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1633_00085.jpg",
+    "cid": "bafybeicwscp5ombusx2pmcb6jdeuxscebggkqtzswhkcetq66au5mhg3ym",
+    "reference_folder": "dataset/data-unit/00085/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00085/hash/dataunit_00085.sha256",
+    "ots_file": "dataset/data-unit/00085/ots/dgcp_dataunit_00085.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
