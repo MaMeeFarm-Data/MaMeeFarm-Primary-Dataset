@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00082",
+  "file_path": "dataset/data-unit/00082/dataunit_00082.json",
+  "category": "environment-temperature",
+  "captured_at_local": "2026-01-07 15:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "farm_temperature_humidity_record_afternoon",
+  "summary": "Environmental temperature and humidity measurement recorded at MaMeeFarm.",
+  "description": "Temperature and humidity recorded using HTC-1 digital thermometer/hygrometer. The device display shows a temperature of 26.0°C and relative humidity of 48% at 15:12 local time.",
+  "measurement": {
+    "temperature_celsius": 26.0,
+    "humidity_percent": 48,
+    "device_model": "HTC-1",
+    "measurement_type": "ambient_air"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00082/hash/dataunit_00082.sha256",
+    "ots_file": "dataset/data-unit/00082/ots/dgcp_dataunit_00082.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1512_00082.jpg",
+    "cid": "bafybeiek76tbsf5d3hbu6up5mxtwotz7ca2aaypbduktrmulfpibfr6llq",
+    "reference_folder": "dataset/data-unit/00082/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
