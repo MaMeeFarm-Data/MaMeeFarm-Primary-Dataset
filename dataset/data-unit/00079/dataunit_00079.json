@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00079",
+  "file_path": "dataset/data-unit/00079/dataunit_00079.json",
+  "category": "water-system",
+  "captured_at_local": "2026-01-07 13:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "daily_water_reserve_two_tanks_near_full",
+  "summary": "Two water storage tanks nearly full, prepared as daily reserve due to dry and hot daytime conditions.",
+  "description": "This record documents the status of two water storage tanks that are nearly full. Water is reserved daily in advance because daytime conditions are dry with strong sunlight, increasing water demand for vegetable plots and farm operations.",
+  "operation_context": {
+    "storage_purpose": "daily water reserve",
+    "environment_condition": "dry daytime air and strong sunlight",
+    "usage_plan": "support vegetable plots and routine farm activities"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00079/hash/dataunit_00079.sha256",
+    "ots_file": "dataset/data-unit/00079/ots/dgcp_dataunit_00079.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1323_00079.jpg",
+    "cid": "bafybeiapipktv5dmqe3a64q4eysv3ytmjvf34ckpvnxu2woj6eb6rufjbq",
+    "reference_folder": "dataset/data-unit/00079/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
