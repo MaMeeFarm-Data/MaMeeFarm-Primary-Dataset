@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00080",
+  "file_path": "dataset/data-unit/00080/dataunit_00080.json",
+  "category": "labor-activity",
+  "captured_at_local": "2026-01-07 13:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "labor_continues_before_lunch_midday",
+  "summary": "Farm labor continues working at midday before taking lunch.",
+  "description": "This record documents ongoing farm labor activity at 13:24 local time. At the time of capture, lunch had not yet been taken and labor activity was still in progress within the farm work area.",
+  "activity_classification": {
+    "primary_activity": "continuous labor",
+    "time_context": "midday",
+    "status": "in progress"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00080/hash/dataunit_00080.sha256",
+    "ots_file": "dataset/data-unit/00080/ots/dgcp_dataunit_00080.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1324_00080.jpg",
+    "cid": "bafybeibk5j5dbkle5szemyrjol4nc7cwbdifmqtuiqyya3vb2e3kd76z7a",
+    "reference_folder": "dataset/data-unit/00080/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
