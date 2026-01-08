@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00095",
+  "file_path": "dataset/data-unit/00095/dataunit_00095.json",
+  "category": "environmental_monitoring",
+  "sub_category": "temperature_humidity_record",
+  "captured_at_local": "2026-01-08 07:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "duck_house_temperature_check_morning",
+  "summary": "Morning temperature and humidity check inside an empty duck house.",
+  "description": "Temperature and humidity recorded inside the duck house during morning hours while the facility is unoccupied.",
+  "sensor_data": {
+    "device_model": "HTC-2",
+    "temperature_inside_celsius": 12.9,
+    "temperature_outside_celsius": 12.3,
+    "humidity_percent": 85,
+    "display_time": "07:54"
+  },
+  "operation_context": {
+    "facility_status": "empty",
+    "activity_type": "routine_environment_check",
+    "time_period": "morning"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0754_00095.jpg",
+    "cid": "bafybeibhq3nocou3hkcu2r3eityktbqncupzoqh4qf7aexqqzojsptomoq",
+    "reference_folder": "dataset/data-unit/00095/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00095/hash/dataunit_00095.sha256",
+    "ots_file": "dataset/data-unit/00095/ots/dgcp_dataunit_00095.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
