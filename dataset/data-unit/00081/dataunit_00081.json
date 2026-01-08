@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00081",
+  "file_path": "dataset/data-unit/00081/dataunit_00081.json",
+  "category": "human-sustenance",
+  "captured_at_local": "2026-01-07 13:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "single_meal_day_system_builder",
+  "summary": "Single daily meal consumed by the system builder under resource constraints.",
+  "description": "This record documents a single meal consumed on 2026-01-07 at 13:44. Food resources consisted of pork (30 THB) and pumpkin (20 THB), prepared and divided for consumption over two days, one meal per day. The activity reflects sustenance management while maintaining continuous system operation under constrained resources.",
+  "activity_classification": {
+    "primary_activity": "food consumption",
+    "role": "system builder",
+    "resource_condition": "limited",
+    "meal_frequency": "one meal per day"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00081/hash/dataunit_00081.sha256",
+    "ots_file": "dataset/data-unit/00081/ots/dgcp_dataunit_00081.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1344_00081.jpg",
+    "cid": "bafybeiapurbaucezihb3fgndipruzhwobalb6izna6yusb2gkqppt4q7qe",
+    "reference_folder": "dataset/data-unit/00081/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
