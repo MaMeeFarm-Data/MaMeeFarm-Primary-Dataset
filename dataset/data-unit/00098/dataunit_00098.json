@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00098",
+  "file_path": "dataset/data-unit/00098/dataunit_00098.json",
+  "category": "energy_system_operation",
+  "sub_category": "solar_inverter_startup",
+  "captured_at_local": "2026-01-08 08:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "hybrid_solar_inverter_system_restart",
+  "summary": "Hybrid solar inverter restarted to restore household power system.",
+  "description": "Visual evidence showing the hybrid solar inverter powered on and household electrical system resuming operation. This restart follows a prior system shutdown due to energy limitations, referenced in data unit 00090.",
+  "energy_context": {
+    "system_type": "hybrid_solar_inverter",
+    "operation_state": "system_started",
+    "power_source": "solar_and_battery",
+    "constraint_context": "limited_energy_capacity"
+  },
+  "reference_linkage": {
+    "previous_shutdown_data_unit": "00090",
+    "relationship": "restart_after_shutdown"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0804_00098.jpg",
+    "cid": "bafybeiblm2o6elzlemvxr4yytc6h7egzfmvfrspntejvihvcd3nhvfwpqm",
+    "reference_folder": "dataset/data-unit/00098/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00098/hash/dataunit_00098.sha256",
+    "ots_file": "dataset/data-unit/00098/ots/dgcp_dataunit_00098.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
