@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00096",
+  "file_path": "dataset/data-unit/00096/dataunit_00096.json",
+  "category": "agricultural_observation",
+  "sub_category": "crop_growth_monitoring",
+  "captured_at_local": "2026-01-08 07:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "pumpkin_seedling_emergence_day_7",
+  "summary": "Pumpkin seedlings observed emerging seven days after planting.",
+  "description": "Visual confirmation of pumpkin seedlings germinated and emerging from soil on day seven after planting.",
+  "crop_data": {
+    "crop_type": "pumpkin",
+    "days_after_planting": 7,
+    "growth_stage": "seedling_emergence",
+    "observation_method": "visual_inspection"
+  },
+  "operation_context": {
+    "activity_type": "routine_crop_check",
+    "field_status": "active_planting_area"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0756_00096.jpg",
+    "cid": "bafybeie5ygzl5uoi4kr5ka2pzr7xscndqnnssya2tuewzdjgaknnddliya",
+    "reference_folder": "dataset/data-unit/00096/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00096/hash/dataunit_00096.sha256",
+    "ots_file": "dataset/data-unit/00096/ots/dgcp_dataunit_00096.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
