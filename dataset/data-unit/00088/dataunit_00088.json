@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00088",
+  "file_path": "dataset/data-unit/00088/dataunit_00088.json",
+  "category": "environmental_monitoring",
+  "sub_category": "temperature_humidity_record",
+  "captured_at_local": "2026-01-07 17:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm - Duck Coop",
+  "data_type": "image",
+  "title": "duck_coop_evening_temperature_humidity",
+  "summary": "Evening temperature and humidity measurement inside the duck coop.",
+  "description": "Evening environmental monitoring inside the duck coop. Temperature and humidity recorded using HTC-2 device. Morning reference for the same day is documented in data unit 00073.",
+  "sensor": {
+    "device_model": "HTC-2",
+    "measurement_type": ["temperature", "humidity"],
+    "temperature_inside_celsius": 24.1,
+    "temperature_outside_celsius": 20.0,
+    "humidity_percent": 59
+  },
+  "context_notes": {
+    "time_of_day": "evening",
+    "reference_morning_data_unit": "00073",
+    "farm_condition": "duck_coop_currently_empty",
+    "purpose": "daily_environmental_tracking"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1756_00088.jpg",
+    "cid": "bafybeihvad7lzoyvmyt5kg6htuuc5tni7c4ftliqzucnyshbcztytt2f24",
+    "reference_folder": "dataset/data-unit/00088/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00088/hash/dataunit_00088.sha256",
+    "ots_file": "dataset/data-unit/00088/ots/dgcp_dataunit_00088.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
