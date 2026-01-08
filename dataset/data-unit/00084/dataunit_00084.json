@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00084",
+  "file_path": "dataset/data-unit/00084/dataunit_00084.json",
+  "category": "farm-operation",
+  "captured_at_local": "2026-01-07 16:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "dog_bedding_laundry_collection_before_dew",
+  "summary": "Collection of dog bedding laundry before evening dew formation.",
+  "description": "Documentation of collecting dog bedding after sun-drying in the afternoon. The laundry is collected before 17:00 to avoid evening dew accumulation.",
+  "operation": {
+    "task": "laundry_collection",
+    "object": "dog_bedding",
+    "recommended_collection_time": "before 17:00",
+    "risk_if_delayed": "dew_exposure"
+  },
+  "environment_context": {
+    "time_of_day": "late_afternoon",
+    "dew_expected_after": "17:00",
+    "weather_condition": "clear_afternoon"
+  },
+  "operational_reference": {
+    "related_data_unit_id": "00072",
+    "reference_reason": "prior observation of sun-drying timing and dew formation pattern"
+  },
+  "observation_notes": {
+    "recorded_facts": [
+      "Dog bedding was hung for sun-drying during the day",
+      "Laundry collected at 16:32",
+      "Evening dew typically forms after 17:00"
+    ],
+    "status": "completed"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260107_1632_00084.jpg",
+    "cid": "bafybeibyx7up6dgyysd4xqcqtkrc7kg4japofvkfojphnq67bnvbukxuam",
+    "reference_folder": "dataset/data-unit/00084/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00084/hash/dataunit_00084.sha256",
+    "ots_file": "dataset/data-unit/00084/ots/dgcp_dataunit_00084.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
