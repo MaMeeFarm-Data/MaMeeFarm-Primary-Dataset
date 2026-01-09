@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00110",
+  "file_path": "dataset/data-unit/00110/dataunit_00110.json",
+  "category": "farm_operations",
+  "sub_category": "crop_management",
+  "captured_at_local": "2026-01-08 17:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "organic_vegetable_bed_soil_amendment_and_mulch",
+  "summary": "Vegetable bed maintenance using duck manure composted material and straw mulch to reduce moisture loss.",
+  "description": "Organic crop care activity: soil was amended using duck manure from the duck house, mixed with soil and rice straw, and covered with straw mulch to reduce rapid moisture evaporation.",
+  "context": {
+    "method": "organic",
+    "inputs": [
+      "duck_manure",
+      "soil",
+      "rice_straw"
+    ],
+    "practice": [
+      "soil_mixing",
+      "straw_mulching"
+    ],
+    "purpose": "reduce_moisture_evaporation",
+    "crop_type_observed": "vegetable_bed"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1738_00110.jpg",
+    "cid": "bafybeihtgh4rylzgr62zuenjaqod5qjczjyechmm4tfscunnfkzx2lrwwe",
+    "reference_folder": "dataset/data-unit/00110/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00110/hash/dataunit_00110.sha256",
+    "ots_file": "dataset/data-unit/00110/ots/dgcp_dataunit_00110.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
