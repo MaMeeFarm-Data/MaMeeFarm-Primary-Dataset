@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00116",
+  "file_path": "dataset/data-unit/00116/dataunit_00116.json",
+  "category": "primary-environmental-observation",
+  "captured_at_local": "2026-01-08 20:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_temperature_humidity_monitoring",
+  "summary": "Evening temperature and humidity check.",
+  "description": "Evening environmental monitoring of temperature and humidity at the farm. This activity is part of continuous daily condition tracking, referenced from data unit 00091.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00116/hash/dataunit_00116.sha256",
+    "ots_file": "dataset/data-unit/00116/ots/dgcp_dataunit_00116.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_2019.jpg",
+    "cid": "bafybeihxktaw5jsjhbc4qplsfdeheedyandzmeuks3oa7s4l5cf5qpap5m",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihxktaw5jsjhbc4qplsfdeheedyandzmeuks3oa7s4l5cf5qpap5m",
+    "reference_folder": "dataset/data-unit/00116/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
