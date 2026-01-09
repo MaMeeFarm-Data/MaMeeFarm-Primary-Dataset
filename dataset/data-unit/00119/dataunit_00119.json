@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00119",
+  "file_path": "dataset/data-unit/00119/dataunit_00119.json",
+  "category": "animal-care",
+  "sub_category": "feeding",
+  "captured_at_local": "2026-01-09 07:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_feeding",
+  "summary": "Morning feeding of dogs at MaMeeFarm.",
+  "description": "Morning feeding activity for dogs at MaMeeFarm. Adult dogs count: 9. Puppies born on 9–10 December 2025 count: 11. Total dogs present in the farm at the time of record: 20. This activity marks the first operational task of the day.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00119/hash/dataunit_00119.sha256",
+    "ots_file": "dataset/data-unit/00119/ots/dgcp_dataunit_00119.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0710.jpg",
+    "cid": "bafybeic5gkaygike7vetn534g3omqsai4eni63wqvmmilog4cbgbwhdroq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic5gkaygike7vetn534g3omqsai4eni63wqvmmilog4cbgbwhdroq",
+    "reference_folder": "dataset/data-unit/00119/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
