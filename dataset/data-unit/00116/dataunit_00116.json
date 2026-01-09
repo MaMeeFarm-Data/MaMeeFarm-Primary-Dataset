@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm Primary Dataset",
+  "data_unit_id": "00116",
+  "file_path": "dataset/data-unit/00116/dataunit_00116.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity_monitoring",
+
+  "captured_at_local": "2026-01-08 20:19",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm, Lampang, Thailand",
+
+  "actor": "P'To",
+
+  "context": "Evening environmental monitoring of temperature and humidity at the farm. This activity is part of continuous daily condition tracking, referenced from data unit 00091.",
+
+  "external_reference": {
+    "storage_type": "ipfs",
+    "file_name": "2026-01-08_20-19_environment_monitoring.jpg",
+    "cid": "bafybeihxktaw5jsjhbc4qplsfdeheedyandzmeuks3oa7s4l5cf5qpap5m",
+    "reference_folder": "external-reference/"
+  },
+
+  "verification": {
+    "sha256": "SEE_HASH_FILE",
+    "ots": "SEE_OTS_FILE"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
