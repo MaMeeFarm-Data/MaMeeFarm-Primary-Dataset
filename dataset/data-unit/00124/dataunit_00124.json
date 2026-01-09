@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00124",
+  "file_path": "dataset/data-unit/00124/dataunit_00124.json",
+  "category": "agricultural-management",
+  "sub_category": "crop-resource-allocation",
+  "captured_at_local": "2026-01-09 07:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_leaf_pruning_to_reduce_nutrient_competition",
+  "summary": "Banana leaves pruned to reduce nutrient competition among plants.",
+  "description": "Morning farm activity involving pruning banana leaves. Excess foliage was removed to reduce nutrient competition and improve resource allocation within banana plants. Activity reflects routine crop management under real labor and resource constraints.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00124/hash/dataunit_00124.sha256",
+    "ots_file": "dataset/data-unit/00124/ots/dgcp_dataunit_00124.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0754.jpg",
+    "cid": "bafybeiej7bwqwhrr2gltcfgjzzwruhhbqw3y5fid4rkcoyaayged2evc7a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiej7bwqwhrr2gltcfgjzzwruhhbqw3y5fid4rkcoyaayged2evc7a",
+    "reference_folder": "dataset/data-unit/00124/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
