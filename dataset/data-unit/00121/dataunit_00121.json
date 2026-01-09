@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00121",
+  "file_path": "dataset/data-unit/00121/dataunit_00121.json",
+  "category": "environment-observation",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-09 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_temperature_humidity_morning",
+  "summary": "Morning temperature and humidity measurement inside an empty duck coop.",
+  "description": "Temperature and humidity measurement recorded inside an empty duck coop during early morning hours. Humidity level is consistent with overnight dew conditions previously observed on vegetation (referenced in data unit 00120).",
+  "verification": {
+    "hash_file": "dataset/data-unit/00121/hash/dataunit_00121.sha256",
+    "ots_file": "dataset/data-unit/00121/ots/dgcp_dataunit_00121.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0742.jpg",
+    "cid": "bafybeidtl4z6lybayqe4oqga2tsmpb36jvd76spgevkdgyrf7a5r77fc7u",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidtl4z6lybayqe4oqga2tsmpb36jvd76spgevkdgyrf7a5r77fc7u",
+    "reference_folder": "dataset/data-unit/00121/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "related_data_units": [
+    "00120"
+  ],
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
