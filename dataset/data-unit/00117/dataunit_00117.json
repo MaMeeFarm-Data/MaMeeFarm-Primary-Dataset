@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00117",
+  "file_path": "dataset/data-unit/00117/dataunit_00117.json",
+  "category": "primary-consumption-preparation",
+  "captured_at_local": "2026-01-08 20:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rice_cooking_with_firewood",
+  "summary": "Cooking rice using a firewood stove.",
+  "description": "Rice cooking using a firewood stove. Total cooking time was approximately 29 minutes. Cooking duration varies depending on firewood conditions and heat intensity. This activity references the stove ignition process recorded in data unit 00115.",
+  "related_data_units": ["00115"],
+  "actor": "MaMee",
+  "recorder": "P'Toh",
+  "verification": {
+    "hash_file": "dataset/data-unit/00117/hash/dataunit_00117.sha256",
+    "ots_file": "dataset/data-unit/00117/ots/dgcp_dataunit_00117.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_2047.jpg",
+    "cid": "bafybeihz7k3vrtu6ydjhb5wgxvdpcwyg7hxvwoxd3orlpmmambzjswddty",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihz7k3vrtu6ydjhb5wgxvdpcwyg7hxvwoxd3orlpmmambzjswddty",
+    "reference_folder": "dataset/data-unit/00117/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
