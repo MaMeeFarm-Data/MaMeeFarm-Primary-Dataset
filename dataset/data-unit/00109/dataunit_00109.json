@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00109",
+  "file_path": "dataset/data-unit/00109/dataunit_00109.json",
+  "category": "daily_life",
+  "sub_category": "animal_care",
+  "captured_at_local": "2026-01-08 16:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "dog_bedding_retrieval_before_dew",
+  "summary": "Dog bedding collected before evening dew to prevent moisture.",
+  "description": "Dog bedding sheets were retrieved before 17:00 to avoid evening dew accumulation, preventing moisture and maintaining hygiene.",
+  "context": {
+    "animal_type": "dog",
+    "item": "dog_bedding_sheet",
+    "risk_prevented": "dew_moisture",
+    "time_constraint": "before_17_00",
+    "reference_dataunit": "00094",
+    "activity_type": "preventive_care"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1651_00109.jpg",
+    "cid": "bafybeigex2h4cbnkdaj7t32gym2sdd7fqnhykpxj26via5uy5rj3uqarl4",
+    "reference_folder": "dataset/data-unit/00109/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00109/hash/dataunit_00109.sha256",
+    "ots_file": "dataset/data-unit/00109/ots/dgcp_dataunit_00109.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
