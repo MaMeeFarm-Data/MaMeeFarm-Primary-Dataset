@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00107",
+  "file_path": "dataset/data-unit/00107/dataunit_00107.json",
+  "category": "daily_life",
+  "sub_category": "food_consumption",
+  "captured_at_local": "2026-01-08 14:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "single_meal_consumption",
+  "summary": "Single meal consumed to sustain labor activity.",
+  "description": "Meal consisting of rice and limited minced pork protein, consumed under constrained resource conditions while work continues.",
+  "context": {
+    "meal_count": 1,
+    "nutrition_level": "minimal_protein",
+    "purpose": "sustain_labor",
+    "resource_condition": "limited"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1402_00107.jpg",
+    "cid": "bafybeidl5n573g27dnegmlnguymj6b3gdvd2foks4v76cf7mgb33cnr5ni",
+    "reference_folder": "dataset/data-unit/00107/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00107/hash/dataunit_00107.sha256",
+    "ots_file": "dataset/data-unit/00107/ots/dgcp_dataunit_00107.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
