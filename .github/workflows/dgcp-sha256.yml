@@ -1,18 +1,16 @@
 name: DGCP SHA-256 (auto + backfill)
 
 on:
-  # Auto mode: runs when new/updated dataunit JSON is pushed
   push:
     paths:
       - "dataset/data-unit/**/dataunit_*.json"
     paths-ignore:
       - "dataset/data-unit/**/hash/**"
 
-  # Manual mode: allow backfill run from Actions tab
   workflow_dispatch:
     inputs:
       mode:
-        description: "Choose run mode"
+        description: "Run mode"
         required: true
         default: "backfill"
         type: choice
@@ -26,44 +24,35 @@ permissions:
 jobs:
   sha256:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Decide run mode
-        id: mode
-        shell: bash
+      - name: Set run mode
+        id: setmode
         run: |
-          set -euo pipefail
-          # If manual dispatch: use selected mode
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            echo "MODE=${{ inputs.mode }}" >> $GITHUB_ENV
           else
-            # If push event: always auto_only
-            echo "mode=auto_only" >> "$GITHUB_OUTPUT"
+            echo "MODE=auto_only" >> $GITHUB_ENV
           fi
 
-      - name: Generate SHA-256 sidecar files
-        id: gen
-        shell: bash
+      - name: Generate SHA-256 files
         run: |
-          set -euo pipefail
+          set -e
 
-          MODE="${{ steps.mode.outputs.mode }}"
           changed=0
 
-          # Helper: write sha sidecar for a given dataunit json
           write_sha () {
-            local f="$1"
-            local base id unit_dir sha_dir sha_file sha content
+            f="$1"
+            base="$(basename "$f")"
+            id="${base#dataunit_}"
+            id="${id%.json}"
 
-            base="$(basename "$f")"        # dataunit_00001.json
-            id="${base#dataunit_}"         # 00001.json
-            id="${id%.json}"               # 00001
-
-            unit_dir="$(dirname "$f")"     # dataset/data-unit/00001
+            unit_dir="$(dirname "$f")"
             sha_dir="${unit_dir}/hash"
             sha_file="${sha_dir}/dataunit_${id}.sha256"
 
@@ -71,59 +60,24 @@ jobs:
 
             sha="$(sha256sum "$f" | awk '{print $1}')"
 
-            content="SHA-256: ${sha}
-FILE: ${f}
-"
-
-            if [ ! -f "$sha_file" ] || [ "$(cat "$sha_file")" != "$content" ]; then
-              printf "%s" "$content" > "$sha_file"
-              changed=1
-              echo "updated: $sha_file"
-            fi
+            printf "SHA-256: %s\nFILE: %s\n" "$sha" "$f" > "$sha_file"
+            changed=1
           }
 
           if [ "$MODE" = "backfill" ]; then
-            # Backfill: process ALL dataunit JSON files
-            while IFS= read -r f; do
+            find dataset/data-unit -type f -name "dataunit_*.json" | sort | while read f; do
               write_sha "$f"
-            done < <(find dataset/data-unit -type f -name "dataunit_*.json" | sort)
-
+            done
           else
-            # Auto only: process only JSON files changed in the last commit range
-            # Fallback to all if git diff fails (rare)
-            if git rev-parse HEAD^ >/dev/null 2>&1; then
-              mapfile -t files < <(git diff --name-only HEAD^..HEAD -- 'dataset/data-unit/**/dataunit_*.json' | sort)
-              if [ "${#files[@]}" -eq 0 ]; then
-                echo "No dataunit JSON changes detected in last commit range."
-              else
-                for f in "${files[@]}"; do
-                  # ensure file exists in workspace
-                  if [ -f "$f" ]; then
-                    write_sha "$f"
-                  fi
-                done
-              fi
-            else
-              # First commit in repo (unlikely)
-              while IFS= read -r f; do
-                write_sha "$f"
-              done < <(find dataset/data-unit -type f -name "dataunit_*.json" | sort)
-            fi
+            git diff --name-only HEAD^..HEAD -- 'dataset/data-unit/**/dataunit_*.json' | while read f; do
+              [ -f "$f" ] && write_sha "$f"
+            done
           fi
 
-          echo "changed=$changed" >> "$GITHUB_OUTPUT"
-
-      - name: Commit & push SHA files
-        if: ${{ steps.gen.outputs.changed == '1' }}
-        shell: bash
+      - name: Commit and push SHA files
         run: |
-          set -euo pipefail
           git config user.name "dgcp-bot"
           git config user.email "dgcp-bot@users.noreply.github.com"
-
-          git add dataset/data-unit/**/hash/dataunit_*.sha256
-
-          git commit -m "add: sha256 sidecars for data units [skip ci]" \
-                     -m "DGCP automation: generate/refresh SHA-256 sidecar files under dataset/data-unit/<id>/hash/ for each dataunit_*.json. JSON files are not modified."
-
+          git add dataset/data-unit/**/hash/dataunit_*.sha256 || true
+          git commit -m "add: sha256 sidecars for data units [skip ci]" || echo "No changes"
           git push
