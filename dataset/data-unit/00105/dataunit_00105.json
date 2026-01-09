@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00105",
+  "file_path": "dataset/data-unit/00105/dataunit_00105.json",
+  "category": "labor_activity",
+  "sub_category": "field_work",
+  "captured_at_local": "2026-01-08 12:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "continued_farm_labor_midday",
+  "summary": "Agricultural labor continues during midday.",
+  "description": "Visual evidence of farm labor continuing around midday without a scheduled break.",
+  "context": {
+    "activity": "field_work",
+    "labor_condition": "irregular_break_schedule",
+    "time_reference": "midday"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1203_00105.jpg",
+    "cid": "bafybeifj4ehqe6pjsk7dtzi34icoo2ymnco7avqkypk5vrx7vz6sppf4hu",
+    "reference_folder": "dataset/data-unit/00105/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00105/hash/dataunit_00105.sha256",
+    "ots_file": "dataset/data-unit/00105/ots/dgcp_dataunit_00105.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
