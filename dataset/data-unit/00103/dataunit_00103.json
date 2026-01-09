@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00103",
+  "file_path": "dataset/data-unit/00103/dataunit_00103.json",
+  "category": "labor_activity",
+  "sub_category": "work_break",
+  "captured_at_local": "2026-01-08 10:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "short_rest_with_farm_dogs",
+  "summary": "Brief rest period with farm dogs between work tasks.",
+  "description": "Visual evidence of a short rest and interaction with farm dogs after completing household and cooking tasks, prior to resuming garden work at the back of the farm. The moment reflects a pause within the continuous labor cycle.",
+  "context": {
+    "work_status": "temporary_rest",
+    "next_activity": "garden_work",
+    "participants": [
+      "human",
+      "farm_dogs"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1019_00103.jpg",
+    "cid": "bafybeigsy7ll2flgnp5i22gihkzpucs2b3h7d6omxsby7alz3v6ptjurua",
+    "reference_folder": "dataset/data-unit/00103/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00103/hash/dataunit_00103.sha256",
+    "ots_file": "dataset/data-unit/00103/ots/dgcp_dataunit_00103.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
