@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00102",
+  "file_path": "dataset/data-unit/00102/dataunit_00102.json",
+  "category": "household_energy_management",
+  "sub_category": "biomass_cooking",
+  "captured_at_local": "2026-01-08 10:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "wood_fired_cooking_stove_rice_preparation",
+  "summary": "Preparation of a wood-fired stove for cooking rice to reduce reliance on gas canisters.",
+  "description": "Visual evidence of constructing and operating a wood-fired stove using collected firewood for daily rice cooking. The method is selected to minimize fuel expenses compared to gas canisters. The cooking system supports both human household consumption and dog food preparation.",
+  "energy_context": {
+    "primary_fuel": "firewood",
+    "alternative_fuel_avoided": "gas_canister",
+    "reason_for_choice": "cost_efficiency",
+    "usage_scope": [
+      "human_meals",
+      "dog_food"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1006_00102.jpg",
+    "cid": "bafybeic7rf35dyhdj7mwbxjlpozy42ivi5ydeq33jdkhflw2se4ikaiypq",
+    "reference_folder": "dataset/data-unit/00102/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00102/hash/dataunit_00102.sha256",
+    "ots_file": "dataset/data-unit/00102/ots/dgcp_dataunit_00102.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
