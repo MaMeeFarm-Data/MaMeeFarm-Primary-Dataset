@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00101",
+  "file_path": "dataset/data-unit/00101/dataunit_00101.json",
+  "category": "household_resource_management",
+  "sub_category": "food_allocation",
+  "captured_at_local": "2026-01-08 09:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm / Local Village",
+  "data_type": "image",
+  "title": "minced_pork_and_farm_kale_limited_budget",
+  "summary": "Household food resources consisting of purchased minced pork and farm-grown kale under budget constraints.",
+  "description": "Visual record of minced pork purchased from a local village shop and kale harvested from the farm. The food is allocated for two people over two days, reflecting resource management and consumption planning under limited financial and logistical conditions.",
+  "resource_context": {
+    "purchased_item": {
+      "item": "minced_pork",
+      "price_thb": 30,
+      "purchase_distance_km": 3
+    },
+    "farm_produced_item": {
+      "item": "kale",
+      "source": "MaMeeFarm",
+      "growth_status": "harvested"
+    },
+    "consumption_plan": {
+      "people": 2,
+      "duration_days": 2
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_0928_00101.jpg",
+    "cid": "bafybeids4gx345t73v45sbkfj523fhbugookubpfdhqq4vw4p4y6gennny",
+    "reference_folder": "dataset/data-unit/00101/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00101/hash/dataunit_00101.sha256",
+    "ots_file": "dataset/data-unit/00101/ots/dgcp_dataunit_00101.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
