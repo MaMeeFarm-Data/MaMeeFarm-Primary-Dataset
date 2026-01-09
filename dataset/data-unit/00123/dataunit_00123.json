@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00123",
+  "file_path": "dataset/data-unit/00123/dataunit_00123.json",
+  "category": "agricultural-observation",
+  "sub_category": "crop-growth-limitation",
+  "captured_at_local": "2026-01-09 07:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "taro_growth_inhibited_by_weeds",
+  "summary": "Taro plant showing limited growth due to dense weed competition.",
+  "description": "Taro plant observed with limited growth. Dense weed coverage is present around the plant, restricting space and resources required for tuber development. This record documents environmental competition affecting crop growth under real farm conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00123/hash/dataunit_00123.sha256",
+    "ots_file": "dataset/data-unit/00123/ots/dgcp_dataunit_00123.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0748.jpg",
+    "cid": "bafybeibl6e6c4y3de5rui772ihnsehwccc6ordu2c5l5ctmn5pj26fshr4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibl6e6c4y3de5rui772ihnsehwccc6ordu2c5l5ctmn5pj26fshr4",
+    "reference_folder": "dataset/data-unit/00123/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
