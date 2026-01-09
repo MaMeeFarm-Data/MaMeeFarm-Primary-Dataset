@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00104",
+  "file_path": "dataset/data-unit/00104/dataunit_00104.json",
+  "category": "agricultural_activity",
+  "sub_category": "harvest",
+  "captured_at_local": "2026-01-08 10:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "banana_harvest_after_verification",
+  "summary": "Harvesting bananas following prior maturity verification.",
+  "description": "Visual record of banana harvesting at the backyard farm after maturity was checked and confirmed on the evening of 2026-01-07, referenced in data unit 00089.",
+  "context": {
+    "crop": "banana",
+    "activity": "harvest",
+    "verification_reference": "data_unit_00089",
+    "verification_time": "2026-01-07 evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1054_00104.jpg",
+    "cid": "bafybeigqdqldqve24kafm45bvorcn6dsicbxp7mh5ukbutey3psdtgqv44",
+    "reference_folder": "dataset/data-unit/00104/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00104/hash/dataunit_00104.sha256",
+    "ots_file": "dataset/data-unit/00104/ots/dgcp_dataunit_00104.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
