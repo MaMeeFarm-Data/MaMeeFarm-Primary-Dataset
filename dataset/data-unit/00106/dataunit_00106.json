@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00106",
+  "file_path": "dataset/data-unit/00106/dataunit_00106.json",
+  "category": "daily_life",
+  "sub_category": "food_preparation",
+  "captured_at_local": "2026-01-08 13:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "single_meal_food_preparation",
+  "summary": "Preparation of a single meal using reserved minced pork.",
+  "description": "Minced pork cooked for one meal as part of limited food resource management.",
+  "context": {
+    "meal_type": "single_meal",
+    "food_source": "local_village_purchase",
+    "resource_management": "rationed_food"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1356_00106.jpg",
+    "cid": "bafybeig5yusnznrt35yoyi2qe4ovjayfhqiowppm7ro3ybr37ag7l46woe",
+    "reference_folder": "dataset/data-unit/00106/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00106/hash/dataunit_00106.sha256",
+    "ots_file": "dataset/data-unit/00106/ots/dgcp_dataunit_00106.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
