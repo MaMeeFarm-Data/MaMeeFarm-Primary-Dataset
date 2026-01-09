@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00120",
+  "file_path": "dataset/data-unit/00120/dataunit_00120.json",
+  "category": "environment-observation",
+  "sub_category": "dew",
+  "captured_at_local": "2026-01-09 07:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dew_on_avocado_leaves",
+  "summary": "Morning dew observed on avocado tree leaves.",
+  "description": "Observation of strong overnight dew accumulation on avocado tree leaves. Leaf surfaces appear wet similar to rainfall conditions. No precipitation event was recorded during the night.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00120/hash/dataunit_00120.sha256",
+    "ots_file": "dataset/data-unit/00120/ots/dgcp_dataunit_00120.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0734.jpg",
+    "cid": "bafybeieycaigopev73l6dfhcb5krbmnnfpxtkomq564a6mzwcd6sk63kl4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieycaigopev73l6dfhcb5krbmnnfpxtkomq564a6mzwcd6sk63kl4",
+    "reference_folder": "dataset/data-unit/00120/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
