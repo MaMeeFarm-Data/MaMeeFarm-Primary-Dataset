@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00111",
+  "file_path": "dataset/data-unit/00111/dataunit_00111.json",
+  "category": "environment_monitoring",
+  "sub_category": "temperature_humidity_record",
+  "captured_at_local": "2026-01-08 17:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Duck House",
+  "data_type": "image",
+  "device": {
+    "type": "digital thermometer hygrometer",
+    "model": "HTC-2"
+  },
+  "measurements": {
+    "temperature_indoor_celsius": 25.7,
+    "temperature_outdoor_celsius": 21.3,
+    "relative_humidity_percent": 57
+  },
+  "displayed_device_time": {
+    "time_shown": "05:39",
+    "indicator": "AM"
+  },
+  "data_quality_notes": {
+    "clock_inconsistency_detected": true,
+    "description": "The device displays AM at 17:39 local time. This indicates an AM/PM configuration mismatch on the device clock. Measurement values remain readable, but displayed time does not match actual local time.",
+    "related_data_units": [
+      "00095"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_temp_20260108_1739_00111.jpg",
+    "cid": "bafybeif5byoxs2onfs2oa2aaxspalkpge4afsgghln7lkwdlee5eotyefm",
+    "reference_folder": "dataset/data-unit/00111/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00111/hash/dataunit_00111.sha256",
+    "ots_file": "dataset/data-unit/00111/ots/dgcp_dataunit_00111.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
