@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00115",
+  "file_path": "dataset/data-unit/00115/dataunit_00115.json",
+  "category": "daily_life_support_activity",
+  "captured_at_local": "2026-01-08 20:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cooking_rice_for_dogs_next_morning",
+  "summary": "Cooking rice for dogs, prepared at night for the morning of January 9.",
+  "description": "Rice was cooked at night as preparation for feeding dogs in the morning of January 9. This activity documents real-world daily support work within the farm system.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00115/hash/dataunit_00115.sha256",
+    "ots_file": "dataset/data-unit/00115/ots/dgcp_dataunit_00115.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_2018_dog_rice.jpg",
+    "cid": "bafybeifiyzv3xxkrtitjavmy5jgwtqzsobc2lgsuxy6kltq4r4pkjkopny",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifiyzv3xxkrtitjavmy5jgwtqzsobc2lgsuxy6kltq4r4pkjkopny",
+    "reference_folder": "dataset/data-unit/00115/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
