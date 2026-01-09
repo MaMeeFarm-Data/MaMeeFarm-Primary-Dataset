@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00122",
+  "file_path": "dataset/data-unit/00122/dataunit_00122.json",
+  "category": "agricultural-production",
+  "sub_category": "banana-crop-cycle",
+  "captured_at_local": "2026-01-09 07:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_inflorescence_active_production",
+  "summary": "Banana plant showing active inflorescence as part of farm production rotation.",
+  "description": "Banana plant observed during active inflorescence stage. This record reflects rotational farm production, where individual banana plants are selectively removed and replaced to maintain continuous yield. Related harvesting activity was previously recorded in data unit 00104.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00122/hash/dataunit_00122.sha256",
+    "ots_file": "dataset/data-unit/00122/ots/dgcp_dataunit_00122.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0744.jpg",
+    "cid": "bafybeie2rth7oycpgso6eyvryzyf3oahzfl4gmwtg627jluj7prtspo7rm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie2rth7oycpgso6eyvryzyf3oahzfl4gmwtg627jluj7prtspo7rm",
+    "reference_folder": "dataset/data-unit/00122/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "related_data_units": [
+    "00104"
+  ],
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
