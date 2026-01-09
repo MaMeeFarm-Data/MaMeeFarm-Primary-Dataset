@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00108",
+  "file_path": "dataset/data-unit/00108/dataunit_00108.json",
+  "category": "daily_life",
+  "sub_category": "food_consumption",
+  "captured_at_local": "2026-01-08 14:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "personal_meal_preparation_and_consumption",
+  "summary": "Personal meal prepared with minimal pork and farm-harvested kale.",
+  "description": "Meal prepared for MaMee consisting of a small portion of minced pork combined with freshly harvested kale from the farm earlier the same day.",
+  "context": {
+    "consumer": "MaMee",
+    "protein_source": "minced_pork_small_amount",
+    "vegetable_source": "kale_farm_harvested_same_day",
+    "reference_dataunit": "00097",
+    "resource_condition": "limited",
+    "meal_role": "daily_sustenance"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1408_00108.jpg",
+    "cid": "bafybeic6646y3tkdftumgi6yqzyaktg4yajwa5whidued72ljkangbbuju",
+    "reference_folder": "dataset/data-unit/00108/external-reference/"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00108/hash/dataunit_00108.sha256",
+    "ots_file": "dataset/data-unit/00108/ots/dgcp_dataunit_00108.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
