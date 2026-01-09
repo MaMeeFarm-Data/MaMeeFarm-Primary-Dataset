@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00118",
+  "file_path": "dataset/data-unit/00118/dataunit_00118.json",
+  "category": "infrastructure-energy-management",
+  "captured_at_local": "2026-01-08 23:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_power_system_shutdown",
+  "summary": "Farm electrical system shutdown under operational constraints.",
+  "description": "Farm electrical system was shut down due to operational constraints. This record reflects end-of-day energy management after continuous farm activities. The shutdown time is referenced against the system activation recorded in data unit 00098. All daily activities between data units 00091 and 00118 were conducted under constrained energy conditions.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00118/hash/dataunit_00118.sha256",
+    "ots_file": "dataset/data-unit/00118/ots/dgcp_dataunit_00118.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_2351.jpg",
+    "cid": "bafybeifolv2pys3mt2frd7gno2k64ikwxkx3ttn2zbrnxqpysi5sysj2oq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifolv2pys3mt2frd7gno2k64ikwxkx3ttn2zbrnxqpysi5sysj2oq",
+    "reference_folder": "dataset/data-unit/00118/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
