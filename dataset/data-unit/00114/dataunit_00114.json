@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00114",
+  "file_path": "dataset/data-unit/00114/dataunit_00114.json",
+  "category": "primary-agricultural-activity",
+  "captured_at_local": "2026-01-08 17:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "manual_bed_preparation_for_planting",
+  "summary": "Manual digging and bed preparation for planting (mamee).",
+  "description": "Evening farm work continued with manual bed preparation for planting. The work was done without machinery, using only simple tools and physical labor. Actor noted: mamee.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00114/hash/dataunit_00114.sha256",
+    "ots_file": "dataset/data-unit/00114/ots/dgcp_dataunit_00114.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260108_1759_mamee.jpg",
+    "cid": "bafybeictu7ykv6gro7bfs3oouberahm4a2bhgcxljjgrovtx6teccxpsse",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeictu7ykv6gro7bfs3oouberahm4a2bhgcxljjgrovtx6teccxpsse",
+    "reference_folder": "dataset/data-unit/00114/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
