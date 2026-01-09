@@ -4,8 +4,6 @@ on:
   push:
     paths:
       - "dataset/data-unit/**/dataunit_*.json"
-    paths-ignore:
-      - "dataset/data-unit/**/hash/**"
 
   workflow_dispatch:
     inputs:
@@ -32,7 +30,6 @@ jobs:
           fetch-depth: 0
 
       - name: Set run mode
-        id: setmode
         run: |
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
             echo "MODE=${{ inputs.mode }}" >> $GITHUB_ENV
@@ -40,11 +37,9 @@ jobs:
             echo "MODE=auto_only" >> $GITHUB_ENV
           fi
 
-      - name: Generate SHA-256 files
+      - name: Generate SHA-256 sidecar files
         run: |
           set -e
-
-          changed=0
 
           write_sha () {
             f="$1"
@@ -61,17 +56,24 @@ jobs:
             sha="$(sha256sum "$f" | awk '{print $1}')"
 
             printf "SHA-256: %s\nFILE: %s\n" "$sha" "$f" > "$sha_file"
-            changed=1
           }
 
           if [ "$MODE" = "backfill" ]; then
+            # Backfill: process ALL units
             find dataset/data-unit -type f -name "dataunit_*.json" | sort | while read f; do
               write_sha "$f"
             done
           else
-            git diff --name-only HEAD^..HEAD -- 'dataset/data-unit/**/dataunit_*.json' | while read f; do
-              [ -f "$f" ] && write_sha "$f"
-            done
+            # Auto-only: process only recently changed units (best effort)
+            if git rev-parse HEAD^ >/dev/null 2>&1; then
+              git diff --name-only HEAD^..HEAD -- 'dataset/data-unit/**/dataunit_*.json' | while read f; do
+                [ -f "$f" ] && write_sha "$f"
+              done
+            else
+              find dataset/data-unit -type f -name "dataunit_*.json" | sort | while read f; do
+                write_sha "$f"
+              done
+            fi
           fi
 
       - name: Commit and push SHA files
