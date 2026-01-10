@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00139",
+  "file_path": "dataset/data-unit/00139/dataunit_00139.json",
+  "category": "farm_maintenance_operations",
+  "sub_category": "grass_cutting",
+  "captured_at_local": "2026-01-09 17:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_grass_cutting_operation",
+  "summary": "Grass cutting operation performed in the farm area during late-day hours.",
+  "description": "Grass cutting was performed in the farm area using a portable brush cutter. The activity documents routine land maintenance conducted during late-day conditions, without productivity or duration analysis.",
+  "operation": {
+    "task_type": "grass_cutting",
+    "equipment": "brush_cutter",
+    "time_context": "late_day",
+    "work_status": "active"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00139/hash/dataunit_00139.sha256",
+    "ots_file": "dataset/data-unit/00139/ots/dgcp_dataunit_00139.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_maint_20260109_1758.jpg",
+    "cid": "bafybeie2hbdt4umxrc6z7etvv5ehn2nn3yosnbjgwebhr3ne3atwk35d2i",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie2hbdt4umxrc6z7etvv5ehn2nn3yosnbjgwebhr3ne3atwk35d2i",
+    "reference_folder": "dataset/data-unit/00139/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
