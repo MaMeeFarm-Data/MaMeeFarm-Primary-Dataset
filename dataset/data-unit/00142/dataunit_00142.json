@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00142",
+  "file_path": "dataset/data-unit/00142/dataunit_00142.json",
+  "category": "energy_system_operation",
+  "sub_category": "power_shutdown_event",
+  "captured_at_local": "2026-01-10 00:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "inverter_shutdown_due_to_energy_depletion",
+  "summary": "Farm power system shutdown after full-day operation under energy constraints.",
+  "description": "Hybrid solar inverter shutdown recorded after the farm electrical system exhausted available energy. The system operated continuously throughout the day while supporting full data collection activities. This record marks the end-of-day power cycle, referencing the initial inverter activation at data unit 00126.",
+  "system_status": {
+    "inverter_state": "off",
+    "shutdown_reason": "energy_depletion",
+    "operation_context": "full_day_operation_under_constraints"
+  },
+  "temporal_reference": {
+    "power_on_reference": "dataunit_00126",
+    "data_units_covered": "00119-00142"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00142/hash/dataunit_00142.sha256",
+    "ots_file": "dataset/data-unit/00142/ots/dgcp_dataunit_00142.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_inverter_shutdown_20260110_0016.jpg",
+    "cid": "bafybeie2zwq6hdtlfa6jy4kipfgvhkwpbiys5hxfntocp6un2oimrvknny",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie2zwq6hdtlfa6jy4kipfgvhkwpbiys5hxfntocp6un2oimrvknny",
+    "reference_folder": "dataset/data-unit/00142/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
