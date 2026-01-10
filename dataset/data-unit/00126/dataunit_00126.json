@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00126",
+  "file_path": "dataset/data-unit/00126/dataunit_00126.json",
+  "category": "energy-system-operation",
+  "sub_category": "solar_inverter_activation",
+  "captured_at_local": "2026-01-09 07:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_power_on_morning",
+  "summary": "Solar inverter powered on during morning sunlight.",
+  "description": "Solar inverter activated in the morning when sunlight is available. Operation is linked to prior environmental condition recorded in data unit 00125 and inverter shutdown recorded in data unit 00118.",
+  "reference_relation": {
+    "linked_data_units": [
+      "00125",
+      "00118"
+    ],
+    "relation_type": "temporal_and_operational_sequence"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00126/hash/dataunit_00126.sha256",
+    "ots_file": "dataset/data-unit/00126/ots/dgcp_dataunit_00126.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0759.jpg",
+    "cid": "bafybeifsepmrcvnj5o7r2ltokmvudtv6d7lyw4zxtaohxiy5c6nmlsqvma",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifsepmrcvnj5o7r2ltokmvudtv6d7lyw4zxtaohxiy5c6nmlsqvma",
+    "reference_folder": "dataset/data-unit/00126/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
