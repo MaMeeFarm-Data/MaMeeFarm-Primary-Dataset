@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00132",
+  "file_path": "dataset/data-unit/00132/dataunit_00132.json",
+  "category": "energy-infrastructure-observation",
+  "sub_category": "solar_panel_system_condition",
+  "captured_at_local": "2026-01-09 13:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_panels_installed_on_farm_roof",
+  "summary": "Solar panel system installed on the farm roof observed during daytime.",
+  "description": "A set of four solar panels rated at 370 watts each is installed on the roof at MaMeeFarm. The system has been in use for approximately seven years. The panels are documented in their current installed condition as observed at the time of capture, without performance measurement or technical analysis.",
+  "infrastructure": {
+    "energy_type": "solar",
+    "panel_count": 4,
+    "rated_power_watt_per_panel": 370,
+    "installation_context": "roof-mounted",
+    "approximate_years_in_service": 7
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00132/hash/dataunit_00132.sha256",
+    "ots_file": "dataset/data-unit/00132/ots/dgcp_dataunit_00132.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_energy_20260109_1340.jpg",
+    "cid": "bafybeige64m326f72uwypv45an3bw7k4mk5jozvndh3wtuchsjdmglasgm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeige64m326f72uwypv45an3bw7k4mk5jozvndh3wtuchsjdmglasgm",
+    "reference_folder": "dataset/data-unit/00132/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
