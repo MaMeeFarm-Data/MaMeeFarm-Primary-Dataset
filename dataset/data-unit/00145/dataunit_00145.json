@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00145",
+  "file_path": "dataset/data-unit/00145/dataunit_00145.json",
+  "category": "farm_plant_observation",
+  "sub_category": "mango_flowering_stage",
+  "captured_at_local": "2026-01-10 07:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mango_trees_flowering_both_trees",
+  "summary": "Observation of mango trees at flowering stage at MaMeeFarm.",
+  "description": "Plant lifecycle observation showing mango trees at MaMeeFarm entering the flowering stage. Flowers are visible on both mango trees. Fruit set and yield outcomes are not yet determined and will require continued observation over time.",
+  "plant_context": {
+    "species": "mango",
+    "number_of_trees_observed": 2,
+    "growth_stage": "flowering",
+    "fruit_set_status": "unknown"
+  },
+  "temporal_reference": {
+    "previous_activity": "dataunit_00144"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00145/hash/dataunit_00145.sha256",
+    "ots_file": "dataset/data-unit/00145/ots/dgcp_dataunit_00145.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_mango_flowering_20260110_0756.jpg",
+    "cid": "bafybeiau5q6wvwomelgf34zdu5relz63qgrbl2fovambo4krvktgjdxemy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiau5q6wvwomelgf34zdu5relz63qgrbl2fovambo4krvktgjdxemy",
+    "reference_folder": "dataset/data-unit/00145/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
