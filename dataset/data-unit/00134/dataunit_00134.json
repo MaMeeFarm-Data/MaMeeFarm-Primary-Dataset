@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00134",
+  "file_path": "dataset/data-unit/00134/dataunit_00134.json",
+  "category": "infrastructure-alteration-observation",
+  "sub_category": "roof_structure_material_removal",
+  "captured_at_local": "2026-01-09 14:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "roof_structure_with_removed_steel_members",
+  "summary": "Roof structure observed with missing steel framing members.",
+  "description": "The interior roof structure is observed with sections of steel framing removed. The image documents the current structural condition as visible at the time of capture. This record reflects a past material alteration made prior to the establishment of the current farm systems. No structural assessment or justification is included.",
+  "context": {
+    "alteration_type": "material_removal",
+    "structure_component": "steel_roof_frame",
+    "temporal_context": "historical_condition_prior_to_system_building"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00134/hash/dataunit_00134.sha256",
+    "ots_file": "dataset/data-unit/00134/ots/dgcp_dataunit_00134.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_structure_20260109_1419.jpg",
+    "cid": "bafybeigsauucz2s7sm66dclsk5b4oe3pze7b3mk2fbw4nf4qszwf35ujiq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigsauucz2s7sm66dclsk5b4oe3pze7b3mk2fbw4nf4qszwf35ujiq",
+    "reference_folder": "dataset/data-unit/00134/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
