@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00141",
+  "file_path": "dataset/data-unit/00141/dataunit_00141.json",
+  "category": "environmental_monitoring",
+  "sub_category": "temperature_humidity_record",
+  "captured_at_local": "2026-01-10 00:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "late_night_temperature_humidity_measurement",
+  "summary": "Late night ambient temperature and humidity record.",
+  "description": "Environmental measurement recorded during late night hours using a digital temperature and humidity meter. The reading shows low ambient temperature conditions consistent with seasonal nighttime cooling.",
+  "measurement": {
+    "temperature_celsius": 15.5,
+    "humidity_percent": 67,
+    "measurement_device": "HTC-1 digital thermometer-hygrometer",
+    "measurement_context": "late_night"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00141/hash/dataunit_00141.sha256",
+    "ots_file": "dataset/data-unit/00141/ots/dgcp_dataunit_00141.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_temp_20260110_0015.jpg",
+    "cid": "bafybeieuqymeqk642wfeqzadoidrfrb2gpphllc3wrwsfj2ak3nenlift4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieuqymeqk642wfeqzadoidrfrb2gpphllc3wrwsfj2ak3nenlift4",
+    "reference_folder": "dataset/data-unit/00141/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
