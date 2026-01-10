@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00135",
+  "file_path": "dataset/data-unit/00135/dataunit_00135.json",
+  "category": "daily_operations",
+  "sub_category": "firewood_stove_ignition",
+  "captured_at_local": "2026-01-09 15:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "firewood_stove_ignition_for_dog_food_preparation",
+  "summary": "Ignition of a firewood stove for preparing food for dogs.",
+  "description": "A firewood stove was ignited using small pieces of firewood to prepare food for dogs. The image documents the ignition stage and setup as observed at the time of capture, without cooking duration, fuel efficiency, or outcome assessment.",
+  "operation": {
+    "purpose": "animal_feeding_preparation",
+    "fuel_type": "firewood",
+    "operation_stage": "ignition"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00135/hash/dataunit_00135.sha256",
+    "ots_file": "dataset/data-unit/00135/ots/dgcp_dataunit_00135.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_ops_20260109_1514.jpg",
+    "cid": "bafybeifhnocir54fl6tpxf5doyfyqwwz5a5zprscmq2nnxwyllwszrxjbe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifhnocir54fl6tpxf5doyfyqwwz5a5zprscmq2nnxwyllwszrxjbe",
+    "reference_folder": "dataset/data-unit/00135/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
