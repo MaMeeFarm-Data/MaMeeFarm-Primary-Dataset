@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00143",
+  "file_path": "dataset/data-unit/00143/dataunit_00143.json",
+  "category": "environmental_observation",
+  "sub_category": "morning_weather_and_atmosphere",
+  "captured_at_local": "2026-01-10 07:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cold_morning_farm_atmosphere",
+  "summary": "Early morning atmosphere at MaMeeFarm under cold weather conditions.",
+  "description": "Morning environmental observation recorded at MaMeeFarm showing clear sky, low ambient temperature, and calm farm surroundings. The atmosphere reflects cold early-day conditions, referenced against the morning temperature measurement recorded separately.",
+  "environment_context": {
+    "time_of_day": "morning",
+    "perceived_condition": "cold",
+    "weather_characteristic": "clear_and_calm"
+  },
+  "temporal_reference": {
+    "temperature_reference": "proof_464",
+    "previous_system_state": "dataunit_00142"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00143/hash/dataunit_00143.sha256",
+    "ots_file": "dataset/data-unit/00143/ots/dgcp_dataunit_00143.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_morning_atmosphere_20260110_0723.jpg",
+    "cid": "bafybeigslp34voec2rlxu44myothd7urbsvfto5q2kgqhewkrrrun4xd5m",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigslp34voec2rlxu44myothd7urbsvfto5q2kgqhewkrrrun4xd5m",
+    "reference_folder": "dataset/data-unit/00143/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
