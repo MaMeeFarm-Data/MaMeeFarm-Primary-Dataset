@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00129",
+  "file_path": "dataset/data-unit/00129/dataunit_00129.json",
+  "category": "environmental-condition-record",
+  "sub_category": "temperature_humidity_measurement",
+  "captured_at_local": "2026-01-09 09:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "late_morning_temperature_and_humidity_reading",
+  "summary": "Late morning temperature and humidity measurement recorded on-site.",
+  "description": "Temperature and humidity values were recorded using a digital thermometer-hygrometer (HTC-1). The display shows an air temperature of 42°C and relative humidity of 16% at the time of capture. This record represents an environmental snapshot without interpretation or inference.",
+  "measurement": {
+    "device_type": "digital thermometer-hygrometer",
+    "device_model": "HTC-1",
+    "temperature_celsius": 42,
+    "relative_humidity_percent": 16
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00129/hash/dataunit_00129.sha256",
+    "ots_file": "dataset/data-unit/00129/ots/dgcp_dataunit_00129.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_env_20260109_0911.jpg",
+    "cid": "bafybeidsxushbabwrahzyvzshlhoyfurnsqq5tch3og2duafcv6lgwqxvi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidsxushbabwrahzyvzshlhoyfurnsqq5tch3og2duafcv6lgwqxvi",
+    "reference_folder": "dataset/data-unit/00129/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
