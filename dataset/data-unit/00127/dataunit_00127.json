@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00127",
+  "file_path": "dataset/data-unit/00127/dataunit_00127.json",
+  "category": "farm-plant-observation",
+  "sub_category": "basil_plant_lifecycle_assessment",
+  "captured_at_local": "2026-01-09 09:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "old_basil_plant_water_stress_and_seasonal_decline",
+  "summary": "Observation of an aging basil plant with small leaves and water stress.",
+  "description": "Observation of a basil plant with small leaves, water deficiency, and advanced age. The plant occupies significant space and is observed to thrive only during the rainy season (July–October). During the cold season (from November onward), the plant typically declines and dries. This pattern has been observed repeatedly but had not been previously recorded as evidence.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00127/hash/dataunit_00127.sha256",
+    "ots_file": "dataset/data-unit/00127/ots/dgcp_dataunit_00127.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0904.jpg",
+    "cid": "bafybeihji6ayetiegurdsytjtqktk3kwjucdjlyxnggdthzvvo2i6iix3q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihji6ayetiegurdsytjtqktk3kwjucdjlyxnggdthzvvo2i6iix3q",
+    "reference_folder": "dataset/data-unit/00127/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
