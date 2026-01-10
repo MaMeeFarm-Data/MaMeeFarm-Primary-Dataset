@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00138",
+  "file_path": "dataset/data-unit/00138/dataunit_00138.json",
+  "category": "labor-activity-observation",
+  "sub_category": "late_day_field_work",
+  "captured_at_local": "2026-01-09 17:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "field_work_continues_near_sunset",
+  "summary": "Field work observed continuing near sunset.",
+  "description": "A labor activity in the field area at MaMeeFarm was observed continuing during late-day light conditions near sunset. The image documents ongoing work activity at the time of capture, without productivity measurement or interpretation.",
+  "observation": {
+    "activity_type": "field_work",
+    "time_context": "near_sunset",
+    "work_status": "ongoing"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00138/hash/dataunit_00138.sha256",
+    "ots_file": "dataset/data-unit/00138/ots/dgcp_dataunit_00138.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_labor_20260109_1756.jpg",
+    "cid": "bafybeicch4ky3ayla4liuosnpbbyqpiv5dxqpkbngvj626bl3uu6av3k3y",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicch4ky3ayla4liuosnpbbyqpiv5dxqpkbngvj626bl3uu6av3k3y",
+    "reference_folder": "dataset/data-unit/00138/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
