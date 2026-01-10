@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00136",
+  "file_path": "dataset/data-unit/00136/dataunit_00136.json",
+  "category": "daily_operations",
+  "sub_category": "firewood_cooking_completion",
+  "captured_at_local": "2026-01-09 15:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "firewood_cooking_completed_rice_preparation",
+  "summary": "Firewood cooking process completed for rice preparation.",
+  "description": "The firewood-based cooking process was completed, resulting in cooked rice. The total cooking duration was approximately 22 minutes. Cooking time varies by day depending on firewood condition, ambient temperature, and environmental factors. This record documents the completion stage without efficiency analysis.",
+  "operation": {
+    "purpose": "animal_feeding_preparation",
+    "fuel_type": "firewood",
+    "operation_stage": "completion",
+    "cooking_duration_minutes": 22
+  },
+  "reference_data_unit": "00135",
+  "verification": {
+    "hash_file": "dataset/data-unit/00136/hash/dataunit_00136.sha256",
+    "ots_file": "dataset/data-unit/00136/ots/dgcp_dataunit_00136.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_ops_20260109_1536.jpg",
+    "cid": "bafybeihwpkfm32t6nbshhorvdt7mtubdfleimdnlm6ywtqglxgowphuvmm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihwpkfm32t6nbshhorvdt7mtubdfleimdnlm6ywtqglxgowphuvmm",
+    "reference_folder": "dataset/data-unit/00136/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
