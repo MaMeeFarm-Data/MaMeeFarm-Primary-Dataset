@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00130",
+  "file_path": "dataset/data-unit/00130/dataunit_00130.json",
+  "category": "daily_life",
+  "sub_category": "food_consumption",
+  "captured_at_local": "2026-01-09 09:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "single_meal_rice_with_minced_pork",
+  "summary": "Single meal consisting of cooked rice and minced pork.",
+  "description": "A personal meal recorded at the time of consumption. The meal consists of cooked white rice served with minced pork. This record documents food intake as observed, without nutritional calculation or interpretation.",
+  "context": {
+    "meal_type": "single_meal",
+    "food_components": [
+      "cooked white rice",
+      "minced pork"
+    ]
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00130/hash/dataunit_00130.sha256",
+    "ots_file": "dataset/data-unit/00130/ots/dgcp_dataunit_00130.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_food_20260109_0934.jpg",
+    "cid": "bafybeihzel7bikc2gdillwx3nyp5ivn4hp2gbfbwwybk5jhnrzosnfwt7y",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihzel7bikc2gdillwx3nyp5ivn4hp2gbfbwwybk5jhnrzosnfwt7y",
+    "reference_folder": "dataset/data-unit/00130/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
