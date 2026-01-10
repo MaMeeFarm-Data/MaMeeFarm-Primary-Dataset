@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00140",
+  "file_path": "dataset/data-unit/00140/dataunit_00140.json",
+  "category": "farm_maintenance_operations",
+  "sub_category": "grass_cutting_zone_completion",
+  "captured_at_local": "2026-01-09 18:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_completed_in_assigned_zone",
+  "summary": "Grass cutting completed in a designated zone during evening hours.",
+  "description": "Grass cutting work was completed for the designated zone as planned. The overall task was not completed for the entire area, as work was intentionally divided into zones to manage physical capacity and workload per day. This record documents zone-level completion without productivity or efficiency analysis.",
+  "operation": {
+    "task_type": "grass_cutting",
+    "equipment": "brush_cutter",
+    "work_scope": "zone_based",
+    "completion_status": "zone_completed",
+    "time_context": "early_evening"
+  },
+  "reference_data_unit": "00139",
+  "verification": {
+    "hash_file": "dataset/data-unit/00140/hash/dataunit_00140.sha256",
+    "ots_file": "dataset/data-unit/00140/ots/dgcp_dataunit_00140.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_maint_20260109_1807.jpg",
+    "cid": "bafybeie34kqnwqz52mmiuisxya265kdif26cllbeczpdwulajissn7p7xm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie34kqnwqz52mmiuisxya265kdif26cllbeczpdwulajissn7p7xm",
+    "reference_folder": "dataset/data-unit/00140/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
