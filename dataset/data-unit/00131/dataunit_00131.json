@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00131",
+  "file_path": "dataset/data-unit/00131/dataunit_00131.json",
+  "category": "animal-behavior-observation",
+  "sub_category": "canine_resting_and_sun_exposure",
+  "captured_at_local": "2026-01-09 11:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_dogs_resting_under_sunlight",
+  "summary": "Farm dogs observed resting and lying under direct sunlight during late morning hours.",
+  "description": "Multiple dogs at MaMeeFarm were observed lying and resting on open ground exposed to sunlight. The animals remained stationary at the time of capture. This observation documents animal resting behavior without interpretation.",
+  "reference_data_unit": "00129",
+  "verification": {
+    "hash_file": "dataset/data-unit/00131/hash/dataunit_00131.sha256",
+    "ots_file": "dataset/data-unit/00131/ots/dgcp_dataunit_00131.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_animal_20260109_1149.jpg",
+    "cid": "bafybeigpc2vwdjwrhgvczrbwnu5wky25fyjtwsqjlburnkbaiygvvj5sg4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigpc2vwdjwrhgvczrbwnu5wky25fyjtwsqjlburnkbaiygvvj5sg4",
+    "reference_folder": "dataset/data-unit/00131/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
