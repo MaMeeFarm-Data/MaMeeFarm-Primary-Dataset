@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00137",
+  "file_path": "dataset/data-unit/00137/dataunit_00137.json",
+  "category": "animal_care_operations",
+  "sub_category": "dog_feeding_evening",
+  "captured_at_local": "2026-01-09 17:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_dog_feeding_routine",
+  "summary": "Evening feeding of farm dogs as part of a twice-daily feeding routine.",
+  "description": "Farm dogs were fed during the evening feeding session. Dry dog food was prepared and distributed. This record documents the evening feeding event as part of a routine where dogs are fed twice daily. The morning feeding session is referenced separately.",
+  "operation": {
+    "animal_type": "dog",
+    "feeding_time": "evening",
+    "feeding_frequency_per_day": 2,
+    "food_type": "dry_dog_food"
+  },
+  "reference_data_unit": "00119",
+  "verification": {
+    "hash_file": "dataset/data-unit/00137/hash/dataunit_00137.sha256",
+    "ots_file": "dataset/data-unit/00137/ots/dgcp_dataunit_00137.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_animal_20260109_1723.jpg",
+    "cid": "bafybeiefd7eeaz5zlp5qnxyih24lm2rpphn4aktekvmm7f2tmjoyxf533q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiefd7eeaz5zlp5qnxyih24lm2rpphn4aktekvmm7f2tmjoyxf533q",
+    "reference_folder": "dataset/data-unit/00137/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
