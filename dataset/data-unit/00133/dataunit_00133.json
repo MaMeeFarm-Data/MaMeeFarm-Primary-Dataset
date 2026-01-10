@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00133",
+  "file_path": "dataset/data-unit/00133/dataunit_00133.json",
+  "category": "energy-infrastructure-observation",
+  "sub_category": "hybrid_solar_inverter_condition",
+  "captured_at_local": "2026-01-09 13:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "hybrid_solar_inverter_installed_at_farm",
+  "summary": "Hybrid solar inverter observed in installed condition at the farm.",
+  "description": "A hybrid solar inverter with a rated capacity of 1600 watts is installed at MaMeeFarm. The inverter has been in use for approximately seven years. The device labeling and front panel are documented as observed at the time of capture, without operational testing or performance analysis.",
+  "infrastructure": {
+    "energy_type": "solar_hybrid",
+    "device_type": "inverter",
+    "rated_power_watt": 1600,
+    "installation_context": "fixed installation",
+    "approximate_years_in_service": 7
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00133/hash/dataunit_00133.sha256",
+    "ots_file": "dataset/data-unit/00133/ots/dgcp_dataunit_00133.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_energy_20260109_1341.jpg",
+    "cid": "bafybeicvckp4ebqaqestxjs3p6afk6kcat5nkp6scmb3xti6yljgqqp65e",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicvckp4ebqaqestxjs3p6afk6kcat5nkp6scmb3xti6yljgqqp65e",
+    "reference_folder": "dataset/data-unit/00133/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
