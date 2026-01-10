@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00125",
+  "file_path": "dataset/data-unit/00125/dataunit_00125.json",
+  "category": "environment-observation",
+  "sub_category": "surrounding_farmland_condition",
+  "captured_at_local": "2026-01-09 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "surrounding_corn_field_morning_sunlight",
+  "summary": "Surrounding corn field with visible morning sunlight.",
+  "description": "Observation of the surrounding farmland near MaMeeFarm. Corn field visible with clear morning sunlight after sunrise.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00125/hash/dataunit_00125.sha256",
+    "ots_file": "dataset/data-unit/00125/ots/dgcp_dataunit_00125.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0758.jpg",
+    "cid": "bafybeibckm32velhumfbaqyomjrjpnhmawvf6aeh6lownpzlc3h5z3seba",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibckm32velhumfbaqyomjrjpnhmawvf6aeh6lownpzlc3h5z3seba",
+    "reference_folder": "dataset/data-unit/00125/external-reference/",
+    "note": "External reference is provided for verification convenience only and does not serve as a primary anchor."
+  },
+  "actor": "P'Toh",
+  "license": "DGCP | MMFARM-POL-2025"
+}
