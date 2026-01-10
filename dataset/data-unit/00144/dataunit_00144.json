@@ -1,0 +1,46 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00144",
+  "file_path": "dataset/data-unit/00144/dataunit_00144.json",
+  "category": "animal_care",
+  "sub_category": "dog_feeding_morning",
+  "captured_at_local": "2026-01-10 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_feeding_with_kibble",
+  "summary": "Morning dog feeding at MaMeeFarm using dry kibble.",
+  "description": "Morning feeding activity for farm dogs. The image shows a bucket of dry kibble with a measuring scoop and multiple dogs gathered for feeding. A lactating mother dog is observed nursing puppies during the feeding time window.",
+  "activity_context": {
+    "routine": "twice_daily_feeding",
+    "time_of_day": "morning",
+    "feed_type": "dry_kibble",
+    "method": "measured_scoop"
+  },
+  "animal_context": {
+    "species": "dog",
+    "observation_notes": [
+      "multiple_dogs_present",
+      "mother_dog_nursing_puppies"
+    ]
+  },
+  "temporal_reference": {
+    "previous_environment_record": "dataunit_00143"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00144/hash/dataunit_00144.sha256",
+    "ots_file": "dataset/data-unit/00144/ots/dgcp_dataunit_00144.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_dog_feeding_20260110_0751.jpg",
+    "cid": "bafybeibutfsf2zoulsanmxzjmscxrmamye76f76n5ftjzncbyyuorhuunm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibutfsf2zoulsanmxzjmscxrmamye76f76n5ftjzncbyyuorhuunm",
+    "reference_folder": "dataset/data-unit/00144/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
