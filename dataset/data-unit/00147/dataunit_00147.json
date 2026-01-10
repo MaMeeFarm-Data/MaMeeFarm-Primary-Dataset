@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00147",
+  "file_path": "dataset/data-unit/00147/dataunit_00147.json",
+  "category": "farm_environment_measurement",
+  "sub_category": "temperature_humidity_duck_coop",
+  "captured_at_local": "2026-01-10 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Duck Coop, Thailand",
+  "data_type": "image",
+  "title": "morning_duck_coop_temperature_humidity",
+  "summary": "Morning temperature and humidity measurement inside the duck coop.",
+  "description": "Temperature and humidity reading recorded inside the duck coop during the morning. The measurement shows low ambient temperature and high relative humidity, supporting environmental conditions that explain overnight dew formation observed on soil surfaces in nearby vegetable plots.",
+  "measured_values": {
+    "temperature_celsius": 11.3,
+    "humidity_percent": 85
+  },
+  "measurement_context": {
+    "device_model": "HTC-2",
+    "measurement_period": "early_morning",
+    "environment": "semi-enclosed_duck_coop"
+  },
+  "cross_reference": {
+    "explains_data_unit": "dataunit_00146",
+    "related_proofs": [
+      "proof_464"
+    ]
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00147/hash/dataunit_00147.sha256",
+    "ots_file": "dataset/data-unit/00147/ots/dgcp_dataunit_00147.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_duck_coop_temp_humidity_20260110_0757.jpg",
+    "cid": "bafybeihnyca6d2mf7njsclrsrgvmva4chn4cy7okjnfzhwadvine6xlvri",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihnyca6d2mf7njsclrsrgvmva4chn4cy7okjnfzhwadvine6xlvri",
+    "reference_folder": "dataset/data-unit/00147/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
