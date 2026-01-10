@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00146",
+  "file_path": "dataset/data-unit/00146/dataunit_00146.json",
+  "category": "farm_environment_observation",
+  "sub_category": "soil_surface_moisture_dew_effect",
+  "captured_at_local": "2026-01-10 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_soil_moisture_without_irrigation",
+  "summary": "Observation of soil surface moisture in vegetable plots caused by overnight dew accumulation.",
+  "description": "Observation of vegetable plot soil conditions in the morning. The soil surface appears moist despite no irrigation being applied. Moisture is attributed to strong overnight dew formation from late night to early morning. This observation references recorded humidity conditions and supports later irrigation decisions made during the day.",
+  "environment_context": {
+    "irrigation_applied": false,
+    "observed_moisture_source": "overnight_dew",
+    "time_window": "night_to_early_morning"
+  },
+  "cross_reference": {
+    "related_data_units": [
+      "dataunit_00141"
+    ],
+    "related_proofs": [
+      "proof_464"
+    ],
+    "related_nft": "7_ducks_of_hope_day_136_part_2"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00146/hash/dataunit_00146.sha256",
+    "ots_file": "dataset/data-unit/00146/ots/dgcp_dataunit_00146.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_soil_moisture_dew_20260110_0757.jpg",
+    "cid": "bafybeid4h62gccfljiticoc22s4apdy7fvukty3h3gbznvjbrs5prsbabq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeid4h62gccfljiticoc22s4apdy7fvukty3h3gbznvjbrs5prsbabq",
+    "reference_folder": "dataset/data-unit/00146/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
