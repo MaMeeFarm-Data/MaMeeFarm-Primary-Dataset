@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00128",
+  "file_path": "dataset/data-unit/00128/dataunit_00128.json",
+  "category": "farm-plant-management",
+  "sub_category": "basil_plant_removal_and_land_clearing",
+  "captured_at_local": "2026-01-09 09:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "basil_plant_removed_land_cleared_for_additional_vegetable_beds",
+  "summary": "Removal of an old basil plant to clear space for additional vegetable planting areas.",
+  "description": "The previously observed old basil plant was removed, resulting in a cleared area with increased available space. The cleared land is now suitable for establishing multiple additional vegetable beds. This action follows the documented observation of seasonal decline and space occupation recorded in Data Unit 00127.",
+  "reference_data_unit": "00127",
+  "verification": {
+    "hash_file": "dataset/data-unit/00128/hash/dataunit_00128.sha256",
+    "ots_file": "dataset/data-unit/00128/ots/dgcp_dataunit_00128.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260109_0906.jpg",
+    "cid": "bafybeihj3f2rtzq2rceaameka5ocjilk3jfoyvy54ytmrneeqoez3iwmiq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihj3f2rtzq2rceaameka5ocjilk3jfoyvy54ytmrneeqoez3iwmiq",
+    "reference_folder": "dataset/data-unit/00128/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
