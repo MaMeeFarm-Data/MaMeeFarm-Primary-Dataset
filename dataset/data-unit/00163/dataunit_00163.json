@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00163",
+  "file_path": "dataset/data-unit/00163/dataunit_00163.json",
+  "category": "environment_monitoring",
+  "sub_category": "temperature_humidity_snapshot",
+  "captured_at_local": "2026-01-10 23:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm House Balcony (Wall)",
+  "data_type": "image",
+  "title": "night_temperature_humidity_snapshot",
+  "summary": "Night-time temperature and humidity snapshot recorded at the house balcony wall.",
+  "description": "A temperature and humidity snapshot was recorded at 23:09 local time to document night environmental conditions. The instrument display shows 16.6°C and 67% RH.",
+  "observations": {
+    "temperature_c": 16.6,
+    "humidity_rh_percent": 67,
+    "time_display_note": "Instrument display indicates PM 11:09."
+  },
+  "references": {
+    "related_data_units": ["00162", "00161"],
+    "relationship_note": "Night snapshot following evening environmental checks on the same date."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_night_temp_humidity_20260110_2309.jpg",
+    "cid": "bafybeihiqzuuhkg5lwmxsh5fa2734dwpyo7z3w2qhfyrprxflbv5uupkom",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihiqzuuhkg5lwmxsh5fa2734dwpyo7z3w2qhfyrprxflbv5uupkom",
+    "reference_folder": "dataset/data-unit/00163/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00163/hash/dataunit_00163.sha256",
+    "ots_file": "dataset/data-unit/00163/ots/dgcp_dataunit_00163.ots"
+  },
+  "actor": "human",
+  "license": "DGCP | MMFARM-POL-2025"
+}
