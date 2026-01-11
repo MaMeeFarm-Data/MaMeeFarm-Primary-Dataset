@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00160",
+  "file_path": "dataset/data-unit/00160/dataunit_00160.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature_humidity_record",
+  "captured_at_local": "2026-01-10 17:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Duck Coop (Empty)",
+  "data_type": "image",
+  "title": "empty_duck_coop_evening_temperature_humidity",
+  "summary": "Evening temperature and humidity measurement inside an empty duck coop.",
+  "description": "Temperature and humidity were recorded in the empty duck coop during the evening. This record provides a comparison point with the morning measurement captured earlier the same day.",
+  "measurement": {
+    "temperature_inside_celsius": 20.0,
+    "temperature_outside_celsius": 24.0,
+    "humidity_percent": 60,
+    "measurement_device": "HTC-2 digital thermometer/hygrometer"
+  },
+  "reference": {
+    "morning_temperature_data_unit": "00147",
+    "note": "Used for diurnal comparison between morning and evening conditions."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_duckcoop_temp_evening_20260110_1755.jpg",
+    "cid": "bafybeieltohfrfckg74ztuqwijckycupsoll5gug5fzedatutsb2o2jbum",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieltohfrfckg74ztuqwijckycupsoll5gug5fzedatutsb2o2jbum",
+    "reference_folder": "dataset/data-unit/00160/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00160/hash/dataunit_00160.sha256",
+    "ots_file": "dataset/data-unit/00160/ots/dgcp_dataunit_00160.ots"
+  },
+  "actor": "environment_sensor",
+  "license": "DGCP | MMFARM-POL-2025"
+}
