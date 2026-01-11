@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00179",
+  "file_path": "dataset/data-unit/00179/dataunit_00179.json",
+  "category": "farm-infrastructure-operation",
+  "sub_category": "solar_powered_water_pumping",
+  "captured_at_local": "2026-01-11 12:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_direct_water_pumping_midday",
+  "summary": "Water pumping operation conducted using direct solar power during peak sunlight hours.",
+  "description": "Water was pumped into a storage tank during peak sunlight hours using electricity generated directly from solar panels. This operation was intentionally scheduled between approximately 11:00 and 14:00 to avoid drawing power from stored batteries and to utilize direct solar generation efficiently.",
+  "reference": {
+    "related_data_units": [
+      "00164",
+      "00176",
+      "00178"
+    ],
+    "time_window_note": "Direct solar pumping window approximately 11:00–14:00"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1234_solar_water_pump.jpg",
+    "cid": "bafybeigascnaz2s6w7rzhd7u6r3ztk23t7wxpokoc5ftrqzkroub7yowii",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigascnaz2s6w7rzhd7u6r3ztk23t7wxpokoc5ftrqzkroub7yowii",
+    "reference_folder": "dataset/data-unit/00179/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
