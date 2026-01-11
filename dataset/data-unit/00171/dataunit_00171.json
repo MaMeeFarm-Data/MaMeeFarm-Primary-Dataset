@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00171",
+  "file_path": "dataset/data-unit/00171/dataunit_00171.json",
+  "category": "on-farm-food-cycle",
+  "sub_category": "banana_bunch_growth_observation",
+  "captured_at_local": "2026-01-11 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_bunch_pre_harvest_stage",
+  "summary": "Observation of a banana bunch approaching harvest stage.",
+  "description": "Field observation showing a banana bunch on the tree estimated by the farm operator to be approximately one week from harvest. This record documents internal food resource rotation within the farm and is not associated with commercial sale. The observation follows a prior banana harvest recorded in data unit 00104.",
+  "related_data_units": [
+    "00104"
+  ],
+  "verification": {
+    "hash_file": "dataset/data-unit/00171/hash/dataunit_00171.sha256",
+    "ots_file": "dataset/data-unit/00171/ots/dgcp_dataunit_00171.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0808_banana.jpg",
+    "cid": "bafybeicxgyszusd7pldk4327ckcwkbcotux3j6jdcyv5z2r46pqebacmme",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicxgyszusd7pldk4327ckcwkbcotux3j6jdcyv5z2r46pqebacmme",
+    "reference_folder": "dataset/data-unit/00171/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
