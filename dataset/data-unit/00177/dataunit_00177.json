@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00177",
+  "file_path": "dataset/data-unit/00177/dataunit_00177.json",
+  "category": "environmental-measurement",
+  "sub_category": "ambient_temperature_humidity_check",
+  "captured_at_local": "2026-01-11 10:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "ambient_temperature_humidity_after_sunlight_appearance",
+  "summary": "Ambient temperature and humidity check after sunlight begins to appear.",
+  "description": "Measurement of ambient temperature and humidity taken after sunlight began to appear later in the morning. Recorded temperature is 16.9°C with relative humidity at 69%. This record provides comparison against earlier cold and high-humidity conditions.",
+  "measurement": {
+    "temperature_celsius": 16.9,
+    "relative_humidity_percent": 69
+  },
+  "reference": {
+    "related_data_units": [
+      "00174",
+      "00176"
+    ]
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00177/hash/dataunit_00177.sha256",
+    "ots_file": "dataset/data-unit/00177/ots/dgcp_dataunit_00177.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1024_temperature_check.jpg",
+    "cid": "bafybeihgznhxdsh527cisppxmqxw4zhv7edrjkytbfynlbcbij3ak4c7ay",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihgznhxdsh527cisppxmqxw4zhv7edrjkytbfynlbcbij3ak4c7ay",
+    "reference_folder": "dataset/data-unit/00177/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
