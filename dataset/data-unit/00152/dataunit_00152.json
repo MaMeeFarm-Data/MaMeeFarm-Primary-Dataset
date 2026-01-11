@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00152",
+  "file_path": "dataset/data-unit/00152/dataunit_00152.json",
+  "category": "environmental-monitoring",
+  "sub_category": "daytime_temperature_humidity_record",
+  "captured_at_local": "2026-01-10 12:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "daytime_temperature_and_humidity_measurement",
+  "summary": "Daytime temperature and humidity measurement recorded at MaMeeFarm.",
+  "description": "Midday environmental measurement showing air temperature and relative humidity during daytime hours. This record complements earlier morning and nighttime temperature records to support continuous daily environmental monitoring.",
+  "measurement": {
+    "temperature_celsius": 21.5,
+    "relative_humidity_percent": 54,
+    "period": "daytime"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_temperature_daytime_20260110_1247.jpg",
+    "cid": "bafybeihapfjlgddflwm6cj3aiggffcuu7o7dpnczd6h3wkbfzk3sbsvoki",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihapfjlgddflwm6cj3aiggffcuu7o7dpnczd6h3wkbfzk3sbsvoki",
+    "reference_folder": "dataset/data-unit/00152/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00152/hash/dataunit_00152.sha256",
+    "ots_file": "dataset/data-unit/00152/ots/dgcp_dataunit_00152.ots"
+  },
+  "actor": "sensor_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
