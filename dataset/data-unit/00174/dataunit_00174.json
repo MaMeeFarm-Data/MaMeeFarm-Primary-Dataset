@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00174",
+  "file_path": "dataset/data-unit/00174/dataunit_00174.json",
+  "category": "environmental-measurement",
+  "sub_category": "balcony_temperature_humidity_check",
+  "captured_at_local": "2026-01-11 08:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "balcony_temperature_before_system_start",
+  "summary": "Temperature and humidity measurement at the house balcony before starting system operations.",
+  "description": "Image records the measurement of ambient temperature and relative humidity at the house balcony before beginning work in the system. The device display shows temperature 13.5°C and relative humidity 73%.",
+  "measurement": {
+    "temperature_celsius": 13.5,
+    "humidity_percent": 73
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00174/hash/dataunit_00174.sha256",
+    "ots_file": "dataset/data-unit/00174/ots/dgcp_dataunit_00174.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0820_balcony_temp.jpg",
+    "cid": "bafybeierwapd2wto6t3a33peifddmllavvcockttzunz6aud6v6uhz46na",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeierwapd2wto6t3a33peifddmllavvcockttzunz6aud6v6uhz46na",
+    "reference_folder": "dataset/data-unit/00174/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
