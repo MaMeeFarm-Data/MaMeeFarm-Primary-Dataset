@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00159",
+  "file_path": "dataset/data-unit/00159/dataunit_00159.json",
+  "category": "farm-activity",
+  "sub_category": "watering",
+  "captured_at_local": "2026-01-10 17:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "watering_marigold_after_sowing",
+  "summary": "Watering marigold area after sowing seeds, using stored reserve water.",
+  "description": "Marigold planting zone was watered after seeds were sown. This completes a short activity sequence: seed collection (00157) → seed sowing (00158) → watering (00159). Water used for this activity was sourced from previously filled reserve water, forming a verifiable water-usage cycle.",
+  "context": {
+    "plant": "marigold",
+    "action": "watering_after_sowing",
+    "sequence": [
+      { "step": 1, "data_unit_id": "00157", "activity": "seed_collection" },
+      { "step": 2, "data_unit_id": "00158", "activity": "seed_sowing" },
+      { "step": 3, "data_unit_id": "00159", "activity": "watering" }
+    ],
+    "water_cycle_reference": {
+      "water_source_data_units": ["00155", "00154", "00153"],
+      "note": "Reserve water was previously filled and later used to sustain plants; this record confirms usage."
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_marigold_watering_20260110_1753.jpg",
+    "cid": "bafybeiazjewkvb2isjar4rmacyojjsqy6llemkicid3edtpaq2tz2zazua",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiazjewkvb2isjar4rmacyojjsqy6llemkicid3edtpaq2tz2zazua",
+    "reference_folder": "dataset/data-unit/00159/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00159/hash/dataunit_00159.sha256",
+    "ots_file": "dataset/data-unit/00159/ots/dgcp_dataunit_00159.ots"
+  },
+  "actor": "human_labor",
+  "license": "DGCP | MMFARM-POL-2025"
+}
