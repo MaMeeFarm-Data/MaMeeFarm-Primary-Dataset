@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00148",
+  "file_path": "dataset/data-unit/00148/dataunit_00148.json",
+  "category": "farm_labor_activity",
+  "sub_category": "vegetable_bed_preparation",
+  "captured_at_local": "2026-01-10 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_vegetable_bed_digging_after_basil_clearing",
+  "summary": "Labor begins digging vegetable beds following basil plant clearing from the previous day.",
+  "description": "Morning labor activity showing the start of vegetable bed digging. This action follows the basil plant clearing and area preparation recorded in data units 00127 and 00128 on the previous day.",
+  "activity_context": {
+    "previous_activity": [
+      "dataunit_00127",
+      "dataunit_00128"
+    ],
+    "current_activity": "soil_digging_for_vegetable_bed",
+    "time_of_day": "morning"
+  },
+  "labor_context": {
+    "labor_type": "manual",
+    "actor_role": "farm_labor",
+    "pace": "moderate",
+    "condition": "cool_morning_temperature"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_vegetable_bed_digging_20260110_0800.jpg",
+    "cid": "bafybeig4auqs3wv5zub5grza2v4vjew6qnxdefmshzrgprkoqvuda56ndm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig4auqs3wv5zub5grza2v4vjew6qnxdefmshzrgprkoqvuda56ndm",
+    "reference_folder": "dataset/data-unit/00148/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00148/hash/dataunit_00148.sha256",
+    "ots_file": "dataset/data-unit/00148/ots/dgcp_dataunit_00148.ots"
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
