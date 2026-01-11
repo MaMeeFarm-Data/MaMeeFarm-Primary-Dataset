@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00157",
+  "file_path": "dataset/data-unit/00157/dataunit_00157.json",
+  "category": "farm-activity",
+  "sub_category": "seed_collection_and_replanting",
+  "captured_at_local": "2026-01-10 17:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "collecting_dried_marigold_seeds_for_replanting",
+  "summary": "Collecting dried marigold seeds to replant for pest deterrence and farm atmosphere.",
+  "description": "Dried marigold seeds were collected from mature flower heads for replanting. The intent is to support natural pest deterrence and improve the farm environment through flowering plants.",
+  "context": {
+    "plant": "marigold",
+    "seed_status": "dried",
+    "intended_use": [
+      "replanting",
+      "pest_deterrence",
+      "farm_atmosphere"
+    ],
+    "time_of_day": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_marigold_seed_collection_20260110_1750.jpg",
+    "cid": "bafybeifraiujkznxdljvvmom5uj7mgeuvhj6idl75mhumt2n6k4svjrvpy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifraiujkznxdljvvmom5uj7mgeuvhj6idl75mhumt2n6k4svjrvpy",
+    "reference_folder": "dataset/data-unit/00157/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00157/hash/dataunit_00157.sha256",
+    "ots_file": "dataset/data-unit/00157/ots/dgcp_dataunit_00157.ots"
+  },
+  "actor": "human_labor",
+  "license": "DGCP | MMFARM-POL-2025"
+}
