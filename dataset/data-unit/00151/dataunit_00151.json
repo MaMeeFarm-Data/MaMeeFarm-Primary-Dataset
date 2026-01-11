@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00151",
+  "file_path": "dataset/data-unit/00151/dataunit_00151.json",
+  "category": "farm-energy-operations",
+  "sub_category": "solar_inverter_power_on",
+  "captured_at_local": "2026-01-10 08:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_inverter_power_on_after_night_shutdown",
+  "summary": "Morning action to open the farm power system after daylight begins.",
+  "description": "Record of opening the farm electrical system in the morning after daylight appears. This event references the morning sunlight onset recorded in data unit 00150 and the prior inverter shutdown recorded in data unit 00142. Farm operations are conducted under power and resource constraints.",
+  "operation_context": {
+    "system": "hybrid_solar_inverter",
+    "event": "power_on",
+    "constraint_context": "work_under_constraints",
+    "reference_data_unit": [
+      "00142",
+      "00150"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_inverter_power_on_20260110_0805.jpg",
+    "cid": "bafybeic5o5srhwbah3xzrjtbngvjladnm3w7q73idd2xvmevz7uc4r4gua",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic5o5srhwbah3xzrjtbngvjladnm3w7q73idd2xvmevz7uc4r4gua",
+    "reference_folder": "dataset/data-unit/00151/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00151/hash/dataunit_00151.sha256",
+    "ots_file": "dataset/data-unit/00151/ots/dgcp_dataunit_00151.ots"
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
