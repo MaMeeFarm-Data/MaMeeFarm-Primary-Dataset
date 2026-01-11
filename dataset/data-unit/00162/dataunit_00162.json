@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00162",
+  "file_path": "dataset/data-unit/00162/dataunit_00162.json",
+  "category": "environment_monitoring",
+  "sub_category": "temperature_humidity_snapshot",
+  "captured_at_local": "2026-01-10 18:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm House Balcony (Wall)",
+  "data_type": "image",
+  "title": "balcony_wall_temperature_humidity_check_evening",
+  "summary": "Temperature and humidity were checked at the house balcony wall shortly after dog bedding collection.",
+  "description": "A temperature and humidity snapshot was recorded at the house balcony wall at 18:21 local time to capture environmental conditions closest to the time of dog bedding collection. The instrument display shows 21.1°C and 62% RH.",
+  "observations": {
+    "temperature_c": 21.1,
+    "humidity_rh_percent": 62,
+    "time_display_note": "Instrument display indicates PM 6:21."
+  },
+  "references": {
+    "related_data_units": ["00161"],
+    "relationship_note": "Recorded immediately after data unit 00161 for time proximity and supporting environmental evidence."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_balcony_wall_temp_humidity_20260110_1821.jpg",
+    "cid": "bafybeieciihmlhoogygck7xgdijghhxm6husovbtje6sadv6dhp7cwyywy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieciihmlhoogygck7xgdijghhxm6husovbtje6sadv6dhp7cwyywy",
+    "reference_folder": "dataset/data-unit/00162/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00162/hash/dataunit_00162.sha256",
+    "ots_file": "dataset/data-unit/00162/ots/dgcp_dataunit_00162.ots"
+  },
+  "actor": "human",
+  "license": "DGCP | MMFARM-POL-2025"
+}
