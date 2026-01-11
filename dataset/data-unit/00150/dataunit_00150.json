@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00150",
+  "file_path": "dataset/data-unit/00150/dataunit_00150.json",
+  "category": "farm-environment-observation",
+  "sub_category": "morning_sunlight_winter",
+  "captured_at_local": "2026-01-10 08:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "early_morning_sunlight_winter_season",
+  "summary": "Observation of early morning sunlight during winter with delayed daylight.",
+  "description": "Observation showing the onset of morning sunlight during winter conditions. Daylight duration is shorter compared to other seasons, with extended nighttime and later morning light appearance.",
+  "environment_context": {
+    "season": "winter",
+    "day_night_pattern": "longer_night_shorter_day",
+    "related_observations": [
+      "dew_formation",
+      "high_morning_humidity"
+    ],
+    "reference_data_unit": [
+      "00147",
+      "00149"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_morning_sunlight_winter_20260110_0804.jpg",
+    "cid": "bafybeibj2vphj3yjg2mkxr6lxcrojg5fg6t3xuzbaert4wegm73o55j3ge",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibj2vphj3yjg2mkxr6lxcrojg5fg6t3xuzbaert4wegm73o55j3ge",
+    "reference_folder": "dataset/data-unit/00150/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00150/hash/dataunit_00150.sha256",
+    "ots_file": "dataset/data-unit/00150/ots/dgcp_dataunit_00150.ots"
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
