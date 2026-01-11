@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00149",
+  "file_path": "dataset/data-unit/00149/dataunit_00149.json",
+  "category": "farm-environment-observation",
+  "sub_category": "dew_and_humidity_evidence",
+  "captured_at_local": "2026-01-10 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dew_on_banana_leaf",
+  "summary": "Observation of dew accumulation on banana leaf surface in the morning.",
+  "description": "Morning observation showing visible dew accumulation on a banana leaf. This serves as physical environmental evidence of high overnight humidity, consistent with humidity and temperature measurements recorded earlier in the duck shelter.",
+  "environment_context": {
+    "phenomenon": "dew_formation",
+    "related_factors": [
+      "high_humidity",
+      "low_night_temperature",
+      "early_morning_condensation"
+    ],
+    "reference_data_unit": "00147"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_banana_leaf_dew_20260110_0800.jpg",
+    "cid": "bafybeic5ojd6qyvyasfh6dz5y3kevtz5dlmmiumv2dqokq5tnzvszrbq4i",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic5ojd6qyvyasfh6dz5y3kevtz5dlmmiumv2dqokq5tnzvszrbq4i",
+    "reference_folder": "dataset/data-unit/00149/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00149/hash/dataunit_00149.sha256",
+    "ots_file": "dataset/data-unit/00149/ots/dgcp_dataunit_00149.ots"
+  },
+  "actor": "system_logged",
+  "license": "DGCP | MMFARM-POL-2025"
+}
