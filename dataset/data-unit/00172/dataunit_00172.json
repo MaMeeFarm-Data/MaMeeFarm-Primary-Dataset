@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00172",
+  "file_path": "dataset/data-unit/00172/dataunit_00172.json",
+  "category": "environmental-observation",
+  "sub_category": "cloud_cover_morning",
+  "captured_at_local": "2026-01-11 08:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "overcast_sky_morning_no_direct_sunlight",
+  "summary": "Morning sky observation showing dense cloud cover with no direct sunlight.",
+  "description": "Visual environmental observation recorded in the morning showing extensive cloud coverage across the sky. At the time of capture, direct sunlight was not present. Ambient conditions are referenced against temperature and humidity measurements recorded earlier in the duck coop (data unit 00168).",
+  "related_data_units": [
+    "00168"
+  ],
+  "verification": {
+    "hash_file": "dataset/data-unit/00172/hash/dataunit_00172.sha256",
+    "ots_file": "dataset/data-unit/00172/ots/dgcp_dataunit_00172.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0817_overcast_sky.jpg",
+    "cid": "bafybeigwt4xkewqo3vjkjj2ly4vtyxvtbnt65wnyt4ogcyldrnqbqgq23m",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigwt4xkewqo3vjkjj2ly4vtyxvtbnt65wnyt4ogcyldrnqbqgq23m",
+    "reference_folder": "dataset/data-unit/00172/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
