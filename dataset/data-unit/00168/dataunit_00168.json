@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00168",
+  "file_path": "dataset/data-unit/00168/dataunit_00168.json",
+  "category": "environmental-monitoring",
+  "sub_category": "empty_duck_coop_temperature_humidity_record",
+  "captured_at_local": "2026-01-11 07:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_empty_duck_coop",
+  "summary": "Morning temperature and humidity measurement inside an empty duck coop.",
+  "description": "Temperature and humidity were recorded in an empty duck coop during the morning. The device displayed an indoor temperature of 13.3°C, an outdoor temperature of 12.9°C, and relative humidity of 86%.",
+  "measurement": {
+    "temperature_inside_celsius": 13.3,
+    "temperature_outside_celsius": 12.9,
+    "relative_humidity_percent": 86,
+    "measurement_device": "digital thermometer hygrometer"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00168/hash/dataunit_00168.sha256",
+    "ots_file": "dataset/data-unit/00168/ots/dgcp_dataunit_00168.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0759.jpg",
+    "cid": "bafybeiggaijnw74d7o3ecp2diqzd24comq7tzmzaf7pvzql6y2ub7q5vki",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiggaijnw74d7o3ecp2diqzd24comq7tzmzaf7pvzql6y2ub7q5vki",
+    "reference_folder": "dataset/data-unit/00168/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
