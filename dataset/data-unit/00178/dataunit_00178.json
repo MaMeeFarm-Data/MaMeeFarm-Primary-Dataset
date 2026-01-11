@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00178",
+  "file_path": "dataset/data-unit/00178/dataunit_00178.json",
+  "category": "daily_life_activity",
+  "sub_category": "sunlight_drying_activity",
+  "captured_at_local": "2026-01-11 10:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "drying_dog_bedding_after_sunlight_appearance",
+  "summary": "Dog bedding placed outdoors for drying after sunlight appeared.",
+  "description": "A dog bedding cloth was placed outdoors to dry after sunlight began to appear. This activity follows earlier cold and high-humidity conditions and references the first sunlight appearance recorded earlier.",
+  "reference": {
+    "related_data_units": [
+      "00176",
+      "00177"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1025_drying_dog_bedding.jpg",
+    "cid": "bafybeiebwieaknzts2rpthpxx6vazz3vavxahgez36byjbwhrcsvz5zeju",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiebwieaknzts2rpthpxx6vazz3vavxahgez36byjbwhrcsvz5zeju",
+    "reference_folder": "dataset/data-unit/00178/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
