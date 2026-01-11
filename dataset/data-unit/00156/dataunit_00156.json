@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00156",
+  "file_path": "dataset/data-unit/00156/dataunit_00156.json",
+  "category": "resource-management",
+  "sub_category": "evening_irrigation",
+  "captured_at_local": "2026-01-10 17:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_watering_using_reserved_water",
+  "summary": "Evening irrigation of vegetables and flowers using previously reserved water.",
+  "description": "Vegetables and flowering plants were watered in the evening using water drawn from reserved storage barrels. This activity confirms actual consumption of water previously refilled and documented earlier in the day, ensuring plant hydration before nighttime temperature drop.",
+  "context": {
+    "linked_data_units": ["00154", "00155"],
+    "related_nft": "Seed of Hope Day 168 Part 2",
+    "time_of_day": "evening",
+    "water_source": "reserved_storage_barrels",
+    "resource_verification_type": "consumption_confirmation",
+    "purpose": "plant_health_and_survival"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_evening_watering_20260110_1749.jpg",
+    "cid": "bafybeidjtlpv6cz2x6w5rggjhpumsbzf7qqshronytuaf33i6w23rjgu5i",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidjtlpv6cz2x6w5rggjhpumsbzf7qqshronytuaf33i6w23rjgu5i",
+    "reference_folder": "dataset/data-unit/00156/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00156/hash/dataunit_00156.sha256",
+    "ots_file": "dataset/data-unit/00156/ots/dgcp_dataunit_00156.ots"
+  },
+  "actor": "human_labor",
+  "license": "DGCP | MMFARM-POL-2025"
+}
