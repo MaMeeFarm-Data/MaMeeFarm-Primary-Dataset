@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00175",
+  "file_path": "dataset/data-unit/00175/dataunit_00175.json",
+  "category": "animal-behavior-observation",
+  "sub_category": "dog_resting_behavior_cold_weather",
+  "captured_at_local": "2026-01-11 08:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_resting_due_to_cold_and_high_humidity",
+  "summary": "Dogs resting on bedding during cold and high-humidity conditions.",
+  "description": "Image records dogs remaining on bedding and not standing up during the morning. The observation is associated with cold ambient temperature and high humidity conditions, referenced from Data Unit 00174.",
+  "reference": {
+    "related_data_units": [
+      "00174"
+    ]
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00175/hash/dataunit_00175.sha256",
+    "ots_file": "dataset/data-unit/00175/ots/dgcp_dataunit_00175.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0820_dogs_resting.jpg",
+    "cid": "bafybeih7zoshmsj7q4jple2yd63y5yv2xw47v4pfqvq6znzfsm3hl3eyzu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeih7zoshmsj7q4jple2yd63y5yv2xw47v4pfqvq6znzfsm3hl3eyzu",
+    "reference_folder": "dataset/data-unit/00175/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
