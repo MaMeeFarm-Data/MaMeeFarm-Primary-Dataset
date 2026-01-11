@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00167",
+  "file_path": "dataset/data-unit/00167/dataunit_00167.json",
+  "category": "land-preparation",
+  "sub_category": "vegetable_bed_digging_measurement",
+  "captured_at_local": "2026-01-11 07:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "vegetable_bed_measurement_after_basil_removal",
+  "summary": "Measurement of a vegetable bed prepared after basil removal.",
+  "description": "A vegetable planting bed was measured during land preparation. The measured length was approximately 1.5 meters and the width approximately 60 centimeters. This bed is located in the same area where basil plants were removed and cleared on 2026-01-10.",
+  "measurement": {
+    "length_meters": 1.5,
+    "width_centimeters": 60,
+    "measurement_method": "manual tape measurement"
+  },
+  "reference": {
+    "previous_land_preparation_data_unit": "00148",
+    "related_nft_collection": "7_ducks_of_hope_day136_part1"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00167/hash/dataunit_00167.sha256",
+    "ots_file": "dataset/data-unit/00167/ots/dgcp_dataunit_00167.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0755.jpg",
+    "cid": "bafybeibgbm7jgbjsv4kqenpmw24b3azufpffu4bqw73773fq6viwqpqtme",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibgbm7jgbjsv4kqenpmw24b3azufpffu4bqw73773fq6viwqpqtme",
+    "reference_folder": "dataset/data-unit/00167/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
