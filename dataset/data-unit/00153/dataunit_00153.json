@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00153",
+  "file_path": "dataset/data-unit/00153/dataunit_00153.json",
+  "category": "agricultural-activity",
+  "sub_category": "midday_irrigation",
+  "captured_at_local": "2026-01-10 12:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_irrigation_due_to_high_temperature",
+  "summary": "Midday irrigation activity performed in response to increased temperature and solar exposure.",
+  "description": "During midday hours with strong sunlight, farm labor initiated irrigation to prevent plant stress and moisture loss. This action directly references the daytime temperature and humidity conditions recorded earlier.",
+  "context": {
+    "trigger_condition": "high daytime temperature",
+    "referenced_data_units": [
+      "00152"
+    ],
+    "referenced_nft": "7 Ducks of Hope — Day 136 Part 2",
+    "activity_type": "manual irrigation",
+    "water_source": "stored water barrels"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_midday_irrigation_20260110_1249.jpg",
+    "cid": "bafybeidzeqkqmr3gc5pexfdc2kwsga3sdi6tvk7tr25ddl3fqp7i63bawy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidzeqkqmr3gc5pexfdc2kwsga3sdi6tvk7tr25ddl3fqp7i63bawy",
+    "reference_folder": "dataset/data-unit/00153/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00153/hash/dataunit_00153.sha256",
+    "ots_file": "dataset/data-unit/00153/ots/dgcp_dataunit_00153.ots"
+  },
+  "actor": "human_labor",
+  "license": "DGCP | MMFARM-POL-2025"
+}
