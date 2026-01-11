@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00154",
+  "file_path": "dataset/data-unit/00154/dataunit_00154.json",
+  "category": "resource-management",
+  "sub_category": "water_reserve_monitoring",
+  "captured_at_local": "2026-01-10 12:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_level_after_midday_irrigation",
+  "summary": "Observation of remaining water level in storage barrel after irrigation activity.",
+  "description": "After midday irrigation under high temperature conditions, the remaining water level in the storage barrel was observed to be low. Water reserves are intentionally monitored and conserved to ensure continuous availability for daily farm operations and plant survival.",
+  "context": {
+    "preceding_activity": "midday irrigation",
+    "referenced_data_units": [
+      "00153"
+    ],
+    "referenced_proof": "466",
+    "referenced_nft": "7 Ducks of Hope — Day 136 Part 2",
+    "resource_type": "water",
+    "management_strategy": "daily reserve preservation"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_water_reserve_20260110_1257.jpg",
+    "cid": "bafybeigdak5l7c2m4ndvliq5e53pbwaxgczcvywyzce7zi5xpgfoxxxxv4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigdak5l7c2m4ndvliq5e53pbwaxgczcvywyzce7zi5xpgfoxxxxv4",
+    "reference_folder": "dataset/data-unit/00154/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00154/hash/dataunit_00154.sha256",
+    "ots_file": "dataset/data-unit/00154/ots/dgcp_dataunit_00154.ots"
+  },
+  "actor": "human_labor",
+  "license": "DGCP | MMFARM-POL-2025"
+}
