@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00158",
+  "file_path": "dataset/data-unit/00158/dataunit_00158.json",
+  "category": "farm-activity",
+  "sub_category": "seed_sowing",
+  "captured_at_local": "2026-01-10 17:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "sowing_marigold_seeds_same_zone",
+  "summary": "Sowing marigold seeds in the same zone immediately after seed collection.",
+  "description": "Marigold seeds were sown in the same area where seeds were collected moments earlier. The action occurred within the same minute and operational context as Data Unit 00157, but represents a distinct farming step.",
+  "context": {
+    "plant": "marigold",
+    "action": "sowing",
+    "zone": "same_as_seed_collection",
+    "time_relation": {
+      "reference_data_unit": "00157",
+      "relation": "immediate_continuation",
+      "note": "Exact seconds could not be determined."
+    },
+    "intended_purpose": [
+      "pest_deterrence",
+      "farm_ecosystem_balance",
+      "aesthetic_enrichment"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_marigold_seed_sowing_20260110_1750.jpg",
+    "cid": "bafybeib2bfsbvq2gjr3btcvbgxam6rz5zjllp2chjh5vhdii7yldl5gvwi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeib2bfsbvq2gjr3btcvbgxam6rz5zjllp2chjh5vhdii7yldl5gvwi",
+    "reference_folder": "dataset/data-unit/00158/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00158/hash/dataunit_00158.sha256",
+    "ots_file": "dataset/data-unit/00158/ots/dgcp_dataunit_00158.ots"
+  },
+  "actor": "human_labor",
+  "license": "DGCP | MMFARM-POL-2025"
+}
