@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00166",
+  "file_path": "dataset/data-unit/00166/dataunit_00166.json",
+  "category": "plant-environment-observation",
+  "sub_category": "dew_formation_on_avocado_leaves",
+  "captured_at_local": "2026-01-11 07:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dew_on_avocado_leaves_morning",
+  "summary": "Observation of dew formation on avocado leaves in the morning.",
+  "description": "Dew droplets were observed on avocado leaves in the morning. Ambient humidity reference was taken from data unit 00165, which recorded relative humidity at 70 percent. Cloudy sky conditions are referenced from proof 470.",
+  "reference": {
+    "humidity_reference_data_unit": "00165",
+    "cloud_condition_reference_proof": "470"
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00166/hash/dataunit_00166.sha256",
+    "ots_file": "dataset/data-unit/00166/ots/dgcp_dataunit_00166.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0752.jpg",
+    "cid": "bafybeif3kidekziishyzlyo2cm6l2huhq3cm3xqej4gddiorle6svsogny",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif3kidekziishyzlyo2cm6l2huhq3cm3xqej4gddiorle6svsogny",
+    "reference_folder": "dataset/data-unit/00166/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
