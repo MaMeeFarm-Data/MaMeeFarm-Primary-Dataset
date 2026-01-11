@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00164",
+  "file_path": "dataset/data-unit/00164/dataunit_00164.json",
+  "category": "farm-energy-system-operation",
+  "sub_category": "solar_inverter_shutdown_event",
+  "captured_at_local": "2026-01-10 23:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_shutdown_with_alert_indicator",
+  "summary": "Solar inverter shutdown recorded with alert indicator active and display not readable.",
+  "description": "Solar inverter system was shut down. A red alert indicator light was visible on the inverter unit. The inverter display was not readable at the time of recording. The system was operated under limitations. This event references the system power-on record earlier the same day.",
+  "verification": {
+    "hash_file": "dataset/data-unit/00164/hash/dataunit_00164.sha256",
+    "ots_file": "dataset/data-unit/00164/ots/dgcp_dataunit_00164.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260110_2310.jpg",
+    "cid": "bafybeif37dcmqi53xyokpq5mcoyojrzulmpb3rfmpmrztvub3j3onvzsba",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif37dcmqi53xyokpq5mcoyojrzulmpb3rfmpmrztvub3j3onvzsba",
+    "reference_folder": "dataset/data-unit/00164/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "reference": {
+    "related_data_units": [
+      "00151"
+    ]
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
