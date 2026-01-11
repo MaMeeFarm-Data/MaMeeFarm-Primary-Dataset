@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00176",
+  "file_path": "dataset/data-unit/00176/dataunit_00176.json",
+  "category": "animal-behavior-observation",
+  "sub_category": "dog_sunbathing_cold_weather",
+  "captured_at_local": "2026-01-11 10:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_resting_in_sunlight_after_late_sunrise",
+  "summary": "Dog resting outdoors in sunlight after late morning sun appearance.",
+  "description": "Image records a dog resting on the ground in direct sunlight after the sun appeared later in the morning. The observation is associated with cold ambient conditions earlier in the day, referenced from Data Unit 00174.",
+  "reference": {
+    "related_data_units": [
+      "00174"
+    ]
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00176/hash/dataunit_00176.sha256",
+    "ots_file": "dataset/data-unit/00176/ots/dgcp_dataunit_00176.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1020_dog_sunbathing.jpg",
+    "cid": "bafybeignyhnn67zhiata2lptauatu4pw7ts3jipk5nd5rqxl6tjiublugm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeignyhnn67zhiata2lptauatu4pw7ts3jipk5nd5rqxl6tjiublugm",
+    "reference_folder": "dataset/data-unit/00176/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
