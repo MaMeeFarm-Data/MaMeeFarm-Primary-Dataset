@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00161",
+  "file_path": "dataset/data-unit/00161/dataunit_00161.json",
+  "category": "daily_life",
+  "sub_category": "bedding_management",
+  "captured_at_local": "2026-01-10 18:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Dog Area",
+  "data_type": "image",
+  "title": "delayed_dog_bedding_collection_evening",
+  "summary": "Dog bedding was collected later than the usual routine time in the evening.",
+  "description": "Dog bedding was collected later than the usual schedule (normally before 17:00) due to human oversight. At the time of collection, dew formation had not yet significantly increased. Environmental conditions are referenced from the nearby empty duck coop temperature and humidity record.",
+  "context": {
+    "routine_expected_time": "before 17:00",
+    "actual_collection_time": "18:20",
+    "cause": "human oversight",
+    "dew_status": "not significant at time of collection"
+  },
+  "environment_reference": {
+    "temperature_humidity_data_unit": "00160",
+    "note": "Referenced due to close time proximity and shared environmental conditions."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_dog_bedding_evening_20260110_1820.jpg",
+    "cid": "bafybeigx7vszmbyl5dddigpwnrk4py5lvihwht3gqwuedxegrd4v2z5xlm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigx7vszmbyl5dddigpwnrk4py5lvihwht3gqwuedxegrd4v2z5xlm",
+    "reference_folder": "dataset/data-unit/00161/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "verification": {
+    "hash_file": "dataset/data-unit/00161/hash/dataunit_00161.sha256",
+    "ots_file": "dataset/data-unit/00161/ots/dgcp_dataunit_00161.ots"
+  },
+  "actor": "human",
+  "license": "DGCP | MMFARM-POL-2025"
+}
