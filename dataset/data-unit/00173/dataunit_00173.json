@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00173",
+  "file_path": "dataset/data-unit/00173/dataunit_00173.json",
+  "category": "infrastructure-operation",
+  "sub_category": "solar_inverter_power_on",
+  "captured_at_local": "2026-01-11 08:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_inverter_power_on_with_display_failure",
+  "summary": "Morning operation of hybrid solar inverter at the start of the working day.",
+  "description": "Image documents the action of turning on the hybrid solar inverter at the beginning of the working day. The inverter display is non-functional due to long-term usage exceeding seven years. The system continues to operate under hardware limitations. This record references the inverter shutdown time recorded on the previous day.",
+  "related_data_units": [
+    "00164"
+  ],
+  "verification": {
+    "hash_file": "dataset/data-unit/00173/hash/dataunit_00173.sha256",
+    "ots_file": "dataset/data-unit/00173/ots/dgcp_dataunit_00173.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_0819_inverter_power_on.jpg",
+    "cid": "bafybeia2g3lnbhapesq4qcnq4o33estaaxqpzltizlntez4rjckkk7uevy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeia2g3lnbhapesq4qcnq4o33estaaxqpzltizlntez4rjckkk7uevy",
+    "reference_folder": "dataset/data-unit/00173/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
