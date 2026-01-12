@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00201",
+  "file_path": "dataset/data-unit/00201/dataunit_00201.json",
+  "category": "crop-management",
+  "sub_category": "moisture_observation",
+  "captured_at_local": "2026-01-12 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_moisture_on_vegetable_bed",
+  "summary": "Morning moisture observed on a vegetable bed after previous evening watering.",
+  "description": "Image record of visible moisture on the vegetable bed in the morning. No watering was performed in the morning. Previous watering was performed in the evening on 2026-01-11 (reference data unit 00190). This record relates to the measured temperature/humidity prior to entering the backyard area (reference data unit 00198) and dew observed on avocado leaves (reference data unit 00199).",
+  "observation": {
+    "subject": "vegetable_bed",
+    "condition": "visible_moisture_present",
+    "watering_morning": "not_performed",
+    "watering_reference_evening": "performed"
+  },
+  "cross_references": [
+    {
+      "type": "watering_event",
+      "data_unit_id": "00190",
+      "relation": "previous_evening_watering_reference"
+    },
+    {
+      "type": "environment_measurement",
+      "data_unit_id": "00198",
+      "relation": "temperature_humidity_reference_prior_to_field_entry"
+    },
+    {
+      "type": "dew_observation",
+      "data_unit_id": "00199",
+      "relation": "related_dew_observation_context"
+    },
+    {
+      "type": "sequence",
+      "data_unit_id": "00200",
+      "relation": "preceding_spatial_boundary_record"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0743_moisture_veg_bed.jpg",
+    "cid": "bafybeibnk7i3ihbb3t2cxgicjksvontbtq7goxjtzk4d3tsxxjcukpkvku",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibnk7i3ihbb3t2cxgicjksvontbtq7goxjtzk4d3tsxxjcukpkvku",
+    "reference_folder": "dataset/data-unit/00201/external-reference/",
+    "note": "Image documents morning moisture condition on vegetable bed."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
