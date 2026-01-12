@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00195",
+  "file_path": "dataset/data-unit/00195/dataunit_00195.json",
+  "category": "energy-system-operation",
+  "sub_category": "solar_inverter_shutdown",
+  "captured_at_local": "2026-01-11 23:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_red_alert_shutdown",
+  "summary": "Red warning indicator observed on hybrid solar inverter signaling system shutdown at end of day.",
+  "description": "Hybrid solar inverter displays a red warning indicator prompting system shutdown. This marks the end of daily operation. System operating hours vary daily depending on weather conditions and available solar energy.",
+  "system_context": {
+    "energy_source": "solar",
+    "system_type": "hybrid solar inverter",
+    "indicator_status": "red warning",
+    "action_taken": "system shutdown"
+  },
+  "temporal_reference": {
+    "start_of_day": "data unit 00173",
+    "daily_range": "data unit 00165–00195",
+    "previous_days": [
+      "data unit 00126",
+      "data unit 00142",
+      "data unit 00151",
+      "data unit 00164",
+      "data unit 00173"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_2338_inverter_shutdown.jpg",
+    "cid": "bafybeigtrl42rl3p3dwvxy3sr2sjadqhsdbfen6ye4bmg65kys5i6dut4q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigtrl42rl3p3dwvxy3sr2sjadqhsdbfen6ye4bmg65kys5i6dut4q",
+    "reference_folder": "dataset/data-unit/00195/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
