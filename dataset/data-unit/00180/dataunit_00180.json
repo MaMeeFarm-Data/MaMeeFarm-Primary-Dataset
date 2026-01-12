@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00180",
+  "file_path": "dataset/data-unit/00180/dataunit_00180.json",
+  "category": "farm-water-infrastructure",
+  "sub_category": "water_storage_management",
+  "captured_at_local": "2026-01-11 12:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_water_reserve_tanks_refill_4000_liters",
+  "summary": "Refilling connected water reserve tanks totaling 4000 liters for farm water security.",
+  "description": "Two connected water storage tanks, each with a capacity of 2000 liters, were refilled to ensure continuous water availability for the farm. Water had been previously drawn for garden use on 2026-01-10. Refilling was performed using solar-powered pumping as documented earlier, to prevent water shortages within the farm system.",
+  "capacity_liters": {
+    "per_tank": 2000,
+    "total_connected": 4000
+  },
+  "reference": {
+    "previous_outflow_data_units": [
+      "00155",
+      "00156"
+    ],
+    "refill_operation_data_unit": "00179"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1237_water_reserve_tanks.jpg",
+    "cid": "bafybeifqb7o6odzvzvabohrwlygeqzzwhf6gkt72aojosnucr7h6mlvwie",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifqb7o6odzvzvabohrwlygeqzzwhf6gkt72aojosnucr7h6mlvwie",
+    "reference_folder": "dataset/data-unit/00180/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
