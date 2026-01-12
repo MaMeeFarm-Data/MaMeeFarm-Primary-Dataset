@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00205",
+  "file_path": "dataset/data-unit/00205/dataunit_00205.json",
+  "category": "infrastructure",
+  "sub_category": "farm_access",
+  "captured_at_local": "2026-01-12 07:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "improvised_steel_bridge_over_canal",
+  "summary": "Improvised steel bridge used to cross irrigation canal, in continuous use for over eight months.",
+  "description": "Image documents a steel bridge constructed from repurposed balcony railing materials and used as a canal crossing within the farm. The structure has been in continuous daily use for more than eight months, reflecting infrastructure adaptation under limited resources.",
+  "infrastructure_details": {
+    "material_origin": "repurposed_steel_railing",
+    "function": "canal_crossing",
+    "usage_duration_months": 8,
+    "construction_type": "improvised",
+    "maintenance_status": "functional"
+  },
+  "context_notes": [
+    "Limited financial and material resources",
+    "Infrastructure built from available materials",
+    "Used for routine farm operations"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0755_steel_bridge.jpg",
+    "cid": "bafybeihflwfz3zwy4bsihtqb72fffap7kufygzp7ln7eehrsz5r4hwzjoe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihflwfz3zwy4bsihtqb72fffap7kufygzp7ln7eehrsz5r4hwzjoe",
+    "reference_folder": "dataset/data-unit/00205/external-reference/",
+    "note": "Image shows an improvised steel bridge spanning a farm canal."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
