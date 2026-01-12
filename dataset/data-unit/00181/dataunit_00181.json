@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00181",
+  "file_path": "dataset/data-unit/00181/dataunit_00181.json",
+  "category": "environmental-measurement",
+  "sub_category": "duck_coop_temperature_humidity_variation",
+  "captured_at_local": "2026-01-11 12:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_midday_temperature_humidity_reading",
+  "summary": "Midday temperature and humidity reading inside an empty duck coop.",
+  "description": "Environmental measurement inside the duck coop taken at midday. The reading shows a significant increase in temperature and a decrease in relative humidity compared to the morning measurement. This record serves as evidence of diurnal environmental variation within the same structure.",
+  "measurement": {
+    "temperature_celsius": {
+      "inside_sensor": 29.0,
+      "outside_sensor": 25.2
+    },
+    "humidity_percent": 42,
+    "device": "HTC-2"
+  },
+  "comparison_reference": {
+    "morning_measurement_data_unit": "00167",
+    "note": "Used for temporal comparison only; no causal interpretation applied."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1239_duck_coop_temp_humidity.jpg",
+    "cid": "bafybeibtpdbeoh277kbsxx4o37dt2f5ubbsyq2cjaruuy7l7ro5ab35yym",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibtpdbeoh277kbsxx4o37dt2f5ubbsyq2cjaruuy7l7ro5ab35yym",
+    "reference_folder": "dataset/data-unit/00181/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
