@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00202",
+  "file_path": "dataset/data-unit/00202/dataunit_00202.json",
+  "category": "crop-management",
+  "sub_category": "bed_layout_change",
+  "captured_at_local": "2026-01-12 07:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "vegetable_bed_enlarged_layout_change",
+  "summary": "Vegetable bed area adjusted into a larger bed for revised planting plan.",
+  "description": "Image record of a vegetable bed area that has been adjusted into a larger bed layout. This change references the earlier bed configuration recorded in data unit 00167. Planting plan is adjusted based on suitability and available conditions at the time of work.",
+  "observation": {
+    "subject": "vegetable_bed",
+    "condition": "bed_area_enlarged",
+    "change_type": "layout_adjustment",
+    "planting_plan": "to_be_adjusted"
+  },
+  "cross_references": [
+    {
+      "type": "prior_state_reference",
+      "data_unit_id": "00167",
+      "relation": "previous_bed_configuration_reference"
+    },
+    {
+      "type": "sequence",
+      "data_unit_id": "00201",
+      "relation": "preceding_moisture_observation_context"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0745_enlarged_veg_bed.jpg",
+    "cid": "bafybeieaea3rs5gck25v45knxjlpwwwixjw5iuf2u7sxmbq2qvyyzx4zn4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieaea3rs5gck25v45knxjlpwwwixjw5iuf2u7sxmbq2qvyyzx4zn4",
+    "reference_folder": "dataset/data-unit/00202/external-reference/",
+    "note": "Image documents the enlarged bed layout after adjustment."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
