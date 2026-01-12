@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00200",
+  "file_path": "dataset/data-unit/00200/dataunit_00200.json",
+  "category": "farm-infrastructure",
+  "sub_category": "access_point_and_zone_boundary",
+  "captured_at_local": "2026-01-12 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "backyard_farm_gate_zoning_boundary",
+  "summary": "Gate providing access from residential area to backyard farm zone.",
+  "description": "Recorded image of the gate used as an access point between the residential area and the backyard farm. This gate represents a physical boundary that separates and defines farm operational zones.",
+  "spatial_context": {
+    "structure_type": "metal_fence_gate",
+    "function": "zone_separation_and_access",
+    "zones_connected": [
+      "residential_area",
+      "backyard_farm"
+    ],
+    "boundary_visibility": "clearly_defined"
+  },
+  "temporal_context": {
+    "day_status": "morning",
+    "sequence_note": "prior_to_entering_farm_zone",
+    "preceding_data_unit": "00199"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0742_backyard_gate.jpg",
+    "cid": "bafybeid4f6f3fywxe435sj7vt7qm6hnepn7nmz4h4s3slkb4lfwbq7ohma",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeid4f6f3fywxe435sj7vt7qm6hnepn7nmz4h4s3slkb4lfwbq7ohma",
+    "reference_folder": "dataset/data-unit/00200/external-reference/",
+    "note": "Image documents physical zoning and access control within the farm."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
