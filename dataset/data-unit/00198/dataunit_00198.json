@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00198",
+  "file_path": "dataset/data-unit/00198/dataunit_00198.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-check",
+  "captured_at_local": "2026-01-12 07:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pre_garden_check_temperature_humidity_morning_2",
+  "summary": "Second morning check of temperature and humidity before entering the backyard garden.",
+  "description": "Temperature and humidity were checked prior to entering the backyard garden for work. This record represents the second environmental check of the morning.",
+  "environmental_reading": {
+    "temperature_celsius": 12.5,
+    "humidity_percent": 71,
+    "device_model": "HTC-1",
+    "measurement_context": "indoor wall-mounted device"
+  },
+  "temporal_context": {
+    "day_status": "morning",
+    "sequence_note": "second_check_before_garden_work",
+    "preceding_data_unit": "00197"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0739_temp_humidity_check.jpg",
+    "cid": "bafybeifvw3ldqfglxiwmmraxgmsmixxxsdndmzic5z6uxyvm5mfr6hxzby",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifvw3ldqfglxiwmmraxgmsmixxxsdndmzic5z6uxyvm5mfr6hxzby",
+    "reference_folder": "dataset/data-unit/00198/external-reference/",
+    "note": "External image used for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
