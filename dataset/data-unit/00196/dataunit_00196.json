@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00196",
+  "file_path": "dataset/data-unit/00196/dataunit_00196.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-12 06:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "first_morning_temperature_humidity_record",
+  "summary": "First temperature and humidity measurement recorded at the start of a new day.",
+  "description": "Temperature and humidity recorded at 06:35 as the first environmental measurement of the day.",
+  "measurement": {
+    "temperature_celsius": 12.8,
+    "humidity_percent": 70,
+    "device_model": "HTC-1",
+    "measurement_type": "indoor ambient"
+  },
+  "temporal_context": {
+    "day_status": "start_of_day",
+    "previous_day_last_record": "data unit 00195",
+    "note": "Marks the first recorded environmental data point of the new day."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0635_temperature_humidity.jpg",
+    "cid": "bafybeihomkhdygh4nat74sampzbzhifscaac65asm3vmaa34uyzwokynci",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihomkhdygh4nat74sampzbzhifscaac65asm3vmaa34uyzwokynci",
+    "reference_folder": "dataset/data-unit/00196/external-reference/",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
