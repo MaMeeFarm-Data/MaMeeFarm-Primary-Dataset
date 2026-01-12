@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00191",
+  "file_path": "dataset/data-unit/00191/dataunit_00191.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-11 16:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_temperature_humidity_empty_duck_coop",
+  "summary": "Evening temperature and humidity measurement inside an empty duck coop.",
+  "description": "Environmental measurement recorded in the evening inside an empty duck coop. Readings captured using a digital thermometer-hygrometer device (HTC-2). No animals present at the time of measurement.",
+  "measurements": {
+    "temperature_indoor_celsius": 26.1,
+    "temperature_outdoor_celsius": 24.3,
+    "relative_humidity_percent": 45
+  },
+  "device": {
+    "type": "digital_thermometer_hygrometer",
+    "model": "HTC-2",
+    "measurement_method": "direct_display_reading"
+  },
+  "context_notes": {
+    "coop_status": "empty",
+    "time_of_day": "evening",
+    "related_records": {
+      "morning": "dataunit_00168",
+      "midday": "dataunit_00181"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1652_temp_humidity_evening.jpg",
+    "cid": "bafybeic5xx7brf6fz7bc362cxehc2bifwttfxgvcabbujf5ox2sihnkrzi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic5xx7brf6fz7bc362cxehc2bifwttfxgvcabbujf5ox2sihnkrzi",
+    "reference_folder": "dataset/data-unit/00191/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
