@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00184",
+  "file_path": "dataset/data-unit/00184/dataunit_00184.json",
+  "category": "farm-maintenance",
+  "sub_category": "manual_land_finishing",
+  "captured_at_local": "2026-01-11 12:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "manual_grass_cutting_completion_with_hoe",
+  "summary": "Completion of grass cutting using manual tools after machine limitation.",
+  "description": "After mechanical grass cutting reached its operational limit, manual tools such as a hoe were required to continue clearing and leveling the area. This record documents additional human labor needed to complete land preparation.",
+  "activity_recorded": {
+    "activity": "manual_grass_cutting_and_finishing",
+    "tools": [
+      "hoe",
+      "manual_labor"
+    ],
+    "labor_type": "human_physical_labor",
+    "area": "beside_empty_duck_coop"
+  },
+  "process_context": {
+    "previous_data_unit": "00183",
+    "reason_for_manual_work": "machine_access_limitation",
+    "status": "in_progress"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1245_manual_grass_cutting_completion.jpg",
+    "cid": "bafybeigedzbqub4y44zoeogngxdz5fqx2gagrdv3mu5xfpqyaafzqz2fxy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigedzbqub4y44zoeogngxdz5fqx2gagrdv3mu5xfpqyaafzqz2fxy",
+    "reference_folder": "dataset/data-unit/00184/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "temporal_context": {
+    "same_day_sequence": true,
+    "continuation_of_activity": true
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
