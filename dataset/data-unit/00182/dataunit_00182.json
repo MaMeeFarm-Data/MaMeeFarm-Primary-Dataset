@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00182",
+  "file_path": "dataset/data-unit/00182/dataunit_00182.json",
+  "category": "agricultural-practice",
+  "sub_category": "mulching_heat_mitigation",
+  "captured_at_local": "2026-01-11 12:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "straw_mulch_applied_to_vegetable_bed_midday",
+  "summary": "Straw mulch applied to vegetable beds during hot, low-humidity conditions.",
+  "description": "Vegetable plants show signs of wilting during midday heat and low humidity. Straw mulch was applied to the soil surface as a mitigation action to reduce evaporation and protect plant roots. This record documents the condition and the corrective action taken under real-time environmental stress.",
+  "environment_context": {
+    "condition": "hot_temperature_low_humidity",
+    "reference_data_unit": "00181"
+  },
+  "action_recorded": {
+    "action": "straw_mulching",
+    "purpose": "reduce_soil_evaporation_and_heat_stress",
+    "timing": "midday"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1239_straw_mulch_vegetable_bed.jpg",
+    "cid": "<FILL_CID_IF_ASSIGNED>",
+    "gateway_url": "<FILL_GATEWAY_URL_IF_ASSIGNED>",
+    "reference_folder": "dataset/data-unit/00182/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "temporal_link": {
+    "previous_data_unit": "00181",
+    "relationship": "sequential_environmental_response"
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
