@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00192",
+  "file_path": "dataset/data-unit/00192/dataunit_00192.json",
+  "category": "animal-care",
+  "sub_category": "dog-feeding",
+  "captured_at_local": "2026-01-11 17:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_feeding_one_month_old_puppies",
+  "summary": "Evening feeding session for puppies approximately one month old, beginning dry food intake.",
+  "description": "Evening feeding of dogs at MaMeeFarm. Puppies approximately one month old were observed consuming dry dog food. Adult dogs were also present and fed during the same session.",
+  "animal_status": {
+    "adult_dogs": 9,
+    "puppies": 11,
+    "total_dogs_present": 20,
+    "puppy_age_estimate": "approximately 1 month",
+    "diet_transition": "introduction of dry food"
+  },
+  "context_notes": {
+    "feeding_time": "evening",
+    "related_morning_feeding": "proof_469",
+    "security_context": "Perimeter secured with fencing and gate. One adult dog previously missing after leaving the property independently. No direct evidence recorded within this data unit."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1704_evening_dog_feeding.jpg",
+    "cid": "bafybeiehim6ymgq4jxmfw6ngrex5izysd3dihms7epmk65oxscwkobkzne",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiehim6ymgq4jxmfw6ngrex5izysd3dihms7epmk65oxscwkobkzne",
+    "reference_folder": "dataset/data-unit/00192/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
