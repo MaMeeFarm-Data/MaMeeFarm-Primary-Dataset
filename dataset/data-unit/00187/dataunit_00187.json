@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00187",
+  "file_path": "dataset/data-unit/00187/dataunit_00187.json",
+  "category": "water-management",
+  "sub_category": "pump_handling_and_equipment_preservation",
+  "captured_at_local": "2026-01-11 12:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pump_removed_from_well_after_use_for_preservation",
+  "summary": "Pump removed from the well after use and placed in a dry position to preserve equipment under constrained operations.",
+  "description": "After completing the water refill operation, the pump was removed from the well and placed above ground to keep it out of water as part of equipment preservation and maintenance. This action follows the same-day pumping workflow: pump deployment (data unit 00179), tank refill workflow and water-level context (data unit 00180), and pumping completion record (data unit 00186). Operations are conducted under real-world constraints and require careful handling to extend equipment lifespan.",
+  "process_context": {
+    "related_data_units": [
+      "00179",
+      "00180",
+      "00186"
+    ],
+    "workflow_step": "post_pumping_retrieval_and_storage",
+    "status": "pump_retrieved"
+  },
+  "equipment_context": {
+    "equipment": "submersible_pump",
+    "preservation_action": "remove_from_water_and_store_dry",
+    "reason": "reduce_exposure_and_wear"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1259_pump_retrieval_after_use.jpg",
+    "cid": "bafybeibu25c35y33445mcsrrysrmikjj5jk7eijq3g76ah73fsgkrzucpq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibu25c35y33445mcsrrysrmikjj5jk7eijq3g76ah73fsgkrzucpq",
+    "reference_folder": "dataset/data-unit/00187/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "temporal_context": {
+    "same_day_sequence": true,
+    "continuation_of_water_refill_workflow": true
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
