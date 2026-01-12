@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00189",
+  "file_path": "dataset/data-unit/00189/dataunit_00189.json",
+  "category": "daily-life-and-animal-care",
+  "sub_category": "pet_bedding_management",
+  "captured_at_local": "2026-01-11 16:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "collecting_dog_bedding_before_evening",
+  "summary": "Dog bedding collected before evening after daytime sun-drying.",
+  "description": "Dog bedding that had been sun-dried earlier in the day was collected before 17:00 to avoid evening humidity. This activity follows earlier drying recorded in Data Unit 00178 and reflects routine animal care under daily environmental conditions.",
+  "care_context": {
+    "subject": "dogs",
+    "care_type": "bedding_hygiene",
+    "reason": "prevent_evening_humidity_and_moisture"
+  },
+  "temporal_reference": {
+    "related_data_unit": "00178",
+    "relation": "post_drying_collection"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1646_collect_dog_bedding.jpg",
+    "cid": "bafybeia2cpyqculetktizkfopwqycdh7fymlyu74sisv5kq3iasrr5ghma",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeia2cpyqculetktizkfopwqycdh7fymlyu74sisv5kq3iasrr5ghma",
+    "reference_folder": "dataset/data-unit/00189/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
