@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00183",
+  "file_path": "dataset/data-unit/00183/dataunit_00183.json",
+  "category": "farm-maintenance",
+  "sub_category": "grass_cutting_area_preparation",
+  "captured_at_local": "2026-01-11 12:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_near_empty_duck_coop",
+  "summary": "Grass cutting activity beside an unused duck coop area.",
+  "description": "Grass cutting performed beside an empty duck coop area to clear vegetation and prepare the space. The activity documents land maintenance and area preparation. Future planting intentions are noted separately and not treated as completed actions.",
+  "activity_recorded": {
+    "activity": "grass_cutting",
+    "tool": "gasoline_grass_cutter",
+    "area": "beside_empty_duck_coop"
+  },
+  "planning_note": {
+    "future_intent": "plant_long_bean",
+    "status": "not_executed",
+    "note": "Planning intent only. No planting action recorded in this data unit."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1242_grass_cutting_duck_coop.jpg",
+    "cid": "bafybeihrfk573pk2iglr2cfofhnm7kbluaa2fttfnggemz5yrq3rmjciam",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihrfk573pk2iglr2cfofhnm7kbluaa2fttfnggemz5yrq3rmjciam",
+    "reference_folder": "dataset/data-unit/00183/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "temporal_context": {
+    "same_day_sequence": true,
+    "related_activity_window": "midday"
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
