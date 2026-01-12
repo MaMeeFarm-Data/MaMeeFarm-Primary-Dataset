@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00188",
+  "file_path": "dataset/data-unit/00188/dataunit_00188.json",
+  "category": "farm-safety-and-land-management",
+  "sub_category": "vegetation_clearance_risk_mitigation",
+  "captured_at_local": "2026-01-11 16:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "manual_land_clearance_to_reduce_reptile_risk",
+  "summary": "Manual vegetation clearance conducted to reduce risk from potentially dangerous reptiles in overgrown areas.",
+  "description": "Overgrown vegetation around the water tank and farm infrastructure was manually cleared due to safety concerns regarding potentially venomous reptiles. Human labor was used to reduce ground cover density and improve visibility, as part of routine risk mitigation under real-world farm constraints.",
+  "risk_context": {
+    "identified_risk": "venomous_reptiles",
+    "risk_type": "biological_hazard",
+    "mitigation_action": "manual_vegetation_clearance"
+  },
+  "labor_context": {
+    "labor_type": "human_manual_labor",
+    "tools_used": [
+      "hoe"
+    ],
+    "reason_manual": "uneven_terrain_and_precision_required"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1645_manual_clearance_reptile_risk.jpg",
+    "cid": "bafybeihl573pugzy66qara5l23x65tm7d5a5njjlsqbffk25si55sbydsq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihl573pugzy66qara5l23x65tm7d5a5njjlsqbffk25si55sbydsq",
+    "reference_folder": "dataset/data-unit/00188/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "temporal_context": {
+    "same_day_continuation": true,
+    "preceding_activity": "post_water_management_and_land_preparation"
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
