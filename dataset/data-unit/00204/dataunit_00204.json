@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00204",
+  "file_path": "dataset/data-unit/00204/dataunit_00204.json",
+  "category": "environmental-observation",
+  "sub_category": "dew_formation",
+  "captured_at_local": "2026-01-12 07:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "heavy_dew_on_papaya_leaves",
+  "summary": "Heavy dew observed on papaya leaves as evidence of high morning humidity.",
+  "description": "Image documents visible dew droplets on papaya leaves during early morning. This serves as physical evidence of ambient humidity and moisture conditions, correlated with instrument-recorded temperature and humidity measurements from the same day.",
+  "observation": {
+    "plant_species": "papaya",
+    "phenomenon": "dew_presence",
+    "dew_intensity": "heavy",
+    "time_of_day": "early_morning"
+  },
+  "cross_references": [
+    {
+      "type": "instrument_measurement",
+      "data_unit_id": "00196",
+      "relation": "same_day_temperature_humidity_reference"
+    },
+    {
+      "type": "instrument_measurement",
+      "data_unit_id": "00198",
+      "relation": "same_day_temperature_humidity_reference"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0755_papaya_dew.jpg",
+    "cid": "bafybeig3nrzmcec52taoponv44unoe3tssvwnxxh2wxwsfuvonz3fu4wdm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig3nrzmcec52taoponv44unoe3tssvwnxxh2wxwsfuvonz3fu4wdm",
+    "reference_folder": "dataset/data-unit/00204/external-reference/",
+    "note": "Image shows dew droplets on papaya leaves, used as environmental humidity evidence."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
