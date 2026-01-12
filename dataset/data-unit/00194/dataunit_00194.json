@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00194",
+  "file_path": "dataset/data-unit/00194/dataunit_00194.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-11 23:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "night_temperature_humidity_record",
+  "summary": "Night-time temperature and humidity measurement.",
+  "description": "Temperature and humidity recorded during late night hours using a digital thermometer/hygrometer device (HTC-1). The device display shows temperature and relative humidity at the time of capture.",
+  "measurement": {
+    "temperature_celsius": 16.1,
+    "relative_humidity_percent": 67,
+    "device_model": "HTC-1",
+    "measurement_context": "indoor wall-mounted position"
+  },
+  "temporal_reference": {
+    "morning": "data unit 00165",
+    "late_morning": ["data unit 00174", "data unit 00177"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_2337_night_temperature.jpg",
+    "cid": "bafybeigezsji5k77ngeo457ipdzdkrlmyskgrqotdlsi2sothsfhh4swge",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigezsji5k77ngeo457ipdzdkrlmyskgrqotdlsi2sothsfhh4swge",
+    "reference_folder": "dataset/data-unit/00194/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
