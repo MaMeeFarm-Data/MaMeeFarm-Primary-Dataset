@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00185",
+  "file_path": "dataset/data-unit/00185/dataunit_00185.json",
+  "category": "farm-land-preparation",
+  "sub_category": "crop_removal_and_area_reset",
+  "captured_at_local": "2026-01-11 12:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "removal_of_failed_chili_plant_and_land_clearing",
+  "summary": "Clearing area after chili plant failure to prepare for planting a different crop.",
+  "description": "The previously planted chili plant has withered and died. Human labor was applied to clear the remaining plant and reset the area in preparation for planting another crop type. This record documents crop failure acknowledgment and adaptive land management.",
+  "activity_recorded": {
+    "activity": "crop_removal_and_manual_clearing",
+    "previous_crop": "chili",
+    "crop_status": "failed",
+    "next_action": "prepare_for_new_crop",
+    "tools": [
+      "hoe",
+      "manual_labor"
+    ],
+    "labor_type": "human_physical_labor"
+  },
+  "process_context": {
+    "related_land_workflow": [
+      "00183",
+      "00184"
+    ],
+    "decision_basis": "observed_crop_failure",
+    "status": "area_reset_in_progress"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1249_chili_crop_removal.jpg",
+    "cid": "bafybeig2ebyrnndsxvb34ycew7s3efsoo4j3cb5w2zhh5gptpm53nfjwy4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig2ebyrnndsxvb34ycew7s3efsoo4j3cb5w2zhh5gptpm53nfjwy4",
+    "reference_folder": "dataset/data-unit/00185/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "temporal_context": {
+    "same_day_sequence": true,
+    "continuation_of_manual_land_work": true
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
+
