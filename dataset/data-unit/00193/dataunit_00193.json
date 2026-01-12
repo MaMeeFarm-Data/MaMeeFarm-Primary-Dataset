@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00193",
+  "file_path": "dataset/data-unit/00193/dataunit_00193.json",
+  "category": "primary-consumption-preparation",
+  "sub_category": "meal",
+  "captured_at_local": "2026-01-11 18:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rice_with_minced_pork_meal",
+  "summary": "A prepared meal: rice mixed with minced pork.",
+  "description": "Meal record captured at 18:26 local time. The image shows cooked rice with minced pork mixture served in a bowl. This record documents primary consumption as part of daily operations.",
+  "context_notes": {
+    "operation_mode": "resource-limited",
+    "note": "Context note recorded as stated by the operator; no additional claims are made within this unit."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1826_meal_rice_minced_pork.jpg",
+    "cid": "bafybeifdomp5kkbucjmblnyns6pirfif6rgafhuxsga6z4og4pluqroff4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifdomp5kkbucjmblnyns6pirfif6rgafhuxsga6z4og4pluqroff4",
+    "reference_folder": "dataset/data-unit/00193/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
