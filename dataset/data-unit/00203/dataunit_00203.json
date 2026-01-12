@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00203",
+  "file_path": "dataset/data-unit/00203/dataunit_00203.json",
+  "category": "crop-management",
+  "sub_category": "manual_harvest",
+  "captured_at_local": "2026-01-12 07:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "harvesting_naturally_grown_culantro",
+  "summary": "Manual harvesting of naturally grown culantro for household consumption.",
+  "description": "Image records manual labor harvesting culantro (Eryngium foetidum) that has grown naturally without formal planting. The plant is maintained through basic care and harvested when suitable for consumption.",
+  "observation": {
+    "subject": "culantro_plant",
+    "growth_condition": "naturally_grown",
+    "harvest_method": "manual_cutting",
+    "usage": "household_consumption"
+  },
+  "cross_references": [
+    {
+      "type": "sequence",
+      "data_unit_id": "00202",
+      "relation": "same_morning_field_work_sequence"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0749_culantro_harvest.jpg",
+    "cid": "bafybeie65jxnweoaywaqd54j3grq65unyyatjj3scea22bdz2v6k4nwjby",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie65jxnweoaywaqd54j3grq65unyyatjj3scea22bdz2v6k4nwjby",
+    "reference_folder": "dataset/data-unit/00203/external-reference/",
+    "note": "Image shows manual harvesting of culantro grown naturally in the field."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
