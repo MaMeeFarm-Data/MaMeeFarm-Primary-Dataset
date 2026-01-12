@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00186",
+  "file_path": "dataset/data-unit/00186/dataunit_00186.json",
+  "category": "water-management",
+  "sub_category": "groundwater_pumping_and_storage_refill",
+  "captured_at_local": "2026-01-11 12:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "groundwater_level_drop_after_tank_refill_pumping_cycle",
+  "summary": "Pumping completed and storage tanks filled; groundwater level in the well decreased after the cycle.",
+  "description": "Water pumping was completed and the storage tanks were filled. After the refill cycle, the groundwater level in the well visibly decreased. The pumping duration for this cycle was approximately 24 minutes. The operation was executed during direct solar power availability (DC) within the preferred window to avoid stressing stored battery capacity. Reference: pump deployment record in data unit 00179.",
+  "measurements": {
+    "pumping_duration_minutes": 24,
+    "tank_status_after": "full",
+    "well_water_level_observation": "decreased"
+  },
+  "energy_context": {
+    "power_source": "solar_dc_direct",
+    "battery_impact_strategy": "avoid_battery_draw_when_possible",
+    "preferred_window_local": "11:00-14:00"
+  },
+  "process_context": {
+    "related_data_units": [
+      "00179"
+    ],
+    "system_constraint": "limited_energy_and_water_buffer_management",
+    "status": "refill_completed"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1258_well_water_level_after_pumping.jpg",
+    "cid": "bafybeihd6whpq4yxklmanupgblalm46n65oj72uqprwxxla3fr2sb3hc3a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihd6whpq4yxklmanupgblalm46n65oj72uqprwxxla3fr2sb3hc3a",
+    "reference_folder": "dataset/data-unit/00186/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "temporal_context": {
+    "same_day_sequence": true,
+    "continuation_of_water_refill_workflow": true
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
