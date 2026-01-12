@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00190",
+  "file_path": "dataset/data-unit/00190/dataunit_00190.json",
+  "category": "daily-farm-operations",
+  "sub_category": "evening_crop_watering",
+  "captured_at_local": "2026-01-11 16:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_watering_vegetable_garden",
+  "summary": "Evening watering of vegetables as part of routine daily farm work.",
+  "description": "Routine evening watering of vegetable crops using stored water. This activity is part of daily farm maintenance to support plant health and soil moisture balance after daytime heat.",
+  "operation_context": {
+    "activity_type": "manual_watering",
+    "time_of_day": "evening",
+    "purpose": "maintain_crop_health_and_soil_moisture"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260111_1651_evening_watering.jpg",
+    "cid": "bafybeiafs2sc6qcaolwfavqabxc6w56pfkofmj6akfaekdt6kegjvu2md4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiafs2sc6qcaolwfavqabxc6w56pfkofmj6akfaekdt6kegjvu2md4",
+    "reference_folder": "dataset/data-unit/00190/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "actor": "system_architect",
+  "license": "DGCP | MMFARM-POL-2025"
+}
