@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00210",
+  "file_path": "dataset/data-unit/00210/dataunit_00210.json",
+  "category": "animal-activity",
+  "sub_category": "behavioral-response-to-weather",
+  "captured_at_local": "2026-01-12 08:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Residential Pathway, Thailand",
+  "data_type": "image",
+  "title": "dogs_exposed_to_morning_sunlight_in_cold_weather",
+  "summary": "Dogs standing and moving under direct morning sunlight during cold conditions.",
+  "description": "Image documents dogs standing and moving in direct sunlight during the morning. The behavior is observed during cold weather conditions, with temperature context referenced from nearby duck house measurements recorded close in time.",
+  "environment_context": {
+    "weather_condition": "cold morning",
+    "sunlight_condition": "direct sunlight",
+    "time_of_day": "morning"
+  },
+  "behavior_observation": {
+    "species": "dog",
+    "activity": "standing and walking under sunlight",
+    "group_state": "adult dog with puppies",
+    "observed_response": "sun exposure during cold conditions"
+  },
+  "cross_reference": {
+    "related_data_units": ["00206"],
+    "relationship": "temperature and humidity context from nearby measurement"
+  },
+  "context_notes": [
+    "Behavior observed shortly after temperature measurement",
+    "Documents animal response to ambient cold conditions",
+    "Part of daily real-world environmental and life activity logging"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0818_dogs_sunlight.jpg",
+    "cid": "bafybeib7nglnqjcoq3eo26hcgbczknd33fsnk7o3q2i7rxxqewisavlph4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeib7nglnqjcoq3eo26hcgbczknd33fsnk7o3q2i7rxxqewisavlph4",
+    "reference_folder": "dataset/data-unit/00210/external-reference/",
+    "note": "Image shows dogs exposed to morning sunlight."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
