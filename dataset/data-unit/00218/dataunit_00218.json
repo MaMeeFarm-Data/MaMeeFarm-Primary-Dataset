@@ -1,0 +1,68 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00218",
+  "file_path": "dataset/data-unit/00218/dataunit_00218.json",
+  "category": "primary-agriculture-activity",
+  "sub_category": "evening_watering_after_dewy_morning",
+  "captured_at_local": "2026-01-12 17:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, vegetable plot area",
+  "data_type": "image",
+  "title": "evening_watering_vegetables_due_to_dew_based_morning_conditions",
+  "summary": "Watering vegetables in the evening; morning watering was skipped due to dew and high moisture conditions.",
+  "description": "Image documents evening watering of vegetables. Morning watering was intentionally skipped because dew and high humidity indicated moist soil conditions. This record links agricultural decisions to earlier verified environmental readings and dew evidence captured in the morning of the same day.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00196",
+      "relation": "morning_temperature_humidity_reference",
+      "note": "Morning environment reading referenced for moisture condition."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00198",
+      "relation": "morning_temperature_humidity_reference",
+      "note": "Morning environment reading referenced for moisture condition."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00206",
+      "relation": "morning_temperature_humidity_reference",
+      "note": "Morning environment reading referenced for moisture condition."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00199",
+      "relation": "dew_evidence_reference",
+      "note": "Dew evidence on vegetation referenced."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00201",
+      "relation": "dew_evidence_reference",
+      "note": "Dew evidence on vegetation referenced."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00204",
+      "relation": "dew_evidence_reference",
+      "note": "Dew evidence on vegetation referenced."
+    }
+  ],
+  "context_notes": [
+    "Evening irrigation activity",
+    "Morning watering skipped due to dew/high humidity",
+    "Soil moisture inferred from verified morning conditions and dew evidence"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_1749_evening_watering.jpg",
+    "cid": "bafybeignz5usle4ils4ta56zbj4ulv4kuzstit565cdn32pixpizuarx4a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeignz5usle4ils4ta56zbj4ulv4kuzstit565cdn32pixpizuarx4a",
+    "reference_folder": "dataset/data-unit/00218/external-reference/",
+    "note": "Image used to verify evening watering activity and timing."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
