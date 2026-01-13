@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00220",
+  "file_path": "dataset/data-unit/00220/dataunit_00220.json",
+  "category": "human-animal-cohabitation",
+  "sub_category": "shared_sleeping_space_cold_weather",
+  "captured_at_local": "2026-01-12 22:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, indoor sleeping/work area",
+  "data_type": "image",
+  "title": "dog_sharing_bed_during_night_work_cold_weather",
+  "summary": "Dog sleeping on shared bedding while human continues night work under cold conditions.",
+  "description": "Image documents shared use of sleeping space between human and dog during nighttime work. Due to cold weather and limited resources, bedding is shared to provide warmth. This record reflects adaptive cohabitation and care between human and animal under environmental constraints.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00219",
+      "relation": "temporal_continuity",
+      "note": "Night system work under cold conditions earlier the same evening."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00196",
+      "relation": "cold_weather_context",
+      "note": "Morning temperature and humidity reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00198",
+      "relation": "cold_weather_context",
+      "note": "Morning temperature and humidity reference."
+    }
+  ],
+  "context_notes": [
+    "Cold weather persistence",
+    "Shared resources due to limitations",
+    "Human–animal trust and proximity",
+    "Non-instrumental animal welfare"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_2202_shared_bed_dog_night.jpg",
+    "cid": "bafybeifkwynobkvh6ilcssq2bo7lzxa4f5brcmoj3dvbkyuusvskqknumq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifkwynobkvh6ilcssq2bo7lzxa4f5brcmoj3dvbkyuusvskqknumq",
+    "reference_folder": "dataset/data-unit/00220/external-reference/",
+    "note": "Image verifies shared sleeping arrangement and nighttime conditions."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
