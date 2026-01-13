@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00222",
+  "file_path": "dataset/data-unit/00222/dataunit_00222.json",
+  "category": "system-operation",
+  "sub_category": "power-constraint-solar-inverter",
+  "captured_at_local": "2026-01-12 23:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, power control area",
+  "data_type": "image",
+  "title": "solar_inverter_power_alert_end_of_day",
+  "summary": "Solar inverter alert indicating power constraint during late night system operation.",
+  "description": "Image documents an audible alert from the hybrid solar inverter indicating low or exhausted power during late night operations. This event marks the operational boundary of the system under energy constraints. Despite limited power availability, data logging activities were maintained throughout the day.",
+  "system_state": {
+    "event_type": "power_alert",
+    "system": "hybrid_solar_inverter",
+    "condition": "power_limit_reached",
+    "audible_alert": true
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00196",
+      "relation": "start_of_day_environment",
+      "note": "Morning environmental context initiating daily operations."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00211",
+      "relation": "system_activation",
+      "note": "System power activation earlier in the same day."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00221",
+      "relation": "pre_event_environment",
+      "note": "Late night temperature and humidity conditions preceding power alert."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_2332_solar_inverter_alert.jpg",
+    "cid": "bafybeiho53q4rcdhwj47hqv3rekgkt4qmcyk6i3odxkoakmzioiuc23d7q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiho53q4rcdhwj47hqv3rekgkt4qmcyk6i3odxkoakmzioiuc23d7q",
+    "reference_folder": "dataset/data-unit/00222/external-reference/",
+    "note": "Image verifies inverter alert state at end of daily operation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
