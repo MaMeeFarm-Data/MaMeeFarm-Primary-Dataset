@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00215",
+  "file_path": "dataset/data-unit/00215/dataunit_00215.json",
+  "category": "primary-agricultural-activity",
+  "sub_category": "harvest-fruit",
+  "captured_at_local": "2026-01-12 14:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, fence-side papaya tree",
+  "data_type": "image",
+  "title": "harvesting_ripe_papaya_fence_side",
+  "summary": "Harvesting ripe papaya from a fence-side tree at MaMeeFarm.",
+  "description": "Image documents the harvesting of a ripe papaya fruit from a tree located along the farm fence. The activity reflects routine on-farm food production and consumption.",
+  "related_media_reference": [
+    {
+      "type": "nft_video",
+      "collection": "Seed Of Hope",
+      "day": 170,
+      "part": 2,
+      "note": "Referenced for cross-media traceability only."
+    }
+  ],
+  "context_notes": [
+    "Harvest performed during afternoon period",
+    "Fruit sourced from within farm boundary",
+    "Manual harvest without machinery"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_1434_papaya_harvest.jpg",
+    "cid": "bafybeiheob3mfxskasyqxfvgcju5soyu32q3lv3j6rvj2xm5roirarofou",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiheob3mfxskasyqxfvgcju5soyu32q3lv3j6rvj2xm5roirarofou",
+    "reference_folder": "dataset/data-unit/00215/external-reference/",
+    "note": "Image used for verification of harvest activity."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
