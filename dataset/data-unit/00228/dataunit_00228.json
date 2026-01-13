@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00228",
+  "file_path": "dataset/data-unit/00228/dataunit_00228.json",
+  "category": "environmental-observation",
+  "sub_category": "morning-dew-plant-surface",
+  "captured_at_local": "2026-01-13 07:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, backyard garden",
+  "data_type": "image",
+  "title": "morning_dew_on_avocado_leaves",
+  "summary": "Morning dew observed on avocado leaves.",
+  "description": "Dew droplets visible on avocado tree leaves during early morning garden inspection. Observation recorded after the first temperature and humidity measurement of the day.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "environmental_reference",
+      "note": "First temperature and humidity measurement of the day."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00224",
+      "relation": "temporal_proximity",
+      "note": "Early morning pre-sunrise environment."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0738_morning_dew_avocado.jpg",
+    "cid": "bafybeigimx53kxqlh2totrd5khkyqli7ubjhw4syzrxn6qx3zj7tdif234",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigimx53kxqlh2totrd5khkyqli7ubjhw4syzrxn6qx3zj7tdif234",
+    "reference_folder": "dataset/data-unit/00228/external-reference/",
+    "note": "Image used to verify morning dew presence on plant surface."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
