@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00230",
+  "file_path": "dataset/data-unit/00230/dataunit_00230.json",
+  "category": "farm-plant-observation",
+  "sub_category": "soil_moisture_visual_assessment",
+  "captured_at_local": "2026-01-13 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, vegetable plot",
+  "data_type": "image",
+  "title": "morning_soil_moisture_check_no_watering",
+  "summary": "Visual inspection of soil moisture in vegetable beds during early morning.",
+  "description": "Early morning visual assessment of soil moisture in vegetable plots. No watering activity performed at this time. Observation recorded to document soil condition following previous irrigation.",
+  "linked_references": [
+    {
+      "reference_type": "proof",
+      "reference_id": "480",
+      "relation": "environmental_context",
+      "note": "Duck coop temperature and humidity reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00218",
+      "relation": "preceding_irrigation",
+      "note": "Watering activity performed during the previous evening."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "climate_baseline",
+      "note": "Morning temperature and humidity measurement."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0742_soil_moisture_check.jpg",
+    "cid": "bafybeibgdg2f4aj3ldgwftkir4gal64nglcvr72i7v53am2b4pflgfdom4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibgdg2f4aj3ldgwftkir4gal64nglcvr72i7v53am2b4pflgfdom4",
+    "reference_folder": "dataset/data-unit/00230/external-reference/",
+    "note": "Image provided for verification of soil surface condition."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
