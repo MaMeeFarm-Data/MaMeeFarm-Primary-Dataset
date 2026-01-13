@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00209",
+  "file_path": "dataset/data-unit/00209/dataunit_00209.json",
+  "category": "farm-infrastructure",
+  "sub_category": "material_reuse_origin_structure",
+  "captured_at_local": "2026-01-12 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Former Carport Area, Thailand",
+  "data_type": "image",
+  "title": "former_carport_steel_frame_after_roof_removal",
+  "summary": "Remaining steel frame of a former carport after roof dismantling and reuse.",
+  "description": "Image documents the remaining steel frame structure of a former carport. The roofing materials were dismantled and reused to construct a duck house roof, referenced in data unit 00208. The structure currently remains as a bare frame without roofing.",
+  "infrastructure_context": {
+    "original_function": "vehicle carport",
+    "material_removed": "roof panels",
+    "material_reuse_target": "duck house roof",
+    "current_state": "steel frame only",
+    "transition_type": "partial dismantling and material reuse"
+  },
+  "cross_reference": {
+    "related_data_units": ["00208"],
+    "relationship": "material source for reused infrastructure"
+  },
+  "context_notes": [
+    "Documents infrastructure transition state",
+    "Captures residual structure after material extraction",
+    "Part of continuous resource-flow documentation under constrained conditions"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0758_former_carport_frame.jpg",
+    "cid": "bafybeicljbl3iurslvliqqqcszzfkrrdmqelcy4jegqlb76oxf2btdnyoy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicljbl3iurslvliqqqcszzfkrrdmqelcy4jegqlb76oxf2btdnyoy",
+    "reference_folder": "dataset/data-unit/00209/external-reference/",
+    "note": "Image shows steel frame after roof removal."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
