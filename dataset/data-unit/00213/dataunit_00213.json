@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00213",
+  "file_path": "dataset/data-unit/00213/dataunit_00213.json",
+  "category": "crop-observation",
+  "sub_category": "post-harvest-ripening",
+  "captured_at_local": "2026-01-12 14:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "unripe_banana_delayed_ripening_cool_weather",
+  "summary": "Observation of harvested bananas remaining unripe several days after cutting during cool weather conditions.",
+  "description": "Image documents a bunch of bananas harvested earlier and remaining unripe after several days. The bananas were cut on 2026-01-08 and left to ripen naturally. Low ambient temperatures during the following mornings are referenced as a contributing environmental factor.",
+  "post_harvest_context": {
+    "harvest_date": "2026-01-08",
+    "ripening_method": "natural",
+    "observed_state": "unripe"
+  },
+  "environmental_references": {
+    "temperature_related_records": [
+      "Proof 464 (2026-01-10)",
+      "Data Unit 00165 (2026-01-11)",
+      "Data Unit 00196 (2026-01-12)"
+    ],
+    "condition_note": "Cool morning temperatures observed over multiple consecutive days"
+  },
+  "context_notes": [
+    "No artificial ripening applied",
+    "Observation focuses on environmental influence on ripening process",
+    "Part of continuous post-harvest documentation"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_1401_unripe_banana.jpg",
+    "cid": "bafybeifn6emuuqahjsjgapdrvaaqckfgbhcmkhg52oo6xvgtfi4damnfl4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifn6emuuqahjsjgapdrvaaqckfgbhcmkhg52oo6xvgtfi4damnfl4",
+    "reference_folder": "dataset/data-unit/00213/external-reference/",
+    "note": "Image used for post-harvest crop observation only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
