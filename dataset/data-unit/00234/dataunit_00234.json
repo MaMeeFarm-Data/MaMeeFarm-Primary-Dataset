@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00234",
+  "file_path": "dataset/data-unit/00234/dataunit_00234.json",
+  "category": "environmental-condition",
+  "sub_category": "solar_light_availability",
+  "captured_at_local": "2026-01-13 08:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, field area",
+  "data_type": "image",
+  "title": "full_solar_light_visible_over_field",
+  "summary": "Clear morning sunlight fully present over agricultural field area.",
+  "description": "This record documents visual confirmation of full solar light availability at 08:07 after earlier insufficient power conditions. The image shows clear sky, strong sunlight, and uniform illumination over the field, confirming that solar conditions improved compared to earlier timeframes.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00231",
+      "relation": "environmental_context",
+      "note": "Earlier morning light condition reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00232",
+      "relation": "temporal_sequence",
+      "note": "Initial inverter restart attempt after sunrise."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00233",
+      "relation": "system_contrast",
+      "note": "Inverter abort due to insufficient power before full sunlight."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0807_full_sunlight_field.jpg",
+    "cid": "bafybeidv4nfdwudy6znl7tyj64muphpfqciabqo25lpmf2uuye5kfxseqa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidv4nfdwudy6znl7tyj64muphpfqciabqo25lpmf2uuye5kfxseqa",
+    "reference_folder": "dataset/data-unit/00234/external-reference/",
+    "note": "Image shows clear sky and strong solar illumination across field."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
