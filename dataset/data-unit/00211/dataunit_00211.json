@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00211",
+  "file_path": "dataset/data-unit/00211/dataunit_00211.json",
+  "category": "energy-system",
+  "sub_category": "solar-power-operation",
+  "captured_at_local": "2026-01-12 08:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Power System Room, Thailand",
+  "data_type": "image",
+  "title": "daily_solar_inverter_system_activation",
+  "summary": "Activation of the solar power system during morning hours.",
+  "description": "Image documents the moment the hybrid solar inverter system is powered on for daily operation. The system operates under limited resources and environmental constraints. Activation time corresponds with clear sunlight conditions.",
+  "system_context": {
+    "system_type": "hybrid solar inverter",
+    "operation_state": "system powered on",
+    "energy_source": "solar",
+    "operation_pattern": "daily manual activation"
+  },
+  "temporal_context": {
+    "time_of_day": "morning",
+    "sunlight_condition": "sunlight present"
+  },
+  "cross_reference": {
+    "related_data_units": ["00195", "00210"],
+    "relationship": [
+      "previous system shutdown reference",
+      "sunlight condition confirmation"
+    ]
+  },
+  "context_notes": [
+    "Documents real-world energy system operation",
+    "Shows dependency on weather and sunlight availability",
+    "Part of continuous daily infrastructure logging under DGCP"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0819_solar_inverter_on.jpg",
+    "cid": "bafybeift6awaivk6ph2dj5tlmjxwfeuqcgdnofqo4o6rl6khgqkolpxpt4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeift6awaivk6ph2dj5tlmjxwfeuqcgdnofqo4o6rl6khgqkolpxpt4",
+    "reference_folder": "dataset/data-unit/00211/external-reference/",
+    "note": "Image shows hybrid solar inverter during system activation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
