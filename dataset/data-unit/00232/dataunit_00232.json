@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00232",
+  "file_path": "dataset/data-unit/00232/dataunit_00232.json",
+  "category": "energy-system-operation",
+  "sub_category": "solar_inverter_restart_morning",
+  "captured_at_local": "2026-01-13 07:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, power system room",
+  "data_type": "image",
+  "title": "solar_inverter_restart_after_sunrise",
+  "summary": "Solar inverter restarted after sunrise when sufficient light became available.",
+  "description": "Morning observation of hybrid solar inverter being turned on after sunrise once sufficient solar light was available. The system had been shut down the previous night due to power limitations. This record documents daily energy system recovery under constrained conditions.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00222",
+      "relation": "previous_shutdown",
+      "note": "Inverter shutdown recorded the previous night due to energy limitations."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00231",
+      "relation": "environmental_trigger",
+      "note": "Sunrise observation indicating sufficient light for system restart."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0744_solar_inverter_restart.jpg",
+    "cid": "bafybeigwzsjidt5rdrrzj3v6gfepww7evmo4wxujyrjyh6kps7h637clvi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigwzsjidt5rdrrzj3v6gfepww7evmo4wxujyrjyh6kps7h637clvi",
+    "reference_folder": "dataset/data-unit/00232/external-reference/",
+    "note": "Image confirms inverter status and restart timing."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
