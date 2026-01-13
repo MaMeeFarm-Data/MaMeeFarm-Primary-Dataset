@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00214",
+  "file_path": "dataset/data-unit/00214/dataunit_00214.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-12 14:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, house balcony wall",
+  "data_type": "image",
+  "title": "afternoon_temperature_humidity_house_balcony",
+  "summary": "Afternoon temperature and humidity measurement recorded on house balcony wall at MaMeeFarm.",
+  "description": "Image documents a digital thermometer-hygrometer mounted on the house balcony wall. The device displays temperature and relative humidity values during the afternoon period.",
+  "measurement": {
+    "temperature_celsius": 23.6,
+    "relative_humidity_percent": 50,
+    "device_model": "HTC-1",
+    "measurement_type": "ambient"
+  },
+  "context_notes": [
+    "Measurement taken during afternoon period",
+    "Device mounted on exterior house balcony wall",
+    "Used as environmental reference within the farm area"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_1404_temperature_balcony.jpg",
+    "cid": "bafybeiaruontpuyzbtukecikduxsloa4cxfpjpg6ersiqwzgnchnlr3q3u",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiaruontpuyzbtukecikduxsloa4cxfpjpg6ersiqwzgnchnlr3q3u",
+    "reference_folder": "dataset/data-unit/00214/external-reference/",
+    "note": "Environmental measurement image for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
