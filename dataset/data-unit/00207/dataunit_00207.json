@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00207",
+  "file_path": "dataset/data-unit/00207/dataunit_00207.json",
+  "category": "soil-condition-observation",
+  "sub_category": "surface_soil_moisture",
+  "captured_at_local": "2026-01-12 07:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Vegetable Bed (adjacent to Duck House), Thailand",
+  "data_type": "image",
+  "title": "wet_soil_condition_adjacent_to_duck_house",
+  "summary": "Observation of visibly wet soil surface in a vegetable bed adjacent to the duck house.",
+  "description": "Image documents wet soil conditions in a vegetable planting area located near the duck house. The observation was recorded in the same time window and spatial zone as the temperature and humidity measurement documented in Data Unit 00206.",
+  "environmental_context": {
+    "relative_position": "adjacent_zone",
+    "relation_to_structure": "former duck house area repurposed for vegetable cultivation",
+    "surface_condition": "visibly wet soil"
+  },
+  "cross_reference_data_units": [
+    "00206"
+  ],
+  "context_notes": [
+    "Same time window as humidity measurement",
+    "Same spatial zone as duck house environment",
+    "Supports correlation between high humidity and soil moisture",
+    "Observation only, no irrigation action recorded"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0756_wet_soil_veg_bed.jpg",
+    "cid": "bafybeicv5rztpr2ogsnx2464hetxvlzwizlq2ea6riboyeje32xi37rqbq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicv5rztpr2ogsnx2464hetxvlzwizlq2ea6riboyeje32xi37rqbq",
+    "reference_folder": "dataset/data-unit/00207/external-reference/",
+    "note": "Image shows wet soil surface in a vegetable bed."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
