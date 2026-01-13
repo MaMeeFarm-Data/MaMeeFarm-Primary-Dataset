@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00208",
+  "file_path": "dataset/data-unit/00208/dataunit_00208.json",
+  "category": "farm-infrastructure",
+  "sub_category": "animal_shelter_structure",
+  "captured_at_local": "2026-01-12 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Duck House Area, Thailand",
+  "data_type": "image",
+  "title": "duck_house_roof_reused_structure_empty_state",
+  "summary": "Roof structure of a duck house constructed using reused materials, currently without animals.",
+  "description": "Image documents the roof and supporting structure of a duck house. The roofing materials were reused from a former carport. At the time of recording, the shelter is empty and not occupied by animals.",
+  "infrastructure_context": {
+    "original_material_source": "former carport roof",
+    "current_function": "animal shelter structure",
+    "current_state": "empty",
+    "reuse_strategy": "material repurposing"
+  },
+  "context_notes": [
+    "Infrastructure built under limited resources",
+    "Structure remains functional despite current non-use",
+    "Documents empty-state condition as part of continuous farm record"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0757_duck_house_roof_empty.jpg",
+    "cid": "bafybeibzgxlsna6yju2ixu6m5k3mggrdg3fxu4d3onimzomzx7hymjaehu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibzgxlsna6yju2ixu6m5k3mggrdg3fxu4d3onimzomzx7hymjaehu",
+    "reference_folder": "dataset/data-unit/00208/external-reference/",
+    "note": "Image shows duck house roof structure without animals present."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
