@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00225",
+  "file_path": "dataset/data-unit/00225/dataunit_00225.json",
+  "category": "animal-care",
+  "sub_category": "dog-feeding-morning",
+  "captured_at_local": "2026-01-13 06:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, house entrance",
+  "data_type": "image",
+  "title": "morning_dog_feeding_cold_weather",
+  "summary": "Morning feeding of dogs at MaMeeFarm.",
+  "description": "Routine morning feeding of multiple dogs at the house entrance. Feeding occurred shortly after pre-sunrise temperature observation under cold weather conditions.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "environmental_context",
+      "note": "Morning temperature and humidity measurement."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00224",
+      "relation": "temporal_context",
+      "note": "Pre-sunrise cold morning visual context."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00197",
+      "relation": "daily_routine_continuity",
+      "note": "Previous dog feeding routine (morning/evening cycle)."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0658_morning_dog_feeding.jpg",
+    "cid": "bafybeihbwjhl2cm23wf7fxhpcrcnhz6uqnxnm42egccbqsozbhm6skidka",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihbwjhl2cm23wf7fxhpcrcnhz6uqnxnm42egccbqsozbhm6skidka",
+    "reference_folder": "dataset/data-unit/00225/external-reference/",
+    "note": "Image recorded for routine animal care verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
