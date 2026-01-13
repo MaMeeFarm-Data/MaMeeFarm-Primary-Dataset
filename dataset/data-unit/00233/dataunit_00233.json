@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00233",
+  "file_path": "dataset/data-unit/00233/dataunit_00233.json",
+  "category": "energy-system-operation",
+  "sub_category": "solar_inverter_abort_low_power",
+  "captured_at_local": "2026-01-13 07:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, power system room",
+  "data_type": "image",
+  "title": "solar_inverter_abort_due_to_insufficient_power",
+  "summary": "Solar inverter shut down automatically after approximately four minutes due to insufficient power availability.",
+  "description": "After a morning restart attempt, the hybrid solar inverter operated for approximately four minutes before issuing an audible alert and entering fault state. A red indicator light was observed, and the display screen was not readable due to long-term degradation after approximately seven years of use. This record documents real-world operational limits and equipment aging under variable solar conditions.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00232",
+      "relation": "preceding_event",
+      "note": "Initial inverter restart attempt after sunrise."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00151",
+      "relation": "historical_comparison",
+      "note": "Previous inverter activation timing reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00173",
+      "relation": "historical_comparison",
+      "note": "Previous inverter operation under different light conditions."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00211",
+      "relation": "historical_comparison",
+      "note": "Another recorded system start time showing variability by day."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0748_solar_inverter_fault.jpg",
+    "cid": "bafybeic7qepvhfyhssa64neqmhpsdzvp26235lvxj5ncuj27fuluaw4vdi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic7qepvhfyhssa64neqmhpsdzvp26235lvxj5ncuj27fuluaw4vdi",
+    "reference_folder": "dataset/data-unit/00233/external-reference/",
+    "note": "Image shows inverter fault indicator and non-functional display."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
