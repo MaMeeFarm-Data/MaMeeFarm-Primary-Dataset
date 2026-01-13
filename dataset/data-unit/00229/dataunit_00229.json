@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00229",
+  "file_path": "dataset/data-unit/00229/dataunit_00229.json",
+  "category": "human-labor",
+  "sub_category": "manual-garden-work",
+  "captured_at_local": "2026-01-13 07:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, backyard garden",
+  "data_type": "image",
+  "title": "morning_garden_labor_start",
+  "summary": "Labor activity started in the backyard garden during early morning.",
+  "description": "Manual garden work recorded during early morning hours. Labor activity performed under normal field conditions and logged by system architect as part of daily operations.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "environmental_context",
+      "note": "Morning temperature and humidity reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00228",
+      "relation": "temporal_sequence",
+      "note": "Labor activity followed morning dew observation."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0740_morning_garden_labor.jpg",
+    "cid": "bafybeihmlt6ohcmvkyxumxmwje55wnidwffsvbzf6thifox2wdbjuky3r4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihmlt6ohcmvkyxumxmwje55wnidwffsvbzf6thifox2wdbjuky3r4",
+    "reference_folder": "dataset/data-unit/00229/external-reference/",
+    "note": "Image used to verify early morning labor activity."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
