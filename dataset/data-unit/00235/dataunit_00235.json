@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00235",
+  "file_path": "dataset/data-unit/00235/dataunit_00235.json",
+  "category": "energy-system-operation",
+  "sub_category": "inverter_restart_attempt",
+  "captured_at_local": "2026-01-13 08:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, inverter room",
+  "data_type": "image",
+  "title": "second_inverter_restart_after_solar_wait",
+  "summary": "Second inverter restart attempt after waiting approximately 19 minutes for sufficient solar input.",
+  "description": "This record documents a second inverter restart attempt after an intentional waiting period of approximately 19 minutes following earlier insufficient power conditions. The retry was performed after visual confirmation of stronger solar availability, reflecting adaptive operation based on real environmental conditions rather than fixed schedules.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00233",
+      "relation": "system_failure",
+      "note": "Earlier inverter abort due to insufficient solar power."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00234",
+      "relation": "environmental_confirmation",
+      "note": "Visual confirmation of full solar light availability."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00232",
+      "relation": "prior_attempt",
+      "note": "Initial inverter restart attempt earlier in the morning."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0807_inverter_retry.jpg",
+    "cid": "bafybeifokl2z42wqwg4bgzp4snafgd3llzdvxp5jldwjoasw7xjr2iinuy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifokl2z42wqwg4bgzp4snafgd3llzdvxp5jldwjoasw7xjr2iinuy",
+    "reference_folder": "dataset/data-unit/00235/external-reference/",
+    "note": "Image documents inverter state during second restart attempt after waiting period."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
