@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00226",
+  "file_path": "dataset/data-unit/00226/dataunit_00226.json",
+  "category": "animal-care",
+  "sub_category": "puppy-feeding-separated",
+  "captured_at_local": "2026-01-13 07:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, indoor feeding area",
+  "data_type": "image",
+  "title": "puppies_feeding_separated_from_adult_dogs",
+  "summary": "Puppies fed separately from adult dogs.",
+  "description": "Puppies were separated from adult dogs for feeding. Dry dog food was provided directly on the floor due to limited feeding containers.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00225",
+      "relation": "sequence_continuity",
+      "note": "Morning dog feeding activity preceding this record."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "environmental_context",
+      "note": "Cold morning temperature and humidity measurement."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0700_puppy_feeding_separated.jpg",
+    "cid": "bafybeierczagbazbc4fchhshy4zhyxvnmlofderfzhtx4oje5zcu4sp4ua",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeierczagbazbc4fchhshy4zhyxvnmlofderfzhtx4oje5zcu4sp4ua",
+    "reference_folder": "dataset/data-unit/00226/external-reference/",
+    "note": "Image recorded for animal care verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
