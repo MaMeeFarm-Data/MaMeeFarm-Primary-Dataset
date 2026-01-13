@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00221",
+  "file_path": "dataset/data-unit/00221/dataunit_00221.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-night",
+  "captured_at_local": "2026-01-12 23:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, house balcony wall",
+  "data_type": "image",
+  "title": "late_night_temperature_humidity_record",
+  "summary": "Late night temperature and humidity measurement recorded at MaMeeFarm.",
+  "description": "Image records late night environmental conditions measured using a digital thermometer/hygrometer mounted on the house balcony wall. Temperature recorded at 17.0 degrees Celsius with relative humidity at 68 percent, indicating persistent cold conditions throughout the day.",
+  "measured_values": {
+    "temperature_celsius": 17.0,
+    "relative_humidity_percent": 68
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00196",
+      "relation": "morning_temperature_context",
+      "note": "Morning temperature and humidity reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00198",
+      "relation": "morning_temperature_context",
+      "note": "Morning temperature and humidity reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00219",
+      "relation": "evening_context",
+      "note": "Night system work under cold conditions."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00220",
+      "relation": "late_night_continuity",
+      "note": "Shared sleeping space under cold conditions."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_2331_temp_humidity_night.jpg",
+    "cid": "bafybeie6bp7xnoxmhzqgknherdannti4lzsglqunzc7adkbbqffasybtjq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie6bp7xnoxmhzqgknherdannti4lzsglqunzc7adkbbqffasybtjq",
+    "reference_folder": "dataset/data-unit/00221/external-reference/",
+    "note": "Image verifies late night temperature and humidity values."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
