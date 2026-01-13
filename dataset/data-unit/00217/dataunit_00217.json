@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00217",
+  "file_path": "dataset/data-unit/00217/dataunit_00217.json",
+  "category": "primary-household-activity",
+  "sub_category": "collecting-bedding-before-dew",
+  "captured_at_local": "2026-01-12 17:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, outdoor drying area",
+  "data_type": "image",
+  "title": "collecting_bedding_at_sunset_dew_onset",
+  "summary": "Collecting bed sheet after 17:00 as sunset approaches and dew begins to form.",
+  "description": "Image documents the collection of a bed sheet that was previously hung for drying. The activity occurred after 17:00, near sunset, when atmospheric conditions indicate the onset of dew. This reflects routine adjustment of household tasks based on environmental timing.",
+  "linked_references": [
+    {
+      "reference_type": "proof",
+      "reference_id": "474",
+      "relation": "drying_time_reference",
+      "note": "Referenced to original bedding drying time."
+    }
+  ],
+  "context_notes": [
+    "Sunset period",
+    "Increasing humidity and dew formation",
+    "Household activity adjusted to environmental conditions"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_1747_collect_bedding_dew.jpg",
+    "cid": "bafybeieyq5jz4b5uxdxuegendbog4cxiq5qhetk23csn2vb46mvhlnxzhy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieyq5jz4b5uxdxuegendbog4cxiq5qhetk23csn2vb46mvhlnxzhy",
+    "reference_folder": "dataset/data-unit/00217/external-reference/",
+    "note": "Image used to verify timing and environmental condition."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
