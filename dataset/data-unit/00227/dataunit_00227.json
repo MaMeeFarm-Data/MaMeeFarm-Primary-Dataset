@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00227",
+  "file_path": "dataset/data-unit/00227/dataunit_00227.json",
+  "category": "animal-care",
+  "sub_category": "adult-dog-feeding-outdoor",
+  "captured_at_local": "2026-01-13 07:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, outdoor feeding area",
+  "data_type": "image",
+  "title": "adult_dogs_feeding_outdoor_area",
+  "summary": "Adult dogs feeding outdoors.",
+  "description": "Adult dogs consuming dry food in the outdoor area after puppies were fed separately indoors. This record completes the morning feeding cycle for all dogs.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00225",
+      "relation": "sequence_start",
+      "note": "Morning dog feeding activity."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00226",
+      "relation": "sequence_continuity",
+      "note": "Puppies feeding separated from adult dogs."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "environmental_context",
+      "note": "Cold morning temperature and humidity measurement."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0700_adult_dog_feeding_outdoor.jpg",
+    "cid": "bafybeihbqdhibmhe47qgeuclanqe6ytyr34vybeltzrv7o5sgf6xhbuoym",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihbqdhibmhe47qgeuclanqe6ytyr34vybeltzrv7o5sgf6xhbuoym",
+    "reference_folder": "dataset/data-unit/00227/external-reference/",
+    "note": "Image recorded for animal care completion verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
