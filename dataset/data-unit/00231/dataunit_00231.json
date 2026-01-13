@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00231",
+  "file_path": "dataset/data-unit/00231/dataunit_00231.json",
+  "category": "environmental-observation",
+  "sub_category": "sunrise_winter_season",
+  "captured_at_local": "2026-01-13 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, field edge",
+  "data_type": "image",
+  "title": "winter_sunrise_slow_temperature_rise",
+  "summary": "Observation of sunrise during winter with slow temperature increase.",
+  "description": "Sunrise observed at MaMeeFarm during winter season. The sun rises slowly with cold morning air persisting. This record provides environmental context for temperature and humidity conditions affecting farm activities.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "morning_climate_baseline",
+      "note": "Morning temperature and humidity measurement."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00230",
+      "relation": "preceding_observation",
+      "note": "Soil moisture check conducted minutes before sunrise."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0743_winter_sunrise.jpg",
+    "cid": "bafybeidnuix4dfnljwuzdjgp2uqwqoqxj57ucvlqohf5dfjajdotlifuju",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidnuix4dfnljwuzdjgp2uqwqoqxj57ucvlqohf5dfjajdotlifuju",
+    "reference_folder": "dataset/data-unit/00231/external-reference/",
+    "note": "Image verifies sunrise timing and lighting conditions."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
