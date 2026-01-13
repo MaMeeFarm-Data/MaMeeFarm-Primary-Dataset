@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00223",
+  "file_path": "dataset/data-unit/00223/dataunit_00223.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-morning",
+  "captured_at_local": "2026-01-13 06:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, house balcony wall",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_start_of_day",
+  "summary": "First morning temperature and humidity measurement of the day.",
+  "description": "Image records the first environmental reading of the day showing a temperature of 13.9°C and relative humidity of 71%. This measurement establishes the cold-start environmental baseline following a prior day with energy constraints and power-limited operations.",
+  "environmental_conditions": {
+    "temperature_celsius": 13.9,
+    "relative_humidity_percent": 71,
+    "time_of_day": "early_morning"
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00222",
+      "relation": "previous_day_system_boundary",
+      "note": "Power constraint event marking the end of the previous operational day."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0651_morning_temp_humidity.jpg",
+    "cid": "bafybeiagv55jexgbskueauonmhtzkkxwtivazgoslwpzhrfecwxymbzupe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiagv55jexgbskueauonmhtzkkxwtivazgoslwpzhrfecwxymbzupe",
+    "reference_folder": "dataset/data-unit/00223/external-reference/",
+    "note": "Image verifies early morning environmental conditions."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
