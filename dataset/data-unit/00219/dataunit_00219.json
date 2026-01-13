@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00219",
+  "file_path": "dataset/data-unit/00219/dataunit_00219.json",
+  "category": "human-work-environment",
+  "sub_category": "night_system_work_under_cold_conditions",
+  "captured_at_local": "2026-01-12 20:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, indoor workspace",
+  "data_type": "image",
+  "title": "black_coffee_during_night_work_cold_weather",
+  "summary": "Black coffee consumed during nighttime system work under cold weather conditions.",
+  "description": "Image documents continued system and data logging work at night. Black coffee is consumed while working under cold weather conditions. This record represents sustained human operational activity following a full day of environmental observation and agricultural work.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00196",
+      "relation": "cold_weather_context",
+      "note": "Morning temperature and humidity reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00198",
+      "relation": "cold_weather_context",
+      "note": "Morning temperature and humidity reference."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00206",
+      "relation": "cold_weather_context",
+      "note": "Environmental condition reference from the same day."
+    }
+  ],
+  "context_notes": [
+    "Nighttime system work",
+    "Cold weather persistence throughout the day",
+    "Human endurance and continuity of documentation",
+    "Non-productive consumption (coffee) supporting cognitive work"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_2044_black_coffee_night_work.jpg",
+    "cid": "bafybeihz35t4ghgrxlxikzw4tbk7wwpke36vquuft2l5zju7ebxc2ehkwm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihz35t4ghgrxlxikzw4tbk7wwpke36vquuft2l5zju7ebxc2ehkwm",
+    "reference_folder": "dataset/data-unit/00219/external-reference/",
+    "note": "Image used to verify nighttime work and contextual conditions."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
