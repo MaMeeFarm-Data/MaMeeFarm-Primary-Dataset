@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00224",
+  "file_path": "dataset/data-unit/00224/dataunit_00224.json",
+  "category": "environmental-context",
+  "sub_category": "pre-sunrise-morning",
+  "captured_at_local": "2026-01-13 06:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, field view before sunrise",
+  "data_type": "image",
+  "title": "cold_morning_before_sunrise",
+  "summary": "Cold early morning atmosphere before sunrise.",
+  "description": "Image captures the cold morning environment before sunrise, showing low ambient light and calm conditions. This record follows the morning temperature and humidity measurement by one minute and visually confirms the pre-sunrise state of the environment.",
+  "environmental_context": {
+    "sun_position": "below_horizon",
+    "light_condition": "pre-dawn",
+    "perceived_temperature": "cold"
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "temporal_environmental_confirmation",
+      "note": "Temperature and humidity measurement recorded one minute earlier."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0652_pre_sunrise_field.jpg",
+    "cid": "bafybeia2j6rfiuq3uior6pgidf3vdec3tqorclv4s6dpi2voxfae3kdvvy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeia2j6rfiuq3uior6pgidf3vdec3tqorclv4s6dpi2voxfae3kdvvy",
+    "reference_folder": "dataset/data-unit/00224/external-reference/",
+    "note": "Visual confirmation of cold pre-sunrise conditions."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
