@@ -1,3 +1,38 @@
+## DGCP_MAMEEFARM_GOVERNANCE_ERROR_LOG
+
+date_local: 2026-01-13
+timezone: Asia/Bangkok
+project: MaMeeFarm™
+framework: DGCP
+
+record_type: governance_error_log
+error_type: misfiled_record
+severity: low
+status: documented
+
+location: repository-level
+affected_repository: MaMeeFarm-Primary-Dataset
+### Summary
+A DGCP-related daily log was committed to an incorrect repository path.
+
+### Cause
+Human operational error during routine logging.
+
+### Impact
+No data loss.
+No content modification.
+Timeline integrity preserved.
+
+### Action Taken
+The record has been documented under governance/error-log.
+Original content remains unchanged.
+
+### Principle
+Append-only correction.
+No deletion.
+No rewrite.
+
+
 ## DGCP_MAMEEFARM_DAILY_LOG
 date_local: 2026-01-13
 timezone: Asia/Bangkok
