@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00212",
+  "file_path": "dataset/data-unit/00212/dataunit_00212.json",
+  "category": "animal-observation",
+  "sub_category": "canine-resting-behavior",
+  "captured_at_local": "2026-01-12 13:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Residential Area, Thailand",
+  "data_type": "image",
+  "title": "afternoon_canine_resting_near_residence",
+  "summary": "Observation of dogs resting near the house during afternoon hours.",
+  "description": "Image records multiple dogs of different sizes resting calmly near the residential area during the afternoon. The animals are positioned close to the house structure, indicating use of the space as a resting and monitoring area.",
+  "behavior_context": {
+    "species": "canine",
+    "group_composition": "mixed sizes",
+    "observed_behavior": [
+      "resting",
+      "remaining near residence"
+    ]
+  },
+  "temporal_context": {
+    "time_of_day": "afternoon",
+    "approximate_light_condition": "daylight"
+  },
+  "context_notes": [
+    "No feeding or active movement observed at capture time",
+    "Behavior recorded as passive resting",
+    "Part of daily animal presence documentation"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_1340_canine_resting.jpg",
+    "cid": "bafybeifcxtbh5vib4wzzvg64vy2zmh24dm2cvqsgok2womfkame5ec3cnq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifcxtbh5vib4wzzvg64vy2zmh24dm2cvqsgok2womfkame5ec3cnq",
+    "reference_folder": "dataset/data-unit/00212/external-reference/",
+    "note": "Image used for behavioral and habitat observation only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
