@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00206",
+  "file_path": "dataset/data-unit/00206/dataunit_00206.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-12 07:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Duck House, Thailand",
+  "data_type": "image",
+  "title": "duck_house_temperature_humidity_check",
+  "summary": "Morning temperature and humidity measurement inside the duck house.",
+  "description": "Image documents a temperature and humidity reading taken inside the duck house using a digital thermo-hygrometer. The measurement was conducted in the morning and later cross-referenced with visible dew conditions on surrounding plants.",
+  "measurement": {
+    "device_model": "HTC-2",
+    "temperature_inside_celsius": 12.6,
+    "temperature_outside_celsius": 12.0,
+    "relative_humidity_percent": 85,
+    "measurement_context": "duck_house_interior"
+  },
+  "cross_reference_data_units": [
+    "00199",
+    "00201",
+    "00204"
+  ],
+  "context_notes": [
+    "Morning environmental check",
+    "High relative humidity observed",
+    "Used to correlate with dew presence on plants",
+    "Supports micro-climate consistency across farm zones"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260112_0756_duck_house_temp_humidity.jpg",
+    "cid": "bafybeicwdvowaxcakmy7z7ztx4nh4hu3z6q52ewh2pekb42bvaq244d3e4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicwdvowaxcakmy7z7ztx4nh4hu3z6q52ewh2pekb42bvaq244d3e4",
+    "reference_folder": "dataset/data-unit/00206/external-reference/",
+    "note": "Image shows a thermo-hygrometer placed inside the duck house."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
