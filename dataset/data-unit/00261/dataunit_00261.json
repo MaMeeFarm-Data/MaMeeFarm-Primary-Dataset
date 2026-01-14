@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00261",
+  "file_path": "dataset/data-unit/00261/dataunit_00261.json",
+  "category": "crop-establishment",
+  "sub_category": "soil-protection-mulching",
+  "captured_at_local": "2026-01-14 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "straw_mulching_eggplant_bed",
+  "summary": "Straw mulching applied to eggplant planting area after planting on the previous day.",
+  "description": "This data unit documents straw mulching applied over the eggplant planting area. The eggplants were planted on the previous day, and straw was used to cover the soil surface to retain moisture and protect the planting bed. The activity follows the planting work recorded on January 13.",
+  "activity_context": {
+    "crop": "eggplant",
+    "operation": "straw mulching",
+    "operation_timing": "day after planting"
+  },
+  "reference_chain": {
+    "previous_planting_record": "dataunit_00229",
+    "nft_reference": "Seed Of Hope — Day 171 Part 1",
+    "sequence_note": "mulching performed after planting activity"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_straw_mulch_eggplant_20260114_0808.jpg",
+    "cid": "bafybeihxnwts6ozzecv7xblzqy2sz6g46eh2zvcaxt36wqgmok2uvvme7a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihxnwts6ozzecv7xblzqy2sz6g46eh2zvcaxt36wqgmok2uvvme7a",
+    "reference_folder": "dataset/data-unit/00261/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
