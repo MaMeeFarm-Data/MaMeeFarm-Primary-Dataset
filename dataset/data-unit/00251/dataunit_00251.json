@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00251",
+  "file_path": "dataset/data-unit/00251/dataunit_00251.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-13 23:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, duck coop area",
+  "data_type": "image",
+  "title": "night_temperature_humidity_final_record",
+  "summary": "Final temperature and humidity measurement of the day.",
+  "description": "This data unit records the final temperature and humidity measurement taken at 23:55 local time. The measurement represents end-of-day environmental conditions in the duck coop area.",
+  "measurement": {
+    "temperature_celsius": 17.8,
+    "humidity_percent": 68,
+    "device_model": "HTC-1",
+    "display_time": "11:55 PM"
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "morning_measurement"
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00238",
+      "relation": "afternoon_measurement"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_2355_temperature_final.jpg",
+    "cid": "bafybeigzyxsmtar6g5kvegxxeycs6qpj4nzdwarltbrrheyreopzur73yu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigzyxsmtar6g5kvegxxeycs6qpj4nzdwarltbrrheyreopzur73yu",
+    "reference_folder": "dataset/data-unit/00251/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
