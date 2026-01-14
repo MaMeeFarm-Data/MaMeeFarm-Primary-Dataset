@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00259",
+  "file_path": "dataset/data-unit/00259/dataunit_00259.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-14 08:06",
+  "timezone": "Asia/Bangkok",
+  "location": "Balcony wall area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "third_temperature_record_morning_balcony_wall",
+  "summary": "Third temperature and humidity measurement of the day recorded at the balcony wall area.",
+  "description": "This data unit documents the third temperature and humidity measurement of the day at MaMeeFarm. The reading was captured at the balcony wall area using a digital thermometer-hygrometer. This record follows earlier measurements conducted the same day.",
+  "measurement": {
+    "temperature_celsius": 14.7,
+    "humidity_percent": 72,
+    "device": "HTC-1 digital thermometer-hygrometer"
+  },
+  "reference_chain": {
+    "previous_temperature_records": [
+      "dataunit_00253",
+      "proof_484"
+    ],
+    "sequence_position": "third_record_of_day"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_temp_20260114_0806.jpg",
+    "cid": "bafybeiejg3fqbeybis4gnalzel3aaigmbysix7xefggzsthywqwiavkwpm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiejg3fqbeybis4gnalzel3aaigmbysix7xefggzsthywqwiavkwpm",
+    "reference_folder": "dataset/data-unit/00259/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
