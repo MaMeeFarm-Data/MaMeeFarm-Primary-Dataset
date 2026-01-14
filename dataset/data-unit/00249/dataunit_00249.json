@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00249",
+  "file_path": "dataset/data-unit/00249/dataunit_00249.json",
+  "category": "infrastructure-operation",
+  "sub_category": "lighting_night_work_support",
+  "captured_at_local": "2026-01-13 18:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, house/work area",
+  "data_type": "image",
+  "title": "single_work_light_5w_night_operation",
+  "summary": "Single light used to support nighttime work under power constraints.",
+  "description": "This data unit documents a single active light source used during nighttime work. The light is stated as 5W and serves as the primary lighting for continued system operations under limited power conditions.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00231",
+      "relation": "daylight_context",
+      "note": "Daytime sunlight conditions earlier on the same day."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00233",
+      "relation": "power_system_context",
+      "note": "Inverter restart waiting period and power system operation context."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1822_single_work_light_5w.jpg",
+    "cid": "bafybeifpgxoy6bcn4jknrmdrusb74t2neonqztmxiqsdgwlgjg7kdvgj5q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifpgxoy6bcn4jknrmdrusb74t2neonqztmxiqsdgwlgjg7kdvgj5q",
+    "reference_folder": "dataset/data-unit/00249/external-reference/",
+    "note": "Image shows a single bright lamp providing illumination in a dark environment."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
