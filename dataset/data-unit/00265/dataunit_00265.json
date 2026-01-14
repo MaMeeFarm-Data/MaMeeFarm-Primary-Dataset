@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00265",
+  "file_path": "dataset/data-unit/00265/dataunit_00265.json",
+  "category": "farm-plant-observation",
+  "sub_category": "pumpkin_seedling_leaf_damage",
+  "captured_at_local": "2026-01-14 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pumpkin_seedling_day14_leaf_edge_damage",
+  "summary": "Observation of leaf edge damage on a 14-day-old pumpkin seedling.",
+  "description": "This data unit documents visible leaf damage on a pumpkin seedling approximately 14 days after germination. Several leaves show irregular edges and missing tissue consistent with possible insect feeding. No pest species identification or intervention was performed at the time of observation.",
+  "plant_context": {
+    "plant_type": "pumpkin",
+    "estimated_age_days": 14,
+    "previous_observation_reference": "00096",
+    "days_since_last_record": 7
+  },
+  "leaf_observation": {
+    "damage_present": true,
+    "damage_pattern": "irregular leaf edges and partial tissue loss",
+    "affected_leaves": "multiple",
+    "active_pests_visible": false,
+    "interpretation_note": "Observation only; no pest identification or causal attribution beyond visual characteristics."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pumpkin_leaf_damage_20260114_0813.jpg",
+    "cid": "bafybeiadqf6da4xqfyucomoo3jq4th4n7w2owpetjdyz5rabt6zfwfdfwi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiadqf6da4xqfyucomoo3jq4th4n7w2owpetjdyz5rabt6zfwfdfwi",
+    "reference_folder": "dataset/data-unit/00265/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
