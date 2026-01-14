@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00239",
+  "file_path": "dataset/data-unit/00239/dataunit_00239.json",
+  "category": "environmental-observation",
+  "sub_category": "plant_leaf_surface_condition",
+  "captured_at_local": "2026-01-13 10:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, backyard garden",
+  "data_type": "image",
+  "title": "late_morning_avocado_leaf_dry_condition",
+  "summary": "Avocado leaf surface observed dry under sunlight during late morning.",
+  "description": "This record documents the surface condition of avocado leaves during late morning sunlight. No visible dew or surface moisture is present at the time of capture, indicating a dry leaf surface compared to earlier morning conditions.",
+  "observation": {
+    "leaf_surface_moisture": "not visible",
+    "sunlight_condition": "direct sunlight",
+    "air_condition_note": "appears drier than early morning"
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00228",
+      "relation": "morning_comparison_reference",
+      "note": "Earlier morning avocado leaf with visible dew."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00238",
+      "relation": "temperature_context_reference",
+      "note": "Mid-morning temperature and humidity record."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1030_avocado_leaf.jpg",
+    "cid": "bafybeidtpefl4nhvm3xsknrspvshrhnyi5kjvnl2x6z2f3hmus3x2ggjxy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidtpefl4nhvm3xsknrspvshrhnyi5kjvnl2x6z2f3hmus3x2ggjxy",
+    "reference_folder": "dataset/data-unit/00239/external-reference/",
+    "note": "Image shows avocado leaves under direct sunlight with no visible dew."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
