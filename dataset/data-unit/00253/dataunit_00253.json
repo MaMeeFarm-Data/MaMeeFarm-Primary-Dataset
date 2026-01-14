@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00253",
+  "file_path": "dataset/data-unit/00253/dataunit_00253.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-14 04:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pre_dawn_temperature_humidity_record",
+  "summary": "Temperature and humidity recorded before sunrise.",
+  "description": "This data unit records temperature and humidity conditions during the pre-dawn period before sunrise. The measurement was captured at 04:22 local time using a digital thermometer-hygrometer.",
+  "measurement": {
+    "temperature_celsius": 15.6,
+    "humidity_percent": 69,
+    "display_time": "04:22",
+    "period": "pre-dawn"
+  },
+  "device_observed": {
+    "device_type": "digital thermometer hygrometer",
+    "model_label": "HTC-1"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260114_0422_temperature.jpg",
+    "cid": "bafybeihve325lwi3qb5jzkf7kmhp3xkmlxkqsax6ern6w746yirrj4ym34",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihve325lwi3qb5jzkf7kmhp3xkmlxkqsax6ern6w746yirrj4ym34",
+    "reference_folder": "dataset/data-unit/00253/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
