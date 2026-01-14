@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00252",
+  "file_path": "dataset/data-unit/00252/dataunit_00252.json",
+  "category": "infrastructure-energy",
+  "sub_category": "solar-inverter-operation",
+  "captured_at_local": "2026-01-13 23:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "hybrid_solar_inverter_shutdown_time",
+  "summary": "Recorded the time of inverter shutdown for the day.",
+  "description": "This data unit records the inverter shutdown time (end-of-day state) as captured at 23:56 local time. The image shows the hybrid solar inverter unit and its status indicators at the moment of shutdown logging.",
+  "device_observed": {
+    "device_type": "hybrid_solar_inverter",
+    "observed_label": "HYBRID SOLAR INVERTER",
+    "observed_status_text": "Low Frequency"
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00232",
+      "relation": "first_open_time_reference"
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00235",
+      "relation": "second_open_time_reference"
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00231",
+      "relation": "operated_by_sunlight_reference"
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00234",
+      "relation": "sunlight_condition_reference"
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00233",
+      "relation": "insufficient_light_shutdown_reference"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_2356_inverter_shutdown.jpg",
+    "cid": "bafybeif3f6r6mmuiksyvhjltsrlnn3qws6lrjm75og73ze6la3ns6gesjy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif3f6r6mmuiksyvhjltsrlnn3qws6lrjm75og73ze6la3ns6gesjy",
+    "reference_folder": "dataset/data-unit/00252/external-reference/"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
