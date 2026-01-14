@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00246",
+  "file_path": "dataset/data-unit/00246/dataunit_00246.json",
+  "category": "agricultural-water-management",
+  "sub_category": "evening_vegetable_watering",
+  "captured_at_local": "2026-01-13 17:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, backyard vegetable plot",
+  "data_type": "image",
+  "title": "evening_watering_after_morning_humidity_assessment",
+  "summary": "Evening watering of vegetables after no watering in the morning due to sufficient humidity.",
+  "description": "This data unit records evening vegetable watering at MaMeeFarm. No watering was performed in the morning because soil moisture and ambient humidity were sufficient, supported by morning dew presence and temperature-humidity records. Watering was conducted in the evening as humidity decreased and soil conditions changed.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "morning_temperature_humidity_context",
+      "note": "Morning ambient temperature and humidity conditions."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00228",
+      "relation": "morning_dew_presence",
+      "note": "Dew observed on plant leaves during the morning."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00230",
+      "relation": "soil_moisture_condition_morning",
+      "note": "Soil moisture condition assessed in the morning."
+    },
+    {
+      "reference_type": "proof",
+      "reference_id": "480",
+      "relation": "duck_coop_temperature_humidity",
+      "note": "Temperature and humidity record from duck coop in the same zone."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1745_evening_watering.jpg",
+    "cid": "bafybeidtypjgrkqxni3olobobqleu6txqdkxneenevfsxaq5soy7x5tmsu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidtypjgrkqxni3olobobqleu6txqdkxneenevfsxaq5soy7x5tmsu",
+    "reference_folder": "dataset/data-unit/00246/external-reference/",
+    "note": "Image shows manual watering of vegetables during late afternoon."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
