@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00263",
+  "file_path": "dataset/data-unit/00263/dataunit_00263.json",
+  "category": "agricultural-activity",
+  "sub_category": "planting",
+  "captured_at_local": "2026-01-14 08:12",
+  "timezone": "Asia/Bangkok",
+  "location": "Empty duck coop planting area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rat_tailed_radish_planting_empty_duck_coop_area",
+  "summary": "Planting of rat-tailed radish in an empty duck coop area previously cleared of basil.",
+  "description": "This data unit documents the planting of rat-tailed radish (Raphanus rat-tailed) in an empty duck coop area. The planting location corresponds to the same soil area where basil plants were previously removed.",
+  "crop": {
+    "common_name": "Rat-tailed radish",
+    "local_name": "ผักขี้หูด",
+    "scientific_name": "Raphanus sativus var. caudatus"
+  },
+  "land_use_context": {
+    "previous_crop_removed": "basil",
+    "area_status": "empty duck coop",
+    "soil_reuse": true
+  },
+  "spatial_reference": {
+    "related_data_units": [
+      "00128",
+      "00148",
+      "00167"
+    ],
+    "note": "Planting performed in the same physical area as referenced data units."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_rat_tailed_radish_planting_20260114_0812.jpg",
+    "cid": "bafybeieujchn2lnnbdabb7rxrhcp3t6jkmgbygs4dyykaobl2u52ru2b74",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieujchn2lnnbdabb7rxrhcp3t6jkmgbygs4dyykaobl2u52ru2b74",
+    "reference_folder": "dataset/data-unit/00263/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
