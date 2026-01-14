@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00266",
+  "file_path": "dataset/data-unit/00266/dataunit_00266.json",
+  "category": "energy-system-operation",
+  "sub_category": "inverter_morning_start_constraint",
+  "captured_at_local": "2026-01-14 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "operational-log",
+  "title": "inverter_start_after_0800_due_to_delayed_sunlight",
+  "summary": "Morning inverter operation adjusted due to delayed sunlight during winter conditions.",
+  "description": "This data unit documents the decision to operate the inverter after 08:00 due to delayed sunlight observed in winter conditions. An earlier attempt to start operation before 08:00 required shutdown due to insufficient solar input. The operation was adjusted to maintain system balance under energy constraints.",
+  "operation_context": {
+    "seasonal_condition": "winter",
+    "sunlight_observation": "sunlight onset delayed",
+    "inverter_start_policy": "operate after sufficient solar input",
+    "constraint_note": "operation performed under limited energy availability"
+  },
+  "system_references": {
+    "previous_shutdown_reference": "00252",
+    "related_start_reference": "00232",
+    "related_shutdown_reference": "00233",
+    "same_day_sequence": true
+  },
+  "decision_logic": {
+    "attempted_start_before_0800": true,
+    "result": "insufficient power, shutdown required",
+    "adjusted_start_time_policy": "start after 08:00",
+    "goal": "maintain operational balance and prevent system instability"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_inverter_morning_context_20260114.json",
+    "cid": "bafybeianpf2j4iw2req2i5sleeo56eawoxr22ntdoj734bqkzfkmctppnm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeianpf2j4iw2req2i5sleeo56eawoxr22ntdoj734bqkzfkmctppnm",
+    "reference_folder": "dataset/data-unit/00266/external-reference/",
+    "note": "External reference provided for verification and contextual linkage only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
