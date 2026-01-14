@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00260",
+  "file_path": "dataset/data-unit/00260/dataunit_00260.json",
+  "category": "daily-farm-maintenance",
+  "sub_category": "animal-bedding-care",
+  "captured_at_local": "2026-01-14 08:07",
+  "timezone": "Asia/Bangkok",
+  "location": "Garden area near banana trees, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_bedding_sun_drying",
+  "summary": "Morning sun-drying of dog bedding after sunlight became available.",
+  "description": "This data unit documents the routine activity of hanging dog bedding for sun-drying in the morning. The activity was performed after sunlight became available, following earlier low-light morning conditions. The image records the presence of sunlight shortly after 08:00.",
+  "activity_context": {
+    "routine_type": "daily",
+    "purpose": "animal hygiene and bedding maintenance",
+    "sunlight_condition": "sunlight present after early-morning low light"
+  },
+  "reference_chain": {
+    "related_sunlight_record": "dataunit_00258",
+    "sequence_note": "sunlight emergence after 08:00"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_dog_bedding_20260114_0807.jpg",
+    "cid": "bafybeigbzdcbtapesdebosbxhkfl7kr65ma3uoocgls7lc6nkgboiypfme",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigbzdcbtapesdebosbxhkfl7kr65ma3uoocgls7lc6nkgboiypfme",
+    "reference_folder": "dataset/data-unit/00260/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
