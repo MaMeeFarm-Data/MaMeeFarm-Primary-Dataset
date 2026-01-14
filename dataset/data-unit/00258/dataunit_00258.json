@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00258",
+  "file_path": "dataset/data-unit/00258/dataunit_00258.json",
+  "category": "environmental-observation",
+  "sub_category": "morning_light_condition",
+  "captured_at_local": "2026-01-14 07:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "delayed_morning_sunlight_cold_season",
+  "summary": "Observation of low sunlight conditions in the early morning during the cold season.",
+  "description": "This data unit records early morning environmental conditions at MaMeeFarm where direct sunlight was not yet present. During the cold season, sunlight arrival is delayed compared to other periods of the year. The observation reflects ambient light conditions without direct solar exposure at the recorded time.",
+  "environmental_context": {
+    "season": "cold",
+    "sunlight_status": "no direct sunlight",
+    "time_of_day": "early morning"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_morning_light_20260114_0726.jpg",
+    "cid": "bafybeihckj55szozthev4455sl3vom4femnfhivow6cetfcafxdvd2jnnq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihckj55szozthev4455sl3vom4femnfhivow6cetfcafxdvd2jnnq",
+    "reference_folder": "dataset/data-unit/00258/external-reference/",
+    "note": "External reference provided for independent verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
