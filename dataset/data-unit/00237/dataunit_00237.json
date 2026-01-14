@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00237",
+  "file_path": "dataset/data-unit/00237/dataunit_00237.json",
+  "category": "animal-behavior-observation",
+  "sub_category": "dogs_sunbathing_thermal_regulation",
+  "captured_at_local": "2026-01-13 08:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, open yard area",
+  "data_type": "image",
+  "title": "dogs_resting_under_morning_sunlight",
+  "summary": "Dogs resting and sunbathing during warm morning sunlight.",
+  "description": "This record documents dogs resting on the ground while sunbathing as morning sunlight becomes fully available. The behavior is consistent with thermal regulation during cold-season mornings and reflects environmental comfort conditions rather than directed activity.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00234",
+      "relation": "environmental_light_context",
+      "note": "Sunlight intensity observed to be increasing toward full morning availability."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "ambient_temperature_context",
+      "note": "Morning temperature and humidity conditions during cold season."
+    },
+    {
+      "reference_type": "proof",
+      "reference_id": "480",
+      "relation": "environmental_temperature_reference",
+      "note": "Duck coop temperature record providing thermal context."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0848_dogs_sunbathing.jpg",
+    "cid": "bafybeiarlcxrpfgcoi4c6esw7f3noowx7db22l7rofuo746blfwa2t32kq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiarlcxrpfgcoi4c6esw7f3noowx7db22l7rofuo746blfwa2t32kq",
+    "reference_folder": "dataset/data-unit/00237/external-reference/",
+    "note": "Image documents dogs resting under warm morning sunlight."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
