@@ -1,0 +1,46 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00238",
+  "file_path": "dataset/data-unit/00238/dataunit_00238.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature_humidity_record",
+  "captured_at_local": "2026-01-13 10:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, house balcony wall",
+  "data_type": "image",
+  "title": "mid_morning_temperature_humidity_record",
+  "summary": "Temperature and humidity measurement during mid-morning as ambient air becomes warmer.",
+  "description": "This record captures ambient temperature and humidity measured on a house balcony wall using a digital thermometer-hygrometer (HTC-1). The measurement reflects warming conditions during late morning compared to earlier morning readings.",
+  "measurement": {
+    "temperature_celsius": 18.8,
+    "humidity_percent": 69,
+    "device_model": "HTC-1",
+    "measurement_type": "ambient_air",
+    "device_condition_note": "digital display visible and readable"
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "morning_comparison_reference",
+      "note": "Earlier morning temperature and humidity record."
+    },
+    {
+      "reference_type": "proof",
+      "reference_id": "480",
+      "relation": "animal_shelter_temperature_context",
+      "note": "Duck coop temperature record for environmental comparison."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1029_temperature_humidity.jpg",
+    "cid": "bafybeifu55fqiuv34ywo4gx3p5fix7qijmqi6dai2datsd7ypgo3eddv4i",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifu55fqiuv34ywo4gx3p5fix7qijmqi6dai2datsd7ypgo3eddv4i",
+    "reference_folder": "dataset/data-unit/00238/external-reference/",
+    "note": "Image shows digital thermometer-hygrometer mounted on balcony wall."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
