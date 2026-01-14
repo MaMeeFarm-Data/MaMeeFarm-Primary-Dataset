@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00256",
+  "file_path": "dataset/data-unit/00256/dataunit_00256.json",
+  "category": "animal-care-observation",
+  "sub_category": "adult_dog_feeding_activity",
+  "captured_at_local": "2026-01-14 07:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "adult_dogs_eating_morning_food_under_constraints",
+  "summary": "Adult dogs observed eating food during the morning feeding session under equipment and container limitations.",
+  "description": "This data unit documents adult dogs actively eating food during the morning feeding session. Feeding was conducted under constraints related to available feeding equipment and containers. Despite limitations, dogs were provided with appropriate food. This observation references Proof 485 and follows the puppy feeding observation recorded in Data Unit 00255 on the same date.",
+  "activity_context": {
+    "feeding_time": "morning",
+    "animal_group": "adult dogs",
+    "operational_constraints": [
+      "limited feeding containers",
+      "equipment availability constraints"
+    ],
+    "proof_reference": "proof_485",
+    "related_data_units": [
+      "00255"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_adult_dog_feed_20260114_0700.jpg",
+    "cid": "bafybeifqyaqnk3h4wijc5p7zvn76kfdlsar22dh5vy3of6xcgybpi3dj64",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifqyaqnk3h4wijc5p7zvn76kfdlsar22dh5vy3of6xcgybpi3dj64",
+    "reference_folder": "dataset/data-unit/00256/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
