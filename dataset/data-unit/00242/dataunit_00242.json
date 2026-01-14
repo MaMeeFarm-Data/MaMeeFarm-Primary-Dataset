@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00242",
+  "file_path": "dataset/data-unit/00242/dataunit_00242.json",
+  "category": "environmental-measurement",
+  "sub_category": "duck_coop_temperature_humidity",
+  "captured_at_local": "2026-01-13 13:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, vacant duck coop",
+  "data_type": "image",
+  "title": "duck_coop_afternoon_temperature_record",
+  "summary": "Afternoon temperature and humidity measurement inside a vacant duck coop.",
+  "description": "This data unit records the second temperature and humidity measurement of the day inside a vacant duck coop. The reading was taken in the afternoon to observe environmental conditions after increased solar exposure. This measurement follows the first temperature record documented earlier in the day.",
+  "measurement": {
+    "instrument": "HTC-2 digital thermometer-hygrometer",
+    "temperature_inside_celsius": 31.1,
+    "temperature_outside_celsius": 28.3,
+    "relative_humidity_percent": 43,
+    "measurement_context": "inside vacant duck coop",
+    "measurement_sequence": "second measurement of the day"
+  },
+  "linked_references": [
+    {
+      "reference_type": "proof",
+      "reference_id": "480",
+      "relation": "prior_measurement_reference",
+      "note": "First temperature and humidity record of the day in duck coop."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1338_duckcoop_temp_humidity.jpg",
+    "cid": "bafybeifeossrgjzcsaevlhesf4zstdrn43rn3i5ub7hya2wbng3chbpgbu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifeossrgjzcsaevlhesf4zstdrn43rn3i5ub7hya2wbng3chbpgbu",
+    "reference_folder": "dataset/data-unit/00242/external-reference/",
+    "note": "Image shows HTC-2 display with temperature and humidity values."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
