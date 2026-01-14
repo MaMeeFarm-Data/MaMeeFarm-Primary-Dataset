@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00243",
+  "file_path": "dataset/data-unit/00243/dataunit_00243.json",
+  "category": "animal-welfare-observation",
+  "sub_category": "dog_feeding_and_guarding_behavior",
+  "captured_at_local": "2026-01-13 16:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, residential yard",
+  "data_type": "image",
+  "title": "dogs_fed_and_resting_guarding_area",
+  "summary": "Observation of dogs after feeding, resting calmly and occupying their usual guarding area.",
+  "description": "This data unit records the condition of dogs at MaMeeFarm after feeding. The dogs are observed resting calmly in the residential yard, showing no disturbance to humans and remaining present in their typical area. Feeding earlier in the day is referenced as context for their condition.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00225",
+      "relation": "feeding_reference",
+      "note": "Morning feeding record."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1626_dogs_resting_after_feeding.jpg",
+    "cid": "bafybeigkkfhwzgzoskypeco2fe623q3pccu4znrdbf4he4g4kggph4g77e",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigkkfhwzgzoskypeco2fe623q3pccu4znrdbf4he4g4kggph4g77e",
+    "reference_folder": "dataset/data-unit/00243/external-reference/",
+    "note": "Image documents dogs resting together in the yard."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
