@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00236",
+  "file_path": "dataset/data-unit/00236/dataunit_00236.json",
+  "category": "human-labor-agriculture",
+  "sub_category": "daily_garden_maintenance",
+  "captured_at_local": "2026-01-13 08:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, backyard garden",
+  "data_type": "image",
+  "title": "morning_garden_maintenance_backyard",
+  "summary": "Daily morning garden maintenance conducted in the backyard area.",
+  "description": "This record documents routine morning garden work performed in the backyard area of MaMeeFarm. The activity represents continuous daily labor focused on soil care, plant maintenance, and general garden upkeep, independent of energy system availability.",
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00235",
+      "relation": "temporal_sequence",
+      "note": "Garden work continued after earlier energy system retry attempts."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00223",
+      "relation": "environmental_context",
+      "note": "Morning humidity and temperature conditions recorded earlier."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_0838_morning_garden_work.jpg",
+    "cid": "bafybeiawyvvyjucsw5qazi5olb2jqtkxbs2fyuambklyzyl4dw6ismigw4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiawyvvyjucsw5qazi5olb2jqtkxbs2fyuambklyzyl4dw6ismigw4",
+    "reference_folder": "dataset/data-unit/00236/external-reference/",
+    "note": "Image documents routine backyard garden labor performed in the morning."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
