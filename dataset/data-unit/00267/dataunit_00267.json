@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00267",
+  "file_path": "dataset/data-unit/00267/dataunit_00267.json",
+  "category": "human-sustenance-log",
+  "sub_category": "minimal_daily_food_intake",
+  "captured_at_local": "2026-01-14 09:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "minimal_food_intake_sticky_rice_and_ground_pork",
+  "summary": "Daily food intake consisting of sticky rice and stir-fried ground pork.",
+  "description": "This data unit documents a minimal daily food intake consumed to sustain basic human operation. The meal consists of sticky rice and stir-fried ground pork, prepared and consumed under system and resource constraints. The intake supports continued daily work despite environmental and energy limitations.",
+  "nutrition_context": {
+    "meal_type": "single_meal_day",
+    "components": [
+      "sticky rice",
+      "ground pork"
+    ],
+    "intake_purpose": "basic sustenance for continued operation",
+    "preparation_level": "simple, low-resource"
+  },
+  "operational_context": {
+    "system_constraint": true,
+    "energy_limitation_present": true,
+    "work_continuity": "maintained"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_daily_food_20260114_0947.jpg",
+    "cid": "bafybeifeijha4cprktqq77rotan2y7isqmbpr3e4lr4mpuyn3ob3fwz6di",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifeijha4cprktqq77rotan2y7isqmbpr3e4lr4mpuyn3ob3fwz6di",
+    "reference_folder": "dataset/data-unit/00267/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
