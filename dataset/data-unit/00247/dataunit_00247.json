@@ -1,0 +1,46 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00247",
+  "file_path": "dataset/data-unit/00247/dataunit_00247.json",
+  "category": "environmental-monitoring",
+  "sub_category": "duck_coop_temperature_humidity_evening",
+  "captured_at_local": "2026-01-13 17:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, duck coop (empty)",
+  "data_type": "image",
+  "title": "evening_duck_coop_temperature_humidity_record",
+  "summary": "Evening temperature and humidity measurement inside the duck coop.",
+  "description": "This data unit records temperature and humidity conditions inside the duck coop during the evening period. The measurement is part of a continuous daily environmental monitoring cycle, following morning and afternoon records on the same date.",
+  "measurements": {
+    "temperature_inside_celsius": 27.3,
+    "temperature_outside_celsius": 22.7,
+    "humidity_percent": 56,
+    "device_model": "HTC-2",
+    "display_time": "17:45"
+  },
+  "linked_references": [
+    {
+      "reference_type": "proof",
+      "reference_id": "480",
+      "relation": "morning_duck_coop_record",
+      "note": "Morning temperature and humidity record."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00242",
+      "relation": "afternoon_duck_coop_record",
+      "note": "Afternoon temperature and humidity record."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1745_duck_coop_evening_temp.jpg",
+    "cid": "bafybeih5ok7dpkd6rqnzh4ciu4kh7l2lhs6wotdbqjf42pmag4gfedqttu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeih5ok7dpkd6rqnzh4ciu4kh7l2lhs6wotdbqjf42pmag4gfedqttu",
+    "reference_folder": "dataset/data-unit/00247/external-reference/",
+    "note": "Image shows HTC-2 device displaying evening temperature and humidity inside the duck coop."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
