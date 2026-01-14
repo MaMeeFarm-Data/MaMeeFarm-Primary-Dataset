@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00254",
+  "file_path": "dataset/data-unit/00254/dataunit_00254.json",
+  "category": "environmental-observation",
+  "sub_category": "pre-sunrise-sky-condition",
+  "captured_at_local": "2026-01-14 06:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pre_sunrise_sky_visual_record",
+  "summary": "Visual record of sky conditions before sunrise.",
+  "description": "This data unit documents the sky condition before sunrise. The image was captured at 06:35 local time, showing pre-sunrise ambient light conditions. Temperature reference is linked to Data Unit 00253.",
+  "environment_context": {
+    "sun_position": "below_horizon",
+    "time_period": "pre-sunrise",
+    "temperature_reference": "dataunit_00253"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_ps_20260114_0635_sky.jpg",
+    "cid": "bafybeigerwjoj2zga6uk55s3uosn27zuume3nwzf7amlqgjjqac254u7ae",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigerwjoj2zga6uk55s3uosn27zuume3nwzf7amlqgjjqac254u7ae",
+    "reference_folder": "dataset/data-unit/00254/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
