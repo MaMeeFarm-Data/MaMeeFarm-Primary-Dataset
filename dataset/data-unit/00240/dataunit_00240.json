@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00240",
+  "file_path": "dataset/data-unit/00240/dataunit_00240.json",
+  "category": "animal-welfare-observation",
+  "sub_category": "puppy_physical_mobility_limitation",
+  "captured_at_local": "2026-01-13 12:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, residential area",
+  "data_type": "image",
+  "title": "puppy_with_hind_leg_mobility_limitation_under_care",
+  "summary": "Observation of a puppy with visible hind leg mobility limitation receiving care under constrained conditions.",
+  "description": "This data unit records the presence of a puppy exhibiting a visible hind leg mobility limitation. Despite constraints in accessing medical treatment, the animal is consistently provided with food and basic care. This record documents care responsibility under survival-related limitations without medical diagnosis or intervention claims.",
+  "observation": {
+    "animal_type": "dog",
+    "life_stage": "puppy",
+    "mobility_condition": "visible hind leg abnormality",
+    "medical_status": "not assessed",
+    "care_condition": "fed regularly"
+  },
+  "linked_references": [
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00216",
+      "relation": "feeding_record_reference",
+      "note": "Morning feeding record."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00225",
+      "relation": "feeding_record_reference",
+      "note": "Additional feeding record."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00226",
+      "relation": "feeding_record_reference",
+      "note": "Small dog feeding under constraints."
+    },
+    {
+      "reference_type": "data_unit",
+      "reference_id": "00227",
+      "relation": "feeding_record_reference",
+      "note": "Evening feeding continuity."
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pd_20260113_1222_puppy_care.jpg",
+    "cid": "bafybeiejdr4oa7glbkkotpgrpqdxsi5lipvqbmac635aozdmpxdbylayiy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiejdr4oa7glbkkotpgrpqdxsi5lipvqbmac635aozdmpxdbylayiy",
+    "reference_folder": "dataset/data-unit/00240/external-reference/",
+    "note": "Image documents a puppy with mobility limitation under daily care conditions."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
