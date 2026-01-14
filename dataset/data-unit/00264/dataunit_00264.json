@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00264",
+  "file_path": "dataset/data-unit/00264/dataunit_00264.json",
+  "category": "environmental-observation",
+  "sub_category": "soil_moisture_condition",
+  "captured_at_local": "2026-01-14 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable beds, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_moist_soil_after_evening_irrigation_and_dew",
+  "summary": "Observation of moist soil surface in the morning following prior evening irrigation and overnight dew.",
+  "description": "This data unit documents moist topsoil conditions observed in the morning. Soil moisture is consistent with irrigation performed on the evening of the previous day, combined with overnight dew formation and cool morning temperature conditions.",
+  "environmental_context": {
+    "irrigation_reference": "00246",
+    "morning_temperature_humidity_reference": [
+      "00253",
+      "proof-484"
+    ],
+    "dew_reference": {
+      "plant": "avocado",
+      "proof": "486",
+      "nft_collection": "7 Ducks of Hope Day 140 Part 1"
+    }
+  },
+  "soil_observation": {
+    "surface_condition": "moist",
+    "visible_crusting": false,
+    "standing_water": false,
+    "interpretation_note": "Observation only; no causal claim beyond referenced records."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_soil_moisture_20260114_0813.jpg",
+    "cid": "bafybeicnmhgywkszqsg6bni543pfr3gd3mdczw3tf3eq7xszuqbb7snq6a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicnmhgywkszqsg6bni543pfr3gd3mdczw3tf3eq7xszuqbb7snq6a",
+    "reference_folder": "dataset/data-unit/00264/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
