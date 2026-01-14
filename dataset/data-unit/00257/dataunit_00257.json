@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00257",
+  "file_path": "dataset/data-unit/00257/dataunit_00257.json",
+  "category": "farm-maintenance-observation",
+  "sub_category": "routine_sanitation_dog_waste_collection",
+  "captured_at_local": "2026-01-14 07:25",
+  "timezone": "Asia/Bangkok",
+  "location": "Front area of MaMeeFarm residence, Thailand",
+  "data_type": "image",
+  "title": "routine_dog_waste_collection_front_area",
+  "summary": "Routine sanitation activity involving dog waste collection in the front area of the farm.",
+  "description": "This data unit documents routine farm maintenance involving the collection of dog waste in the front area of MaMeeFarm. This activity is part of daily sanitation work to maintain farm hygiene. The exact calendar day of similar tasks may vary, as this work is performed regularly regardless of operational constraints.",
+  "activity_context": {
+    "activity_type": "sanitation",
+    "task_nature": "routine",
+    "performed_daily": true,
+    "operational_constraints": [
+      "limited resources",
+      "manual labor"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_routine_sanitation_20260114_0725.jpg",
+    "cid": "bafybeic7hziyyoly56fzne6b23akmznzbc34mdcfuyfnjirfkd2rmvhafu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic7hziyyoly56fzne6b23akmznzbc34mdcfuyfnjirfkd2rmvhafu",
+    "reference_folder": "dataset/data-unit/00257/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
