@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00255",
+  "file_path": "dataset/data-unit/00255/dataunit_00255.json",
+  "category": "animal-care-observation",
+  "sub_category": "puppy_feeding_activity",
+  "captured_at_local": "2026-01-14 07:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "puppies_eating_morning_food",
+  "summary": "Puppies observed eating food during the morning feeding session.",
+  "description": "This data unit documents small dogs (puppies) actively eating food during the morning feeding session. The feeding event is referenced to Proof 485, which records the morning feeding action for this date.",
+  "activity_context": {
+    "feeding_time": "morning",
+    "animal_group": "puppies",
+    "proof_reference": "proof_485"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_puppy_feed_20260114_0700.jpg",
+    "cid": "bafybeifngxfaotbfo7bz5hwhfuuzd6hbmnhragw5f4wuvkwmj3gewdvm4u",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifngxfaotbfo7bz5hwhfuuzd6hbmnhragw5f4wuvkwmj3gewdvm4u",
+    "reference_folder": "dataset/data-unit/00255/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
