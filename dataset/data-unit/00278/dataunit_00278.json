@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00278",
+  "file_path": "dataset/data-unit/00278/dataunit_00278.json",
+  "category": "animal-care-maintenance",
+  "sub_category": "dog_bedding_retrieval",
+  "captured_at_local": "2026-01-14 17:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_bedding_retrieval_after_drying",
+  "summary": "Retrieval of dog bedding after sun drying.",
+  "description": "This data unit documents the retrieval of dog bedding after being sun-dried. The bedding had been previously placed for drying as recorded in Data Unit 00260. This action completes the bedding maintenance cycle for the same day.",
+  "maintenance_context": {
+    "item": "dog_bedding",
+    "action": "retrieved_after_drying",
+    "method": "sun_drying",
+    "maintenance_status": "completed"
+  },
+  "reference_context": {
+    "preceding_drying_data_unit": "00260",
+    "same_day_continuity": true
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_dog_bedding_retrieval_20260114_1704.jpg",
+    "cid": "bafybeihhboxffzp4wg6q24jniwfwih7z6neumtul6xefzerhw3gkystjg4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihhboxffzp4wg6q24jniwfwih7z6neumtul6xefzerhw3gkystjg4",
+    "reference_folder": "dataset/data-unit/00278/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
