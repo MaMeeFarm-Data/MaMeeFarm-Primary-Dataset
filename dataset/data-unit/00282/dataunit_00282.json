@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00282",
+  "file_path": "dataset/data-unit/00282/dataunit_00282.json",
+  "category": "energy-constraint-observation",
+  "sub_category": "light_brightness_visual_confirmation",
+  "captured_at_local": "2026-01-14 18:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "usb_light_brightness_visual_state",
+  "summary": "Observed brightness of a 5V USB light during operation.",
+  "description": "This data unit documents the visible brightness state of a 5V USB-powered light while in operation. The record serves as a visual confirmation of light emission and references the associated device usage documented in Data Unit 00281.",
+  "energy_context": {
+    "power_source": "5V USB",
+    "observed_state": "light emitting",
+    "measurement": "visual observation only"
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00281"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_usb_light_brightness_20260114_1804.jpg",
+    "cid": "bafybeif2zban4abu27ryyjv3wkxtkpq4qkzm65yadgov2qqecvw63h42sa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif2zban4abu27ryyjv3wkxtkpq4qkzm65yadgov2qqecvw63h42sa",
+    "reference_folder": "dataset/data-unit/00282/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
