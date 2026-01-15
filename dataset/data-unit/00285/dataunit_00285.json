@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00285",
+  "file_path": "dataset/data-unit/00285/dataunit_00285.json",
+  "category": "system-operation",
+  "sub_category": "daily-system-closure",
+  "captured_at_local": "2026-01-14 23:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "end_of_day_system_shutdown_hybrid_inverter",
+  "summary": "End-of-day shutdown status of hybrid solar inverter and related power systems.",
+  "description": "This record documents the end-of-day system shutdown at MaMeeFarm. The hybrid solar inverter displays a low frequency condition and is powered down as part of daily system closure. Operations throughout the day were conducted under power and system constraints, yet continuous data logging was maintained.",
+  "operation": {
+    "action": "system_shutdown",
+    "system": "hybrid_solar_inverter",
+    "status_observed": [
+      "low_frequency",
+      "inverter_off"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00266"
+    ],
+    "daily_data_unit_range": {
+      "from": "00253",
+      "to": "00285"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_inverter_shutdown_20260114_2356.jpg",
+    "cid": "bafybeifn5zy3lsrifkndnauqw463czmqwsisipvpxa3qw5y6pw66wgkyde",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifn5zy3lsrifkndnauqw463czmqwsisipvpxa3qw5y6pw66wgkyde",
+    "reference_folder": "dataset/data-unit/00285/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
