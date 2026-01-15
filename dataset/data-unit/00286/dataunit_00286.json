@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00286",
+  "file_path": "dataset/data-unit/00286/dataunit_00286.json",
+  "category": "environmental-observation",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-15 07:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_record",
+  "summary": "Morning temperature and humidity measurement recorded at MaMeeFarm.",
+  "measurement": {
+    "temperature_celsius": 15.4,
+    "humidity_percent": 71,
+    "device_model": "HTC-1 Clock/Humidity",
+    "measurement_type": "ambient"
+  },
+  "description": "This data unit records the morning ambient temperature and humidity measured using an HTC-1 digital thermometer-hygrometer. The values are captured directly from the device display as shown in the image.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_temperature_morning_20260115_0709.jpg",
+    "cid": "bafybeiht7mjsb25xstabodjgbn7ofltdqjlumcjp3ogj56kk5r4yt4g5ka",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiht7mjsb25xstabodjgbn7ofltdqjlumcjp3ogj56kk5r4yt4g5ka",
+    "reference_folder": "dataset/data-unit/00286/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
