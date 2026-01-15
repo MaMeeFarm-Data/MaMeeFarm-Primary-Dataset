@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00295",
+  "file_path": "dataset/data-unit/00295/dataunit_00295.json",
+  "category": "system-operation",
+  "sub_category": "morning-system-power-on",
+  "captured_at_local": "2026-01-15 08:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_power_on_hybrid_solar_inverter_under_constraint",
+  "summary": "Morning power-on of hybrid solar inverter after full sunlight availability, operating under system constraints.",
+  "description": "This record documents the morning power-on of the hybrid solar inverter system at MaMeeFarm after full sunlight became available. The system was activated under known power constraints and continued operating despite display degradation. The previous system shutdown occurred the night before, and activation was dependent on sufficient solar input.",
+  "operation": {
+    "action": "system_power_on",
+    "system": "hybrid_solar_inverter",
+    "status_observed": [
+      "system_powered_on",
+      "operation_under_constraint",
+      "display_not_functional"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00285",
+      "00294",
+      "491"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00295"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_morning_system_power_on_20260115_0802.jpg",
+    "cid": "bafybeig7hwugkx2axtmpzlub6fn7fhr5q5ubos2gjmco7fin7qjh5ons7m",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig7hwugkx2axtmpzlub6fn7fhr5q5ubos2gjmco7fin7qjh5ons7m",
+    "reference_folder": "dataset/data-unit/00295/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
