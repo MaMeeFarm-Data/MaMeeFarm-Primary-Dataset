@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00276",
+  "file_path": "dataset/data-unit/00276/dataunit_00276.json",
+  "category": "animal-care-observation",
+  "sub_category": "dog_feeding_preparation",
+  "captured_at_local": "2026-01-14 16:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_waiting_for_evening_meal",
+  "summary": "Dogs positioned indoors prior to the evening feeding period.",
+  "description": "This data unit records multiple dogs gathered indoors during the late afternoon period, prior to the evening meal. The animals are observed waiting in proximity to the feeding area. Morning feeding for the same day is documented separately under Proof 485 and Data Units 00255–00256.",
+  "animal_context": {
+    "species": "dog",
+    "activity_state": "waiting_before_feeding",
+    "feeding_period": "evening"
+  },
+  "reference_context": {
+    "morning_feeding_proof": "Proof 485",
+    "related_data_units": [
+      "00255",
+      "00256"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_dogs_evening_wait_20260114_1656.jpg",
+    "cid": "bafybeiekf3fkll2jmqb3qazuaeckhnyxaewm2g5w6q63p6mok6mlzmfk6q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiekf3fkll2jmqb3qazuaeckhnyxaewm2g5w6q63p6mok6mlzmfk6q",
+    "reference_folder": "dataset/data-unit/00276/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
