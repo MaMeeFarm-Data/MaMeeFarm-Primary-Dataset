@@ -1,0 +1,48 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00284",
+  "file_path": "dataset/data-unit/00284/dataunit_00284.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-14 23:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "end_of_day_temperature_humidity_record",
+  "summary": "Final temperature and humidity measurement recorded before end of day.",
+  "measurement": {
+    "device_model": "HTC-1",
+    "temperature_celsius": 18.7,
+    "humidity_percent": 69,
+    "measurement_type": "manual visual read"
+  },
+  "context": {
+    "record_position": "end_of_day",
+    "daily_cycle_reference": [
+      "morning",
+      "midday",
+      "evening"
+    ]
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00253",
+      "00259",
+      "00269"
+    ],
+    "related_proof": [
+      "484"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_temperature_endofday_20260114_2355.jpg",
+    "cid": "bafybeihgh2slhqnjt2j5n6ekv2xapkenfrerdehmjmq2hyb6jtcb546bsm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihgh2slhqnjt2j5n6ekv2xapkenfrerdehmjmq2hyb6jtcb546bsm",
+    "reference_folder": "dataset/data-unit/00284/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
