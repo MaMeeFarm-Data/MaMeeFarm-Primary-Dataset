@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00289",
+  "file_path": "dataset/data-unit/00289/dataunit_00289.json",
+  "category": "crop-management",
+  "sub_category": "banana-bunch-final-stage",
+  "captured_at_local": "2026-01-15 07:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_bunch_final_stage_blossom_removal_required",
+  "summary": "Observation of banana bunch reaching final stage, requiring banana blossom removal.",
+  "description": "This record documents a banana bunch at MaMeeFarm that has reached its final development stage. The banana blossom remains attached and should be removed to support fruit development and reduce unnecessary nutrient consumption.",
+  "operation": {
+    "action": "crop_assessment",
+    "system": "banana_tree",
+    "status_observed": [
+      "banana_bunch_final_stage",
+      "banana_blossom_present"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00288"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00289"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_banana_bunch_final_stage_20260115_0739.jpg",
+    "cid": "bafybeihhbezc5r3hucfij4c4u56csiqnxo73yk5e3iefqgqsrh3r2rt3mi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihhbezc5r3hucfij4c4u56csiqnxo73yk5e3iefqgqsrh3r2rt3mi",
+    "reference_folder": "dataset/data-unit/00289/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
