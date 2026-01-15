@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00275",
+  "file_path": "dataset/data-unit/00275/dataunit_00275.json",
+  "category": "farm-labor-activity",
+  "sub_category": "tree-cutting-resource-management",
+  "captured_at_local": "2026-01-14 14:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "tree_cutting_for_firewood_and_space_management",
+  "summary": "Labor activity involving cutting a tree within the farm for firewood and space management.",
+  "description": "This data unit documents a labor activity in which a tree within MaMeeFarm was cut down for use as firewood for cooking. The tree was part of the farm area and was removed to manage space and allow better growth conditions for nearby plants. The wood is intended for internal reuse as fuel for rice cooking.",
+  "labor_activity": {
+    "activity_type": "tree_cutting",
+    "purpose": [
+      "firewood_preparation",
+      "farm_space_management"
+    ],
+    "tool_used": "hand_saw"
+  },
+  "resource_use": {
+    "material": "wood",
+    "usage": "fuel_for_cooking",
+    "cycle": "internal_reuse"
+  },
+  "reference_context": {
+    "related_crop": "avocado_tree",
+    "nft_reference": "Seed of Hope Day 172 Part 1"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_tree_cutting_20260114_1428.jpg",
+    "cid": "bafybeifs44v226qrujuhg4s5tpqnltaep2pqtverleudkgb4qglgxgbhlu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifs44v226qrujuhg4s5tpqnltaep2pqtverleudkgb4qglgxgbhlu",
+    "reference_folder": "dataset/data-unit/00275/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
