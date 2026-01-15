@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00291",
+  "file_path": "dataset/data-unit/00291/dataunit_00291.json",
+  "category": "crop-health-monitoring",
+  "sub_category": "early-insect-leaf-damage",
+  "captured_at_local": "2026-01-15 07:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "early_insect_damage_on_chemical_free_pumpkin_leaves",
+  "summary": "Early-stage insect damage observed on pumpkin leaves grown without chemical pesticides.",
+  "description": "This record documents early-stage insect feeding damage on pumpkin leaves cultivated without chemical pesticides at MaMeeFarm. Leaf perforation and bite marks are visible, indicating the initial impact of insects under organic growing conditions. This observation serves as a baseline for subsequent monitoring and response.",
+  "operation": {
+    "action": "crop_health_observation",
+    "system": "pumpkin_plants",
+    "status_observed": [
+      "insect_leaf_damage_present",
+      "chemical_free_cultivation"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00096",
+      "00256",
+      "00286"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00291"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_pumpkin_leaf_insect_damage_20260115_0740.jpg",
+    "cid": "bafybeic34fz3jyrsycgktqoeab5h4hw2gjgh4mstqaiotqj6ccmcqofmgu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic34fz3jyrsycgktqoeab5h4hw2gjgh4mstqaiotqj6ccmcqofmgu",
+    "reference_folder": "dataset/data-unit/00291/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
