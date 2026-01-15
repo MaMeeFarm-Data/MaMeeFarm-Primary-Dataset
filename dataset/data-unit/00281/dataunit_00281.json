@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00281",
+  "file_path": "dataset/data-unit/00281/dataunit_00281.json",
+  "category": "energy-constraint-observation",
+  "sub_category": "low_power_work_light",
+  "captured_at_local": "2026-01-14 18:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "5v_usb_light_used_under_power_constraints",
+  "summary": "5V USB light used as a working light during power interruption.",
+  "description": "This data unit documents the use of a 5V USB-powered light as a working light during a power interruption. The light was used to continue work under energy constraints, in reference to inverter on/off operations within the solar power system.",
+  "energy_context": {
+    "power_source": "5V USB",
+    "usage_condition": "power interruption",
+    "constraint": "limited energy availability"
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00252",
+      "00253",
+      "00266"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_usb_light_20260114_1803.jpg",
+    "cid": "bafybeibvz2e2rph4nre2kwmvjr3bghzqp2rinigptbs25gwfaw5xnreefi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibvz2e2rph4nre2kwmvjr3bghzqp2rinigptbs25gwfaw5xnreefi",
+    "reference_folder": "dataset/data-unit/00281/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
