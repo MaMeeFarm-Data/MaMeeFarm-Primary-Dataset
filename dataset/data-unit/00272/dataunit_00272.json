@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00272",
+  "file_path": "dataset/data-unit/00272/dataunit_00272.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-14 12:29",
+  "timezone": "Asia/Bangkok",
+  "location": "Empty duck coop, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_temperature_record_empty_duck_coop",
+  "summary": "Midday temperature and humidity measurement recorded inside an empty duck coop.",
+  "description": "This data unit records the second midday temperature and humidity measurement inside an empty duck coop. The first midday record for the same day is referenced for continuity. Measurements are captured directly from the device display without interpretation.",
+  "measurement": {
+    "inside_temperature_celsius": 29.7,
+    "outside_temperature_celsius": 28.3,
+    "relative_humidity_percent": 46,
+    "device_model": "HTC-2"
+  },
+  "reference_context": {
+    "first_midday_record": "Data Unit 00262"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_temp_empty_duck_coop_20260114_1229.jpg",
+    "cid": "bafybeibr4agrovaoqypbibiz6poylkr7s5tiqc7s3eav6yoketjqhxwkma",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibr4agrovaoqypbibiz6poylkr7s5tiqc7s3eav6yoketjqhxwkma",
+    "reference_folder": "dataset/data-unit/00272/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
