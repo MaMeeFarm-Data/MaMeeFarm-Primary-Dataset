@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00280",
+  "file_path": "dataset/data-unit/00280/dataunit_00280.json",
+  "category": "natural-cycle-observation",
+  "sub_category": "sunset_daily_marker",
+  "captured_at_local": "2026-01-14 17:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "sunset_end_of_day_natural_capital",
+  "summary": "Sunset observed at the end of the day, marking daily closure and remaining natural capital.",
+  "description": "This data unit records the sunset at MaMeeFarm as a natural end-of-day marker. The observation represents the closing state of daily activities and remaining natural capital at the end of the work cycle. This sunset is referenced against the sunrise observation earlier the same day to complete the daily natural time cycle.",
+  "temporal_context": {
+    "cycle_role": "end_of_day",
+    "natural_event": "sunset",
+    "cycle_completion": "daily"
+  },
+  "reference_context": {
+    "related_data_unit_sunrise": "00254"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_sunset_20260114_1746.jpg",
+    "cid": "bafybeiajxlr3waionh5bbv4tcvecq4fprscepcykthksqurynah4e4gkva",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiajxlr3waionh5bbv4tcvecq4fprscepcykthksqurynah4e4gkva",
+    "reference_folder": "dataset/data-unit/00280/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
