@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00288",
+  "file_path": "dataset/data-unit/00288/dataunit_00288.json",
+  "category": "crop-management",
+  "sub_category": "morning-soil-moisture-check",
+  "captured_at_local": "2026-01-15 07:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_soil_moisture_check_vegetable_bed_no_watering",
+  "summary": "Morning observation of moist soil in vegetable beds; no watering performed in the morning.",
+  "description": "This record documents morning soil condition in the vegetable beds at MaMeeFarm. Soil surface appears moist in the morning, therefore no watering was performed at that time. Watering activity was performed in the evening (referenced in Data Unit 00279). Environmental humidity/temperature context is referenced from Data Unit 00286.",
+  "operation": {
+    "action": "soil_moisture_check",
+    "system": "vegetable_beds",
+    "status_observed": [
+      "soil_moist",
+      "no_morning_watering"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00279",
+      "00286"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00288"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_soil_moist_vegbed_20260115_0739.jpg",
+    "cid": "bafybeiacmrwpogo7ycxkflyrz4atnyf3ho6k6hz5vw3dakfhnq3gwtsegy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiacmrwpogo7ycxkflyrz4atnyf3ho6k6hz5vw3dakfhnq3gwtsegy",
+    "reference_folder": "dataset/data-unit/00288/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
