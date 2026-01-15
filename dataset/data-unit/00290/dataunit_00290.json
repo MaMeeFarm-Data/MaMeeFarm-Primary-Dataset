@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00290",
+  "file_path": "dataset/data-unit/00290/dataunit_00290.json",
+  "category": "environment-observation",
+  "sub_category": "morning-dew-formation",
+  "captured_at_local": "2026-01-15 07:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dew_on_banana_leaves_cool_weather",
+  "summary": "Morning dew observed on banana leaves under cool weather conditions.",
+  "description": "This record documents visible morning dew accumulation on banana leaves at MaMeeFarm. The presence of strong dew indicates cool air conditions during early morning hours. Environmental temperature and humidity context is referenced from Data Unit 00286.",
+  "operation": {
+    "action": "environment_observation",
+    "system": "banana_tree_leaves",
+    "status_observed": [
+      "cool_weather",
+      "strong_morning_dew"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00286"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00290"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_morning_dew_banana_leaf_20260115_0739.jpg",
+    "cid": "bafybeifdsrbpltekg6hdc2jmdlhhqipbki7tvpsif7e2h6ngworzlekrda",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifdsrbpltekg6hdc2jmdlhhqipbki7tvpsif7e2h6ngworzlekrda",
+    "reference_folder": "dataset/data-unit/00290/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
