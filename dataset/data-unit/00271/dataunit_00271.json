@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00271",
+  "file_path": "dataset/data-unit/00271/dataunit_00271.json",
+  "category": "food-consumption",
+  "sub_category": "farm_produce_consumption",
+  "captured_at_local": "2026-01-14 12:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "papaya_consumption_from_farm_tree",
+  "summary": "Papaya prepared for consumption harvested from a tree within the farm.",
+  "description": "This data unit documents papaya prepared for consumption. The papaya was harvested from an existing papaya tree within MaMeeFarm and was not purchased. The harvest activity references prior collection records.",
+  "reference_context": {
+    "harvest_reference_dataunit": "00215",
+    "related_nft_reference": "Seed Of Hope day170 part2"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_papaya_20260114_1217.jpg",
+    "cid": "bafybeiftbzyznrgsuqlbiztdm2saeopw5w7bgny53gtacko6qij75q3t7a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiftbzyznrgsuqlbiztdm2saeopw5w7bgny53gtacko6qij75q3t7a",
+    "reference_folder": "dataset/data-unit/00271/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
