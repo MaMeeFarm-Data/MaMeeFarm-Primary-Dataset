@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00294",
+  "file_path": "dataset/data-unit/00294/dataunit_00294.json",
+  "category": "environment-observation",
+  "sub_category": "morning-sunlight-transition",
+  "captured_at_local": "2026-01-15 08:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "full_morning_sunlight_established_delayed_onset",
+  "summary": "Observation of full morning sunlight established later than usual.",
+  "description": "This record documents the point at which full morning sunlight became established at MaMeeFarm. Compared to the sunrise reference, sunlight intensity reached full conditions later than usual on this day, indicating a delayed morning light transition.",
+  "operation": {
+    "action": "environment_observation",
+    "system": "sunlight_conditions",
+    "status_observed": [
+      "full_sunlight_established",
+      "delayed_morning_transition"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00287"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00294"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_full_morning_sunlight_20260115_0801.jpg",
+    "cid": "bafybeifdsrbpltekg6hdc2jmdlhhqipbki7tvpsif7e2h6ngworzlekrda",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifdsrbpltekg6hdc2jmdlhhqipbki7tvpsif7e2h6ngworzlekrda",
+    "reference_folder": "dataset/data-unit/00294/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
