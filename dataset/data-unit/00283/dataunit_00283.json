@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00283",
+  "file_path": "dataset/data-unit/00283/dataunit_00283.json",
+  "category": "farm-daily-labor",
+  "sub_category": "backyard_garden_evening_care",
+  "captured_at_local": "2026-01-14 18:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_garden_care_all_plots_completed",
+  "summary": "Evening garden care activity covering all backyard plots.",
+  "description": "This data unit documents evening garden work conducted in the backyard area of MaMeeFarm. Activities include watering and general care across all garden plots. The record confirms task completion for the entire area without assessing plant condition or outcomes.",
+  "work_context": {
+    "activity_type": "garden maintenance",
+    "time_of_day": "evening",
+    "coverage": "all plots",
+    "action_logged": [
+      "watering",
+      "general care"
+    ]
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00279"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_backyard_garden_evening_20260114_1807.jpg",
+    "cid": "bafybeicfc6e2v75axfiv5pnfvncr34xkteqbwtqg2w3jbk45jlrfmkdrqy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicfc6e2v75axfiv5pnfvncr34xkteqbwtqg2w3jbk45jlrfmkdrqy",
+    "reference_folder": "dataset/data-unit/00283/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
