@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00274",
+  "file_path": "dataset/data-unit/00274/dataunit_00274.json",
+  "category": "farm-produce-observation",
+  "sub_category": "banana-ripening-progress",
+  "captured_at_local": "2026-01-14 14:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "green_banana_ripening_slow_under_cool_conditions",
+  "summary": "Observation of bananas remaining unripe several days after harvest.",
+  "description": "This data unit documents a bunch of bananas harvested while still unripe on 2026-01-08 and left to ripen naturally. As of the observation time, the bananas remain green. The observation is contextually linked to recorded cool ambient temperatures during the ripening period.",
+  "harvest_context": {
+    "harvest_date": "2026-01-08",
+    "harvest_condition": "unripe",
+    "harvest_reference": "Data Unit 00104"
+  },
+  "observation": {
+    "ripening_method": "natural",
+    "current_ripeness": "unripe",
+    "peel_color": "green"
+  },
+  "reference_context": {
+    "temperature_records": [
+      "Data Unit 00223",
+      "Data Unit 00253"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_banana_20260114_1425.jpg",
+    "cid": "bafybeiehbh6x6243daehrxtl5m35thst4z6oqcwq3lxron37xkzyycpkfq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiehbh6x6243daehrxtl5m35thst4z6oqcwq3lxron37xkzyycpkfq",
+    "reference_folder": "dataset/data-unit/00274/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
