@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00270",
+  "file_path": "dataset/data-unit/00270/dataunit_00270.json",
+  "category": "agricultural-maintenance",
+  "sub_category": "pruning_for_food_use",
+  "captured_at_local": "2026-01-14 11:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cha_om_pruning_for_branching",
+  "summary": "Pruning cha-om plants to encourage branching and control plant height for food use.",
+  "description": "This data unit documents pruning of cha-om plants to promote new branch growth and prevent excessive height. The purpose of pruning is to maintain accessibility for food preparation and reduce reliance on purchased food. The pre-pruning condition is referenced by an earlier proof.",
+  "reference_context": {
+    "pre_pruning_proof": "Proof 488"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_chaom_pruning_20260114_1135.jpg",
+    "cid": "bafybeifvkgwdhr7c3ggudjpvfbabu72lymaxxzik4wx3ml4erzzsnxyr44",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifvkgwdhr7c3ggudjpvfbabu72lymaxxzik4wx3ml4erzzsnxyr44",
+    "reference_folder": "dataset/data-unit/00270/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
