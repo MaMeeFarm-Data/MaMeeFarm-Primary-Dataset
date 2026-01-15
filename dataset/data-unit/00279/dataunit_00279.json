@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00279",
+  "file_path": "dataset/data-unit/00279/dataunit_00279.json",
+  "category": "farm-irrigation",
+  "sub_category": "evening_vegetable_watering",
+  "captured_at_local": "2026-01-14 17:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_vegetable_irrigation_once_per_day",
+  "summary": "Evening watering of vegetable plots following a once-per-day irrigation routine.",
+  "description": "This data unit documents the evening irrigation of vegetable plots at MaMeeFarm. Watering is performed once per day in the evening. Morning soil conditions were observed as moist, with environmental temperature and humidity referenced from earlier measurements. The irrigation follows adaptive farm management under current weather and moisture conditions.",
+  "irrigation_context": {
+    "watering_time": "evening",
+    "frequency": "once_per_day",
+    "method": "manual_watering",
+    "soil_condition_morning": "moist",
+    "adjustment_basis": "temperature_and_humidity"
+  },
+  "reference_context": {
+    "environmental_data_units": [
+      "00259",
+      "00262"
+    ],
+    "related_proof": "487",
+    "related_nft_reference": "7_ducks_of_hope_day_140_part_1"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_evening_irrigation_20260114_1730.jpg",
+    "cid": "bafybeidd7pjsg7iqrmvv3extspfvl6avmuhpcqf5ehe4ytnffufsy57lwe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidd7pjsg7iqrmvv3extspfvl6avmuhpcqf5ehe4ytnffufsy57lwe",
+    "reference_folder": "dataset/data-unit/00279/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
