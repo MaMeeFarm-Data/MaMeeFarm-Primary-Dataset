@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00292",
+  "file_path": "dataset/data-unit/00292/dataunit_00292.json",
+  "category": "animal-care",
+  "sub_category": "morning-feeding",
+  "captured_at_local": "2026-01-15 07:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_feeding_dogs_20_individuals",
+  "summary": "Morning feeding activity for 20 dogs at MaMeeFarm.",
+  "description": "This record documents the morning feeding routine for dogs at MaMeeFarm. A total of 20 dogs were fed, consisting of 9 adult dogs and 11 smaller dogs. The activity reflects routine animal care under normal daily conditions.",
+  "operation": {
+    "action": "animal_feeding",
+    "system": "dogs",
+    "status_observed": [
+      "morning_feeding_completed",
+      "20_dogs_fed"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00286"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00292"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_morning_dog_feeding_20260115_0744.jpg",
+    "cid": "bafybeia3eb7c6bcgkaxssm3kmqhuluvtehdk2pubn4qttuyv3ep2fugavi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeia3eb7c6bcgkaxssm3kmqhuluvtehdk2pubn4qttuyv3ep2fugavi",
+    "reference_folder": "dataset/data-unit/00292/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
