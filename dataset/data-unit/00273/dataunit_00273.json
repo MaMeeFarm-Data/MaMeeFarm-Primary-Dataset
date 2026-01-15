@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00273",
+  "file_path": "dataset/data-unit/00273/dataunit_00273.json",
+  "category": "environmental-observation",
+  "sub_category": "soil-surface-condition",
+  "captured_at_local": "2026-01-14 12:29",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_soil_surface_condition_dry_vegetable_plot",
+  "summary": "Midday observation of soil surface condition in a vegetable plot.",
+  "description": "This data unit documents the visible soil surface condition in a vegetable plot during midday. The soil surface appears dry with no visible surface moisture at the time of observation. This record is contextually linked to a nearby environmental temperature and humidity measurement.",
+  "observation": {
+    "soil_surface_condition": "dry",
+    "visible_surface_moisture": false,
+    "sunlight_condition": "direct sunlight"
+  },
+  "reference_context": {
+    "environmental_measurement": "Data Unit 00272"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_soil_surface_20260114_1229.jpg",
+    "cid": "bafybeigyt64zef3ucefv4hsremo33joviw5dmfxxkbn4bf3csanexo7hjq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigyt64zef3ucefv4hsremo33joviw5dmfxxkbn4bf3csanexo7hjq",
+    "reference_folder": "dataset/data-unit/00273/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
