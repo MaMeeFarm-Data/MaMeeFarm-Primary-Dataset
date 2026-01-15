@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00268",
+  "file_path": "dataset/data-unit/00268/dataunit_00268.json",
+  "category": "animal-behavior-log",
+  "sub_category": "thermoregulation",
+  "captured_at_local": "2026-01-14 11:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_sunbathing_during_cold_weather",
+  "summary": "Dogs resting and sunbathing during cold weather conditions.",
+  "description": "This data unit records multiple dogs lying and resting under direct sunlight during cold weather conditions. The behavior is observed as passive sunbathing, likely associated with thermoregulation. The observation aligns with recorded low ambient temperature and humidity data earlier in the day.",
+  "behavioral_context": {
+    "observed_behavior": "sunbathing",
+    "activity_state": "resting",
+    "group_behavior": true,
+    "species": "domestic dog"
+  },
+  "environmental_reference": {
+    "related_temperature_records": [
+      "dataunit_00253",
+      "dataunit_00259",
+      "proof_484"
+    ],
+    "weather_condition": "cold morning transitioning to sunlight"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_dogs_sunbathing_20260114_1131.jpg",
+    "cid": "bafybeifun3ddijljxx6eo3heqaid3t7vl4vag2nygzapqwpc5mdnwmmpqy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifun3ddijljxx6eo3heqaid3t7vl4vag2nygzapqwpc5mdnwmmpqy",
+    "reference_folder": "dataset/data-unit/00268/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
