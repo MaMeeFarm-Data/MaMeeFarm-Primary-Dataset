@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00287",
+  "file_path": "dataset/data-unit/00287/dataunit_00287.json",
+  "category": "environmental-observation",
+  "sub_category": "sunrise-record",
+  "captured_at_local": "2026-01-15 07:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "sunrise_observation",
+  "summary": "Observation of sunrise at MaMeeFarm.",
+  "description": "This data unit documents the visual observation of the sun rising above the tree line at MaMeeFarm. The record captures the early morning light conditions as observed on site.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_sunrise_20260115_0738.jpg",
+    "cid": "bafybeiemt6aferhb4rnswr3kg4bkydeq66ghhttrebnsk3vlg2pb7ps54q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiemt6aferhb4rnswr3kg4bkydeq66ghhttrebnsk3vlg2pb7ps54q",
+    "reference_folder": "dataset/data-unit/00287/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
