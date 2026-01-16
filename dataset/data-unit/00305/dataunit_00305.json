@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00305",
+  "file_path": "dataset/data-unit/00305/dataunit_00305.json",
+  "category": "agricultural-operation",
+  "sub_category": "vegetable-watering",
+  "captured_at_local": "2026-01-15 17:58",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot near MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_vegetable_watering_after_dry_day",
+  "summary": "Evening watering of vegetable beds after a day without morning irrigation due to sufficient soil moisture.",
+  "description": "This record documents evening watering of vegetable beds at MaMeeFarm. Morning irrigation was not performed as soil moisture was sufficient, as recorded earlier in the day. Watering was conducted in the evening to maintain soil moisture balance.",
+  "reference_context": {
+    "soil_condition_reference": [
+      "00288"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "evening_watering_20260115_1758.jpg",
+    "cid": "bafybeihr3c2iawfm7irangfv44lcr7upc4zjversalh4g2bpoh344dee5e",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihr3c2iawfm7irangfv44lcr7upc4zjversalh4g2bpoh344dee5e",
+    "reference_folder": "dataset/data-unit/00305/external-reference/",
+    "note": "External reference provided for irrigation verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
