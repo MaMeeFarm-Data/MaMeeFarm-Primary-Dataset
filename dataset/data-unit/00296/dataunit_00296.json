@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00296",
+  "file_path": "dataset/data-unit/00296/dataunit_00296.json",
+  "category": "human-activity",
+  "sub_category": "late-morning-meal",
+  "captured_at_local": "2026-01-15 10:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "late_morning_meal_sticky_rice_and_omelet",
+  "summary": "Late morning meal consisting of sticky rice and omelet.",
+  "description": "This record documents a late morning meal at MaMeeFarm consisting of sticky rice and omelet. The meal was consumed during ongoing farm operations and reflects routine daily nourishment supporting continued work activities.",
+  "operation": {
+    "action": "meal_consumption",
+    "system": "human_nutrition",
+    "status_observed": [
+      "late_morning_meal_consumed",
+      "simple_home_prepared_food"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00295"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00296"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_late_morning_meal_20260115_1009.jpg",
+    "cid": "bafybeibsvujhzmezjzkgferul4yz3ku7i5zng4m4lpjj4lchdz7ajlc4yi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibsvujhzmezjzkgferul4yz3ku7i5zng4m4lpjj4lchdz7ajlc4yi",
+    "reference_folder": "dataset/data-unit/00296/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
