@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00328",
+  "file_path": "dataset/data-unit/00328/dataunit_00328.json",
+  "category": "field-maintenance",
+  "sub_category": "vegetation-control",
+  "captured_at_local": "2026-01-16 09:43",
+  "timezone": "Asia/Bangkok",
+  "location": "Side area near duck shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_overgrowth_maintenance_near_empty_duck_shelter",
+  "summary": "Overgrown grass near an empty duck shelter requiring routine maintenance.",
+  "description": "This data unit documents vegetation overgrowth in the area adjacent to a duck shelter at MaMeeFarm. Although the shelter is currently empty, routine grass cutting and area maintenance are required to preserve hygiene, prevent pests, and maintain farm readiness. The activity reflects continuous care independent of active animal presence.",
+  "environmental_context": {
+    "shelter_status": "empty",
+    "vegetation_density": "high grass and weeds",
+    "seasonal_condition": "dry season with active plant growth"
+  },
+  "activity_classification": {
+    "activity_type": "manual grass cutting",
+    "purpose": "farm hygiene and infrastructure readiness",
+    "dependency_on_livestock": "none"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "duck_shelter_grass_maintenance_20260116_0943.jpg",
+    "cid": "bafybeidqqbywrbsq4wij7cie6tmpwm5d4p3npumopm4v5dcms7oddmddee",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidqqbywrbsq4wij7cie6tmpwm5d4p3npumopm4v5dcms7oddmddee",
+    "reference_folder": "dataset/data-unit/00328/external-reference/",
+    "note": "Overgrown grass near an unused duck shelter."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
