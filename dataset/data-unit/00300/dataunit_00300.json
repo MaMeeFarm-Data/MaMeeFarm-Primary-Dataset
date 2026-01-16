@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00300",
+  "file_path": "dataset/data-unit/00300/dataunit_00300.json",
+  "category": "water-management",
+  "sub_category": "water-storage-refill",
+  "captured_at_local": "2026-01-15 13:59",
+  "timezone": "Asia/Bangkok",
+  "location": "Water storage area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_storage_refill_completed_two_tanks",
+  "summary": "Completion of water refill for two storage tanks.",
+  "description": "This record documents the completion of water refill into two water storage tanks at MaMeeFarm. Each tank contains approximately 200 liters of water, totaling 400 liters. The refill operation follows earlier water preparation activities and confirms water availability for farm operations.",
+  "water_details": {
+    "number_of_tanks": 2,
+    "volume_per_tank_liters": 200,
+    "total_volume_liters": 400,
+    "tank_type": "plastic water barrel"
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00297",
+      "00298"
+    ],
+    "related_proof": "493",
+    "related_nft": "Seed Of Hope Day 173 Part 2"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "water_tanks_full_20260115_1359.jpg",
+    "cid": "bafybeiaeww4m4jdhc5xnvejpvh3lmmqrik22dpcpepm3fowdtdlkejr3aa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiaeww4m4jdhc5xnvejpvh3lmmqrik22dpcpepm3fowdtdlkejr3aa",
+    "reference_folder": "dataset/data-unit/00300/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
