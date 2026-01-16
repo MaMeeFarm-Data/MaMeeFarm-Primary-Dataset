@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00297",
+  "file_path": "dataset/data-unit/00297/dataunit_00297.json",
+  "category": "water-management",
+  "sub_category": "pump-operation-preparation",
+  "captured_at_local": "2026-01-15 12:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_preparation_peak_solar_window",
+  "summary": "Preparation to operate water pump during peak solar window to avoid drawing power from batteries.",
+  "description": "This record documents preparation for water pumping at MaMeeFarm under a solar-powered electricity system. Water pumping is scheduled during the peak direct-current solar window (approximately 11:00–14:00) to minimize battery discharge. Battery capacity is conserved for nighttime data logging and system continuity.",
+  "operation": {
+    "action": "pump_preparation",
+    "system": "water_pump_and_storage_tank",
+    "status_observed": [
+      "pump_preparation_in_progress",
+      "peak_solar_window_strategy"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00295"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00297"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_water_pump_preparation_20260115_1216.jpg",
+    "cid": "bafybeifojgbzpqv3nqgpp7wcdedf727t45hhfsuxlzy2vmryedcaainu34",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifojgbzpqv3nqgpp7wcdedf727t45hhfsuxlzy2vmryedcaainu34",
+    "reference_folder": "dataset/data-unit/00297/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
