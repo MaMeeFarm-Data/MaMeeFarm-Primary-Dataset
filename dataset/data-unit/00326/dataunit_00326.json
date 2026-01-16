@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00326",
+  "file_path": "dataset/data-unit/00326/dataunit_00326.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-16 09:27",
+  "timezone": "Asia/Bangkok",
+  "location": "Balcony area, MaMeeFarm house, Thailand",
+  "data_type": "image",
+  "title": "late_morning_balcony_temperature_humidity",
+  "summary": "Late morning temperature and humidity measurement at the house balcony.",
+  "description": "This data unit records late morning environmental conditions at the MaMeeFarm house balcony. The measurement shows increased temperature and reduced humidity compared to earlier morning readings, reflecting the progression of solar exposure during the day.",
+  "measurement": {
+    "temperature_celsius": 18.7,
+    "humidity_percent": 74,
+    "device_model": "HTC-1 clock/humidity meter",
+    "measurement_type": "ambient"
+  },
+  "environmental_context": {
+    "surface_nearby": "brick wall",
+    "sunlight_condition": "indirect to increasing daylight",
+    "ventilation": "natural"
+  },
+  "temporal_reference": {
+    "related_data_units": [
+      "00310"
+    ],
+    "relation_note": "comparison with early morning balcony measurement"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "balcony_temperature_20260116_0927.jpg",
+    "cid": "bafybeiea6guzqiq3w7bqw5fkd56qfgwhsnqha7apte6iriejiwlxoscshe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiea6guzqiq3w7bqw5fkd56qfgwhsnqha7apte6iriejiwlxoscshe",
+    "reference_folder": "dataset/data-unit/00326/external-reference/",
+    "note": "Late morning balcony temperature and humidity record."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
