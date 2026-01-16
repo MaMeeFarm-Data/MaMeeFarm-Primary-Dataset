@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00314",
+  "file_path": "dataset/data-unit/00314/dataunit_00314.json",
+  "category": "environment-context",
+  "sub_category": "humidity-manifestation",
+  "captured_at_local": "2026-01-16 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dew_on_avocado_leaf",
+  "summary": "Morning dew observed on an avocado leaf during early hours.",
+  "description": "This data unit documents the presence of morning dew on an avocado leaf at MaMeeFarm. The image records visible moisture accumulation consistent with daily morning humidity conditions.",
+  "environment_details": {
+    "time_of_day": "morning",
+    "humidity_indicator": "visible dew droplets",
+    "plant_species": "avocado",
+    "surface_condition": "leaf surface with moisture"
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00028",
+      "00029"
+    ],
+    "related_proofs": [
+      "486"
+    ],
+    "context_type": "humidity and moisture continuity"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dew_avocado_leaf_20260116_0800.jpg",
+    "cid": "bafybeig36lvu24ijmaflwpfszrpiqheohmryw5e2jmgsrxxpnaq537rz4e",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig36lvu24ijmaflwpfszrpiqheohmryw5e2jmgsrxxpnaq537rz4e",
+    "reference_folder": "dataset/data-unit/00314/external-reference/",
+    "note": "Morning dew on avocado leaf."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
