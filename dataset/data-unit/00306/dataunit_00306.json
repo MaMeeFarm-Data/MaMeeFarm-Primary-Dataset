@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00306",
+  "file_path": "dataset/data-unit/00306/dataunit_00306.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-15 18:07",
+  "timezone": "Asia/Bangkok",
+  "location": "Empty duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_temperature_empty_duck_house",
+  "summary": "Evening temperature and humidity measurement recorded in an empty duck house.",
+  "description": "This data unit records environmental conditions inside an empty duck house at MaMeeFarm during early evening hours. No animals were present at the time of measurement. The record serves as a baseline reference for temperature and humidity conditions without animal heat influence.",
+  "measured_values": {
+    "temperature_inside_celsius": 25.0,
+    "temperature_outside_celsius": 21.2,
+    "relative_humidity_percent": 61,
+    "device_time_display": "18:07"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "duck_house_temp_20260115_1807.jpg",
+    "cid": "bafybeiessjjvfgxzdlmitimhmjz6bdplj3dn6uktsdneowksxq2vijdr7a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiessjjvfgxzdlmitimhmjz6bdplj3dn6uktsdneowksxq2vijdr7a",
+    "reference_folder": "dataset/data-unit/00306/external-reference/",
+    "note": "Image shows digital thermo-hygrometer placed inside empty duck house."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
