@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00325",
+  "file_path": "dataset/data-unit/00325/dataunit_00325.json",
+  "category": "animal-behavior",
+  "sub_category": "thermal-regulation",
+  "captured_at_local": "2026-01-16 09:27",
+  "timezone": "Asia/Bangkok",
+  "location": "House entrance area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_sunbathing_after_sunrise",
+  "summary": "Dogs resting and sunbathing after morning sunlight becomes available.",
+  "description": "This data unit documents dogs resting and sunbathing near the house entrance at MaMeeFarm after sunrise. The behavior reflects natural thermal regulation and comfort-seeking activity following the return of direct sunlight. This observation aligns with environmental conditions recorded earlier in the day.",
+  "animal_context": {
+    "species": "dog",
+    "behavior_observed": [
+      "sunbathing",
+      "resting",
+      "thermal regulation"
+    ],
+    "activity_state": "calm resting"
+  },
+  "environmental_context": {
+    "sunlight_condition": "direct sunlight present",
+    "surface_type": [
+      "wooden floor",
+      "concrete"
+    ]
+  },
+  "temporal_reference": {
+    "related_data_units": [
+      "00321"
+    ],
+    "relation_note": "sunlight availability earlier in the same day"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dogs_sunbathing_20260116_0927.jpg",
+    "cid": "bafybeic3q63bnd7ilb35klbnaloaxhtrkedniijfcnvpqg5rvlgeokzwum",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic3q63bnd7ilb35klbnaloaxhtrkedniijfcnvpqg5rvlgeokzwum",
+    "reference_folder": "dataset/data-unit/00325/external-reference/",
+    "note": "Observed natural sunbathing behavior after sunrise."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
