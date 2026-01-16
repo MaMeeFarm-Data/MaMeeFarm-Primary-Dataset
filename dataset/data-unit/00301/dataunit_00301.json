@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00301",
+  "file_path": "dataset/data-unit/00301/dataunit_00301.json",
+  "category": "animal-care",
+  "sub_category": "canine-nursing-and-rearing",
+  "captured_at_local": "2026-01-15 14:45",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "canine_nursing_multiple_puppies",
+  "summary": "Observation of adult dog nursing and resting with multiple puppies.",
+  "description": "This record documents a canine care situation at MaMeeFarm. An adult female dog identified as 'Khao Nung' is observed lying down while nursing and resting with multiple puppies. The group includes five puppies born to Khao Nung and six puppies identified as 'Khao Niew', which are being cared for together in the same environment.",
+  "animal_details": {
+    "adult_dog_name": "Khao Nung",
+    "adult_dog_role": "nursing",
+    "puppies_nursed": 5,
+    "additional_puppies_cared_for": 6,
+    "care_type": "co-nursing and shared rearing"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "canine_nursing_20260115_1445.jpg",
+    "cid": "bafybeihqqdelefk2t4xoadeesbytcce2d4lsxn3lulua5ucyqw3zhvpkwu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihqqdelefk2t4xoadeesbytcce2d4lsxn3lulua5ucyqw3zhvpkwu",
+    "reference_folder": "dataset/data-unit/00301/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
