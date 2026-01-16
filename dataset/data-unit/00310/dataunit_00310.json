@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00310",
+  "file_path": "dataset/data-unit/00310/dataunit_00310.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-morning-record",
+  "captured_at_local": "2026-01-16 06:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_first_record",
+  "summary": "First temperature and humidity measurement recorded in the early morning.",
+  "description": "This data unit documents the first environmental measurement of the day at MaMeeFarm. The reading was captured in the early morning before solar power system activation. This record serves as the daily baseline for temperature and humidity comparison.",
+  "measurement": {
+    "temperature_celsius": 16.1,
+    "humidity_percent": 72,
+    "measurement_device": "HTC-1 digital thermometer/hygrometer",
+    "measurement_context": "indoor wall-mounted position"
+  },
+  "reference_context": {
+    "previous_day_last_record": "00309",
+    "measurement_sequence": "first measurement of the day"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "morning_temperature_humidity_20260116_0606.jpg",
+    "cid": "bafybeic7fvfwhitjhg3iu5hi2wvpvgu5q7eme2jfitauupahfddjazyx2a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic7fvfwhitjhg3iu5hi2wvpvgu5q7eme2jfitauupahfddjazyx2a",
+    "reference_folder": "dataset/data-unit/00310/external-reference/",
+    "note": "Timestamp visible on image; used as primary evidence."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
