@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00324",
+  "file_path": "dataset/data-unit/00324/dataunit_00324.json",
+  "category": "animal-care",
+  "sub_category": "maternal-cooperative-care",
+  "captured_at_local": "2026-01-16 09:26",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential indoor area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cooperative_nursing_two_mothers",
+  "summary": "Two mother dogs cooperatively nursing and caring for puppies.",
+  "description": "This data unit documents cooperative maternal behavior between two mother dogs, 'Khao Nung' and 'Khao Niew', jointly nursing and caring for puppies born on December 9–10, 2025. The mothers share caregiving responsibilities, including breastfeeding and physical proximity, demonstrating cooperative parenting under limited-resource conditions.",
+  "animal_context": {
+    "species": "dog",
+    "mother_count": 2,
+    "mother_names": [
+      "Khao Nung",
+      "Khao Niew"
+    ],
+    "birth_dates": [
+      "2025-12-09",
+      "2025-12-10"
+    ],
+    "care_type": [
+      "breastfeeding",
+      "shared warmth",
+      "group protection"
+    ],
+    "offspring_status": "nursing puppies"
+  },
+  "system_context": {
+    "care_model": "cooperative maternal care",
+    "constraint_note": "shared caregiving under limited resources",
+    "significance": "supports survival and welfare of offspring"
+  },
+  "temporal_reference": {
+    "related_data_units": [
+      "00301"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "cooperative_nursing_20260116_0926.jpg",
+    "cid": "bafybeiclbzwvwwo2p3qwcsj3jtolfn264y4hrt2jpnikh6nkv6epzbst64",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiclbzwvwwo2p3qwcsj3jtolfn264y4hrt2jpnikh6nkv6epzbst64",
+    "reference_folder": "dataset/data-unit/00324/external-reference/",
+    "note": "Observed cooperative nursing behavior between two mother dogs."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
