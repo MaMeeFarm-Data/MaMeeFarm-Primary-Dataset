@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00307",
+  "file_path": "dataset/data-unit/00307/dataunit_00307.json",
+  "category": "system-operation",
+  "sub_category": "low-power-night-operation",
+  "captured_at_local": "2026-01-15 23:18",
+  "timezone": "Asia/Bangkok",
+  "location": "Indoor working area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "usb_5v_night_work_lighting",
+  "summary": "USB 5V lighting used for night work under energy-saving constraints.",
+  "description": "This data unit documents the use of a USB-powered 5V light source for nighttime work at MaMeeFarm. The lighting system enables continued documentation and data recording while minimizing energy consumption. The system operates under strict power constraints to preserve battery capacity for essential overnight operations.",
+  "operation": {
+    "action": "night_work_lighting",
+    "power_source": "USB 5V",
+    "energy_strategy": "low-power consumption",
+    "system_status": "operational_under_constraint"
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00281",
+      "00282"
+    ],
+    "operational_purpose": "enable continuous data recording during night hours while conserving battery energy"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "usb_light_night_work_20260115_2318.jpg",
+    "cid": "bafybeihsq4brxxwgis6f3aqyuxursoakebs6we7f55wucgfln7cf6sv4ym",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihsq4brxxwgis6f3aqyuxursoakebs6we7f55wucgfln7cf6sv4ym",
+    "reference_folder": "dataset/data-unit/00307/external-reference/",
+    "note": "Image shows USB-powered light providing sufficient illumination for documentation work at night."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
