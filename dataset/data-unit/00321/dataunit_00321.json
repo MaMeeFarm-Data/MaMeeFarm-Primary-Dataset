@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00321",
+  "file_path": "dataset/data-unit/00321/dataunit_00321.json",
+  "category": "environmental-observation",
+  "sub_category": "natural-light-condition",
+  "captured_at_local": "2026-01-16 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "Adjacent cornfield beside MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sunlight_fully_established",
+  "summary": "Morning sunlight fully established over surrounding cornfield area.",
+  "description": "This data unit documents the transition to full morning sunlight conditions at MaMeeFarm. Sunlight intensity increased significantly compared to earlier records, indicating the end of early morning low-light conditions and the beginning of full daylight.",
+  "environment_context": {
+    "light_condition": "full morning sunlight",
+    "cloud_coverage": "partial scattered clouds",
+    "ground_condition": "dry soil",
+    "adjacent_land_use": "cornfield"
+  },
+  "temporal_reference": {
+    "preceding_data_units": [
+      "00312",
+      "00313"
+    ],
+    "sequence_position": "morning_light_progression"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "morning_sunlight_20260116_0813.jpg",
+    "cid": "bafybeie6rdpltqqs4bxfolwzwz6wtny7wbp2ybpgbqlog77id6mh4y6p3e",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeie6rdpltqqs4bxfolwzwz6wtny7wbp2ybpgbqlog77id6mh4y6p3e",
+    "reference_folder": "dataset/data-unit/00321/external-reference/",
+    "note": "Sunlight condition recorded as part of daily environmental timeline."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
