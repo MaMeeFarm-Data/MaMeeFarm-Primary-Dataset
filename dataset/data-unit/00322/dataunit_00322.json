@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00322",
+  "file_path": "dataset/data-unit/00322/dataunit_00322.json",
+  "category": "infrastructure-operation",
+  "sub_category": "energy-system",
+  "captured_at_local": "2026-01-16 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm inverter control area, Thailand",
+  "data_type": "image",
+  "title": "daily_inverter_power_on",
+  "summary": "Hybrid solar inverter powered on to begin daily operations.",
+  "description": "This data unit records the activation of the hybrid solar inverter to start daily farm operations. The system was powered on after sufficient morning sunlight was established, following a planned overnight shutdown. Despite operational constraints, the energy system remains functional and supports continuous daily work.",
+  "system_context": {
+    "energy_source": "hybrid solar inverter",
+    "operational_state": "powered on",
+    "usage_purpose": "daily farm operations",
+    "constraint_note": "limited resources, system continuity maintained"
+  },
+  "temporal_reference": {
+    "preceding_data_units": [
+      "00309",
+      "00321"
+    ],
+    "sequence_position": "daily_energy_start"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "inverter_power_on_20260116_0813.jpg",
+    "cid": "bafybeicghrybie7l67sfijn4ryhwxp4yggjmztaqrhbjl7qnfdnfdnpqey",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicghrybie7l67sfijn4ryhwxp4yggjmztaqrhbjl7qnfdnfdnpqey",
+    "reference_folder": "dataset/data-unit/00322/external-reference/",
+    "note": "Daily inverter activation aligned with sunlight availability."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
