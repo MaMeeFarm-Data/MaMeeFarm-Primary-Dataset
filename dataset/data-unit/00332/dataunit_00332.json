@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00332",
+  "file_path": "dataset/data-unit/00332/dataunit_00332.json",
+  "category": "primary-agricultural-maintenance",
+  "sub_category": "banana_management",
+  "captured_at_local": "2026-01-16 09:57",
+  "timezone": "Asia/Bangkok",
+  "location": "Banana grove, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_blossom_cutting_completed",
+  "summary": "Banana blossom cutting task completed following prior observation.",
+  "description": "This data unit records the completed banana blossom cutting task. The action follows the observation noted in Data Unit 00289 and is operationally linked to Proof 498. This record confirms physical completion of the task in the field.",
+  "linked_data_units": [
+    "00289"
+  ],
+  "linked_proofs": [
+    "498"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "banana_blossom_cutting_completed_20260116_0957.jpg",
+    "cid": "bafybeifrzlomd7ae2fc6cljemnba644nnudrup5rb37hxs2f2xqhnntjva",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifrzlomd7ae2fc6cljemnba644nnudrup5rb37hxs2f2xqhnntjva",
+    "reference_folder": "dataset/data-unit/00332/external-reference/",
+    "note": "Recorded as task completion evidence without interpretation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
