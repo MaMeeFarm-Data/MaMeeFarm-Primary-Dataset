@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00317",
+  "file_path": "dataset/data-unit/00317/dataunit_00317.json",
+  "category": "environment-water",
+  "sub_category": "external-water-inflow",
+  "captured_at_local": "2026-01-16 08:03",
+  "timezone": "Asia/Bangkok",
+  "location": "Drainage canal adjacent to MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cornfield_runoff_entering_farm_canal",
+  "summary": "Water runoff from adjacent cornfield flowing into a normally dry canal at MaMeeFarm.",
+  "description": "This data unit documents water runoff originating from a neighboring cornfield entering the farm’s dry canal. The observation indicates external agricultural water flow affecting on-site hydrological conditions.",
+  "water_context": {
+    "source": "adjacent_cornfield",
+    "flow_direction": "into_farm_canal",
+    "canal_state_prior": "dry",
+    "visible_water_presence": true
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "cornfield_runoff_20260116_0803.jpg",
+    "cid": "bafybeigdfmosukzh25j2usx5m5rrw6udpcp4cctfdbayardxh76vsp22ea",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigdfmosukzh25j2usx5m5rrw6udpcp4cctfdbayardxh76vsp22ea",
+    "reference_folder": "dataset/data-unit/00317/external-reference/",
+    "note": "External agricultural runoff observed entering farm canal."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
