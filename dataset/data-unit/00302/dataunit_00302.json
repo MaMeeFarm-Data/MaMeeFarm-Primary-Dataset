@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00302",
+  "file_path": "dataset/data-unit/00302/dataunit_00302.json",
+  "category": "animal-care",
+  "sub_category": "bedding-maintenance",
+  "captured_at_local": "2026-01-15 17:08",
+  "timezone": "Asia/Bangkok",
+  "location": "Outdoor area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "collection_of_dog_bedding_after_drying",
+  "summary": "Collection of dog bedding after sun drying.",
+  "description": "This record documents the collection of dog bedding after being sun dried earlier in the day at MaMeeFarm. The bedding was previously placed outdoors for drying and is collected in the late afternoon as part of routine animal care and hygiene maintenance.",
+  "reference_context": {
+    "drying_reference": "00293",
+    "related_nft": "7 Ducks Of Hope Day 141 Part 2"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dog_bedding_collected_20260115_1708.jpg",
+    "cid": "bafybeigqgwhwypoclikaxwktvko3gdmxzm75q7ygdsokhz6a37ctsdkcpu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigqgwhwypoclikaxwktvko3gdmxzm75q7ygdsokhz6a37ctsdkcpu",
+    "reference_folder": "dataset/data-unit/00302/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
