@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00304",
+  "file_path": "dataset/data-unit/00304/dataunit_00304.json",
+  "category": "environmental-observation",
+  "sub_category": "sunset-daylight-cycle",
+  "captured_at_local": "2026-01-15 17:42",
+  "timezone": "Asia/Bangkok",
+  "location": "Agricultural field near MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "winter_sunset_short_daylight",
+  "summary": "Sunset observation during winter with shorter daylight duration.",
+  "description": "This record documents the sunset at MaMeeFarm during the winter season. Daylight duration is shorter, with later sunrise and earlier sunset observed compared to other seasons.",
+  "reference_context": {
+    "related_data_units": [
+      "00287",
+      "00294"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "winter_sunset_20260115_1742.jpg",
+    "cid": "bafybeifgllmymuvhpqzl3ttl7cstjosc5pungsbsxlwejujel2nmrm5zjm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifgllmymuvhpqzl3ttl7cstjosc5pungsbsxlwejujel2nmrm5zjm",
+    "reference_folder": "dataset/data-unit/00304/external-reference/",
+    "note": "External reference provided for daylight cycle verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
