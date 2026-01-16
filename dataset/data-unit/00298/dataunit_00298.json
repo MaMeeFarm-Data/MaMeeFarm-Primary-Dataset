@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00298",
+  "file_path": "dataset/data-unit/00298/dataunit_00298.json",
+  "category": "water-management",
+  "sub_category": "active-water-pumping",
+  "captured_at_local": "2026-01-15 12:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "active_water_refill_low_tank_peak_solar",
+  "summary": "Active water pumping to refill tanks with low water level during peak solar window.",
+  "description": "This record documents active water pumping at MaMeeFarm to refill storage tanks with low water levels. Pumping was executed following preparation and scheduled during the peak solar window to avoid battery discharge. Prior evidence indicates low tank levels before refilling.",
+  "operation": {
+    "action": "water_pumping",
+    "system": "water_pump_and_storage_tanks",
+    "status_observed": [
+      "water_refill_in_progress",
+      "low_tank_level_prior"
+    ]
+  },
+  "reference_context": {
+    "power_on_reference": [
+      "00297",
+      "493"
+    ],
+    "daily_data_unit_range": {
+      "from": "00286",
+      "to": "00298"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "mmf_active_water_refill_20260115_1219.jpg",
+    "cid": "bafybeidhvy5hcthfxer4dgvye32xah6xb4lcxxtpxkzbm5ohja2a5w4tsa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidhvy5hcthfxer4dgvye32xah6xb4lcxxtpxkzbm5ohja2a5w4tsa",
+    "reference_folder": "dataset/data-unit/00298/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
