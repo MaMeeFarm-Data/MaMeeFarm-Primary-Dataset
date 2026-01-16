@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00329",
+  "file_path": "dataset/data-unit/00329/dataunit_00329.json",
+  "category": "tool-preparation",
+  "sub_category": "field-maintenance-equipment",
+  "captured_at_local": "2026-01-16 09:45",
+  "timezone": "Asia/Bangkok",
+  "location": "Field entrance near duck shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_machine_preparation",
+  "summary": "Preparation of a grass cutting machine prior to field maintenance.",
+  "description": "This data unit documents the preparation of a grass cutting machine positioned at the field entrance near the duck shelter at MaMeeFarm. The preparation follows observed overgrown grass conditions recorded in Data Unit 00328 and represents the pre-operation stage before vegetation control activities.",
+  "linked_data_units": [
+    "00328"
+  ],
+  "equipment_context": {
+    "equipment_type": "gasoline grass cutting machine",
+    "operational_status": "prepared but not operating",
+    "usage_stage": "pre-operation"
+  },
+  "activity_classification": {
+    "activity_type": "tool preparation",
+    "purpose": "enable vegetation control",
+    "labor_dependency": "manual operation required"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "grass_cutter_preparation_20260116_0945.jpg",
+    "cid": "bafybeiezlkapkas36gcd3zwxekmmjkurd56eeoaoguib564ny2i5d256hu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiezlkapkas36gcd3zwxekmmjkurd56eeoaoguib564ny2i5d256hu",
+    "reference_folder": "dataset/data-unit/00329/external-reference/",
+    "note": "Grass cutting machine prepared for use near overgrown area."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
