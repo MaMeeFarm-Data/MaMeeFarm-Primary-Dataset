@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00330",
+  "file_path": "dataset/data-unit/00330/dataunit_00330.json",
+  "category": "field-maintenance",
+  "sub_category": "vegetation-control",
+  "captured_at_local": "2026-01-16 09:52",
+  "timezone": "Asia/Bangkok",
+  "location": "Field boundary near duck shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_completed",
+  "summary": "Completion of grass cutting activity within a limited time frame.",
+  "description": "This data unit documents the completion of grass cutting along the field boundary near the duck shelter at MaMeeFarm. The task was completed within approximately seven minutes following tool preparation recorded in Data Unit 00329. The activity reflects time-managed field maintenance under daily operational constraints.",
+  "linked_data_units": [
+    "00329"
+  ],
+  "operation_context": {
+    "operation_type": "manual grass cutting",
+    "duration_minutes": 7,
+    "completion_status": "completed"
+  },
+  "activity_classification": {
+    "activity_type": "field maintenance",
+    "purpose": "control vegetation growth",
+    "time_constraint": "short-duration task"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "grass_cutting_completed_20260116_0952.jpg",
+    "cid": "bafybeid6wkoqlfchtois2jagjoeij2xwazns5fhjyfxtelte3oel7q35y4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeid6wkoqlfchtois2jagjoeij2xwazns5fhjyfxtelte3oel7q35y4",
+    "reference_folder": "dataset/data-unit/00330/external-reference/",
+    "note": "Grass cutting completed shortly after preparation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
