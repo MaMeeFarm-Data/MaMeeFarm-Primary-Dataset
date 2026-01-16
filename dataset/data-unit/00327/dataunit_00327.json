@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00327",
+  "file_path": "dataset/data-unit/00327/dataunit_00327.json",
+  "category": "field-maintenance",
+  "sub_category": "boundary-management",
+  "captured_at_local": "2026-01-16 09:42",
+  "timezone": "Asia/Bangkok",
+  "location": "Side boundary of MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "papaya_tree_pruning_beyond_farm_boundary",
+  "summary": "Papaya tree extending beyond the farm boundary requiring pruning.",
+  "description": "This data unit documents a papaya tree growing along the side boundary of MaMeeFarm. Parts of the tree extended beyond the fence line into adjacent land, requiring pruning to maintain clear boundaries and prevent encroachment. The activity reflects routine land-use management and responsible boundary maintenance.",
+  "environmental_context": {
+    "adjacent_land_use": "cultivated field",
+    "boundary_type": "fence line",
+    "vegetation_condition": "active growth beyond boundary"
+  },
+  "activity_classification": {
+    "activity_type": "manual vegetation control",
+    "purpose": "boundary compliance and farm maintenance",
+    "tools_required": "manual cutting tools"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "papaya_boundary_pruning_20260116_0942.jpg",
+    "cid": "bafybeica46fkv4ts3zlc6zze3bck4lv7syqrxemgrtvvd4ucnqfrfqsjo4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeica46fkv4ts3zlc6zze3bck4lv7syqrxemgrtvvd4ucnqfrfqsjo4",
+    "reference_folder": "dataset/data-unit/00327/external-reference/",
+    "note": "Papaya tree extending beyond the fence line."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
