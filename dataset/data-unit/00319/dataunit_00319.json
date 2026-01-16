@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00319",
+  "file_path": "dataset/data-unit/00319/dataunit_00319.json",
+  "category": "environmental-condition",
+  "sub_category": "soil-moisture-limitation",
+  "captured_at_local": "2026-01-16 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "Banana tree area near dry canal, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dry_soil_near_banana_trees_without_irrigation",
+  "summary": "Dry soil condition in banana tree area where no irrigation has occurred since rainy season due to non-retaining dry soil canal.",
+  "description": "This data unit documents dry soil conditions near banana trees in an area that has not been irrigated since the rainy season. The nearby soil canal is unable to retain water, resulting in limited water availability. This environmental constraint necessitated partial banana leaf pruning to reduce nutrient and water demand.",
+  "environment_context": {
+    "soil_condition": "dry",
+    "irrigation_status": "no_irrigation_since_rainy_season",
+    "water_retention": "poor",
+    "nearby_canal_state": "dry",
+    "impact_on_plants": "increased_water_and_nutrient_stress"
+  },
+  "reference_relation": {
+    "related_data_unit": "00318",
+    "relation_type": "causal_context",
+    "description": "Dry soil and water limitation conditions explain the necessity for banana leaf pruning recorded in Data Unit 00318."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dry_soil_banana_area_20260116_0808.jpg",
+    "cid": "bafybeigocg32lgmdix6hujhil5vuw24ry6amqeyedkbyjpr2njth6zlw5e",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigocg32lgmdix6hujhil5vuw24ry6amqeyedkbyjpr2njth6zlw5e",
+    "reference_folder": "dataset/data-unit/00319/external-reference/",
+    "note": "Soil condition near banana trees showing prolonged dryness due to lack of water retention."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
