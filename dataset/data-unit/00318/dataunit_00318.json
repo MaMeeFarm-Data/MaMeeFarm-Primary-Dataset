@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00318",
+  "file_path": "dataset/data-unit/00318/dataunit_00318.json",
+  "category": "farm-maintenance",
+  "sub_category": "plant-pruning",
+  "captured_at_local": "2026-01-16 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "Banana tree area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_banana_leaf_pruning",
+  "summary": "Morning garden work involving banana leaf pruning to reduce nutrient competition.",
+  "description": "This data unit documents early morning garden maintenance where banana leaves were cut and removed to prevent excessive nutrient competition within the plant. The activity reflects routine plant management under real environmental conditions.",
+  "activity_context": {
+    "plant_type": "banana",
+    "action": "leaf_pruning",
+    "purpose": "reduce_nutrient_competition",
+    "time_of_day": "morning",
+    "human_intervention": true
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "banana_leaf_pruning_20260116_0808.jpg",
+    "cid": "bafybeic27rbumhbkqvuguxnhlvaisbltpizuwn623tc2ciuo4rvrisn3zy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic27rbumhbkqvuguxnhlvaisbltpizuwn623tc2ciuo4rvrisn3zy",
+    "reference_folder": "dataset/data-unit/00318/external-reference/",
+    "note": "Banana leaf pruning performed to manage plant nutrient balance."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
