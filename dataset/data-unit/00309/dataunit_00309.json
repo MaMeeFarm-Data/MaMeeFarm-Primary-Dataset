@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00309",
+  "file_path": "dataset/data-unit/00309/dataunit_00309.json",
+  "category": "energy-system-operation",
+  "sub_category": "power-system-shutdown",
+  "captured_at_local": "2026-01-15 23:46",
+  "timezone": "Asia/Bangkok",
+  "location": "Solar inverter control area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_power_system_shutdown_due_to_battery_degradation",
+  "summary": "Manual shutdown of farm electrical system due to battery degradation and warning alert.",
+  "description": "This data unit documents the manual shutdown of the MaMeeFarm electrical system after an audible warning from the hybrid solar inverter. The warning occurred due to degraded battery capacity, which no longer supports a full 24-hour operational cycle. The system was intentionally powered down to prevent damage and to preserve remaining battery capacity. The farm continues to operate under known energy constraints.",
+  "system_status": {
+    "power_source": "hybrid solar system",
+    "battery_condition": "degraded",
+    "warning_signal": "audible alert",
+    "shutdown_type": "manual",
+    "operational_constraint": "insufficient battery capacity for 24-hour operation"
+  },
+  "reference_context": {
+    "system_start_reference": "00295",
+    "daily_data_range": "00286-00309",
+    "operation_mode": "constraint-aware continuous operation"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "solar_system_shutdown_20260115_2346.jpg",
+    "cid": "bafybeidosl2twwvj7krugfbhfun6ba7uzrhchipnnp5cgpcnkjusy4gehu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidosl2twwvj7krugfbhfun6ba7uzrhchipnnp5cgpcnkjusy4gehu",
+    "reference_folder": "dataset/data-unit/00309/external-reference/",
+    "note": "Inverter display inactive due to shutdown; visible wear indicates long-term usage."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
