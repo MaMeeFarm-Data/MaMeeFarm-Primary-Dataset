@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00313",
+  "file_path": "dataset/data-unit/00313/dataunit_00313.json",
+  "category": "environment-context",
+  "sub_category": "solar-light-condition",
+  "captured_at_local": "2026-01-16 07:45",
+  "timezone": "Asia/Bangkok",
+  "location": "Front area of MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "sunrise_light_arrival_farm_front",
+  "summary": "Sunrise light beginning to reach the front area of MaMeeFarm.",
+  "description": "This data unit documents the moment when early morning sunlight begins to reach the front area of MaMeeFarm. The image records the initial arrival of solar light above the tree line, serving as environmental and energy context for the start of daily farm activities.",
+  "environment_details": {
+    "time_of_day": "early morning",
+    "solar_condition": "sunrise light arrival",
+    "sky_condition": "partly clear",
+    "light_intensity": "low to increasing"
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00310",
+      "00312"
+    ],
+    "context_type": "morning environmental transition"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "sunrise_farm_front_20260116_0745.jpg",
+    "cid": "bafybeichptcu5fdgktzkq45qof3pkadrilz75pokwmdeufxtzys5ci4cay",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeichptcu5fdgktzkq45qof3pkadrilz75pokwmdeufxtzys5ci4cay",
+    "reference_folder": "dataset/data-unit/00313/external-reference/",
+    "note": "Morning solar light context."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
