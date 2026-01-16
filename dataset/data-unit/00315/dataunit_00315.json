@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00315",
+  "file_path": "dataset/data-unit/00315/dataunit_00315.json",
+  "category": "farm-operation",
+  "sub_category": "boundary-security-control",
+  "captured_at_local": "2026-01-16 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "Rear gate, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rear_farm_gate_closed_for_animal_control",
+  "summary": "Rear farm gate closed as part of daily routine to control animal access.",
+  "description": "This data unit documents the rear gate of MaMeeFarm being closed as a daily routine. The action is performed to prevent external animals from entering the farm area located behind the residence.",
+  "operation_details": {
+    "action": "gate_closed",
+    "operation_type": "daily_routine",
+    "purpose": "animal_access_control",
+    "gate_location": "rear_farm_boundary"
+  },
+  "environment_context": {
+    "area_description": "rear zone of the property designated as farm area",
+    "boundary_type": "metal fence and gate"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "rear_farm_gate_closed_20260116_0800.jpg",
+    "cid": "bafybeibko4ip6iirdextv6ucly2lcdfbuzwklpi3swrx3nxg2ns5yed234",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibko4ip6iirdextv6ucly2lcdfbuzwklpi3swrx3nxg2ns5yed234",
+    "reference_folder": "dataset/data-unit/00315/external-reference/",
+    "note": "Rear gate secured as part of daily farm management."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
