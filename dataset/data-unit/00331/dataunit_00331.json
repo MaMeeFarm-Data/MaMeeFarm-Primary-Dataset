@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00331",
+  "file_path": "dataset/data-unit/00331/dataunit_00331.json",
+  "category": "workflow-continuity",
+  "sub_category": "task-transition",
+  "captured_at_local": "2026-01-16 09:52",
+  "timezone": "Asia/Bangkok",
+  "location": "Field boundary near corn field and duck shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_step_completed",
+  "summary": "Grass cutting task completed and workflow transitioned to next activity.",
+  "description": "This data unit records the completion state of the grass cutting task. It serves as a continuity marker confirming that the observed vegetation condition in Data Unit 00328 was addressed through preparation in Data Unit 00329 and execution in Data Unit 00330. The workflow continues to subsequent activities without interruption.",
+  "linked_data_units": [
+    "00328",
+    "00329",
+    "00330"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "grass_cutting_completed_transition_20260116_0952.jpg",
+    "cid": "bafybeieofpvy2fee3d6n3m7jwz625yoeuyy4srglwr72vgrmlxrqaz72om",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieofpvy2fee3d6n3m7jwz625yoeuyy4srglwr72vgrmlxrqaz72om",
+    "reference_folder": "dataset/data-unit/00331/external-reference/",
+    "note": "Recorded as workflow continuation without analytical interpretation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
