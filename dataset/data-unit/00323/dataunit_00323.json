@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00323",
+  "file_path": "dataset/data-unit/00323/dataunit_00323.json",
+  "category": "daily-labor",
+  "sub_category": "environmental-maintenance",
+  "captured_at_local": "2026-01-16 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_area_sanitation",
+  "summary": "Morning sanitation work to maintain living environment for dogs.",
+  "description": "This data unit documents routine morning sanitation work involving the collection of dog waste in the residential area at MaMeeFarm. The activity supports environmental hygiene and animal welfare for a population of approximately 20 dogs. The task was performed despite operational and resource constraints, ensuring a livable and sustainable habitat.",
+  "activity_context": {
+    "task": "dog waste collection",
+    "animal_count": {
+      "total_dogs": 20
+    },
+    "care_frequency": "twice daily",
+    "purpose": "maintain hygiene and environmental quality"
+  },
+  "system_context": {
+    "constraint_note": "limited resources, continuous care maintained",
+    "role_in_system": "baseline environmental stability"
+  },
+  "temporal_reference": {
+    "sequence_position": "post-energy-start",
+    "related_data_units": [
+      "00322"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dog_area_sanitation_20260116_0813.jpg",
+    "cid": "bafybeidudvkegcikv5fp4u4oiovdz6cs5x2srp3dmpussdrbburfvj3x64",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidudvkegcikv5fp4u4oiovdz6cs5x2srp3dmpussdrbburfvj3x64",
+    "reference_folder": "dataset/data-unit/00323/external-reference/",
+    "note": "Routine sanitation performed as part of daily animal care."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
