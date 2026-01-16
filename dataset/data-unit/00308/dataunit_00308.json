@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00308",
+  "file_path": "dataset/data-unit/00308/dataunit_00308.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-15 23:45",
+  "timezone": "Asia/Bangkok",
+  "location": "Indoor wall area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "night_temperature_humidity_final_record",
+  "summary": "Final temperature and humidity measurement recorded at the end of the day.",
+  "description": "This data unit documents the final environmental measurement of temperature and humidity at MaMeeFarm for the day. The record was captured late at night as the last measurement before system rest. The device displays a temperature of 18.9 degrees Celsius and relative humidity of 67 percent.",
+  "measurement": {
+    "temperature_celsius": 18.9,
+    "relative_humidity_percent": 67,
+    "device_model": "HTC-1",
+    "measurement_type": "manual visual capture"
+  },
+  "reference_context": {
+    "first_measurement_reference": "00286",
+    "measurement_role": "end_of_day_environmental_baseline"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "temperature_record_20260115_2345.jpg",
+    "cid": "bafybeieuudiarc6aa7hh7mduqy7k2y6xtkl7fdrr3bvprvucotz34xu4yy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieuudiarc6aa7hh7mduqy7k2y6xtkl7fdrr3bvprvucotz34xu4yy",
+    "reference_folder": "dataset/data-unit/00308/external-reference/",
+    "note": "Image shows temperature and humidity display at night with low ambient lighting."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
