@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00333",
+  "file_path": "dataset/data-unit/00333/dataunit_00333.json",
+  "category": "environmental-observation",
+  "sub_category": "water_flow_status",
+  "captured_at_local": "2026-01-16 06:55",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm boundary canal, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "external_water_flow_stopped",
+  "summary": "Water flow from adjacent cornfield into farm canal has stopped.",
+  "description": "This data unit documents the cessation of water flow previously observed entering the farm canal from a neighboring cornfield. The observation references Data Unit 00317, which recorded the earlier flow condition. The state change was captured and recorded at the time encountered.",
+  "linked_data_units": [
+    "00317"
+  ],
+  "linked_nft_collections": [
+    "7_ducks_of_hope_day_142_part_1"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "external_water_flow_stopped_20260116_0655.jpg",
+    "cid": "bafybeibqd645o3etrsy7enwbm3bw5yd64ittycnk3fwpt7col5hrxhncqi",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibqd645o3etrsy7enwbm3bw5yd64ittycnk3fwpt7col5hrxhncqi",
+    "reference_folder": "dataset/data-unit/00333/external-reference/",
+    "note": "Recorded as observed state change without inference."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
