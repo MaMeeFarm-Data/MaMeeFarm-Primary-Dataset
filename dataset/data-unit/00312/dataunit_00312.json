@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00312",
+  "file_path": "dataset/data-unit/00312/dataunit_00312.json",
+  "category": "environment-context",
+  "sub_category": "surrounding-landscape",
+  "captured_at_local": "2026-01-16 07:39",
+  "timezone": "Asia/Bangkok",
+  "location": "Adjacent area to MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "surrounding_cornfield_landscape_morning",
+  "summary": "Morning landscape of surrounding agricultural land adjacent to MaMeeFarm.",
+  "description": "This data unit documents the surrounding landscape adjacent to MaMeeFarm during the morning hours. The image shows extensive cornfields occupying nearby land, providing environmental and agricultural context of the farm's surroundings. This record serves as contextual ground truth of the local agricultural ecosystem.",
+  "environment_details": {
+    "land_use_type": "agricultural",
+    "dominant_crop": "corn",
+    "time_of_day": "morning",
+    "weather_observation": "clear sky with scattered clouds"
+  },
+  "reference_context": {
+    "related_morning_activity": "00311",
+    "context_type": "environmental baseline"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "surrounding_cornfield_20260116_0739.jpg",
+    "cid": "bafybeif52l4v4idsh5vzn5ozzn2r26rqtbtxhn6z5is5zhd5cf3npnhp3q",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeif52l4v4idsh5vzn5ozzn2r26rqtbtxhn6z5is5zhd5cf3npnhp3q",
+    "reference_folder": "dataset/data-unit/00312/external-reference/",
+    "note": "Used as environmental context reference."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
