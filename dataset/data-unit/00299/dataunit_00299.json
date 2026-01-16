@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00299",
+  "file_path": "dataset/data-unit/00299/dataunit_00299.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-15 12:20",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "device": {
+    "model": "HTC-2",
+    "type": "digital thermometer hygrometer"
+  },
+  "measurements": {
+    "temperature_indoor_celsius": 31.9,
+    "temperature_outdoor_celsius": 28.9,
+    "relative_humidity_percent": 45
+  },
+  "description": "Midday temperature and humidity reading recorded inside duck shelter using HTC-2 device. Values are directly observed from device display without interpretation.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "duck_shelter_temperature_20260115_1220.jpg",
+    "cid": "bafybeigg7xnmjikuchgbje3eej6hiaqevb5qiydkyzadtd5bdfi3ljzuia",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigg7xnmjikuchgbje3eej6hiaqevb5qiydkyzadtd5bdfi3ljzuia",
+    "reference_folder": "dataset/data-unit/00299/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
