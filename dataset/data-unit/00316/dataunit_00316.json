@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00316",
+  "file_path": "dataset/data-unit/00316/dataunit_00316.json",
+  "category": "agriculture-environment",
+  "sub_category": "plant-condition-observation",
+  "captured_at_local": "2026-01-16 08:01",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_vegetable_condition_with_dew",
+  "summary": "Vegetable plants observed in the morning with visible dew and high moisture conditions.",
+  "description": "This data unit documents the morning condition of vegetable plants at MaMeeFarm. The plants appear fresh with visible dew on leaves, indicating high ambient moisture and cool air conditions. The observation aligns with recorded temperature and humidity measurements from the same date.",
+  "environment_context": {
+    "time_of_day": "morning",
+    "visible_moisture": "dew_present",
+    "air_condition": "cool",
+    "soil_surface": "moist"
+  },
+  "reference_links": {
+    "related_data_units": [
+      "00310",
+      "00314"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "morning_vegetables_dew_20260116_0801.jpg",
+    "cid": "bafybeidk6cgxgr3wjw4edsdqtqcwmeq76fgjir27kd2ggnf2wnr5pbwktu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidk6cgxgr3wjw4edsdqtqcwmeq76fgjir27kd2ggnf2wnr5pbwktu",
+    "reference_folder": "dataset/data-unit/00316/external-reference/",
+    "note": "Morning vegetable condition correlated with same-day temperature and humidity records."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
