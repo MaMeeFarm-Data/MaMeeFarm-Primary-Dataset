@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00355",
+  "file_path": "dataset/data-unit/00355/dataunit_00355.json",
+  "category": "crop-observation",
+  "sub_category": "harvest-readiness",
+  "captured_at_local": "2026-01-17 07:44",
+  "timezone": "Asia/Bangkok",
+  "location": "Banana plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_bunch_harvest_ready_not_yet_cut",
+  "observation": {
+    "status": "ready_for_harvest",
+    "action_taken": "none",
+    "note": "Banana bunch observed as harvest-ready but not cut at time of recording."
+  },
+  "historical_reference": {
+    "previous_proof_id": "412",
+    "previous_recorded_time_local": "2025-12-30 07:22",
+    "planned_harvest_window": "mid-January 2026",
+    "actual_harvest_status": "not_harvested"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "banana_bunch_20260117_0744.jpg",
+    "cid": "bafybeicdv4awubdvnz5hyutyhavzahho7xtm3dbtnqlcmqicjm3capv7gy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicdv4awubdvnz5hyutyhavzahho7xtm3dbtnqlcmqicjm3capv7gy",
+    "reference_folder": "dataset/data-unit/00355/external-reference/",
+    "note": "Image provided for visual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
