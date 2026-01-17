@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00349",
+  "file_path": "dataset/data-unit/00349/dataunit_00349.json",
+  "category": "animal-care",
+  "sub_category": "water-supply",
+  "captured_at_local": "2026-01-17 07:28",
+  "timezone": "Asia/Bangkok",
+  "location": "Dog area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_water_refill",
+  "activity_context": {
+    "routine": "daily",
+    "timing": "after_morning_feeding",
+    "related_proof": "Proof 499"
+  },
+  "observed_action": {
+    "action": "water_refill",
+    "target": "dog_water_container",
+    "container_status": "filled"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dog_water_refill_20260117_0728.jpg",
+    "cid": "bafybeiewiyzqeaixrhi4ijjtjf5eh33yaiovvfhmtmhvjaym2scb5xipxq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiewiyzqeaixrhi4ijjtjf5eh33yaiovvfhmtmhvjaym2scb5xipxq",
+    "reference_folder": "dataset/data-unit/00349/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
