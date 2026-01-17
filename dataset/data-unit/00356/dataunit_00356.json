@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00356",
+  "file_path": "dataset/data-unit/00356/dataunit_00356.json",
+  "category": "farm-activity",
+  "sub_category": "morning-garden-work",
+  "captured_at_local": "2026-01-17 07:47",
+  "timezone": "Asia/Bangkok",
+  "location": "Garden area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_garden_work_contextual_activity",
+  "description": "This record documents a general morning garden work activity at MaMeeFarm. The image reflects routine presence and observation in the garden area under morning light conditions. No specific task execution is isolated or concluded in this record.",
+  "activity_context": {
+    "time_of_day": "morning",
+    "activity_type": "general garden work",
+    "task_specific": false,
+    "action_completed": false
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "garden_work_20260117_0747.jpg",
+    "cid": "bafybeidkx2oz76xcuqrufm56lwpzpt6lqhjshzicvxqxrihotsqjlg3gdm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidkx2oz76xcuqrufm56lwpzpt6lqhjshzicvxqxrihotsqjlg3gdm",
+    "reference_folder": "dataset/data-unit/00356/external-reference/",
+    "note": "Image provided for contextual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
