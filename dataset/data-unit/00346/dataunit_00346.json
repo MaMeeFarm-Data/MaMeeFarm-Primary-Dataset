@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00346",
+  "file_path": "dataset/data-unit/00346/dataunit_00346.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-16 23:42",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential wall area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "night_temperature_humidity_record_end_of_day",
+  "measurement": {
+    "temperature_celsius": 18.7,
+    "humidity_percent": 68,
+    "device_model": "HTC-1",
+    "measurement_context": "night",
+    "record_position": "fixed wall placement"
+  },
+  "daily_reference_context": {
+    "related_temperature_records": [
+      "00310",
+      "00326",
+      "00340"
+    ],
+    "role": "end_of_day_closure_record"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "night_temperature_20260116_2342.jpg",
+    "cid": "bafybeide4y3hgx4hos4iajcpn56ef53hhcxma5vak3gb355ylnra7vbeuy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeide4y3hgx4hos4iajcpn56ef53hhcxma5vak3gb355ylnra7vbeuy",
+    "reference_folder": "dataset/data-unit/00346/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
