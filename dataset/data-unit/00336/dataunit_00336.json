@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00336",
+  "file_path": "dataset/data-unit/00336/dataunit_00336.json",
+  "category": "primary-animal-observation",
+  "sub_category": "resting-condition",
+  "captured_at_local": "2026-01-16 11:02",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_resting_indoor_midday",
+  "summary": "Multiple dogs resting indoors.",
+  "description": "This data unit documents multiple dogs resting indoors during late morning hours. The image records the resting posture and presence of the dogs at the time of capture without interpretation or intervention.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dogs_resting_20260116_1102.jpg",
+    "cid": "bafybeifyle2hiot2qssovb4twx2elyxb3qs2kuxs4tuwx57nexg4i4kwta",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeifyle2hiot2qssovb4twx2elyxb3qs2kuxs4tuwx57nexg4i4kwta",
+    "reference_folder": "dataset/data-unit/00336/external-reference/",
+    "note": "Recorded as observational animal welfare data without inference."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
