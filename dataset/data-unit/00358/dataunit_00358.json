@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00358",
+  "file_path": "dataset/data-unit/00358/dataunit_00358.json",
+  "category": "farm-infrastructure",
+  "sub_category": "operational-area-status",
+  "captured_at_local": "2026-01-17 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "Rear area of MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rear_farm_area_incomplete_fence_resource_constraint",
+  "description": "This record documents the rear area of MaMeeFarm where fencing remains incomplete due to limited available resources. Work activities continue despite temporary suspension of fence completion. This data unit is recorded for spatial and operational analysis purposes.",
+  "land_use_context": {
+    "total_area": {
+      "rai": 1,
+      "ngan": 2,
+      "square_wa": 17
+    },
+    "fence_status": "incomplete",
+    "work_continuity": true,
+    "resource_constraint": true,
+    "operational_pause_reason": "limited resources"
+  },
+  "related_reference": {
+    "nft_collection_reference": "7 Ducks of Hope — Day 143 Part 2",
+    "proof_reference": "Proof 502"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "rear_farm_area_20260117_0757.jpg",
+    "cid": "bafybeiejwo7wxtq3kaqvygtvf225kuewpotwkuhgyee2m6wzeihirhbora",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiejwo7wxtq3kaqvygtvf225kuewpotwkuhgyee2m6wzeihirhbora",
+    "reference_folder": "dataset/data-unit/00358/external-reference/",
+    "note": "Recorded for farm spatial planning and operational analysis."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
