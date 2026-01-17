@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00339",
+  "file_path": "dataset/data-unit/00339/dataunit_00339.json",
+  "category": "environmental-observation",
+  "sub_category": "soil-surface-condition",
+  "captured_at_local": "2026-01-16 12:53",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_soil_surface_condition_under_strong_sunlight",
+  "summary": "Soil surface condition observed during midday under strong sunlight.",
+  "description": "This image records the visible soil surface condition in the vegetable plot at MaMeeFarm during midday. The observation is temporally associated with high temperature and low relative humidity conditions recorded earlier the same day.",
+  "reference": {
+    "related_environmental_data_unit": "00338",
+    "note": "Midday temperature and humidity record"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "soil_surface_midday_20260116_1253.jpg",
+    "cid": "bafybeidncpxukxgfl7qujmuxwjfctnk6r42ny4aoygdvjsjenbsu255siy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidncpxukxgfl7qujmuxwjfctnk6r42ny4aoygdvjsjenbsu255siy",
+    "reference_folder": "dataset/data-unit/00339/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
