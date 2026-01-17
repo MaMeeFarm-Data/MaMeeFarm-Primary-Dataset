@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00337",
+  "file_path": "dataset/data-unit/00337/dataunit_00337.json",
+  "category": "primary-human-activity",
+  "sub_category": "meal-consumption",
+  "captured_at_local": "2026-01-16 11:46",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "single_meal_rice_with_stir_fried_minced_pork",
+  "summary": "Single meal consumed during farm operations.",
+  "description": "This data unit documents a single meal consisting of rice mixed with stir-fried minced pork. The meal was consumed to sustain ongoing work activities under operational constraints. Recorded as factual consumption without interpretation.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "meal_consumption_20260116_1146.jpg",
+    "cid": "bafybeih4ho3mzjd5f6danrhdiruwz6nip3kynj7z6btfsrvu3qyi4gnv5a",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeih4ho3mzjd5f6danrhdiruwz6nip3kynj7z6btfsrvu3qyi4gnv5a",
+    "reference_folder": "dataset/data-unit/00337/external-reference/",
+    "note": "Recorded as operational sustenance evidence."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
