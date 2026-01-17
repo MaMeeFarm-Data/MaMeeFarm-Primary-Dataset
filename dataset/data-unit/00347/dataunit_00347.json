@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00347",
+  "file_path": "dataset/data-unit/00347/dataunit_00347.json",
+  "category": "system-operation",
+  "sub_category": "power-system-alert",
+  "captured_at_local": "2026-01-16 23:43",
+  "timezone": "Asia/Bangkok",
+  "location": "Power system control area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "hybrid_solar_inverter_red_warning_indicator",
+  "system_observation": {
+    "system": "hybrid_solar_inverter",
+    "indicator_status": "red_warning_light_on",
+    "display_message": "low_frequency",
+    "operator_action_required": "system_shutdown"
+  },
+  "reference_context": {
+    "system_power_on_reference": "00322",
+    "daily_operation_range": {
+      "from": "00310",
+      "to": "00347"
+    },
+    "note": "System operated under constraints; data logging continued."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "inverter_warning_20260116_2343.jpg",
+    "cid": "bafybeigdynkvmond3edmgomh4ujy4vy4fnwlu5jllxgv2n4hzo6ushsi3e",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigdynkvmond3edmgomh4ujy4vy4fnwlu5jllxgv2n4hzo6ushsi3e",
+    "reference_folder": "dataset/data-unit/00347/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
