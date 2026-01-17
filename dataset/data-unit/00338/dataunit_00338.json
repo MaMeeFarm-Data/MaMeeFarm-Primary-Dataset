@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00338",
+  "file_path": "dataset/data-unit/00338/dataunit_00338.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-16 12:53",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "device": {
+    "model": "HTC-2",
+    "measurement_type": [
+      "temperature",
+      "humidity"
+    ]
+  },
+  "measurement": {
+    "temperature_inside_celsius": 32.9,
+    "temperature_outside_celsius": 29.6,
+    "humidity_percent": 44
+  },
+  "reference": {
+    "related_data_unit": "00320",
+    "note": "Morning temperature record"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "duck_house_temperature_20260116_1253.jpg",
+    "cid": "bafybeihbnaff73lwyus3gviqpehdidnutx3g4mkqzyzhcskc5j7psrshdq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihbnaff73lwyus3gviqpehdidnutx3g4mkqzyzhcskc5j7psrshdq",
+    "reference_folder": "dataset/data-unit/00338/external-reference/",
+    "note": "Midday temperature and humidity reading inside duck house."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
