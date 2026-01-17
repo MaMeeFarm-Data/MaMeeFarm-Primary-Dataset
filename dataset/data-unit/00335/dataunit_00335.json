@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00335",
+  "file_path": "dataset/data-unit/00335/dataunit_00335.json",
+  "category": "primary-agriculture-activity",
+  "sub_category": "plot-clearance",
+  "captured_at_local": "2026-01-16 10:00",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "kale_plot_clearance_after_harvest",
+  "summary": "Complete removal of kale plants from vegetable plot.",
+  "description": "This data unit documents the complete removal of kale plants from the vegetable plot following harvest. The area was cleared to prepare for planning and planting of a different vegetable crop. This action directly references the prior harvest recorded in Data Unit 00334.",
+  "reference_context": {
+    "previous_data_unit": "00334",
+    "activity_relation": "post-harvest plot clearance"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "kale_plot_clearance_20260116_1000.jpg",
+    "cid": "bafybeig6l2gofpazexqnfy2wclgggbqbj2okkc3ex6qwrg3dppknytmgai",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig6l2gofpazexqnfy2wclgggbqbj2okkc3ex6qwrg3dppknytmgai",
+    "reference_folder": "dataset/data-unit/00335/external-reference/",
+    "note": "Recorded as direct field action without inference."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
