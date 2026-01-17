@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00352",
+  "file_path": "dataset/data-unit/00352/dataunit_00352.json",
+  "category": "environmental-observation",
+  "sub_category": "dew-formation",
+  "captured_at_local": "2026-01-17 07:40",
+  "timezone": "Asia/Bangkok",
+  "location": "Avocado tree area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dew_on_avocado_leaf_morning",
+  "summary": "Morning dew visible on avocado leaf surface.",
+  "observed_condition": {
+    "dew": "present",
+    "sunlight": "present",
+    "time_of_day": "morning"
+  },
+  "reference_context": {
+    "sunlight_data_unit": "00351",
+    "temperature_humidity_data_unit": "00348"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "avocado_leaf_dew_20260117_0740.jpg",
+    "cid": "bafybeieg6vtettz43imcqyzmq3kygswuxzuvmup6lrorlnbrldskssbc74",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieg6vtettz43imcqyzmq3kygswuxzuvmup6lrorlnbrldskssbc74",
+    "reference_folder": "dataset/data-unit/00352/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
