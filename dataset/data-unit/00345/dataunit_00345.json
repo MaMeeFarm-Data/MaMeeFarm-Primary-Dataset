@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00345",
+  "file_path": "dataset/data-unit/00345/dataunit_00345.json",
+  "category": "farm-operation",
+  "sub_category": "manual-irrigation",
+  "captured_at_local": "2026-01-16 17:27",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable garden area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_garden_watering_manual",
+  "summary": "Evening manual watering activity performed in the vegetable garden area as part of daily routine farm maintenance.",
+  "operation": {
+    "activity": "watering",
+    "method": "manual",
+    "tool_used": "watering_can",
+    "time_of_day": "evening",
+    "frequency": "daily"
+  },
+  "reference_context": {
+    "previous_related_activity": "00305",
+    "relation_type": "prior_day_watering_reference"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "evening_watering_garden_20260116_1727.jpg",
+    "cid": "bafybeihvs6yconmbj5o6la3m6ok4gonqurq3v3jp7mhlizaybfp6fhscyq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihvs6yconmbj5o6la3m6ok4gonqurq3v3jp7mhlizaybfp6fhscyq",
+    "reference_folder": "dataset/data-unit/00345/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
