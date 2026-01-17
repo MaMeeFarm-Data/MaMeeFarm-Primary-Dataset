@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00344",
+  "file_path": "dataset/data-unit/00344/dataunit_00344.json",
+  "category": "biological-observation",
+  "sub_category": "insect-plant-interaction",
+  "captured_at_local": "2026-01-16 17:26",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "small_orange_insect_on_pumpkin_leaf",
+  "summary": "Observation of a small orange-colored insect present on a pumpkin leaf showing visible leaf damage.",
+  "observation": {
+    "organism_type": "insect",
+    "color": "orange",
+    "size_estimate": "small",
+    "plant_species_common_name": "pumpkin",
+    "plant_condition": "leaf shows partial damage and missing tissue",
+    "farming_method": "no chemical pesticides applied",
+    "action_taken": "none at time of observation"
+  },
+  "cross_reference": {
+    "related_data_unit": "00291",
+    "relation_type": "leaf_damage_reference"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "orange_insect_pumpkin_leaf_20260116_1726.jpg",
+    "cid": "bafybeigeoqwskawvcquwloxzbwh6gwlm2mdcfn6fjjve4vtonvb2dh64qm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigeoqwskawvcquwloxzbwh6gwlm2mdcfn6fjjve4vtonvb2dh64qm",
+    "reference_folder": "dataset/data-unit/00344/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
