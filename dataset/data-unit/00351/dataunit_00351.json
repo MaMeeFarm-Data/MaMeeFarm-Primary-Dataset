@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00351",
+  "file_path": "dataset/data-unit/00351/dataunit_00351.json",
+  "category": "environmental-observation",
+  "sub_category": "sunlight-condition",
+  "captured_at_local": "2026-01-17 07:40",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm yard, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sunlight_emergence",
+  "summary": "Morning sunlight visible above vegetation area.",
+  "observed_condition": {
+    "sunlight": "visible",
+    "time_of_day": "morning"
+  },
+  "reference_context": {
+    "previous_data_unit": "00350"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "morning_sunlight_20260117_0740.jpg",
+    "cid": "bafybeigeg4eiuesv2agppi6d3mzrhko7coe6kltdlmnkj4p5b2cf5k5icq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigeg4eiuesv2agppi6d3mzrhko7coe6kltdlmnkj4p5b2cf5k5icq",
+    "reference_folder": "dataset/data-unit/00351/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
