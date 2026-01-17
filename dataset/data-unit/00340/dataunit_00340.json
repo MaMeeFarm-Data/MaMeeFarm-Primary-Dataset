@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00340",
+  "file_path": "dataset/data-unit/00340/dataunit_00340.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-16 15:06",
+  "timezone": "Asia/Bangkok",
+  "location": "House balcony area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "afternoon_temperature_humidity_record",
+  "summary": "Afternoon temperature and humidity reading recorded using a digital thermometer-hygrometer.",
+  "measurement": {
+    "temperature_celsius": 26.9,
+    "relative_humidity_percent": 51,
+    "device_model": "HTC-1",
+    "measurement_context": "Ambient air near brick wall"
+  },
+  "reference": {
+    "morning_data_unit": "00310",
+    "late_morning_data_unit": "00326",
+    "note": "Sequential temperature records within the same day"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "temperature_afternoon_20260116_1506.jpg",
+    "cid": "bafybeig33hvhxag4ngryh6ywqtzpgissk34p2ed6ryiig7sn6tv2t4obcy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig33hvhxag4ngryh6ywqtzpgissk34p2ed6ryiig7sn6tv2t4obcy",
+    "reference_folder": "dataset/data-unit/00340/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
