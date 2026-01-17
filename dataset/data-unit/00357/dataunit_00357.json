@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00357",
+  "file_path": "dataset/data-unit/00357/dataunit_00357.json",
+  "category": "environmental-observation",
+  "sub_category": "anomalous-wildlife-finding",
+  "captured_at_local": "2026-01-17 07:50",
+  "timezone": "Asia/Bangkok",
+  "location": "Soil canal area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dead_snake_found_in_farm_soil_canal",
+  "description": "This record documents the observation of a dead snake found in a soil canal within MaMeeFarm. The cause of death is unknown. No chemical substances are used at MaMeeFarm. This record does not assign causation or interpretation.",
+  "observation_context": {
+    "organism": "snake",
+    "condition": "dead",
+    "cause_known": false,
+    "human_intervention": false,
+    "chemical_usage_on_site": false
+  },
+  "related_reference": {
+    "previous_dataunit": "00317",
+    "nft_collection_reference": "7 Ducks of Hope — Day 142 Part 1"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dead_snake_20260117_0750.jpg",
+    "cid": "bafybeibowwrk3ce3tgufvs6rd5a4ptms6sb4kkp5uksroz3y5w43jbssxy",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibowwrk3ce3tgufvs6rd5a4ptms6sb4kkp5uksroz3y5w43jbssxy",
+    "reference_folder": "dataset/data-unit/00357/external-reference/",
+    "note": "Image provided for factual environmental documentation only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
+
