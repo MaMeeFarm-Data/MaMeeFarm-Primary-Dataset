@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00342",
+  "file_path": "dataset/data-unit/00342/dataunit_00342.json",
+  "category": "animal-care",
+  "sub_category": "dog-bedding-management",
+  "captured_at_local": "2026-01-16 17:15",
+  "timezone": "Asia/Bangkok",
+  "location": "Outdoor area near dog resting zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_dog_bedding_collection",
+  "summary": "Collection of dog bedding sheets in the evening after daytime airing.",
+  "activity": {
+    "action": "bedding_collection",
+    "object": "dog bedding sheet",
+    "time_of_day": "evening"
+  },
+  "reference": {
+    "morning_airing_proof": "Proof 495",
+    "note": "Bedding sheets were aired in the morning and collected in the evening."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dog_bedding_collection_evening_20260116_1715.jpg",
+    "cid": "bafybeigg2spvts226vs5uj4toa5nr2zapo4uhplccf23guhkfqoyxrr6va",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigg2spvts226vs5uj4toa5nr2zapo4uhplccf23guhkfqoyxrr6va",
+    "reference_folder": "dataset/data-unit/00342/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
