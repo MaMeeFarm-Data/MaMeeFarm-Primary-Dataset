@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00334",
+  "file_path": "dataset/data-unit/00334/dataunit_00334.json",
+  "category": "primary-agriculture-activity",
+  "sub_category": "harvest",
+  "captured_at_local": "2026-01-16 09:59",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "kale_harvest_from_vegetable_plot",
+  "summary": "Kale harvested from vegetable plot.",
+  "description": "This data unit documents the harvesting of kale from the vegetable plot at MaMeeFarm. The activity was recorded at the time of action and is linked to a 15-second video clip and the NFT collection Seed of Hope Day 174 Part 2.",
+  "linked_nft_collections": [
+    "seed_of_hope_day_174_part_2"
+  ],
+  "linked_media": {
+    "type": "video",
+    "duration_seconds": 15,
+    "note": "Referenced clip recorded separately."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "kale_harvest_20260116_0959.jpg",
+    "cid": "bafybeihbrogqmwkmgp4n3wiuewigyoho7ynvlqnvgsltkklm6r6v7q4heq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeihbrogqmwkmgp4n3wiuewigyoho7ynvlqnvgsltkklm6r6v7q4heq",
+    "reference_folder": "dataset/data-unit/00334/external-reference/",
+    "note": "Recorded as direct harvest action without inference."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
