@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00354",
+  "file_path": "dataset/data-unit/00354/dataunit_00354.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-17 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck coop, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_temperature_humidity_morning",
+  "measured_values": {
+    "temperature_inside_celsius": 15.1,
+    "temperature_outside_celsius": 14.5,
+    "relative_humidity_percent": 86
+  },
+  "device": {
+    "type": "digital thermometer hygrometer",
+    "model": "HTC-2"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "duck_coop_temperature_20260117_0743.jpg",
+    "cid": "bafybeidlwds57ts4loe75kivdss2iwwpvodpcvtyt7uim2jtcurdbnmmme",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidlwds57ts4loe75kivdss2iwwpvodpcvtyt7uim2jtcurdbnmmme",
+    "reference_folder": "dataset/data-unit/00354/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
