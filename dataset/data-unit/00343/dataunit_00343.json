@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00343",
+  "file_path": "dataset/data-unit/00343/dataunit_00343.json",
+  "category": "water-infrastructure",
+  "sub_category": "on-site-water-storage",
+  "captured_at_local": "2026-01-16 17:24",
+  "timezone": "Asia/Bangkok",
+  "location": "Outdoor area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_storage_barrel_200_liters",
+  "summary": "On-site water storage barrel with a capacity of 200 liters.",
+  "infrastructure": {
+    "object": "water_storage_barrel",
+    "capacity_liters": 200,
+    "material": "plastic",
+    "installation_type": "ground_placed",
+    "intended_use": "general farm water reserve"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "water_barrel_200l_20260116_1724.jpg",
+    "cid": "bafybeibctupcsb27lv7gum6t77ap4csqyqipmktatnjmpmw6llwfhzeqne",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibctupcsb27lv7gum6t77ap4csqyqipmktatnjmpmw6llwfhzeqne",
+    "reference_folder": "dataset/data-unit/00343/external-reference/",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
