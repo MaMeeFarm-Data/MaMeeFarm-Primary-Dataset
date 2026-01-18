@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00379",
+  "file_path": "dataset/data-unit/00379/dataunit_00379.json",
+  "category": "human-activity",
+  "sub_category": "morning-garden-work",
+  "captured_at_local": "2026-01-18 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "human_morning_garden_work_routine",
+  "summary": "Photo record of a human performing morning garden work.",
+  "description": "This data unit records a human engaging in routine garden work during the morning at MaMeeFarm. The evidence is a photo captured during the activity period.",
+  "reference_context": {
+    "related_proof_id": "500",
+    "related_data_unit_id": "00356"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieskq6wd7l4p5etxyub63u5q2cq2ho2pjmabmg5senk54pugisx6i",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
