@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00371",
+  "file_path": "dataset/data-unit/00371/dataunit_00371.json",
+  "category": "farm-operations",
+  "sub_category": "water-usage",
+  "captured_at_local": "2026-01-17 17:30",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable garden zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_vegetable_watering_completed",
+  "summary": "Completion of evening vegetable watering using stored water.",
+  "description": "This data unit documents the completion of evening vegetable watering at MaMeeFarm. Water used for irrigation was sourced from previously filled storage barrels. The activity represents actual water consumption following water preparation and storage earlier the same day.",
+  "operation": {
+    "action": "watering",
+    "resource": "water",
+    "time_of_day": "evening",
+    "status": "completed"
+  },
+  "reference_context": {
+    "water_source_dataunit": "00366",
+    "note": "Water consumption derived from previously filled storage barrels."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "evening_vegetable_watering_20260117_1730.jpg",
+    "cid": "bafybeig5warv4zhw3r7u4il3dahvpmgsvc3b55rfgbilm3gyoldcxy46ma",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig5warv4zhw3r7u4il3dahvpmgsvc3b55rfgbilm3gyoldcxy46ma",
+    "reference_folder": "dataset/data-unit/00371/external-reference/",
+    "note": "Image confirms completion of watering and remaining water level."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
