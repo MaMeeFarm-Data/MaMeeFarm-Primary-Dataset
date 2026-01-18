@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00381",
+  "file_path": "dataset/data-unit/00381/dataunit_00381.json",
+  "category": "agricultural-growth",
+  "sub_category": "early-vegetable-sprouting",
+  "captured_at_local": "2026-01-18 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "early_vegetable_sprouting_observation",
+  "summary": "Photo record of early vegetable sprouting in the planting area.",
+  "description": "This data unit records the observation of early vegetable sprouting at MaMeeFarm. The evidence is a photo showing newly emerged seedlings in the vegetable plot. The planting activity is referenced to an earlier record.",
+  "reference_context": {
+    "related_data_unit_id": "00263",
+    "previous_recorded_date": "2026-01-14",
+    "elapsed_days_since_last_record": 4
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiekrs6tjolyr2ti4hv375idtbdi4kohwmjsghj6se4hh32yjieqhi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
