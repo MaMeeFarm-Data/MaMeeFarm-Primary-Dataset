@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00368",
+  "file_path": "dataset/data-unit/00368/dataunit_00368.json",
+  "category": "farm-management",
+  "sub_category": "water-storage-status",
+  "captured_at_local": "2026-01-17 15:56",
+  "timezone": "Asia/Bangkok",
+  "location": "Backyard garden zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "backyard_garden_water_storage_full_status",
+  "summary": "All water barrels in the backyard garden zone are filled, totaling 600 liters of stored water.",
+  "description": "This data unit documents the confirmed full water storage status across all water barrels in the backyard garden zone. The zone contains a total of three water barrels, each with an approximate capacity of 200 liters, resulting in a combined water reserve of approximately 600 liters available for garden use.",
+  "quantitative_note": {
+    "barrel_count": 3,
+    "capacity_per_barrel_liters": 200,
+    "total_water_liters": 600,
+    "note": "Capacities based on known container specifications and visual confirmation."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "backyard_water_storage_full_20260117_1556.jpg",
+    "cid": "bafybeiffibjec2w74iqjw3t26scamf6ceaiaewkjlfitqgvcaovpiqk7j4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiffibjec2w74iqjw3t26scamf6ceaiaewkjlfitqgvcaovpiqk7j4",
+    "reference_folder": "dataset/data-unit/00368/external-reference/",
+    "note": "Image confirms full water level in backyard garden water barrel."
+  },
+  "related_dataunits": [
+    "00366",
+    "00367"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
