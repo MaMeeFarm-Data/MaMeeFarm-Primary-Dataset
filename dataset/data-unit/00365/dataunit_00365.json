@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00365",
+  "file_path": "dataset/data-unit/00365/dataunit_00365.json",
+  "category": "environmental-observation",
+  "sub_category": "daylight-sun-exposure",
+  "captured_at_local": "2026-01-17 14:45",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm open area near duck shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "strong_midday_sunlight_farm_area",
+  "summary": "Strong sunlight observed over farm area during daytime.",
+  "description": "This data unit documents visual observation of strong daylight sun exposure across the farm area, including open ground and duck shelter structures. No temperature values are inferred from the image.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "strong_sunlight_20260117_1445.jpg",
+    "cid": "bafybeidlevjmtm2jt743qe3iz554a453533nwr3ktmrgvwabklxhamlbie",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidlevjmtm2jt743qe3iz554a453533nwr3ktmrgvwabklxhamlbie",
+    "reference_folder": "dataset/data-unit/00365/external-reference/",
+    "note": "Visual environmental condition recorded without quantitative measurement."
+  },
+  "related_dataunits": [
+    "00363",
+    "00364"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
