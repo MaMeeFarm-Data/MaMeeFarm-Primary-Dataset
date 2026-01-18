@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00360",
+  "file_path": "dataset/data-unit/00360/dataunit_00360.json",
+  "category": "labor-activity",
+  "sub_category": "morning-garden-work",
+  "captured_at_local": "2026-01-17 08:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm garden area, Thailand",
+  "data_type": "image",
+  "title": "morning_garden_work_manual_labor",
+  "description": "This record documents a morning garden work activity at MaMeeFarm. The image shows manual field work being performed in a garden plot during early daylight hours as part of routine farm operations.",
+  "activity_context": {
+    "activity_type": "manual gardening",
+    "time_of_day": "morning",
+    "tools_visible": true,
+    "chemical_use": false
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "morning_garden_work_20260117_0853.jpg",
+    "cid": "bafybeic7oigwtifw62tmrk6d2d55tutp3an466t5azgp2skhz6ugvreibq",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic7oigwtifw62tmrk6d2d55tutp3an466t5azgp2skhz6ugvreibq",
+    "reference_folder": "dataset/data-unit/00360/external-reference/",
+    "note": "Recorded as part of continuous daily labor documentation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
