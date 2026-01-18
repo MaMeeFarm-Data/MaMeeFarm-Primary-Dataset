@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00372",
+  "file_path": "dataset/data-unit/00372/dataunit_00372.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-17 17:30",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck coop, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_temperature_evening",
+  "summary": "Evening temperature and humidity record inside the duck coop.",
+  "description": "This data unit records the evening temperature and relative humidity inside the duck coop at MaMeeFarm. Values are captured directly from the HTC-2 temperature and humidity monitoring device. No interpretation or adjustment has been applied.",
+  "measurement": {
+    "device_model": "HTC-2",
+    "temperature_inside_celsius": 30.9,
+    "temperature_outside_celsius": 26.3,
+    "relative_humidity_percent": 50,
+    "measurement_time_displayed": "17:30"
+  },
+  "reference_context": {
+    "same_day_related_dataunits": [
+      "00354",
+      "00363"
+    ],
+    "note": "Referenced for daily environmental comparison only."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "duck_coop_temperature_evening_20260117_1730.jpg",
+    "cid": "bafybeiadwjtj3sydliebf3dmepeakgs5vsqteoz7j5i2gm3mt22x4wouqe",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiadwjtj3sydliebf3dmepeakgs5vsqteoz7j5i2gm3mt22x4wouqe",
+    "reference_folder": "dataset/data-unit/00372/external-reference/",
+    "note": "Image used as primary evidence for displayed measurements."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
