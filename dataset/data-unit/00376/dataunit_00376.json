@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00376",
+  "file_path": "dataset/data-unit/00376/dataunit_00376.json",
+  "category": "infrastructure-energy",
+  "sub_category": "power-system-operation",
+  "captured_at_local": "2026-01-17 23:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_power_system_shutdown_time_solar_inverter",
+  "summary": "Photo record of farm power system shutdown time using a hybrid solar inverter.",
+  "description": "This data unit records the time when the farm power system is shut down. The evidence is a photo of the hybrid solar inverter at MaMeeFarm. This record is linked to the system opening time captured earlier in the same day (data unit 00359) to support continuous operational traceability under resource constraints.",
+  "reference_context": {
+    "opening_time_reference_data_unit_id": "00359",
+    "operation_phase": "shutdown"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiguwl6tycbzn76noawek4vsqkxy7tovphre2azgioh6nzvnkjgccu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
