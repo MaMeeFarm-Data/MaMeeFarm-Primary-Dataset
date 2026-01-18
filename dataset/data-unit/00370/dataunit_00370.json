@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00370",
+  "file_path": "dataset/data-unit/00370/dataunit_00370.json",
+  "category": "animal-care",
+  "sub_category": "daily-feeding",
+  "captured_at_local": "2026-01-17 16:18",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_dog_feeding",
+  "summary": "Evening feeding routine for dogs at MaMeeFarm following morning feeding.",
+  "description": "This data unit documents the evening feeding of dogs at MaMeeFarm. The feeding follows the standard daily care routine and references the morning feeding activity recorded earlier in the same day. The image shows dogs present and awaiting food distribution, confirming continuity of animal care.",
+  "operation": {
+    "action": "feeding",
+    "time_of_day": "evening",
+    "animal": "dog",
+    "care_type": "routine"
+  },
+  "reference_context": {
+    "related_proof": "proof_499",
+    "note": "Evening feeding complements morning feeding recorded earlier the same day."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "evening_dog_feeding_20260117_1618.jpg",
+    "cid": "bafybeibuyabrqsjatxuhserznvupg6jol32otyqcjgrzumjyrncgzshrsm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibuyabrqsjatxuhserznvupg6jol32otyqcjgrzumjyrncgzshrsm",
+    "reference_folder": "dataset/data-unit/00370/external-reference/",
+    "note": "Image shows dogs present during evening feeding time."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
