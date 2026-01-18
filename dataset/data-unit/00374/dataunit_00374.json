@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00374",
+  "file_path": "dataset/data-unit/00374/dataunit_00374.json",
+  "category": "animal-care",
+  "sub_category": "resting-and-welfare",
+  "captured_at_local": "2026-01-17 20:42",
+  "timezone": "Asia/Bangkok",
+  "location": "Dog resting area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_resting_on_retrieved_bedding_evening",
+  "summary": "Dogs resting together using retrieved bedding under limited household resources.",
+  "description": "This data unit documents dogs resting in the evening using bedding that was sun-dried earlier in the day and retrieved prior to use. The activity reflects routine animal care and welfare management under limited household resources, ensuring warmth and rest during nighttime conditions.",
+  "reference_context": {
+    "related_dataunits": [
+      "00350",
+      "00373"
+    ],
+    "note": "Completes the daily bedding cycle from drying, retrieval, to actual use."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "dogs_resting_bedding_20260117_2042.jpg",
+    "cid": "bafybeibwwo2lgigbtas4yk5imdqg4yqwna3iioxzhkd35hhwp3ipkduqum",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibwwo2lgigbtas4yk5imdqg4yqwna3iioxzhkd35hhwp3ipkduqum",
+    "reference_folder": "dataset/data-unit/00374/external-reference/",
+    "note": "Image serves as primary evidence of evening resting condition."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
