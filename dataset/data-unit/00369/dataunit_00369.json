@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00369",
+  "file_path": "dataset/data-unit/00369/dataunit_00369.json",
+  "category": "farm-management",
+  "sub_category": "equipment-maintenance",
+  "captured_at_local": "2026-01-17 15:58",
+  "timezone": "Asia/Bangkok",
+  "location": "Backyard garden water storage zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_operation_closure_and_storage",
+  "summary": "Completion of water pumping operations and proper storage of equipment to preserve operational lifespan.",
+  "description": "This data unit documents the completion of water pumping activities and the subsequent storage of the water pump and related equipment. After all water barrels were filled and confirmed, the pump was removed from active use and placed in a protected position to reduce wear, prevent environmental damage, and extend equipment lifespan.",
+  "operation": {
+    "action": "operation_closure",
+    "equipment": "water_pump",
+    "status": "stored_after_use",
+    "purpose": "equipment preservation"
+  },
+  "reference_context": {
+    "related_dataunits": [
+      "00361",
+      "00362",
+      "00366",
+      "00367",
+      "00368"
+    ],
+    "note": "Closure follows completion of all water filling and storage confirmation tasks."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "water_pump_storage_20260117_1558.jpg",
+    "cid": "bafybeigvhhgsq6ekosb5scryszfz4o3rzvgl23ysbymyco6izqlw34qyfa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeigvhhgsq6ekosb5scryszfz4o3rzvgl23ysbymyco6izqlw34qyfa",
+    "reference_folder": "dataset/data-unit/00369/external-reference/",
+    "note": "Image confirms water pump removed from operation and stored after use."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
