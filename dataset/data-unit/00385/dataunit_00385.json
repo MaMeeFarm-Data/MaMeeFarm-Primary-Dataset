@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00385",
+  "file_path": "dataset/data-unit/00385/dataunit_00385.json",
+  "category": "human-consumption",
+  "sub_category": "simple-meal-morning",
+  "captured_at_local": "2026-01-18 09:41",
+  "timezone": "Asia/Bangkok",
+  "location": "Indoor area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_meal_sticky_rice_and_pork_rinds",
+  "summary": "Photo record of a simple morning meal consisting of sticky rice and pork rinds.",
+  "description": "This data unit records a simple morning meal at MaMeeFarm. The evidence is a photo showing sticky rice and pork rinds prepared for consumption.",
+  "measurement": {
+    "items": [
+      "sticky rice",
+      "pork rinds"
+    ],
+    "total_cost_thb": 20,
+    "unit_cost_thb": 10
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiffiyweynkfs42fb3ifl2ylzpuralig2hpnswzpwiln23jw2y77zy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
