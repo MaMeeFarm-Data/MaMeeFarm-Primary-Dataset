@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00366",
+  "file_path": "dataset/data-unit/00366/dataunit_00366.json",
+  "category": "water-management",
+  "sub_category": "water-storage-refill",
+  "captured_at_local": "2026-01-17 14:45",
+  "timezone": "Asia/Bangkok",
+  "location": "Water storage zone near farm plots, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "two_water_barrels_refilled",
+  "summary": "Two water storage barrels observed filled after refill.",
+  "description": "This data unit documents the condition of two water storage barrels in the same zone. Each barrel has a capacity of approximately 200 liters, totaling 400 liters. Both barrels were observed after being refilled.",
+  "quantitative_note": {
+    "barrel_count": 2,
+    "capacity_per_barrel_liters": 200,
+    "total_capacity_liters": 400,
+    "note": "Capacity values are based on known container specification, not measured at capture time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "water_barrels_20260117_1445.jpg",
+    "cid": "bafybeidh56w2q7pihfk4czcdjh4xf3womtoicyq2ricgahk5v3wvnxuhiu",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidh56w2q7pihfk4czcdjh4xf3womtoicyq2ricgahk5v3wvnxuhiu",
+    "reference_folder": "dataset/data-unit/00366/external-reference/",
+    "note": "Image records post-refill water storage condition."
+  },
+  "related_dataunits": [
+    "00362"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
