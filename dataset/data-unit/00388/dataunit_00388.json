@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00388",
+  "file_path": "dataset/data-unit/00388/dataunit_00388.json",
+  "category": "agricultural-condition",
+  "sub_category": "midday-vegetable-plant-condition",
+  "captured_at_local": "2026-01-18 13:00",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_wilted_vegetable_observation",
+  "summary": "Photo record of vegetable plants observed during midday.",
+  "description": "This data unit records the condition of vegetable plants observed at midday in the vegetable plot at MaMeeFarm. The evidence is a photo captured at the recorded time.",
+  "reference_context": {
+    "related_data_unit_id": "00380",
+    "additional_user_provided_reference": "00389"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifkopoylwugw6h3gxonqr6nxruereyi3lc5ydkkvuqrumsa4ishzm",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
