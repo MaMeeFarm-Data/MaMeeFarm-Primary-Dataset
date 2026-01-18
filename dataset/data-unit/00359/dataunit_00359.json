@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00359",
+  "file_path": "dataset/data-unit/00359/dataunit_00359.json",
+  "category": "energy-system",
+  "sub_category": "solar-inverter-operation",
+  "captured_at_local": "2026-01-17 08:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, inverter control area, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_system_power_on_morning",
+  "description": "This record documents the morning power-on state of the hybrid solar inverter system at MaMeeFarm. The system was manually activated at the recorded time. This data unit references the previous system shutdown recorded the night before.",
+  "system_context": {
+    "system_type": "hybrid solar inverter",
+    "operation_event": "power_on",
+    "manual_operation": true,
+    "display_status": "active",
+    "reference_previous_event": "system power off previous night"
+  },
+  "related_reference": {
+    "dataunit_reference": "00347"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "solar_inverter_power_on_20260117_0804.jpg",
+    "cid": "bafybeiddyp6wymd7soconwkxpsatc26bsowfhqhvsrdbsv46xt3foudjum",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiddyp6wymd7soconwkxpsatc26bsowfhqhvsrdbsv46xt3foudjum",
+    "reference_folder": "dataset/data-unit/00359/external-reference/",
+    "note": "Recorded as part of daily energy system operation logging."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
