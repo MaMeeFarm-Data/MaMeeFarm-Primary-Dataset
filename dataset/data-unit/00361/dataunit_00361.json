@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00361",
+  "file_path": "dataset/data-unit/00361/dataunit_00361.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water-pump-preparation",
+  "captured_at_local": "2026-01-17 11:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm water storage area, Thailand",
+  "data_type": "image",
+  "title": "water_pump_preparation_before_operation",
+  "description": "This record documents preparation of a water pump system at MaMeeFarm. The image shows a submersible pump positioned and connected near water storage tanks prior to water pumping operation.",
+  "activity_context": {
+    "system_type": "water_pump",
+    "operation_stage": "preparation",
+    "power_source": "electric",
+    "chemical_use": false
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "water_pump_preparation_20260117_1153.jpg",
+    "cid": "bafybeic6mhf2ilkjbmztysmchn3lbc74lj7zqwbnrxkyekk5xyjzkw5fkm",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeic6mhf2ilkjbmztysmchn3lbc74lj7zqwbnrxkyekk5xyjzkw5fkm",
+    "reference_folder": "dataset/data-unit/00361/external-reference/",
+    "note": "Recorded as part of daily farm infrastructure operation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
