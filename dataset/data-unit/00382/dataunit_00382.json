@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00382",
+  "file_path": "dataset/data-unit/00382/dataunit_00382.json",
+  "category": "environmental-condition",
+  "sub_category": "vegetable-plot-morning-moisture",
+  "captured_at_local": "2026-01-18 07:44",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_moisture_observation_in_vegetable_plot",
+  "summary": "Photo record of morning moisture conditions in the vegetable plot.",
+  "description": "This data unit records the observed morning moisture condition in the vegetable plot at MaMeeFarm. The evidence is a photo captured during the morning period showing soil and plant conditions in the plot.",
+  "reference_context": {
+    "related_data_unit_id": "00380",
+    "context_note": "Nearby environmental reference from duck house temperature and humidity record."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiekrs6tjolyr2ti4hv375idtbdi4kohwmjsghj6se4hh32yjieqhi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
