@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00363",
+  "file_path": "dataset/data-unit/00363/dataunit_00363.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-17 12:00",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck coop, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_midday_temperature_humidity",
+  "measurement_device": {
+    "device_type": "digital thermometer hygrometer",
+    "model": "HTC-2"
+  },
+  "observed_values": {
+    "temperature_inside_celsius": 32.1,
+    "temperature_outside_celsius": 29.0,
+    "humidity_percent": 47
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "duck_coop_temp_midday_20260117_1200.jpg",
+    "cid": "bafybeiapceftyhek6rlty5tw6stnedk6zbsjxejcxzkxk3yxrjhsqb47n4",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiapceftyhek6rlty5tw6stnedk6zbsjxejcxzkxk3yxrjhsqb47n4",
+    "reference_folder": "dataset/data-unit/00363/external-reference/",
+    "note": "Values recorded directly from device display without interpretation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
