@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00367",
+  "file_path": "dataset/data-unit/00367/dataunit_00367.json",
+  "category": "farm-management",
+  "sub_category": "resource-distribution",
+  "captured_at_local": "2026-01-17 14:46",
+  "timezone": "Asia/Bangkok",
+  "location": "Secondary water access zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "additional_water_barrel_near_crop_zone",
+  "summary": "Additional 200-liter water barrel placed in a separate zone for operational convenience.",
+  "description": "This data unit documents the placement of an additional water barrel with an approximate capacity of 200 liters in another zone of the farm. The placement was performed to reduce walking distance during farm operations and improve daily workflow efficiency.",
+  "quantitative_note": {
+    "barrel_count": 1,
+    "capacity_liters": 200,
+    "note": "Capacity based on known container specification."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "additional_water_barrel_20260117_1446.jpg",
+    "cid": "bafybeia4meev7uaitm7jb7uyectire5f4lk26dkoqalbfig2ujbuhhfwoa",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeia4meev7uaitm7jb7uyectire5f4lk26dkoqalbfig2ujbuhhfwoa",
+    "reference_folder": "dataset/data-unit/00367/external-reference/",
+    "note": "Image records additional water storage placement for farm management purposes."
+  },
+  "related_dataunits": [
+    "00362",
+    "00366"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
