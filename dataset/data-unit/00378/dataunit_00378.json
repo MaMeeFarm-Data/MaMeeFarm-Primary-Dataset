@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00378",
+  "file_path": "dataset/data-unit/00378/dataunit_00378.json",
+  "category": "environmental-condition",
+  "sub_category": "dew-observation",
+  "captured_at_local": "2026-01-18 07:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dew_on_avocado_leaves",
+  "summary": "Photo record of morning dew observed on avocado leaves.",
+  "description": "This data unit records the presence of morning dew on avocado leaves at MaMeeFarm. The evidence is a photo capturing water droplets on leaf surfaces during the early morning period.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif7hoq3k7fjdvyml5ndj5zvnvhwxnrzebdvwnbvd7lqgpuoac3lri",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
