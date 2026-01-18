@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00362",
+  "file_path": "dataset/data-unit/00362/dataunit_00362.json",
+  "category": "resource-management",
+  "sub_category": "water-refill",
+  "captured_at_local": "2026-01-17 11:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm water storage tank area, Thailand",
+  "data_type": "image",
+  "title": "water_refill_into_storage_tank",
+  "description": "This record documents refilling water into a farm storage tank at MaMeeFarm. The water is refilled following usage for vegetable irrigation activities.",
+  "resource_context": {
+    "resource_type": "water",
+    "storage_type": "plastic_water_tank",
+    "operation": "refill",
+    "chemical_use": false
+  },
+  "reference_context": {
+    "related_irrigation_data_unit": "00345",
+    "previous_full_tank_record": "00300"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "file_name": "water_refill_tank_20260117_1156.jpg",
+    "cid": "bafybeibxltfbj6w4tr7s2wpt223zqmwdsssrqwhl7fgg37vtidja5b3a54",
+    "gateway_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibxltfbj6w4tr7s2wpt223zqmwdsssrqwhl7fgg37vtidja5b3a54",
+    "reference_folder": "dataset/data-unit/00362/external-reference/",
+    "note": "Recorded as part of continuous farm water resource management."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
