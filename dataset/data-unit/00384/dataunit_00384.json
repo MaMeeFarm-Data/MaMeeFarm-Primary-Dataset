@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00384",
+  "file_path": "dataset/data-unit/00384/dataunit_00384.json",
+  "category": "environmental-condition",
+  "sub_category": "morning-sunlight-observation",
+  "captured_at_local": "2026-01-18 07:59",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "first_morning_sunlight_winter_season",
+  "summary": "Photo record of morning sunlight appearing in the farm area.",
+  "description": "This data unit records the presence of morning sunlight in the farm area at MaMeeFarm. The evidence is a photo capturing sunlight conditions during the morning period.",
+  "reference_context": {
+    "related_data_unit_id": "00380",
+    "context_note": "Nearby environmental reference from duck house temperature and humidity record."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibzcbbzb3z4p67xzfo5xoytn4jcld47qcgzr7gwxzepyjznqhxysy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
