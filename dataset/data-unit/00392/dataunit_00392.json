@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00392",
+  "file_path": "dataset/data-unit/00392/dataunit_00392.json",
+  "category": "animal-care",
+  "sub_category": "dog-bedding-management",
+  "captured_at_local": "2026-01-18 17:22",
+  "timezone": "Asia/Bangkok",
+  "location": "Outdoor drying area near banana trees, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_bedding_collected_after_morning_drying",
+  "summary": "Photo record of dog bedding collected after being dried.",
+  "description": "This data unit records the collection of dog bedding that had been dried earlier in the morning. The bedding is observed hanging outdoors prior to being stored. This activity references the morning drying record documented in proof 504.",
+  "reference_context": {
+    "morning_drying_reference_proof_id": "504",
+    "activity_phase": "collection_after_drying"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifbcjbkdbwdg2ee7ydu27x36epjumiwmgiouybwsrfv5wglm3jtta",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
