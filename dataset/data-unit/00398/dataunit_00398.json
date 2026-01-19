@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00398",
+  "file_path": "dataset/data-unit/00398/dataunit_00398.json",
+  "category": "farm-operation",
+  "sub_category": "work-status-end-of-day",
+  "captured_at_local": "2026-01-18 18:33",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm pathway near banana trees and fence, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_work_partially_completed_due_to_low_light",
+  "summary": "Farm work partially completed as daylight ended.",
+  "description": "This data unit records the condition of a farm work area at the end of the day. The activity was partially completed due to decreasing light conditions as evening approached. The image documents the work state at the recorded time without further continuation.",
+  "reference_context": {
+    "started_reference_data_unit_id": "00396",
+    "work_status": "partially completed",
+    "limitation": "insufficient daylight"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiez6nzb5cnznwamfs3xlcqesdryavrujjjbmlp2y3wmsqrks6cm3m",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
