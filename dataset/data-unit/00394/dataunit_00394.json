@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00394",
+  "file_path": "dataset/data-unit/00394/dataunit_00394.json",
+  "category": "agricultural-activity",
+  "sub_category": "manual-irrigation",
+  "captured_at_local": "2026-01-18 17:29",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable garden area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_manual_watering_vegetable_garden",
+  "summary": "Evening manual watering activity in the vegetable garden.",
+  "description": "This data unit documents an evening manual irrigation activity in the vegetable garden at MaMeeFarm. The image records a human laborer watering plants using a handheld watering can during late afternoon conditions.",
+  "reference_context": {
+    "related_environmental_records": [
+      "00380",
+      "00387",
+      "00393"
+    ],
+    "time_of_day": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid76nknrqtjvqmxtegrwedynlyqdmhtd25rhr2luncu4rvzglfc24",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
