@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00411",
+  "file_path": "dataset/data-unit/00411/dataunit_00411.json",
+  "category": "household-logistics",
+  "sub_category": "food-purchase",
+  "captured_at_local": "2026-01-19 09:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "village_food_purchase_cost_and_duration",
+  "summary": "Record of food items purchased from the village with travel time and cost.",
+  "description": "This data unit documents food supplies purchased from the nearby village. The total travel time was 48 minutes. Total expenditure was 110 THB. The purchased items are estimated to support consumption for approximately 2–3 days for two people.",
+  "reference_context": {
+    "related_data_unit_id": "00410",
+    "activity_type": "food procurement"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidrafbn65rpskisip243luda3oba3wp4chsdfjsrj3mggb236wn2y",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
