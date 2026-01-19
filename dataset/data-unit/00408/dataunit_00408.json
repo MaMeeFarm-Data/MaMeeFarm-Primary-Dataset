@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00408",
+  "file_path": "dataset/data-unit/00408/dataunit_00408.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-19 08:15",
+  "timezone": "Asia/Bangkok",
+  "location": "Empty duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "sensor_device": {
+    "model": "HTC-2",
+    "measurement_type": [
+      "temperature",
+      "humidity"
+    ]
+  },
+  "measurements": {
+    "temperature_celsius": {
+      "inside": 14.7,
+      "outside": 14.1
+    },
+    "relative_humidity_percent": 84
+  },
+  "summary": "Morning temperature and humidity recorded inside an empty duck house.",
+  "description": "This data unit records morning temperature and relative humidity conditions inside an empty duck house at MaMeeFarm. Measurements were captured using an HTC-2 thermometer-hygrometer under natural morning conditions.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifrk57ndlaff5gojk6d6x5ovr4ana2bs2tslbj4jgxlwlrz7nnjfe",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
