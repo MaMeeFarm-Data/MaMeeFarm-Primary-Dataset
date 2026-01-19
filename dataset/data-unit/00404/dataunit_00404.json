@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00404",
+  "file_path": "dataset/data-unit/00404/dataunit_00404.json",
+  "category": "environment-observation",
+  "sub_category": "sunlight-presence",
+  "captured_at_local": "2026-01-19 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sunlight_presence_on_ground",
+  "summary": "Sunlight present on the ground area in the morning.",
+  "description": "This data unit records the presence of sunlight observed on the ground area at MaMeeFarm during the morning period. The observation is documented as a visual environmental condition.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia3d3wighbfngek25h7l6nq2wcmzo2g3baztfzhiozhjl3gmqtvdy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
