@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00406",
+  "file_path": "dataset/data-unit/00406/dataunit_00406.json",
+  "category": "plant-maintenance",
+  "sub_category": "pruning",
+  "captured_at_local": "2026-01-19 08:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rose_flower_pruning_after_bloom",
+  "summary": "Pruning of withered rose flowers.",
+  "description": "This data unit documents the pruning of withered rose flowers. The activity removes spent blooms to maintain the plant structure and allow subsequent stem development.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihtnwyx5rgcycimhwagvnx66h664wcrukj45zfxbqhcqtd4ebuu6q",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
