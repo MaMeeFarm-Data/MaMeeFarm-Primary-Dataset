@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00400",
+  "file_path": "dataset/data-unit/00400/dataunit_00400.json",
+  "category": "energy-system-operation",
+  "sub_category": "solar-inverter-status",
+  "captured_at_local": "2026-01-18 23:01",
+  "timezone": "Asia/Bangkok",
+  "location": "Power control area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_shutdown_status",
+  "summary": "Solar inverter shutdown status with fault indicator active.",
+  "description": "This data unit documents the inverter shutdown state at night. A red fault indicator light is visible on the inverter panel. The system does not operate for a full 24-hour cycle but continues functioning within operational constraints. Morning inverter activation is referenced separately.",
+  "system_status": {
+    "inverter_state": "off",
+    "indicator_light": "red_fault",
+    "operation_cycle": "non_24h",
+    "system_continuity": "operational_with_constraints"
+  },
+  "reference_context": {
+    "morning_activation_proof_id": "506",
+    "event_type": "end_of_day_shutdown"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig4k7mjssflwn6j2fdigcsfd5th74vg4hmxj2f64sux3eim5a47iq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
