@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00397",
+  "file_path": "dataset/data-unit/00397/dataunit_00397.json",
+  "category": "crop-observation",
+  "sub_category": "banana-ripening",
+  "captured_at_local": "2026-01-18 17:38",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_natural_ripening_after_harvest",
+  "summary": "Observation of bananas beginning to ripen naturally after harvest.",
+  "description": "This data unit records bananas observed beginning to ripen naturally. The bananas were harvested earlier and allowed to ripen without artificial intervention. The image documents the condition of the bananas at the recorded time.",
+  "reference_context": {
+    "harvest_reference_data_unit_id": "00104",
+    "harvest_date": "2026-01-08",
+    "ripening_method": "natural",
+    "elapsed_time_days": 10
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiflmdyronzudbe2k6s2wcicw5a4hgpkkjf3xw5th6vfqfqqv4xctq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
