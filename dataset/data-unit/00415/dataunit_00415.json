@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00415",
+  "file_path": "dataset/data-unit/00415/dataunit_00415.json",
+  "category": "agricultural-labor",
+  "sub_category": "vegetable-planting",
+  "captured_at_local": "2026-01-19 10:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "labor_continues_farm_work_long_bean_planting",
+  "summary": "Farm labor continues vegetable planting activities, planting long beans for food.",
+  "description": "This data unit records ongoing farm labor activities focused on planting vegetables for food consumption. The activity shown is the planting of long beans as part of subsistence food production at the farm.",
+  "activity_details": {
+    "crop_type": "long bean",
+    "purpose": "food consumption",
+    "labor_mode": "manual",
+    "infrastructure": "on-farm simple structure"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih6zkht25t52utcf2beiwhcuav46zjgwvopv4hc5654ogx57i5q6q",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
