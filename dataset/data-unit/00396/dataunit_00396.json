@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00396",
+  "file_path": "dataset/data-unit/00396/dataunit_00396.json",
+  "category": "labor-activity",
+  "sub_category": "farm-area-maintenance",
+  "captured_at_local": "2026-01-18 17:37",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm boundary area near banana trees, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_farm_labor_continued_activity",
+  "summary": "Evening farm labor activity continuing across multiple tasks within the same day.",
+  "description": "This data unit records continued farm labor activity during the evening at MaMeeFarm. The image shows a worker operating near banana trees and the farm boundary fence area, indicating ongoing maintenance or task execution. This activity occurs as part of multiple farm operations conducted within the same day.",
+  "reference_context": {
+    "related_data_units": [
+      "00379",
+      "00386"
+    ],
+    "related_proof": "507",
+    "work_pattern": "multiple_activities_single_day"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihfesarbg2rgxr2ke5qrk4h6kdosvi3nyxhu2b7hvgrwykzvwppha",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
