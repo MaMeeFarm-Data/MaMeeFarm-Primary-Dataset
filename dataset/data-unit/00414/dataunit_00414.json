@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00414",
+  "file_path": "dataset/data-unit/00414/dataunit_00414.json",
+  "category": "agricultural-production",
+  "sub_category": "banana-harvest-yield",
+  "captured_at_local": "2026-01-19 10:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_harvest_single_bunch_thirteen_hands",
+  "summary": "One harvested banana bunch consisting of thirteen hands.",
+  "description": "This data unit records a banana harvest from the farm consisting of one bunch with a total of thirteen hands. The harvested bunch is linked to the previously recorded banana plant and supports traceability of on-farm agricultural yield.",
+  "reference_context": {
+    "source_plant_data_unit_id": "00409",
+    "yield_structure": {
+      "bunch_count": 1,
+      "hand_count": 13
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeideoqt5x7mzeqwqofz2dqtpluntdfmcjq2z5puq6uk2ge6f3ti7pm",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
