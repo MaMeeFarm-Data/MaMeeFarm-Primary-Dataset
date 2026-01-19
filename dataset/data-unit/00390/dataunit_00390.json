@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00390",
+  "file_path": "dataset/data-unit/00390/dataunit_00390.json",
+  "category": "animal-activity",
+  "sub_category": "dog-feeding-waiting",
+  "captured_at_local": "2026-01-18 17:20",
+  "timezone": "Asia/Bangkok",
+  "location": "Indoor area near sliding door, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_waiting_for_evening_meal",
+  "summary": "Photo record of dogs waiting for their evening meal.",
+  "description": "This data unit records dogs observed waiting indoors near the sliding door before the evening feeding time. The evidence is a photo captured at the recorded time.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibafpc5qunxrm72mno6petu52axk27zohdbevjlu3jnkoybihukga",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
