@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00403",
+  "file_path": "dataset/data-unit/00403/dataunit_00403.json",
+  "category": "environment-observation",
+  "sub_category": "morning-dew",
+  "captured_at_local": "2026-01-19 07:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dew_on_plant_leaves",
+  "summary": "Morning dew observed on plant leaves.",
+  "description": "This data unit documents the presence of morning dew on plant leaves at MaMeeFarm. The observation is recorded as a visual environmental condition in the early morning.",
+  "reference_context": {
+    "temperature_humidity_reference_data_unit_id": "00401"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidytwq4rg5ntuftvmti26kzlk4dr6lqcrz6rwume3zc3k7yybgpwi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
