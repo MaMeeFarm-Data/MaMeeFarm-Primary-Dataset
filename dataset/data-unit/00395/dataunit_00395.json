@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00395",
+  "file_path": "dataset/data-unit/00395/dataunit_00395.json",
+  "category": "plant-observation",
+  "sub_category": "flowering-plant-condition",
+  "captured_at_local": "2026-01-18 17:31",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable garden area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "marigold_flower_mixed_condition_evening",
+  "summary": "Marigold flowers observed with mixed conditions, including fresh blooms and dried flower heads.",
+  "description": "This data unit documents the condition of marigold flowers in the vegetable garden at MaMeeFarm during the evening. The image shows multiple blooming marigold flowers alongside at least one dried flower head on the same plant cluster.",
+  "reference_context": {
+    "related_activity": "garden-maintenance",
+    "time_of_day": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifxe37re66wnydzbvnqxj5vpeeyo5vhg7cdqr6jt3iyalcbxyexei",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
