@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00405",
+  "file_path": "dataset/data-unit/00405/dataunit_00405.json",
+  "category": "energy-system-operation",
+  "sub_category": "solar-inverter-on",
+  "captured_at_local": "2026-01-19 08:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_power_on_morning",
+  "summary": "Solar inverter system powered on in the morning.",
+  "description": "This data unit documents the activation of the solar inverter system in the morning after sunlight became available. The operation follows a prior inverter shutdown event and corresponds with observed sunlight presence.",
+  "reference": {
+    "previous_shutdown": "dataunit_00400",
+    "sunlight_condition": "dataunit_00404"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifvbldot3x5663hlsc4ob3oucqtrdlcdydrvptihwg2mgilkezosu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
