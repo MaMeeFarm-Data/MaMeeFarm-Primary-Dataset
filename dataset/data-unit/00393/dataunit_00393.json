@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00393",
+  "file_path": "dataset/data-unit/00393/dataunit_00393.json",
+  "category": "environmental-monitoring",
+  "sub_category": "duck-house-temperature-humidity",
+  "captured_at_local": "2026-01-18 17:23",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_house_temperature_evening_record",
+  "summary": "Evening temperature and humidity record inside the duck house.",
+  "description": "This data unit documents the evening environmental measurement inside the duck house. The thermometer display shows indoor and outdoor temperature values along with relative humidity at the recorded time. This record follows the morning and midday measurements of the same day.",
+  "measurement": {
+    "temperature_inside_celsius": 33.0,
+    "temperature_outside_celsius": 25.9,
+    "relative_humidity_percent": 44,
+    "device_model": "HTC-2",
+    "display_time_on_device": "17:23"
+  },
+  "reference_context": {
+    "morning_record_dataunit": "00380",
+    "midday_record_dataunit": "00387",
+    "sequence": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiehtoicxw2qcor7sk7prubmuanrzvw4jkwypjpjbnxyxcnyyjeqoe",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
