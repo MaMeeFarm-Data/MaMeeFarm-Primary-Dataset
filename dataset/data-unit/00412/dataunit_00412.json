@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00412",
+  "file_path": "dataset/data-unit/00412/dataunit_00412.json",
+  "category": "household-consumption",
+  "sub_category": "meal",
+  "captured_at_local": "2026-01-19 09:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "sticky_rice_and_grilled_pork_meal_under_energy_constraint",
+  "summary": "Consumption of sticky rice and grilled pork as a household meal.",
+  "description": "This data unit records a household meal consisting of sticky rice and grilled pork consumed at MaMeeFarm. The activity occurred under operational constraints including limited electricity availability, lack of vehicle access, and restricted water systems. The system remained operational despite electricity not being available for a full 24-hour cycle.",
+  "reference_context": {
+    "related_data_unit_ids": [
+      "00400",
+      "00405"
+    ],
+    "constraint_type": "energy-availability"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib7p6trjuyewiwxc4s5sqqyl5e3pll5rc3lrjfvbp4mwuxj7d3lgi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
