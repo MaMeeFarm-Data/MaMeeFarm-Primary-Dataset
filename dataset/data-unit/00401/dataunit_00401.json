@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00401",
+  "file_path": "dataset/data-unit/00401/dataunit_00401.json",
+  "category": "environment-monitoring",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-19 07:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_record",
+  "summary": "Morning temperature and humidity record.",
+  "description": "This data unit records the morning temperature and humidity measurement. The reading is captured using a wall-mounted clock/thermometer device.",
+  "environment_reading": {
+    "temperature_celsius": 14.1,
+    "humidity_percent": 69,
+    "time_displayed": "07:21"
+  },
+  "reference_context": {
+    "record_phase": "morning",
+    "record_type": "daily_environment_baseline"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidxg45sokxvdttn6wxadsrouiskvxm73nuj5vhhdqxvxf5nsajcvy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
