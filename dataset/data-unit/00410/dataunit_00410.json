@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00410",
+  "file_path": "dataset/data-unit/00410/dataunit_00410.json",
+  "category": "labor-observation",
+  "sub_category": "daily-logistics",
+  "captured_at_local": "2026-01-19 08:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm to nearby village, Thailand",
+  "data_type": "image",
+  "title": "labor_walking_to_village_for_food_supply",
+  "summary": "Observation of a laborer walking from the farm to the village to purchase food.",
+  "description": "This data unit records a labor activity in which a worker walks from MaMeeFarm to the nearby village to purchase food supplies. The round-trip walking distance is approximately 3 kilometers. No motorized transportation is available at this location.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiesrer43czfj4jdxssusydzu5ijqqfv4h2opjfxif4uixpifd32xu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
