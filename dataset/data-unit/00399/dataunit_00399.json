@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00399",
+  "file_path": "dataset/data-unit/00399/dataunit_00399.json",
+  "category": "environment-monitoring",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-18 23:00",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_house_temperature_humidity_final_record",
+  "summary": "Final temperature and humidity record of the day in the duck house.",
+  "description": "This data unit records the final temperature and humidity measurement of the day inside the duck house. The measurement was captured using a digital temperature and humidity device. This record closes the daily temperature observation cycle.",
+  "measurement": {
+    "temperature_celsius": 18.7,
+    "humidity_percent": 63,
+    "device_model": "HTC-1"
+  },
+  "reference_context": {
+    "morning_reference_data_unit_id": "00377",
+    "record_cycle": "final"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihz3vrkdsixo7bnnhmq5bph7afpcwv2sxyetjqvxpu5wc3i3mqlxy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
