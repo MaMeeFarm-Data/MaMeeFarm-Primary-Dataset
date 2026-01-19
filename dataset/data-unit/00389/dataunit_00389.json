@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00389",
+  "file_path": "dataset/data-unit/00389/dataunit_00389.json",
+  "category": "animal-activity",
+  "sub_category": "dog-indoor-activity",
+  "captured_at_local": "2026-01-18 17:00",
+  "timezone": "Asia/Bangkok",
+  "location": "Indoor area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_resting_and_playing_indoors",
+  "summary": "Photo record of dogs resting and playing inside the house.",
+  "description": "This data unit records dogs observed resting and playing inside the house at MaMeeFarm. The evidence is a photo captured during the recorded time.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaxy2i25m6usjajws2h25svvaykwvto2v4tyytklwxq7esiqlmcrm",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
