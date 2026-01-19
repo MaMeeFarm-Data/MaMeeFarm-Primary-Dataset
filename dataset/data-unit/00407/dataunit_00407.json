@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00407",
+  "file_path": "dataset/data-unit/00407/dataunit_00407.json",
+  "category": "environmental-observation",
+  "sub_category": "dew-formation",
+  "captured_at_local": "2026-01-19 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dew_on_rose_flower",
+  "summary": "Morning dew observed on rose flower.",
+  "description": "This data unit documents the presence of morning dew on a rose flower. The observation is recorded under natural morning conditions and references temperature and humidity measurements recorded earlier the same day.",
+  "reference_data_units": [
+    "00401"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifpkm32lyzxc7vicdki6vwehyl5vqn6noxxs2xmpyac3bt5cvrgka",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
