@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00391",
+  "file_path": "dataset/data-unit/00391/dataunit_00391.json",
+  "category": "animal-feeding",
+  "sub_category": "dog-feeding-evening",
+  "captured_at_local": "2026-01-18 17:20",
+  "timezone": "Asia/Bangkok",
+  "location": "Outdoor feeding area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_dog_feeding_kibble",
+  "summary": "Photo record of evening dog feeding.",
+  "description": "This data unit records the evening feeding of dogs at MaMeeFarm. Dogs are observed during food distribution. Feeding occurs twice per day, with the morning feeding referenced in data unit 00383.",
+  "reference_context": {
+    "morning_feeding_reference_data_unit_id": "00383",
+    "feeding_frequency_per_day": 2,
+    "feeding_phase": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihtdnch6xw55bxixaohn4iycpubgtg6ag5z7un2etm6eohv5vompa",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
