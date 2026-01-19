@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00409",
+  "file_path": "dataset/data-unit/00409/dataunit_00409.json",
+  "category": "agriculture-observation",
+  "sub_category": "banana-growth-stage",
+  "captured_at_local": "2026-01-19 08:21",
+  "timezone": "Asia/Bangkok",
+  "location": "Banana plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mature_banana_bunch_on_tree",
+  "summary": "Observation of a banana bunch at a mature stage on the tree.",
+  "description": "This data unit records a banana tree bearing a banana bunch observed at a mature stage. The banana plant was previously documented earlier in its growth cycle.",
+  "reference_context": {
+    "previous_related_data_unit_id": "00355"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif2fktvvxdss2zr6x325cr25selhea7dcpjkys5mmfhdeh7jehveq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
