@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00423",
+  "file_path": "dataset/data-unit/00423/dataunit_00423.json",
+  "category": "animal-care-feeding",
+  "sub_category": "puppy-weaning-feeding",
+  "captured_at_local": "2026-01-19 13:09",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential feeding area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "puppy_weaning_feeding_round_midday",
+  "summary": "Feeding puppies during early weaning stage.",
+  "description": "This data unit documents a feeding activity for puppies born around 9–10 December 2025. At the time of capture, the puppies are approximately 41 days old and are in the early weaning stage. Dry food was provided as an additional feeding round following a morning feeding session. No health assessment or behavioral interpretation is included.",
+  "reference_context": {
+    "related_feeding_data_unit_ids": [
+      "00402"
+    ],
+    "age_context_days": 41,
+    "time_relation": "same_day_additional_feeding"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieqlhtnwq5ypi2m62l2ofgfze73hzyrdyvufw5endaln2cnqcl2aa",
+    "note": "External reference provided for visual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
