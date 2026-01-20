@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00431",
+  "file_path": "dataset/data-unit/00431/dataunit_00431.json",
+  "category": "infrastructure-energy",
+  "sub_category": "power-system-operation",
+  "captured_at_local": "2026-01-19 23:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_power_system_inverter_shutdown",
+  "summary": "Farm power system inverter shutdown record.",
+  "description": "This data unit records the shutdown of the farm power system inverter at MaMeeFarm. The evidence is an image of the hybrid solar inverter after shutdown.",
+  "reference_context": {
+    "opening_time_reference_data_unit_id": "00405",
+    "operation_phase": "shutdown"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibevtvnurgu2erqs7l3fpi7o4b4huh6nz3gidhgysczamlqq5yrxa",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
