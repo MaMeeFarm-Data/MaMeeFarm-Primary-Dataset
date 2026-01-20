@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00424",
+  "file_path": "dataset/data-unit/00424/dataunit_00424.json",
+  "category": "water-system-operation",
+  "sub_category": "groundwater-pumping-interruption",
+  "captured_at_local": "2026-01-19 13:31",
+  "timezone": "Asia/Bangkok",
+  "location": "Groundwater well, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "groundwater_level_drop_pump_shutdown",
+  "summary": "Groundwater level drop causing pump shutdown.",
+  "description": "This data unit documents a reduction in groundwater level during pumping operations. The inflow rate was insufficient to maintain the operating water level, resulting in a pump shutdown. The pump operated for approximately 29 minutes before stopping. This event follows the pump deployment recorded earlier.",
+  "reference_context": {
+    "related_operation_data_unit_ids": [
+      "00418"
+    ],
+    "pump_runtime_minutes": 29,
+    "operation_status": "pump_stopped_due_to_low_water_level"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigguome3eqw4bn3ccjckyy4dpf2vufhtve6s45ojsy7sd5zlcwc24",
+    "note": "External reference provided for visual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
