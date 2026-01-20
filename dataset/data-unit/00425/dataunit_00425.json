@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00425",
+  "file_path": "dataset/data-unit/00425/dataunit_00425.json",
+  "category": "water-system-maintenance",
+  "sub_category": "pump_post_operation_handling",
+  "captured_at_local": "2026-01-19 13:33",
+  "timezone": "Asia/Bangkok",
+  "location": "Groundwater well area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_removed_after_operation",
+  "summary": "Water pump removed from well after use for equipment care.",
+  "description": "This data unit documents the removal of a submersible water pump from the groundwater well after pumping operations. The action was taken as part of routine post-use handling and equipment care following pump operation and shutdown.",
+  "reference_context": {
+    "related_operation_data_unit_ids": [
+      "00416",
+      "00417",
+      "00418",
+      "00419"
+    ],
+    "operation_stage": "post-operation equipment handling",
+    "pump_status": "removed_from_water"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiby2fspymn2abuwrcyjhxcilbi45x4wbltscekac46lz22e45clgm",
+    "note": "External reference provided for visual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
