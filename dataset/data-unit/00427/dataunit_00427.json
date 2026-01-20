@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00427",
+  "file_path": "dataset/data-unit/00427/dataunit_00427.json",
+  "category": "environmental-monitoring",
+  "sub_category": "duck_coop_temperature_record",
+  "captured_at_local": "2026-01-19 17:20",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck coop area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_evening_temperature_record",
+  "summary": "Evening temperature and humidity record inside the duck coop.",
+  "description": "This data unit records evening environmental conditions inside the duck coop using a digital thermometer-hygrometer. Values are captured directly from the device display without interpretation.",
+  "measured_values": {
+    "temperature_inside_celsius": 32.2,
+    "temperature_outside_celsius": 26.1,
+    "relative_humidity_percent": 42
+  },
+  "device": {
+    "type": "digital thermometer-hygrometer",
+    "model": "HTC-2"
+  },
+  "reference_context": {
+    "related_dataunits": [
+      "00408",
+      "00420"
+    ],
+    "measurement_period": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaabeyylq5fvt4zmmwycz7y6pwsvnab2untjviqd7hdkt7cpfz5ie",
+    "note": "External reference provided for independent visual verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
