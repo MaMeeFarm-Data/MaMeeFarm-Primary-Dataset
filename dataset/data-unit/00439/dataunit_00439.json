@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00439",
+  "file_path": "dataset/data-unit/00439/dataunit_00439.json",
+  "category": "environment",
+  "sub_category": "duck-coop-climate",
+  "captured_at_local": "2026-01-19 08:15",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck Coop, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_duck_coop_temperature_humidity",
+  "summary": "Morning temperature and humidity recorded inside duck coop.",
+  "description": "Image records temperature and humidity values displayed on a digital thermometer-hygrometer placed inside the duck coop.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidzccxmpxukjyibw67d6w2hzkeaiv6o6wy7emsgdscmx3dmlrbgdy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
