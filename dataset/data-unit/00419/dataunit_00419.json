@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00419",
+  "file_path": "dataset/data-unit/00419/dataunit_00419.json",
+  "category": "infrastructure-water",
+  "sub_category": "buffer-storage-and-distribution",
+  "captured_at_local": "2026-01-19 13:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "groundwater_buffer_tanks_for_farm_distribution",
+  "summary": "Intermediate water storage tanks used to buffer and distribute groundwater across farm zones.",
+  "description": "This data unit records the intermediate water buffering system at MaMeeFarm. Groundwater pumped from a soil well is first stored in two connected tanks, each with a capacity of 2,000 liters, totaling approximately 4,000 liters. The buffered water is then distributed to different areas, including the backyard garden and household water usage, allowing sediment to settle before use.",
+  "infrastructure_details": {
+    "source": "self-dug groundwater well",
+    "buffer_tank_count": 2,
+    "capacity_per_tank_liters": 2000,
+    "total_buffer_capacity_liters": 4000,
+    "tank_configuration": "connected",
+    "primary_functions": [
+      "sediment settling",
+      "water buffering",
+      "farm water distribution",
+      "household water supply"
+    ]
+  },
+  "references": {
+    "related_data_units": [
+      "00362",
+      "00368",
+      "00417"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib4ezvkutderbphlir5nqngprz5p7kt3hgkwivjmkz36ffcmcppc4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
