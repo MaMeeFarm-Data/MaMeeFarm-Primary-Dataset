@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00428",
+  "file_path": "dataset/data-unit/00428/dataunit_00428.json",
+  "category": "daily-life-operation",
+  "sub_category": "animal-care-laundry",
+  "captured_at_local": "2026-01-19 17:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "collecting_dog_bedding_after_morning_drying",
+  "summary": "Collecting dog bedding after being sun-dried earlier in the day.",
+  "description": "This data unit records the activity of collecting dog bedding after sun-drying in the morning. The image documents the bedding being removed from the drying area in the late afternoon.",
+  "reference_context": {
+    "related_proof": "509",
+    "operation_phase": "post-drying"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibcnbjvf2c4z2ryyt2xps3pgduk25l3vpnrmiafvgk47yu2wrvjdy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
