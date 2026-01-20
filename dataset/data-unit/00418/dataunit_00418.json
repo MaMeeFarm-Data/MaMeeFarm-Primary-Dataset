@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00418",
+  "file_path": "dataset/data-unit/00418/dataunit_00418.json",
+  "category": "infrastructure-water",
+  "sub_category": "groundwater-well",
+  "captured_at_local": "2026-01-19 13:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "self_dug_groundwater_well_with_submersible_pump",
+  "summary": "Self-dug groundwater well used as a primary water source.",
+  "description": "This data unit records a groundwater well manually dug at MaMeeFarm. The well has a depth of approximately 7 meters and has been in use for over seven years. The water source supports household and farm operations in a location without access to public electricity or municipal water supply at the time of construction.",
+  "infrastructure_details": {
+    "well_type": "groundwater",
+    "construction_method": "manual digging",
+    "depth_meters": 7,
+    "years_in_use_approx": 7,
+    "pump_type": "submersible pump",
+    "dependency_model": "self-reliant water system"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiazl3t74d6jtz6sjh2yro2vsguyiix3sq4pnxylxxfhdamaqowwaq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
