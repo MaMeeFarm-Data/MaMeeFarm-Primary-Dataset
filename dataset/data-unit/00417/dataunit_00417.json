@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00417",
+  "file_path": "dataset/data-unit/00417/dataunit_00417.json",
+  "category": "infrastructure-water",
+  "sub_category": "household-water-storage",
+  "captured_at_local": "2026-01-19 12:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "elevated_household_water_storage_tanks",
+  "summary": "Elevated household water storage tanks used for domestic reserve.",
+  "description": "This data unit records elevated water storage tanks at MaMeeFarm used for household water supply. The system consists of one blue tank with a capacity of 2000 liters and one additional tank with a capacity of 1000 liters, providing a total household reserve of 3000 liters.",
+  "infrastructure_details": {
+    "tank_configuration": [
+      {
+        "color": "blue",
+        "capacity_liters": 2000
+      },
+      {
+        "color": "non-specified",
+        "capacity_liters": 1000
+      }
+    ],
+    "total_capacity_liters": 3000,
+    "usage": "household water reserve",
+    "installation_type": "elevated platform"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifhud6su4f73dqcj4xlsdsjkrff5k5fmg7ajactxdtdoxmr2qreki",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
