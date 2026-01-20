@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00449",
+  "file_path": "dataset/data-unit/00449/dataunit_00449.json",
+  "category": "water-management",
+  "sub_category": "pump-operation",
+  "captured_at_local": "2026-01-20 11:41",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Tank Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "labor_preparing_water_pump_direct_dc_load",
+  "summary": "Labor preparing water pump operation during high solar availability period.",
+  "description": "Image records labor preparing a water pump connected to a hybrid inverter system during a high solar generation window.",
+  "reference_context": {
+    "related_data_units": ["00446"],
+    "energy_window": "11:00-14:00",
+    "energy_source": [
+      "hybrid inverter",
+      "solar panels"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiedqrsaoozius37vmsafxykapcn5osl6yb7c4gfmdgxsynimt7w54",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
