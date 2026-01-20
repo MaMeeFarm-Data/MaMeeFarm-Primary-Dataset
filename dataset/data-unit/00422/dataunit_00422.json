@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00422",
+  "file_path": "dataset/data-unit/00422/dataunit_00422.json",
+  "category": "agriculture-crop-condition",
+  "sub_category": "daytime-heat-stress-visual",
+  "captured_at_local": "2026-01-19 13:06",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "daytime_wilted_vegetables_under_heat",
+  "summary": "Visual record of vegetable condition during daytime heat.",
+  "description": "This data unit documents the visible condition of vegetable crops during midday. The plants appear wilted at the time of capture. This record provides visual context associated with daytime temperature and solar conditions recorded earlier. No measurement or causal interpretation is included in this unit.",
+  "reference_context": {
+    "related_temperature_data_unit_ids": [
+      "00420",
+      "00421"
+    ],
+    "time_relation": "same_day_midday"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiditmqymxc6qkapzhflzthyhgxovjzo56z2mcdlz2hz3vzlb4mvbu",
+    "note": "External reference provided for visual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
