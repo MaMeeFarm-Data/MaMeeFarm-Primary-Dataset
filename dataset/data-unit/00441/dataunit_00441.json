@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00441",
+  "file_path": "dataset/data-unit/00441/dataunit_00441.json",
+  "category": "crop-observation",
+  "sub_category": "leaf-condition",
+  "captured_at_local": "2026-01-20 08:22",
+  "timezone": "Asia/Bangkok",
+  "location": "Pumpkin Plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pumpkin_leaf_condition_insect_damage",
+  "summary": "Pumpkin leaf condition observed in the field.",
+  "description": "Image records pumpkin leaves with visible surface damage. The observation is documented without chemical intervention at the site.",
+  "reference_context": {
+    "related_data_units": ["00265", "00291"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifabj3k2qgcay6wp57qeq3x3m4du3w3syscydeizcto45zwwwy3re",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
