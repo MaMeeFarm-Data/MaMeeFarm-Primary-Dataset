@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00432",
+  "file_path": "dataset/data-unit/00432/dataunit_00432.json",
+  "category": "environment-monitoring",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-20 06:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_record",
+  "summary": "Morning temperature and humidity record.",
+  "description": "Image shows a digital temperature and humidity display indicating a temperature of 14.7 degrees Celsius and a relative humidity of 69 percent during the morning.",
+  "reference_context": {
+    "related_data_units": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiambvqszsd2k3dhikxwb3zlc2wcop4g563j6oaiotqvowy5titsou",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
