@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00416",
+  "file_path": "dataset/data-unit/00416/dataunit_00416.json",
+  "category": "infrastructure-water",
+  "sub_category": "water-pumping-operation",
+  "captured_at_local": "2026-01-19 12:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_water_pump_preparation_solar_direct_power",
+  "summary": "Preparation of water pumping system for farm use during direct solar power availability.",
+  "description": "This data unit records the preparation of a water pumping system at MaMeeFarm. The operation is conducted during the period of strong direct solar power availability from approximately 11:00 to 14:00, requiring water tank refilling. The activity is linked to inverter operation records where power availability is not continuous for 24 hours.",
+  "reference_context": {
+    "related_data_unit_ids": [
+      "00400",
+      "00405"
+    ],
+    "power_source": "direct solar",
+    "operation_window": "11:00-14:00"
+  },
+  "infrastructure_details": {
+    "system_type": "water pump",
+    "energy_source": "solar",
+    "storage": "water tanks",
+    "operation_mode": "manual preparation"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicsugn7sdi3h4rayvkvc7s56kmowesedo34wvwijctpcqu3zfq36a",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
