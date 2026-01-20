@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00444",
+  "file_path": "dataset/data-unit/00444/dataunit_00444.json",
+  "category": "crop-observation",
+  "sub_category": "banana-plant",
+  "captured_at_local": "2026-01-20 08:27",
+  "timezone": "Asia/Bangkok",
+  "location": "Field Edge, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_plant_marked_for_next_cut",
+  "summary": "Banana plant recorded prior to cutting sequence.",
+  "description": "Image records a banana plant identified as the next plant to be cut after completion of the previous harvest sequence. Reference includes prior banana harvest proof and related data unit.",
+  "reference_context": {
+    "related_proofs": ["0512"],
+    "related_data_units": ["00414"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieuei2fmdmg32xcjrtmmaznzxmkmsof4mbu5yy37irccsoa3s6rdq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
