@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00426",
+  "file_path": "dataset/data-unit/00426/dataunit_00426.json",
+  "category": "agricultural-labor",
+  "sub_category": "evening_planting_and_watering",
+  "captured_at_local": "2026-01-19 16:31",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_vegetable_planting_and_watering",
+  "summary": "Evening farm labor involving vegetable planting and watering.",
+  "description": "This data unit documents farm labor activities in the late afternoon, including vegetable planting and watering. The activity took place in the garden area during cooler evening conditions following daytime heat.",
+  "reference_context": {
+    "related_proof_id": "510",
+    "activity_period": "evening",
+    "operation_type": "manual agricultural labor"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieswca6pdwlqzazjonwefr2ssoz3ouf4flbrlxinckvesiufwaz3y",
+    "note": "External reference provided for visual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
