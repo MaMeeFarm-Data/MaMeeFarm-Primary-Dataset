@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00440",
+  "file_path": "dataset/data-unit/00440/dataunit_00440.json",
+  "category": "crop-observation",
+  "sub_category": "morning-vegetable-condition",
+  "captured_at_local": "2026-01-20 08:15",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable Plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_vegetable_condition_with_moisture",
+  "summary": "Morning observation of vegetables with visible moisture.",
+  "description": "Image records vegetable plants in the morning with visible moisture on leaves. This data unit is referenced to environmental humidity conditions recorded earlier in the duck coop.",
+  "reference_context": {
+    "related_data_units": ["00439"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibintv6v7v4jr52pc7ofy5pwfk3dmoeobsea26qzq52y6gg3whahi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
