@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00435",
+  "file_path": "dataset/data-unit/00435/dataunit_00435.json",
+  "category": "food-consumption",
+  "sub_category": "fruit",
+  "captured_at_local": "2026-01-20 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "ripe_bananas_for_consumption",
+  "summary": "Ripe bananas recorded.",
+  "description": "Image shows ripe bananas available for consumption.",
+  "reference_context": {
+    "related_data_units": ["00104"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieqhepyv36igh3rrtfr5b6qgewpm4nf5ycorocn2iu77huiiini7e",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
