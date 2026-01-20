@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00421",
+  "file_path": "dataset/data-unit/00421/dataunit_00421.json",
+  "category": "environmental-context",
+  "sub_category": "daytime-solar-condition",
+  "captured_at_local": "2026-01-19 13:06",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_strong_sunlight_farm_context",
+  "summary": "Midday farm environment under strong sunlight conditions.",
+  "description": "This data unit documents the daytime environmental context at MaMeeFarm during midday under strong sunlight conditions. The record provides visual context corresponding to the temperature and humidity measurement recorded earlier in the duck house (data unit 00420). No numerical measurement is taken in this unit.",
+  "reference_context": {
+    "related_temperature_data_unit_id": "00420",
+    "time_relation": "same_day_midday"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigili4v4jegx5lx3fdih2z2xqnofqv3ysao5e5y2gyujceuhunilu",
+    "note": "External reference provided for visual verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
