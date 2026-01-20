@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00450",
+  "file_path": "dataset/data-unit/00450/dataunit_00450.json",
+  "category": "water-management",
+  "sub_category": "water-storage-filling",
+  "captured_at_local": "2026-01-20 11:43",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Tank Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pumping_into_dual_storage_tanks",
+  "summary": "Water pumping into two connected storage tanks.",
+  "description": "Image records water being pumped into two connected water storage tanks used in farm operations.",
+  "reference_context": {
+    "tank_count": 2,
+    "tank_capacity_liters_each": 2000,
+    "total_connected_capacity_liters": 4000,
+    "related_data_units": ["00449"],
+    "related_proofs": ["518"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia34wylg76ebizyp64kplwyxzcskauassrne5lvrpe66yjader5by",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
