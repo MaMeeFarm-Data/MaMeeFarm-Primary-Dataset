@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00447",
+  "file_path": "dataset/data-unit/00447/dataunit_00447.json",
+  "category": "animal-care",
+  "sub_category": "dog-water-access",
+  "captured_at_local": "2026-01-20 09:32",
+  "timezone": "Asia/Bangkok",
+  "location": "Dog Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_waiting_for_water",
+  "summary": "Dogs observed waiting near water container.",
+  "description": "Image records dogs standing near a water container after water access was opened.",
+  "reference_context": {
+    "related_data_units": ["00434"],
+    "related_proofs": ["514", "515"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieg52yfrmlscug43yytfwvjqacqqn45emivc33ewcej53qzctr3gu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
