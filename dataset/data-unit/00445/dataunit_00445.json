@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00445",
+  "file_path": "dataset/data-unit/00445/dataunit_00445.json",
+  "category": "environment-observation",
+  "sub_category": "sunlight-condition",
+  "captured_at_local": "2026-01-20 08:35",
+  "timezone": "Asia/Bangkok",
+  "location": "Open Field Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "full_morning_sunlight_over_field",
+  "summary": "Sunlight observed over open agricultural field.",
+  "description": "Image records sunlight conditions over an open field area during the morning period.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia6ofeebgy7ohrlgblxzl6xwfetzwatu7ggdbc3rsec4ufduepv4u",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
