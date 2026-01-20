@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00420",
+  "file_path": "dataset/data-unit/00420/dataunit_00420.json",
+  "category": "environmental-monitoring",
+  "sub_category": "duck-house-temperature-humidity",
+  "captured_at_local": "2026-01-19 13:05",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_house_temperature_humidity_record_round_2",
+  "summary": "Second temperature and humidity record inside the duck house for the day.",
+  "description": "This data unit records the second temperature and humidity measurement inside the duck house at MaMeeFarm for the same day. The measurement is captured using a digital thermometer-hygrometer device and is referenced to the first measurement of the day (data unit 00408) to support intra-day environmental tracking.",
+  "measurement": {
+    "device_model": "HTC-2",
+    "temperature_inside_celsius": 33.9,
+    "temperature_outside_celsius": 30.8,
+    "relative_humidity_percent": 32
+  },
+  "reference_context": {
+    "daily_sequence": "round_2",
+    "previous_measurement_data_unit_id": "00408"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiatiyrikynr5f5mw7cu3byj2n6iheoiulztfhu6l2ys6bhcln2sr4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
