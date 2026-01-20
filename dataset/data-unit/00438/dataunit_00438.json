@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00438",
+  "file_path": "dataset/data-unit/00438/dataunit_00438.json",
+  "category": "environment",
+  "sub_category": "farm-infrastructure",
+  "captured_at_local": "2026-01-20 08:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "backyard_garden_zone_gate",
+  "summary": "Backyard garden zone gate recorded.",
+  "description": "Image records the gate area of the backyard garden zone.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiahsoixv5v4mks6x2kvg3kczlh7a2ex67cy5knegxkiaar6y26mai",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
