@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00442",
+  "file_path": "dataset/data-unit/00442/dataunit_00442.json",
+  "category": "water-flow",
+  "sub_category": "external-water-inflow",
+  "captured_at_local": "2026-01-20 08:23",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm Canal Boundary, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "external_water_flow_into_farm_canal",
+  "summary": "Water observed flowing into the farm canal.",
+  "description": "Image records water flowing from an adjacent cornfield area into the canal within the farm boundary.",
+  "reference_context": {
+    "related_data_units": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeielttljvxxxl6zsl4rxiy5z45j3eobkrvsro5etvblrpg2ibj3zge",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
