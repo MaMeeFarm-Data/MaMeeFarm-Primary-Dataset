@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00437",
+  "file_path": "dataset/data-unit/00437/dataunit_00437.json",
+  "category": "environment",
+  "sub_category": "plant-morning-dew",
+  "captured_at_local": "2026-01-20 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dew_on_rose_flower",
+  "summary": "Morning dew recorded on a rose flower.",
+  "description": "Image records morning dew present on a rose flower.",
+  "reference_context": {
+    "related_data_units": ["00432"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid772lfwzsbie4yc6mbfib2fakxudl5k76s6cujv6zo23l2hzzcwq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
