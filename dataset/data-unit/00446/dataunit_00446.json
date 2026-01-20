@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00446",
+  "file_path": "dataset/data-unit/00446/dataunit_00446.json",
+  "category": "energy-system",
+  "sub_category": "inverter-operation",
+  "captured_at_local": "2026-01-20 08:36",
+  "timezone": "Asia/Bangkok",
+  "location": "Residential Power System, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "inverter_power_on_event",
+  "summary": "Inverter power system observed in operating state.",
+  "description": "Image records the inverter unit during a power-on event of the household electrical system.",
+  "reference_context": {
+    "related_data_units": ["00431"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiat6voplr4ttm7itm76t4p3jc22p3njx7mrzzu3egig5okcrprwme",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
