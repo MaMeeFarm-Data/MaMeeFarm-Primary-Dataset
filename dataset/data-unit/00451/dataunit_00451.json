@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00451",
+  "file_path": "dataset/data-unit/00451/dataunit_00451.json",
+  "category": "crop-management",
+  "sub_category": "tree-pruning",
+  "captured_at_local": "2026-01-20 11:47",
+  "timezone": "Asia/Bangkok",
+  "location": "Backyard Garden Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "avocado_tree_top_pruning",
+  "summary": "Pruning the top of an avocado tree to control height.",
+  "description": "Image records pruning of the top shoot of an avocado tree to prevent excessive height growth.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia7nazbhitwtlhhmppa752k2vakehqnhi27d5fsifnp6mpsdwaoha",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
