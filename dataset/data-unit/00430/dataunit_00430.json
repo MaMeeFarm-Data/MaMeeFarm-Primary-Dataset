@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00430",
+  "file_path": "dataset/data-unit/00430/dataunit_00430.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-19 23:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "late_night_temperature_humidity_record",
+  "summary": "Late night temperature and humidity record.",
+  "description": "This data unit records late night temperature and humidity conditions as displayed on a digital thermometer-hygrometer.",
+  "measurement": {
+    "temperature_celsius": 18.1,
+    "relative_humidity_percent": 64
+  },
+  "reference_context": {
+    "morning_reference_data_unit_id": "00401"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif5p7ajb2plrqahfpgx2xcxqiqgaxv2zat54xlhtly7hngzhtpjb4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
