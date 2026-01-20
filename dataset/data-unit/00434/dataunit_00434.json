@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00434",
+  "file_path": "dataset/data-unit/00434/dataunit_00434.json",
+  "category": "animal-care",
+  "sub_category": "dog-feeding",
+  "captured_at_local": "2026-01-20 07:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_feeding_round_1",
+  "summary": "Morning dog feeding round recorded.",
+  "description": "Image shows dry dog food prepared in a container and provided to multiple dogs during the morning feeding round.",
+  "reference_context": {
+    "related_data_units": ["00429"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigxledbs44yov5ligrgcw6c2xc4ndbqpsvx7be2hk2rtkrkyzvqe4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
