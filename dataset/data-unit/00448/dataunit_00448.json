@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00448",
+  "file_path": "dataset/data-unit/00448/dataunit_00448.json",
+  "category": "plant-management",
+  "sub_category": "banana-inflorescence-record",
+  "captured_at_local": "2026-01-20 11:38",
+  "timezone": "Asia/Bangkok",
+  "location": "Banana Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_tree_event_label_ban_0001",
+  "summary": "Label attached to banana tree documenting inflorescence cut event.",
+  "description": "Image records a physical label attached to a banana tree noting an inflorescence cut event.",
+  "reference_context": {
+    "event_id": "BAN-0001",
+    "event_type": "inflorescence cut",
+    "event_date": "2026-01-16",
+    "related_proofs": ["498"],
+    "related_data_units": ["00332"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigq64f6kuw7jxuijuvlea7cbqnb6ed6vcpop2aqwjlfhyvsmf3vku",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
