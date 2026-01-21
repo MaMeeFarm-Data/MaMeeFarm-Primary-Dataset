@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00470",
+  "file_path": "dataset/data-unit/00470/dataunit_00470.json",
+  "category": "labor-activity",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-20 17:09",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_manual_watering_vegetables",
+  "summary": "Manual watering of vegetable plot during evening period.",
+  "description": "Labor activity documenting manual watering of vegetables using stored water from tank. Water source previously filled and stabilized earlier in the day.",
+  "water_source_context": {
+    "source": "water storage tank",
+    "related_data_units": ["00462", "00464"]
+  },
+  "labor_context": {
+    "labor_type": "manual",
+    "activity": "watering vegetables",
+    "time_period": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiazy2gqfg5cq6dxjb3nu5gejwakhttjn5hnqnlj4z36ve25lfqyca",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
