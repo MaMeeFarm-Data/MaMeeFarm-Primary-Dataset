@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00473",
+  "file_path": "dataset/data-unit/00473/dataunit_00473.json",
+  "category": "farm-operation",
+  "sub_category": "gate-closing",
+  "captured_at_local": "2026-01-20 18:25",
+  "timezone": "Asia/Bangkok",
+  "location": "Garden entrance gate, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "garden_gate_closed_after_work",
+  "summary": "Garden gate closed after completing garden work.",
+  "description": "Image documents the garden gate being closed after completion of garden work activities. This action references the gate opening activity recorded earlier in the day.",
+  "activity_reference": [
+    "dataunit_00438"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibsyhwfzmqx42zf3uezkkdobfe4l5mpbvptrptcx4dr3rdkry7tny",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
