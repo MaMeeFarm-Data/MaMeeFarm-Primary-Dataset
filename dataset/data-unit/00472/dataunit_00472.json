@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00472",
+  "file_path": "dataset/data-unit/00472/dataunit_00472.json",
+  "category": "agricultural-activity",
+  "sub_category": "vegetable-garden-watering",
+  "captured_at_local": "2026-01-20 18:24",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable garden zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "vegetable_garden_after_watering",
+  "summary": "Vegetable garden after watering completed.",
+  "description": "Image documents the vegetable garden area after watering activity was completed. Soil and plant beds appear watered. This activity references the start of watering recorded earlier.",
+  "activity_reference": [
+    "dataunit_00470"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid4u6s3ydixfn5oiupzyz5tp2syye6w6mn4ynjdieb2qrc644u2gu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
