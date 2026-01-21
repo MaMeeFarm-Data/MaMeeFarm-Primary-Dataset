@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00459",
+  "file_path": "dataset/data-unit/00459/dataunit_00459.json",
+  "category": "water-resource-observation",
+  "sub_category": "groundwater-level",
+  "captured_at_local": "2026-01-20 12:28",
+  "timezone": "Asia/Bangkok",
+  "location": "Groundwater well, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "groundwater_level_during_active_pumping",
+  "summary": "Groundwater level observed during water pumping.",
+  "description": "Image shows groundwater level inside the well while water pumping is ongoing.",
+  "reference_context": {
+    "related_proofs": ["518"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidudjhu34fl2tfbj3sqviw3ym7wyxm7ctmmia23pdghpiqcymueva",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
