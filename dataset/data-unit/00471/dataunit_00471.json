@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00471",
+  "file_path": "dataset/data-unit/00471/dataunit_00471.json",
+  "category": "environment-observation",
+  "sub_category": "farm-front-area",
+  "captured_at_local": "2026-01-20 17:29",
+  "timezone": "Asia/Bangkok",
+  "location": "Front yard zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "front_farm_zone_grass_growth",
+  "summary": "Front farm area showing grass growth along fence side.",
+  "description": "Image documents front yard zone of the farm. Grass is observed growing tall along the side fence area.",
+  "environment_context": {
+    "area": "front yard",
+    "vegetation": "grass",
+    "condition": "grown"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeick7eiytn2caqzp6mbbeusggfy27jcwqhswmwtuivtwdz4nsvzkj4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
