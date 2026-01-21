@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00488",
+  "file_path": "dataset/data-unit/00488/dataunit_00488.json",
+  "category": "environment-observation",
+  "sub_category": "farm-area-check",
+  "captured_at_local": "2026-01-21 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "Rear area of MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rear_farm_area_observation",
+  "summary": "Observation of rear farm area conditions.",
+  "description": "Image shows the rear area of the farm during a morning observation round.",
+  "reference_context": {
+    "related_data_units": ["00484"],
+    "related_proofs": ["520"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib2wfdu472dckkqfaiwaw2jvknm7cbui6yai6ymjxhal3dcxrerfm",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
