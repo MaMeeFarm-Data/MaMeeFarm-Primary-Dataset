@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00484",
+  "file_path": "dataset/data-unit/00484/dataunit_00484.json",
+  "category": "labor-preparation",
+  "sub_category": "vegetation-management",
+  "captured_at_local": "2026-01-21 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "Rear area of farm, near irrigation canal, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutter_positioned_for_operation",
+  "summary": "Grass cutting machine positioned at rear of farm in preparation for vegetation clearing.",
+  "description": "Image shows a portable grass cutting machine placed on the ground at the rear area of the farm near an irrigation canal, indicating preparation for grass cutting activity.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihx6kgu4zpvpjjqnwj2svtwesxdalj74anxlm2vrlnuyyybd7l4pi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
