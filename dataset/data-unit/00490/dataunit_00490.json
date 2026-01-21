@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00490",
+  "file_path": "dataset/data-unit/00490/dataunit_00490.json",
+  "category": "land-maintenance",
+  "sub_category": "grass-cutting-near-water",
+  "captured_at_local": "2026-01-21 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "Public water source near MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "grass_cutting_reaching_public_water_source",
+  "summary": "Grass cutting activity reaching a public water source.",
+  "description": "Image shows a cleaned area with reduced grass near a public water source after grass cutting activity.",
+  "reference_context": {
+    "related_proofs": ["521"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibph3zwhpjkalcko645i3xyug5kr6xdlxhyy2relh7mdhvypcbaza",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
