@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00461",
+  "file_path": "dataset/data-unit/00461/dataunit_00461.json",
+  "category": "water-system-operation",
+  "sub_category": "water-tank-filling",
+  "captured_at_local": "2026-01-20 12:55",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable zone water tanks, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "vegetable_zone_water_tanks_filling",
+  "summary": "Water tanks in vegetable zone during water filling.",
+  "description": "Image shows water tanks in the vegetable cultivation zone with water being filled using another pump in the farm.",
+  "reference_context": {
+    "related_data_units": ["00453"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib4wbzer5i2a5wjxap6qe73l4ldrkr7uyeom2bjbbrqrob4hkdjai",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
