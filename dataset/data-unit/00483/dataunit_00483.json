@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00483",
+  "file_path": "dataset/data-unit/00483/dataunit_00483.json",
+  "category": "environment-monitoring",
+  "sub_category": "duck-house-temperature-humidity",
+  "captured_at_local": "2026-01-21 07:47",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_duck_house_temperature_humidity_record",
+  "summary": "Morning temperature and humidity record inside duck house.",
+  "description": "Image shows digital thermometer-hygrometer placed inside the duck house recording morning environmental conditions.",
+  "measurement": {
+    "temperature_celsius": 13.4,
+    "humidity_percent": 84
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig7so3y6hqxxr74xobesrxc5tvvgp4zg62icvfdghyuisec7tppma",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
