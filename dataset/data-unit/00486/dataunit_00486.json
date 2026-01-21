@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00486",
+  "file_path": "dataset/data-unit/00486/dataunit_00486.json",
+  "category": "environment-observation",
+  "sub_category": "farm-landscape-view",
+  "captured_at_local": "2026-01-21 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "Rear view area of MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rear_farm_view_with_house_garden_and_banana_trees",
+  "summary": "Rear farm landscape view including visible house, garden area, and banana trees.",
+  "description": "Image shows a rear view of the farm landscape with visible residential structure, garden area, and banana trees within the surrounding farmland.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig6tawjcyzzyvdgaasyz6rjewd4fdo3kg37wuapam4m5fnuwuyndq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
