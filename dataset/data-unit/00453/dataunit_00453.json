@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00453",
+  "file_path": "dataset/data-unit/00453/dataunit_00453.json",
+  "category": "water-system-operation",
+  "sub_category": "water-pumping",
+  "captured_at_local": "2026-01-20 12:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "old_water_pump_used_for_vegetable_zone",
+  "summary": "Use of an existing water pump to supply water to the vegetable plot zone.",
+  "description": "Image shows an older water pump unit installed above a water tank and operating to send water toward the vegetable growing area.",
+  "reference_context": {
+    "related_proof": ["516"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie3oz3bazzq4k2wf7hsgw4nd6apfarpvluzk6uh6v5spmjcrjuycu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
