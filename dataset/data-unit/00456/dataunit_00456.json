@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00456",
+  "file_path": "dataset/data-unit/00456/dataunit_00456.json",
+  "category": "infrastructure-energy",
+  "sub_category": "water-pump-power-connection",
+  "captured_at_local": "2026-01-20 12:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_power_plug_connection",
+  "summary": "Power plug connection for water pump observed.",
+  "description": "Image shows electrical plug and wiring used to supply power to water pump equipment during daytime operation.",
+  "reference_context": {
+    "related_data_units": ["00446", "00455"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifgdz7wvgtkanyir7qvdn32glezm6wrzly2t2yoyvchieugfn3ygu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
