@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00480",
+  "file_path": "dataset/data-unit/00480/dataunit_00480.json",
+  "category": "labor",
+  "sub_category": "plant-pruning",
+  "captured_at_local": "2026-01-21 07:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "rose_branch_pruning_activity",
+  "summary": "Rose plant pruning activity recorded.",
+  "description": "Image shows a person pruning branches of a rose plant in the farm area.",
+  "reference_context": {
+    "related_data_units": ["00406"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih2iaqpkqb6jcwmvqzvnnvtptv2joterfsdndji5rdv5pylkx3rou",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
