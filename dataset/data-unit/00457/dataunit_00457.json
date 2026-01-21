@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00457",
+  "file_path": "dataset/data-unit/00457/dataunit_00457.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-20 12:24",
+  "timezone": "Asia/Bangkok",
+  "location": "Animal shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_shelter_temperature_humidity",
+  "summary": "Temperature and humidity reading recorded during daytime.",
+  "description": "Image shows a digital thermometer-hygrometer displaying indoor temperature and relative humidity inside the animal shelter.",
+  "measurement": {
+    "temperature_celsius": {
+      "indoor": 33.3,
+      "outdoor": 29.3
+    },
+    "relative_humidity_percent": 43
+  },
+  "reference_context": {
+    "related_data_units": ["00439"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihzggvyrgcw7v3bxttxmxmlm4rkaq25tnhogf7rvspl667wjsltaa",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
