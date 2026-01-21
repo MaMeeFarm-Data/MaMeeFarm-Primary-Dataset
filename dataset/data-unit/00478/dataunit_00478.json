@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00478",
+  "file_path": "dataset/data-unit/00478/dataunit_00478.json",
+  "category": "environmental-observation",
+  "sub_category": "farm-morning-atmosphere",
+  "captured_at_local": "2026-01-21 06:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_farm_atmosphere_view",
+  "summary": "Morning farm environment observed.",
+  "description": "Image captures the farm environment in the early morning. Vegetation, surrounding fields, and distant landscape are visible under low light conditions.",
+  "reference_context": {
+    "related_data_units": ["00477"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigt3ef6ev5vqi67p34xn6ytkf3qjzeswnfj323kane2cuylg7ure4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
