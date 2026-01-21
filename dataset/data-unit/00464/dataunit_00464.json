@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00464",
+  "file_path": "dataset/data-unit/00464/dataunit_00464.json",
+  "category": "water-management",
+  "sub_category": "gravity-water-flow",
+  "captured_at_local": "2026-01-20 16:02",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable zone water basin, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_basin_full_after_pump_off",
+  "summary": "Water basin observed full after pump was switched off.",
+  "description": "Image shows water basin filled by water flowing naturally through hose after pump was turned off.",
+  "reference_context": {
+    "related_data_units": ["00450", "00463"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifnijlwsyen2igd2swzty26g5kn6ben4h73eohdxxhywmcqfqypwq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
