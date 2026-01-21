@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00460",
+  "file_path": "dataset/data-unit/00460/dataunit_00460.json",
+  "category": "water-system-operation",
+  "sub_category": "pump-removal",
+  "captured_at_local": "2026-01-20 12:28",
+  "timezone": "Asia/Bangkok",
+  "location": "Groundwater well, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_removed_from_well",
+  "summary": "Water pump being pulled up from the well.",
+  "description": "Image shows a water pump being pulled up from the groundwater well after pumping was stopped.",
+  "reference_context": {
+    "related_data_units": ["00459"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihoffutz7h4wetpjh6zssrxin2wt5weqyuixiso3s5w4mvp22rtbq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
