@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00492",
+  "file_path": "dataset/data-unit/00492/dataunit_00492.json",
+  "category": "infrastructure",
+  "sub_category": "wooden_bridge",
+  "captured_at_local": "2026-01-21 08:15",
+  "timezone": "Asia/Bangkok",
+  "location": "Rear area of MaMeeFarm near public water channel, Thailand",
+  "data_type": "image",
+  "title": "old_wooden_bridge_rear_farm",
+  "summary": "Old wooden bridge located at the rear area of the farm.",
+  "description": "Image shows an old wooden bridge crossing a water channel at the rear area of the farm.",
+  "reference_context": {
+    "related_data_units": ["00491"],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib56ke7usfnfjvlxrhr24gsy3vdfpktwixw3frcobgste3byu4ofu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
