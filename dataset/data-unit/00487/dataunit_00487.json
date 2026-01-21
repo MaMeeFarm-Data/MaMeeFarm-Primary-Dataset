@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00487",
+  "file_path": "dataset/data-unit/00487/dataunit_00487.json",
+  "category": "environment-observation",
+  "sub_category": "public-water-infrastructure",
+  "captured_at_local": "2026-01-21 08:02",
+  "timezone": "Asia/Bangkok",
+  "location": "Public weir near MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "public_water_weir_near_farm",
+  "summary": "Public water weir structure located near the farm area.",
+  "description": "Image shows a public water weir with flowing water and surrounding vegetation near the farm area.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieo77rsl5djp7ygjdclxpi3f2do7avsjqg35kjb2jrwiigbj2lrju",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
