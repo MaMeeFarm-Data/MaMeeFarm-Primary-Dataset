@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00474",
+  "file_path": "dataset/data-unit/00474/dataunit_00474.json",
+  "category": "animal-care",
+  "sub_category": "dog-resting",
+  "captured_at_local": "2026-01-20 23:31",
+  "timezone": "Asia/Bangkok",
+  "location": "Dog resting area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_resting_on_bedding_at_night",
+  "summary": "Dogs resting together on bedding during nighttime.",
+  "description": "Image shows multiple dogs resting together on shared bedding inside the farm area during nighttime. The bedding used is part of the farm’s available resources.",
+  "activity_reference": [
+    "proof_515",
+    "dataunit_00468"
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibekv63d3g6s2dsw3cvxsf4uytlrlfqqo6vakji22dauokd25dy3i",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
