@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00452",
+  "file_path": "dataset/data-unit/00452/dataunit_00452.json",
+  "category": "land-preparation",
+  "sub_category": "area-clearing",
+  "captured_at_local": "2026-01-20 11:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "labor_area_clearing_for_vegetable_plot",
+  "summary": "Labor clearing an area in preparation for planting vegetables.",
+  "description": "Image shows a worker using a hand tool to clear vegetation in a designated area to prepare for vegetable planting.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiboiijgj6c3qmatyjwht25ajtf64t5ewoncbyl3yrp4gfjwcvm7rq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
