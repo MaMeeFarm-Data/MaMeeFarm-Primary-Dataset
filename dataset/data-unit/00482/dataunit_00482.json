@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00482",
+  "file_path": "dataset/data-unit/00482/dataunit_00482.json",
+  "category": "animal-care",
+  "sub_category": "bedding-maintenance",
+  "captured_at_local": "2026-01-21 07:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_bedding_sun_drying_morning",
+  "summary": "Dog bedding sheet hung for sun drying in the morning.",
+  "description": "Image shows dog bedding sheet being hung outdoors for drying as part of routine morning farm activity.",
+  "reference_context": {
+    "related_proofs": ["515"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigt732qsr4xamjmz4nqvwjhwncodiqmoizx5alhvrucc5wzdanc4y",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
