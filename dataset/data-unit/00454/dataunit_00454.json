@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00454",
+  "file_path": "dataset/data-unit/00454/dataunit_00454.json",
+  "category": "water-system-operation",
+  "sub_category": "water-storage-filling",
+  "captured_at_local": "2026-01-20 12:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "filling_200_liter_water_barrel",
+  "summary": "Water being filled into a 200-liter barrel.",
+  "description": "Image shows water flowing from a hose into a 200-liter blue plastic barrel. The operation references the active water pump system.",
+  "reference_context": {
+    "related_dataunit": ["00453"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigfcpkt23mcetcprcepe3gog3ogrboom4srnu4ku53gotxeymywju",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
