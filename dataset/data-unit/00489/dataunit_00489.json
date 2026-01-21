@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00489",
+  "file_path": "dataset/data-unit/00489/dataunit_00489.json",
+  "category": "environment-observation",
+  "sub_category": "public-water-access-area",
+  "captured_at_local": "2026-01-21 08:11",
+  "timezone": "Asia/Bangkok",
+  "location": "Public water access area near MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "overgrown_grass_public_water_access",
+  "summary": "Observation of overgrown grass near public water access.",
+  "description": "Image shows an area with dense grass and vegetation near a public water access point.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiax7w5q7riipxpldoukc4qf2mi7sk2nrss3d4cba3ai7obrn4wrdi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
