@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00475",
+  "file_path": "dataset/data-unit/00475/dataunit_00475.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-20 23:48",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "final_night_temperature_humidity_record",
+  "summary": "Final temperature and humidity reading of the day.",
+  "description": "Image shows a digital thermometer and humidity meter displaying temperature and humidity values recorded at night as the final measurement of the day.",
+  "reference_context": {
+    "related_data_units": ["00432"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdsg27eomqw4mjtbs2q4ugk3tg6i2fxf6or2ddsttlob2ducbtfy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
