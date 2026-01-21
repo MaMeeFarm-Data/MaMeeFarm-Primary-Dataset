@@ -1,0 +1,22 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00455",
+  "file_path": "dataset/data-unit/00455/dataunit_00455.json",
+  "category": "environment-observation",
+  "sub_category": "daylight-condition",
+  "captured_at_local": "2026-01-20 12:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "clear_sky_strong_sunlight",
+  "summary": "Clear sky condition observed during daytime.",
+  "description": "Image shows clear blue sky with strong sunlight conditions over vegetation and surrounding landscape.",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihrkwmxkoy5svfnp675dndciucxahaugoal26fxq7bddonspzcbpu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
