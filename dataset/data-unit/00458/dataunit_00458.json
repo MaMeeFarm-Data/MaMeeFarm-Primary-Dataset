@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00458",
+  "file_path": "dataset/data-unit/00458/dataunit_00458.json",
+  "category": "crop-observation",
+  "sub_category": "vegetable-bed-condition",
+  "captured_at_local": "2026-01-20 12:25",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_vegetable_bed_after_morning_watering",
+  "summary": "Vegetable bed condition observed during midday.",
+  "description": "Image shows vegetable plants in the plot during midday after morning watering.",
+  "reference_context": {
+    "related_proofs": ["516"],
+    "related_data_units": ["00422", "00421", "00455"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiccv5xoh6eiykxhhdlosdiumu5pimtxjfm32oresmqy6yaemk7oim",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
