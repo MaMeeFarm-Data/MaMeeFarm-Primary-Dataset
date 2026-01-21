@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00463",
+  "file_path": "dataset/data-unit/00463/dataunit_00463.json",
+  "category": "energy-control",
+  "sub_category": "water-pump-power-off",
+  "captured_at_local": "2026-01-20 14:36",
+  "timezone": "Asia/Bangkok",
+  "location": "Water pump power outlet, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_power_disconnected",
+  "summary": "Water pump power outlet switched off after water tanks filled.",
+  "description": "Image shows electrical power strip with water pump plug disconnected after water tanks reached full level.",
+  "reference_context": {
+    "related_data_units": ["00462"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigafz55grthvrmtfnhznz3vlmz6yx5mc2qtor7ps54gfj3t4feuqe",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
