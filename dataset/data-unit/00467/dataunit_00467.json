@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00467",
+  "file_path": "dataset/data-unit/00467/dataunit_00467.json",
+  "category": "animal-care",
+  "sub_category": "dog-feeding",
+  "captured_at_local": "2026-01-20 16:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_feeding_evening",
+  "summary": "Dogs receiving food during evening feeding.",
+  "description": "Image shows multiple dogs gathered around a container of dry dog food during evening feeding time.",
+  "reference_context": {
+    "related_data_units": ["00434", "00466"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiflakhbo3rq2r2psmskniqerwveo74gppw75n2oetgfubxfmezlnm",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
