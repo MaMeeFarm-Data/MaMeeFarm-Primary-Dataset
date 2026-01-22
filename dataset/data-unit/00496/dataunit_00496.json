@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00496",
+  "file_path": "dataset/data-unit/00496/dataunit_00496.json",
+  "category": "energy-infrastructure",
+  "sub_category": "solar-inverter-operation",
+  "captured_at_local": "2026-01-21 08:28",
+  "timezone": "Asia/Bangkok",
+  "location": "Inverter control area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "daily_inverter_power_on_time",
+  "summary": "Hybrid solar inverter control panel recorded at inverter power-on time.",
+  "description": "Image shows a hybrid solar inverter control panel recorded at the inverter power-on time for the day.",
+  "reference_context": {
+    "related_data_units": ["00476", "00495"],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicydhwvbrrovha6v2yrvtptamlfvtgoluigxfxrrsxk4j35vrw4y4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
