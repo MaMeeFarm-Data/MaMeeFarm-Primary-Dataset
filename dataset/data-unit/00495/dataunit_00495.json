@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00495",
+  "file_path": "dataset/data-unit/00495/dataunit_00495.json",
+  "category": "energy-infrastructure",
+  "sub_category": "solar-panel-installation",
+  "captured_at_local": "2026-01-21 08:28",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm building roof, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_solar_panels_rooftop",
+  "summary": "Solar panels installed on a farm building roof.",
+  "description": "Image shows four solar panels installed on the roof of a farm building.",
+  "reference_context": {
+    "related_data_units": [],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia3bcbwxte3llnqu54mtomqklqiycswmlcs22thfsux5ojxzy7r6a",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
