@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00520",
+  "file_path": "dataset/data-unit/00520/dataunit_00520.json",
+  "category": "agricultural-labor",
+  "sub_category": "plant_thinning",
+  "captured_at_local": "2026-01-22 07:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_basil_thinning_activity",
+  "summary": "Human labor removing excess basil plants in the morning.",
+  "description": "Morning agricultural labor documenting manual cutting and removal of basil plants due to overgrowth. Activity performed using hand tools under normal farm conditions.",
+  "reference_context": {
+    "related_dataunit": ["00519"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiecceoxiygcnhr7f5j5vbfd53jfl4wvuno6dseupwoxfmkkauf6wq",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
