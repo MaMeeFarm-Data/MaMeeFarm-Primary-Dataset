@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00497",
+  "file_path": "dataset/data-unit/00497/dataunit_00497.json",
+  "category": "water-infrastructure",
+  "sub_category": "groundwater-pumping-operation",
+  "captured_at_local": "2026-01-21 11:51",
+  "timezone": "Asia/Bangkok",
+  "location": "Groundwater well area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_lowered_into_ground_well",
+  "summary": "Water pump being lowered into an earthen well for water pumping.",
+  "description": "Image shows labor lowering a water pump into an earthen well to initiate water pumping operation.",
+  "reference_context": {
+    "related_data_units": [],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih63hlordpwlj3zmrsphsjnmotqaoe6pahm6eqeglvkqts2zpkcby",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
