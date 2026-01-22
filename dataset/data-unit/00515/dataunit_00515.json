@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00515",
+  "file_path": "dataset/data-unit/00515/dataunit_00515.json",
+  "category": "energy-system",
+  "sub_category": "inverter-operation",
+  "captured_at_local": "2026-01-22 00:33",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm power system area (inverter), MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "inverter_system_power_off_time",
+  "summary": "Recorded the inverter system power-off time for the farm energy system.",
+  "description": "This record documents the time the farm inverter system was powered off. Power availability was not continuous for 24 hours due to real energy limitations; however, the overall system operations remained ongoing under constraints.",
+  "references": [
+    {
+      "type": "dataunit",
+      "id": "00496",
+      "relationship": "references inverter power-on time"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibrdddvxp4zg3kjbprerg376ead76j4nlnhpbez5gwkytjr4xpexe",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
