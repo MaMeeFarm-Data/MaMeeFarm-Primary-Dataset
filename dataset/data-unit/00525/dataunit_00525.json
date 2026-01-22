@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00525",
+  "file_path": "dataset/data-unit/00525/dataunit_00525.json",
+  "category": "environment-weather",
+  "sub_category": "sky_condition",
+  "captured_at_local": "2026-01-22 08:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sky_light_sunlight",
+  "summary": "Morning sky condition recorded.",
+  "description": "Image shows the sky condition during the morning with visible sunlight.",
+  "reference_context": {
+    "related_proofs": ["524"],
+    "related_dataunits": ["00517"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidhvlc3uu4sk3ptmqyrwedah4h5thauj5qkqjulgpw3x7x4etmhvm",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
