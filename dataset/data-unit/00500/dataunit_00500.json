@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00500",
+  "file_path": "dataset/data-unit/00500/dataunit_00500.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-21 11:56",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck coop, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_temperature_humidity_record_round_2",
+  "summary": "Temperature and humidity record inside duck coop (round 2 of the day).",
+  "measurements": {
+    "temperature_inside_celsius": 32.2,
+    "temperature_outside_celsius": 28.8,
+    "relative_humidity_percent": 41
+  },
+  "reference_context": {
+    "previous_round_data_unit": "00483"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihz5p5imobweepe4jzxcbye7wynahken47qepph64z63goc7oskre",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
