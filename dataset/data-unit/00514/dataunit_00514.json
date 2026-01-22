@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00514",
+  "file_path": "dataset/data-unit/00514/dataunit_00514.json",
+  "category": "farm-operation",
+  "sub_category": "daily-closure",
+  "captured_at_local": "2026-01-21 18:06",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm main gate, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_gate_closed_end_of_day",
+  "summary": "Farm gate closed after completion of daily farm activities.",
+  "reference_context": {
+    "activity_reference": "End-of-day farm operation closure"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiba3tmx6geo5ux6v33on4s4serdsonkkjshixedqvuo3wlocgcuzm",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
