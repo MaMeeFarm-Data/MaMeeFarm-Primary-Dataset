@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00516",
+  "file_path": "dataset/data-unit/00516/dataunit_00516.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-22 00:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "temperature_humidity_record_night",
+  "summary": "Temperature and humidity reading recorded.",
+  "description": "Digital thermometer-hygrometer display showing ambient temperature and relative humidity at the time of capture.",
+  "measurement": {
+    "temperature_celsius": 18.0,
+    "relative_humidity_percent": 64
+  },
+  "device": {
+    "type": "digital thermometer hygrometer",
+    "model": "HTC-1",
+    "display_mode": "clock / humidity"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifppgih3oc7qelqqyxeanow3ojgtnoiat5xrv5uy2kotbqi7u33ai",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
