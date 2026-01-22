@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00494",
+  "file_path": "dataset/data-unit/00494/dataunit_00494.json",
+  "category": "crop-care",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-21 08:21",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_manual_watering_vegetable_bed",
+  "summary": "Manual watering of vegetable plants in the morning.",
+  "description": "Image shows vegetable plants being watered manually using a watering can during the morning.",
+  "reference_context": {
+    "related_data_units": ["00455"],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdgta5t25rqc4wbl6lh23p5crhy6p3lx4eimfsagzxytclitqvvu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
