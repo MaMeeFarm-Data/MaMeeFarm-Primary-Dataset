@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00498",
+  "file_path": "dataset/data-unit/00498/dataunit_00498.json",
+  "category": "water-infrastructure",
+  "sub_category": "farm-water-tank-filling",
+  "captured_at_local": "2026-01-21 11:53",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm water tank area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "filling_farm_water_tanks_from_well",
+  "summary": "Water being filled from groundwater well into farm water tanks.",
+  "description": "Image shows water being supplied from a groundwater source into farm water tanks WT-F-0001 and WT-F-0002.",
+  "reference_context": {
+    "related_data_units": ["00497"],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyo5zteb5vkpnj4eygyeah2zzpc42s6oash73ejswnpmxklb3yhm",
+    "note": "External reference provided for verification only."
+  },
+  "infrastructure_context": {
+    "system": "Farm Water System",
+    "tanks": [
+      {
+        "tank_id": "WT-F-0001",
+        "type": "Water Tank",
+        "capacity_liters": 2000,
+        "status": "Active"
+      },
+      {
+        "tank_id": "WT-F-0002",
+        "type": "Water Tank",
+        "capacity_liters": 2000,
+        "status": "Active"
+      }
+    ],
+    "total_capacity_liters": 4000
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
