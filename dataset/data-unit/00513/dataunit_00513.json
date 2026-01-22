@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00513",
+  "file_path": "dataset/data-unit/00513/dataunit_00513.json",
+  "category": "environment-observation",
+  "sub_category": "post-watering-condition",
+  "captured_at_local": "2026-01-21 17:58",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable garden area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "vegetable_garden_after_watering",
+  "summary": "Vegetable garden area condition after evening watering.",
+  "reference_context": {
+    "related_data_units": [
+      "00512"
+    ],
+    "activity_reference": "Evening vegetable watering completed prior to capture."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihponw3fgli5bt4jlhw224tldvpksayammyesgzpnwcifaaiua2rq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
