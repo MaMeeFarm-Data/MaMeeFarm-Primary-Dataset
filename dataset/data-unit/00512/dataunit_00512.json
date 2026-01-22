@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00512",
+  "file_path": "dataset/data-unit/00512/dataunit_00512.json",
+  "category": "water-usage",
+  "sub_category": "vegetable-watering",
+  "captured_at_local": "2026-01-21 17:58",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_vegetable_watering_mobile_tank",
+  "summary": "Evening vegetable watering using mobile water tank.",
+  "reference_context": {
+    "related_data_units": [
+      "00501"
+    ],
+    "water_source": {
+      "water_tank_id": "WT-M-0001",
+      "type": "Water Tank",
+      "capacity_liters": 200,
+      "system": "Mobile",
+      "status": "Active"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifzu3uipn27mirqczq7g6yuzczlhhr3rtz4kjf7ypv7gu2dqu3mnu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
