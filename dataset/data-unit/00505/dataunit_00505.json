@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00505",
+  "file_path": "dataset/data-unit/00505/dataunit_00505.json",
+  "category": "water-system",
+  "sub_category": "mobile-tank-fill",
+  "captured_at_local": "2026-01-21 12:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "turbid_water_in_mobile_tank",
+  "summary": "Water collected into a small mobile tank appears turbid after prior overflow back into the well.",
+  "reference_context": {
+    "related_data_units": ["00504"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeica6de7vkbs5lw7yllnrmbvl3poelimp4wepnt46mzlpiudpcy4eq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
