@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00519",
+  "file_path": "dataset/data-unit/00519/dataunit_00519.json",
+  "category": "domestic-labor",
+  "sub_category": "dog_bedding_maintenance",
+  "captured_at_local": "2026-01-22 07:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_bedding_drying",
+  "summary": "Morning drying of dog bedding cloth documented.",
+  "description": "Routine morning activity showing human labor drying dog bedding cloth outdoors near banana trees. The action references previous evening collection.",
+  "reference_context": {
+    "related_dataunit": ["00508"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif3ivmb3ie5pkurevdf5cuawoxv7jvmfwigjyafsoi3scp55zhwja",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
