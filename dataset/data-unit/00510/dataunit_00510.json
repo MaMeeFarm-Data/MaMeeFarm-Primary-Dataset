@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00510",
+  "file_path": "dataset/data-unit/00510/dataunit_00510.json",
+  "category": "environment",
+  "sub_category": "evening-atmosphere",
+  "captured_at_local": "2026-01-21 17:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_farm_atmosphere",
+  "summary": "Evening atmosphere recorded at MaMeeFarm.",
+  "reference_context": {
+    "related_data_units": [
+      "00478"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihmhoiddy4xbi4tppbkhv5ono55zrwqdmkkojdmchhmrm56lz6atq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
