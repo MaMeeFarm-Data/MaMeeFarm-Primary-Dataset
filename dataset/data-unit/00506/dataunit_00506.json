@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00506",
+  "file_path": "dataset/data-unit/00506/dataunit_00506.json",
+  "category": "water-system",
+  "sub_category": "pump-storage",
+  "captured_at_local": "2026-01-21 12:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_stored_after_use",
+  "summary": "Water pump stored after completion of use within available space under resource constraints.",
+  "reference_context": {
+    "related_data_units": [
+      "00497",
+      "00498",
+      "00503",
+      "00504",
+      "00505"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigirm6hsfgijx7vqcv5xvtoesgedrvbmwbjb6gjires6adb2x7lnq",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
