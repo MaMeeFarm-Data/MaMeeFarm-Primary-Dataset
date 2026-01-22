@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00504",
+  "file_path": "dataset/data-unit/00504/dataunit_00504.json",
+  "category": "water-system",
+  "sub_category": "overflow-to-well",
+  "captured_at_local": "2026-01-21 12:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_overflow_into_well",
+  "summary": "Water overflowing from a farm tank flowing into a water well.",
+  "reference_context": {
+    "related_data_units": ["00503"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifjesd6kirorhnbzu4yyk455zoizrhxyy7smb44kmgv4izaukm424",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
