@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00523",
+  "file_path": "dataset/data-unit/00523/dataunit_00523.json",
+  "category": "water-observation",
+  "sub_category": "earthen_canal_morning_condition",
+  "captured_at_local": "2026-01-22 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "Earthen Canal, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "earthen_canal_dry_condition",
+  "summary": "Morning condition of earthen canal.",
+  "description": "Image shows an earthen canal with minimal remaining water in the morning.",
+  "reference_context": {
+    "related_dataunits": ["00442"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihiggzixz7x3u3xiozpuq6x6j5yu2zezbqp4wofauzpdlcqjnofie",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
