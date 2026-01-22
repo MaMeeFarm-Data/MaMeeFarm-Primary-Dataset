@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00493",
+  "file_path": "dataset/data-unit/00493/dataunit_00493.json",
+  "category": "operations",
+  "sub_category": "equipment_storage",
+  "captured_at_local": "2026-01-21 08:20",
+  "timezone": "Asia/Bangkok",
+  "location": "Empty duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "equipment_stored_in_empty_duck_house",
+  "summary": "Equipment placed inside an empty duck house.",
+  "description": "Image shows farm equipment placed inside an empty duck house area.",
+  "reference_context": {
+    "related_data_units": ["00484"],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigwlukq46zybudd5rgibh7bnrw2aj2xukubuc2pxrob6rfjmslkv4",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
