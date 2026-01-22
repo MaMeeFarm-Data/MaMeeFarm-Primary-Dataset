@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00527",
+  "file_path": "dataset/data-unit/00527/dataunit_00527.json",
+  "category": "farm-produce",
+  "sub_category": "banana-consumption",
+  "captured_at_local": "2026-01-22 11:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_from_farm_for_consumption",
+  "summary": "Bananas taken gradually from farm for consumption.",
+  "description": "Image shows bananas harvested gradually from trees within the farm for consumption without purchase.",
+  "reference_context": {
+    "related_dataunits": ["00104"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeighgwsgel44re322n5qavqckrm5q2iuzprmaiiut4z2b5clcjeckm",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
