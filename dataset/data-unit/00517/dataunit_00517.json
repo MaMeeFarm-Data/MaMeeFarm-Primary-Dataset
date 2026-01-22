@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00517",
+  "file_path": "dataset/data-unit/00517/dataunit_00517.json",
+  "category": "environmental-observation",
+  "sub_category": "sky-condition",
+  "captured_at_local": "2026-01-22 06:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sky_observation",
+  "summary": "Morning sky observation recorded.",
+  "description": "Image records sky condition during early morning hours.",
+  "reference_context": {
+    "related_proof": ["524"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeickubrdlrplumjifvwj6hzd4lqr3taj5ha7z6peu75aqyof37ilsi",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
