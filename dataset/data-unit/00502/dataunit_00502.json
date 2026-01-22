@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00502",
+  "file_path": "dataset/data-unit/00502/dataunit_00502.json",
+  "category": "labor-activity",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-21 12:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "human_labor_manual_watering",
+  "summary": "Human labor performing manual watering activity.",
+  "labor": {
+    "type": "human",
+    "activity": "watering",
+    "method": "manual"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiasyfdrhzetamegsf3xs2s7jh6dohmoyvasjfwq2i4ilzxmlaiqqm",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
