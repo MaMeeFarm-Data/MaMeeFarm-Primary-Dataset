@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00522",
+  "file_path": "dataset/data-unit/00522/dataunit_00522.json",
+  "category": "crop-observation",
+  "sub_category": "leafy_vegetable_morning_condition",
+  "captured_at_local": "2026-01-22 07:41",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable Plot, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_leafy_vegetable_condition",
+  "summary": "Morning condition of leafy vegetables.",
+  "description": "Image shows leafy vegetables in the plot during the morning after the previous evening watering.",
+  "reference_context": {
+    "related_dataunits": ["00512", "00513"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibtifyskljs5bdazomlziel5svyayuxlvocqbdpwhws3yhxzlozsi",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
