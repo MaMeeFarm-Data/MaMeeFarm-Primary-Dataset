@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00511",
+  "file_path": "dataset/data-unit/00511/dataunit_00511.json",
+  "category": "environment",
+  "sub_category": "duck-house-temperature",
+  "captured_at_local": "2026-01-21 17:54",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck house, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_duck_house_temperature_record",
+  "summary": "Evening temperature and humidity record inside duck house.",
+  "measurement": {
+    "temperature_celsius": {
+      "inside": 28.0,
+      "outside": 22.4
+    },
+    "humidity_percent": 51
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00483",
+      "00500"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih2pskwusc4mi7xsqcu7umo5eny3qubjz2kvzao3dbeym3rooqaqu",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
