@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00503",
+  "file_path": "dataset/data-unit/00503/dataunit_00503.json",
+  "category": "water-system",
+  "sub_category": "tank-overflow",
+  "captured_at_local": "2026-01-21 12:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_water_tank_overflow",
+  "summary": "Water overflowing from a farm water tank.",
+  "reference_context": {
+    "related_data_units": ["00498"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic4t7oxgele4j7nsiimd56wxekrhqbfnr6atx3who7g3pvcuh3rcy",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
