@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00524",
+  "file_path": "dataset/data-unit/00524/dataunit_00524.json",
+  "category": "human-labor",
+  "sub_category": "weed_clearing_manual",
+  "captured_at_local": "2026-01-22 07:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_manual_weeding",
+  "summary": "Morning manual weed clearing activity.",
+  "description": "Image shows a human performing weed clearing using a hoe during the morning.",
+  "reference_context": {
+    "related_proofs": ["525"],
+    "related_dataunits": ["00520"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiakaxfjvqcxdb7fuz67uogjcsu4njiwgfedjbxk3k77qotq3t3psq",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
