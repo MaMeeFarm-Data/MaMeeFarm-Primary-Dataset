@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00501",
+  "file_path": "dataset/data-unit/00501/dataunit_00501.json",
+  "category": "infrastructure-traceability",
+  "sub_category": "mobile-water-tank-labeling",
+  "captured_at_local": "2026-01-21 11:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mobile_water_tank_label_wt_m_0001",
+  "summary": "Labeling of mobile water tank WT-M-0001.",
+  "asset": {
+    "asset_id": "WT-M-0001",
+    "type": "Water Tank",
+    "capacity_liters": 200,
+    "system": "Mobile",
+    "status": "Active"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyranpdj2rxm6ternduffbdwbua3kysxvaqah67qwkpcrjgfmbru",
+    "note": "External reference provided for verification only."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
