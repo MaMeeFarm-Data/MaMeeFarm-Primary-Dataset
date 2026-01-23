@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00548",
+  "file_path": "dataset/data-unit/00548/dataunit_00548.json",
+  "category": "agricultural-labor",
+  "sub_category": "harvesting-vegetables",
+  "captured_at_local": "2026-01-23 07:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, vegetable plot",
+  "data_type": "image",
+  "title": "harvesting_coriander_morning_plot",
+  "summary": "Harvesting coriander grown in the farm plot during morning.",
+  "description": "Image records human labor harvesting coriander from a self-grown vegetable plot in the morning.",
+  "reference_context": {
+    "related_proof": "529",
+    "note": "Morning garden activity."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihhvmfvwjcabrmiwompcspq6m6vhrqho6earund7g5ctywcaxqkv4",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
