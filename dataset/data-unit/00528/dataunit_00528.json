@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00528",
+  "file_path": "dataset/data-unit/00528/dataunit_00528.json",
+  "category": "agricultural-labor",
+  "sub_category": "banana-yield-monitoring",
+  "captured_at_local": "2026-01-22 11:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_yield_followup_after_inflorescence_cut",
+  "summary": "Ongoing labor monitoring banana yield after inflorescence cut.",
+  "description": "Image documents continued human labor monitoring banana plants following inflorescence cut event.",
+  "asset_reference": {
+    "asset_id": "BAN-0001",
+    "event": "Inflorescence cut (banana flower removed)",
+    "event_date": "2026-01-16"
+  },
+  "reference_context": {
+    "related_proofs": ["498", "517", "527"],
+    "related_dataunits": ["00332"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig7jpeoox3zcu2nw4lihtmi32ilwoaozbcoqteubemu5pfvz7hl6i",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
