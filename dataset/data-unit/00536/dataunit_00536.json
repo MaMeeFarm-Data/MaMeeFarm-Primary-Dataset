@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00536",
+  "file_path": "dataset/data-unit/00536/dataunit_00536.json",
+  "category": "agricultural-labor",
+  "sub_category": "evening-garden-maintenance",
+  "captured_at_local": "2026-01-22 16:44",
+  "timezone": "Asia/Bangkok",
+  "location": "Garden area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_garden_work_continuation",
+  "summary": "Evening garden labor activity recorded on-site.",
+  "description": "Image records human labor performing garden maintenance activities during evening period within the farm area.",
+  "reference_context": {
+    "related_dataunits": ["00520", "00528", "00529"],
+    "note": "Referenced as continuation of documented work sequence."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidogapwefwpn6frnlkmr2grzodxmwhbchtg2nzeroju2fp235xrpq",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
