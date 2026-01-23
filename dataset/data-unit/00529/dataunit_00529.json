@@ -1,0 +1,23 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00529",
+  "file_path": "dataset/data-unit/00529/dataunit_00529.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-22 11:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "manual_watering_under_strong_sunlight",
+  "summary": "Manual watering activity recorded during strong sunlight conditions.",
+  "description": "Image records human labor manually watering planting area during daytime.",
+  "reference_context": {},
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibvlb3i5xsu43lihf4wdhsmp5ddfgosafc5o5adwwe4orkt666pbu",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
