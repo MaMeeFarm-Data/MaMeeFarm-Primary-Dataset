@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00550",
+  "file_path": "dataset/data-unit/00550/dataunit_00550.json",
+  "category": "environment-observation",
+  "sub_category": "plant-response-morning",
+  "captured_at_local": "2026-01-23 07:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, vegetable plot",
+  "data_type": "image",
+  "title": "morning_plant_condition_after_cold_weather",
+  "summary": "Morning visual record of vegetable plants under cold and humid conditions.",
+  "description": "Image records vegetable leaves with visible moisture in the morning, following cold weather and high humidity conditions.",
+  "reference_context": {
+    "related_dataunits": ["00545", "00546", "00549"],
+    "note": "Referenced to morning environment, temperature, and humidity records."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihbyszsrwto5fogajij2z6wleogjkyopf5cilqqarvojcxzkvau4y",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
