@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00553",
+  "file_path": "dataset/data-unit/00553/dataunit_00553.json",
+  "category": "energy-system",
+  "sub_category": "solar-inverter-operation",
+  "captured_at_local": "2026-01-23 08:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "solar_inverter_power_on_morning",
+  "summary": "Solar inverter powered on during morning period.",
+  "description": "Image records manual operation of solar inverter being powered on in the morning.",
+  "reference_context": {
+    "related_dataunits": ["00544", "00552"],
+    "note": "Referenced to previous inverter shutdown and cloudy sky condition with no direct sunlight."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiamsbvstiretdjumyizdjpe3c363x3ygctmndhhrwgozqxyewzxsi",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
