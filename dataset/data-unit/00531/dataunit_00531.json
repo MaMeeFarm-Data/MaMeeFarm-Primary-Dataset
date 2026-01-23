@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00531",
+  "file_path": "dataset/data-unit/00531/dataunit_00531.json",
+  "category": "environmental-observation",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-22 14:57",
+  "timezone": "Asia/Bangkok",
+  "location": "House balcony, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "temperature_humidity_record_house_balcony_afternoon",
+  "summary": "Temperature and humidity recorded at house balcony during afternoon.",
+  "description": "Image records digital thermometer-hygrometer showing temperature and humidity values at house balcony.",
+  "measured_values": {
+    "temperature_celsius": 28.0,
+    "humidity_percent": 54
+  },
+  "reference_context": {
+    "related_proof": "Proof 524",
+    "note": "Referenced to morning temperature record for same day."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibbqehept3xrfqsptzi4ax6vv7t7gk3muteymu6am3vgkfh6wlpq4",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
