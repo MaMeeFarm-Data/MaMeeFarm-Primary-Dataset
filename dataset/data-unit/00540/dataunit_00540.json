@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00540",
+  "file_path": "dataset/data-unit/00540/dataunit_00540.json",
+  "category": "environmental-observation",
+  "sub_category": "sunset-sky",
+  "captured_at_local": "2026-01-22 18:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "sunset_sky_after_daylight",
+  "summary": "Sunset sky observed after daylight hours.",
+  "description": "Image records sky conditions after sunset with reduced daylight visibility over surrounding landscape.",
+  "reference_context": {
+    "related_dataunit": "00517",
+    "note": "Referenced to morning sky observation for same day."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibnrq2x4jou7eqjd4hhxg2uc7v7mzboyvd2nbwwz5ztk3g5sfi2li",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
