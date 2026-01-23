@@ -1,0 +1,23 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00534",
+  "file_path": "dataset/data-unit/00534/dataunit_00534.json",
+  "category": "household-labor",
+  "sub_category": "wood-fired-cooking",
+  "captured_at_local": "2026-01-22 15:16",
+  "timezone": "Asia/Bangkok",
+  "location": "House area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "wood_fire_stove_rice_cooking_preparation",
+  "summary": "Labor activity preparing wood-fired stove for cooking.",
+  "description": "Image records human labor starting a fire in a wood-fired stove for rice cooking using firewood.",
+  "reference_context": {},
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigmog5pni34kykkod6ncv6yn4g62x2blitiuozzthj6f5xjqpk4ku",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
