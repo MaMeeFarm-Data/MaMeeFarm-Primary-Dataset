@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00535",
+  "file_path": "dataset/data-unit/00535/dataunit_00535.json",
+  "category": "household-labor",
+  "sub_category": "wood-fired-cooking-result",
+  "captured_at_local": "2026-01-22 15:36",
+  "timezone": "Asia/Bangkok",
+  "location": "House area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "cooked_rice_wood_fired_stove",
+  "summary": "Cooked rice after wood-fired stove cooking.",
+  "description": "Image records cooked rice in a pot on a wood-fired stove after completion of cooking process.",
+  "process_context": {
+    "start_reference_dataunit": "00534",
+    "elapsed_time_minutes": 20,
+    "note": "Cooking started from referenced data unit."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicixw7vgrnhae3sy4ob4yqp27f66kphlw2mgqnnz5js2dytbgifya",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
