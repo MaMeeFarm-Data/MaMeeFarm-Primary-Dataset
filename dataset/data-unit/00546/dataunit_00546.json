@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00546",
+  "file_path": "dataset/data-unit/00546/dataunit_00546.json",
+  "category": "environment-observation",
+  "sub_category": "morning-atmosphere",
+  "captured_at_local": "2026-01-23 07:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_field_atmosphere",
+  "summary": "Morning field atmosphere captured at start of day.",
+  "description": "Image records field landscape and sky conditions during early morning.",
+  "reference_context": {
+    "related_dataunit": "00545",
+    "note": "Referenced to morning temperature and humidity record."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiemtfjjxym7bfefshqvtr6wfr5exchrt3isb6ez5s36xpuw4i4epy",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
