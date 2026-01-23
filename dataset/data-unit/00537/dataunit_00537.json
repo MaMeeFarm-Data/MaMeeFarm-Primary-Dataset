@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00537",
+  "file_path": "dataset/data-unit/00537/dataunit_00537.json",
+  "category": "animal-care",
+  "sub_category": "bedding-collection",
+  "captured_at_local": "2026-01-22 17:29",
+  "timezone": "Asia/Bangkok",
+  "location": "House area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_bedding_collected_after_drying",
+  "summary": "Dog bedding collected after drying.",
+  "description": "Image records dog bedding being collected from drying position after exposure period.",
+  "reference_context": {
+    "related_dataunit": "00519",
+    "note": "Referenced to prior dog bedding drying activity."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifahovcuzddeqe2tblo2fhdhghxzkxxuvsl2mkehe7rknh5rjaoju",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
