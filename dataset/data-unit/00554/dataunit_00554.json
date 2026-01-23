@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00554",
+  "file_path": "dataset/data-unit/00554/dataunit_00554.json",
+  "category": "environment",
+  "sub_category": "sky-condition-late-morning",
+  "captured_at_local": "2026-01-23 10:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "cloudy_sky_no_direct_sunlight_late_morning",
+  "summary": "Late morning sky condition with heavy cloud cover.",
+  "description": "Image records late morning sky condition showing dense cloud coverage with no direct sunlight visible.",
+  "reference_context": {
+    "related_dataunits": ["00549", "00552"],
+    "note": "Referenced to earlier morning environmental records and prior cloudy sky condition."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifei7eb2ojdyzexejmhilewan5gnig2jul42xqppfcvmwmgvt3zs4",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
