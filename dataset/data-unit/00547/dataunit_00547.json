@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00547",
+  "file_path": "dataset/data-unit/00547/dataunit_00547.json",
+  "category": "animal-observation",
+  "sub_category": "dog-behavior",
+  "captured_at_local": "2026-01-23 07:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, front house area",
+  "data_type": "image",
+  "title": "two_black_dogs_guarding_front_door",
+  "summary": "Two black dogs sitting at the front door.",
+  "description": "Image records two black dogs sitting and facing outward at the front door area. Dogs are part of the farm dog group.",
+  "reference_context": {
+    "related_dataunit": "00538",
+    "note": "Referenced to feeding and care routine of farm dogs."
+  },
+  "animal_context": {
+    "species": "dog",
+    "count_visible": 2,
+    "group_reference": "farm_dogs",
+    "total_group_size": 20
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidik5ozkdjx7jyivl3ez2l3fpjsop473zbae6bpsnpvspgda35gbm",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
