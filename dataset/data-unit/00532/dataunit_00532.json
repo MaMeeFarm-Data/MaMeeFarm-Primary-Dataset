@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00532",
+  "file_path": "dataset/data-unit/00532/dataunit_00532.json",
+  "category": "animal-activity",
+  "sub_category": "free-movement",
+  "captured_at_local": "2026-01-22 15:11",
+  "timezone": "Asia/Bangkok",
+  "location": "Front yard, house area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "small_dogs_free_movement_front_yard_afternoon",
+  "summary": "Small dogs moving freely in the front yard area during afternoon.",
+  "description": "Image records multiple small dogs moving and interacting freely in the front yard area near human presence.",
+  "reference_context": {
+    "related_proof": "Proof 528",
+    "note": "Referenced to documented animal activity proof."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibjz3lgkhj23mqizepcaab4gaivlua43x3vkicr3y7aobuqgfwzge",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
