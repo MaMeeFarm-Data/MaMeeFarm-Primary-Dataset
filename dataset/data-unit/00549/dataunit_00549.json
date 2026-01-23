@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00549",
+  "file_path": "dataset/data-unit/00549/dataunit_00549.json",
+  "category": "environment-measurement",
+  "sub_category": "duck-house-temperature-humidity",
+  "captured_at_local": "2026-01-23 07:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, duck house",
+  "data_type": "image",
+  "title": "duck_house_morning_temperature_humidity",
+  "summary": "Morning temperature and humidity measurement inside duck house.",
+  "description": "Image records temperature and humidity measurement device inside duck house during morning.",
+  "reference_context": {
+    "related_dataunit": "00541",
+    "note": "Referenced to previous evening temperature and humidity record."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidoiqacwxuwh5qg6wbqesjpyfxzkrgsf3rkua5tbrklxdpilfiv3a",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
