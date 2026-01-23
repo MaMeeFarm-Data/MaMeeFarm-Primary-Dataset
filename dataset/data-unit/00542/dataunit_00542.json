@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00542",
+  "file_path": "dataset/data-unit/00542/dataunit_00542.json",
+  "category": "agricultural-labor",
+  "sub_category": "evening-watering",
+  "captured_at_local": "2026-01-22 18:10",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable garden, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_watering_vegetable_garden_completed",
+  "summary": "Evening watering of vegetable garden completed.",
+  "description": "Image records vegetable garden after evening watering activity has been completed.",
+  "reference_context": {
+    "related_dataunit": "00536",
+    "note": "Referenced to evening garden labor activity."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihmrdvaaffvl6zb7ptfaklfo5b63uol4acfincfn76wfyaj26cp6u",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
