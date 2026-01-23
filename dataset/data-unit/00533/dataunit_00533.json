@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00533",
+  "file_path": "dataset/data-unit/00533/dataunit_00533.json",
+  "category": "agricultural-labor",
+  "sub_category": "plant-trimming-residue",
+  "captured_at_local": "2026-01-22 15:14",
+  "timezone": "Asia/Bangkok",
+  "location": "Front yard, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "areca_palm_leaves_after_trimming",
+  "summary": "Areca palm leaves after trimming activity.",
+  "description": "Image records trimmed areca palm leaves placed on the ground after plant maintenance activity.",
+  "reference_context": {
+    "related_proof": "Proof 528",
+    "note": "Referenced to documented trimming activity."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie73psacmhgff65j23e7szywdnr6iqbv5dzfmdcdkl7lcoua2kr24",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
