@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00544",
+  "file_path": "dataset/data-unit/00544/dataunit_00544.json",
+  "category": "infrastructure-status",
+  "sub_category": "power-system-warning",
+  "captured_at_local": "2026-01-22 22:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "power_system_warning_red_indicator",
+  "summary": "Power system warning indicator recorded before system shutdown.",
+  "description": "Image records red warning indicator light on power control system signaling requirement to shut down electrical operation.",
+  "system_state": {
+    "indicator_color": "red",
+    "operation_status": "warning",
+    "note": "System indicates power limitation requiring shutdown. Continuous operation constrained by available energy."
+  },
+  "reference_context": {
+    "related_dataunit": "00526",
+    "note": "Referenced to power system opening time earlier the same day."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiflidudupr3e2h6ugzvcjfbomz7brg5ik7pys6uvler3hxvb52dee",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
