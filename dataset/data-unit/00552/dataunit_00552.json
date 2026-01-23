@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00552",
+  "file_path": "dataset/data-unit/00552/dataunit_00552.json",
+  "category": "environment",
+  "sub_category": "sky-condition-morning",
+  "captured_at_local": "2026-01-23 08:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "cloudy_sky_no_direct_sunlight",
+  "summary": "Morning sky condition with heavy cloud cover.",
+  "description": "Image records sky condition showing dense cloud coverage and absence of direct sunlight during the morning period.",
+  "reference_context": {
+    "related_dataunits": ["00545", "00546", "00549"],
+    "note": "Referenced to morning environmental and humidity records."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidwt2yej7375bilu2mz4f4oyu4yvlruv7fawi6ziixgegsrsng3tm",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
