@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00581",
+  "file_path": "dataset/data-unit/00581/dataunit_00581.json",
+  "category": "animal-care",
+  "sub_category": "nursing_behavior",
+  "captured_at_local": "2026-01-24 08:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, indoor resting area",
+  "data_type": "image",
+  "title": "intermittent_nursing_during_weaning",
+  "summary": "Mother dog allows puppies to nurse intermittently during early weaning stage.",
+  "description": "Image records mother dog lying down while multiple puppies nurse briefly. Behavior observed occasionally as puppies transition toward weaning.",
+  "asset_context": {
+    "asset_type": "mother_dog_and_puppies",
+    "life_stage": "early_weaning_phase"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicxiq7ro7ie7qy5jqeuf4x6z235mjevx2vxajmkvd7iacbvqoylqy",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
