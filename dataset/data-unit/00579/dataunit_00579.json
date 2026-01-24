@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00579",
+  "file_path": "dataset/data-unit/00579/dataunit_00579.json",
+  "category": "energy-system",
+  "sub_category": "inverter-fault",
+  "captured_at_local": "2026-01-24 07:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, power control area",
+  "data_type": "image",
+  "title": "inverter_fault_low_solar_input_morning",
+  "summary": "Inverter fault condition triggered shortly after morning startup.",
+  "description": "Image documents inverter fault state indicated by red FAULT indicator and audible alert, occurring approximately 10 minutes after inverter power-on. Event is recorded under low solar input conditions.",
+  "reference_context": {
+    "solar_condition_ref": "dataunit_00577",
+    "previous_power_on_ref": "dataunit_00578"
+  },
+  "asset_context": {
+    "asset_type": "solar_inverter",
+    "system_role": "power management and conversion for farm operations"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidesmcbnrslc5oryietz5qjcf2mbgtoqo4gon733il2ct7te4wzu4",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
