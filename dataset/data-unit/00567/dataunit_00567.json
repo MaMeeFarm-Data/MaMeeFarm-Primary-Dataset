@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00567",
+  "file_path": "dataset/data-unit/00567/dataunit_00567.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity-night",
+  "captured_at_local": "2026-01-22 22:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm residential structure",
+  "data_type": "image",
+  "title": "night_temperature_humidity_record",
+  "summary": "Night-time temperature and humidity record.",
+  "description": "Image records temperature and humidity measurement device during night period.",
+  "observations": {
+    "temperature_celsius": 19.8,
+    "humidity_percent": 65,
+    "measurement_time": "night"
+  },
+  "reference_context": {
+    "related_data_units": [
+      "00545"
+    ],
+    "note": "Night-time environmental condition record."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiecfaxgibatqkqv2z2kl5kg2it6os4qylrerqxcwrr2kcbnoljlii",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
