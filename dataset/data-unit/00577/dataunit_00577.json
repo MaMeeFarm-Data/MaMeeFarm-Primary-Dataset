@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00577",
+  "file_path": "dataset/data-unit/00577/dataunit_00577.json",
+  "category": "energy-system",
+  "sub_category": "solar-panel-observation",
+  "captured_at_local": "2026-01-24 07:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, rooftop solar installation",
+  "data_type": "image",
+  "title": "farm_solar_panels_morning_low_sun",
+  "summary": "Observation of solar panels used in farm operations during a morning with limited sunlight.",
+  "description": "Image records four solar panels installed at MaMeeFarm. The observation notes limited sunlight conditions at the time of capture.",
+  "asset_context": {
+    "asset_type": "solar_panel",
+    "quantity": 4,
+    "system_role": "primary energy source for farm operations"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihpg7uo6nw7qfy4cbce6jqdnzcgvusarjraj5zjcib5ahycjcqvae",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
