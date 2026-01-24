@@ -1,0 +1,23 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00555",
+  "file_path": "dataset/data-unit/00555/dataunit_00555.json",
+  "category": "animal-observation",
+  "sub_category": "dog-movement-near-house",
+  "captured_at_local": "2026-01-23 11:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "puppy_running_toward_house",
+  "summary": "Dog observed moving toward the front of the house area.",
+  "description": "Image records a small dog running toward the front area of the house during late morning.",
+  "reference_context": {},
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia5vt5mj5vo6otsup63rkleqtkyjm743evv4xifhudfmkj6j5jkca",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
