@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00565",
+  "file_path": "dataset/data-unit/00565/dataunit_00565.json",
+  "category": "animal-care-labor",
+  "sub_category": "dog-bedding-collection",
+  "captured_at_local": "2026-01-23 17:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm residential area",
+  "data_type": "image",
+  "title": "collecting_dog_bedding_after_drying",
+  "summary": "Human labor collecting dog bedding after drying.",
+  "description": "Image records human labor collecting dog bedding that was previously laid out for drying.",
+  "observations": {
+    "activity": "bedding_collection",
+    "animal_type": "dogs",
+    "labor_type": "manual"
+  },
+  "reference_context": {
+    "proof_id": "531",
+    "note": "Continuation of dog bedding care cycle following drying stage."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia2qt35s37fwgaigyzqq2khlurlakkuwshkh7rqyxuoftchii5dvu",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
