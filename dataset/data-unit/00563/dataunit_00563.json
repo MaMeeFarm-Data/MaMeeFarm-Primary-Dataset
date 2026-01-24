@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00563",
+  "file_path": "dataset/data-unit/00563/dataunit_00563.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering-vegetable-plot",
+  "captured_at_local": "2026-01-23 17:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm vegetable plot",
+  "data_type": "image",
+  "title": "vegetable_plot_watering_mobile_tank",
+  "summary": "Vegetable plot watering completed using mobile water tank.",
+  "description": "Image records vegetable beds after watering using water supplied from a mobile water tank system.",
+  "infrastructure_reference": {
+    "asset_id": "WT-M-0001",
+    "asset_type": "water_tank",
+    "capacity_liters": 200,
+    "system": "mobile",
+    "status": "active"
+  },
+  "reference_context": {
+    "proof_id": "532",
+    "note": "Manual watering activity using mobile water infrastructure."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigolqxfxb62tjgpme6ho6ok6xw2ywn4cd74lrzn7vvzqiw7uv34xa",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
