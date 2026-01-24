@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00570",
+  "file_path": "dataset/data-unit/00570/dataunit_00570.json",
+  "category": "environmental-condition",
+  "sub_category": "atmospheric-context",
+  "captured_at_local": "2026-01-24 06:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, surrounding field and horizon",
+  "data_type": "image",
+  "title": "morning_farm_atmosphere_record",
+  "summary": "Morning atmospheric condition around the farm.",
+  "description": "Image captures early morning atmosphere surrounding MaMeeFarm, including field, horizon, and sky conditions.",
+  "reference_context": {
+    "related_data_unit": ["00569"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigungachwfqbtoqblmw5vcnwxbkm7c6ulsxjabjoiyux4up5foptm",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
