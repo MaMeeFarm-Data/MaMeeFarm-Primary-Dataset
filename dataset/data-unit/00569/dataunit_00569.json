@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00569",
+  "file_path": "dataset/data-unit/00569/dataunit_00569.json",
+  "category": "environmental-condition",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-24 06:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, duck shelter",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_record",
+  "summary": "Morning temperature and humidity record.",
+  "description": "Image records temperature and relative humidity measurement during early morning.",
+  "observations": {
+    "temperature_celsius": 15.6,
+    "humidity_percent": 69,
+    "device_model": "HTC-1",
+    "time_displayed": "06:50"
+  },
+  "reference_context": {},
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihls54a27semjklhosb5w7x5zdonx567vsry2uc7ex5zp2rxmlaeu",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
