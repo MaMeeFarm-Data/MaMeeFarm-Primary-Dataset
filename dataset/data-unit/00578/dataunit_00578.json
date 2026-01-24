@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00578",
+  "file_path": "dataset/data-unit/00578/dataunit_00578.json",
+  "category": "energy-system",
+  "sub_category": "inverter-operation",
+  "captured_at_local": "2026-01-24 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, power control area",
+  "data_type": "image",
+  "title": "inverter_power_on_morning_startup",
+  "summary": "Record of inverter being powered on in the morning following a prior shutdown.",
+  "description": "Image documents the inverter in powered-on state. This record references the previous inverter shutdown event logged as DataUnit 00568.",
+  "reference_context": {
+    "previous_state_ref": "dataunit_00568"
+  },
+  "asset_context": {
+    "asset_type": "solar_inverter",
+    "system_role": "power management and conversion for farm operations"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihhaluvf3242hayt5snvkxsu4bgqa4w7o55rnw7tk7o2furdtri24",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
