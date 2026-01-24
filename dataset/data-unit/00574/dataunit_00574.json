@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00574",
+  "file_path": "dataset/data-unit/00574/dataunit_00574.json",
+  "category": "environmental-observation",
+  "sub_category": "morning-dew",
+  "captured_at_local": "2026-01-24 06:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, banana area",
+  "data_type": "image",
+  "title": "morning_dew_on_banana_leaf",
+  "summary": "Morning dew observed on banana leaf surface.",
+  "description": "Image records visible dew moisture covering banana leaf surface during early morning.",
+  "reference_context": {
+    "related_dataunits": ["00569", "00571"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiddrymx33g6qbxps4sa55jl2btf47d4cuogpqlw6ibrdd4rdqvjku",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
