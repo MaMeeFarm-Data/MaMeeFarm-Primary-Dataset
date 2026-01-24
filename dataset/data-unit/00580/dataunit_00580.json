@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00580",
+  "file_path": "dataset/data-unit/00580/dataunit_00580.json",
+  "category": "animal-care",
+  "sub_category": "water-supply",
+  "captured_at_local": "2026-01-24 07:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, water supply point",
+  "data_type": "image",
+  "title": "morning_water_refill_for_dogs",
+  "summary": "Morning water refill activity for dogs following feeding routine.",
+  "description": "Image records opening water tap to refill drinking water container for dogs as part of morning care routine.",
+  "reference_context": {
+    "feeding_reference": "proof_535"
+  },
+  "asset_context": {
+    "asset_type": "water_tap_and_container",
+    "system_role": "animal drinking water supply"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihkxv2crlt7rzjiv4ogbkkmznohaehlgxhvtiogtk7ewilg7vdzk4",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
