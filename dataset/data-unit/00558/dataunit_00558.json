@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00558",
+  "file_path": "dataset/data-unit/00558/dataunit_00558.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-weeding",
+  "captured_at_local": "2026-01-23 15:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm garden area",
+  "data_type": "image",
+  "title": "manual_weeding_around_rose_plant_under_sunlight",
+  "summary": "Manual labor clearing weeds around rose plant after sunlight appeared.",
+  "description": "Image records human labor manually clearing weeds around a rose plant. Direct sunlight is present at the time of capture.",
+  "observations": {
+    "sunlight": "present",
+    "light_intensity": "moderate to strong",
+    "labor_activity": "manual weeding"
+  },
+  "reference_context": {
+    "light_condition_chain": ["00552", "00554", "00557"],
+    "note": "Marks transition from low-light cloudy conditions to direct sunlight."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif56zk2belrl4g6kpmkwny6cc7hool5dse2u5bxia53rzzfpbxv3a",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
