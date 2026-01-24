@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00573",
+  "file_path": "dataset/data-unit/00573/dataunit_00573.json",
+  "category": "crop-observation",
+  "sub_category": "insect-damage",
+  "captured_at_local": "2026-01-24 06:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, pumpkin plot",
+  "data_type": "image",
+  "title": "pumpkin_leaf_insect_damage_no_chemical",
+  "summary": "Pumpkin leaf showing insect feeding damage.",
+  "description": "Image records pumpkin leaves with visible insect feeding damage. No chemical pesticide application involved.",
+  "reference_context": {
+    "related_dataunits": ["00096", "00265", "00291"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidluijpeugbyg6mx5xdspvwzlhw4eyvukfuylkhhkuwjv3rqdrxce",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
