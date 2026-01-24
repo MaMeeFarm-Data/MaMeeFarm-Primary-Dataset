@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00562",
+  "file_path": "dataset/data-unit/00562/dataunit_00562.json",
+  "category": "environment",
+  "sub_category": "sunset-light",
+  "captured_at_local": "2026-01-23 17:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm field area",
+  "data_type": "image",
+  "title": "sunset_light_over_field",
+  "summary": "Sunset light recorded as the sun approaches the horizon.",
+  "description": "Image records solar light conditions during sunset with visible sunlight near the horizon over agricultural field.",
+  "observations": {
+    "solar_position": "near_horizon",
+    "light_condition": "sunset"
+  },
+  "reference_context": {
+    "proof_id": "532",
+    "related_dataunits": [
+      "00546",
+      "00552",
+      "00554",
+      "00557"
+    ],
+    "note": "Continuation of daylight and light-condition records for the same day."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifzzezw7lltxnrt73zd3azoqsnzt24o3hhgalxj3bauyvdlbzzbza",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
