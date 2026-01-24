@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00561",
+  "file_path": "dataset/data-unit/00561/dataunit_00561.json",
+  "category": "plant-care",
+  "sub_category": "manual-watering-post-weeding",
+  "captured_at_local": "2026-01-23 17:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm garden area",
+  "data_type": "image",
+  "title": "evening_watering_rose_after_weeding",
+  "summary": "Evening watering of rose plant after weed removal.",
+  "description": "Image records soil condition around a rose plant after manual weeding and subsequent watering in the evening. Soil appears moist at the base of the plant.",
+  "observations": {
+    "soil_condition": "moist",
+    "watering_time": "evening",
+    "preceding_activity": "manual weeding"
+  },
+  "reference_context": {
+    "proof_id": "532",
+    "related_dataunits": [
+      "00558",
+      "00559"
+    ],
+    "note": "Post-labor plant care following weed removal."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihn5k2omm4koe7x7k2srkgxeizajlogwndgyx47n5tulf56rda3se",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
