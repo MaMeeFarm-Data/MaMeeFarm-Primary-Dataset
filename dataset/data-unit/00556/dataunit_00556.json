@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00556",
+  "file_path": "dataset/data-unit/00556/dataunit_00556.json",
+  "category": "environment",
+  "sub_category": "duck-house-temperature-humidity",
+  "captured_at_local": "2026-01-23 12:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm duck house",
+  "data_type": "image",
+  "title": "duck_house_temperature_humidity_midday",
+  "summary": "Temperature and humidity reading inside duck house at midday.",
+  "description": "Image records temperature and humidity measurement inside the duck house using HTC-2 device.",
+  "measurements": {
+    "temperature_inside_celsius": 28.2,
+    "temperature_outside_celsius": 26.0,
+    "humidity_percent": 54
+  },
+  "reference_context": {
+    "related_dataunits": ["00549"],
+    "note": "Referenced to morning environmental record."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic3tjmmxsnp7ignufsln5jkuzixopspdoi6vf6bibpqtssiqqdkey",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
