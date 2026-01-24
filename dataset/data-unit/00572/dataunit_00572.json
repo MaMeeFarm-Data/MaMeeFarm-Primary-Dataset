@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00572",
+  "file_path": "dataset/data-unit/00572/dataunit_00572.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-weeding",
+  "captured_at_local": "2026-01-24 06:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, chili plot",
+  "data_type": "image",
+  "title": "morning_manual_weeding_chili_plants",
+  "summary": "Morning manual weeding activity around chili plants.",
+  "description": "Image records human labor manually removing weeds from the base of chili plants during early morning.",
+  "reference_context": {
+    "related_proof": ["534"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiazmvnd6xqvwi7b2zwt7jv7uko4cx6vi3y7jxly62o3gxyea3gpiy",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
