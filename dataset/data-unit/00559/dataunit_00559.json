@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00559",
+  "file_path": "dataset/data-unit/00559/dataunit_00559.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-weeding-completed",
+  "captured_at_local": "2026-01-23 15:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm garden area",
+  "data_type": "image",
+  "title": "manual_weeding_completed_around_rose_plant",
+  "summary": "Manual weeding task completed around rose plant.",
+  "description": "Image records completion state of manual labor. Area around the rose plant is cleared, with no visible weeds remaining.",
+  "observations": {
+    "labor_status": "completed",
+    "ground_condition": "cleared",
+    "sunlight": "present"
+  },
+  "reference_context": {
+    "proof_id": "532",
+    "preceding_dataunit": "00558",
+    "note": "Marks completion of manual weeding task initiated earlier."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifhjfj4hes6ndi6vyhnnoswff3h6lbilnryagixjnf6y6bhytnt2a",
+    "note": "External reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
