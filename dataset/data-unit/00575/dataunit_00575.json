@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00575",
+  "file_path": "dataset/data-unit/00575/dataunit_00575.json",
+  "category": "plant-observation",
+  "sub_category": "flower-condition",
+  "captured_at_local": "2026-01-24 07:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, rose plant area",
+  "data_type": "image",
+  "title": "rose_flower_morning_moisture",
+  "summary": "Rose flower observed with visible moisture on petals during morning.",
+  "description": "Image records a rose flower with moisture present on petals in early morning. The plant was watered the previous day.",
+  "reference_context": {
+    "related_dataunits": ["00561"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie7vjxj7rxkmcefzs3tdpqkm32igsyrl3ovsljr7aec4urlxz7v3e",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
