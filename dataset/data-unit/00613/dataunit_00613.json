@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00613",
+  "file_path": "dataset/data-unit/00613/dataunit_00613.json",
+  "category": "environmental-observation",
+  "sub_category": "dry-soil-surface",
+  "captured_at_local": "2026-01-25 07:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dry_soil_surface_morning",
+  "summary": "Dry soil surface observed in the morning.",
+  "description": "Image records dry soil surface condition during morning hours.",
+  "reference_context": {
+    "related_data_units": ["00616", "00607", "00609", "0611", "00612"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihpgsfeu5qk5w3drcidaw5ggpb3cabbzirwngqkafjpu2b6k4xxje",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
