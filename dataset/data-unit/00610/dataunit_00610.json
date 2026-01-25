@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00610",
+  "file_path": "dataset/data-unit/00610/dataunit_00610.json",
+  "category": "crop-growth",
+  "sub_category": "early-germination",
+  "captured_at_local": "2026-01-25 07:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "yardlong_bean_seedling_emergence_day_6",
+  "summary": "Early germination of yardlong bean seedling.",
+  "description": "Image records yardlong bean seedling emergence. Planting date stated as 2026-01-19. Seedling age stated as 6 days at time of capture.",
+  "reference_context": {
+    "related_data_units": ["00415"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig74wx6s5mqw5kjrreclil2q6shumllunhhcawgj7zf3xzxiq5jmm",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
