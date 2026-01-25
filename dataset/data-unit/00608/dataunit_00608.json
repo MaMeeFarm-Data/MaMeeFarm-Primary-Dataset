@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00608",
+  "file_path": "dataset/data-unit/00608/dataunit_00608.json",
+  "category": "animal-care",
+  "sub_category": "dog-feeding",
+  "captured_at_local": "2026-01-25 07:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_feeding",
+  "summary": "Morning feeding of dogs.",
+  "description": "Image records morning feeding activity for dogs at the farm.",
+  "reference_context": {
+    "related_data_units": ["00596"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiavynpor3r3wzwbnzyh5rwyxuy547hghggyrhdq4dhibxz6ptfsuy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
