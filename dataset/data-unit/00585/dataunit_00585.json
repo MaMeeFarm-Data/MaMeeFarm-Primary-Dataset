@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00585",
+  "file_path": "dataset/data-unit/00585/dataunit_00585.json",
+  "category": "water-infrastructure",
+  "sub_category": "water_reserve_state",
+  "captured_at_local": "2026-01-24 11:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, farm water system",
+  "data_type": "image",
+  "title": "farm_water_reserve_confirmed",
+  "summary": "Farm water tanks confirmed full and connected for reserve use.",
+  "description": "Image records confirmation of farm water reserve status. Water tank WT-F-0001 (2000 L) is full and connected with WT-F-0002 (2000 L), forming a combined farm water reserve of 4000 liters for ongoing farm operations.",
+  "reference_context": {
+    "water_tanks": [
+      {
+        "asset_id": "WT-F-0001",
+        "capacity_liters": 2000,
+        "system": "Farm",
+        "status": "Active"
+      },
+      {
+        "asset_id": "WT-F-0002",
+        "capacity_liters": 2000,
+        "system": "Farm",
+        "status": "Active"
+      }
+    ],
+    "total_reserve_liters": 4000,
+    "related_dataunit": "00584",
+    "relation_type": "reserve_after_transfer"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicmard2fmvnzqhp4hdfilwyi6shmwuptjwx4omo3zdcez3htigaiq",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
