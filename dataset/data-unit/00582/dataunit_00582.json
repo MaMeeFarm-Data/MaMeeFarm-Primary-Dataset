@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00582",
+  "file_path": "dataset/data-unit/00582/dataunit_00582.json",
+  "category": "animal-care",
+  "sub_category": "sun_basking_behavior",
+  "captured_at_local": "2026-01-24 09:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, outdoor concrete resting area",
+  "data_type": "image",
+  "title": "dogs_resting_under_sunlight",
+  "summary": "Dogs resting and sun-basking during morning sunlight conditions.",
+  "description": "Image records multiple dogs lying on concrete surface while exposed to direct sunlight. Behavior observed during daytime rest period.",
+  "reference_context": {
+    "related_proof": "536",
+    "related_system": "solar_inverter_operation"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicabfli6mxwcvpfc3ecksm4l7i5f3ldpl5lejtfjqleen4rj7i2bi",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
