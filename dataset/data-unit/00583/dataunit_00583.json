@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00583",
+  "file_path": "dataset/data-unit/00583/dataunit_00583.json",
+  "category": "animal-care",
+  "sub_category": "bedding_maintenance",
+  "captured_at_local": "2026-01-24 09:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, garden drying area",
+  "data_type": "image",
+  "title": "dog_bedding_sun_drying",
+  "summary": "Dog bedding hung outdoors for sun drying as part of routine care.",
+  "description": "Image records dog bedding laid out and hung in outdoor garden area to dry under sunlight. Activity conducted as part of daily animal care routine.",
+  "reference_context": {
+    "related_dataunit_previous": "00565",
+    "relation_type": "post-cleaning drying"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic77esghx6gnavfanbt3v2ipubaep5ze3dp5pcosdvdtp3xxqw2sq",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
