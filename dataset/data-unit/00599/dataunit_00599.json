@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00599",
+  "file_path": "dataset/data-unit/00599/dataunit_00599.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-24 17:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_manual_watering_using_mobile_water_tank",
+  "summary": "Manual watering of vegetable beds during evening hours.",
+  "description": "Image records human labor manually watering vegetable beds using water from mobile water tank WT-M-0001 (200L).",
+  "reference_context": {
+    "water_source": "WT-M-0001",
+    "related_data_units": ["00585", "00591"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibjeypqsyz5or5rir4pyhkywnsquc7xcgy4jtswt4oo4z6qwxgmy4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
