@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00615",
+  "file_path": "dataset/data-unit/00615/dataunit_00615.json",
+  "category": "environmental-observation",
+  "sub_category": "sunlight-emergence",
+  "captured_at_local": "2026-01-25 07:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sunlight_emerging_over_farm",
+  "summary": "Morning sunlight beginning to emerge.",
+  "description": "Image records the emergence of morning sunlight over the farm area.",
+  "reference_context": {
+    "related_data_units": ["00607"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibye23uzam5latghkgoyfqd7fvnadkflwjhlh6mafk3ejsttxpcj4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
