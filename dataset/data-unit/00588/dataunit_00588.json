@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00588",
+  "file_path": "dataset/data-unit/00588/dataunit_00588.json",
+  "category": "environmental-condition",
+  "sub_category": "sky_visibility",
+  "captured_at_local": "2026-01-24 13:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "overcast_sky_low_sunlight_condition",
+  "summary": "Sky condition with limited sunlight.",
+  "description": "Image records overcast sky condition with dense cloud coverage during daytime. Used as environmental context for solar power system operation.",
+  "reference_context": {
+    "related_proof": ["536"],
+    "related_system": "solar_power_inverter",
+    "relation_type": "environmental_context_for_power_availability"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidanfwd6prjzveknz6m7x3lthagfywjneupyluvo74aqvikdajruy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
