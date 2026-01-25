@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00589",
+  "file_path": "dataset/data-unit/00589/dataunit_00589.json",
+  "category": "system-operation",
+  "sub_category": "power_management",
+  "captured_at_local": "2026-01-24 13:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_power_disconnected_due_to_low_solar_input",
+  "summary": "Water pump power plug disconnected due to insufficient solar power.",
+  "description": "Image records manual disconnection of water pump power plug following low solar energy availability. Action taken to prevent system instability.",
+  "reference_context": {
+    "related_data_unit": ["00588"],
+    "related_system": "solar_power_water_pump",
+    "relation_type": "operational_response_to_environmental_condition"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeief5x5qlms6tlaksrgngs7mpbicgkmst55gdnoll2rqnkga7jad6y",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
