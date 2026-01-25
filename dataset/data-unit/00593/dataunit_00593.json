@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00593",
+  "file_path": "dataset/data-unit/00593/dataunit_00593.json",
+  "category": "logistics",
+  "sub_category": "supply_waiting",
+  "captured_at_local": "2026-01-24 15:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm access road, Thailand",
+  "data_type": "image",
+  "title": "waiting_for_online_delivery_dog_food",
+  "summary": "Farm access road while waiting for online delivery.",
+  "description": "Image records dirt road access to MaMeeFarm while waiting for online transport delivery due to dog food depletion.",
+  "reference_context": {
+    "related_data_units": ["00576"],
+    "related_proofs": ["537"],
+    "condition": "dog_food_out_of_stock"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigp2gvqnxh7p4hgfret7uhekdkeyjjguycjrciebucqtczvwjo4lu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
