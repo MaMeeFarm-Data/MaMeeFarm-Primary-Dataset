@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00592",
+  "file_path": "dataset/data-unit/00592/dataunit_00592.json",
+  "category": "water-management",
+  "sub_category": "pump_handling",
+  "captured_at_local": "2026-01-24 15:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_removed_after_use",
+  "summary": "Water pump removed from tank after use.",
+  "description": "Image records water pump placed outside the tank after completion of pumping operation.",
+  "reference_context": {
+    "related_data_units": ["00584"],
+    "action": "pump_removed_after_use"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibsiveuwsvwkg2bby7iimtupr23mrttqnirbnxyulfsndxiobk4qu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
