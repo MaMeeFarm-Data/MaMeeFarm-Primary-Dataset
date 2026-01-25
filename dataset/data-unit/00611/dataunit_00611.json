@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00611",
+  "file_path": "dataset/data-unit/00611/dataunit_00611.json",
+  "category": "environmental-measurement",
+  "sub_category": "duck-house-temperature-humidity",
+  "captured_at_local": "2026-01-25 07:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_in_empty_duck_house",
+  "summary": "Morning temperature and humidity record inside duck house.",
+  "description": "Image records temperature and humidity inside duck house during morning hours. Display shows indoor temperature 13.8 degrees Celsius, outdoor temperature 13.0 degrees Celsius, and relative humidity 85 percent. Duck house currently without ducks.",
+  "reference_context": {
+    "related_data_units": ["00602"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifsat3ihavvsn5kklbos6ftjfyz24x5pja62qnygt3ljnsvyya3tu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
