@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00594",
+  "file_path": "dataset/data-unit/00594/dataunit_00594.json",
+  "category": "logistics",
+  "sub_category": "delivery_arrival",
+  "captured_at_local": "2026-01-24 15:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm gate area, Thailand",
+  "data_type": "image",
+  "title": "dog_food_delivery_arrival_with_dogs_waiting",
+  "summary": "Dog food delivery arrived at farm gate.",
+  "description": "Image records dog food delivery arrival at MaMeeFarm gate with dogs present and waiting.",
+  "reference_context": {
+    "related_data_units": ["00593"],
+    "related_proofs": ["537"],
+    "event_sequence": "delivery_arrival"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiedfpv3xus4v65n56zie2v4s6holrjsj36bvizle5w346heizsh3e",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
