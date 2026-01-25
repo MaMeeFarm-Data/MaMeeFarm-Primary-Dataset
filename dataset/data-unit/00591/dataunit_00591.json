@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00591",
+  "file_path": "dataset/data-unit/00591/dataunit_00591.json",
+  "category": "water-management",
+  "sub_category": "mobile_storage_status",
+  "captured_at_local": "2026-01-24 15:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mobile_water_tanks_wt_m_0001_0002_full_status",
+  "summary": "WT-M-0001 and WT-M-0002 observed full.",
+  "description": "Image records mobile water tanks WT-M-0001 and WT-M-0002 observed at full water level at time of capture.",
+  "reference_context": {
+    "asset_ids": ["WT-M-0001", "WT-M-0002"],
+    "related_data_units": ["00584", "00585", "00590"],
+    "status": "full"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigtqcy7mhpfosoahlhvo4hpr46h3x63zrvyp2pnr3drbvr24dt6wq",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
