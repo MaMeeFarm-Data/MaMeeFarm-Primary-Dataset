@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00603",
+  "file_path": "dataset/data-unit/00603/dataunit_00603.json",
+  "category": "animal-presence",
+  "sub_category": "domestic-dog-observation",
+  "captured_at_local": "2026-01-24 19:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_sitting_and_observing_house_area_at_night",
+  "summary": "Dogs sitting in front of the house during nighttime.",
+  "description": "Image records domestic dogs sitting and observing the surrounding house area during nighttime hours.",
+  "reference_context": {
+    "related_data_units": ["00547"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdu4wbsf6akvlnjtuz3s3ssvid7ydauhv4povjicecwg3ml4jjkq",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
