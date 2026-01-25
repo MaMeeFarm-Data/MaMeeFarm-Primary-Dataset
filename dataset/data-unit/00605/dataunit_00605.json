@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00605",
+  "file_path": "dataset/data-unit/00605/dataunit_00605.json",
+  "category": "infrastructure-operation",
+  "sub_category": "solar-inverter-shutdown",
+  "captured_at_local": "2026-01-24 23:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_shutdown_end_of_day",
+  "summary": "End-of-day inverter shutdown record.",
+  "description": "Image records the shutdown state of the hybrid solar inverter at end of day. Power availability recorded as 15 hours 40 minutes (08:15–23:00). System operating under solar power constraints.",
+  "reference_context": {
+    "related_proofs": ["0536"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiauk6a4ojqk4g6ncnbnhf3hpsm7c7lfmyv4stajywjvckjjecofsa",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
