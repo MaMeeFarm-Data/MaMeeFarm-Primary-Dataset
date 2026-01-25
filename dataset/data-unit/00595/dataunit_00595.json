@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00595",
+  "file_path": "dataset/data-unit/00595/dataunit_00595.json",
+  "category": "inventory",
+  "sub_category": "animal_feed_opening",
+  "captured_at_local": "2026-01-24 15:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm storage area, Thailand",
+  "data_type": "image",
+  "title": "opening_20kg_dog_food_bag",
+  "summary": "Opening new 20 kg dog food bag.",
+  "description": "Image documents the opening of a new 20 kg dog food bag following depletion of previous stock.",
+  "reference_context": {
+    "related_data_units": ["00576"],
+    "event_sequence": "feed_restock_opening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih4bi2ljjlpiuksbt5uwau2m4bzettz3ugkkdzjrptyfujaxsdnfy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
