@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00618",
+  "file_path": "dataset/data-unit/00618/dataunit_00618.json",
+  "category": "environmental-observation",
+  "sub_category": "dew_presence",
+  "captured_at_local": "2026-01-25 10:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dew_persistence_on_rose_leaves_mid_morning",
+  "summary": "Dew remains present on rose leaves during mid-morning.",
+  "description": "Image records continued presence of dew on rose leaves after earlier morning observation.",
+  "reference_context": {
+    "related_data_units": ["00614"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihqbgjk5kimxl6rrj3xjlc7tmjozxtdwzflzylr3edxeof6impdka",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
