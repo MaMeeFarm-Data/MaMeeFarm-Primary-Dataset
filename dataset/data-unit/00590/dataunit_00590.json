@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00590",
+  "file_path": "dataset/data-unit/00590/dataunit_00590.json",
+  "category": "water-management",
+  "sub_category": "gravity_fed_storage",
+  "captured_at_local": "2026-01-24 15:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mobile_water_tank_wt_m_0003_filled_by_gravity_flow",
+  "summary": "Mobile water tank WT-M-0003 observed full after gravity-fed filling.",
+  "description": "Image records WT-M-0003 reaching full capacity via gravity-fed water flow following prior pump-assisted filling and pump shutdown.",
+  "reference_context": {
+    "related_data_unit": ["00587", "00588", "00589"],
+    "asset_id": "WT-M-0003",
+    "capacity_liters": 200,
+    "filling_method": "gravity_flow"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiedoyfoezszwrzry2ypctfriosdbnnbdqurqgkctq5noipn4m2ixy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
