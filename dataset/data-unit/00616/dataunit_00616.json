@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00616",
+  "file_path": "dataset/data-unit/00616/dataunit_00616.json",
+  "category": "infrastructure-operation",
+  "sub_category": "solar_inverter_activation",
+  "captured_at_local": "2026-01-25 07:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "solar_inverter_power_on_morning",
+  "summary": "Hybrid solar inverter powered on in the morning.",
+  "description": "Image records the activation of the hybrid solar inverter system after morning sunlight became available.",
+  "reference_context": {
+    "related_data_units": ["00605", "00615"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidhth3227rbduiiq3a52rvzlvppmwqldjldkrndkxtfnn5f75xcmu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
