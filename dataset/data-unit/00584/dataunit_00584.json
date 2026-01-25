@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00584",
+  "file_path": "dataset/data-unit/00584/dataunit_00584.json",
+  "category": "water-infrastructure",
+  "sub_category": "water_transfer",
+  "captured_at_local": "2026-01-24 11:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, farm water system area",
+  "data_type": "image",
+  "title": "water_transfer_farm_to_mobile_tanks",
+  "summary": "Water pumped from farm water tank to mobile water tanks for garden use.",
+  "description": "Image records use of a submersible pump to transfer water from farm water tank WT-F-0001 (2000 L) to mobile water tanks WT-M-0001 to WT-M-0003 (200 L each) for vegetable garden operations.",
+  "reference_context": {
+    "source_water_tank": "WT-F-0001",
+    "destination_water_tanks": [
+      "WT-M-0001",
+      "WT-M-0002",
+      "WT-M-0003"
+    ],
+    "related_proof": "532",
+    "relation_type": "refill_after_depletion"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib333yig43ky3ysujp5xk75stmrvk4gfl54hv7rlgf6uikmwngczq",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
