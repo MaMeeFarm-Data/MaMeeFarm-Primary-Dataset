@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00600",
+  "file_path": "dataset/data-unit/00600/dataunit_00600.json",
+  "category": "water-resource-usage",
+  "sub_category": "manual-irrigation-observation",
+  "captured_at_local": "2026-01-24 17:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "mobile_water_tank_usage_without_volume_measurement",
+  "summary": "Observation of mobile water tank usage for farm irrigation without quantified volume.",
+  "description": "Image documents the use of mobile water tank WT-M-0001 during evening irrigation. Exact water volume used is not measured due to limited resources and absence of measuring instruments.",
+  "reference_context": {
+    "water_source": "WT-M-0001",
+    "related_data_units": ["00599"],
+    "measurement_status": "volume_not_measured"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibiakktxrnvsmn6p6sb7j3anhjdpmos7rijukujfs3nmk2n44ql2a",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
