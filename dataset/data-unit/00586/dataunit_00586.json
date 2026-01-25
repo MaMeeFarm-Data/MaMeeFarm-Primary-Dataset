@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00586",
+  "file_path": "dataset/data-unit/00586/dataunit_00586.json",
+  "category": "water-infrastructure",
+  "sub_category": "mobile_water_refill",
+  "captured_at_local": "2026-01-24 11:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, mobile water system",
+  "data_type": "image",
+  "title": "mobile_water_tank_refilled",
+  "summary": "Mobile water tank WT-M-0001 being refilled.",
+  "description": "Image records refilling activity of mobile water tank WT-M-0001 (200 L capacity). Water supplied from farm water reserve following confirmed reserve state.",
+  "reference_context": {
+    "source_water_system": "Farm Water Reserve",
+    "mobile_unit": {
+      "asset_id": "WT-M-0001",
+      "capacity_liters": 200,
+      "system": "Mobile",
+      "status": "Active"
+    },
+    "related_dataunits": ["00584", "00585"],
+    "relation_type": "mobile_refill_after_reserve_confirmation"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie5ksfbbqaa3xxpgb7fmqpc5bogfk4cuqjmpsdgcyvbx2qxt5pg3e",
+    "note": "External image reference provided for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
