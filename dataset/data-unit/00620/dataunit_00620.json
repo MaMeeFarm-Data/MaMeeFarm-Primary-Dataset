@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00620",
+  "file_path": "dataset/data-unit/00620/dataunit_00620.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water_pump_setup",
+  "captured_at_local": "2026-01-25 11:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "submersible_pump_installed_in_farm_water_tank",
+  "summary": "Submersible pump placed into farm water tank.",
+  "description": "Image records placement of a submersible water pump into farm water tank WT-F-0001 with 2000 liter capacity. Tank status active.",
+  "asset_context": {
+    "asset_id": "WT-F-0001",
+    "asset_type": "water_tank",
+    "capacity_liters": 2000,
+    "system": "farm",
+    "status": "active"
+  },
+  "reference_context": {
+    "related_proofs": ["541"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigfn2n3plaxbbd72zgrlcthiyu5mg4hhkqldkehzybntkupbev6qm",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
