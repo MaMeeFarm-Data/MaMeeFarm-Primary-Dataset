@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00622",
+  "file_path": "dataset/data-unit/00622/dataunit_00622.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water_pump_power_on",
+  "captured_at_local": "2026-01-25 11:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "plug_in_and_power_on_water_pump",
+  "summary": "Electrical plug connected to power water pump.",
+  "description": "Image records electrical plug connected to power supply to activate water pump during farm water system operation.",
+  "asset_context": {
+    "related_asset_id": "WT-F-0001",
+    "asset_type": "water_pump_system",
+    "system": "farm"
+  },
+  "reference_context": {
+    "related_proofs": ["541"],
+    "related_data_units": ["00620", "00621"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiahhhkt62ifetwug6ajmzui3ybjpmu4xy6e6h57d3beejatshj3oe",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
