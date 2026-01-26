@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00634",
+  "file_path": "dataset/data-unit/00634/dataunit_00634.json",
+  "category": "animal-care",
+  "sub_category": "dog_bedding_maintenance",
+  "captured_at_local": "2026-01-25 17:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "collecting_dog_bedding_evening",
+  "summary": "Collection of dog bedding in the evening after daytime drying.",
+  "description": "Image records the activity of collecting dog bedding in the evening. Bedding had been laid out to dry earlier in the day and is retrieved before nightfall.",
+  "reference_context": {
+    "related_proofs": ["540"],
+    "maintenance_cycle": "drying_morning_collection_evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiakhpkcojlxtruk5cjxpyaezvdbqczhmzb7b6nfjdtlfc4h6n47jq",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
