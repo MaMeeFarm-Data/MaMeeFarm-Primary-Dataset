@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00656",
+  "file_path": "dataset/data-unit/00656/dataunit_00656.json",
+  "category": "domestic-labor",
+  "sub_category": "dog-bedding-maintenance",
+  "captured_at_local": "2026-01-26 08:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "air_drying_dog_bedding_sheet",
+  "summary": "Dog bedding sheet placed outdoors for air drying as part of daily routine.",
+  "description": "Image records dog bedding sheet being placed outdoors to dry during morning hours. Bedding was previously collected and stored the day before.",
+  "reference_context": {
+    "related_data_units": ["00634"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibnrsjgxmbicar5hcensehhae4imr4jbv4zvaaemwafvsh6t4mujq",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
