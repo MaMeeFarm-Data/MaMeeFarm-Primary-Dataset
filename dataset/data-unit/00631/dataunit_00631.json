@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00631",
+  "file_path": "dataset/data-unit/00631/dataunit_00631.json",
+  "category": "food-preparation",
+  "sub_category": "home_cooking_with_garden_produce",
+  "captured_at_local": "2026-01-25 16:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "meal_prepared_with_garden_coriander",
+  "summary": "Home-cooked meal prepared using coriander harvested from garden plot.",
+  "description": "Image records prepared meal with coriander added as ingredient. Coriander sourced from garden harvest recorded earlier the same day.",
+  "reference_context": {
+    "related_data_units": ["00630"],
+    "ingredient_source": "garden_coriander"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibszi7gb4l2en5w5cblo6ifvqti5vjp5f4ct5yl7popby2bwy4bsi",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
