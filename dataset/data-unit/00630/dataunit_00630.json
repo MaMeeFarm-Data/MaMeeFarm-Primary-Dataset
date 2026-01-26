@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00630",
+  "file_path": "dataset/data-unit/00630/dataunit_00630.json",
+  "category": "agricultural-activity",
+  "sub_category": "crop_harvest_for_consumption",
+  "captured_at_local": "2026-01-25 18:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "coriander_harvest_for_meal_preparation",
+  "summary": "Coriander plants harvested from garden plot for household cooking.",
+  "description": "Image records coriander plants present in garden plot at time of harvest for food preparation. Leaves appear intact and freshly cut.",
+  "reference_context": {
+    "note": "Harvest activity recorded as part of daily food-use cycle."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibgkflb66ocaku25627hcjsvptn7ongwh3sclddk74xe3qkebvata",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
