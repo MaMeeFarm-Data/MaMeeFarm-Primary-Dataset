@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00640",
+  "file_path": "dataset/data-unit/00640/dataunit_00640.json",
+  "category": "farm-infrastructure",
+  "sub_category": "gate_operation",
+  "captured_at_local": "2026-01-25 18:12",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable Garden Zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "closing_garden_gate_after_daily_activities",
+  "summary": "Closure of garden gate after completion of activities in vegetable garden zone.",
+  "description": "Image records the vegetable garden gate in closed position following daily activities. The gate was previously opened during the morning period.",
+  "reference_context": {
+    "related_proofs": ["539"],
+    "operation_phase": "evening_closure",
+    "prior_state": "opened_in_morning"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihbj2bmkb4wl2uniuaz7l3cmn4nbcerrbmob7rjkylcaqsh5flily",
+    "note": "External image reference showing closed gate condition."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
