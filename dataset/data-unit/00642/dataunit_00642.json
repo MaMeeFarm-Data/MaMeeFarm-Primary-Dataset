@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00642",
+  "file_path": "dataset/data-unit/00642/dataunit_00642.json",
+  "category": "infrastructure-operation",
+  "sub_category": "solar_inverter_shutdown",
+  "captured_at_local": "2026-01-26 01:20",
+  "timezone": "Asia/Bangkok",
+  "location": "Solar Power Room, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "daily_solar_inverter_shutdown",
+  "summary": "End-of-day shutdown of hybrid solar inverter system.",
+  "description": "Image documents the shutdown state of the hybrid solar inverter at the end of daily operations.",
+  "operation_state": {
+    "system": "hybrid_solar_inverter",
+    "action": "shutdown",
+    "operation_cycle": "end_of_day"
+  },
+  "reference_context": {
+    "opening_reference_data_unit": "00616",
+    "system_frequency_mode": "low_frequency",
+    "record_phase": "night"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia2mv2dyyh27uv7dekrzeygbaowf5vr64gbir3datuae4eovodp2u",
+    "note": "External image reference showing inverter unit at shutdown state."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
