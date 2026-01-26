@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00648",
+  "file_path": "dataset/data-unit/00648/dataunit_00648.json",
+  "category": "environmental-condition",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-26 07:05",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck Coop, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "duck_coop_temperature_humidity_morning_record",
+  "summary": "Temperature and humidity measurement recorded inside duck coop during morning hours.",
+  "description": "Image records environmental measurement device inside the duck coop showing indoor temperature 13.6°C, outdoor temperature 12.5°C, and relative humidity 84%.",
+  "measurement": {
+    "temperature_indoor_celsius": 13.6,
+    "temperature_outdoor_celsius": 12.5,
+    "relative_humidity_percent": 84
+  },
+  "reference_context": {
+    "related_data_unit": "00639",
+    "relation_type": "previous_day_reference"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigrca6cfstj7ucrhco3j3ewhj6okegrunxo3n37eom6nueisaibzy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
