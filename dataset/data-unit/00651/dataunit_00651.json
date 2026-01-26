@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00651",
+  "file_path": "dataset/data-unit/00651/dataunit_00651.json",
+  "category": "zone-monitoring",
+  "sub_category": "front-yard-state",
+  "captured_at_local": "2026-01-26 07:52",
+  "timezone": "Asia/Bangkok",
+  "location": "Front Yard Strip, House Line, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "front_yard_strip_zone_state_morning",
+  "summary": "Front yard strip zone recorded during morning hours.",
+  "description": "Image records the physical state of the front yard strip area at the entrance of the house line system.",
+  "zone_identification": {
+    "zone_id": "HZ-01",
+    "zone_name": "Front Yard Strip",
+    "system": "House Line"
+  },
+  "reference_context": {
+    "related_proof": "544",
+    "relation_type": "proof_reference"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib5xygh2jbzrsuvuai7jv74b2r7ehegzj2iyugx7fyshruzugvpee",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
