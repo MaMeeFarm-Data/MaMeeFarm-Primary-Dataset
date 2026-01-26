@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00629",
+  "file_path": "dataset/data-unit/00629/dataunit_00629.json",
+  "category": "agricultural-observation",
+  "sub_category": "crop_condition",
+  "captured_at_local": "2026-01-25 13:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "leaf_posture_midday_condition",
+  "summary": "Vegetable bed condition observed during early afternoon.",
+  "description": "Image records vegetable plants with leaves showing downward posture and reduced turgidity during early afternoon period.",
+  "reference_context": {
+    "related_data_units": ["00627", "00628"],
+    "note": "Referenced to sky condition and environmental measurements during the same time window."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifulvnp6v477sglb2dmn3pld76lcslwcqlgo5npyjtpjklro3mtle",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
