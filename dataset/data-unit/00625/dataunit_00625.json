@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00625",
+  "file_path": "dataset/data-unit/00625/dataunit_00625.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water_tank_overflow_full",
+  "captured_at_local": "2026-01-25 12:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "house_water_tank_full_overflow",
+  "summary": "House water tank reached full capacity and overflow observed.",
+  "description": "Image records water overflowing from elevated house water tank after filling operation reached full capacity.",
+  "asset_context": {
+    "assets": [
+      {
+        "asset_id": "WT-H-0001",
+        "asset_type": "water_tank",
+        "capacity_liters": 1000,
+        "system": "house",
+        "status": "active"
+      },
+      {
+        "asset_id": "WT-H-0002",
+        "asset_type": "water_tank",
+        "capacity_liters": 2000,
+        "system": "house",
+        "status": "active"
+      }
+    ]
+  },
+  "reference_context": {
+    "related_data_units": ["00620", "00621", "00622", "00623"],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig73sfqornawh37q5eobwc2swhrc4d6xm3bdbbnaxh3mxblsh2iha",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
