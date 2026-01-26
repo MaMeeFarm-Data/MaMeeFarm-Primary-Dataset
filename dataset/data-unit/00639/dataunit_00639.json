@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00639",
+  "file_path": "dataset/data-unit/00639/dataunit_00639.json",
+  "category": "environmental-condition",
+  "sub_category": "temperature_humidity_record_evening",
+  "captured_at_local": "2026-01-25 18:11",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck Shelter, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_temperature_humidity_duck_shelter",
+  "summary": "Evening temperature and humidity record inside duck shelter.",
+  "description": "Image records temperature and humidity values displayed on HTC-2 digital thermometer/hygrometer inside duck shelter.",
+  "measurement": {
+    "temperature_inside_celsius": 24.8,
+    "temperature_outside_celsius": 20.5,
+    "relative_humidity_percent": 62
+  },
+  "reference_context": {
+    "related_data_units": ["00627"],
+    "device_model": "HTC-2",
+    "record_phase": "evening"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigr5kqusdlrijgqvtlioj7gviqkgbnybingyktlyholkjxzlaxtd4",
+    "note": "External image reference showing temperature and humidity display."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
