@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00621",
+  "file_path": "dataset/data-unit/00621/dataunit_00621.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water_pipe_reconfiguration",
+  "captured_at_local": "2026-01-25 11:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pipe_reconfiguration_for_pump_preparation",
+  "summary": "Water pipe adjusted as part of pump preparation process.",
+  "description": "Image records reconfiguration of water pipe connections during preparation stage for operating water pump system. This step follows submersible pump installation.",
+  "asset_context": {
+    "related_asset_id": "WT-F-0001",
+    "asset_type": "water_tank_system",
+    "system": "farm"
+  },
+  "reference_context": {
+    "related_proofs": ["541"],
+    "related_data_units": ["00620"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihlkeymvxezh5scj66444mxn2uhyrx3ukvcfub3djchgkpey73aae",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
