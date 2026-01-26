@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00637",
+  "file_path": "dataset/data-unit/00637/dataunit_00637.json",
+  "category": "asset-identification",
+  "sub_category": "banana_tree_label_post_cut",
+  "captured_at_local": "2026-01-25 17:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "asset_label_attached_banana_tree_ban_0002_post_cut",
+  "summary": "Asset ID label attached to banana tree BAN-0002 after inflorescence cut.",
+  "description": "Image documents the attachment of DGCP asset identification labels on banana tree BAN-0002 after the inflorescence cut event. Labels explicitly reference the primary event and Proof 543.",
+  "reference_context": {
+    "asset_id": "BAN-0002",
+    "related_proofs": ["543"],
+    "related_data_units": ["00636"],
+    "event_state": "post_cut_labeling"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicedwhwrcq4cabsqfhfp6hwo4axdiyp4ybjnb7lvhgekzv5jadysa",
+    "note": "External image reference showing asset ID labels attached after cutting."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
