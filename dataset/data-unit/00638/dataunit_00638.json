@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00638",
+  "file_path": "dataset/data-unit/00638/dataunit_00638.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual_watering_evening",
+  "captured_at_local": "2026-01-25 18:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "evening_manual_watering_vegetable_bed",
+  "summary": "Manual watering of vegetable beds during evening hours.",
+  "description": "Image records manual watering of vegetable beds using handheld watering device during evening hours following daytime heat exposure.",
+  "reference_context": {
+    "related_data_units": ["00629"],
+    "activity_phase": "evening_watering"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiefl3gxaoldcrbogxl4bfvpjzowi35h5hb6pyskt3ipetkryl2moy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
