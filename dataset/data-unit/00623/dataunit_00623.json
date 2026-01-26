@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00623",
+  "file_path": "dataset/data-unit/00623/dataunit_00623.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water_transfer_to_house_tanks",
+  "captured_at_local": "2026-01-25 11:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pumped_to_house_water_tanks",
+  "summary": "Water transferred to house water tanks.",
+  "description": "Image records water being pumped to house water tanks WT-H-0001 and WT-H-0002 for household use.",
+  "asset_context": {
+    "assets": [
+      {
+        "asset_id": "WT-H-0001",
+        "asset_type": "water_tank",
+        "capacity_liters": 1000,
+        "system": "house",
+        "status": "active"
+      },
+      {
+        "asset_id": "WT-H-0002",
+        "asset_type": "water_tank",
+        "capacity_liters": 2000,
+        "system": "house",
+        "status": "active"
+      }
+    ]
+  },
+  "reference_context": {
+    "related_proofs": ["541"],
+    "related_data_units": ["00620", "00621", "00622"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigsgvx5r7v6zbpizuku2hs6b6b3rora5coeiyt3yf2n6qq3fugxdq",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
