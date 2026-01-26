@@ -1,0 +1,23 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00657",
+  "file_path": "dataset/data-unit/00657/dataunit_00657.json",
+  "category": "agricultural-labor",
+  "sub_category": "water-pumping",
+  "captured_at_local": "2026-01-26 12:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_placed_into_earthen_well",
+  "summary": "Water pump placed into earthen well.",
+  "description": "Image records a water pump being placed into an earthen well as part of farm water management activity.",
+  "reference_context": {},
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihys7rr4p3ir22kkghae7f6jbho4jmne425xqoeknvnvsktl5isi4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
