@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00647",
+  "file_path": "dataset/data-unit/00647/dataunit_00647.json",
+  "category": "human-activity",
+  "sub_category": "farm-access",
+  "captured_at_local": "2026-01-26 07:03",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm Entrance Gate, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "opening_farm_gate_morning_work_start",
+  "summary": "Farm gate observed at moment of opening prior to morning work activities.",
+  "description": "Image records the farm entrance gate at the time a human is about to open the gate to begin daily farm work.",
+  "reference_context": {
+    "related_data_unit": "00640",
+    "relation_type": "previous_gate_closure_reference"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibinszghnhrcpx53cqe32jilb662e5cbnusfl5ri55raizptkyj3m",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
