@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00654",
+  "file_path": "dataset/data-unit/00654/dataunit_00654.json",
+  "category": "animal-presence",
+  "sub_category": "resting-state",
+  "captured_at_local": "2026-01-26 08:31",
+  "timezone": "Asia/Bangkok",
+  "location": "House Interior, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_resting_on_bedding_inside_house",
+  "summary": "Dog resting on bedding inside the house.",
+  "description": "Image records a small dog positioned on bedding material on the house floor during morning hours.",
+  "subject_observation": {
+    "animal_type": "dog",
+    "count_visible": 1,
+    "posture": "resting",
+    "surface": "bedding"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihl2favwolfvynbmc4ogongiq7osl6p3td362gpg2ocnxxr4y7ole",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
