@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00653",
+  "file_path": "dataset/data-unit/00653/dataunit_00653.json",
+  "category": "energy-system",
+  "sub_category": "solar-inverter-operation",
+  "captured_at_local": "2026-01-26 08:06",
+  "timezone": "Asia/Bangkok",
+  "location": "House Power System, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_solar_inverter_turned_on",
+  "summary": "Solar inverter turned on during morning hours.",
+  "description": "Image records the solar inverter being turned on in the morning after being shut down the previous night.",
+  "operation_state": {
+    "action": "power_on",
+    "energy_source": "solar",
+    "time_of_day": "morning"
+  },
+  "reference_context": {
+    "previous_shutdown": "00642",
+    "related_environment_record": "00652"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiabribzb5lgnfve7e7g6ruuqzs26o2ifnae4vmw6nzvqqc7nie5su",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
