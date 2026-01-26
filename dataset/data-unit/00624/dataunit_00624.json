@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00624",
+  "file_path": "dataset/data-unit/00624/dataunit_00624.json",
+  "category": "daily-life-activity",
+  "sub_category": "parcel_pickup_with_puppy_following",
+  "captured_at_local": "2026-01-25 11:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "parcel_pickup_near_house_with_puppies_following",
+  "summary": "Person walking to receive a parcel near the house while puppies follow.",
+  "description": "Image records the activity of walking to receive a parcel in front of the house. Puppies are observed running and following during the movement.",
+  "asset_context": {
+    "assets": [
+      {
+        "asset_type": "puppies",
+        "relation": "farm_animals",
+        "status": "active"
+      }
+    ]
+  },
+  "reference_context": {
+    "related_data_units": [],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidwzk5ugrokrmsshoap4y4ngamaunqcmtwa22eg55vl3l5zjxonry",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
