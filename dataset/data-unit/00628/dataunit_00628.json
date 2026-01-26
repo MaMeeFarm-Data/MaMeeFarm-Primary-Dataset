@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00628",
+  "file_path": "dataset/data-unit/00628/dataunit_00628.json",
+  "category": "environmental-observation",
+  "sub_category": "sky_condition",
+  "captured_at_local": "2026-01-25 13:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "midday_sky_condition",
+  "summary": "Sky condition observation during early afternoon.",
+  "description": "Image records sky condition with sun partially obscured by clouds at time of capture.",
+  "reference_context": {
+    "related_data_units": ["00627"],
+    "note": "Temporal and environmental reference to duck house temperature and humidity record."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigxnu2q3zkvgiciq7uwqxrdb2gehugbua6smjyppx7syxed2ceaoa",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
