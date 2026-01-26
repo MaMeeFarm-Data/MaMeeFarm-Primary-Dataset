@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00626",
+  "file_path": "dataset/data-unit/00626/dataunit_00626.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water_pump_power_off",
+  "captured_at_local": "2026-01-25 12:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_power_disconnected",
+  "summary": "Electrical plug disconnected to stop water pump operation.",
+  "description": "Image records removal of electrical plug supplying power to water pump after house water tanks reached full capacity.",
+  "asset_context": {
+    "assets": [
+      {
+        "asset_id": "WT-F-0001",
+        "asset_type": "water_tank",
+        "capacity_liters": 2000,
+        "system": "farm",
+        "status": "active"
+      }
+    ]
+  },
+  "reference_context": {
+    "related_data_units": ["00620", "00621", "00622", "00623", "00625"],
+    "related_proofs": []
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiangg4nulbdknfwejsn7yvhzvmk4aivgjtnigp3sfvg3bwmkyt5fu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
