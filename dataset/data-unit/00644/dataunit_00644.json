@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00644",
+  "file_path": "dataset/data-unit/00644/dataunit_00644.json",
+  "category": "environmental-observation",
+  "sub_category": "morning-environment",
+  "captured_at_local": "2026-01-26 06:56",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable Garden Zone, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_environmental_condition",
+  "summary": "Morning environmental condition at vegetable garden area.",
+  "description": "Image records early morning environmental atmosphere and landscape conditions at MaMeeFarm.",
+  "reference_context": {
+    "related_data_unit": "00643",
+    "relation_type": "environmental_context_reference"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibz46hnkixnykdcojlgw5x6eeqd6siqqogqznon36r25nnw72snlu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
