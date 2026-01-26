@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00652",
+  "file_path": "dataset/data-unit/00652/dataunit_00652.json",
+  "category": "environment-observation",
+  "sub_category": "morning-sunlight-animal-presence",
+  "captured_at_local": "2026-01-26 08:05",
+  "timezone": "Asia/Bangkok",
+  "location": "House Entrance, Front Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sunlight_dogs_at_house_entrance",
+  "summary": "Morning sunlight visible with dogs present at the house entrance.",
+  "description": "Image records the presence of sunlight reaching the house entrance area with multiple dogs positioned near the doorway.",
+  "environmental_condition": {
+    "sunlight": "present",
+    "time_of_day": "morning"
+  },
+  "subject_observation": {
+    "animal_type": "dog",
+    "count_visible": "multiple",
+    "behavior": "stationary near entrance"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifytsmj7zsxrjrq5xme4xqtdxbvuxyktxmi54d4hjlhjuorzxdsx4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
