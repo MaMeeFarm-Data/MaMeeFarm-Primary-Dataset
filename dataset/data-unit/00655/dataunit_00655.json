@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00655",
+  "file_path": "dataset/data-unit/00655/dataunit_00655.json",
+  "category": "environmental-condition",
+  "sub_category": "morning-dew",
+  "captured_at_local": "2026-01-26 08:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sunlight_with_dew_on_leaves",
+  "summary": "Morning sunlight with visible dew remaining on plant leaves.",
+  "description": "Image records plant leaves with visible dew droplets present while sunlight is already observed during morning hours.",
+  "reference_context": {
+    "related_data_units": ["00646", "00652"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihyebkq75bnp2uc3owj4wujr24y6pplfzqjwkecwqi22ryasckxzi",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
