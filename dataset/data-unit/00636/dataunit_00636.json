@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00636",
+  "file_path": "dataset/data-unit/00636/dataunit_00636.json",
+  "category": "agricultural-event",
+  "sub_category": "banana_inflorescence_post_cut",
+  "captured_at_local": "2026-01-25 17:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_inflorescence_after_cut_ban_0002",
+  "summary": "Banana inflorescence BAN-0002 observed on ground after cutting.",
+  "description": "Image records the banana inflorescence (banana blossom) BAN-0002 lying on the ground after cutting. The cut has already been completed prior to this capture.",
+  "reference_context": {
+    "asset_id": "BAN-0002",
+    "related_proofs": ["543"],
+    "event_state": "post_cut"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie2av26jqeb5madwwg7jvn56fnrnwsx63igelyx2xl4d7qkikjaa4",
+    "note": "External image reference showing banana inflorescence after cutting."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
