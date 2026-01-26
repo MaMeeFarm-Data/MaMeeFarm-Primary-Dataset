@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00635",
+  "file_path": "dataset/data-unit/00635/dataunit_00635.json",
+  "category": "asset-identification",
+  "sub_category": "banana_tree_labeling",
+  "captured_at_local": "2026-01-25 17:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_tree_asset_id_label_attached",
+  "summary": "Physical attachment of asset ID labels to banana tree.",
+  "description": "Image records the attachment of printed asset identification labels to a banana tree. Labels include BAN-0001 identity, primary event reference, and subsequent care event references, establishing on-site traceability.",
+  "reference_context": {
+    "asset_id": "BAN-0001",
+    "related_proofs": ["498", "517", "527"],
+    "related_data_units": ["00332", "00528"],
+    "event_chain": [
+      "inflorescence_cut",
+      "care_event_01",
+      "care_event_02"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicqav2bxi55dnvpy6yuv5inxrpaamz2zhv2tybtjggyyqavgw4z2y",
+    "note": "External image reference showing physical asset ID labels attached to banana tree."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
