@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00682",
+  "file_path": "dataset/data-unit/00682/dataunit_00682.json",
+  "category": "agriculture",
+  "sub_category": "crop-monitoring",
+  "crop": "yardlong_bean",
+  "crop_th": "ถั่วฝักยาว",
+  "zone_id": "FZ-03",
+  "captured_at_local": "2026-01-27 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "yardlong_bean_growth_tracking",
+  "summary": "Image records the growth condition of yardlong bean seedlings.",
+  "description": "Image shows yardlong bean seedlings planted in FZ-03 with straw mulch covering the planting bed.",
+  "reference_context": {
+    "related_data_units": ["00415", "00610"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifxmuaeilsjm3wql5uovsttyamnks73hcmewkogz4wa53xbzbklbm",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
