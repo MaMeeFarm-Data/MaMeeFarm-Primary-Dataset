@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00676",
+  "file_path": "dataset/data-unit/00676/dataunit_00676.json",
+  "category": "living-condition",
+  "sub_category": "animals-resting-indoors",
+  "captured_at_local": "2026-01-27 00:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dogs_resting_indoors_after_power_shutdown",
+  "summary": "Dogs resting inside the house after farm power system shutdown.",
+  "description": "Image records dogs resting indoors. Image appears dark due to the farm power system being shut down at the time of capture.",
+  "observed_state": {
+    "animals": "dogs",
+    "activity": "resting",
+    "lighting_condition": "low_light"
+  },
+  "reference_context": {
+    "related_data_units": ["00674", "00675"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiccuhxtn2srxde5yvk24gbkoqkwsblzrxxzidf7rktfgg6ctoqdue",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
