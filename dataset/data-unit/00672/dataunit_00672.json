@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00672",
+  "file_path": "dataset/data-unit/00672/dataunit_00672.json",
+  "category": "farm-operation",
+  "sub_category": "daily-closure",
+  "captured_at_local": "2026-01-26 18:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-BackGate",
+  "zone_name": "Farm Back Gate",
+  "system": "Farm",
+  "data_type": "image",
+  "title": "farm_back_gate_closed_end_of_day",
+  "summary": "Closing back gate after completion of daily farm operations.",
+  "description": "Image documents the back gate of MaMeeFarm being closed at the end of daily farm work.",
+  "reference_context": {
+    "related_data_unit": ["00647"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiftpaooodbyvuoqrkq5vqsm23mhxzpgqilhnechrru4ktjhe7civm",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
