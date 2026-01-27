@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00689",
+  "file_path": "dataset/data-unit/00689/dataunit_00689.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water-system-setup",
+  "asset_id": "WT-F-0001",
+  "captured_at_local": "2026-01-27 10:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "placing_pump_into_water_tank_wt_f_0001",
+  "summary": "Image records placement of water pump into water tank WT-F-0001.",
+  "description": "Image shows a water pump being placed into water tank WT-F-0001 as part of preparation for water system operation.",
+  "reference_context": {
+    "related_proof": [
+      "551"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdkjbdxjdru465ciym6s7eruzkb5fx7x7hygqu5oaat3gzdgjp2u",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
