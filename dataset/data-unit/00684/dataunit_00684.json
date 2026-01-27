@@ -1,0 +1,27 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00684",
+  "file_path": "dataset/data-unit/00684/dataunit_00684.json",
+  "category": "environmental-data",
+  "sub_category": "plant-surface-condition",
+  "crop": "kale",
+  "crop_th": "คะน้า",
+  "captured_at_local": "2026-01-27 07:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dew_on_kale_leaves",
+  "summary": "Image records dew present on kale leaves in the morning.",
+  "description": "Image shows water droplets (dew) on the surface of kale leaves during morning hours.",
+  "reference_context": {
+    "related_data_units": ["00683"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicbvh7nuop7laua23x4idi3nwjxk2z6mjnjdbnkcvubxlkjl3flmq",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
