@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00661",
+  "file_path": "dataset/data-unit/00661/dataunit_00661.json",
+  "category": "agricultural-observation",
+  "sub_category": "insect-on-crop-leaf",
+  "captured_at_local": "2026-01-26 12:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "small_orange_insect_on_pumpkin_leaf",
+  "summary": "Small orange insect observed on pumpkin leaf.",
+  "description": "Image documents a small orange-colored insect present on a pumpkin leaf. Local residents commonly refer to the insect as 'tao-thong' (ladybug), but the species is not confirmed. The insect is frequently observed feeding on pumpkin leaves in this area. No chemical substances are used at this location.",
+  "reference_context": {
+    "related_data_units": ["00096", "00265"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiewtb7ywtnp6dh7bjez2vlqr2tu74mpkvesc6roogajfsb5grz6xa",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "species_not_identified",
+    "local_naming_unverified",
+    "no_chemical_use"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
