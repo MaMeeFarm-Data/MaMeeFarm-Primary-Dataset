@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00664",
+  "file_path": "dataset/data-unit/00664/dataunit_00664.json",
+  "category": "spatial-governance",
+  "sub_category": "zone-identification",
+  "captured_at_local": "2026-01-26 13:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_zone_identification_fz04",
+  "summary": "Visual record of farm area corresponding to Vegetable Zone B (FZ-04).",
+  "description": "Image records the physical environment and zone label identifying Vegetable Zone B (FZ-04). The zone label specifies system, scope, and governance license as displayed.",
+  "zone_metadata": {
+    "zone_id": "FZ-04",
+    "zone_name": "Vegetable Zone B",
+    "system": "Farm",
+    "scope": [
+      "Secondary Crop Area"
+    ],
+    "governance_label": "DGCP | MMFARM-POL-2025"
+  },
+  "reference_context": {
+    "related_proofs": ["546"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihbprcvd6dg65vbaa7ieelb5vjmfzlozmo2idb7rtrvkop3f3kahm",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "visual_zone_marker",
+    "no_geometric_boundary_coordinates"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
