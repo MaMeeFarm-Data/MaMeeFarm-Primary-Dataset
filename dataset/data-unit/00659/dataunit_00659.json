@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00659",
+  "file_path": "dataset/data-unit/00659/dataunit_00659.json",
+  "category": "agricultural-labor",
+  "sub_category": "water-tank-filling",
+  "captured_at_local": "2026-01-26 12:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "filling_water_into_farm_tank",
+  "summary": "Water being filled into farm water tank.",
+  "description": "Image records water being filled into a farm water tank as part of routine water management operations.",
+  "reference_context": {
+    "related_data_units": ["00567", "00568"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiblvtdfp2nvdjrc5phzwimg5aj3kkndr3gwohi2hyw7qezt4kvvi4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
