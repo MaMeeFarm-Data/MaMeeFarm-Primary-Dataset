@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00675",
+  "file_path": "dataset/data-unit/00675/dataunit_00675.json",
+  "category": "infrastructure-monitoring",
+  "sub_category": "power-system-indicator",
+  "captured_at_local": "2026-01-27 00:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "power_system_red_indicator_active",
+  "summary": "Red indicator light observed on farm power system.",
+  "description": "Image records a red indicator light active on the farm power system, indicating system operation under constrained conditions.",
+  "observed_state": {
+    "indicator_color": "red",
+    "system_status": "active"
+  },
+  "reference_context": {
+    "related_data_unit": ["00653"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiffeehennz5yayiwnjuhi5syijbp2z26dxfgbfl5hms6zyhpvdv2i",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
