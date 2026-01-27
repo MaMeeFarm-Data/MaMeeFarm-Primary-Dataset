@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00680",
+  "file_path": "dataset/data-unit/00680/dataunit_00680.json",
+  "category": "animal-care",
+  "sub_category": "dog-water-refill",
+  "captured_at_local": "2026-01-27 07:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_water_refill_hz_02",
+  "summary": "Water refill for dogs.",
+  "description": "Image records refilling water for dogs at feeding and care area HZ-02 using fixed water pipe system.",
+  "reference_context": {
+    "care_zone": "HZ-02",
+    "related_data_unit": "00679"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiags2brycxbssfrnpkpsz3zyhgcgfdptcli3dx3ajrq6hzljm5vka",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
