@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00658",
+  "file_path": "dataset/data-unit/00658/dataunit_00658.json",
+  "category": "agricultural-labor",
+  "sub_category": "water-system-routing",
+  "captured_at_local": "2026-01-26 12:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pipe_switched_to_water_tanks_WT-F0001_WT-F0002",
+  "summary": "Water pipe switched to farm water tanks WT-F0001 and WT-F0002.",
+  "description": "Image records the switching of a water pipe connection to farm water tanks WT-F0001 and WT-F0002 as part of water system management.",
+  "reference_context": {
+    "ref_data_unit": "00621"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiham4sc6b3yq4yhsjbhinhouxho6fzpcgzycp3gbqwn6re4f42vw4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
