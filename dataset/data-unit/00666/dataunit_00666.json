@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00666",
+  "file_path": "dataset/data-unit/00666/dataunit_00666.json",
+  "category": "infrastructure-operation",
+  "sub_category": "power-disconnection",
+  "captured_at_local": "2026-01-26 13:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_pump_power_plug_disconnected_under_resource_constraints",
+  "summary": "Visual record of water pump power plug being disconnected at farm site.",
+  "description": "Image records the water pump power plug disconnected and stored at the farm. The power handling setup reflects operation under limited infrastructure and resource constraints.",
+  "asset_context": {
+    "equipment": "water_pump",
+    "power_interface": "plug_socket",
+    "operational_state": "disconnected"
+  },
+  "reference_context": {
+    "related_data_units": ["00657"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicz3iogmjm7hvxlhj3eljtshikb3l63ngp5zejsw3di5ow2usby7u",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "limited_infrastructure",
+    "manual_power_handling",
+    "no_fixed_enclosure"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
