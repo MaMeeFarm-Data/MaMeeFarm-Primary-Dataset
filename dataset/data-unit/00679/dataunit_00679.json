@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00679",
+  "file_path": "dataset/data-unit/00679/dataunit_00679.json",
+  "category": "animal-care",
+  "sub_category": "dog-feeding-morning",
+  "captured_at_local": "2026-01-27 06:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_feeding_hz_02",
+  "summary": "Morning feeding of dogs.",
+  "description": "Image records morning feeding of dogs using dry food. Feeding zone identified as HZ-02.",
+  "reference_context": {
+    "feeding_zone": "HZ-02",
+    "related_proofs": ["547", "548"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif3kigukp3cq7ycv624unykefpvkapmo5qwjvyryqgbbjizken5gy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
