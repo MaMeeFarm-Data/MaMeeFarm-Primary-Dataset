@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00674",
+  "file_path": "dataset/data-unit/00674/dataunit_00674.json",
+  "category": "environment-monitoring",
+  "sub_category": "temperature-humidity-final-daily",
+  "captured_at_local": "2026-01-27 00:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "final_daily_temperature_humidity_record",
+  "summary": "Final temperature and humidity record at the end of daily farm operations.",
+  "description": "Image documents the final temperature and humidity reading of the day using a digital thermometer-hygrometer device.",
+  "measured_values": {
+    "temperature_celsius": 17.4,
+    "humidity_percent": 66
+  },
+  "reference_context": {
+    "related_data_unit": ["00643"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihbqtxyfnrpjb4jzk3vyusjzxfkje6xs6b5obxehf7t2zvsqjfn3i",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
