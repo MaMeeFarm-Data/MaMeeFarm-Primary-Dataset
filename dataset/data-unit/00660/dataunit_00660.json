@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00660",
+  "file_path": "dataset/data-unit/00660/dataunit_00660.json",
+  "category": "water-resource",
+  "sub_category": "pond-water-level-observation",
+  "captured_at_local": "2026-01-26 12:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pond_water_level_under_resource_constraints",
+  "summary": "Observed water level in earthen pond; volume not measurable.",
+  "description": "Image documents the water level inside a single earthen pond used for farm operations. Water volume cannot be determined due to limited resources and lack of measuring instruments. The pond is self-managed and is the only water source for the farm. No public utility access is available.",
+  "reference_context": {
+    "related_data_units": ["00657"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiddgez72cf4sby2cxckykbjfjluwg3gkhkxgxnq437kp2cogedcne",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "no_water_volume_measurement",
+    "limited_resources",
+    "single_pond_dependency",
+    "no_public_utility_access"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
