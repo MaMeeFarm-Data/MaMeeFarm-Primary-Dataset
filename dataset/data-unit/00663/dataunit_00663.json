@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00663",
+  "file_path": "dataset/data-unit/00663/dataunit_00663.json",
+  "category": "spatial-governance",
+  "sub_category": "zone-identification",
+  "captured_at_local": "2026-01-26 13:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "farm_zone_identification_fz03",
+  "summary": "Visual record of farm zone identification and physical zone boundary.",
+  "description": "Image records the physical area and zone label identifying Duck & Vegetable Zone A (FZ-03). The zone label specifies system, scope, and governance license as displayed.",
+  "zone_metadata": {
+    "zone_id": "FZ-03",
+    "zone_name": "Duck & Vegetable Zone A",
+    "system": "Farm",
+    "scope": [
+      "Ducks",
+      "Primary Vegetable Beds"
+    ],
+    "governance_label": "DGCP | MMFARM-POL-2025"
+  },
+  "reference_context": {
+    "related_proofs": ["545"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidqrslr5dyotsahfn2eahy44hvdzmxbk4fd2lfrze2sflyafmihie",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "visual_zone_marker",
+    "no_geometric_boundary_coordinates"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
