@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00667",
+  "file_path": "dataset/data-unit/00667/dataunit_00667.json",
+  "category": "water-system",
+  "sub_category": "storage-status",
+  "captured_at_local": "2026-01-26 13:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_tank_full_status_after_pumping",
+  "summary": "Visual record confirming water tank reached full level.",
+  "description": "Image records the water tank in a full state after pumping operation. The pump is positioned adjacent to the tank, with water hoses connected. This record confirms completion of water transfer into storage under limited-resource farm conditions.",
+  "asset_context": {
+    "asset_type": "water_tank",
+    "tank_id": "WT-F-0001 / WT-F-0002",
+    "capacity_label": "2000 L",
+    "operational_state": "full"
+  },
+  "reference_context": {
+    "related_data_units": ["00659", "00666"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib2ltyhs6uqsbo3msor67bfk74l2h2pryj52xznp4fclvep4etkiq",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "limited_infrastructure",
+    "manual_water_transfer",
+    "off-grid_operation"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
