@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00683",
+  "file_path": "dataset/data-unit/00683/dataunit_00683.json",
+  "category": "environmental-data",
+  "sub_category": "temperature-humidity",
+  "zone_id": "FZ-03",
+  "sensor_device": "HTC-2",
+  "captured_at_local": "2026-01-26 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "measurements": {
+    "temperature_celsius": {
+      "current": 14.5,
+      "min": 15.1
+    },
+    "humidity_percent": 86
+  },
+  "reference_context": {
+    "related_data_units": ["00671"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieg4rwgskvu4yg4wqnhiljmfyowc6tamce4pt2egyqh57vwnlcjda",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
