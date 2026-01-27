@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00687",
+  "file_path": "dataset/data-unit/00687/dataunit_00687.json",
+  "category": "living-system-data",
+  "sub_category": "human-animal-interaction",
+  "zone": "HZ-02",
+  "captured_at_local": "2026-01-27 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_pull_clothing_human_interaction_hz02",
+  "summary": "Image records physical interaction between dog and human involving clothing pull during routine care context.",
+  "description": "Image shows a dog pulling the clothing of a human while other dogs are present in the same area. Interaction occurs during routine animal care activity.",
+  "reference_context": {
+    "related_data_units": [
+      "00679",
+      "00680"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibuakaxyxdsagjwbvf5ymh5yhmim5tf6jh7xjckxurbjx2wjnxnwi",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
