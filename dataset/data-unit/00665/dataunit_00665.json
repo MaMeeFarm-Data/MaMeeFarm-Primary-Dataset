@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00665",
+  "file_path": "dataset/data-unit/00665/dataunit_00665.json",
+  "category": "spatial-governance",
+  "sub_category": "zone-identification",
+  "captured_at_local": "2026-01-26 13:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "house_zone_identification_hz02",
+  "summary": "Visual record of residential core area corresponding to House Core Zone (HZ-02).",
+  "description": "Image records the physical environment of the main house area and the printed zone label identifying House Core Zone (HZ-02). The label specifies system, scope, and governance license as displayed.",
+  "zone_metadata": {
+    "zone_id": "HZ-02",
+    "zone_name": "House Core Zone (Main House)",
+    "system": "House",
+    "scope": [
+      "Living area",
+      "Daily routines"
+    ],
+    "governance_label": "DGCP | MMFARM-POL-2025"
+  },
+  "reference_context": {
+    "related_proofs": ["547"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigjxc6u4vlpkct6vrritj2jsvqhii42ns2vxywle4jpnb57fiqbnq",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "visual_zone_marker",
+    "residential_area",
+    "no_geometric_boundary_coordinates"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
