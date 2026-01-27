@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00686",
+  "file_path": "dataset/data-unit/00686/dataunit_00686.json",
+  "category": "environmental-data",
+  "sub_category": "site-condition",
+  "zone": "HZ-02",
+  "captured_at_local": "2026-01-27 08:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dense_tree_and_vegetation_cover_hz02",
+  "summary": "Image records dense tree and vegetation presence in zone HZ-02.",
+  "description": "Image shows trees and vegetation with dense growth covering the area in zone HZ-02.",
+  "reference_context": {},
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicjye5bogqac2lz3d7rosfqbn7khe53p6qmciumo776miqdp4jpm4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
