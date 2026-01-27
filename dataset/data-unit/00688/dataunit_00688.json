@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00688",
+  "file_path": "dataset/data-unit/00688/dataunit_00688.json",
+  "category": "living-system-data",
+  "sub_category": "animal-care-environment",
+  "zone": "HZ-02",
+  "captured_at_local": "2026-01-27 10:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "sun_drying_dog_bedding_strong_sunlight",
+  "summary": "Image records dog bedding being sun-dried under strong sunlight as part of routine animal care.",
+  "description": "Image shows dog bedding hung outdoors for sun drying during daytime with strong sunlight. Activity is part of routine care and hygiene management for animals.",
+  "reference_context": {
+    "related_data_units": [
+      "00676"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiekdae7odpvttimnwmwawbkhebvijtiw4wosubnwthmyijhfhcmgq",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
