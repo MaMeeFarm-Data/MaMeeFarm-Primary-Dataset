@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00670",
+  "file_path": "dataset/data-unit/00670/dataunit_00670.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-harvest",
+  "captured_at_local": "2026-01-26 18:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-04",
+  "zone_name": "Vegetable Zone B",
+  "system": "Farm",
+  "scope": "Secondary Crop Area",
+  "data_type": "image",
+  "title": "manual_harvest_coriander_fz04",
+  "summary": "Manual harvesting of coriander from FZ-04 vegetable bed.",
+  "description": "Image records manual harvesting of coriander plants (including roots) from vegetable bed in zone FZ-04. Harvest performed by hand directly from soil surface.",
+  "reference_context": {
+    "related_proof": ["546"],
+    "related_data_unit": ["00664"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifdvkrsnqartghidm7anpvgi7ayo5yibyqxowr6paybsi4yvsxrsa",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "manual_labor",
+    "small_scale_harvest",
+    "limited_infrastructure"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
