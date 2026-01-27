@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00673",
+  "file_path": "dataset/data-unit/00673/dataunit_00673.json",
+  "category": "food-preparation",
+  "sub_category": "self-grown-ingredient-use",
+  "captured_at_local": "2026-01-26 18:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "home_meal_with_self_harvested_coriander",
+  "summary": "Coriander harvested from farm plot used in meal preparation.",
+  "description": "Image documents a prepared meal using coriander harvested directly from the farm plot, used without purchasing ingredients.",
+  "reference_context": {
+    "related_data_unit": ["00670"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiee63dpbmw5fzyjir4y6aqar4tpa4bboj6mpak6vnrd7qtuqeypf4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
