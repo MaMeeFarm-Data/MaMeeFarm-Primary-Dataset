@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00681",
+  "file_path": "dataset/data-unit/00681/dataunit_00681.json",
+  "category": "environment",
+  "sub_category": "sunlight-condition",
+  "captured_at_local": "2026-01-27 07:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_sunlight_beginning",
+  "summary": "Sunlight visible in the morning.",
+  "description": "Image records the presence of sunlight in the morning sky at MaMeeFarm.",
+  "reference_context": {
+    "related_data_unit": "00678"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicgpstzjsmfgur3ht6wrtocisa5y746aeaqcsp74vqnxzdggax4zu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
