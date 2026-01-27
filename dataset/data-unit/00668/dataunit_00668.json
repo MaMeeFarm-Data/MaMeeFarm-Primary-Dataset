@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00668",
+  "file_path": "dataset/data-unit/00668/dataunit_00668.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-26 18:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "zone_name": "Duck & Vegetable Zone A",
+  "system": "Farm",
+  "scope": "Ducks / Primary Vegetable Beds",
+  "data_type": "image",
+  "title": "evening_manual_watering_fz03",
+  "summary": "Manual watering of vegetable beds in FZ-03 during evening.",
+  "description": "Image records manual watering of vegetable beds in zone FZ-03 using a handheld hose. Water is applied directly to soil surface around growing vegetables.",
+  "reference_context": {
+    "related_proof": ["545"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihydxkttpc3whebuxtdtdbduz26ddqc2qv2qkh7wcpaviqgy7kxn4",
+    "note": "External image reference for independent verification."
+  },
+  "constraints": [
+    "manual_labor",
+    "limited_infrastructure",
+    "off_grid_farm_operation"
+  ],
+  "license": "DGCP | MMFARM-POL-2025"
+}
