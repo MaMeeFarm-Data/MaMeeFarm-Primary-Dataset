@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00701",
+  "file_path": "dataset/data-unit/00701/dataunit_00701.json",
+  "category": "water-system",
+  "sub_category": "water-refill",
+  "captured_at_local": "2026-01-27 13:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "asset_id": "WT-M-0001",
+  "asset_type": "Water Tank",
+  "capacity_liters": 200,
+  "mobility": "Mobile",
+  "status": "Active",
+  "data_type": "image",
+  "title": "wt_m_0001_water_refill",
+  "summary": "Image record of water refill into mobile water tank WT-M-0001.",
+  "description": "Image documents water being added to mobile water tank WT-M-0001. Asset label is visible on the tank at the time of capture.",
+  "reference_context": {
+    "related_data_units": ["00691"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif4kvulfyier3owwzmvqcg2chkep5uotppvn22tckqghockcxyk4q",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
