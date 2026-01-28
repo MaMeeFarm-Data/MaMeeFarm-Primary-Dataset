@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00694",
+  "file_path": "dataset/data-unit/00694/dataunit_00694.json",
+  "category": "zone-governance",
+  "sub_category": "zone-labeling",
+  "captured_at_local": "2026-01-27 12:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "system": "House",
+  "scope": "Living Area / Daily Routines",
+  "data_type": "image",
+  "title": "zone_label_installation_hz_02",
+  "summary": "Physical installation of zone identification label for HZ-02.",
+  "description": "Image records the physical placement of a printed zone identification label defining HZ-02 (House Core Zone), including zone name, system, scope, and included functional areas.",
+  "zone_definition": {
+    "includes": [
+      "Dog Feeding Area",
+      "Basketball Court",
+      "Open Car Park",
+      "Kitchen",
+      "Tiki Bar"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif24n7xd5ivhxw36r3tnpnnnfdi7gp24cownbymorkx2sr4akajvu",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
