@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00710",
+  "file_path": "dataset/data-unit/00710/dataunit_00710.json",
+  "category": "daily-farm-activity",
+  "sub_category": "dog-bedding-maintenance",
+  "captured_at_local": "2026-01-27 17:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "data_type": "image",
+  "title": "collecting_dog_bedding_hz_02",
+  "summary": "Collection of dog bedding in House Core Zone.",
+  "description": "Image records the collection of dog bedding placed on a wooden pole within zone HZ-02.",
+  "activity_details": {
+    "activity": "Collect Dog Bedding",
+    "object": "Dog bedding / fabric",
+    "zone": "HZ-02"
+  },
+  "references": {
+    "ref_dataunit": "00688"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiac4io4f27yxenlhq4bisi5637nqdyvz6mux5s4c3puk5l3w7m6fa",
+    "note": "External image reference for verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
