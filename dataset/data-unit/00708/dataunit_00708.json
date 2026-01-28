@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00708",
+  "file_path": "dataset/data-unit/00708/dataunit_00708.json",
+  "category": "agricultural-asset",
+  "sub_category": "plant-labeling",
+  "captured_at_local": "2026-01-27 14:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "data_type": "image",
+  "title": "banana_plant_ban_0001_extended_labels",
+  "summary": "Image record showing extended physical labels attached to banana plant BAN-0001.",
+  "description": "Image documents multiple physical labels attached to banana plant BAN-0001, including identity, primary event, and subsequent care events.",
+  "plant_information": {
+    "plant_id": "BAN-0001",
+    "plant_type": "Banana",
+    "classification": "Perennial Plant",
+    "zone": "FZ-03",
+    "zone_name": "Duck & Vegetable Zone A"
+  },
+  "labels": [
+    {
+      "label_type": "Identity & Primary Event",
+      "plant_id": "BAN-0001",
+      "event": "Inflorescence Cut",
+      "date": "2026-01-16",
+      "ref_proof": "498",
+      "ref_dataunit": "00332"
+    },
+    {
+      "label_type": "Care Event 01",
+      "plant_id": "BAN-0001",
+      "event": "Care Event 01",
+      "ref_proof": "517",
+      "ref_dataunit": "00528"
+    },
+    {
+      "label_type": "Care Event 02",
+      "plant_id": "BAN-0001",
+      "event": "Care Event 02",
+      "ref_proof": "527",
+      "ref_dataunit": "00528"
+    }
+  ],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibm6nylt4igz3xbhg3woouscrmzwffqao5pusfsnl2bs6kymotcci",
+    "note": "External image reference for verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
