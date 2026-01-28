@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00713",
+  "file_path": "dataset/data-unit/00713/dataunit_00713.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-27 17:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-04",
+  "zone_name": "Vegetable Zone",
+  "asset_type": "vegetable_beds",
+  "data_type": "image",
+  "title": "manual_watering_vegetables_fz_04_wt_m_0003",
+  "summary": "Manual watering of vegetable beds.",
+  "description": "Image records manual watering of vegetable beds in zone FZ-04 using water from mobile water tank WT-M-0003.",
+  "reference_context": {
+    "water_source": "WT-M-0003",
+    "related_data_units": ["00664"],
+    "related_proof": ["552"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifr33olrgrmqpsg2cz2g2mr4fceai3gy2elokvag2oj5dnumgikva",
+    "note": "External image reference for verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
