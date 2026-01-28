@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00720",
+  "file_path": "dataset/data-unit/00720/dataunit_00720.json",
+  "category": "environment",
+  "sub_category": "dew-observation",
+  "captured_at_local": "2026-01-28 07:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "subject": {
+    "object_type": "flower",
+    "plant": "marigold",
+    "condition": "dew_present"
+  },
+  "observation": {
+    "description": "Visible dew droplets present on marigold flower petals during early morning."
+  },
+  "reference_context": {
+    "related_temperature_humidity_data_units": [
+      "00718",
+      "00719"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeideyhdoh52st6bol56nfunm5hpxxyggkpt57mznrrqslug3jgrniy",
+    "note": "External image reference showing dew on marigold flower."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
