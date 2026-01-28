@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00707",
+  "file_path": "dataset/data-unit/00707/dataunit_00707.json",
+  "category": "infrastructure-labeling",
+  "sub_category": "physical-zone-label",
+  "captured_at_local": "2026-01-27 14:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "data_type": "image",
+  "title": "zone_fz_03_physical_label_extended",
+  "summary": "Image record showing additional physical labels installed for zone FZ-03.",
+  "description": "Image documents multiple physical labels mounted on a concrete post identifying zone FZ-03 and its associated proof and data unit references.",
+  "zone_information": {
+    "zone_id": "FZ-03",
+    "zone_name": "Duck & Vegetable Zone A",
+    "system": "Farm",
+    "scope": "Ducks / Primary Vegetable Beds"
+  },
+  "linked_records": {
+    "proof_id": "545",
+    "proof_description": "Zone FZ-03 label installed",
+    "proof_timestamp": "2026-01-26 13:11",
+    "dataunit_id": "00663",
+    "dataunit_type": "Physical Zone Label"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifdud7yotixvijv2c3bvlnuist2b2jo4gm4s34gekv3g6etkqn7p4",
+    "note": "External image reference for verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
