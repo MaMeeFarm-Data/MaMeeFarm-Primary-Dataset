@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00697",
+  "file_path": "dataset/data-unit/00697/dataunit_00697.json",
+  "category": "zone-observation",
+  "sub_category": "basketball-court",
+  "captured_at_local": "2026-01-27 12:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "system": "House",
+  "scope": "Living Area / Daily Routines",
+  "data_type": "image",
+  "title": "hz_02_basketball_court_visual_record",
+  "summary": "Visual record of basketball court structure within HZ-02.",
+  "description": "Image records the basketball hoop and court structure located within the House Core Zone (HZ-02). The basketball stand is positioned near a fenced agricultural area.",
+  "reference_context": {
+    "related_proofs": ["0547"],
+    "related_data_units": ["00696", "00665"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih7byqyh37hoaodolm4c2axggj3idpznaux4xoo24mosdw7lui6ti",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
