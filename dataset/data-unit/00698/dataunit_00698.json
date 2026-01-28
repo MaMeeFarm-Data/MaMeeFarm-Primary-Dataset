@@ -1,0 +1,31 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00698",
+  "file_path": "dataset/data-unit/00698/dataunit_00698.json",
+  "category": "zone-governance",
+  "sub_category": "zone-labeling",
+  "captured_at_local": "2026-01-27 12:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "system": "House",
+  "scope": "Living Area / Daily Routines",
+  "area_within_zone": "Tiki Bar",
+  "data_type": "image",
+  "title": "hz_02_tiki_bar_zone_label_installation",
+  "summary": "Physical installation of HZ-02 zone label at Tiki Bar location.",
+  "description": "Image records the placement of a printed zone identification label for HZ-02 at the Tiki Bar area, showing zone ID, zone name, system, scope, and included functional areas.",
+  "reference_context": {
+    "related_proofs": ["0547"],
+    "related_data_units": ["00665"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihewblu3r7qt7yaw75pudptipqcbwzrv3davzhaasv2esq53si64m",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
