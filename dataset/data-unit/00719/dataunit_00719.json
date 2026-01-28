@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00719",
+  "file_path": "dataset/data-unit/00719/dataunit_00719.json",
+  "category": "environment",
+  "sub_category": "dew-observation",
+  "captured_at_local": "2026-01-28 07:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "subject": {
+    "object_type": "flower",
+    "plant": "rose",
+    "condition": "dew_present"
+  },
+  "observation": {
+    "description": "Visible dew droplets present on rose petals during early morning."
+  },
+  "reference_context": {
+    "related_temperature_humidity_data_unit": "00718"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie2fvcl5jbeghivaizwnejlygjdo57y3q3q25stfzbe36rhdwyjja",
+    "note": "External image reference showing dew on rose flower."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
