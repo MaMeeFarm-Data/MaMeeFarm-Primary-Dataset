@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00712",
+  "file_path": "dataset/data-unit/00712/dataunit_00712.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-27 17:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "zone_name": "Duck & Vegetable Zone A",
+  "asset_id": "BAN-0001",
+  "asset_type": "banana_plant",
+  "data_type": "image",
+  "title": "manual_watering_banana_ban_0001_wt_m_0001",
+  "summary": "Manual watering of banana plant BAN-0001.",
+  "description": "Image records manual watering of banana plant BAN-0001 using water from mobile water tank WT-M-0001.",
+  "reference_context": {
+    "water_source": "WT-M-0001",
+    "related_data_units": ["00701", "00708"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig5xwqmmlrqy4dadfykp477y6oq6e6jg72pucenxplik4h7exdptm",
+    "note": "External image reference for verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
