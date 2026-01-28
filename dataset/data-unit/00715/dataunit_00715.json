@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00715",
+  "file_path": "dataset/data-unit/00715/dataunit_00715.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-27 17:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "zone_name": "Duck & Vegetable Zone A",
+  "asset_type": "duck_house",
+  "data_type": "image",
+  "title": "duck_house_temperature_humidity_fz_03_evening",
+  "measurement": {
+    "temperature_inside_celsius": 27.3,
+    "temperature_outside_celsius": 22.6,
+    "relative_humidity_percent": 56
+  },
+  "device_display": {
+    "device_type": "digital_thermo_hygrometer",
+    "displayed_time": "17:57"
+  },
+  "reference_context": {
+    "related_data_units": ["00664", "00683", "00692"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicggj3wuu6xkictmymxb6m6agflmwet43hoclw5lulwwxlsrs4a5q",
+    "note": "External image reference showing temperature and humidity display."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
