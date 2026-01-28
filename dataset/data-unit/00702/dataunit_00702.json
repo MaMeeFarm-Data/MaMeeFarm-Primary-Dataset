@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00702",
+  "file_path": "dataset/data-unit/00702/dataunit_00702.json",
+  "category": "water-system",
+  "sub_category": "water-level",
+  "captured_at_local": "2026-01-27 13:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "asset_id": "WT-M-0002",
+  "asset_type": "Water Tank",
+  "capacity_liters": 200,
+  "mobility": "Mobile",
+  "status": "Active",
+  "data_type": "image",
+  "title": "wt_m_0002_full_water_level",
+  "summary": "Image record showing water tank WT-M-0002 at full water level.",
+  "description": "Image documents mobile water tank WT-M-0002 with water level visually reaching the top of the tank at the time of capture.",
+  "reference_context": {
+    "related_data_units": ["00689", "00063"],
+    "related_proofs": ["545"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigcu4hctlpuxqk737extj75t5j4qmytm5zh64gjutwtrriboj3qsy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
