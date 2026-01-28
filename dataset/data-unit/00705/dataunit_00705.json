@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00705",
+  "file_path": "dataset/data-unit/00705/dataunit_00705.json",
+  "category": "infrastructure-labeling",
+  "sub_category": "water-pump-system",
+  "captured_at_local": "2026-01-27 14:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "data_type": "image",
+  "title": "submersible_pump_id_label_installed",
+  "summary": "Image record showing identification label attached to submersible water pump.",
+  "description": "Image documents the placement of a printed identification label on a submersible water pump used in the water transfer system.",
+  "assets": [
+    {
+      "asset_id": "PMP-SUB-01",
+      "asset_type": "Submersible Pump",
+      "outlet_size": "1 inch",
+      "system": "Water Transfer",
+      "status": "Active"
+    }
+  ],
+  "reference_context": {
+    "related_dataunits": ["00703"],
+    "note": "DataUnit 00703 records the most recent usage of this pump prior to labeling."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigixpob73g4hcjhh5n2bqh73tr63gwdpdhynyr7siorexi75gewqe",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
