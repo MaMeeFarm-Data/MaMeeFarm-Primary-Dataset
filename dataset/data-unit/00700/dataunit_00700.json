@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00700",
+  "file_path": "dataset/data-unit/00700/dataunit_00700.json",
+  "category": "zone-observation",
+  "sub_category": "dog-presence",
+  "captured_at_local": "2026-01-27 12:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "system": "House",
+  "scope": "Living Area / Daily Routines",
+  "data_type": "image",
+  "title": "hz_02_dogs_resting_area",
+  "summary": "Image record of dogs present and resting within HZ-02.",
+  "description": "Image documents multiple dogs resting and moving within the House Core Zone (HZ-02). Ground surface and surrounding structures are visible at the time of capture.",
+  "reference_context": {
+    "related_proofs": ["0547"],
+    "related_data_units": ["00665"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif2k5vrpmwqmfdjvjnkgcxyhixxbobjrvxsygvvq2lzhmo63trnj4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
