@@ -1,0 +1,28 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00693",
+  "file_path": "dataset/data-unit/00693/dataunit_00693.json",
+  "category": "environmental-record",
+  "sub_category": "light-condition",
+  "location": "MaMeeFarm, Thailand",
+  "captured_at_local": "2026-01-27 12:31",
+  "timezone": "Asia/Bangkok",
+  "data_type": "image",
+  "title": "midday_sunlight_condition_maimeefarm",
+  "summary": "Image records daylight and sunlight conditions at MaMeeFarm during midday.",
+  "description": "Image captures visible sunlight, sky condition, and surrounding vegetation at MaMeeFarm. No instruments used. Record reflects ambient light condition at capture time.",
+  "reference_context": {
+    "related_dataunit": [
+      "00692"
+    ],
+    "note": "Referenced to midday temperature and humidity context."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeids67uiik5kex2n7irhajz73pshnmpj5e2ld4rpv2loul7njwskty",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
