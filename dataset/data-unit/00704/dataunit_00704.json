@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00704",
+  "file_path": "dataset/data-unit/00704/dataunit_00704.json",
+  "category": "infrastructure-labeling",
+  "sub_category": "solar-power-system",
+  "captured_at_local": "2026-01-27 13:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "data_type": "image",
+  "title": "solar_power_system_id_labels_installed",
+  "summary": "Image record showing identification labels attached to solar inverter and solar panel array.",
+  "description": "Image documents the placement of printed identification labels on the solar power system components, including power inverter and solar panel array, indicating system role and operational status.",
+  "assets": [
+    {
+      "asset_id": "INV-01",
+      "asset_type": "Power Inverter",
+      "input": "DC from SPV-A-0001",
+      "output": "AC for farm systems",
+      "system": "Power Conversion",
+      "status": "Active"
+    },
+    {
+      "asset_id": "SPV-A-0001",
+      "asset_type": "Solar Panel Array",
+      "panels": 4,
+      "system": "Power Generation",
+      "location": "Farm",
+      "status": "Active"
+    }
+  ],
+  "reference_context": {
+    "related_proofs": ["550"],
+    "note": "Proof 550 documents system usage prior to labeling."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicvqj6p5flezvywdm47lyqxo3ykmprrgzalc523i3uhbyk7zto2oe",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
