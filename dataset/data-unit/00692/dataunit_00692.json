@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00692",
+  "file_path": "dataset/data-unit/00692/dataunit_00692.json",
+  "category": "environmental-record",
+  "sub_category": "temperature-humidity",
+  "zone_id": "FZ-03",
+  "location": "Duck Coop, MaMeeFarm, Thailand",
+  "captured_at_local": "2026-01-27 12:30",
+  "timezone": "Asia/Bangkok",
+  "sensor_device": "HTC-2",
+  "measurement": {
+    "temperature_inside_celsius": 32.9,
+    "temperature_outside_celsius": 28.9,
+    "humidity_percent_rh": 41
+  },
+  "data_type": "image",
+  "title": "duck_coop_temperature_humidity_midday_fz_03",
+  "summary": "Image records temperature and humidity conditions inside duck coop zone FZ-03 during midday.",
+  "description": "Image shows HTC-2 temperature and humidity meter placed inside duck coop. Values displayed correspond to environmental conditions at capture time.",
+  "reference_context": {
+    "related_dataunit": [
+      "00683",
+      "00663"
+    ],
+    "related_proof": [
+      "545"
+    ],
+    "note": "00683 used as morning temperature reference."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihiifvcrn7wx3epp2km4mjdrsjcbjd6gv4mdx7nv5joybxjf762d4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
