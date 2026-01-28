@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00717",
+  "file_path": "dataset/data-unit/00717/dataunit_00717.json",
+  "category": "energy-system",
+  "sub_category": "power-system-status",
+  "captured_at_local": "2026-01-28 00:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "data_type": "image",
+  "title": "farm_power_system_status_internet_off",
+  "description": "Image records farm power system components labeled and active at the time of internet shutdown.",
+  "asset_ids": [
+    {
+      "asset_id": "INV-01",
+      "type": "power_inverter",
+      "input": "DC from SPV-A-0001",
+      "output": "AC for farm systems",
+      "system": "power_conversion",
+      "status": "active"
+    },
+    {
+      "asset_id": "SPV-A-0001",
+      "type": "solar_panel_array",
+      "panels": 4,
+      "system": "power_generation",
+      "location": "farm",
+      "status": "active"
+    }
+  ],
+  "reference_context": {
+    "related_proof": "550",
+    "related_data_unit": "00704"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifhn2iaq4zmtkagnpmz2i3eyqqwfysbc266vmd5ceuwjhsewsvjny",
+    "note": "External image reference showing inverter and solar panel asset labels."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
