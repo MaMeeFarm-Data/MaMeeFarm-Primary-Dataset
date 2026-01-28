@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00695",
+  "file_path": "dataset/data-unit/00695/dataunit_00695.json",
+  "category": "zone-observation",
+  "sub_category": "infrastructure-condition",
+  "captured_at_local": "2026-01-27 12:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "system": "House",
+  "scope": "Living Area / Daily Routines",
+  "data_type": "image",
+  "title": "open_car_park_structure_no_roof_hz_02",
+  "summary": "Visual record of an open car park structure without roof in HZ-02.",
+  "description": "Image records the physical condition of an open car park structure consisting of vertical columns and overhead frame without roofing material, located within HZ-02 (House Core Zone).",
+  "reference_context": {
+    "related_proofs": ["0547"],
+    "related_data_units": ["00665", "00694"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig7glv4gsit2gvctq3gn24ntnda6whflavwmxeajt6yfptazw3gcm",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
