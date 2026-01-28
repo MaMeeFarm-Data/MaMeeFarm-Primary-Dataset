@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00709",
+  "file_path": "dataset/data-unit/00709/dataunit_00709.json",
+  "category": "daily-farm-activity",
+  "sub_category": "dog-feeding",
+  "captured_at_local": "2026-01-27 17:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "data_type": "image",
+  "title": "evening_dog_feeding_hz_02",
+  "summary": "Evening dog feeding activity recorded in House Core Zone.",
+  "description": "Image documents evening dog feeding activity in zone HZ-02. This record is a separate daily instance from the morning feeding.",
+  "activity_details": {
+    "activity": "Dog Feeding",
+    "time_of_day": "Evening",
+    "animals": "Dogs",
+    "zone": "HZ-02"
+  },
+  "references": {
+    "ref_proof": "547",
+    "ref_dataunit_same_zone": "00665",
+    "ref_morning_feeding": "00679"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeianb4dpruif5r45la34c2adnlhwvq4x5goq7jxjeyfskrns7lag6q",
+    "note": "External image reference for verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
