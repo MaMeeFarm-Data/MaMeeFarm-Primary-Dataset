@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00691",
+  "file_path": "dataset/data-unit/00691/dataunit_00691.json",
+  "category": "infrastructure-operation",
+  "sub_category": "water-transfer",
+  "asset_id": "WT-M-0001",
+  "zone_id": "FZ-03",
+  "captured_at_local": "2026-01-27 11:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "water_filling_mobile_tank_wt_m_0001",
+  "summary": "Image records water being filled into mobile water tank WT-M-0001 in zone FZ-03.",
+  "description": "Image shows water flowing from hose into mobile water tank WT-M-0001 as part of farm water usage operations.",
+  "reference_context": {
+    "related_proof": [
+      "552"
+    ],
+    "related_dataunit": [
+      "00690"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidspv2uumbpcha5qdueexp5izbcobigdqyqieebdq6anmdfllkdgi",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
