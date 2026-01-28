@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00699",
+  "file_path": "dataset/data-unit/00699/dataunit_00699.json",
+  "category": "zone-observation",
+  "sub_category": "front-area-record",
+  "captured_at_local": "2026-01-27 12:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "HZ-02",
+  "zone_name": "House Core Zone",
+  "system": "House",
+  "area_within_zone": "Tiki Bar (Front Area)",
+  "data_type": "image",
+  "title": "hz_02_tiki_bar_front_area",
+  "summary": "Image record of the front area of the Tiki Bar within HZ-02.",
+  "description": "Image documents the physical condition and surroundings of the front area of the Tiki Bar zone, including ground surface, nearby structures, and animals present at the time of capture.",
+  "reference_context": {
+    "related_proofs": ["0547"],
+    "related_data_units": ["00665", "00698"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiazyhxgrbzgjz5f4yjhw5uhtnqryj3zkeyn4w3rwkukcoa54yodby",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
