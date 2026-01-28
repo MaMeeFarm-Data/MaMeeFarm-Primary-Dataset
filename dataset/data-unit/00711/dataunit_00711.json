@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00711",
+  "file_path": "dataset/data-unit/00711/dataunit_00711.json",
+  "category": "environmental-observation",
+  "sub_category": "sky-condition",
+  "captured_at_local": "2026-01-27 17:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "zone_name": "Duck & Vegetable Zone A",
+  "data_type": "image",
+  "title": "evening_sky_fz_03",
+  "summary": "Evening sky recorded around the farm area.",
+  "description": "Image records the evening sky over surrounding farmland in zone FZ-03.",
+  "activity_details": {
+    "activity": "Record Evening Sky",
+    "zone": "FZ-03",
+    "context": "Surrounding farm area"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig3wv2tr7geis2iddpswp44h432yrnyvgbqpo4667mwdk4bge27a4",
+    "note": "External image reference for verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
