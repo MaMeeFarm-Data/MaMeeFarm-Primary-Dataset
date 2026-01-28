@@ -1,0 +1,29 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00703",
+  "file_path": "dataset/data-unit/00703/dataunit_00703.json",
+  "category": "equipment-management",
+  "sub_category": "post-use-storage",
+  "captured_at_local": "2026-01-27 13:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone_id": "FZ-03",
+  "asset_type": "Water Pump",
+  "status": "Stored",
+  "data_type": "image",
+  "title": "water_pump_stored_after_use",
+  "summary": "Image record showing water pump stored after completion of water transfer operations.",
+  "description": "Image documents the water pump placed in storage position after usage. The pump is positioned between water tanks with hose detached from active transfer.",
+  "reference_context": {
+    "related_proofs": ["551", "552"],
+    "related_data_units": ["00689", "00690", "00691", "00701", "00702"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihsyozd6pqizwe2mav7r6jzohsogik5jnhzoaehwnqpjekuojxpfa",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
