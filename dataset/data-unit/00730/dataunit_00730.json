@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00730",
+  "file_path": "dataset/data-unit/00730/dataunit_00730.json",
+  "category": "animal-care",
+  "sub_category": "feeding-and-observation",
+  "captured_at_local": "2026-01-28 17:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "puppy_with_physical_abnormality_feeding",
+  "summary": "Feeding and care of a puppy with observable physical abnormality.",
+  "description": "Image records feeding of one puppy. The puppy shows observable abnormality in hind leg posture since birth. Care provided is limited to feeding and basic daily care.",
+  "assets": [],
+  "operation_context": {
+    "activity": "feeding",
+    "care_type": "basic_care_only",
+    "resource_status": "limited"
+  },
+  "reference_context": {
+    "related_proofs": ["554", "556"],
+    "related_data_units": ["00726", "00729"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid7cz4vsnjptxqu7hjwv34mcqds5xqmamlo2eex3gpt5ved67wqvi",
+    "note": "External image reference showing feeding and physical condition."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
+
