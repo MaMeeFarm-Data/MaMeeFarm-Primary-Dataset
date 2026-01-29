@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00738",
+  "file_path": "dataset/data-unit/00738/dataunit_00738.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-29 06:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "morning_temperature_humidity_balcony",
+  "summary": "Morning temperature and humidity record at residential balcony.",
+  "description": "Image records temperature and humidity measurement at the residential balcony area (HZ-02) during morning hours.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00738/hash/dataunit_00738.sha256",
+    "ots_file": "dataset/data-unit/00738/ots/dgcp_dataunit_00738.ots"
+  },
+  "reference_context": {
+    "related_data_units": ["00736"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig2k3jchsg5wx2tvjvu2r22o5dhkjx7mr4l56xqwpqcxz4ngeswpa",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
