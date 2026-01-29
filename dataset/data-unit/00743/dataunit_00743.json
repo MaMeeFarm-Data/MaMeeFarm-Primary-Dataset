@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00743",
+  "file_path": "dataset/data-unit/00743/dataunit_00743.json",
+  "category": "animal-care",
+  "sub_category": "morning-feeding",
+  "captured_at_local": "2026-01-29 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "HZ-02, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "morning_dog_feeding_hz02",
+  "summary": "Morning feeding of dogs at residential zone.",
+  "description": "Image records morning feeding activity for dogs in residential zone HZ-02.",
+  "reference_context": {
+    "related_proofs": ["0556"],
+    "related_data_units": []
+  },
+  "actors": ["P'Toh"],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicz65rbuutvwtaoccixwtr2yn3azgvhnklapd5ye243r5yqb76aiq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00743/hash/dataunit_00743.sha256",
+    "ots_file": "dataset/data-unit/00743/ots/dgcp_dataunit_00743.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
