@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00733",
+  "file_path": "dataset/data-unit/00733/dataunit_00733.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-28 18:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "duck_house_temperature_evening",
+  "summary": "Temperature and humidity record inside duck house.",
+  "description": "Image records temperature and humidity values inside duck house zone FZ-03 during evening period.",
+  "measured_values": {
+    "temperature_inside_celsius": 26.3,
+    "temperature_outside_celsius": 22.1,
+    "humidity_percent": 58
+  },
+  "actors": ["P'Toh"],
+  "reference_context": {
+    "related_data_units": ["00723"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigcqmdcwmc2oqxdwuphskpnkhou45kn53yxy25qpaxbusru4sy4yq",
+    "note": "External image reference showing temperature and humidity display."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00733/hash/dataunit_00733.sha256",
+    "ots_file": "dataset/data-unit/00733/ots/dgcp_dataunit_00733.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
