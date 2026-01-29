@@ -1,0 +1,30 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00734",
+  "file_path": "dataset/data-unit/00734/dataunit_00734.json",
+  "category": "infrastructure-operation",
+  "sub_category": "lighting",
+  "captured_at_local": "2026-01-28 18:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "duck_house_lighting_activated",
+  "summary": "Duck house lighting recorded.",
+  "description": "Image records lighting in duck house zone FZ-03.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00734/hash/dataunit_00734.sha256",
+    "ots_file": "dataset/data-unit/00734/ots/dgcp_dataunit_00734.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig6jh4r5xr3xrk7apf5k7yq7rg7i7ggh3hjjzh5j365c4m3pa65ve",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
