@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00721",
+  "file_path": "dataset/data-unit/00721/dataunit_00721.json",
+  "category": "environment",
+  "sub_category": "field-entry",
+  "captured_at_local": "2026-01-28 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "zones": [
+    "FZ-03",
+    "FZ-04"
+  ],
+  "observation": {
+    "description": "Image records entry into farm field zones FZ-03 and FZ-04 for data collection. Visible crop area, fence line, and surrounding environment."
+  },
+  "reference_context": {
+    "related_proofs": [
+      "545",
+      "546"
+    ],
+    "related_data_units": [
+      "00663",
+      "00664"
+    ]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibmftpm7wjpnwpneixdr37xzb3yw63etfxsqkkhurnafsiyqs6req",
+    "note": "External image reference showing field entry and environmental context."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
