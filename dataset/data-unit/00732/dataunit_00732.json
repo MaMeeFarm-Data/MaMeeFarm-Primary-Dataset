@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00732",
+  "file_path": "dataset/data-unit/00732/dataunit_00732.json",
+  "category": "agricultural-labor",
+  "sub_category": "daily-watering",
+  "captured_at_local": "2026-01-28 17:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zones": ["FZ-03", "FZ-04"],
+  "data_type": "image",
+  "title": "daily_vegetable_watering",
+  "summary": "Daily watering of vegetables.",
+  "description": "Image records routine daily watering of vegetable plots in zones FZ-03 and FZ-04 using water from mobile tanks.",
+  "assets": [
+    "WT-M-0001",
+    "WT-M-0002",
+    "WT-M-0003"
+  ],
+  "operation_context": {
+    "activity": "watering",
+    "water_source": "mobile water tanks",
+    "method": "manual"
+  },
+  "reference_context": {
+    "related_data_units": ["00663", "00664"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiat4s3hqwokaeupukeky5bdvpzumyqqzavjpfqu3nu2q6sfou2jdu",
+    "note": "External image reference showing daily vegetable watering activity."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
