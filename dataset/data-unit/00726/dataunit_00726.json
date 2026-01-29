@@ -1,0 +1,25 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00726",
+  "file_path": "dataset/data-unit/00726/dataunit_00726.json",
+  "category": "household-labor",
+  "sub_category": "bedding-drying",
+  "captured_at_local": "2026-01-28 11:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "drying_dog_bedding_under_sunlight",
+  "summary": "Dog bedding placed outdoors for drying under sunlight.",
+  "description": "Image records dog bedding hung outdoors and exposed to sunlight for drying.",
+  "reference_context": {
+    "related_data_units": ["00725"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic66ixilifs4strxwmyd7nwzcykxbq2fsetfavp42vbfjibhy2kjm",
+    "note": "External image reference showing dog bedding drying outdoors."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
