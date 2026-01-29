@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00735",
+  "file_path": "dataset/data-unit/00735/dataunit_00735.json",
+  "category": "human-animal-cohabitation",
+  "sub_category": "indoor-resting",
+  "captured_at_local": "2026-01-28 19:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "dogs_resting_inside_house",
+  "summary": "Dogs resting inside shared living space.",
+  "description": "Image records dogs resting inside the house in zone HZ-02. Shared living area between humans and animals.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00735/hash/dataunit_00735.sha256",
+    "ots_file": "dataset/data-unit/00735/ots/dgcp_dataunit_00735.ots"
+  },
+  "reference_context": {
+    "related_data_units": ["00726", "00729"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig4opzmpitdpgimzmu7zfwbck7fkpwct76ne2toosea2bvxfoncvi",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
