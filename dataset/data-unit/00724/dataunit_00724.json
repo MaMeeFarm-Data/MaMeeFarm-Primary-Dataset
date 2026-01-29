@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00724",
+  "file_path": "dataset/data-unit/00724/dataunit_00724.json",
+  "category": "agricultural-observation",
+  "sub_category": "banana-inflorescence",
+  "captured_at_local": "2026-01-28 08:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, FZ-03, Thailand",
+  "data_type": "image",
+  "title": "banana_inflorescence_observation_fz_03",
+  "summary": "Observation of banana inflorescence.",
+  "description": "Image records banana plant with visible inflorescence in zone FZ-03.",
+  "reference_context": {
+    "related_data_units": ["00663"],
+    "related_proofs": ["545"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiabwegp5mwglex4dk3a2redxyzoqhrroylzllni6rfli6nyxaxsiy",
+    "note": "External image reference showing banana inflorescence."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
