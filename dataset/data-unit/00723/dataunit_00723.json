@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00723",
+  "file_path": "dataset/data-unit/00723/dataunit_00723.json",
+  "category": "environmental-measurement",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-01-28 08:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Duck Coop, FZ-03, Thailand",
+  "data_type": "image",
+  "measurement_device": {
+    "device_type": "thermometer-hygrometer",
+    "model": "HTC-2"
+  },
+  "measurement": {
+    "temperature_indoor_celsius": 15.4,
+    "temperature_outdoor_celsius": 14.6,
+    "relative_humidity_percent": 87
+  },
+  "reference_context": {
+    "related_proofs": ["545"],
+    "related_data_units": ["00663"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiffxbl6lmqbqt654dmf2qqjfwcb7kvvore2y4mx44nk7nax3xl3ny",
+    "note": "External image reference showing temperature and humidity display in duck coop."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
