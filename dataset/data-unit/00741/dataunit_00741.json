@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00741",
+  "file_path": "dataset/data-unit/00741/dataunit_00741.json",
+  "category": "biological-observation",
+  "sub_category": "wildflower",
+  "captured_at_local": "2026-01-29 06:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "wildflower_fence_line_fz03",
+  "summary": "Flower observed growing along fence line.",
+  "description": "Image records a white-petaled wildflower observed along the fence line at farm zone FZ-03. Local informal name noted by observer without taxonomic confirmation.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "local_naming": {
+    "informal_name": "ปืนนกใส้",
+    "confirmed": false,
+    "note": "Local name used by observer; species identification not confirmed."
+  },
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00741/hash/dataunit_00741.sha256",
+    "ots_file": "dataset/data-unit/00741/ots/dgcp_dataunit_00741.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiegt6gk4pyoocwktpxgn2fubrah67uisotmolozrtx6yxslackmxa",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
