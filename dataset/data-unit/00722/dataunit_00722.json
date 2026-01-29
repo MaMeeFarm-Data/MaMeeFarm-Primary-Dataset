@@ -1,0 +1,26 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00722",
+  "file_path": "dataset/data-unit/00722/dataunit_00722.json",
+  "category": "agriculture",
+  "sub_category": "plant-observation",
+  "captured_at_local": "2026-01-28 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "subject": {
+    "plant": "tomato",
+    "growth_stage": "flowering"
+  },
+  "observation": {
+    "description": "Visible flower buds and early flowering structures observed on tomato plant."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihiduirp5hfhyzax3fb5qrgfqocpqm2qnocc24x2jch64ap46fbxy",
+    "note": "External image reference showing tomato plant with visible flowers."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
