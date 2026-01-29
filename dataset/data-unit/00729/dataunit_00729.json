@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00729",
+  "file_path": "dataset/data-unit/00729/dataunit_00729.json",
+  "category": "household-care",
+  "sub_category": "animal-bedding",
+  "captured_at_local": "2026-01-28 17:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "collecting_dog_bedding_after_sun_drying",
+  "summary": "Dog bedding collected after sun-drying.",
+  "description": "Image records the action of collecting dog bedding after sun-drying in zone HZ-02.",
+  "assets": [],
+  "operation_context": {
+    "activity": "collect_bedding",
+    "previous_state": "sun_dried",
+    "current_state": "collected"
+  },
+  "reference_context": {
+    "related_data_units": ["00726"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiarznnbyqe44j3vlb5vq2dcz74po2onu6xgnz35zy7mpyc243d7ru",
+    "note": "External image reference showing bedding collection."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
