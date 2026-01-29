@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00740",
+  "file_path": "dataset/data-unit/00740/dataunit_00740.json",
+  "category": "environmental-observation",
+  "sub_category": "morning-sky-condition",
+  "captured_at_local": "2026-01-29 06:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "morning_sky_observation_fz03",
+  "summary": "Morning sky observation at farm zone.",
+  "description": "Image records sky conditions during morning hours at farm zone FZ-03. Temperature reference linked to prior measurement.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00740/hash/dataunit_00740.sha256",
+    "ots_file": "dataset/data-unit/00740/ots/dgcp_dataunit_00740.ots"
+  },
+  "reference_context": {
+    "related_data_units": ["00738"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic4nefz3to26dp7i2w22wwwzmhht4drrop7im2m42vqcnozbi7bfy",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
