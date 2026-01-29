@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00737",
+  "file_path": "dataset/data-unit/00737/dataunit_00737.json",
+  "category": "energy-system-operation",
+  "sub_category": "system-shutdown",
+  "captured_at_local": "2026-01-29 01:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "solar_inverter_shutdown_due_to_energy_constraint",
+  "summary": "Shutdown record of power system due to insufficient energy availability.",
+  "description": "Image records the shutdown state of the solar power system at the residential area (HZ-02) due to operational constraints where available power is insufficient for 24-hour operation.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00737/hash/dataunit_00737.sha256",
+    "ots_file": "dataset/data-unit/00737/ots/dgcp_dataunit_00737.ots"
+  },
+  "reference_context": {
+    "related_proofs": ["0555"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaktkzgii5alho37iy7xmihjnruwcwl4hpz2pvmcuafhjnj2q7wt4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
