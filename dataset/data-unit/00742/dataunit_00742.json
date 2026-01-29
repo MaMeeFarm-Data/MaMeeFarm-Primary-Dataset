@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00742",
+  "file_path": "dataset/data-unit/00742/dataunit_00742.json",
+  "category": "infrastructure",
+  "sub_category": "physical-zone-marker",
+  "captured_at_local": "2026-01-29 06:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "fence_post_zone_marker_fz03",
+  "summary": "Fence post displaying zone identification labels.",
+  "description": "Image records a fence post used as a physical boundary marker for farm zone FZ-03. Visible labels include zone identification, system scope information, proof reference, and data unit reference, indicating formal demarcation of Duck & Vegetable Zone A.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "visible_markings": [
+    {
+      "label": "FZ-03",
+      "description": "Duck & Vegetable Zone A",
+      "system": "Farm",
+      "scope": "Ducks / Primary Vegetable Beds"
+    },
+    {
+      "label": "Proof 545",
+      "note": "Zone FZ-03 label installed",
+      "installed_at": "2026-01-26 13:11",
+      "issuer": "MaMeeFarm™"
+    },
+    {
+      "label": "DataUnit 00663",
+      "type": "Physical Zone Label",
+      "reference_proof": "545"
+    }
+  ],
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00742/hash/dataunit_00742.sha256",
+    "ots_file": "dataset/data-unit/00742/ots/dgcp_dataunit_00742.ots"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidd6y27fwxghfhyoreeaedpbxdpnl2fj2jwqch7epfz2bayqbdnni",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
