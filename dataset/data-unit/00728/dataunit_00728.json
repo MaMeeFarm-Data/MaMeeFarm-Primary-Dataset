@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00728",
+  "file_path": "dataset/data-unit/00728/dataunit_00728.json",
+  "category": "water-system",
+  "sub_category": "pump-status-check",
+  "captured_at_local": "2026-01-28 11:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "pmp_sub_02_non_operational_after_activation",
+  "summary": "Submersible pump activated and then removed after no operation observed.",
+  "description": "Image records submersible pump PMP-SUB-02 after being activated for approximately 10 minutes. Pump was observed as non-operational and removed from water source. Cause not determined at time of record.",
+  "assets": [
+    {
+      "asset_id": "PMP-SUB-02",
+      "type": "Submersible Pump",
+      "system": "Water Transfer",
+      "status": "Inactive"
+    }
+  ],
+  "operation_context": {
+    "activation_duration_minutes": 10,
+    "result": "no_operation_observed",
+    "action_taken": "removed_from_water_source"
+  },
+  "reference_context": {
+    "related_data_units": ["00727"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibquapgzeymclf5or3yoigib2qcmm74n7p6fzpa2sajaturzmdjye",
+    "note": "External image reference showing pump after removal."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
