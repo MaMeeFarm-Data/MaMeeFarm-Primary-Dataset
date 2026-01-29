@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00731",
+  "file_path": "dataset/data-unit/00731/dataunit_00731.json",
+  "category": "agricultural-labor",
+  "sub_category": "banana-blossom-cutting",
+  "captured_at_local": "2026-01-28 17:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "banana_blossom_cut_from_banana_bunch",
+  "summary": "Banana blossom cut from banana bunch.",
+  "description": "Image records banana blossom after being cut down from the banana bunch in zone FZ-03.",
+  "assets": [],
+  "operation_context": {
+    "activity": "cutting",
+    "crop": "banana",
+    "plant_part": "banana_blossom"
+  },
+  "reference_context": {
+    "observed_from_data_unit": ["00724"],
+    "related_proofs": ["557"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigsttf67bwgyhwkjbtjmegascuiiopfx5uuzl6zo6xf6dkhc62ame",
+    "note": "External image reference showing banana blossom after cutting."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
