@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00727",
+  "file_path": "dataset/data-unit/00727/dataunit_00727.json",
+  "category": "water-system",
+  "sub_category": "pump-operation",
+  "captured_at_local": "2026-01-28 11:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "submersible_pump_pmp_sub_02_installation",
+  "summary": "Submersible pump PMP-SUB-02 placed into water source for pumping water into farm water tank.",
+  "description": "Image records installation of submersible pump PMP-SUB-02 into water source to pump water into water tank WT-F-0001.",
+  "assets": [
+    {
+      "asset_id": "PMP-SUB-02",
+      "type": "Submersible Pump",
+      "system": "Water Transfer",
+      "status": "Active"
+    },
+    {
+      "asset_id": "WT-F-0001",
+      "type": "Water Tank",
+      "system": "Farm Water System",
+      "status": "Active"
+    }
+  ],
+  "energy_context": {
+    "energy_source": "solar",
+    "power_type": "direct_current",
+    "operation_window": "11:00-14:00"
+  },
+  "reference_context": {
+    "related_proofs": ["555"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidxwtdtjdt22ycn3xa6dagsduhzbv6gxamlq3z2kmukxo56efdsqe",
+    "note": "External image reference showing submersible pump PMP-SUB-02 installation."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
