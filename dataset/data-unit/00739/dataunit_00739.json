@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00739",
+  "file_path": "dataset/data-unit/00739/dataunit_00739.json",
+  "category": "agricultural-operation",
+  "sub_category": "daily-farm-opening",
+  "captured_at_local": "2026-01-29 06:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "zone": ["FZ-03", "FZ-04"],
+  "data_type": "image",
+  "title": "morning_farm_opening_fz03_fz04",
+  "summary": "Daily farm opening activity at farm zones.",
+  "description": "Image records the opening of farm entrance as part of routine daily operations at farm zones FZ-03 and FZ-04.",
+  "actors": ["P'Toh"],
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00739/hash/dataunit_00739.sha256",
+    "ots_file": "dataset/data-unit/00739/ots/dgcp_dataunit_00739.ots"
+  },
+  "reference_context": {
+    "related_data_units": ["00721"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibgqyk2ffuhqzca5dql7liqvagqes3u2sx5y4hov6dp3eu2j3u2j4",
+    "note": "External image reference for independent verification."
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
