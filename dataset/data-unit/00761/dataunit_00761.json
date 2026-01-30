@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00761",
+  "file_path": "dataset/data-unit/00761/dataunit_00761.json",
+  "category": "environment",
+  "sub_category": "microclimate-observation",
+  "captured_at_local": "2026-01-30 07:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "morning_dew_on_avocado_leaf",
+  "summary": "Morning dew observed on avocado leaf.",
+  "description": "Image documents natural dew accumulation on an avocado leaf during early morning hours under ambient environmental conditions.",
+  "environment_context": {
+    "phenomenon": "dew",
+    "time_of_day": "morning",
+    "plant_type": "avocado"
+  },
+  "reference_context": {
+    "related_dataunits": ["00758", "00760"],
+    "note": "Referenced temperature, humidity, and nearby dew observation."
+  },
+  "actor": {
+    "name": "P'Toh",
+    "role": "data_responsible_person",
+    "responsibility": "environmental_observation_and_data_recording"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiez3ycs6u6wqfgfirk25gyfrd6yqo3utbhnpivxtbr7joeyfiobjm",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00761/hash/dataunit_00761.sha256",
+    "ots_file": "dataset/data-unit/00761/ots/dgcp_dataunit_00761.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
