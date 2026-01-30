@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00767",
+  "file_path": "dataset/data-unit/00767/dataunit_00767.json",
+  "category": "energy",
+  "sub_category": "power-system-operation",
+  "captured_at_local": "2026-01-30 08:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "inverter_power_on_event",
+  "summary": "Inverter system powered on for farm electricity supply.",
+  "description": "Image records inverter system being powered on, restoring farm electrical system operation using solar-generated energy.",
+  "energy_asset": {
+    "inverter_id": "INV-01",
+    "asset_type": "power_inverter",
+    "input_source": "SPV-A-0001",
+    "system": "power_conversion",
+    "status": "active"
+  },
+  "event_context": {
+    "event_type": "power_on",
+    "system_state": "electricity_restored"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_data_units": ["00757", "00766"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif32bt3ntpwv2jdtkmixgmtvfo7xsz33vvowcsio2ushgvvtswb6q",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00767/hash/dataunit_00767.sha256",
+    "ots_file": "dataset/data-unit/00767/ots/dgcp_dataunit_00767.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
