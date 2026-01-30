@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00763",
+  "file_path": "dataset/data-unit/00763/dataunit_00763.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-30 07:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "morning_manual_watering_chili_plants",
+  "summary": "Manual watering of chili plants in the morning.",
+  "description": "Image records human labor performing morning manual watering of chili plants using watering can.",
+  "crop_context": {
+    "crop_type": "chili",
+    "activity": "manual_watering",
+    "time_of_day": "morning"
+  },
+  "actor": {
+    "subject_in_image": "MaMee",
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_proofs": ["564"],
+    "note": "Referenced proof indicating start of morning work activity."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidxfhtpf4hztgriyrd6b7qfpgym5tnfzdbpdvmu3onuq3646x2r2e",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00763/hash/dataunit_00763.sha256",
+    "ots_file": "dataset/data-unit/00763/ots/dgcp_dataunit_00763.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
