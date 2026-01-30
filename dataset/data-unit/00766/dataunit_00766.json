@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00766",
+  "file_path": "dataset/data-unit/00766/dataunit_00766.json",
+  "category": "energy",
+  "sub_category": "power-generation",
+  "captured_at_local": "2026-01-30 08:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "solar_panel_array_physical_energy_source",
+  "summary": "Solar panel array as physical energy source for farm power system.",
+  "description": "Image documents active solar panel array installed at farm location, serving as physical energy source for power generation system.",
+  "energy_asset": {
+    "asset_id": "SPV-A-0001",
+    "asset_type": "solar_panel_array",
+    "panel_count": 4,
+    "system": "power_generation",
+    "status": "active"
+  },
+  "asset_context": {
+    "role": "physical_energy_source",
+    "system_dependency": "farm_power_system"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_data_units": ["00744", "00757"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih47mg2ydh4yytqsaedsbqhpsreut73lzqmuvenievlbzt5hvwakq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00766/hash/dataunit_00766.sha256",
+    "ots_file": "dataset/data-unit/00766/ots/dgcp_dataunit_00766.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
