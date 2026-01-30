@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00757",
+  "file_path": "dataset/data-unit/00757/dataunit_00757.json",
+  "category": "energy-management",
+  "sub_category": "power-system-shutdown",
+  "captured_at_local": "2026-01-30 01:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Farm Power System, Thailand",
+  "data_type": "image",
+  "title": "farm_power_system_shutdown_due_to_limited_resources",
+  "summary": "Record of farm power system shutdown.",
+  "description": "Image records the shutdown state of the farm power system inverter operating under limited energy resources.",
+  "power_system": {
+    "inverter_id": "INV-01",
+    "inverter_type": "Power Inverter",
+    "solar_array_id": "SPV-A-0001",
+    "system": "Power Conversion",
+    "operational_state": "Shutdown"
+  },
+  "actor": {
+    "name": "P'Toh",
+    "role": "data_responsible_person",
+    "responsibility": "energy_system_operation_and_recording"
+  },
+  "reference_context": {
+    "related_data_units": ["00744"],
+    "note": "This record corresponds to system shutdown following prior power-on state."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihrj2k2nywsaru4rdxs2cqp5ehnd4colynw2mz4mbwzx4fihggtqi",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00757/hash/dataunit_00757.sha256",
+    "ots_file": "dataset/data-unit/00757/ots/dgcp_dataunit_00757.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
