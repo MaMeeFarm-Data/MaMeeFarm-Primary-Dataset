@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00756",
+  "file_path": "dataset/data-unit/00756/dataunit_00756.json",
+  "category": "environmental-monitoring",
+  "sub_category": "microclimate-record",
+  "captured_at_local": "2026-01-30 01:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, House Line, HZ-02, Thailand",
+  "data_type": "image",
+  "title": "night_temperature_humidity_record_hz_02",
+  "summary": "Nighttime temperature and humidity record.",
+  "description": "Image records nighttime microclimate conditions measured by sensor HTC-1 installed at HZ-02-T1 (House Line).",
+  "measurement": {
+    "temperature_celsius": 19.2,
+    "humidity_percent": 67,
+    "sensor_id": "HTC-1",
+    "sensor_type": "microclimate_sensor"
+  },
+  "asset_reference": {
+    "zone": "HZ-02",
+    "sub_zone": "HZ-02-T1",
+    "system": "House Line",
+    "status": "Active"
+  },
+  "actor": {
+    "name": "P'Toh",
+    "role": "data_responsible_person",
+    "responsibility": "environmental_data_recording"
+  },
+  "reference_context": {
+    "related_data_units": ["00738", "00745"],
+    "note": "Night record following previous temperature data units."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig67l6pv7iwo3sukrehagctxhyaubkdteor6ybgcjbjpissw2uuha",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00756/hash/dataunit_00756.sha256",
+    "ots_file": "dataset/data-unit/00756/ots/dgcp_dataunit_00756.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
