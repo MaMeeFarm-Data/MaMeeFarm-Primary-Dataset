@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00768",
+  "file_path": "dataset/data-unit/00768/dataunit_00768.json",
+  "category": "animal_care",
+  "sub_category": "water_supply",
+  "captured_at_local": "2026-01-30 09:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "dog_water_refill_event",
+  "summary": "Manual refill of water bucket for dogs.",
+  "description": "Image records manual water refill into dog water bucket asset WT-M-0005 as part of routine animal care.",
+  "asset": {
+    "asset_id": "WT-M-0005",
+    "asset_type": "dog_water_bucket",
+    "fill_method": "manual",
+    "status": "active"
+  },
+  "event_context": {
+    "event_type": "water_refill",
+    "care_type": "daily_animal_care"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_data_units": ["00759"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifqq2sfxv4oyejfohe6kgjlk7pscmvvbwjc2r22p5g3v45jl3kq7u",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00768/hash/dataunit_00768.sha256",
+    "ots_file": "dataset/data-unit/00768/ots/dgcp_dataunit_00768.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
+
