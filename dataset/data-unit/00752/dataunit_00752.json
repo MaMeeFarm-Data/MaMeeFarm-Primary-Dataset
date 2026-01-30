@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00752",
+  "file_path": "dataset/data-unit/00752/dataunit_00752.json",
+  "category": "animal-care",
+  "sub_category": "food-inventory",
+  "captured_at_local": "2026-01-29 17:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_food_new_bag_opened",
+  "summary": "Opening of a new dog food bag.",
+  "description": "Image documents the opening of a new 20 kg dog food bag following depletion of the previous bag. This record marks the start of a new consumption cycle.",
+  "inventory_details": {
+    "item": "Dog food",
+    "bag_weight_kg": 20,
+    "action": "opened_new_bag"
+  },
+  "reference_context": {
+    "related_dataunits": ["00750"],
+    "note": "Previous bag consumption reference."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiemb6jmwuwawqzj3kkqesgojxbxh2u4emguaedlgkvsu6dd5c374m",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00752/hash/dataunit_00752.sha256",
+    "ots_file": "dataset/data-unit/00752/ots/dgcp_dataunit_00752.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
