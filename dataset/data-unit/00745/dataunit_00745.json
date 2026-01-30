@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00745",
+  "file_path": "dataset/data-unit/00745/dataunit_00745.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-29 13:15",
+  "timezone": "Asia/Bangkok",
+  "location": "HZ-02, House Balcony, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "temperature_humidity_record_hz02_t1",
+  "summary": "Temperature and humidity record from house balcony sensor.",
+  "description": "Image records temperature and humidity values captured by microclimate sensor installed at house balcony (HZ-02).",
+  "measurement": {
+    "temperature_celsius": 25.6,
+    "humidity_percent": 51
+  },
+  "sensor_device": {
+    "device_id": "HZ-02-HTC-1",
+    "sub_unit_id": "HZ-02-T1",
+    "device_type": "Microclimate Sensor Point",
+    "model": "HTC-1",
+    "system": "House Line",
+    "installation_location": "House Balcony",
+    "status": "Active"
+  },
+  "reference_context": {
+    "related_data_units": ["00738"]
+  },
+  "actors": ["P'Toh"],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif52j4fzolwtrfcolyj6bpusq27fxhqfouv4ny2mqd55e6psfv7nu",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00745/hash/dataunit_00745.sha256",
+    "ots_file": "dataset/data-unit/00745/ots/dgcp_dataunit_00745.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
