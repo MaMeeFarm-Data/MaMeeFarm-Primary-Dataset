@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00747",
+  "file_path": "dataset/data-unit/00747/dataunit_00747.json",
+  "category": "asset-identification",
+  "sub_category": "underground-water-well",
+  "captured_at_local": "2026-01-29 14:03",
+  "timezone": "Asia/Bangkok",
+  "location": "HZ-02, House System, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "underground_water_well_asset_id_installation_hz02",
+  "summary": "Installation and documentation of underground water well asset identification labels.",
+  "description": "Image documents installed asset identification labels for main and secondary underground water wells located in house system zone (HZ-02).",
+  "assets": [
+    {
+      "asset_id": "WT-UW-0001",
+      "name": "Main Underground Water Well",
+      "type": "Underground Water Well (Concrete Ring)",
+      "asset_group": "Underground Water Wells",
+      "system": "House",
+      "zone": "HZ-02",
+      "specification": {
+        "diameter_m": 1.0,
+        "ring_height_m": 0.5,
+        "stack_rings": 7,
+        "total_depth_m": 3.5
+      },
+      "status": "Active"
+    },
+    {
+      "asset_id": "WT-UW-0002",
+      "name": "Secondary Underground Water Well",
+      "type": "Underground Water Well (Concrete Ring)",
+      "asset_group": "Underground Water Wells",
+      "system": "House",
+      "zone": "HZ-02",
+      "specification": {
+        "diameter_m": 0.8,
+        "ring_height_m": 0.5,
+        "stack_rings": 2,
+        "total_depth_m": 1.0
+      },
+      "status": "Active"
+    }
+  ],
+  "reference_context": {
+    "related_data_units": ["00727"]
+  },
+  "actors": ["P'Toh"],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicx7kr6qzdiwkebodnbj5xogf4esfcsdzn3pyg5ln656he5rl5com",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00747/hash/dataunit_00747.sha256",
+    "ots_file": "dataset/data-unit/00747/ots/dgcp_dataunit_00747.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
