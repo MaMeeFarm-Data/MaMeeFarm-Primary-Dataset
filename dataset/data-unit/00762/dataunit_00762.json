@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00762",
+  "file_path": "dataset/data-unit/00762/dataunit_00762.json",
+  "category": "animal-care",
+  "sub_category": "bedding-maintenance",
+  "captured_at_local": "2026-01-30 07:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "morning_dog_bedding_airing",
+  "summary": "Morning airing of dog bedding.",
+  "description": "Image records routine morning activity of airing dog bedding by hanging fabric outdoors.",
+  "care_context": {
+    "animal_type": "dog",
+    "activity": "bedding_airing",
+    "routine": true,
+    "time_of_day": "morning"
+  },
+  "actor": {
+    "subject_in_image": "MaMee",
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_dataunits": ["00761"],
+    "note": "Referenced previous routine animal care activity."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib2my55jrrlch423i3enjhoxsimgjg4zbcb2sorch75lr4o7kj25y",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00762/hash/dataunit_00762.sha256",
+    "ots_file": "dataset/data-unit/00762/ots/dgcp_dataunit_00762.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
