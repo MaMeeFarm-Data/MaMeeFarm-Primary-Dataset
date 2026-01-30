@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00750",
+  "file_path": "dataset/data-unit/00750/dataunit_00750.json",
+  "category": "animal-care",
+  "sub_category": "feed-management",
+  "captured_at_local": "2026-01-29 15:20",
+  "timezone": "Asia/Bangkok",
+  "location": "HZ-02, House Area, MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "dog_food_remaining_20kg_bag_status",
+  "summary": "Visual record of remaining dog food inside opened bag.",
+  "description": "Image documents remaining quantity of dog food inside a 20 kg bag. The bag was opened on 2026-01-24. Total dogs: 20.",
+  "feed_details": {
+    "feed_type": "Dry Dog Food",
+    "original_bag_weight_kg": 20,
+    "bag_open_date": "2026-01-24",
+    "dog_count": 20
+  },
+  "reference_context": {
+    "related_dataunits": ["00595"]
+  },
+  "actors": ["P'Toh"],
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicvqdm2p3yf75le4wx77xdvwvr3evkhvwxcxsmnprfesjpom5p65a",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00750/hash/dataunit_00750.sha256",
+    "ots_file": "dataset/data-unit/00750/ots/dgcp_dataunit_00750.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
