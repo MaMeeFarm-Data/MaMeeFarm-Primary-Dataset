@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00764",
+  "file_path": "dataset/data-unit/00764/dataunit_00764.json",
+  "category": "asset-management",
+  "sub_category": "asset-labeling",
+  "captured_at_local": "2026-01-30 07:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "ban-0001_asset_label_update",
+  "summary": "Physical label installation on banana asset BAN-0001.",
+  "description": "Image documents installation of updated physical care-event labels attached to banana asset BAN-0001 for traceability reference.",
+  "asset_context": {
+    "asset_id": "BAN-0001",
+    "asset_type": "banana_plant",
+    "event_type": "label_installation",
+    "care_event_references": [
+      "Care Event 02",
+      "Care Event 03"
+    ]
+  },
+  "label_details": [
+    {
+      "label": "Label 3 – Care Event 02",
+      "reference_proof": "527",
+      "reference_dataunit": "00528"
+    },
+    {
+      "label": "Label 4 – Care Event 03",
+      "event": "Selective Sucker Removal",
+      "reference_proof": "563"
+    }
+  ],
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_proofs": ["563", "565"],
+    "note": "Proofs referenced directly on physical labels."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibagw2dwb43qfbyp45gy6ow6zjxwjrb2toq37ffb3d555x7yoyzry",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00764/hash/dataunit_00764.sha256",
+    "ots_file": "dataset/data-unit/00764/ots/dgcp_dataunit_00764.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
