@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00751",
+  "file_path": "dataset/data-unit/00751/dataunit_00751.json",
+  "category": "agricultural-produce",
+  "sub_category": "post-harvest-observation",
+  "captured_at_local": "2026-01-29 15:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "banana_ripening_natural_condition",
+  "summary": "Visual observation of bananas showing early ripening stage.",
+  "description": "Image documents bananas harvested on 2026-01-19. Visual signs indicate onset of ripening. Bananas are kept to ripen under natural conditions without intervention.",
+  "produce_details": {
+    "crop": "Banana",
+    "harvest_date": "2026-01-19",
+    "ripening_method": "natural",
+    "bunch_count": 13
+  },
+  "reference_context": {
+    "related_dataunits": ["00414", "00738"],
+    "related_proofs": ["512"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidgnui7snjrintrxly2ii4lnnraiqdk3qfnlbi7qlqo5wlccmoav4",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00751/hash/dataunit_00751.sha256",
+    "ots_file": "dataset/data-unit/00751/ots/dgcp_dataunit_00751.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
