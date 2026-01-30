@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00753",
+  "file_path": "dataset/data-unit/00753/dataunit_00753.json",
+  "category": "agricultural-labor",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-29 17:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Thailand",
+  "data_type": "image",
+  "title": "post_work_watering_banana_ban_0001",
+  "summary": "Manual watering of banana plant after completion of proof work.",
+  "description": "Image documents manual watering activity performed after completion of Proof 563. Target plant: banana BAN-0001.",
+  "asset_reference": {
+    "asset_id": "BAN-0001",
+    "asset_type": "banana_plant"
+  },
+  "reference_context": {
+    "related_proofs": ["563"],
+    "note": "Watering conducted after proof work completion."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihyzfx4m5jpak3ibnl5a37xnrrihpgu3tpoidjpslqzcylp2jwfjq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00753/hash/dataunit_00753.sha256",
+    "ots_file": "dataset/data-unit/00753/ots/dgcp_dataunit_00753.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
