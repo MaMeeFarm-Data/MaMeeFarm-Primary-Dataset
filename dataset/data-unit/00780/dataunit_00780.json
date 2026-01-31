@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00780",
+  "file_path": "dataset/data-unit/00780/dataunit_00780.json",
+  "category": "energy-management",
+  "sub_category": "power-disconnection",
+  "captured_at_local": "2026-01-30 14:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "water_pump_power_unplugged",
+  "summary": "Water pump power plug observed disconnected.",
+  "description": "Image records the water pump power plug in disconnected state after pumping operation.",
+  "reference_context": {
+    "related_data_units": ["00771", "00778", "00779"],
+    "asset_ids": ["PMP-SUB-01"],
+    "operation_type": "pump-power-off"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib3lgz5poob24ejbzlsilddcen6sfq7l32lo4q6j7yq5m4jbjk6ye",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00780/hash/dataunit_00780.sha256",
+    "ots_file": "dataset/data-unit/00780/ots/dgcp_dataunit_00780.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
