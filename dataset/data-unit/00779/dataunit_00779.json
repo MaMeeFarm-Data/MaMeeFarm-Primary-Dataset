@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00779",
+  "file_path": "dataset/data-unit/00779/dataunit_00779.json",
+  "category": "water-management",
+  "sub_category": "tank-status",
+  "captured_at_local": "2026-01-30 14:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "mobile_water_tanks_full_wt_m_0001_0002",
+  "summary": "Mobile water tanks WT-M-0001 and WT-M-0002 observed full.",
+  "description": "Image records mobile water tanks WT-M-0001 and WT-M-0002 at full water level in FZ-03.",
+  "reference_context": {
+    "related_data_units": ["00772", "00776"],
+    "asset_ids": ["WT-M-0001", "WT-M-0002"],
+    "operation_type": "water-status-observation"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigbb3iyjwxq3urawqurklxxw2by6e3xq4wrdqhfd5pbsc2tzwcvku",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00779/hash/dataunit_00779.sha256",
+    "ots_file": "dataset/data-unit/00779/ots/dgcp_dataunit_00779.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
