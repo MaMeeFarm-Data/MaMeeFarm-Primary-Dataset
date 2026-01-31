@@ -1,0 +1,33 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00795",
+  "file_path": "dataset/data-unit/00795/dataunit_00795.json",
+  "category": "agricultural-observation",
+  "sub_category": "plant-surface-moisture",
+  "captured_at_local": "2026-01-31 08:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "morning_dew_on_kale_leaves",
+  "summary": "Observation of dew present on kale leaves during morning hours.",
+  "description": "Image records visible dew droplets on kale leaf surfaces during morning observation.",
+  "reference_context": {
+    "related_data_units": ["00794"],
+    "related_proof": ["569"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid53hokb3t32m4tzahwpc5cn7zsbe5qmrsmadr7m6kujksnbt4mha",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00795/hash/dataunit_00795.sha256",
+    "ots_file": "dataset/data-unit/00795/ots/dgcp_dataunit_00795.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
