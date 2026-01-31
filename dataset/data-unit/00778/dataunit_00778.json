@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00778",
+  "file_path": "dataset/data-unit/00778/dataunit_00778.json",
+  "category": "water-management",
+  "sub_category": "tank-refill",
+  "captured_at_local": "2026-01-30 14:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+  "data_type": "image",
+  "title": "refill_mobile_water_tank_wt_m_0003",
+  "summary": "Refill of mobile water tank WT-M-0003.",
+  "description": "Image records water refill into mobile water tank WT-M-0003 (200 L) at FZ-04.",
+  "reference_context": {
+    "related_data_units": ["00772"],
+    "asset_id": "WT-M-0003",
+    "operation_type": "water-refill"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiandavz2pcfc7ww3s7lyy76gs4k6dpotiaxbhndjja2q6ddaike24",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00778/hash/dataunit_00778.sha256",
+    "ots_file": "dataset/data-unit/00778/ots/dgcp_dataunit_00778.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
