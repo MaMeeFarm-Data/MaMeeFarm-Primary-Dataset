@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00797",
+  "file_path": "dataset/data-unit/00797/dataunit_00797.json",
+  "category": "agricultural-observation",
+  "sub_category": "plant-visual-state",
+  "captured_at_local": "2026-01-31 08:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "asset_identity": {
+    "asset_id": "PLT-TOM-0001",
+    "asset_type": "Plant",
+    "common_name": "Tomato",
+    "lifecycle_stage": "Flowering",
+    "zone": "FZ-03",
+    "start_dataunit": "00722"
+  },
+  "title": "tomato_plant_visual_state_fz03",
+  "summary": "Visual record of tomato plant condition.",
+  "description": "Image documents the visual state of tomato plant PLT-TOM-0001 in zone FZ-03, following asset label confirmation.",
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "role": "data recorder / responsible party"
+  },
+  "reference_context": {
+    "related_data_units": ["00796"],
+    "related_proof": ["569"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigo4kcmpq6x3ks7dtbwxsfvfcgehezplq3jchc2yasagbsitpzhvq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00797/hash/dataunit_00797.sha256",
+    "ots_file": "dataset/data-unit/00797/ots/dgcp_dataunit_00797.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
