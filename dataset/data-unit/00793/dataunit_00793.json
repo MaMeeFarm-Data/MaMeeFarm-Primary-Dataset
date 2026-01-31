@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00793",
+  "file_path": "dataset/data-unit/00793/dataunit_00793.json",
+  "category": "infrastructure",
+  "sub_category": "power-system-operation",
+  "captured_at_local": "2026-01-31 08:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "farm_power_system_activated_display_not_functional",
+  "summary": "Farm power system activated with non-functional display.",
+  "description": "Image records farm power system (hybrid solar inverter) activated. Display does not show output due to equipment degradation from long-term use.",
+  "actors": {
+    "human": "P'Toh"
+  },
+  "system_context": {
+    "equipment": [
+      {
+        "asset_id": "INV-01",
+        "type": "power_inverter",
+        "status": "active"
+      },
+      {
+        "asset_id": "SPV-A-0001",
+        "type": "solar_panel_array",
+        "status": "active"
+      }
+    ],
+    "display_status": "not functional",
+    "usage_duration_years": 7
+  },
+  "reference_context": {
+    "related_data_units": ["00791"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeietosq546qrsyzrfqmlv5lwa6rrhfwtuvmt2e3dz6lcscsdf7uvwy",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00793/hash/dataunit_00793.sha256",
+    "ots_file": "dataset/data-unit/00793/ots/dgcp_dataunit_00793.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
