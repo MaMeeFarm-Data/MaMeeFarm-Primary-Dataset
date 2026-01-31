@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00796",
+  "file_path": "dataset/data-unit/00796/dataunit_00796.json",
+  "category": "asset-verification",
+  "sub_category": "plant-asset-label",
+  "captured_at_local": "2026-01-31 08:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "asset_identity": {
+    "asset_id": "PLT-TOM-0001",
+    "asset_type": "Plant",
+    "common_name": "Tomato",
+    "lifecycle_stage": "Flowering",
+    "zone": "FZ-03",
+    "start_dataunit": "00722",
+    "start_date": "2026-01-28"
+  },
+  "title": "tomato_plant_asset_label_confirmation",
+  "summary": "Visual confirmation of asset label attached to tomato plant.",
+  "description": "Image documents the physical asset label attached to tomato plant PLT-TOM-0001, confirming identity, lifecycle stage, zone, and start reference as printed on label.",
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "role": "data recorder / responsible party"
+  },
+  "reference_context": {
+    "related_proof": ["569"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiewny4nhte35iley6spcggqm24m6ttntqpn36tm67mhfuzipz2x4e",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00796/hash/dataunit_00796.sha256",
+    "ots_file": "dataset/data-unit/00796/ots/dgcp_dataunit_00796.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
