@@ -1,0 +1,36 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00783",
+  "file_path": "dataset/data-unit/00783/dataunit_00783.json",
+  "category": "environment-observation",
+  "sub_category": "natural-light",
+  "captured_at_local": "2026-01-30 17:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "evening_light_observation",
+  "summary": "Observation of natural light conditions during evening hours.",
+  "description": "Image records natural light conditions at MaMeeFarm during the evening period.",
+  "reference_context": {
+    "related_data_units": ["00773"],
+    "observation_type": "light-condition"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibrycwpzfdh2dindt73eympucduelra74oofjl47qfzqt5cky4ixe",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00783/hash/dataunit_00783.sha256",
+    "ots_file": "dataset/data-unit/00783/ots/dgcp_dataunit_00783.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
