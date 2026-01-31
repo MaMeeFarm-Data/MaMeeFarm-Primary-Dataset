@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00789",
+  "file_path": "dataset/data-unit/00789/dataunit_00789.json",
+  "category": "daily-labor",
+  "sub_category": "household-animal-care",
+  "captured_at_local": "2026-01-30 18:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "collecting_dog_bedding_after_drying",
+  "summary": "Collecting dog bedding after drying period.",
+  "description": "Image records the action of collecting dog bedding that was previously laid out for drying. Bedding was collected in the evening after drying period.",
+  "reference_context": {
+    "related_data_units": ["00762", "00788"]
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "daily_labor"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihzv3ksnhzom6xqrph4q22zrfhcxecu3ebvzhnom5ykqyc3wp3bn4",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00789/hash/dataunit_00789.sha256",
+    "ots_file": "dataset/data-unit/00789/ots/dgcp_dataunit_00789.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
