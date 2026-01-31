@@ -1,0 +1,35 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00786",
+  "file_path": "dataset/data-unit/00786/dataunit_00786.json",
+  "category": "environmental-observation",
+  "sub_category": "water-visual-condition",
+  "captured_at_local": "2026-01-30 17:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, FZ-04",
+  "data_type": "image",
+  "title": "canal_water_color_observation_after_inflow_fz04",
+  "summary": "Visual observation of canal water color following upstream inflow.",
+  "description": "Image records the visual appearance and color of water in the canal after inflow was observed from an adjacent area.",
+  "reference_context": {
+    "related_data_unit": "00785"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidi2oxluz3c4cm4cwvldvp4vtx4jbnnyru62c6vht56x5r4a5xvfq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00786/hash/dataunit_00786.sha256",
+    "ots_file": "dataset/data-unit/00786/ots/dgcp_dataunit_00786.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
