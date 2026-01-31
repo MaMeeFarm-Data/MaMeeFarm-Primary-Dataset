@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00782",
+  "file_path": "dataset/data-unit/00782/dataunit_00782.json",
+  "category": "water-management",
+  "sub_category": "equipment-handling",
+  "captured_at_local": "2026-01-30 16:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "submersible_pump_removed_post_operation",
+  "summary": "Submersible pump removed from water tank WT-F-0001 after completion of use.",
+  "description": "Image records removal and storage of submersible pump PMP-SUB-01 from water tank WT-F-0001 following completion of water transfer operations.",
+  "reference_context": {
+    "asset_ids": ["PMP-SUB-01", "WT-F-0001"],
+    "related_data_units": ["00771", "00772", "00776", "00778", "00779", "00781"]
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidmidf35wafamawswshpzuskxt6v5w6iilzhayl6mg5g3i4eee6hy",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00782/hash/dataunit_00782.sha256",
+    "ots_file": "dataset/data-unit/00782/ots/dgcp_dataunit_00782.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
