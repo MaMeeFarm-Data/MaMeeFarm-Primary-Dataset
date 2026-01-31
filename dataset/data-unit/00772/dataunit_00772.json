@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00772",
+  "file_path": "dataset/data-unit/00772/dataunit_00772.json",
+  "category": "resource_flow",
+  "sub_category": "water_distribution",
+  "captured_at_local": "2026-01-30 12:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "water_transfer_from_wt_f_0001_to_field_zones",
+  "summary": "Water pumped from farm water tank to field zones.",
+  "description": "Image records active water transfer operation pumping water from water tank WT-F-0001 located in hub zone HZ-02 to field zones FZ-03 and FZ-04.",
+  "source_asset": {
+    "asset_id": "WT-F-0001",
+    "asset_type": "water_tank",
+    "capacity_liters": 2000,
+    "system": "farm_water_storage",
+    "status": "active"
+  },
+  "transfer": {
+    "operation_type": "pumping",
+    "from_zone": "HZ-02",
+    "to_zones": ["FZ-03", "FZ-04"]
+  },
+  "energy_context": {
+    "powered_by": "solar_power",
+    "reference_data_unit": "00771"
+  },
+  "event_context": {
+    "event_type": "water_distribution"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_data_units": ["00771"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifs57augtg6tbtnouhgmzgtwafq7jjbpwyh3p56mweuefwm3npp6q",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00772/hash/dataunit_00772.sha256",
+    "ots_file": "dataset/data-unit/00772/ots/dgcp_dataunit_00772.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
