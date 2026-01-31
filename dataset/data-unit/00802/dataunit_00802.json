@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00802",
+  "file_path": "dataset/data-unit/00802/dataunit_00802.json",
+  "category": "farm-operations",
+  "sub_category": "animal-care-water",
+  "captured_at_local": "2026-01-31 12:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "dog_water_bucket_full_state",
+  "summary": "Dog water bucket observed at full capacity after manual refill.",
+  "description": "Image documents the water bucket asset WT-M-0005 in a full state following manual refill. Water level reaches the rim, indicating completion of filling activity.",
+  "asset_reference": {
+    "asset_id": "WT-M-0005",
+    "asset_type": "Dog Water Bucket",
+    "operation_mode": "Manual Fill"
+  },
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "role": "data recorder / responsible party"
+  },
+  "reference_context": {
+    "related_data_units": ["00799"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidufpd6pziezdr6k3pdo3j4miepy6aiarrtbbqe4nltnvjwoms45y",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00802/hash/dataunit_00802.sha256",
+    "ots_file": "dataset/data-unit/00802/ots/dgcp_dataunit_00802.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
