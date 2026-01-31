@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00771",
+  "file_path": "dataset/data-unit/00771/dataunit_00771.json",
+  "category": "infrastructure_operation",
+  "sub_category": "water_transfer",
+  "captured_at_local": "2026-01-30 12:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "submersible_pump_preparation_solar_power",
+  "summary": "Preparation of submersible pump using solar power system.",
+  "description": "Image records submersible pump prepared for water transfer operation using electrical power supplied from the solar energy system.",
+  "asset": {
+    "asset_id": "PMP-SUB-01",
+    "asset_type": "submersible_pump",
+    "outlet_size_inch": 1,
+    "system": "water_transfer",
+    "status": "active"
+  },
+  "energy_source": {
+    "type": "solar_power",
+    "system_zone": "HZ-02"
+  },
+  "event_context": {
+    "event_type": "equipment_preparation"
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "reference_context": {
+    "related_data_units": ["00767"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifomsubsprfagrbho6zcv7h65d7sj7oyr5rtvc2rz5j5uuxcr4vmy",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00771/hash/dataunit_00771.sha256",
+    "ots_file": "dataset/data-unit/00771/ots/dgcp_dataunit_00771.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
