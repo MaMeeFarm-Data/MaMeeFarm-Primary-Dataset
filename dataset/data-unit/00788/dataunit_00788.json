@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00788",
+  "file_path": "dataset/data-unit/00788/dataunit_00788.json",
+  "category": "microclimate",
+  "sub_category": "temperature-humidity-record",
+  "captured_at_local": "2026-01-30 18:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm, Duck House Zone (FZ-03)",
+  "data_type": "sensor-image",
+  "title": "duck_house_temperature_humidity_fz03",
+  "summary": "Temperature and humidity record inside duck house.",
+  "description": "This data unit records temperature and humidity values displayed on HTC-2 microclimate sensor installed in Duck House Zone (FZ-03). Values are captured visually from the device display.",
+  "sensor_reading": {
+    "sensor_id": "HTC-2",
+    "sensor_type": "microclimate_sensor",
+    "zone": "FZ-03",
+    "sub_zone": "FZ-03-T1",
+    "temperature_inside_celsius": 26.2,
+    "temperature_outside_celsius": 24.0,
+    "humidity_percent_rh": 63,
+    "display_time": "18:02"
+  },
+  "reference_context": {
+    "related_data_units": ["00765", "00774"]
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifcjdeooipzopyho7p2f6yesgiyprmfthmxkhp2yofz3yepbz3cnu",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00788/hash/dataunit_00788.sha256",
+    "ots_file": "dataset/data-unit/00788/ots/dgcp_dataunit_00788.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
