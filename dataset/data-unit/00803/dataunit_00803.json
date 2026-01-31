@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00803",
+  "file_path": "dataset/data-unit/00803/dataunit_00803.json",
+  "category": "animal-care",
+  "sub_category": "manual-feeding",
+  "captured_at_local": "2026-01-31 13:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "manual_dog_feeding_with_farm_banana",
+  "summary": "Manual feeding of dogs using bananas sourced from the farm.",
+  "description": "Image documents manual feeding of dogs with bananas harvested within MaMeeFarm. Feeding is conducted by MaMee, with data recorded by P'Toh.",
+  "food_source": {
+    "item": "banana",
+    "origin": "MaMeeFarm",
+    "reference_proof": "512"
+  },
+  "actors": {
+    "caregiver": "MaMee",
+    "recorded_by": "P'Toh",
+    "role": "data recorder / responsible party"
+  },
+  "reference_context": {
+    "related_proofs": ["512"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihnejz4vwnp675tjwso5tpipw25akb72xdpv3eavgfzebjn3kxpcq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00803/hash/dataunit_00803.sha256",
+    "ots_file": "dataset/data-unit/00803/ots/dgcp_dataunit_00803.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
