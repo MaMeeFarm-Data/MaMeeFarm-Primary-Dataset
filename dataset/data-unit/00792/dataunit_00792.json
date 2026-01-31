@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00792",
+  "file_path": "dataset/data-unit/00792/dataunit_00792.json",
+  "category": "animal-care",
+  "sub_category": "dog-feeding",
+  "captured_at_local": "2026-01-31 07:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "morning_dog_feeding",
+  "summary": "Morning dog feeding activity.",
+  "description": "Image records preparation and provision of dry dog food for dogs during morning routine.",
+  "actors": {
+    "human": "farm_operator",
+    "animals": "dogs"
+  },
+  "activity": {
+    "type": "feeding",
+    "time_of_day": "morning",
+    "food_type": "dry_dog_food"
+  },
+  "reference_context": {
+    "related_proofs": ["567"],
+    "note": "Previous feeding occurred in the evening."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicqd5xqxc54edj4nevxofbu5qwfwjxbmq3nhufw4lnjo6bfp4ro2m",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00792/hash/dataunit_00792.sha256",
+    "ots_file": "dataset/data-unit/00792/ots/dgcp_dataunit_00792.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
