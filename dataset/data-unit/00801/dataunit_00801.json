@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00801",
+  "file_path": "dataset/data-unit/00801/dataunit_00801.json",
+  "category": "environmental-monitoring",
+  "sub_category": "temperature-humidity-midday",
+  "captured_at_local": "2026-01-31 12:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_unit": "HZ-02-T1",
+  "data_type": "image",
+  "title": "midday_temperature_humidity_record",
+  "summary": "Midday temperature and humidity measurement recorded at house balcony sensor.",
+  "description": "Image records temperature and humidity during midday period using microclimate sensor HTC-1 installed at HZ-02-T1 (House Balcony). Display shows temperature 24.0°C and relative humidity 61%.",
+  "measurement": {
+    "temperature_celsius": 24.0,
+    "relative_humidity_percent": 61,
+    "sensor_id": "HTC-1",
+    "sensor_type": "microclimate"
+  },
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "role": "data recorder / responsible party"
+  },
+  "reference_context": {
+    "related_data_units": ["00790"]
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidxxdgqaku6z7mgp2zwzqwmzrtq2z3vy52ckx6lzhalxgb7zmrq6i",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00801/hash/dataunit_00801.sha256",
+    "ots_file": "dataset/data-unit/00801/ots/dgcp_dataunit_00801.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
