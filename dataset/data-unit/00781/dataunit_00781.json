@@ -1,0 +1,37 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00781",
+  "file_path": "dataset/data-unit/00781/dataunit_00781.json",
+  "category": "water-management",
+  "sub_category": "water-level-observation",
+  "captured_at_local": "2026-01-30 16:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+  "data_type": "image",
+  "title": "wt_m_0003_water_tank_full_status",
+  "summary": "Water level observed full in mobile water tank WT-M-0003.",
+  "description": "Image records mobile water tank WT-M-0003 (200L) at full water level after prior filling and subsequent power disconnection of water pump.",
+  "reference_context": {
+    "asset_ids": ["WT-M-0003"],
+    "related_data_units": ["00772", "00778", "00780"]
+  },
+  "actor": {
+    "data_recorder": "P'Toh",
+    "role": "data_responsible_person"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibwcc4gngkkujkm7apmditgtu6inaxdwyyna6kuh2hiwnp437nnm4",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00781/hash/dataunit_00781.sha256",
+    "ots_file": "dataset/data-unit/00781/ots/dgcp_dataunit_00781.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
