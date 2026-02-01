@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00826",
+  "file_path": "dataset/data-unit/00826/dataunit_00826.json",
+  "category": "infrastructure",
+  "sub_category": "power-system-operation",
+  "captured_at_local": "2026-02-01 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm",
+  "event": {
+    "action": "power_system_on",
+    "system": "farm electrical system",
+    "status": "activated"
+  },
+  "assets_involved": [
+    {
+      "asset_id": "INV-01",
+      "type": "power inverter",
+      "role": "power conversion",
+      "status": "active"
+    },
+    {
+      "asset_id": "SVP-A-0001",
+      "type": "solar panel array",
+      "panel_count": 4,
+      "role": "power generation",
+      "status": "active"
+    }
+  ],
+  "data_type": "image",
+  "reference_context": {
+    "previous_state_dataunit": "00822",
+    "related_assets_dataunit": "00825"
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "role": "system operator / data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifbybla2qbn4cazax46kaia4cqkozqjzj7a45vat6uivm3ustqony",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00826/hash/dataunit_00826.sha256",
+    "ots_file": "dataset/data-unit/00826/ots/dgcp_dataunit_00826.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
