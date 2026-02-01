@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00830",
+  "file_path": "dataset/data-unit/00830/dataunit_00830.json",
+  "category": "environment",
+  "sub_category": "volunteer-plant-observation",
+  "captured_at_local": "2026-02-01 08:33",
+  "timezone": "Asia/Bangkok",
+  "location": "Ground Surface",
+  "zone": "HZ-02",
+  "asset_type": "plant",
+  "plant_type": "onion",
+  "data_type": "image",
+  "title": "volunteer_onion_sprout_unmanaged",
+  "summary": "Observation of onion sprout emerging without planting or care.",
+  "description": "Image documents an onion sprout emerging naturally from ground surface. The bulb appears shrunken. No planting, watering, or maintenance recorded.",
+  "observation": {
+    "growth_origin": "volunteer",
+    "care_status": "unmanaged",
+    "bulb_condition": "shrunken",
+    "measurement_attached": false
+  },
+  "reference_context": {
+    "environmental_baseline_dataunit": "00828"
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "role": "data recorder / observer"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid6tm6udu7vgvij7tbsdbphyykzy5l4k7zwwfy6zadyimi465pede",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00830/hash/dataunit_00830.sha256",
+    "ots_file": "dataset/data-unit/00830/ots/dgcp_dataunit_00830.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
