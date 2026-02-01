@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00812",
+  "file_path": "dataset/data-unit/00812/dataunit_00812.json",
+  "category": "plant-observation",
+  "sub_category": "lifecycle-stage-observation",
+  "captured_at_local": "2026-01-31 17:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+  "data_type": "image",
+  "title": "marigold_flower_drying_observation",
+  "summary": "Observation of marigold flowers beginning to dry in Zone FZ-04.",
+  "description": "This data unit documents the observed condition of marigold flowers showing signs of drying. The record reflects a natural progression within the plant lifecycle under existing field conditions.",
+  "plant_context": {
+    "plant_type": "marigold",
+    "observed_condition": "flowers beginning to dry",
+    "lifecycle_stage": "post-bloom / drying",
+    "chemical_use": "none"
+  },
+  "actors": {
+    "observed_by": "P'Toh",
+    "responsibility": "data recording and verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihfdoizissebwwbrq2n4dacectnnnxiwc5bzxhqu4khld7gk77rxi",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00812/hash/dataunit_00812.sha256",
+    "ots_file": "dataset/data-unit/00812/ots/dgcp_dataunit_00812.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
