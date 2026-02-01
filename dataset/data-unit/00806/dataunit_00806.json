@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00806",
+  "file_path": "dataset/data-unit/00806/dataunit_00806.json",
+  "category": "plant-care",
+  "sub_category": "mulching-and-watering",
+  "captured_at_local": "2026-01-31 13:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "rose_plant_mulching_and_watering",
+  "summary": "Mulching and watering activity for a rose plant.",
+  "description": "This data unit documents routine plant care involving straw mulching and watering of a rose plant. The activity supports soil moisture retention and plant health under normal farm conditions.",
+  "plant_context": {
+    "plant_type": "rose",
+    "care_actions": ["straw mulching", "manual watering"],
+    "care_purpose": "soil moisture retention and plant health support"
+  },
+  "reference_context": {
+    "related_proofs": ["571"]
+  },
+  "actors": {
+    "performed_by": "MaMee",
+    "recorded_by": "P'Toh",
+    "responsibility": "data recording and verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihthxhkiopsjzcv2ety4scflrjnnceyqydymrsizypfnvrpi2qxqy",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00806/hash/dataunit_00806.sha256",
+    "ots_file": "dataset/data-unit/00806/ots/dgcp_dataunit_00806.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
