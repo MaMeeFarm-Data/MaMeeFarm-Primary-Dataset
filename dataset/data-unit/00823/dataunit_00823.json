@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00823",
+  "file_path": "dataset/data-unit/00823/dataunit_00823.json",
+  "category": "environment",
+  "sub_category": "microclimate",
+  "captured_at_local": "2026-02-01 06:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_unit": "HZ-02-T1",
+  "system": "house line",
+  "asset": {
+    "asset_id": "HZ-02-HTC-1",
+    "type": "microclimate sensor",
+    "status": "active"
+  },
+  "measurement": {
+    "temperature_celsius": 16.1,
+    "humidity_percent": 68
+  },
+  "reference_context": {
+    "related_dataunit": "00821",
+    "relation": "previous temperature record"
+  },
+  "data_type": "image",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihttuzfnixg3czvn2k57ljoj5r4om3u254htbhgpnpcniuzduhac4",
+    "note": "External image reference for verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00823/hash/dataunit_00823.sha256",
+    "ots_file": "dataset/data-unit/00823/ots/dgcp_dataunit_00823.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
