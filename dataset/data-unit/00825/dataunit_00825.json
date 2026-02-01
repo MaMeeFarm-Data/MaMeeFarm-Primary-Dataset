@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00825",
+  "file_path": "dataset/data-unit/00825/dataunit_00825.json",
+  "category": "infrastructure",
+  "sub_category": "energy-generation",
+  "captured_at_local": "2026-02-01 07:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm",
+  "asset": {
+    "asset_id": "SVP-A-0001",
+    "type": "solar panel array",
+    "panel_count": 4,
+    "usage": "farm power system",
+    "status": "active"
+  },
+  "activity": "daily system operation",
+  "data_type": "image",
+  "reference_context": {
+    "related_dataunits": [
+      "00793",
+      "00822"
+    ],
+    "usage_frequency": "daily"
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "role": "system operator / data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib77rivek2oirfscxfpkfrjcfs7pqfhzlygun5xnsyx4dtwkhdiby",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00825/hash/dataunit_00825.sha256",
+    "ots_file": "dataset/data-unit/00825/ots/dgcp_dataunit_00825.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
