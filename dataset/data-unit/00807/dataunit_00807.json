@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00807",
+  "file_path": "dataset/data-unit/00807/dataunit_00807.json",
+  "category": "infrastructure",
+  "sub_category": "asset-labeling",
+  "captured_at_local": "2026-01-31 14:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "water_tank_asset_labeling_hz02",
+  "summary": "Labeling of a mobile water tank asset in Zone HZ-02.",
+  "description": "This data unit documents the attachment of an asset identification label to a mobile water tank located in Zone HZ-02, near the underground water source. The action establishes traceable asset identity within the farm water management system.",
+  "asset_context": {
+    "asset_id": "WT-M-0004",
+    "asset_type": "water tank",
+    "capacity_liters": 200,
+    "mobility": "mobile",
+    "status": "active",
+    "placement_note": "near underground water source"
+  },
+  "actors": {
+    "performed_by": "P'Toh",
+    "responsibility": "asset identification and data recording"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiezpd2jawmke6hzkpgpxhpuezwnq5u7whbcwlrtaovk63ej36yx3e",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00807/hash/dataunit_00807.sha256",
+    "ots_file": "dataset/data-unit/00807/ots/dgcp_dataunit_00807.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
