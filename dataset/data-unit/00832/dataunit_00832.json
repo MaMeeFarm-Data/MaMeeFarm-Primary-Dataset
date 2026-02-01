@@ -1,0 +1,46 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00832",
+  "file_path": "dataset/data-unit/00832/dataunit_00832.json",
+  "category": "animal-care",
+  "sub_category": "water-provisioning",
+  "captured_at_local": "2026-02-01 11:41",
+  "timezone": "Asia/Bangkok",
+  "location": "Dog Area",
+  "zone": "HZ-02",
+  "asset_id": "WT-M-0005",
+  "asset_type": "dog_water_bucket",
+  "operation_mode": "manual_fill",
+  "data_type": "image",
+  "title": "dog_water_bucket_manual_fill",
+  "summary": "Manual water provision for dogs using labeled water bucket.",
+  "description": "Image records manual water filling activity for dogs using water bucket WT-M-0005 in HZ-02 zone. Activity conducted as part of routine animal care.",
+  "activity": {
+    "action": "water_provision",
+    "method": "manual",
+    "target": "dogs",
+    "automation": false
+  },
+  "reference_context": {
+    "related_dataunit": "00824",
+    "relation_note": "Continues daily animal care following feeding activity."
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "role": "animal care / data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicsnqkbhmnrnsxx6mja6ik7qpi73ijqfywtf4muxkgv2qzgx2fgnm",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00832/hash/dataunit_00832.sha256",
+    "ots_file": "dataset/data-unit/00832/ots/dgcp_dataunit_00832.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
