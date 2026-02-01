@@ -1,0 +1,48 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00831",
+  "file_path": "dataset/data-unit/00831/dataunit_00831.json",
+  "category": "environment",
+  "sub_category": "water-infrastructure-observation",
+  "captured_at_local": "2026-02-01 08:34",
+  "timezone": "Asia/Bangkok",
+  "location": "Soil Canal",
+  "zone": "Farm Perimeter",
+  "asset_type": "infrastructure",
+  "infrastructure_type": "soil_canal",
+  "data_type": "image",
+  "title": "soil_canal_water_retention_failure",
+  "summary": "Observation of soil canal unable to retain water within farm area.",
+  "description": "Image documents a soil canal within MaMeeFarm where water does not remain. Water source originates from adjacent cornfield outside farm boundary. No structural modification recorded at time of capture.",
+  "observation": {
+    "water_retention": "not_retained",
+    "water_source": "external_agricultural_field",
+    "canal_condition": "soil_based",
+    "maintenance_action_recorded": false
+  },
+  "reference_context": {
+    "related_dataunits": [
+      "00785",
+      "00786",
+      "00789"
+    ]
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "role": "data recorder / observer"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiedyn6slp3usdulhadf6qn6yetzz2icqumexuvctgn4afnarr2pr4",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00831/hash/dataunit_00831.sha256",
+    "ots_file": "dataset/data-unit/00831/ots/dgcp_dataunit_00831.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
