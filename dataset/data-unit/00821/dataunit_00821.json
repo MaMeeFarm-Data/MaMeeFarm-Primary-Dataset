@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00821",
+  "file_path": "dataset/data-unit/00821/dataunit_00821.json",
+  "category": "environmental-record",
+  "sub_category": "temperature-humidity",
+  "captured_at_local": "2026-02-01 02:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+  "sensor": {
+    "asset_id": "HTC-1",
+    "model": "HTC-1",
+    "type": "microclimate sensor",
+    "installation_point": "house balcony",
+    "status": "active"
+  },
+  "measurements": {
+    "temperature_celsius": 18.1,
+    "relative_humidity_percent": 67
+  },
+  "reference_context": {
+    "related_dataunit": "00809",
+    "relation": "previous evening record"
+  },
+  "data_type": "image",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiak3ibn6g545vliwy2gsvsaent7ucptgt44zxtkz7dzsbhgbks2a4",
+    "note": "External image reference for verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00821/hash/dataunit_00821.sha256",
+    "ots_file": "dataset/data-unit/00821/ots/dgcp_dataunit_00821.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
