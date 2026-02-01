@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00834",
+  "file_path": "dataset/data-unit/00834/dataunit_00834.json",
+  "category": "animal-care",
+  "sub_category": "water-provision",
+  "captured_at_local": "2026-02-01 12:02",
+  "timezone": "Asia/Bangkok",
+  "location": "Dog Area",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "dog_water_bucket_filled",
+  "summary": "Dog water bucket filled and available.",
+  "description": "Image documents a filled dog water bucket after manual water provision. Water level observed at full capacity and available for animals.",
+  "asset": {
+    "asset_id": "WT-M-0005",
+    "asset_type": "Dog Water Bucket",
+    "operation_mode": "manual"
+  },
+  "activity": {
+    "action": "water_available",
+    "method": "manual_fill",
+    "status": "full",
+    "automation": false
+  },
+  "actors": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh",
+    "labor_type": "human"
+  },
+  "reference_context": {
+    "related_dataunit": ["00832"],
+    "relation_note": "Confirms water availability following manual water provision."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeichjstnygdahkvh5b4iibms6ypoisnrjdpht47palbgpq4sbl5zqa",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00834/hash/dataunit_00834.sha256",
+    "ots_file": "dataset/data-unit/00834/ots/dgcp_dataunit_00834.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
