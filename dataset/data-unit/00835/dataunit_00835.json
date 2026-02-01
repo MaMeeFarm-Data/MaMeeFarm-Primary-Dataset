@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00835",
+  "file_path": "dataset/data-unit/00835/dataunit_00835.json",
+  "category": "environment",
+  "sub_category": "microclimate-measurement",
+  "captured_at_local": "2026-02-01 12:13",
+  "timezone": "Asia/Bangkok",
+  "location": "House Line",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+  "asset_id": "HTC-1",
+  "data_type": "image",
+  "title": "house_line_temperature_midday",
+  "summary": "Midday temperature and humidity record at house line.",
+  "description": "Image records microclimate conditions during midday. Measurement captured using HTC-1 sensor installed at house line.",
+  "measurement": {
+    "temperature_celsius": 24.2,
+    "relative_humidity_percent": 58,
+    "device": "HTC-1",
+    "status": "active"
+  },
+  "reference_context": {
+    "morning_reference_dataunit": "00823"
+  },
+  "actors": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh",
+    "labor_type": "human"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicllhwgacfcozccy27fvu3c5v7ltbox2rguygs2gjhvtr2msgqp7u",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00835/hash/dataunit_00835.sha256",
+    "ots_file": "dataset/data-unit/00835/ots/dgcp_dataunit_00835.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
