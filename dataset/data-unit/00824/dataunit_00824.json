@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00824",
+  "file_path": "dataset/data-unit/00824/dataunit_00824.json",
+  "category": "daily-labor",
+  "sub_category": "animal-feeding",
+  "captured_at_local": "2026-02-01 07:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "activity": "dog feeding",
+  "subjects": {
+    "animal_type": "dog",
+    "group": "farm dogs"
+  },
+  "feed": {
+    "type": "dry dog food",
+    "method": "manual distribution",
+    "resource_condition": "limited"
+  },
+  "data_type": "image",
+  "reference_context": {
+    "previous_feeding_dataunit": "00808",
+    "relation": "evening feeding (previous day)"
+  },
+  "actors": {
+    "performed_by": "P'Toh",
+    "role": "caregiver / data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiggswdj34pcphwmfxmh2gzktkcnf7htdg654bkm6lbz74xxqzjnie",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00824/hash/dataunit_00824.sha256",
+    "ots_file": "dataset/data-unit/00824/ots/dgcp_dataunit_00824.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
