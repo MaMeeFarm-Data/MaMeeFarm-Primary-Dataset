@@ -1,0 +1,46 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00815",
+  "file_path": "dataset/data-unit/00815/dataunit_00815.json",
+  "category": "infrastructure",
+  "sub_category": "asset-labeling",
+  "captured_at_local": "2026-01-31 17:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "rose_plant_asset_labeling_plt_ros_0001",
+  "summary": "Attachment of an asset identification label to a rose plant (PLT-ROS-0001).",
+  "description": "This data unit documents the attachment of a DGCP asset identification label to a rose plant in Zone HZ-02. The action establishes traceable plant identity within the MaMeeFarm asset system.",
+  "asset_context": {
+    "asset_id": "PLT-ROS-0001",
+    "asset_type": "plant",
+    "common_name": "rose",
+    "lifecycle_stage": "established",
+    "zone": "HZ-02",
+    "start_reference": {
+      "reference_proof": "571"
+    }
+  },
+  "reference_context": {
+    "related_proofs": ["571"]
+  },
+  "actors": {
+    "performed_by": "P'Toh",
+    "responsibility": "sole operator and data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibs7cnrq6eesveuzybyn73hntmseegwokwpmm3dguefqy7o36kfve",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00815/hash/dataunit_00815.sha256",
+    "ots_file": "dataset/data-unit/00815/ots/dgcp_dataunit_00815.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
