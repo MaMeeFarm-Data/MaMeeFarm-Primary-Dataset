@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00810",
+  "file_path": "dataset/data-unit/00810/dataunit_00810.json",
+  "category": "plant-observation",
+  "sub_category": "pest-activity-observation",
+  "captured_at_local": "2026-01-31 17:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "pumpkin_leaf_insect_activity_observation",
+  "summary": "Observation of insect feeding damage on pumpkin leaves in a non-chemical growing area.",
+  "description": "This data unit documents visible insect feeding activity on pumpkin leaves. The insect species is not identified. The area operates under a non-chemical farming approach, and the record is observational only without intervention.",
+  "plant_context": {
+    "plant_type": "pumpkin",
+    "observed_issue": "leaf feeding damage",
+    "insect_identification": "not specified",
+    "chemical_use": "none"
+  },
+  "reference_context": {
+    "related_dataunits": ["00661"],
+    "historical_note": "Similar observation previously recorded on 2026-01-26."
+  },
+  "actors": {
+    "observed_by": "P'Toh",
+    "responsibility": "data recording and verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigtqqvvnh6peuueu7q5inqsm64y2nyzdi22ehludugwenn4q3ytua",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00810/hash/dataunit_00810.sha256",
+    "ots_file": "dataset/data-unit/00810/ots/dgcp_dataunit_00810.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
