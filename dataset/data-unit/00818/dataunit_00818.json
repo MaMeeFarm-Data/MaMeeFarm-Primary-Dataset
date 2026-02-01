@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00818",
+  "file_path": "dataset/data-unit/00818/dataunit_00818.json",
+  "category": "energy",
+  "sub_category": "wood-fired-cooking",
+  "captured_at_local": "2026-01-31 18:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "rice_cooking_on_wood_fired_stove",
+  "summary": "Cooking rice using a wood-fired stove.",
+  "description": "This data unit documents the active use of a wood-fired stove for cooking rice. The activity represents real-world biomass energy utilization following firewood preparation and stove setup.",
+  "operation_context": {
+    "action": "rice_cooking",
+    "cooking_method": "wood_fired_stove",
+    "energy_source": "firewood",
+    "energy_type": "biomass"
+  },
+  "reference_context": {
+    "related_proofs": ["573"],
+    "related_dataunits": ["00817"],
+    "note": "Proof 573 documents stove preparation; Data Unit 00817 documents firewood preparation."
+  },
+  "actors": {
+    "performed_by": "P'Toh",
+    "responsibility": "sole operator and data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigbhtllmkbeu6o33ezlzwn6qdxvnwjqsyft7isvuomqqltzggyoqq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00818/hash/dataunit_00818.sha256",
+    "ots_file": "dataset/data-unit/00818/ots/dgcp_dataunit_00818.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
