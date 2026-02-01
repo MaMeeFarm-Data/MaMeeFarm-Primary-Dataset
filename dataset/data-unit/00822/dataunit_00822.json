@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00822",
+  "file_path": "dataset/data-unit/00822/dataunit_00822.json",
+  "category": "infrastructure",
+  "sub_category": "power-system-alert",
+  "captured_at_local": "2026-02-01 02:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "system": "solar power system",
+  "asset": {
+    "asset_id": "INV-001",
+    "type": "hybrid solar inverter",
+    "status_indicator": "fault light active (red)"
+  },
+  "event": {
+    "event_type": "system alert",
+    "action_required": "system shutdown",
+    "indicator_state": {
+      "pv": "unknown",
+      "ac": "unknown",
+      "inverter": "active",
+      "fault": "on"
+    }
+  },
+  "reference_context": {
+    "related_dataunit": "00793",
+    "relation": "previous system on state"
+  },
+  "data_type": "image",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihyrv56oqdthmj47d6vih7chber2ympcs2zpypfqnr5g7v7ejo6mm",
+    "note": "External image reference for verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00822/hash/dataunit_00822.sha256",
+    "ots_file": "dataset/data-unit/00822/ots/dgcp_dataunit_00822.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
