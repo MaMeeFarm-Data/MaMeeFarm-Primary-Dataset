@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00805",
+  "file_path": "dataset/data-unit/00805/dataunit_00805.json",
+  "category": "animal-care",
+  "sub_category": "free-movement-observation",
+  "captured_at_local": "2026-01-31 13:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "dogs_present_during_gardening_activity",
+  "summary": "Dogs freely present and interacting nearby during a gardening activity.",
+  "description": "This data unit documents the presence and free movement of dogs around the working area while gardening activities were performed. The observation reflects normal animal care conditions and human–animal coexistence within the farm environment.",
+  "animal_context": {
+    "species": "dog",
+    "count": 6,
+    "condition": "active, free movement",
+    "interaction_type": "non-intrusive presence"
+  },
+  "reference_context": {
+    "related_dataunits": ["00803"]
+  },
+  "actors": {
+    "human_present": "P'Toh",
+    "responsibility": "data recording and verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeierj5fz3o2qypb7n4fozf427coqfuwqnbpiwpzr4hhlyks77lp5pq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00805/hash/dataunit_00805.sha256",
+    "ots_file": "dataset/data-unit/00805/ots/dgcp_dataunit_00805.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
