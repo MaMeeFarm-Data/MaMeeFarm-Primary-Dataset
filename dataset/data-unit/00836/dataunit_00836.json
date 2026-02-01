@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00836",
+  "file_path": "dataset/data-unit/00836/dataunit_00836.json",
+  "category": "asset-management",
+  "sub_category": "asset-identification",
+  "captured_at_local": "2026-02-01 13:10",
+  "timezone": "Asia/Bangkok",
+  "location": "Kitchen / Utility Area",
+  "zone": "HZ-02",
+  "asset": {
+    "asset_id": "HZ-STV-0001",
+    "asset_class": "HZ (Heat / Kitchen / Utility Zone)",
+    "subtype": "STV (Stove - Wood)",
+    "serial": "0001",
+    "common_name": "Wood Stove",
+    "status": "active"
+  },
+  "data_type": "image",
+  "title": "wood_stove_asset_id_attached",
+  "summary": "Attachment of DGCP asset ID label to wood stove.",
+  "description": "Image documents physical attachment of asset identification label to wood stove used for daily cooking operations.",
+  "usage_context": {
+    "operation_type": "wood_fuel_cooking",
+    "linked_activity": "food_preparation",
+    "system_role": "heat_generation"
+  },
+  "reference_context": {
+    "proof_reference": "573",
+    "related_dataunits": [
+      "00817",
+      "00818"
+    ]
+  },
+  "actors": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh",
+    "labor_type": "human"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic6oo7kg2v4kucsacpuzqrx2u3u6anxokdurxst5bpo66l5zuwzbm",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00836/hash/dataunit_00836.sha256",
+    "ots_file": "dataset/data-unit/00836/ots/dgcp_dataunit_00836.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
