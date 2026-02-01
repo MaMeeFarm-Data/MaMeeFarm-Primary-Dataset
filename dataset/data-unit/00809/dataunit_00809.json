@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00809",
+  "file_path": "dataset/data-unit/00809/dataunit_00809.json",
+  "category": "environment",
+  "sub_category": "microclimate-measurement",
+  "captured_at_local": "2026-01-31 17:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+  "asset_id": "HTC-1",
+  "data_type": "image",
+  "title": "microclimate_evening_record_hz02_htc1",
+  "summary": "Evening temperature and humidity record captured by HTC-1 sensor.",
+  "description": "This data unit documents the evening microclimate conditions measured by the HTC-1 sensor installed in Zone HZ-02. The record reflects environmental conditions following daytime transitions.",
+  "measurement": {
+    "temperature_celsius": 26.1,
+    "relative_humidity_percent": 59,
+    "device": "HTC-1",
+    "device_type": "microclimate sensor",
+    "device_status": "active"
+  },
+  "reference_context": {
+    "baseline_dataunits": ["00790", "00801"]
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "responsibility": "data recording and verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihd6afvpgdkb4kw2guxr5wnke5kldpkeipyrk4cg5w7lsdhndthcy",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00809/hash/dataunit_00809.sha256",
+    "ots_file": "dataset/data-unit/00809/ots/dgcp_dataunit_00809.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
