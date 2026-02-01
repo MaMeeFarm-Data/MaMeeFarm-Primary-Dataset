@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00827",
+  "file_path": "dataset/data-unit/00827/dataunit_00827.json",
+  "category": "asset-management",
+  "sub_category": "asset-tagging",
+  "captured_at_local": "2026-02-01 08:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "event": {
+    "action": "asset_id_tag_installed",
+    "asset_class": "plant",
+    "status": "tagged"
+  },
+  "asset": {
+    "asset_id": "PLT-AVO-0001",
+    "asset_type": "plant",
+    "common_name": "avocado",
+    "lifecycle_stage": "established"
+  },
+  "reference_context": {
+    "proof_reference": "572",
+    "recorded_date_on_tag": "2026-01-31"
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "role": "asset registrar / data recorder"
+  },
+  "data_type": "image",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidg5cj3bwwxpn23nxeolunkglq4tqkg3h7hk22qhcdknfkkorzsgi",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00827/hash/dataunit_00827.sha256",
+    "ots_file": "dataset/data-unit/00827/ots/dgcp_dataunit_00827.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
