@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00816",
+  "file_path": "dataset/data-unit/00816/dataunit_00816.json",
+  "category": "farm-operation",
+  "sub_category": "access-control",
+  "captured_at_local": "2026-01-31 18:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": ["FZ-03", "FZ-04"],
+  "data_type": "image",
+  "title": "farm_gate_closed_end_of_day",
+  "summary": "Closing the farm gate after completion of daily operations.",
+  "description": "This data unit documents the closure of the farm gate after daily work was completed. The action marks the end-of-day operational state for zones FZ-03 and FZ-04, ensuring controlled access and system continuity.",
+  "operation_context": {
+    "action": "gate_closed",
+    "operation_phase": "end_of_day",
+    "zones_covered": ["FZ-03", "FZ-04"]
+  },
+  "reference_context": {
+    "related_proofs": ["569"],
+    "note": "Proof 569 documents the gate opening earlier in the same day."
+  },
+  "actors": {
+    "performed_by": "P'Toh",
+    "responsibility": "sole operator and data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih6yf6azobcgdik6bmehuygby6hrlw47sz4fohly5rdjh3mbeapua",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00816/hash/dataunit_00816.sha256",
+    "ots_file": "dataset/data-unit/00816/ots/dgcp_dataunit_00816.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
