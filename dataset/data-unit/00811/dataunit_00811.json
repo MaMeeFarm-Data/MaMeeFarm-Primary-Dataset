@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00811",
+  "file_path": "dataset/data-unit/00811/dataunit_00811.json",
+  "category": "plant-care",
+  "sub_category": "manual-watering",
+  "captured_at_local": "2026-01-31 17:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "data_type": "image",
+  "title": "vegetable_watering_fz03_wt_m_0001_0002",
+  "summary": "Manual watering of vegetables using mobile water tanks in Zone FZ-03.",
+  "description": "This data unit documents manual watering of vegetable crops in Zone FZ-03. Water was sourced from mobile water tanks WT-M-0001 and WT-M-0002 as part of routine plant care operations.",
+  "watering_context": {
+    "method": "manual watering",
+    "water_source_assets": ["WT-M-0001", "WT-M-0002"],
+    "application_type": "direct soil watering",
+    "chemical_use": "none"
+  },
+  "reference_context": {
+    "related_proofs": ["569"],
+    "note": "Activity recorded as part of same-day operational log."
+  },
+  "actors": {
+    "performed_by": "MaMee",
+    "recorded_by": "P'Toh",
+    "responsibility": "data recording and verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigrhkdpnrwc4642voywmuus5xybepheohdncx4hoco7g4bakvb4ma",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00811/hash/dataunit_00811.sha256",
+    "ots_file": "dataset/data-unit/00811/ots/dgcp_dataunit_00811.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
