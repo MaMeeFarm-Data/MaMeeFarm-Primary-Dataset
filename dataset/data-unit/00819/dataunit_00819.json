@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00819",
+  "file_path": "dataset/data-unit/00819/dataunit_00819.json",
+  "category": "energy",
+  "sub_category": "wood-fired-cooking-result",
+  "captured_at_local": "2026-01-31 18:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "wood_fired_rice_cooking_completed",
+  "summary": "Rice cooking completed using a wood-fired stove.",
+  "description": "This data unit documents the completion of rice cooking using a wood-fired stove. The rice reached a fully cooked state after 14 minutes of active biomass energy use.",
+  "operation_context": {
+    "action": "rice_cooking_completed",
+    "cooking_method": "wood_fired_stove",
+    "energy_source": "firewood",
+    "energy_type": "biomass",
+    "duration_minutes": 14,
+    "result": "rice_fully_cooked"
+  },
+  "environment_reference": {
+    "temperature_humidity_dataunit": "00814",
+    "note": "Environmental conditions referenced for cooking context."
+  },
+  "reference_context": {
+    "related_proofs": ["572"],
+    "related_dataunits": ["00817"],
+    "note": "Proof 572 and Data Unit 00817 provide stove and fuel preparation context."
+  },
+  "actors": {
+    "performed_by": "P'Toh",
+    "responsibility": "sole operator and data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaqou52eqzjgbye4aszuu2cfgtxt745tnumilti6jwtx7wd6xns54",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00819/hash/dataunit_00819.sha256",
+    "ots_file": "dataset/data-unit/00819/ots/dgcp_dataunit_00819.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
