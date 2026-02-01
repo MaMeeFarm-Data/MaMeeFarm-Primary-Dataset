@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00833",
+  "file_path": "dataset/data-unit/00833/dataunit_00833.json",
+  "category": "environmental-care",
+  "sub_category": "sanitation",
+  "captured_at_local": "2026-02-01 11:45",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm Path / Dog Area",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "manual_dog_waste_collection",
+  "summary": "Manual collection of dog waste to maintain farm environment.",
+  "description": "Image documents human labor collecting dog waste along farm pathway as part of routine environmental sanitation and animal care support.",
+  "activity": {
+    "action": "waste_collection",
+    "method": "manual",
+    "target": "dog_waste",
+    "automation": false
+  },
+  "actors": {
+    "media_captured_by": "MaMee",
+    "record_verified_by": "P'Toh",
+    "labor_type": "human"
+  },
+  "reference_context": {
+    "related_dataunit": ["00824", "00832"],
+    "relation_note": "Continues daily animal care and environmental maintenance workflow."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidtpwn7myb3kb6hxdm2a2pkff5rgddipnbfdczq3sklevlfjnu5ai",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00833/hash/dataunit_00833.sha256",
+    "ots_file": "dataset/data-unit/00833/ots/dgcp_dataunit_00833.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
