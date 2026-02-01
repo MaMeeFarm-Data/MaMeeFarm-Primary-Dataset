@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00808",
+  "file_path": "dataset/data-unit/00808/dataunit_00808.json",
+  "category": "animal-care",
+  "sub_category": "manual-feeding",
+  "captured_at_local": "2026-01-31 17:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "data_type": "image",
+  "title": "manual_dog_feeding_evening",
+  "summary": "Evening manual feeding of dogs during routine daily care.",
+  "description": "This data unit documents the evening feeding routine for dogs at MaMeeFarm. The record captures prepared feed prior to distribution as part of the daily animal care schedule.",
+  "feeding_context": {
+    "time_window": "evening",
+    "method": "manual feeding",
+    "feed_type": "dry kibble",
+    "routine_note": "paired with morning feeding record"
+  },
+  "reference_context": {
+    "baseline_dataunit": "00792"
+  },
+  "actors": {
+    "caregiver": "MaMee",
+    "recorded_by": "P'Toh",
+    "responsibility": "data recording and verification"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiblwek5csramdbiuu4oihefomxbqkbtwll6imqngaj4fiityusehm",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00808/hash/dataunit_00808.sha256",
+    "ots_file": "dataset/data-unit/00808/ots/dgcp_dataunit_00808.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
