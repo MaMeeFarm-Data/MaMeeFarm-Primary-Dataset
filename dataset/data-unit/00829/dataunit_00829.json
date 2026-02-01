@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00829",
+  "file_path": "dataset/data-unit/00829/dataunit_00829.json",
+  "category": "environment",
+  "sub_category": "plant-surface-observation",
+  "captured_at_local": "2026-02-01 08:32",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable Plot",
+  "zone": "HZ-02",
+  "asset_type": "plant",
+  "plant_type": "kale",
+  "data_type": "image",
+  "title": "morning_dew_on_kale_leaves",
+  "summary": "Visual observation of morning dew present on kale leaves.",
+  "description": "Image documents the presence of water droplets on kale leaf surfaces during early morning. No measurement or interpretation applied.",
+  "observation": {
+    "surface_condition": "dew_present",
+    "light_condition": "morning_sunlight",
+    "measurement_attached": false
+  },
+  "reference_context": {
+    "environmental_baseline_dataunit": "00828"
+  },
+  "actors": {
+    "recorded_by": "P'Toh",
+    "role": "data recorder / observer"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie2m2ikhnjpra6m5rbkwwvrvygopioixm5xucf6jzffekxooovzsq",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00829/hash/dataunit_00829.sha256",
+    "ots_file": "dataset/data-unit/00829/ots/dgcp_dataunit_00829.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
