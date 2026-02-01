@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00820",
+  "file_path": "dataset/data-unit/00820/dataunit_00820.json",
+  "category": "food-consumption",
+  "sub_category": "daily-meal",
+  "captured_at_local": "2026-01-31 19:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "meal_consumption_from_wood_fired_rice",
+  "summary": "Consumption of a meal prepared using wood-fired cooked rice.",
+  "description": "This data unit documents the consumption of a meal consisting of wood-fired cooked rice and stir-fried minced pork with Chinese cabbage.",
+  "meal_context": {
+    "staple_food": "rice",
+    "rice_source": "wood_fired_cooking",
+    "side_dish": "stir_fried_minced_pork_with_chinese_cabbage"
+  },
+  "reference_context": {
+    "related_dataunits": ["00818", "00819"],
+    "note": "Data Unit 00818 documents rice cooking; Data Unit 00819 documents cooking completion."
+  },
+  "actors": {
+    "consumed_by": "P'Toh",
+    "responsibility": "sole subject and data recorder"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiha3bdkremo76kp25pm67kdg7haiszxitltlqon6nezn3h6ouetpi",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00820/hash/dataunit_00820.sha256",
+    "ots_file": "dataset/data-unit/00820/ots/dgcp_dataunit_00820.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
