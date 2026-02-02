@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00846",
+  "file_path": "dataset/data-unit/00846/dataunit_00846.json",
+
+  "category": "water_system",
+  "sub_category": "water_filling_event",
+
+  "captured_at_local": "2026-02-01 13:40",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Storage Area",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "water_filling_wt_m_0002_fz_03_2026_02_01_1340",
+  "summary": "Water filling observed in tank WT-M-0002 in Zone FZ-03.",
+  "description": "Water presence inside tank WT-M-0002 was visually recorded at 2026-02-01 13:40 (Asia/Bangkok) in Zone FZ-03. The image shows water accumulating inside the tank during an active filling operation following power connection and pump activation.",
+
+  "event": {
+    "action": "Observed water filling into tank WT-M-0002.",
+    "status": "filling",
+    "method": "pumped transfer",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "WT-M-0002",
+    "asset_type": "water_tank"
+  },
+
+  "measurement": {
+    "water_level_status": "filling"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00845"],
+    "related_proofs": [],
+    "note": "Water filling observed following power connection and pump operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid4626oc2lngsccblrvfemyyvdgs5tm6uphx25glmhj3ufarnrase",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00846/hash/dataunit_00846.sha256",
+    "ots_file": "dataset/data-unit/00846/ots/dgcp_dataunit_00846.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
