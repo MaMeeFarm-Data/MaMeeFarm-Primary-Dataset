@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00864",
+  "file_path": "dataset/data-unit/00864/dataunit_00864.json",
+
+  "category": "asset-management",
+  "sub_category": "asset-identification",
+
+  "captured_at_local": "2026-02-02 01:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Work Area",
+  "sub_zone": "Device Setup",
+
+  "data_type": "image",
+  "title": "asset_id_labels_for_ptoh_work_devices",
+  "summary": "Printed asset ID labels for P'Toh work devices were recorded.",
+  "description": "This record documents printed asset identification labels attached to multiple computing devices used by P'Toh for data recording, field capture, and proof output.",
+
+  "event": {
+    "action": "asset_id_labeling",
+    "status": "completed",
+    "method": "manual attachment",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": [
+      "DEV-LAP-ACER-E14-0001",
+      "DEV-MOB-AND-0001",
+      "DEV-PRN-0001"
+    ],
+    "asset_type": "computing_device"
+  },
+
+  "reference_context": {
+    "related_dataunits": [],
+    "related_proofs": ["579", "580", "581"],
+    "note": "Asset ID labels printed and recorded as a single set."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdmbykno22sobltog5cyzhpfqey7dybxios6rio6frijatzqruje",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00864/hash/dataunit_00864.sha256",
+    "ots_file": "dataset/data-unit/00864/ots/dgcp_dataunit_00864.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
