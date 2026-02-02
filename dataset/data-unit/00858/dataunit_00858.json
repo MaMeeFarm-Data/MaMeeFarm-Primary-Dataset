@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00858",
+  "file_path": "dataset/data-unit/00858/dataunit_00858.json",
+
+  "category": "infrastructure",
+  "sub_category": "access_control",
+
+  "captured_at_local": "2026-02-01 18:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm Perimeter",
+  "sub_zone": "Main Gate",
+
+  "data_type": "image",
+  "title": "farm_gate_closed_end_of_day",
+  "summary": "Farm gate closed after completion of work in FZ-03 and FZ-04.",
+  "description": "Image-based record confirming the closure of the farm gate after all work activities in zones FZ-03 and FZ-04 were completed.",
+
+  "event": {
+    "action": "Close farm gate",
+    "status": "completed",
+    "method": "manual",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "GATE-FARM-01",
+    "asset_type": "farm_gate"
+  },
+
+  "reference_context": {
+    "related_dataunits": [],
+    "related_proofs": ["574"],
+    "note": "Gate was opened in the morning and closed after all tasks were completed."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib44lqmu4fd6y4ojiqdh4wxjcreeh446f6w6bryot44wmtmxkqqrq",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00858/hash/dataunit_00858.sha256",
+    "ots_file": "dataset/data-unit/00858/ots/dgcp_dataunit_00858.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
