@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00839",
+  "file_path": "dataset/data-unit/00839/dataunit_00839.json",
+  "category": "environment",
+  "sub_category": "sunlight-observation",
+  "captured_at_local": "2026-02-01 13:30",
+  "timezone": "Asia/Bangkok",
+  "location": "Farm Area",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "sunlight_exposure_observation_early_afternoon",
+  "summary": "Observation of sunlight exposure across farm area during early afternoon.",
+  "description": "Image documents sunlight conditions and shadow patterns across the farm area during early afternoon. Observation recorded without instrumentation.",
+  "observation_context": {
+    "observation_type": "visual_field_observation",
+    "lighting_condition": "direct_sunlight",
+    "shadow_presence": "partial",
+    "instrument_used": "none"
+  },
+  "reference_context": {
+    "related_dataunit": "00835",
+    "reference_note": "Referenced to house temperature record for environmental correlation."
+  },
+  "actors": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh",
+    "labor_type": "human"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih226cibjee56ewbbhubhsawex3z3kkalxcu2w7sentaqiqebkuny",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00839/hash/dataunit_00839.sha256",
+    "ots_file": "dataset/data-unit/00839/ots/dgcp_dataunit_00839.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
