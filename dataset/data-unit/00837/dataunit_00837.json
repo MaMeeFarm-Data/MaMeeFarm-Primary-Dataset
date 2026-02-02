@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00837",
+  "file_path": "dataset/data-unit/00837/dataunit_00837.json",
+  "category": "asset-management",
+  "sub_category": "asset-identification",
+  "captured_at_local": "2026-02-01 13:29",
+  "timezone": "Asia/Bangkok",
+  "location": "Power System Area",
+  "zone": "HZ-02",
+  "asset": {
+    "asset_id": "PWR-BAT-0001",
+    "asset_class": "PWR (Power System)",
+    "subtype": "BAT (Battery - Gel)",
+    "capacity": "12V 120Ah",
+    "serial": "0001",
+    "common_name": "Gel Battery",
+    "status": "active"
+  },
+  "data_type": "image",
+  "title": "power_system_battery_asset_id_attached",
+  "summary": "Attachment of DGCP asset ID label to gel battery used in power system.",
+  "description": "Image documents physical attachment of asset identification label to gel battery used for shared power operations.",
+  "usage_context": {
+    "operation_type": "energy_storage",
+    "system_role": "power_backup / energy_buffer",
+    "usage_mode": "shared"
+  },
+  "reference_context": {
+    "proof_reference": "577",
+    "related_dataunits": [
+      "00825",
+      "00826"
+    ]
+  },
+  "actors": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh",
+    "labor_type": "human"
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibxxbupzmhqcltfatec7plb5dnhgkobc3sdouh2jhv7edtbdx7awy",
+    "note": "External image reference for independent verification."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00837/hash/dataunit_00837.sha256",
+    "ots_file": "dataset/data-unit/00837/ots/dgcp_dataunit_00837.ots"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
