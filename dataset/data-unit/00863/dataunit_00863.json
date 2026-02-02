@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00863",
+  "file_path": "dataset/data-unit/00863/dataunit_00863.json",
+
+  "category": "power_system",
+  "sub_category": "inverter_alert",
+
+  "captured_at_local": "2026-02-02 00:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+  "title": "inverter_fault_alert_hz02_2026-02-02_0045",
+  "summary": "Red fault indicator activated on hybrid solar inverter, prompting system shutdown.",
+  "description": "Hybrid solar inverter displayed red fault indicator during night operation. Alert required system shutdown to prevent damage while farm operates under limited power resources.",
+
+  "event": {
+    "action": "inverter fault alert",
+    "status": "alert_active",
+    "method": "visual_indicator",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "INV-01",
+    "asset_type": "hybrid_solar_inverter"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00826"],
+    "note": "Inverter had been operating continuously throughout the day prior to alert."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeignovpil5ffevdcqyoexq6dpm3fc466fbn2lg44m6dbdiw6mw7cly",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00863/hash/dataunit_00863.sha256",
+    "ots_file": "dataset/data-unit/00863/ots/dgcp_dataunit_00863.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
