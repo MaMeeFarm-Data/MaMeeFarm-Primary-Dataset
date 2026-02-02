@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00852",
+  "file_path": "dataset/data-unit/00852/dataunit_00852.json",
+
+  "category": "animal_care",
+  "sub_category": "daily_feeding",
+
+  "captured_at_local": "2026-02-02 06:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "dog_feeding_record_following_morning_reference",
+  "summary": "Record of dog feeding activity following the morning care cycle.",
+  "description": "A visual record documenting the feeding of dogs as part of routine animal care. This entry follows the morning feeding reference and confirms continuity of daily care without measurement instruments or automation.",
+
+  "event": {
+    "action": "Fed dogs",
+    "status": "completed",
+    "method": "manual feeding",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "animal_feed_container"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00824"],
+    "related_proofs": [],
+    "note": "This feeding activity references the morning care cycle recorded earlier."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigh7pylpy65ruydjwnpxt26yyrkcvgcz5oq5mnpdxkriszbpb4utq",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00852/hash/dataunit_00852.sha256",
+    "ots_file": "dataset/data-unit/00852/ots/dgcp_dataunit_00852.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
