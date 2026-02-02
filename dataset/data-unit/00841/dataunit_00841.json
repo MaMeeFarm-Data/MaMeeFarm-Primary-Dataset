@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00841",
+  "file_path": "dataset/data-unit/00841/dataunit_00841.json",
+
+  "category": "agriculture",
+  "sub_category": "crop-condition-observation",
+
+  "captured_at_local": "2026-02-01 13:31",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable Plot",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "vegetable_plot_wilting_observation_fz_03_2026_02_01_1331",
+  "summary": "Observed vegetable wilting in Zone FZ-03.",
+  "description": "A vegetable plot in Zone FZ-03 was visually recorded at 2026-02-01 13:31 (Asia/Bangkok). The plants in multiple rows appear wilted in the captured frame. This record is an observation of crop condition under sunlight exposure at the time of capture.",
+
+  "event": {
+    "action": "Observed wilted vegetables in the vegetable plot.",
+    "status": "",
+    "method": "visual field observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": ""
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00663", "00839", "00840"],
+    "related_proofs": [],
+    "note": "Crop condition observation. Environmental context referenced via Data Units 00839 and 00840."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihywhecpg52uiiyf4ugptvinfdk7akgb4jtz7xqw52mhcej73sma4",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00841/hash/dataunit_00841.sha256",
+    "ots_file": "dataset/data-unit/00841/ots/dgcp_dataunit_00841.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
