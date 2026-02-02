@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00847",
+  "file_path": "dataset/data-unit/00847/dataunit_00847.json",
+
+  "category": "water_system",
+  "sub_category": "equipment_status_check",
+
+  "captured_at_local": "2026-02-01 13:43",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Transfer Area",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "pump_check_out_of_service_hz_02_2026_02_01_1343",
+  "summary": "Checked water pump and confirmed out-of-service status in Zone HZ-02.",
+  "description": "A water pump check was visually recorded at 2026-02-01 13:43 (Asia/Bangkok) in Zone HZ-02. The pump is shown with components removed/placed adjacent, and the pump was reported as stopped and not usable at the time of this record.",
+
+  "event": {
+    "action": "Checked water pump condition and stopped use due to not usable status.",
+    "status": "out_of_service",
+    "method": "manual inspection",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "water_pump"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00728"],
+    "related_proofs": [],
+    "note": "Reference: Data Unit 00728 (2026-01-28) prior pump record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicjj2zrikn7lpdwjowq2xwnibqs2oc2une7saq6d4sqs4zmor57j4",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00847/hash/dataunit_00847.sha256",
+    "ots_file": "dataset/data-unit/00847/ots/dgcp_dataunit_00847.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
