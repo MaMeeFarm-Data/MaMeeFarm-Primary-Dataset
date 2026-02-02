@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00845",
+  "file_path": "dataset/data-unit/00845/dataunit_00845.json",
+
+  "category": "power_system",
+  "sub_category": "power_connection_event",
+
+  "captured_at_local": "2026-02-01 13:38",
+  "timezone": "Asia/Bangkok",
+  "location": "Power System Area",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "power_connection_for_water_transfer_hz_02_to_fz_03_2026_02_01_1338",
+  "summary": "Connected power supply to initiate water transfer operation for FZ-03.",
+  "description": "A power connection step was visually recorded at 2026-02-01 13:38 (Asia/Bangkok) for the farm power system supporting water transfer. The capture shows a plug/power connector used to power the pumping operation associated with transferring water from HZ-02 to FZ-03.",
+
+  "event": {
+    "action": "Connected power supply (plug-in) to run the water transfer pump.",
+    "status": "connected",
+    "method": "manual plug-in",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": ""
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00826", "00843", "00844"],
+    "related_proofs": [],
+    "note": "Power system reference: Data Unit 00826. Water transfer path noted: HZ-02 to FZ-03. Intended transfer: WT-F-0001 and WT-F-0002 to WT-M-0002."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiezevaaas2vanqtigrorgna3kbzkj4iesv2ngmtmbobtu2gkpn35y",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00845/hash/dataunit_00845.sha256",
+    "ots_file": "dataset/data-unit/00845/ots/dgcp_dataunit_00845.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
