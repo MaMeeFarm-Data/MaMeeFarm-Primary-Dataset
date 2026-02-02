@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00851",
+  "file_path": "dataset/data-unit/00851/dataunit_00851.json",
+
+  "category": "agriculture",
+  "sub_category": "crop_condition_observation",
+
+  "captured_at_local": "2026-02-01 15:04",
+  "timezone": "Asia/Bangkok",
+  "location": "Vegetable Plot",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "vegetable_condition_observation_after_water_system_events_fz_03",
+  "summary": "Visual observation of vegetable condition in Zone FZ-03 following recent water system events.",
+  "description": "A visual record of vegetable beds in Zone FZ-03 captured at 2026-02-01 15:04 (Asia/Bangkok). The observation was conducted without the use of measurement instruments, under limited on-farm resources, and documents the physical condition of the vegetables as observed at that time.",
+
+  "event": {
+    "action": "Observed vegetable condition.",
+    "status": "observed",
+    "method": "visual inspection",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "crop_bed"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00841", "00843", "00850"],
+    "related_proofs": [],
+    "note": "Observation performed without environmental measuring devices due to resource constraints."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicipihqi4q7sxd7jtv6p6f2v4ztrgadzoe2czlmdu54nitgqx54ne",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00851/hash/dataunit_00851.sha256",
+    "ots_file": "dataset/data-unit/00851/ots/dgcp_dataunit_00851.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
