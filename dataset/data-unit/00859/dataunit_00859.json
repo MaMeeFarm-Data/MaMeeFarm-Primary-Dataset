@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00859",
+  "file_path": "dataset/data-unit/00859/dataunit_00859.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_care",
+
+  "captured_at_local": "2026-02-01 18:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+  "title": "daily_watering_rose_hz02",
+  "summary": "Daily watering activity for rose plant asset in HZ-02.",
+  "description": "Image-based record documenting routine watering of a rose plant registered under PLT-ROS-0001 as part of continuous daily care.",
+
+  "event": {
+    "action": "Watering",
+    "frequency": "daily",
+    "method": "manual",
+    "automation": false,
+    "status": "completed"
+  },
+
+  "asset": {
+    "asset_id": "PLT-ROS-0001",
+    "asset_type": "plant",
+    "common_name": "Rose",
+    "lifecycle_stage": "Established"
+  },
+
+  "reference_context": {
+    "related_proofs": ["571"],
+    "related_dataunits": ["00806", "00815"],
+    "note": "Continuation of registered plant care record for rose asset."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibzr5ib3r6wmvlfwhksbzmerkgahl7m5tgaz7fhmvin57q4rmdhum",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00859/hash/dataunit_00859.sha256",
+    "ots_file": "dataset/data-unit/00859/ots/dgcp_dataunit_00859.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
