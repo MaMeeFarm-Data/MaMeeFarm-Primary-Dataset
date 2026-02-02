@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00850",
+  "file_path": "dataset/data-unit/00850/dataunit_00850.json",
+
+  "category": "water_system",
+  "sub_category": "water_level_observation",
+
+  "captured_at_local": "2026-02-01 15:04",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Storage Area",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "water_level_not_full_after_power_shutdown_fz_03_2026_02_01_1504",
+  "summary": "Observed water level not full in storage tank after power shutdown in Zone FZ-03.",
+  "description": "The internal water level of a storage tank in Zone FZ-03 was visually recorded at 2026-02-01 15:04 (Asia/Bangkok). The image shows the tank containing water below a full level following the shutdown of the power system.",
+
+  "event": {
+    "action": "Observed water level after power system shutdown.",
+    "status": "not_full",
+    "method": "visual inspection",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "water_tank"
+  },
+
+  "measurement": {
+    "water_level_status": "not_full"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00848"],
+    "related_proofs": [],
+    "note": "Observation recorded after power disconnection event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicqwre2d3ceiw2cscpzv3uu3k2hv2dovuhjfbnmb4gzwdxqy7bezm",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00850/hash/dataunit_00850.sha256",
+    "ots_file": "dataset/data-unit/00850/ots/dgcp_dataunit_00850.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
