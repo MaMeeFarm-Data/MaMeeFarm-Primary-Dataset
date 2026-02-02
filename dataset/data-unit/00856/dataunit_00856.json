@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00856",
+  "file_path": "dataset/data-unit/00856/dataunit_00856.json",
+
+  "category": "agriculture",
+  "sub_category": "manual_watering",
+
+  "captured_at_local": "2026-02-01 18:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm vegetable plot",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "manual_watering_coriander_fz03_morning",
+  "summary": "Manual watering of coriander plants using a handheld watering tool.",
+  "description": "An image-based record documenting manual watering of coriander plants in zone FZ-03. Water was applied directly to soil surface using a handheld watering device as part of routine crop care. No measurement tools were used.",
+
+  "event": {
+    "action": "Manual watering of coriander plants",
+    "status": "completed",
+    "method": "handheld watering",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "crop_area"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": [],
+    "related_proofs": ["576"],
+    "note": "Routine morning crop care activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdoiu6n4uuwvajsah2wwgzawpk3qqv6jbz37qikuocvr3f5ycxnq",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00856/hash/dataunit_00856.sha256",
+    "ots_file": "dataset/data-unit/00856/ots/dgcp_dataunit_00856.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
