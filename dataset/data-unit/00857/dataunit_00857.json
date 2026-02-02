@@ -1,0 +1,66 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00857",
+  "file_path": "dataset/data-unit/00857/dataunit_00857.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity_observation",
+
+  "captured_at_local": "2026-02-01 18:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm Duck House",
+  "zone": "FZ-03",
+  "sub_zone": "Duck House",
+
+  "data_type": "image",
+  "title": "duck_house_evening_temperature_humidity_fz03",
+  "summary": "Evening temperature and humidity record inside duck house.",
+  "description": "Image-based observation of temperature and relative humidity inside the duck house (FZ-03). Values were read directly from an active microclimate sensor installed at the site.",
+
+  "event": {
+    "action": "Microclimate observation",
+    "status": "completed",
+    "method": "fixed sensor reading",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HTC-2",
+    "asset_type": "microclimate_sensor"
+  },
+
+  "measurement": {
+    "temperature_inside_celsius": 25.0,
+    "temperature_outside_celsius": 23.0,
+    "relative_humidity_percent": 66
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00828", "00840"],
+    "related_proofs": [],
+    "note": "Evening record following morning and midday observations."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeialafh7alytdespwfxqizl5bir5mkiy7f7xpdkjisq5k6hjrmwjbu",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00857/hash/dataunit_00857.sha256",
+    "ots_file": "dataset/data-unit/00857/ots/dgcp_dataunit_00857.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
