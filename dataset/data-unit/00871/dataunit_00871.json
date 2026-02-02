@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00871",
+  "file_path": "dataset/data-unit/00871/dataunit_00871.json",
+
+  "category": "energy_operations",
+  "sub_category": "power_system_control",
+
+  "captured_at_local": "2026-02-02 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+  "title": "inverter_power_on_event",
+  "summary": "Inverter power-on state recorded.",
+  "description": "This record documents the inverter power-on status at MaMeeFarm.",
+
+  "event": {
+    "action": "power_on",
+    "system": "inverter",
+    "asset_id": "INV-01",
+    "method": "manual",
+    "automation": false
+  },
+
+  "human_presence": {
+    "person_in_image": [],
+    "recorded_by": "P'Toh"
+  },
+
+  "asset_reference": {
+    "inverter": "INV-01",
+    "solar_panel_array": "SPV-A-0001",
+    "battery_storage": ["PWR-BAT-0001", "PWR-BAT-0002"]
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00863"]
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiej7krv7yvzeich2c2jkghtjbhk3qsx24k4ei4zjauo2npktotlpy",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00871/hash/dataunit_00871.sha256",
+    "ots_file": "dataset/data-unit/00871/ots/dgcp_dataunit_00871.ots"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
