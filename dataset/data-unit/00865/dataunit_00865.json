@@ -1,0 +1,65 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00865",
+  "file_path": "dataset/data-unit/00865/dataunit_00865.json",
+
+  "category": "environment",
+  "sub_category": "microclimate-measurement",
+
+  "captured_at_local": "2026-02-02 06:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "morning_temperature_humidity_record",
+  "summary": "Morning temperature and humidity were recorded at HZ-02.",
+  "description": "This record documents a morning microclimate measurement showing temperature and humidity values captured by an active microclimate sensor.",
+
+  "event": {
+    "action": "temperature_humidity_measurement",
+    "status": "recorded",
+    "method": "manual observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HZ-02-HTC-1",
+    "asset_type": "microclimate_sensor"
+  },
+
+  "measurement": {
+    "temperature_celsius": 16.7,
+    "humidity_percent": 69
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00862"],
+    "related_proofs": [],
+    "note": "Morning record continuing the same day microclimate sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiajvqnofvta6xbtwrwejsqqwwudvy7p6dlcekv5rrqfmxiak545p4",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00865/hash/dataunit_00865.sha256",
+    "ots_file": "dataset/data-unit/00865/ots/dgcp_dataunit_00865.ots"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
