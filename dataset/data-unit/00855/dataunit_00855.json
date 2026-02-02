@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00855",
+  "file_path": "dataset/data-unit/00855/dataunit_00855.json",
+
+  "category": "environment",
+  "sub_category": "surface_water_flow_observation",
+
+  "captured_at_local": "2026-02-01 18:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm perimeter",
+  "zone": "FZ-04",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "surface_water_flow_from_adjacent_corn_field",
+  "summary": "Observation of surface water flowing from an adjacent corn field into a lower area near the farm.",
+  "description": "An image-based record documenting visible surface water flowing from a neighboring corn field into a lower channel near the farm boundary. At the time of capture, the main canal contained no standing water. No interpretation applied.",
+
+  "event": {
+    "action": "Observed surface water flow",
+    "status": "active flow at time of capture",
+    "method": "visual observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "external_water_source"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00831"],
+    "related_proofs": [],
+    "note": "This record documents external surface runoff while the canal was observed to have no water."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifiaihq6n2uzyilf7gsyeteo2iihpotgjnld3s3hzzqskubbznfhi",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00855/hash/dataunit_00855.sha256",
+    "ots_file": "dataset/data-unit/00855/ots/dgcp_dataunit_00855.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
