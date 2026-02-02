@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00843",
+  "file_path": "dataset/data-unit/00843/dataunit_00843.json",
+
+  "category": "water_system",
+  "sub_category": "water_level_observation",
+
+  "captured_at_local": "2026-02-01 13:34",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Storage Area",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "water_tank_empty_wt_m_0002_fz_03_2026_02_01_1334",
+  "summary": "Observed empty water tank WT-M-0002 in Zone FZ-03.",
+  "description": "The internal water level of tank WT-M-0002 was visually recorded at 2026-02-01 13:34 (Asia/Bangkok) in Zone FZ-03. The image shows the tank at an empty state at the time of observation.",
+
+  "event": {
+    "action": "Observed water tank WT-M-0002 at empty level.",
+    "status": "empty",
+    "method": "visual inspection",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "WT-M-0002",
+    "asset_type": "water_tank"
+  },
+
+  "measurement": {
+    "water_level_status": "empty"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00779"],
+    "related_proofs": [],
+    "note": "Previous reference shows tank WT-M-0002 at filled state."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieoba6xeze5a56yclcc2uxxnppl43wp6cw7p2kglnkkjkwb5baxhu",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00843/hash/dataunit_00843.sha256",
+    "ots_file": "dataset/data-unit/00843/ots/dgcp_dataunit_00843.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
