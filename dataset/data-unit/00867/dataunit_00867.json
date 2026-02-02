@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00867",
+  "file_path": "dataset/data-unit/00867/dataunit_00867.json",
+
+  "category": "animal_care",
+  "sub_category": "feeding",
+
+  "captured_at_local": "2026-02-02 06:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+
+  "data_type": "image",
+  "title": "dogs_feeding_on_ground",
+  "summary": "Dogs consuming feed placed directly on the ground.",
+  "description": "This record documents dogs eating feed scattered on the ground under resource-limited farm conditions.",
+
+  "event": {
+    "action": "dog_feeding",
+    "feeding_surface": "ground",
+    "time_of_day": "morning",
+    "status": "ongoing",
+    "method": "manual",
+    "automation": false
+  },
+
+  "animal": {
+    "species": "dog",
+    "group": "farm_dogs"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00866"],
+    "note": "This record follows the morning feeding activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic7xmvaeescj3o4ln6asyrhmowk2vo72hrbmcrm6g6yrn72wps4fu",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00867/hash/dataunit_00867.sha256",
+    "ots_file": "dataset/data-unit/00867/ots/dgcp_dataunit_00867.ots"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
