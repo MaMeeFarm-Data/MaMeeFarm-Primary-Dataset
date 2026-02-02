@@ -1,0 +1,72 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00849",
+  "file_path": "dataset/data-unit/00849/dataunit_00849.json",
+
+  "category": "asset-management",
+  "sub_category": "asset_status_update",
+
+  "captured_at_local": "2026-02-01 14:38",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Transfer Area",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "asset_status_confirmation_hz_pmp_0002_decommissioned_hz_02_2026_02_01_1438",
+  "summary": "Confirmed decommissioned status of submersible pump asset HZ-PMP-0002 in Zone HZ-02.",
+  "description": "An asset label for submersible pump HZ-PMP-0002 was visually recorded at 2026-02-01 14:38 (Asia/Bangkok) in Zone HZ-02. The label states: Asset ID HZ-PMP-0002; Asset Class HZ (Utility Zone); Subtype PMP (Submersible Pump 1 inch); System Water Transfer; Zone HZ-02; Acquired 2026-01-04; Purchase Price 900 THB; First Recorded Use 2026-01-04; Origin DataUnit 00022; Status Decommissioned (Failed); Last Active 2026-01-28; Failure Confirmed 2026-02-01; Repair Attempted Yes; Repair Result Unsuccessful; Current State Non-operational (retired).",
+
+  "event": {
+    "action": "Confirmed decommissioned (failed) status of pump asset per device label.",
+    "status": "decommissioned_failed",
+    "method": "visual verification of asset label",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HZ-PMP-0002",
+    "asset_type": "submersible_pump"
+  },
+
+  "measurement": {
+    "purchase_price_thb": 900,
+    "acquired_date": "2026-01-04",
+    "first_recorded_use_date": "2026-01-04",
+    "origin_dataunit_id": "00022",
+    "last_active_date": "2026-01-28",
+    "failure_confirmed_date": "2026-02-01",
+    "repair_attempted": "yes",
+    "repair_result": "unsuccessful",
+    "current_state": "non-operational (retired)"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00847"],
+    "related_proofs": [],
+    "note": "This record confirms the equipment status details following the inspection record in Data Unit 00847."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiai7bkdnj5hujgjaxrbrw2qkuo4rgku7tbezi3aqhworti6iuzye4",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00849/hash/dataunit_00849.sha256",
+    "ots_file": "dataset/data-unit/00849/ots/dgcp_dataunit_00849.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
