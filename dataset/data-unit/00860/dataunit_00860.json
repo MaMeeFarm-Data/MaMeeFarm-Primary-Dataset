@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00860",
+  "file_path": "dataset/data-unit/00860/dataunit_00860.json",
+
+  "category": "water_system",
+  "sub_category": "water_usage_observation",
+
+  "captured_at_local": "2026-02-01 18:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+  "title": "water_usage_wt_m_0004_hz02",
+  "summary": "Water usage recorded using mobile water tank WT-M-0004 in HZ-02.",
+  "description": "Image-based record documenting the use of mobile water tank WT-M-0004 for water provision activities in zone HZ-02.",
+
+  "event": {
+    "action": "Water usage",
+    "method": "manual",
+    "automation": false,
+    "status": "active_use"
+  },
+
+  "asset": {
+    "asset_id": "WT-M-0004",
+    "asset_type": "water_tank",
+    "capacity_liters": 200,
+    "mobility": "mobile",
+    "state": "active"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00859"],
+    "note": "Water source used for plant care activity in HZ-02."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidxmb63id4qrwyb6qf7pmp2ofdms4njla2nm3dardjmenv6mwu3bu",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00860/hash/dataunit_00860.sha256",
+    "ots_file": "dataset/data-unit/00860/ots/dgcp_dataunit_00860.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
