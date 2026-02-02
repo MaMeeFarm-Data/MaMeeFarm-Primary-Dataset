@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00854",
+  "file_path": "dataset/data-unit/00854/dataunit_00854.json",
+
+  "category": "agriculture",
+  "sub_category": "manual_maintenance",
+
+  "captured_at_local": "2026-02-01 18:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "weed_clearing_completed_around_avocado_tree",
+  "summary": "Completion record of weed clearing around an avocado tree.",
+  "description": "An image-based record documenting the completed manual weed clearing around the base of an avocado tree. The surrounding area shows cleared soil with no active vegetation immediately adjacent to the trunk. No interpretation applied.",
+
+  "event": {
+    "action": "Cleared weeds around avocado tree",
+    "status": "completed",
+    "method": "manual clearing",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "PLT-AVO-0001",
+    "asset_type": "plant"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": [],
+    "related_proofs": ["578"],
+    "note": "This record documents the post-action state following the pre-action condition recorded in Proof 578."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib32lobi5zgtmp5jupybf27xfj7pr6z5mrj7j7qgag7vlzr7ho264",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00854/hash/dataunit_00854.sha256",
+    "ots_file": "dataset/data-unit/00854/ots/dgcp_dataunit_00854.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
