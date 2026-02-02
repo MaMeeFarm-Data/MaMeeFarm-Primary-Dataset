@@ -1,0 +1,66 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00840",
+  "file_path": "dataset/data-unit/00840/dataunit_00840.json",
+
+  "category": "environment",
+  "sub_category": "microclimate-measurement",
+
+  "captured_at_local": "2026-02-01 13:30",
+  "timezone": "Asia/Bangkok",
+  "location": "Duck House",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+  "title": "duck_house_microclimate_reading_htc_2_2026_02_01_1330",
+  "summary": "Microclimate sensor reading recorded in Duck House Zone FZ-03.",
+  "description": "A microclimate sensor (HTC-2) display was recorded at 2026-02-01 13:30 (Asia/Bangkok) in Duck House Zone FZ-03, Sub-Zone FZ-03-T1. The display shows IN 32.1 C, OUT 31.5 C, and RH 43%.",
+
+  "event": {
+    "action": "Recorded microclimate sensor reading (temperature and humidity) in Duck House.",
+    "status": "active",
+    "method": "visual capture of sensor display",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HTC-2",
+    "asset_type": "microclimate_sensor"
+  },
+
+  "measurement": {
+    "temperature_in_c": 32.1,
+    "temperature_out_c": 31.5,
+    "relative_humidity_percent": 43
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00828"],
+    "related_proofs": [],
+    "note": "Reference baseline: Data Unit 00828."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiatdtahloekx4qouajsbhfqo4kun74irs4deeeklf2tykisrzuwuq",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00840/hash/dataunit_00840.sha256",
+    "ots_file": "dataset/data-unit/00840/ots/dgcp_dataunit_00840.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
