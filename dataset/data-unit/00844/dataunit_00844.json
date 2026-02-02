@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00844",
+  "file_path": "dataset/data-unit/00844/dataunit_00844.json",
+
+  "category": "water_system",
+  "sub_category": "water_provisioning",
+
+  "captured_at_local": "2026-02-01 13:37",
+  "timezone": "Asia/Bangkok",
+  "location": "Water Transfer Area",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "prepare_submersible_pump_pmp_sub_01_fz_03_2026_02_01_1337",
+  "summary": "Prepared submersible pump PMP-SUB-01 for water transfer in Zone FZ-03.",
+  "description": "A submersible pump labeled PMP-SUB-01 was visually recorded at 2026-02-01 13:37 (Asia/Bangkok) in Zone FZ-03. The pump is shown in a prepared state for water transfer operation at the time of capture.",
+
+  "event": {
+    "action": "Prepared submersible pump for water transfer operation.",
+    "status": "active",
+    "method": "manual preparation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "PMP-SUB-01",
+    "asset_type": "submersible_pump"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00843"],
+    "related_proofs": [],
+    "note": "Preparation step following empty water tank observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiazhikpiwmnvalb7lgnysgbvyjufrumignoa4ay6tftkebz7zmswm",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00844/hash/dataunit_00844.sha256",
+    "ots_file": "dataset/data-unit/00844/ots/dgcp_dataunit_00844.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
