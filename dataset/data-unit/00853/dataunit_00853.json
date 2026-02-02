@@ -1,0 +1,65 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00853",
+  "file_path": "dataset/data-unit/00853/dataunit_00853.json",
+
+  "category": "environment",
+  "sub_category": "microclimate-measurement",
+
+  "captured_at_local": "2026-02-01 17:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "evening_microclimate_record_hz_02",
+  "summary": "Evening microclimate measurement recorded at HZ-02.",
+  "description": "An image-based record showing evening temperature and humidity values measured by a fixed microclimate sensor installed on the house line. No interpretation applied.",
+
+  "event": {
+    "action": "Recorded temperature and humidity",
+    "status": "completed",
+    "method": "manual observation from sensor display",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HZ-02-HTC-1",
+    "asset_type": "microclimate_sensor"
+  },
+
+  "measurement": {
+    "temperature_celsius": 26.6,
+    "humidity_percent": 55
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00823", "00835"],
+    "related_proofs": [],
+    "note": "This evening record continues the same-day microclimate sequence following morning and midday measurements."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibaphvenkcjdehypuagu6cja4hxw7k4bgutc5xgu4fp3cklylwivm",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00853/hash/dataunit_00853.sha256",
+    "ots_file": "dataset/data-unit/00853/ots/dgcp_dataunit_00853.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
