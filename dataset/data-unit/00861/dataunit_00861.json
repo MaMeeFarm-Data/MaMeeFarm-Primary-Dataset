@@ -1,0 +1,66 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00861",
+  "file_path": "dataset/data-unit/00861/dataunit_00861.json",
+
+  "category": "plant_care",
+  "sub_category": "watering",
+
+  "captured_at_local": "2026-02-01 18:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+  "title": "watering_avocado_plt_avo_0001_hz02",
+  "summary": "Watering activity recorded for avocado tree PLT-AVO-0001 in HZ-02.",
+  "description": "Image-based record documenting manual watering of avocado tree PLT-AVO-0001 using water supplied from mobile water tank WT-M-0004.",
+
+  "event": {
+    "action": "Watering",
+    "method": "manual",
+    "automation": false,
+    "status": "completed"
+  },
+
+  "asset": {
+    "asset_id": "PLT-AVO-0001",
+    "asset_type": "plant",
+    "common_name": "Avocado",
+    "lifecycle_stage": "established",
+    "state": "active"
+  },
+
+  "resource_used": {
+    "water_source": "WT-M-0004",
+    "reference_dataunit": "00860"
+  },
+
+  "reference_context": {
+    "related_proof": ["572"],
+    "note": "Continued care following ground clearing and weed removal."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifkjc5zjbaa64ex4xkwgbwyk5otihuekhbm4vczboeeobrv3qwyjm",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00861/hash/dataunit_00861.sha256",
+    "ots_file": "dataset/data-unit/00861/ots/dgcp_dataunit_00861.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
