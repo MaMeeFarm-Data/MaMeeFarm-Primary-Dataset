@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00862",
+  "file_path": "dataset/data-unit/00862/dataunit_00862.json",
+
+  "category": "environment_monitoring",
+  "sub_category": "temperature_humidity",
+
+  "captured_at_local": "2026-02-02 00:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "sensor": {
+    "asset_id": "HZ-02-HTC-1",
+    "sub_unit": "HZ-02-T1",
+    "type": "microclimate_sensor",
+    "system": "house_line",
+    "status": "active"
+  },
+
+  "measurement": {
+    "temperature_celsius": 19.3,
+    "humidity_percent": 66,
+    "measurement_period": "night"
+  },
+
+  "data_type": "image",
+  "title": "night_temperature_humidity_hz02_2026-02-02_0045",
+  "summary": "Night-time temperature and humidity record at HZ-02.",
+  "description": "Microclimate measurement recorded during night cycle using HTC-1 sensor. Values show reduced temperature and increased humidity compared to daytime records.",
+
+  "reference_context": {
+    "related_dataunits": ["00823", "00835", "00853"],
+    "cycle_note": "Completes full-day monitoring cycle (morning, noon, evening, night)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeickf7ogtyqirttil2jyrjfdjjgoi5vckllspyooxigp73quhtcxay",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00862/hash/dataunit_00862.sha256",
+    "ots_file": "dataset/data-unit/00862/ots/dgcp_dataunit_00862.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
