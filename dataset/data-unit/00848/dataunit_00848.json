@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00848",
+  "file_path": "dataset/data-unit/00848/dataunit_00848.json",
+
+  "category": "power_system",
+  "sub_category": "power_disconnection_event",
+
+  "captured_at_local": "2026-02-01 14:32",
+  "timezone": "Asia/Bangkok",
+  "location": "Power System Area",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "power_disconnection_for_pump_after_1400_hz_02_2026_02_01_1432",
+  "summary": "Disconnected power supply for pump operation in Zone HZ-02 after 14:00.",
+  "description": "A power disconnection step was visually recorded at 2026-02-01 14:32 (Asia/Bangkok) in Zone HZ-02. The capture shows the power connector/plug associated with the pump operation being disconnected after 14:00. Field note: sunlight conditions were reported as good during 11:00–14:00.",
+
+  "event": {
+    "action": "Disconnected power supply (unplug) for pump operation.",
+    "status": "disconnected",
+    "method": "manual unplug",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": ""
+  },
+
+  "measurement": {
+    "sunlight_window_note_local": "11:00-14:00"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00845"],
+    "related_proofs": [],
+    "note": "Power disconnection recorded following prior power connection event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih3pqzdfqgmoidlt4jva7cq7ptbyaovtatpqdoshgru6xz4kkh774",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00848/hash/dataunit_00848.sha256",
+    "ots_file": "dataset/data-unit/00848/ots/dgcp_dataunit_00848.ots"
+  },
+
+  "capture_context": {
+    "media_captured_by": "P'Toh",
+    "record_verified_by": "P'Toh"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
