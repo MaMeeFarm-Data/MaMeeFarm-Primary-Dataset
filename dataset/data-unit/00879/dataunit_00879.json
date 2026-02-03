@@ -1,0 +1,65 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00879",
+  "file_path": "dataset/data-unit/00879/dataunit_00879.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-02 12:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "midday_microclimate_record_hz02_t1",
+  "summary": "Midday temperature and humidity recorded at house line sensor.",
+  "description": "Digital display shows temperature and relative humidity at the recorded time.",
+
+  "event": {
+    "action": "recorded temperature and humidity",
+    "status": "recorded",
+    "method": "manual_observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HTC-1",
+    "asset_type": "Microclimate Sensor"
+  },
+
+  "measurement": {
+    "temperature_celsius": 24.2,
+    "humidity_percent": 59
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00865"],
+    "related_proofs": [],
+    "note": "Reference to morning microclimate record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiavsfws6zbh4csmjze7ttzx4jg3kdnoo7c6uylcqdknylrtmx5424",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00879/hash/dataunit_00879.sha256",
+    "ots_file": "dataset/data-unit/00879/ots/dgcp_dataunit_00879.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
