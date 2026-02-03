@@ -1,0 +1,63 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00886",
+  "file_path": "dataset/data-unit/00886/dataunit_00886.json",
+
+  "category": "infrastructure",
+  "sub_category": "wood_fire_cooking",
+
+  "captured_at_local": "2026-02-02 13:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "cooking_rice_on_wood_fire_stove",
+  "summary": "Rice is being cooked on a wood-fired stove.",
+  "description": "A cooking pot is placed on a wood-fired stove for rice cooking. Firewood is actively used as the heat source.",
+
+  "event": {
+    "action": "cook rice on wood-fired stove",
+    "status": "performed",
+    "method": "manual_operation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "WOOD-STOVE-01",
+    "asset_type": "wood_fire_stove"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00885"],
+    "related_proofs": [],
+    "note": "This activity follows the stove setup and ignition process."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeicpuve5yct574jdwnbqjrwip7bqdwmkzjrbdhc3qlq6rekgtbeljq",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00886/hash/dataunit_00886.sha256",
+    "ots_file": "dataset/data-unit/00886/ots/dgcp_dataunit_00886.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™",
+    "recorded_by": "P'Toh"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
