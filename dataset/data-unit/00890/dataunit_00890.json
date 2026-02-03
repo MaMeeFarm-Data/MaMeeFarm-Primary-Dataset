@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00890",
+  "file_path": "dataset/data-unit/00890/dataunit_00890.json",
+
+  "category": "water_system",
+  "sub_category": "water_flow_interruption",
+
+  "captured_at_local": "2026-02-02 17:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "water_flow_stopped_fz04",
+  "summary": "Water flow into the farm canal observed to be stopped from the adjacent corn field.",
+  "description": "A farm canal section showing no visible incoming water flow from the adjacent corn field area at the time of observation.",
+
+  "event": {
+    "action": "observe water flow stop",
+    "status": "recorded",
+    "method": "manual_observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": ""
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00855"],
+    "related_proofs": [],
+    "note": "This record follows a previous data unit documenting water inflow."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifrpnps2w6vpuslm44kegumuhpe2ou56jclllx2ibnyjmrln7cpqa",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00890/hash/dataunit_00890.sha256",
+    "ots_file": "dataset/data-unit/00890/ots/dgcp_dataunit_00890.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
