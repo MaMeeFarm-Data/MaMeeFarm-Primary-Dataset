@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00878",
+  "file_path": "dataset/data-unit/00878/dataunit_00878.json",
+
+  "category": "water_system",
+  "sub_category": "pump_post_use_storage",
+
+  "captured_at_local": "2026-02-02 11:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "water_pump_stored_after_use",
+  "summary": "Water pump stored after use; delivery pressure reported as insufficient.",
+  "description": "A submersible water pump is shown stored after use at the recorded time. The recorded note states the pump operated but delivery pressure was not sufficient.",
+
+  "event": {
+    "action": "stored pump after use; recorded insufficient delivery pressure",
+    "status": "recorded",
+    "method": "manual_operation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "PMP-SUB-01",
+    "asset_type": "Submersible Pump"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00875"],
+    "related_proofs": [],
+    "note": "Linked to pump preparation record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeig4woqhvpk54fhm5uty2lndsncspjekafcjpaenx3fqyc3p4pfay4",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00878/hash/dataunit_00878.sha256",
+    "ots_file": "dataset/data-unit/00878/ots/dgcp_dataunit_00878.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
