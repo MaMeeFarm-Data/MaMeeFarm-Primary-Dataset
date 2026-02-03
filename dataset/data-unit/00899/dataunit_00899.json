@@ -1,0 +1,65 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00899",
+  "file_path": "dataset/data-unit/00899/dataunit_00899.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-03 05:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "early_morning_temperature_humidity_record",
+  "summary": "Early morning temperature and humidity recorded at house line.",
+  "description": "Digital microclimate sensor reading showing temperature and relative humidity at the house line point.",
+
+  "event": {
+    "action": "temperature_humidity_measurement",
+    "status": "recorded",
+    "method": "manual_observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HZ-02-HTC-1",
+    "asset_type": "microclimate_sensor"
+  },
+
+  "measurement": {
+    "temperature_celsius": 17.0,
+    "relative_humidity_percent": 69
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00897"],
+    "related_proofs": [],
+    "note": "Continuous morning record following prior sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiarpttzwvxgzyxwljwk2phpu6xd2reirf664axzjlndxeucusgiie",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00899/hash/dataunit_00899.sha256",
+    "ots_file": "dataset/data-unit/00899/ots/dgcp_dataunit_00899.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
