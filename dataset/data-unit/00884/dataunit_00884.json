@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00884",
+  "file_path": "dataset/data-unit/00884/dataunit_00884.json",
+
+  "category": "agriculture",
+  "sub_category": "manual_watering",
+
+  "captured_at_local": "2026-02-02 12:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "manual_watering_of_vegetables_midday",
+  "summary": "Vegetables were watered manually during midday.",
+  "description": "Water was applied manually to vegetable beds using a watering tool during midday conditions.",
+
+  "event": {
+    "action": "manual watering of vegetables",
+    "status": "performed",
+    "method": "manual_operation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": ""
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00881", "00882"],
+    "related_proofs": [],
+    "note": "Watering performed following strong sunlight and observed plant wilting."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeiaf2ybwr7gyc6tmbtykayjpv3c4rjcuoazoqk4wqjlbsgo3i2ndme",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00884/hash/dataunit_00884.sha256",
+    "ots_file": "dataset/data-unit/00884/ots/dgcp_dataunit_00884.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
