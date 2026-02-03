@@ -1,0 +1,66 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00880",
+  "file_path": "dataset/data-unit/00880/dataunit_00880.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-02 12:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+  "title": "midday_microclimate_record_fz03",
+  "summary": "Midday temperature and humidity recorded in the duck house zone.",
+  "description": "Digital sensor display shows indoor and outdoor temperature and relative humidity at the recorded time.",
+
+  "event": {
+    "action": "recorded temperature and humidity",
+    "status": "recorded",
+    "method": "manual_observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HTC-2",
+    "asset_type": "Microclimate Sensor"
+  },
+
+  "measurement": {
+    "temperature_inside_celsius": 30.7,
+    "temperature_outside_celsius": 30.0,
+    "humidity_percent": 50
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00873"],
+    "related_proofs": [],
+    "note": "Reference to morning microclimate record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeieszbeyzry5ipmem74usgc25y44mvaw3otmu4qq7op2cgnpr3qbci",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00880/hash/dataunit_00880.sha256",
+    "ots_file": "dataset/data-unit/00880/ots/dgcp_dataunit_00880.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
