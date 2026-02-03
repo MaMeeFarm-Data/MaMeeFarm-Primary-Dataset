@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00893",
+  "file_path": "dataset/data-unit/00893/dataunit_00893.json",
+
+  "category": "animal-care",
+  "sub_category": "dog_feeding_environment",
+
+  "captured_at_local": "2026-02-02 17:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "dogs_eating_on_ground",
+  "summary": "Dogs were observed consuming dry food directly from the ground during the evening feeding.",
+  "description": "The image documents dogs eating dry food scattered on the ground in zone HZ-02 under resource-limited farm conditions.",
+
+  "event": {
+    "action": "dogs eating",
+    "status": "ongoing",
+    "method": "manual",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "animal"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00892"],
+    "related_proofs": [],
+    "note": "This record continues the evening dog feeding activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeienvw3dl5lve2iaaag5qmm2cxjtsh44u45msckvnf7inuyzcguueq",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00893/hash/dataunit_00893.sha256",
+    "ots_file": "dataset/data-unit/00893/ots/dgcp_dataunit_00893.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
