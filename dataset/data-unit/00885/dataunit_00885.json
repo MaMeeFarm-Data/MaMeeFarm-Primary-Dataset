@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00885",
+  "file_path": "dataset/data-unit/00885/dataunit_00885.json",
+
+  "category": "infrastructure",
+  "sub_category": "wood_fire_stove_operation",
+
+  "captured_at_local": "2026-02-02 13:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "wood_fire_stove_setup_and_use",
+  "summary": "A wood-fired stove was set up and operated.",
+  "description": "A wood-fired stove is being set up and ignited using firewood. The activity is manually performed at the site.",
+
+  "event": {
+    "action": "setup and ignition of wood-fired stove",
+    "status": "performed",
+    "method": "manual_operation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "WOOD-STOVE-01",
+    "asset_type": "wood_fire_stove"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00836"],
+    "related_proofs": [],
+    "note": "This record documents the usage of an existing stove asset."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeia4w7b5nxkosps6wczjwbjwfv73ujoghgpxepqndldaowhfpxchju",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00885/hash/dataunit_00885.sha256",
+    "ots_file": "dataset/data-unit/00885/ots/dgcp_dataunit_00885.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "observed_person": "MaMee"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
