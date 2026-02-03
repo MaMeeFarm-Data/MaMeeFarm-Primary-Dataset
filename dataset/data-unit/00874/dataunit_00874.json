@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00874",
+  "file_path": "dataset/data-unit/00874/dataunit_00874.json",
+
+  "category": "agriculture",
+  "sub_category": "crop_observation",
+
+  "captured_at_local": "2026-02-02 08:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "morning_vegetable_plot_observation",
+  "summary": "Morning observation of vegetable plots.",
+  "description": "Vegetable plants are observed in cultivated soil plots during the morning at the recorded time.",
+
+  "event": {
+    "action": "observed vegetable plots",
+    "status": "recorded",
+    "method": "manual_observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": ""
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00873"],
+    "related_proofs": [],
+    "note": "Observation referenced to morning microclimate record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeibu6al562i5esvdzdei7ynqewvjzklfaitcy4mpxdt7hkh6tth35y",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00874/hash/dataunit_00874.sha256",
+    "ots_file": "dataset/data-unit/00874/ots/dgcp_dataunit_00874.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
