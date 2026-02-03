@@ -1,0 +1,65 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00898",
+  "file_path": "dataset/data-unit/00898/dataunit_00898.json",
+
+  "category": "power_system",
+  "sub_category": "inverter_shutdown_event",
+
+  "captured_at_local": "2026-02-03 01:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "Power-Control-Point",
+
+  "data_type": "image",
+  "title": "inverter_fault_indicator_shutdown",
+  "summary": "A red fault indicator was observed on the solar inverter, leading to system shutdown for the day.",
+  "description": "The image shows a hybrid solar inverter with an active red fault indicator light. The system was shut down following standard end-of-day operation under limited resource conditions.",
+
+  "event": {
+    "action": "system_shutdown",
+    "trigger": "fault_indicator_red_light",
+    "method": "manual_operator_action",
+    "automation": false,
+    "status": "completed"
+  },
+
+  "asset": {
+    "asset_id": "INV-01",
+    "asset_type": "hybrid_solar_inverter"
+  },
+
+  "system_context": {
+    "operational_mode": "limited_resource_continuous_operation",
+    "note": "System was operated continuously within resource constraints prior to shutdown."
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00871"],
+    "note": "System opening operation recorded earlier in the day."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiauwwfbuzq2dmwbotswtkahuqujwdni3pyzrn2czr6q2dqolliwmu",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00898/hash/dataunit_00898.sha256",
+    "ots_file": "dataset/data-unit/00898/ots/dgcp_dataunit_00898.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
