@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00896",
+  "file_path": "dataset/data-unit/00896/dataunit_00896.json",
+
+  "category": "infrastructure",
+  "sub_category": "farm_access_control",
+
+  "captured_at_local": "2026-02-02 18:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "farm_gate_closed_evening",
+  "summary": "The farm gate was closed during the evening routine.",
+  "description": "The image documents the closure of the main farm gate as part of the daily evening routine.",
+
+  "event": {
+    "action": "gate closure",
+    "status": "completed",
+    "method": "manual operation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "HZ-GATE-01",
+    "asset_type": "farm_gate"
+  },
+
+  "reference_context": {
+    "related_dataunits": ["00872"],
+    "related_proofs": [],
+    "note": "This record represents the evening closure following the morning gate opening."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeighakudejnpuewxtedh7ma6q2jl5mvaj4dykolhxweu4bii6kk424",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00896/hash/dataunit_00896.sha256",
+    "ots_file": "dataset/data-unit/00896/ots/dgcp_dataunit_00896.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
