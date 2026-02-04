@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00914",
+  "file_path": "dataset/data-unit/00914/dataunit_00914.json",
+
+  "category": "water_system",
+  "sub_category": "pipeline_check",
+
+  "captured_at_local": "2026-02-03 10:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "check_pipeline_before_transfer_to_wt_h_0001_0002",
+  "summary": "Pipeline and fittings checked before transferring water to WT-H-0001 and WT-H-0002 in zone HZ-02.",
+  "description": "A pre-transfer inspection of water pipeline components and fittings was performed in zone HZ-02 before sending water upward to WT-H-0001 and WT-H-0002.",
+
+  "event": {
+    "action": "pipeline_check",
+    "scope": "pre_transfer",
+    "status": "performed",
+    "automation": false
+  },
+
+  "asset": {
+    "primary_asset_id": "",
+    "related_asset_ids": ["WT-H-0001", "WT-H-0002"]
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00913"],
+    "related_proofs": [],
+    "note": "Continuity reference: DataUnit 00913 (water transfer context)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifuytrc3rpvop5psdolopqlx2hooqid2t7bgjxfywll7mch2zvzqa",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00914/hash/dataunit_00914.sha256",
+    "ots_file": "dataset/data-unit/00914/ots/dgcp_dataunit_00914.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
