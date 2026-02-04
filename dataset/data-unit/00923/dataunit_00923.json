@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00923",
+  "file_path": "dataset/data-unit/00923/dataunit_00923.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-03 18:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+  "title": "duck_house_microclimate_evening",
+  "summary": "Evening microclimate record in duck house.",
+  "description": "This record documents an evening microclimate measurement inside the duck house in zone FZ-03. The display shows indoor and outdoor temperature values and relative humidity at the time of capture.",
+
+  "measurement": {
+    "temperature_in_celsius": 26.5,
+    "temperature_out_celsius": 24.0,
+    "relative_humidity_percent": 59,
+    "sensor_id": "HTC-2",
+    "sensor_type": "microclimate_sensor"
+  },
+
+  "activity_context": {
+    "observation_type": "scheduled microclimate check",
+    "reference_dataunit": ["00904", "00917"]
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih4p4my3fwhbt4xk4zqjjmyqw33oiotvkcw7kcpxoqonfgo53m2ci",
+    "note": "Evening duck house microclimate image record."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00923/hash/dataunit_00923.sha256",
+    "ots_file": "dataset/data-unit/00923/ots/dgcp_dataunit_00923.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
