@@ -1,0 +1,80 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00932",
+  "file_path": "dataset/data-unit/00932/dataunit_00932.json",
+
+  "category": "power_system",
+  "sub_category": "inverter_operation",
+
+  "captured_at_local": "2026-02-04 08:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "power_room",
+
+  "data_type": "image",
+  "title": "inverter_operational_with_display_degradation_inv01",
+  "summary": "Inverter INV-01 operating with non-functional display due to usage degradation.",
+  "description": "This record documents the operational state of inverter INV-01 where the display screen is non-functional due to hardware wear, while the system continues to operate normally.",
+
+  "system_components": [
+    {
+      "asset_id": "INV-01",
+      "type": "power_inverter",
+      "display_status": "not_displaying",
+      "operational_status": "active"
+    },
+    {
+      "asset_id": "SPV-A-0001",
+      "type": "solar_panel_array",
+      "panels": 4,
+      "status": "active"
+    },
+    {
+      "asset_id": "PWR-BAT-0001",
+      "type": "battery_storage",
+      "status": "active"
+    },
+    {
+      "asset_id": "PWR-BAT-0002",
+      "type": "battery_storage",
+      "status": "active"
+    }
+  ],
+
+  "operation_context": {
+    "startup_event": true,
+    "hardware_condition": "display_degradation",
+    "note": "Display output unavailable; inverter operation confirmed via indicator lights."
+  },
+
+  "reference_context": {
+    "previous_closure_record": ["00926"],
+    "note": "This record follows the previous end-of-day power system shutdown."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicyufsytgxest4hj6kkftysfkoynwyq6iwuc4op3teeho4zglrtyu",
+    "note": "Image capture showing inverter with active indicators and non-responsive display."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00932/hash/dataunit_00932.sha256",
+    "ots_file": "dataset/data-unit/00932/ots/dgcp_dataunit_00932.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
