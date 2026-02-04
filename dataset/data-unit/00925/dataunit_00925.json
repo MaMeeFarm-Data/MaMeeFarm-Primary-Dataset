@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00925",
+  "file_path": "dataset/data-unit/00925/dataunit_00925.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-04 00:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "late_night_temperature_humidity_record",
+  "summary": "Late-night indoor microclimate record.",
+  "description": "This record documents a late-night indoor temperature and humidity reading captured after midnight using a fixed microclimate sensor.",
+
+  "sensor": {
+    "asset_id": "HZ-02-HTC-1",
+    "sensor_type": "microclimate_sensor",
+    "model": "HTC-1",
+    "installation_point": "house_line",
+    "status": "active"
+  },
+
+  "measurement": {
+    "temperature_celsius": 18.9,
+    "relative_humidity_percent": 64
+  },
+
+  "reference_context": {
+    "previous_record": ["00918"],
+    "note": "Continuity reference to evening record only. No modification of prior data."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifavk323srmkxl7x2fd4byvwsb4ndytaa65i3cifzfzz7ogobvbku",
+    "note": "Image-based temperature and humidity capture."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00925/hash/dataunit_00925.sha256",
+    "ots_file": "dataset/data-unit/00925/ots/dgcp_dataunit_00925.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
