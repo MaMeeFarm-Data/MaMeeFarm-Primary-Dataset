@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00930",
+  "file_path": "dataset/data-unit/00930/dataunit_00930.json",
+
+  "category": "animal_care",
+  "sub_category": "feeding_activity",
+
+  "captured_at_local": "2026-02-04 07:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "front_area",
+
+  "data_type": "image",
+  "title": "morning_dog_feeding_front_area_hz02",
+  "summary": "Morning feeding activity of multiple dogs at the front area in HZ-02.",
+  "description": "This record documents a routine morning feeding activity for multiple dogs at the front area of the house.",
+
+  "animal_care_activity": {
+    "animal_type": "dog",
+    "count": "multiple",
+    "activity": "feeding",
+    "feeding_method": "ground_feed",
+    "care_type": "routine_daily_care"
+  },
+
+  "reference_context": {
+    "previous_related_record": ["00929"],
+    "note": "Referenced rear balcony morning feeding record for continuity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibp5scxydkw2en2ldytskcc4h7gzehvbioxputn27gvcjyswu22fi",
+    "note": "Image capture of multiple dogs feeding at the front area."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00930/hash/dataunit_00930.sha256",
+    "ots_file": "dataset/data-unit/00930/ots/dgcp_dataunit_00930.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
