@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00928",
+  "file_path": "dataset/data-unit/00928/dataunit_00928.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_observation",
+
+  "captured_at_local": "2026-02-04 07:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house_balcony_adjacent",
+
+  "data_type": "image",
+  "title": "morning_papaya_fruit_initiation_observation",
+  "summary": "Observation of papaya tree showing initial fruit formation near house balcony.",
+  "description": "This record documents the observed presence of early-stage papaya fruit formation on a papaya tree located near the house balcony area.",
+
+  "plant_observation": {
+    "plant_type": "papaya_tree",
+    "observation_type": "fruit_initiation",
+    "growth_stage": "early_fruit_set",
+    "visible_condition": "fruit_nodes_present",
+    "observation_method": "visual_inspection"
+  },
+
+  "reference_context": {
+    "opening_record_of_day": true,
+    "linked_environment_record": ["00927"],
+    "note": "This observation initiates biological recording for the day, following morning microclimate measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibyi4yx3p6axw366lbagdgtpqyfih5clsqpbtrxde2imxbjyogpry",
+    "note": "Image capture of papaya trunk and fruit nodes near house balcony."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00928/hash/dataunit_00928.sha256",
+    "ots_file": "dataset/data-unit/00928/ots/dgcp_dataunit_00928.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
