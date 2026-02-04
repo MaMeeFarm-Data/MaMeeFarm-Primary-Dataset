@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00931",
+  "file_path": "dataset/data-unit/00931/dataunit_00931.json",
+
+  "category": "animal_care",
+  "sub_category": "feeding_resource_management",
+
+  "captured_at_local": "2026-02-04 07:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "front_house_area",
+
+  "data_type": "image",
+  "title": "shared_dog_feeding_single_bag_resource_constraint",
+  "summary": "Morning feeding of approximately twenty dogs using a single shared food bag under limited resources.",
+  "description": "This record documents a morning animal feeding activity where multiple dogs were fed from a single food bag due to limited available resources.",
+
+  "animal_care_activity": {
+    "animal_type": "dog",
+    "count": 20,
+    "activity": "feeding",
+    "feeding_method": "shared_food_bag",
+    "care_context": "resource_constrained_operation"
+  },
+
+  "resource_context": {
+    "food_supply_status": "bag_empty_after_feeding",
+    "distribution_method": "shared_access",
+    "management_mode": "manual_allocation_under_constraint"
+  },
+
+  "reference_context": {
+    "previous_opening_reference": ["00752"],
+    "same_day_sequence": ["00929", "00930"],
+    "note": "Feeding activity conducted under constrained supply conditions. This record continues the operational state opened on 2026-01-29."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigxbxqoxqwwwtbcwbvmpyxqjmcbhalacwfra22eu4cqwvo2buyvtm",
+    "note": "Image capture showing dogs feeding with an empty food bag present."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00931/hash/dataunit_00931.sha256",
+    "ots_file": "dataset/data-unit/00931/ots/dgcp_dataunit_00931.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
