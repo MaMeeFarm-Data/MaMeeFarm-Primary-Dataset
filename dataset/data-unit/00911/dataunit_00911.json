@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00911",
+  "file_path": "dataset/data-unit/00911/dataunit_00911.json",
+
+  "category": "energy",
+  "sub_category": "biomass_cooking_result",
+
+  "captured_at_local": "2026-02-03 10:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "rice_cooked_with_wood_fire",
+  "summary": "Rice fully cooked using a wood-fired stove.",
+  "description": "Cooked rice observed in cooking pot after sustained biomass heat application, completing the manual rice cooking process.",
+
+  "event": {
+    "action": "cooking_completed",
+    "status": "completed",
+    "method": "wood_fire_cooking",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "STOVE-WOOD-01",
+    "asset_type": "biomass_stove"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00910"],
+    "related_proofs": ["585"],
+    "note": "Final cooking state following pot placement and continuous heating."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifug6bca4ipesyhii77ukbf5hvrtup5uthj7pany3f4c7fbhn2opm",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00911/hash/dataunit_00911.sha256",
+    "ots_file": "dataset/data-unit/00911/ots/dgcp_dataunit_00911.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
