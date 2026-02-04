@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00909",
+  "file_path": "dataset/data-unit/00909/dataunit_00909.json",
+
+  "category": "energy",
+  "sub_category": "biomass_cooking_fire",
+
+  "captured_at_local": "2026-02-03 09:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "wood_fire_ignition_for_cooking",
+  "summary": "Wood fire ignition initiated for rice cooking preparation.",
+  "description": "Manual ignition of wood-fired stove observed as fire begins to sustain combustion. Activity performed to prepare rice cooking using biomass fuel under household conditions.",
+
+  "event": {
+    "action": "fire_ignition",
+    "status": "fire_established",
+    "method": "manual_biomass_fire",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "STOVE-WOOD-01",
+    "asset_type": "biomass_stove"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": [],
+    "related_proofs": ["585"],
+    "note": "Fire ignition phase following stove preparation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih72coe64qecap6d2dc7267zxcp7pa2wonv562yvpbxbidbn5lpxi",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00909/hash/dataunit_00909.sha256",
+    "ots_file": "dataset/data-unit/00909/ots/dgcp_dataunit_00909.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
