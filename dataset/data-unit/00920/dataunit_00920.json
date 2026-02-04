@@ -1,0 +1,66 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00920",
+  "file_path": "dataset/data-unit/00920/dataunit_00920.json",
+
+  "category": "animal-care",
+  "sub_category": "supplemental_feeding",
+
+  "captured_at_local": "2026-02-03 17:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-house",
+
+  "data_type": "image",
+  "title": "banana_feeding_puppies",
+  "summary": "Supplemental banana feeding for puppies using farm-grown bananas.",
+  "description": "This record documents Mamee manually feeding small dogs with ripe bananas grown within the farm. The bananas were harvested earlier and allowed to ripen naturally. No commercial food was purchased for this activity.",
+
+  "activity": {
+    "animal_type": "dog",
+    "animal_stage": "puppy",
+    "feeding_time": "evening",
+    "food_type": "banana",
+    "food_origin": "farm-grown",
+    "feeding_method": "manual",
+    "note": "Supplemental feeding, not a primary meal."
+  },
+
+  "farm_produce_context": {
+    "crop_type": "banana",
+    "harvest_zone": "FZ-03",
+    "harvest_date": "2026-01-19",
+    "ripening_method": "natural",
+    "usage_policy": "consume gradually, no purchase required"
+  },
+
+  "reference_context": {
+    "related_proof": ["512"],
+    "note": "Proof of banana harvest and farm produce origin."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiggkf7c5g6ljuj7jhwooob3obt2dnlxxxbv6inj3fjnzoymtskaku",
+    "note": "Image evidence of banana feeding activity."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00920/hash/dataunit_00920.sha256",
+    "ots_file": "dataset/data-unit/00920/ots/dgcp_dataunit_00920.ots"
+  },
+
+  "responsibility": {
+    "actor": "Mamee",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
