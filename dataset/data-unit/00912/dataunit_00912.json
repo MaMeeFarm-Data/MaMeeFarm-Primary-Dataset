@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00912",
+  "file_path": "dataset/data-unit/00912/dataunit_00912.json",
+
+  "category": "animal-care",
+  "sub_category": "sanitation",
+
+  "captured_at_local": "2026-02-03 10:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "dog_waste_cleanup_hz_02",
+  "summary": "Dog waste cleanup performed in zone HZ-02.",
+  "description": "A sanitation task was performed by MaMee involving collection of dog waste around the HZ-02 area as part of daily animal-care hygiene.",
+
+  "event": {
+    "action": "cleaning",
+    "scope": "dog_sanitation",
+    "status": "performed",
+    "automation": false
+  },
+
+  "asset": {},
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00900", "00907"],
+    "related_proofs": [],
+    "note": "Sanitation activity linked to dog feeding continuity references."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibb7ovvqtth2kadqaewg57gbi26k3p2ixdjgk3etoj734b533inke",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00912/hash/dataunit_00912.sha256",
+    "ots_file": "dataset/data-unit/00912/ots/dgcp_dataunit_00912.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™",
+    "field_actor": "MaMee"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
