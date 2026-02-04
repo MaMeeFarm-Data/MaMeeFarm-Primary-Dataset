@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00906",
+  "file_path": "dataset/data-unit/00906/dataunit_00906.json",
+
+  "category": "agriculture",
+  "sub_category": "pest_observation",
+
+  "captured_at_local": "2026-02-03 07:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "insect_observation_on_pumpkin_leaf",
+  "summary": "Observation of insects on pumpkin leaves without chemical treatment.",
+  "description": "Insects were observed on pumpkin leaves during morning farm work. No chemical substances were applied.",
+
+  "event": {
+    "action": "pest_observation",
+    "status": "observed",
+    "method": "visual_inspection",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "pumpkin_plant"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00903"],
+    "related_proofs": [],
+    "note": "Same zone as previous observation but different insect species."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidmwbj3ymjgvxzwvcibghha2cipeunw7fmbepe74d5uaj3q4icqfa",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00906/hash/dataunit_00906.sha256",
+    "ots_file": "dataset/data-unit/00906/ots/dgcp_dataunit_00906.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
