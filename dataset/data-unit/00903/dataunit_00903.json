@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00903",
+  "file_path": "dataset/data-unit/00903/dataunit_00903.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_health_observation",
+
+  "captured_at_local": "2026-02-03 07:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "green_caterpillar_on_kale_leaf",
+  "summary": "Green caterpillar observed feeding on kale leaves.",
+  "description": "Green caterpillar visible on kale leaves with leaf damage observed.",
+
+  "event": {
+    "action": "pest_observation",
+    "status": "recorded",
+    "method": "manual_observation",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "plant"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00883"],
+    "related_proofs": [],
+    "note": "Observation recorded in a non-chemical farming area."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifezxtafjpxxc4bvk4qlc4klwcr4kfhjerxjmykado6rdncmfagjm",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00903/hash/dataunit_00903.sha256",
+    "ots_file": "dataset/data-unit/00903/ots/dgcp_dataunit_00903.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
