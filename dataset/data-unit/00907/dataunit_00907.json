@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00907",
+  "file_path": "dataset/data-unit/00907/dataunit_00907.json",
+
+  "category": "animal-care",
+  "sub_category": "group_status_observation",
+
+  "captured_at_local": "2026-02-03 08:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "dog_group_status_after_feeding",
+  "summary": "Observation of farm dogs group status following regular feeding.",
+  "description": "Farm dogs observed together in Zone HZ-02. All dogs are maintained under resource constraints but receive regular feeding. Total number of dogs is twenty; not all individuals are visible in this image.",
+
+  "event": {
+    "action": "group_observation",
+    "status": "observed",
+    "method": "visual_inspection",
+    "automation": false
+  },
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "farm_dogs_group"
+  },
+
+  "measurement": {},
+
+  "reference_context": {
+    "related_dataunits": ["00900"],
+    "related_proofs": [],
+    "note": "This record confirms continuity of feeding. Image does not include all individuals."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaxxnaynnlxiiwxr5mca2upeopkr64y6egklw37hoinhhqg57fo24",
+    "note": "External image reference for independent verification."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00907/hash/dataunit_00907.sha256",
+    "ots_file": "dataset/data-unit/00907/ots/dgcp_dataunit_00907.ots"
+  },
+
+  "responsibility": {
+    "responsible_operator": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP™ | MMFARM-POL-2025"
+}
