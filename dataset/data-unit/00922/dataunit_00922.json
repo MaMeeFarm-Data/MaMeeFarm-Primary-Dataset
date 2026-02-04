@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00922",
+  "file_path": "dataset/data-unit/00922/dataunit_00922.json",
+
+  "category": "agriculture",
+  "sub_category": "pest_observation",
+
+  "captured_at_local": "2026-02-03 17:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-pumpkin-bed",
+
+  "data_type": "image",
+  "title": "pumpkin_leaf_insect_observation_evening",
+  "summary": "Insects observed on pumpkin leaves during evening check.",
+  "description": "This record documents an evening observation of insects present on pumpkin leaves in zone FZ-03. The image captures multiple insects visible on leaf surfaces. No treatment action is recorded in this unit.",
+
+  "activity_context": {
+    "observation_type": "visual inspection",
+    "reference_dataunit": ["00906"]
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih6rofz6f2qnu6lg44743mv6hzndnv2klna3k43rw2wxulf67hcnu",
+    "note": "Image evidence of insects on pumpkin leaves."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00922/hash/dataunit_00922.sha256",
+    "ots_file": "dataset/data-unit/00922/ots/dgcp_dataunit_00922.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
