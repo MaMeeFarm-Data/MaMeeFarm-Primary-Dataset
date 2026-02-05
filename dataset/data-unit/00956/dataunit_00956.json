@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00956",
+  "file_path": "dataset/data-unit/00956/dataunit_00956.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_care",
+
+  "captured_at_local": "2026-02-04 15:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "avocado_plot",
+
+  "data_type": "image",
+  "title": "avocado_tree_soil_tilling_and_watering",
+  "summary": "Soil tilling and watering activity performed on avocado tree PLT-AVO-0003.",
+  "description": "This record documents routine soil loosening and watering activity conducted on an avocado tree to maintain soil condition and plant health.",
+
+  "asset_context": {
+    "asset_id": "PLT-AVO-0003",
+    "asset_type": "plant",
+    "common_name": "Avocado Tree",
+    "status": "active"
+  },
+
+  "operation_context": {
+    "activity_type": "manual_plant_care",
+    "tools_used": ["hand_tool", "water_hose"],
+    "chemical_used": false
+  },
+
+  "reference_context": {
+    "note": "Routine plant care activity. No structural modification applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiccct3tmgascmq65hjos2pryg2jqjcpvt4od6z6nhstxoebgvet7u",
+    "note": "Image capture of soil care and watering activity."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00956/hash/dataunit_00956.sha256",
+    "ots_file": "dataset/data-unit/00956/ots/dgcp_dataunit_00956.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
