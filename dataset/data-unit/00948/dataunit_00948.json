@@ -1,0 +1,67 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00948",
+  "file_path": "dataset/data-unit/00948/dataunit_00948.json",
+
+  "category": "water_system",
+  "sub_category": "water_transfer",
+
+  "captured_at_local": "2026-02-04 11:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "water_storage_area",
+
+  "data_type": "image",
+  "title": "water_transfer_to_storage_tanks_wt_f_0001_0002",
+  "summary": "Water transfer into storage tanks WT-F-0001 and WT-F-0002.",
+  "description": "This record documents water being transferred from underground water well system into storage tanks WT-F-0001 and WT-F-0002.",
+
+  "asset": {
+    "source_asset": "WT-UW-0001",
+    "transfer_asset": "HZ-PMP-0003",
+    "destination_assets": [
+      "WT-F-0001",
+      "WT-F-0002"
+    ],
+    "system": "water_transfer",
+    "zone": "HZ-02",
+    "status": "water_filling_in_progress"
+  },
+
+  "recorded_action": {
+    "action_type": "water_filling",
+    "method": "pump_transfer",
+    "recorded_date": "2026-02-04"
+  },
+
+  "reference_context": {
+    "previous_dataunit": "00947",
+    "continuity": "direct_sequence"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicrrpm3ov55z6n3tywksxcttikipcmntbmrkpg7wm5xyisatpsc5q",
+    "note": "Image shows water hose connected to blue storage tank during filling."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00948/hash/dataunit_00948.sha256",
+    "ots_file": "dataset/data-unit/00948/ots/dgcp_dataunit_00948.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
