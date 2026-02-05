@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00967",
+  "file_path": "dataset/data-unit/00967/dataunit_00967.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity",
+
+  "captured_at_local": "2026-02-04 23:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "final_daily_temperature_record",
+  "summary": "Final temperature and humidity record of the day in HZ-02.",
+  "description": "This record documents the final temperature and humidity measurement of the day using a fixed microclimate sensor in HZ-02.",
+
+  "measurement": {
+    "temperature_celsius": 19.9,
+    "humidity_percent": 64
+  },
+
+  "reference": {
+    "dataunit_refs": ["00927", "00961"],
+    "note": "Morning and evening reference records."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifufdmxe33cmmbhrzlnmsvzongryghd4og3btiqihazz4ikkj3qbm",
+    "note": "Image evidence captured at 23:55 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00967/hash/dataunit_00967.sha256",
+    "ots_file": "dataset/data-unit/00967/ots/dgcp_dataunit_00967.ots"
+  },
+
+  "responsibility": {
+    "actor": "Sensor (HTC-1)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
