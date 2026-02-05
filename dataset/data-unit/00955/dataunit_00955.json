@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00955",
+  "file_path": "dataset/data-unit/00955/dataunit_00955.json",
+
+  "category": "water_system",
+  "sub_category": "mobile_to_fixed_tank_filling",
+
+  "captured_at_local": "2026-02-04 15:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "fixed_water_tanks",
+
+  "data_type": "image",
+  "title": "wt_f_0001_0002_full_from_wt_m_0004",
+  "summary": "Fixed water tanks WT-F-0001 and WT-F-0002 filled with water transferred from mobile tank WT-M-0004 originating from HZ-02.",
+
+  "operation": {
+    "source_asset_id": "WT-M-0004",
+    "source_zone": "HZ-02",
+    "destination_asset_ids": [
+      "WT-F-0001",
+      "WT-F-0002"
+    ],
+    "destination_zone": "FZ-03",
+    "method": "manual_hose_transfer",
+    "water_level_status": "full"
+  },
+
+  "reference_context": {
+    "related_dataunits": [
+      "00953"
+    ],
+    "continuity": "same_day_cross_zone_water_distribution"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiclqhc6bnwy7ns7nlukwtvo36acjse37npvmpuwlgm2kp57o46eli",
+    "note": "Image shows both fixed tanks filled to full level in FZ-03."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00955/hash/dataunit_00955.sha256",
+    "ots_file": "dataset/data-unit/00955/ots/dgcp_dataunit_00955.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
