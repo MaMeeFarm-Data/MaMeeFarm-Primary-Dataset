@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00939",
+  "file_path": "dataset/data-unit/00939/dataunit_00939.json",
+
+  "category": "animal-care",
+  "sub_category": "water_supply",
+
+  "captured_at_local": "2026-02-04 09:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "dog_area",
+
+  "data_type": "image",
+  "title": "dog_water_supply_wt_m_0005",
+  "summary": "Water supply provided to dogs using water asset WT-M-0005.",
+  "description": "This record documents the action of supplying water to dogs by opening water source WT-M-0005.",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0005",
+    "asset_name": "Manual Water Point",
+    "asset_type": "water_container",
+    "status_during_capture": "active"
+  },
+
+  "activity_record": {
+    "activity_type": "animal_care",
+    "operation": "water_supply",
+    "method": "manual_fill"
+  },
+
+  "reference_context": {
+    "related_dataunit": ["00929"],
+    "note": "This record continues daily dog care activities, focusing on water provision."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidgd4kumwn5lbam7te455vviwvoscxai7qp3d3hehwzojpmhh7pom",
+    "note": "Image shows water being filled into a container with a dog present."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00939/hash/dataunit_00939.sha256",
+    "ots_file": "dataset/data-unit/00939/ots/dgcp_dataunit_00939.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
