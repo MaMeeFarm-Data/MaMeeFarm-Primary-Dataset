@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00950",
+  "file_path": "dataset/data-unit/00950/dataunit_00950.json",
+
+  "category": "water_system",
+  "sub_category": "water_transfer",
+
+  "captured_at_local": "2026-02-04 12:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "mobile_water_storage",
+
+  "data_type": "image",
+  "title": "water_transfer_to_mobile_tank_wt_m_0004",
+  "summary": "Water transferred to mobile water tank WT-M-0004 in HZ-02.",
+  "description": "This record documents water being transferred into mobile water tank WT-M-0004 following completion of the primary tank fill.",
+
+  "asset": {
+    "asset_id": "WT-M-0004",
+    "asset_type": "mobile_water_tank",
+    "capacity_liters": 200,
+    "status": "active",
+    "zone": "HZ-02"
+  },
+
+  "reference_context": {
+    "related_dataunits": [
+      "00949"
+    ],
+    "continuity": "post_overflow_water_distribution"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifzvkycporx5frdf2m6hqwlig2dw5expp7hv7a7vh7jy6bmo3py44",
+    "note": "Image shows mobile water tank WT-M-0004 positioned for water filling."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00950/hash/dataunit_00950.sha256",
+    "ots_file": "dataset/data-unit/00950/ots/dgcp_dataunit_00950.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
