@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00958",
+  "file_path": "dataset/data-unit/00958/dataunit_00958.json",
+
+  "category": "water_system",
+  "sub_category": "equipment_storage",
+
+  "captured_at_local": "2026-02-04 16:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "equipment_area",
+
+  "data_type": "image",
+  "title": "submersible_pump_dried_and_stored",
+  "summary": "Submersible pump dried and stored after water operation.",
+  "description": "This record documents the drying and temporary storage of submersible water pump equipment after completion of use.",
+
+  "asset_context": {
+    "asset_id": "HZ-PMP-0003",
+    "asset_type": "submersible_pump",
+    "status": "stored_dry_after_use"
+  },
+
+  "operation_context": {
+    "activity_type": "manual_equipment_handling",
+    "related_record": "00957",
+    "note": "Pump was removed from well and placed in drying/storage position."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia24og4yjo6lsqoxqfegz7req5yctytht6ffqnwkz5ulldbfmdx3u",
+    "note": "Image showing submersible pump equipment set to dry after use."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00958/hash/dataunit_00958.sha256",
+    "ots_file": "dataset/data-unit/00958/ots/dgcp_dataunit_00958.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
