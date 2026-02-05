@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00940",
+  "file_path": "dataset/data-unit/00940/dataunit_00940.json",
+
+  "category": "animal-care",
+  "sub_category": "water_supply_status",
+
+  "captured_at_local": "2026-02-05 07:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "dog_area",
+
+  "data_type": "image",
+  "title": "dog_water_container_full_status",
+  "summary": "Water container reached full level after filling operation.",
+  "description": "This record documents the water container status after completion of water filling. The container is observed to be full.",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0005",
+    "asset_name": "Manual Water Point",
+    "asset_type": "water_container",
+    "status_during_capture": "full"
+  },
+
+  "activity_record": {
+    "activity_type": "animal_care",
+    "operation": "water_supply",
+    "stage": "completed"
+  },
+
+  "reference_context": {
+    "related_dataunit": ["00939"],
+    "note": "This record confirms completion state of the water supply operation initiated earlier."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibz6eunc6u3br4m6hvfvap4k4xvhda5laabcjvaxscw43sksu7j2q",
+    "note": "Image shows water container filled to capacity."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00940/hash/dataunit_00940.sha256",
+    "ots_file": "dataset/data-unit/00940/ots/dgcp_dataunit_00940.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
