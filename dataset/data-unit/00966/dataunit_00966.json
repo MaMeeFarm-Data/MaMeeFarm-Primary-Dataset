@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00966",
+  "file_path": "dataset/data-unit/00966/dataunit_00966.json",
+
+  "category": "daily_life",
+  "sub_category": "fuelwood_handling",
+
+  "captured_at_local": "2026-02-04 18:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "mamee_carries_firewood_into_house",
+  "summary": "Mamee carries firewood into the house; P'Toh records the scene in HZ-02.",
+  "description": "This record documents Mamee carrying firewood into the house. Image recorded by P'Toh in zone HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["00937", "00938"],
+    "proof_refs": ["591"]
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiepbgqxkgcrojniqekewlkeal5jhjyfimqaiciwsfdcvw4butuiwy",
+    "note": "Image evidence captured at 18:00 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00966/hash/dataunit_00966.sha256",
+    "ots_file": "dataset/data-unit/00966/ots/dgcp_dataunit_00966.ots"
+  },
+
+  "responsibility": {
+    "actor": "Mamee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
