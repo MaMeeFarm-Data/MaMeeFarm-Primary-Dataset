@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00936",
+  "file_path": "dataset/data-unit/00936/dataunit_00936.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_observation",
+
+  "captured_at_local": "2026-02-04 08:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "pepper_plot",
+
+  "data_type": "image",
+  "title": "pepper_plant_observation_non_uniform_appearance",
+  "summary": "Visual observation of pepper plants showing non-uniform appearance.",
+  "description": "This record documents a visual observation of pepper plants with non-uniform appearance captured during the morning period.",
+
+  "plant_observation": {
+    "plant_type": "pepper",
+    "observation_type": "visual_observation",
+    "appearance": "non_uniform",
+    "fruit_presence": "visible",
+    "observation_method": "visual_inspection"
+  },
+
+  "reference_context": {
+    "linked_environment_record": ["00927"],
+    "note": "Observation recorded without interpretation. Environmental context linked for reference only."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihcgpfniejm7c32a6ediec5wixerewioagx3qn4clyjxcm6bl3uge",
+    "note": "Image capture showing pepper plants with visible fruits and varied plant condition."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00936/hash/dataunit_00936.sha256",
+    "ots_file": "dataset/data-unit/00936/ots/dgcp_dataunit_00936.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
