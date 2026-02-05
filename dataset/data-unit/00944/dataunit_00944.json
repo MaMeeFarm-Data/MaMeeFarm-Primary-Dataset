@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00944",
+  "file_path": "dataset/data-unit/00944/dataunit_00944.json",
+
+  "category": "animal_care",
+  "sub_category": "animal_presence",
+
+  "captured_at_local": "2026-02-04 11:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "living_area",
+
+  "data_type": "image",
+  "title": "dog_resting_near_human_during_work",
+  "summary": "Dog resting beside human during data recording activity.",
+  "description": "This record documents the presence of a dog resting beside the human operator while data recording activities were ongoing.",
+
+  "care_context": {
+    "care_type": "post-feeding presence",
+    "animal_status": "resting",
+    "human_activity": "data_recording"
+  },
+
+  "reference_context": {
+    "related_dataunit": ["00930"],
+    "note": "Animal presence observed after feeding and care activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifzwt74baiadeawzj4zbfqgu4rxehtlcj5fo2nb7nu23u5zg7moye",
+    "note": "Image shows dog resting beside human during work."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00944/hash/dataunit_00944.sha256",
+    "ots_file": "dataset/data-unit/00944/ots/dgcp_dataunit_00944.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
