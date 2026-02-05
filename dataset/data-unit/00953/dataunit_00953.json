@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00953",
+  "file_path": "dataset/data-unit/00953/dataunit_00953.json",
+
+  "category": "water_system",
+  "sub_category": "cross_zone_water_transfer",
+
+  "captured_at_local": "2026-02-04 14:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "mobile_water_tank",
+
+  "data_type": "image",
+  "title": "water_transfer_wt_m_0004_to_fz_03",
+  "summary": "Water transfer operation from mobile water tank WT-M-0004 in HZ-02 to farm zone FZ-03.",
+
+  "operation": {
+    "source_asset_id": "WT-M-0004",
+    "source_zone": "HZ-02",
+    "destination_zone": "FZ-03",
+    "method": "manual_pump_transfer",
+    "water_flow_visible": true
+  },
+
+  "reference_context": {
+    "related_dataunits": [
+      "00951"
+    ],
+    "continuity": "same_day_water_distribution_sequence"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifbwof7jha3hruphd64xyt3p3vkc4pognamkrtgygkkoqogu7z3zy",
+    "note": "Image shows active water flow from WT-M-0004 during transfer operation."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00953/hash/dataunit_00953.sha256",
+    "ots_file": "dataset/data-unit/00953/ots/dgcp_dataunit_00953.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
