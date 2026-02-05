@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00942",
+  "file_path": "dataset/data-unit/00942/dataunit_00942.json",
+
+  "category": "daily_labor",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-04 10:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "cooking_area",
+
+  "data_type": "image",
+  "title": "rice_cooked_wood_stove",
+  "summary": "Rice cooking process completed using wood stove.",
+  "description": "This record documents the completion of rice cooking using a wood stove under limited resources.",
+
+  "asset_reference": {
+    "asset_id": "STV-0001",
+    "asset_name": "Wood Stove",
+    "asset_type": "cooking_equipment",
+    "status_during_capture": "active"
+  },
+
+  "process_context": {
+    "process_name": "rice_cooking",
+    "process_stage": "completed",
+    "initiated_proof": "591"
+  },
+
+  "reference_context": {
+    "related_proof": ["591"],
+    "note": "This record captures the completion state of the cooking process initiated earlier."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicdyexybgximgbyyhektzklclpe7gzez5yntgvh3gqirn3lzw625a",
+    "note": "Image shows cooked rice in pot on wood stove."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00942/hash/dataunit_00942.sha256",
+    "ots_file": "dataset/data-unit/00942/ots/dgcp_dataunit_00942.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
