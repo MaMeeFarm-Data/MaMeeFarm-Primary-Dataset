@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00954",
+  "file_path": "dataset/data-unit/00954/dataunit_00954.json",
+
+  "category": "water_system",
+  "sub_category": "well_to_mobile_tank_filling",
+
+  "captured_at_local": "2026-02-04 14:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "mobile_water_tank",
+
+  "data_type": "image",
+  "title": "well_water_filling_to_wt_m_0004",
+  "summary": "Groundwater pumped from well into mobile water tank WT-M-0004.",
+
+  "operation": {
+    "source_asset_type": "underground_water_well",
+    "destination_asset_id": "WT-M-0004",
+    "destination_zone": "HZ-02",
+    "method": "electric_pump_transfer",
+    "water_flow_visible": true
+  },
+
+  "reference_context": {
+    "related_dataunits": [
+      "00947"
+    ],
+    "continuity": "same_day_water_supply_sequence"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib2j5mz7447on73wkq4vzzwovsngnobs6uxulsvs6y5tk2phitmka",
+    "note": "Image shows active pumping from well into WT-M-0004."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00954/hash/dataunit_00954.sha256",
+    "ots_file": "dataset/data-unit/00954/ots/dgcp_dataunit_00954.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
