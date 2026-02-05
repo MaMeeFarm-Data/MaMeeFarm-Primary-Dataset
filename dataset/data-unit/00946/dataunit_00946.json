@@ -1,0 +1,68 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00946",
+  "file_path": "dataset/data-unit/00946/dataunit_00946.json",
+
+  "category": "water_system",
+  "sub_category": "pump_preparation",
+
+  "captured_at_local": "2026-02-04 11:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house_core_zone",
+
+  "data_type": "image",
+  "title": "prepare_water_pump_pmp_0003",
+  "summary": "Preparation of water pump PMP-0003 prior to operation.",
+  "description": "This record documents the preparation state of water pump PMP-0003 connected to underground water wells in HZ-02.",
+
+  "asset": {
+    "asset_id": "HZ-PMP-0003",
+    "asset_type": "water_pump",
+    "system": "water_transfer",
+    "connected_assets": [
+      "WT-UW-0001",
+      "WT-UW-0002"
+    ],
+    "zone": "HZ-02",
+    "status": "pre-operation"
+  },
+
+  "energy_dependency": {
+    "energy_source": "electricity",
+    "reference_dataunit": "00932",
+    "note": "Pump operation depends on active electrical system."
+  },
+
+  "recorded_action": {
+    "action_type": "pump_preparation",
+    "operation_stage": "ready",
+    "recorded_date": "2026-02-04"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaqp5k4c5tw636iv7x7e6mebetpn3xzvrshfiqahy5nmiqqiyrqci",
+    "note": "Image shows water pump positioned and labeled prior to activation."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00946/hash/dataunit_00946.sha256",
+    "ots_file": "dataset/data-unit/00946/ots/dgcp_dataunit_00946.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
