@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00951",
+  "file_path": "dataset/data-unit/00951/dataunit_00951.json",
+
+  "category": "water_system",
+  "sub_category": "water_storage_status",
+
+  "captured_at_local": "2026-02-04 12:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "mobile_water_storage",
+
+  "data_type": "image",
+  "title": "mobile_water_tank_wt_m_0004_full",
+  "summary": "Mobile water tank WT-M-0004 is fully filled with water.",
+  "description": "This record documents the mobile water tank WT-M-0004 reaching full capacity after water transfer.",
+
+  "asset": {
+    "asset_id": "WT-M-0004",
+    "asset_type": "mobile_water_tank",
+    "capacity_liters": 200,
+    "fill_status": "full",
+    "status": "active",
+    "zone": "HZ-02"
+  },
+
+  "reference_context": {
+    "related_dataunits": [
+      "00950"
+    ],
+    "continuity": "water_transfer_completed"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeietc3p5jupgsu7wfpxnqmr6rdhmcgyvgqizc7z2wvyvldnk5bzdjq",
+    "note": "Image confirms water level reaching full capacity in WT-M-0004."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00951/hash/dataunit_00951.sha256",
+    "ots_file": "dataset/data-unit/00951/ots/dgcp_dataunit_00951.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
