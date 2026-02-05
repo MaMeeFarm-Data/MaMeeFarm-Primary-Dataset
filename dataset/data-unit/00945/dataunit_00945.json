@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00945",
+  "file_path": "dataset/data-unit/00945/dataunit_00945.json",
+
+  "category": "infrastructure",
+  "sub_category": "asset_installation",
+
+  "captured_at_local": "2026-02-04 11:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house_core_zone",
+
+  "data_type": "image",
+  "title": "asset_id_label_installation_farm_gate_hz02",
+  "summary": "Installation of Asset ID label on farm gate in HZ-02.",
+  "description": "This record documents the installation of an Asset ID label on a metal farm gate located in HZ-02.",
+
+  "asset": {
+    "asset_id": "INF-GATE-0002",
+    "asset_type": "infrastructure",
+    "common_name": "farm_gate_middle",
+    "material": "metal",
+    "connected_zone": "HZ-02",
+    "location_note": "house core zone"
+  },
+
+  "recorded_action": {
+    "action_type": "asset_id_installation",
+    "installation_date": "2026-02-04"
+  },
+
+  "reference_context": {
+    "related_proof": ["592"],
+    "related_zone_event": "HZ-01",
+    "note": "Installed on the same date as HZ-01 asset labeling, but represents a subsequent event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifefvbxolg2xz77557djrsaknynejifmqkrpfhzkqkgbtsorexfla",
+    "note": "Image shows Asset ID label attached to metal farm gate."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00945/hash/dataunit_00945.sha256",
+    "ots_file": "dataset/data-unit/00945/ots/dgcp_dataunit_00945.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
