@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00947",
+  "file_path": "dataset/data-unit/00947/dataunit_00947.json",
+
+  "category": "water_system",
+  "sub_category": "pump_installation",
+
+  "captured_at_local": "2026-02-04 11:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "underground_water_well",
+
+  "data_type": "image",
+  "title": "lower_water_pump_into_well_pmp_0003",
+  "summary": "Lowering water pump PMP-0003 into underground water well.",
+  "description": "This record documents the physical action of lowering water pump PMP-0003 into the underground water well in HZ-02.",
+
+  "asset": {
+    "asset_id": "HZ-PMP-0003",
+    "asset_type": "water_pump",
+    "system": "water_transfer",
+    "connected_asset": "WT-UW-0001",
+    "zone": "HZ-02",
+    "status": "installed_in_well"
+  },
+
+  "recorded_action": {
+    "action_type": "pump_lowering",
+    "method": "manual_lowering",
+    "recorded_date": "2026-02-04"
+  },
+
+  "reference_context": {
+    "previous_dataunit": "00946",
+    "note": "Pump lowering follows preparation record without interruption."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidarcdtnpc33aedu5tmevgbey7fzljcjkty5qerkcpkmfo73o7rom",
+    "note": "Image shows pump and hose lowered into underground well."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00947/hash/dataunit_00947.sha256",
+    "ots_file": "dataset/data-unit/00947/ots/dgcp_dataunit_00947.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
