@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00957",
+  "file_path": "dataset/data-unit/00957/dataunit_00957.json",
+
+  "category": "water_system",
+  "sub_category": "pump_operation",
+
+  "captured_at_local": "2026-02-04 16:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "underground_well",
+
+  "data_type": "image",
+  "title": "submersible_pump_removed_after_operation",
+  "summary": "Removal of submersible pump after completing water transfer operation.",
+  "description": "This record documents the removal of the submersible water pump from the underground well after completing water transfer operations.",
+
+  "asset_context": {
+    "asset_id": "HZ-PMP-0003",
+    "asset_type": "submersible_pump",
+    "status": "removed_after_use"
+  },
+
+  "operation_context": {
+    "activity_type": "manual_pump_handling",
+    "related_record": "00947",
+    "note": "Pump was previously lowered for water transfer and removed after completion."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie3ozks6ayiswpaleztgej4bn2pu7zxj5ugkcsvaizvfyzsfmrdmm",
+    "note": "Image capture of pump removal from underground well."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00957/hash/dataunit_00957.sha256",
+    "ots_file": "dataset/data-unit/00957/ots/dgcp_dataunit_00957.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
