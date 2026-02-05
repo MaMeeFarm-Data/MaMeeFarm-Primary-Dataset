@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00952",
+  "file_path": "dataset/data-unit/00952/dataunit_00952.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_temperature",
+
+  "captured_at_local": "2026-02-04 12:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "duck_house",
+
+  "data_type": "image",
+  "title": "duck_house_daytime_temperature_fz_03",
+  "summary": "Daytime microclimate measurement recorded inside duck house zone FZ-03.",
+
+  "measurement": {
+    "sensor_asset_id": "HTC-2",
+    "sensor_type": "microclimate_sensor",
+    "indoor_temperature_c": 31.3,
+    "outdoor_temperature_c": 30.3,
+    "relative_humidity_percent": 45,
+    "measurement_time_device": "12:25"
+  },
+
+  "reference_context": {
+    "related_dataunits": [
+      "00933"
+    ],
+    "continuity": "routine_midday_environment_check"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidw2axlsleu2wttalgrqzz3yzc4fbje5umqsavewzlgx62ibjotym",
+    "note": "Image shows HTC-2 sensor display with temperature and humidity values."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00952/hash/dataunit_00952.sha256",
+    "ots_file": "dataset/data-unit/00952/ots/dgcp_dataunit_00952.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
