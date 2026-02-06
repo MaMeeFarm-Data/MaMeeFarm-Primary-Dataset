@@ -1,0 +1,24 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "record_type": "range_index",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+
+  "dataunit_range": "00001-00999",
+  "dataunit_count": 999,
+
+  "time_scope": {
+    "based_on": "actual_recorded_events",
+    "cross_day_merge": false
+  },
+
+  "status": "complete_for_range",
+
+  "note": "Index reflects actual recorded data units only. No cross-day merge applied.",
+
+  "integrity": {
+    "verifiable": true,
+    "mutable": false
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
