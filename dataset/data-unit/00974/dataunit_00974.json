@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00974",
+  "file_path": "dataset/data-unit/00974/dataunit_00974.json",
+
+  "category": "operations",
+  "sub_category": "animal_human_interaction",
+
+  "captured_at_local": "2026-02-05 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house-interior",
+
+  "data_type": "image",
+  "title": "dog_human_interaction_playful_contact_0742",
+  "summary": "Dog-human interaction observed at 07:42 local time; a dog makes playful physical contact with MaMee.",
+  "description": "This record captures a dog interacting with MaMee at 07:42 local time, showing close physical contact in a playful manner as a factual daily-life observation. The image is recorded as part of routine animal care context.",
+
+  "reference": {
+    "dataunit_refs": ["00971"],
+    "note": "Reference record for the morning feeding/care routine context."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif5iv2jv7qs3khpfrkw2hlnyn37gmy4o4rysmlbkxf557y4hzxasa",
+    "note": "Image evidence captured at 07:42 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00974/hash/dataunit_00974.sha256",
+    "ots_file": "dataset/data-unit/00974/ots/dgcp_dataunit_00974.ots"
+  },
+
+  "responsibility": {
+    "actor": "Dogs (farm companions)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
