@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00977",
+  "file_path": "dataset/data-unit/00977/dataunit_00977.json",
+
+  "category": "infrastructure",
+  "sub_category": "gate_operation",
+
+  "captured_at_local": "2026-02-05 08:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "boundary-gate",
+
+  "data_type": "image",
+  "title": "gate_open_operation_inf_gate_0003_to_fz03_fz04_0822",
+  "summary": "Gate INF-GATE-0003 opened at 08:22 local time for access between HZ-02 and zones FZ-03/FZ-04.",
+  "description": "This record captures the gate operation at 08:22 local time showing INF-GATE-0003 in an opened state. The gate provides access from the farm boundary area to zones FZ-03 and FZ-04 as part of daily movement and operations.",
+
+  "reference": {
+    "dataunit_refs": ["00965"],
+    "note": "Reference record for the previous-day gate closing event."
+  },
+
+  "asset_reference": {
+    "asset_id": "INF-GATE-0003",
+    "asset_type": "gate",
+    "connected_zones": ["FZ-03", "FZ-04"],
+    "operation": "open"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie6jn4hzzijhi6mle4l2jo27taluwnoyel2vsd535bsikpcmuzofm",
+    "note": "Image evidence captured at 08:22 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00977/hash/dataunit_00977.sha256",
+    "ots_file": "dataset/data-unit/00977/ots/dgcp_dataunit_00977.ots"
+  },
+
+  "responsibility": {
+    "actor": "Farm gate infrastructure (INF-GATE-0003)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
