@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00984",
+  "file_path": "dataset/data-unit/00984/dataunit_00984.json",
+
+  "category": "operations",
+  "sub_category": "animal_care_feeding",
+
+  "captured_at_local": "2026-02-05 12:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house-area",
+
+  "data_type": "image",
+  "title": "mamee_shares_last_banana_batch_to_dogs_farm_origin",
+  "summary": "MaMee shares the last batch of farm-grown bananas with the dogs; consumption is from on-farm produce with no purchase required.",
+  "description": "This record documents MaMee distributing the last batch of bananas grown on the farm to the dogs at 12:33 local time. The bananas are farm-origin produce and are consumed without external purchase. The event links to prior feeding and harvest-related records for continuity.",
+
+  "reference": {
+    "dataunit_refs": ["00920", "00414"],
+    "proof_refs": ["512"],
+    "note": "Links to prior feeding record (Data Unit 00920) and banana harvest batch record (Data Unit 00414: 13 bunches, naturally ripened), and Proof 512 (2026-01-19)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifywnd7ghp5cql7bdvrjhw7xjgnj5oqqipuwl3komtdgoxp6i6lb4",
+    "note": "Image evidence captured at 12:33 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00984/hash/dataunit_00984.sha256",
+    "ots_file": "dataset/data-unit/00984/ots/dgcp_dataunit_00984.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
