@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00979",
+  "file_path": "dataset/data-unit/00979/dataunit_00979.json",
+
+  "category": "environment",
+  "sub_category": "dew_observation",
+
+  "captured_at_local": "2026-02-05 08:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable-bed",
+
+  "data_type": "image",
+  "title": "dew_on_kale_leaves_fz03_0825",
+  "summary": "Dew observed on kale leaves in FZ-03 at 08:25 local time.",
+  "description": "This record captures dew presence on kale leaves in Zone FZ-03 at 08:25 local time as a factual environmental observation. The image documents visible water droplets on plant surfaces.",
+
+  "reference": {
+    "dataunit_refs": ["00978"],
+    "note": "Reference record for nearby microclimate temperature/humidity context."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidqoyxlghshrngs5qasylpx6cwu3babmyeiawih2wmavh3z2ywi6y",
+    "note": "Image evidence captured at 08:25 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00979/hash/dataunit_00979.sha256",
+    "ots_file": "dataset/data-unit/00979/ots/dgcp_dataunit_00979.ots"
+  },
+
+  "responsibility": {
+    "actor": "Environment (dew on plant surface)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
