@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00988",
+  "file_path": "dataset/data-unit/00988/dataunit_00988.json",
+
+  "category": "animal_care",
+  "sub_category": "canine_health_observation",
+
+  "captured_at_local": "2026-02-05 12:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house-yard",
+
+  "data_type": "image",
+  "title": "puppy_mobility_abnormality_observation_1250",
+  "summary": "Observation of one puppy with abnormal walking/mobility, under ongoing care with limited access to treatment.",
+  "description": "This record documents that one puppy was observed walking with abnormal mobility at 12:50 local time. Care continues under current farm conditions and resource limitations, with no confirmed access to external medical treatment at the time of capture. This entry is a factual observation and continuity marker for ongoing care monitoring.",
+
+  "observation": {
+    "subject": "puppy (1 individual)",
+    "noted_condition": "abnormal walking / mobility not normal",
+    "care_context": "care provided as normal daily care under resource constraints",
+    "medical_access": "limited / not accessible at time of record"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00984"],
+    "note": "Continuity reference for ongoing care."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie3hzqlg4usggq4bfm5gbexdfvtj3dqwrn33im6n3giiay67ol5iu",
+    "note": "Image evidence captured at 12:50 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00988/hash/dataunit_00988.sha256",
+    "ots_file": "dataset/data-unit/00988/ots/dgcp_dataunit_00988.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm household care",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
