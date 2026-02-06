@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00971",
+  "file_path": "dataset/data-unit/00971/dataunit_00971.json",
+
+  "category": "operations",
+  "sub_category": "animal_feeding",
+
+  "captured_at_local": "2026-02-05 06:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house-line",
+
+  "data_type": "image",
+  "title": "morning_dog_feeding_0659",
+  "summary": "Morning feeding activity recorded at 06:59 local time.",
+  "description": "This record captures a morning feeding activity at 06:59 local time, showing prepared dry feed and dogs present during feeding time as a factual farm routine record.",
+
+  "reference": {
+    "dataunit_refs": ["00960"],
+    "note": "Reference record for the prior-day evening feeding activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiby42mfvf7lfpfaqg6nqy3uivs3pafivqie6calqsj4zshvwktqhq",
+    "note": "Image evidence captured at 06:59 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00971/hash/dataunit_00971.sha256",
+    "ots_file": "dataset/data-unit/00971/ots/dgcp_dataunit_00971.ots"
+  },
+
+  "responsibility": {
+    "actor": "Farm routine (animal feeding)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
