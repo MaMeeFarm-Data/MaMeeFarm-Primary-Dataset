@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00987",
+  "file_path": "dataset/data-unit/00987/dataunit_00987.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_temperature_humidity",
+
+  "captured_at_local": "2026-02-05 12:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "duck-house",
+
+  "data_type": "image",
+  "title": "duck_house_empty_daytime_microclimate_1248",
+  "summary": "Daytime temperature and humidity record inside an empty duck house at FZ-03.",
+  "description": "This record documents microclimate conditions during daytime in a duck house with no ducks present. The sensor shows an indoor temperature of 33.1°C, outdoor temperature of 32.0°C, and relative humidity of 43%. The data serves as a baseline environmental reference without animal presence.",
+
+  "measurement": {
+    "temperature_inside_c": 33.1,
+    "temperature_outside_c": 32.0,
+    "humidity_percent": 43,
+    "sensor_id": "HTC-2"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00978"],
+    "note": "Referenced earlier environmental observation within the same operational day."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifkwrc43qmfhjzqgdbj2dqfy36lg7sow6plhure34dcm4eznkbhti",
+    "note": "Image evidence captured at 12:48 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00987/hash/dataunit_00987.sha256",
+    "ots_file": "dataset/data-unit/00987/ots/dgcp_dataunit_00987.ots"
+  },
+
+  "responsibility": {
+    "actor": "Microclimate sensor (HTC-2)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
