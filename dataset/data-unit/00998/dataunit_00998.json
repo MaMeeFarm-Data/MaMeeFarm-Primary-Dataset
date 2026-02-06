@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00998",
+  "file_path": "dataset/data-unit/00998/dataunit_00998.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity",
+
+  "captured_at_local": "2026-02-05 23:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "night_microclimate_record_hz02_htc1",
+  "summary": "Night microclimate record captured from HTC-1 sensor at HZ-02.",
+  "description": "This record documents a night temperature and humidity reading from the HZ-02 microclimate sensor (HTC-1). The image shows temperature 20.4°C and relative humidity 63% at 23:23 local time.",
+
+  "measurement": {
+    "sensor_asset_id": "HZ-02-HTC-1",
+    "sensor_type": "microclimate_sensor",
+    "temperature_c": 20.4,
+    "humidity_rh_percent": 63
+  },
+
+  "reference": {
+    "dataunit_refs": ["00969", "00980"],
+    "note": "Referenced prior morning/day records for continuity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiadacuvsgl4hxonitxadde6z26gb6voisziuib4qirdu6myctr3fy"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00998/hash/dataunit_00998.sha256",
+    "ots_file": "dataset/data-unit/00998/ots/dgcp_dataunit_00998.ots"
+  },
+
+  "responsibility": {
+    "actor": "environment monitoring",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
