@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00978",
+  "file_path": "dataset/data-unit/00978/dataunit_00978.json",
+
+  "category": "environment",
+  "sub_category": "animal_housing_microclimate",
+
+  "captured_at_local": "2026-02-05 08:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "duck-house",
+
+  "data_type": "image",
+  "title": "duck_house_microclimate_morning_0824_in_18_9_out_17_1_rh_80",
+  "summary": "Morning duck house microclimate reading at 08:24: 18.9°C (inside), 17.1°C (outside), RH 80%.",
+  "description": "This record captures a morning microclimate sensor reading at the duck house at 08:24 local time. The observed values are 18.9°C inside the housing area, 17.1°C outside, and relative humidity at 80%.",
+
+  "reference": {
+    "dataunit_refs": ["00964"],
+    "note": "Reference record for the previous-day evening duck house microclimate reading."
+  },
+
+  "asset_reference": {
+    "asset_id": "HTC-2",
+    "asset_type": "microclimate_sensor",
+    "placement": "duck_house",
+    "status": "active"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicnbm3bbp3icty4tiweqxhtgd22yxubvzxd4iexs3cufqclkie6gm",
+    "note": "Image evidence captured at 08:24 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00978/hash/dataunit_00978.sha256",
+    "ots_file": "dataset/data-unit/00978/ots/dgcp_dataunit_00978.ots"
+  },
+
+  "responsibility": {
+    "actor": "Duck house microclimate sensor (HTC-2)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
