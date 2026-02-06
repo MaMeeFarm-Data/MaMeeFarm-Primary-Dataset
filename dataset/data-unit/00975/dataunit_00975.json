@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00975",
+  "file_path": "dataset/data-unit/00975/dataunit_00975.json",
+
+  "category": "operations",
+  "sub_category": "sanitation_area_cleaning",
+
+  "captured_at_local": "2026-02-05 08:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "yard-area",
+
+  "data_type": "image",
+  "title": "morning_area_cleaning_dog_waste_collection_0801",
+  "summary": "Morning sanitation activity observed at 08:01 local time; MaMee collects dog waste in the yard area.",
+  "description": "This record captures a routine sanitation activity at 08:01 local time, showing MaMee collecting dog waste to maintain cleanliness within the farm yard area. The image documents a factual maintenance action as part of daily animal care and hygiene.",
+
+  "reference": {
+    "dataunit_refs": ["00941"],
+    "note": "Reference record for the previous-day sanitation activity of the same type."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigwths26gqwylxivahwcxjn24k6qv2ezbxy5ihqegdwu6m2pfline",
+    "note": "Image evidence captured at 08:01 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00975/hash/dataunit_00975.sha256",
+    "ots_file": "dataset/data-unit/00975/ots/dgcp_dataunit_00975.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
