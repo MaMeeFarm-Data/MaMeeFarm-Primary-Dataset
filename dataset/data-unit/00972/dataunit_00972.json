@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00972",
+  "file_path": "dataset/data-unit/00972/dataunit_00972.json",
+
+  "category": "operations",
+  "sub_category": "animal_water_supply",
+
+  "captured_at_local": "2026-02-05 07:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "feeding-water-point",
+
+  "data_type": "image",
+  "title": "morning_water_supply_dogs_wt_m_0005_0700",
+  "summary": "Morning water refill for dogs using water bucket WT-M-0005 at 07:00 local time.",
+  "description": "This record captures a morning water refill activity for dogs at 07:00 local time. Water is manually filled into bucket asset WT-M-0005 following the morning feeding routine.",
+
+  "reference": {
+    "dataunit_refs": ["00971"],
+    "note": "Reference record for the immediately preceding morning feeding activity."
+  },
+
+  "asset_reference": {
+    "asset_id": "WT-M-0005",
+    "asset_type": "water_bucket",
+    "operation_mode": "manual_fill"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicuwpdqnsorofloan3ypuztbdwx47hozikzhhmgddvb5j6wjovjii",
+    "note": "Image evidence captured at 07:00 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00972/hash/dataunit_00972.sha256",
+    "ots_file": "dataset/data-unit/00972/ots/dgcp_dataunit_00972.ots"
+  },
+
+  "responsibility": {
+    "actor": "Farm routine (water supply)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
