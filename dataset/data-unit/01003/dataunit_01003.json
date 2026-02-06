@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01003",
+  "file_path": "dataset/data-unit/01003/dataunit_01003.json",
+
+  "category": "operations",
+  "sub_category": "animal_feeding",
+
+  "captured_at_local": "2026-02-06 06:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house_area",
+
+  "data_type": "image",
+  "title": "dogs_feeding_on_ground_record",
+  "summary": "Dogs feeding on ground recorded under actual conditions.",
+  "description": "This data unit records dogs feeding on the ground as observed at the time of capture. The record reflects the observed feeding state without interpretation or narrative.",
+
+  "reference": {
+    "dataunit_refs": ["01001"],
+    "proof_refs": [],
+    "note": "Reference to the associated feeding activity record. No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid2rgu52xrtscwivcph6jxndfnizvpexs6eqfu7p4ayi76um2ew2u",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01003/hash/dataunit_01003.sha256",
+    "ots_file": "dataset/data-unit/01003/ots/dgcp_dataunit_01003.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
