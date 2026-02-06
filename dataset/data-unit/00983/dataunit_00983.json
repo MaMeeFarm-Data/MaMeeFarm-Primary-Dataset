@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00983",
+  "file_path": "dataset/data-unit/00983/dataunit_00983.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_maintenance",
+
+  "captured_at_local": "2026-02-05 12:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "plant-area",
+
+  "data_type": "image",
+  "title": "yellow_areca_palm_pruning_hz02_1217",
+  "summary": "Plant maintenance: pruning/cutting branches of a yellow areca palm in HZ-02 at 12:17 local time.",
+  "description": "This record documents a plant maintenance action involving pruning/cutting branches of a yellow areca palm in Zone HZ-02 at 12:17 local time. The activity is recorded as a factual farm labor action in the same area as a prior plant observation record.",
+
+  "reference": {
+    "dataunit_refs": ["00982"],
+    "note": "Reference record for the same area context (HZ-02 fence-line observation)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih3gfdv2bgtrzlf3mgblnnn53lqjixv7zamx2rbkep4vqsb3d2e2e",
+    "note": "Image evidence captured at 12:17 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00983/hash/dataunit_00983.sha256",
+    "ots_file": "dataset/data-unit/00983/ots/dgcp_dataunit_00983.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
