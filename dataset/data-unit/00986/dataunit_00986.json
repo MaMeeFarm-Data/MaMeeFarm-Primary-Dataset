@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00986",
+  "file_path": "dataset/data-unit/00986/dataunit_00986.json",
+
+  "category": "infrastructure",
+  "sub_category": "water_pump_post_use_storage",
+
+  "captured_at_local": "2026-02-05 12:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "water-transfer",
+
+  "data_type": "image",
+  "title": "hz_pmp_0003_pump_stored_after_use_1247",
+  "summary": "Water pump equipment was stored after completing water transfer operations at 12:47 local time in HZ-02.",
+  "description": "This record captures the water pump equipment placed and stored after use, following water transfer activity and an overflow observation sequence. The event is linked to prior related records for traceable operational continuity.",
+
+  "reference": {
+    "dataunit_refs": ["00981", "00985"],
+    "note": "References the water system context record and the overflow observation immediately prior to post-use storage."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif4vsjo2hn325y4dbfszm4pw4ulu7lf7pmok5lvn4tgz4ks4fik7a",
+    "note": "Image evidence captured at 12:47 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00986/hash/dataunit_00986.sha256",
+    "ots_file": "dataset/data-unit/00986/ots/dgcp_dataunit_00986.ots"
+  },
+
+  "responsibility": {
+    "actor": "Water pump equipment (post-use handling)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
