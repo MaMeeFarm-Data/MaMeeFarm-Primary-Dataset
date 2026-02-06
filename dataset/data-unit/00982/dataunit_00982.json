@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00982",
+  "file_path": "dataset/data-unit/00982/dataunit_00982.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_observation",
+
+  "captured_at_local": "2026-02-05 12:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "fence-line",
+
+  "data_type": "image",
+  "title": "papaya_tree_fence_line_hz02_1209",
+  "summary": "Papaya tree observation on fence-line area in HZ-02 at 12:09 local time.",
+  "description": "This record captures a papaya tree located along the fence-line in Zone HZ-02 at 12:09 local time as a factual plant observation. The observation is linked to a prior papaya harvest proof record.",
+
+  "reference": {
+    "proof_refs": ["595"],
+    "note": "Reference proof for papaya harvest activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicxgo5rfcn7qekv3kleqsbndmkj4gjxufh6zfegehmaa67wcw2zxy",
+    "note": "Image evidence captured at 12:09 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00982/hash/dataunit_00982.sha256",
+    "ots_file": "dataset/data-unit/00982/ots/dgcp_dataunit_00982.ots"
+  },
+
+  "responsibility": {
+    "actor": "Papaya tree (fence-line plant)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
