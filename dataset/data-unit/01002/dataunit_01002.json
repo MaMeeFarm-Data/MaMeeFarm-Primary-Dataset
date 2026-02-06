@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01002",
+  "file_path": "dataset/data-unit/01002/dataunit_01002.json",
+
+  "category": "operations",
+  "sub_category": "water_collection",
+
+  "captured_at_local": "2026-02-06 06:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "water_point",
+
+  "data_type": "image",
+  "title": "water_collection_record",
+  "summary": "Water collection recorded under actual conditions.",
+  "description": "This data unit records a water collection activity captured under actual conditions. The record reflects the physical setup and water flow as observed, without interpretation or narrative.",
+
+  "asset": {
+    "asset_id": "WT-M-0005",
+    "asset_type": "water_point"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01001"],
+    "proof_refs": [],
+    "note": "Reference to prior related activity record. No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidks6wxmzwdbi4rrqqapdxiavbm7ua2ymdn5jtnlmuyyd3rlgvoca",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01002/hash/dataunit_01002.sha256",
+    "ots_file": "dataset/data-unit/01002/ots/dgcp_dataunit_01002.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
