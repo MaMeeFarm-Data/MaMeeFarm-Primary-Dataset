@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00992",
+  "file_path": "dataset/data-unit/00992/dataunit_00992.json",
+
+  "category": "household_energy",
+  "sub_category": "wood_stove_cooking",
+
+  "captured_at_local": "2026-02-05 17:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "cooking-area",
+
+  "data_type": "image",
+  "title": "rice_pot_set_on_wood_stove",
+  "summary": "Rice pot placed on wood stove HZ-STV-0001 for cooking in HZ-02.",
+  "description": "This record documents a cooking step where a covered cooking pot is placed on the wood stove (HZ-STV-0001). Smoke is visible around the stove during operation.",
+
+  "asset": {
+    "asset_id": "HZ-STV-0001",
+    "asset_name": "Wood Stove",
+    "asset_type": "stove",
+    "system": "household_cooking"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00991"],
+    "note": "Cooking sequence continues from wood stove ignition."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiam47bdrnq247dvdschsikdgr6ygbdocdy26y2m5kyrf4i6i6zvgi"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00992/hash/dataunit_00992.sha256",
+    "ots_file": "dataset/data-unit/00992/ots/dgcp_dataunit_00992.ots"
+  },
+
+  "responsibility": {
+    "actor": "unspecified",
+    "recorded_by": "unspecified",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
