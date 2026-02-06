@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00997",
+  "file_path": "dataset/data-unit/00997/dataunit_00997.json",
+
+  "category": "daily_life",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-05 18:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "wood_stove_area",
+
+  "data_type": "image",
+  "title": "evening_wood_stove_cooking_limited_resources",
+  "summary": "Evening meal preparation on wood stove with limited food resources.",
+  "description": "This record documents evening cooking activity using a wood stove. Food quantity is limited, reflecting real-world household constraints. Cooking follows prior rice preparation and completed stove ignition earlier in the evening.",
+
+  "context": {
+    "resource_condition": "limited",
+    "cooking_method": "wood_stove",
+    "meal_time": "evening"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00993"],
+    "note": "00993 referenced for cooked rice continuity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigq43pv3kij6u2xcpcy6dbrzz6zmcqtopqnfjref2kodxpl4kmeqa"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00997/hash/dataunit_00997.sha256",
+    "ots_file": "dataset/data-unit/00997/ots/dgcp_dataunit_00997.ots"
+  },
+
+  "responsibility": {
+    "actor": "household food preparation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
