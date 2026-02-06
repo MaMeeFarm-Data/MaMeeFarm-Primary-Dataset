@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00989",
+  "file_path": "dataset/data-unit/00989/dataunit_00989.json",
+
+  "category": "daily_labor",
+  "sub_category": "fuelwood_preparation",
+
+  "captured_at_local": "2026-02-05 17:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house-yard",
+
+  "data_type": "image",
+  "title": "mamee_cuts_firewood_for_cooking_1730",
+  "summary": "Mamee cuts firewood to prepare fuel for cooking, recorded by P'Toh in HZ-02.",
+  "description": "This record documents Mamee cutting firewood for later use in cooking/firewood stove food preparation. The activity is captured as daily labor in the HZ-02 area and recorded by P'Toh as a verifiable human-origin activity.",
+
+  "activity": {
+    "task": "cut firewood",
+    "purpose": "prepare fuel for cooking",
+    "method": "manual cutting",
+    "tools_visible": "cutting tool (machete-like blade)"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00966"],
+    "note": "Continuity reference: firewood handling / stored firewood workflow."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifrze5szvilzetxusjkcadb3p7ewoveen64axn7qi4nev57q7mj7m",
+    "note": "Image evidence captured at 17:30 local."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00989/hash/dataunit_00989.sha256",
+    "ots_file": "dataset/data-unit/00989/ots/dgcp_dataunit_00989.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
