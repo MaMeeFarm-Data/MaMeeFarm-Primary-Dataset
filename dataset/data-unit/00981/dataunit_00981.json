@@ -1,0 +1,63 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00981",
+  "file_path": "dataset/data-unit/00981/dataunit_00981.json",
+
+  "category": "infrastructure",
+  "sub_category": "water_transfer_operation",
+
+  "captured_at_local": "2026-02-05 12:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "water-system",
+
+  "data_type": "image",
+  "title": "deploy_water_pump_hz_pmp_0003_to_fill_wt_h_0001_0002",
+  "summary": "Deployment of submersible water pump HZ-PMP-0003 into WT-F-0001 to transfer water to WT-H-0001 and WT-H-0002.",
+  "description": "This record documents the physical deployment of water pump HZ-PMP-0003 into water tank WT-F-0001 in Zone HZ-02. The operation is intended to pump water into storage tanks WT-H-0001 and WT-H-0002. The activity was conducted under active solar power conditions.",
+
+  "operation": {
+    "pump_id": "HZ-PMP-0003",
+    "source_tank": "WT-F-0001",
+    "destination_tanks": ["WT-H-0001", "WT-H-0002"],
+    "operation_type": "manual pump deployment",
+    "energy_source": "solar power"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00976"],
+    "note": "Referenced solar power system status prior to pump operation."
+  },
+
+  "asset_reference": {
+    "asset_ids": ["HZ-PMP-0003", "WT-F-0001", "WT-H-0001", "WT-H-0002"],
+    "asset_class": "water_infrastructure",
+    "status": "active"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieifsa6mgwhyvtz44wxeyktcnsbodwt64sjjuvpqyuyeuoejxbxzm",
+    "note": "Image evidence captured at the moment of pump deployment."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00981/hash/dataunit_00981.sha256",
+    "ots_file": "dataset/data-unit/00981/ots/dgcp_dataunit_00981.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
