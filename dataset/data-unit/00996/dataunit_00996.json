@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "00996",
+  "file_path": "dataset/data-unit/00996/dataunit_00996.json",
+
+  "category": "infrastructure",
+  "sub_category": "access_control",
+
+  "captured_at_local": "2026-02-05 18:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-FZ-04",
+
+  "data_type": "image",
+  "title": "close_farm_gate_inf_gate_0003_post_work",
+  "summary": "Farm gate INF-GATE-0003 closed after completing garden care work.",
+  "description": "This record documents the closing state of farm gate INF-GATE-0003 connecting FZ-03 and FZ-04 after work completion. Reference Proof 598. Related prior gate context: Data Unit 00977 (morning open / garden watering activity continuity).",
+
+  "asset": {
+    "asset_id": "INF-GATE-0003",
+    "asset_name": "Farm Gate 3 (FZ-03 ↔ FZ-04)",
+    "asset_type": "gate",
+    "system": "farm_access_boundary"
+  },
+
+  "reference": {
+    "proof_refs": ["598"],
+    "dataunit_refs": ["00977"],
+    "note": "00977 referenced as morning open / garden care continuity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihjgna23z2ab2cblgkkd4vzak3jtpzcoviyucfg7ccowvyw7ur26i"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/00996/hash/dataunit_00996.sha256",
+    "ots_file": "dataset/data-unit/00996/ots/dgcp_dataunit_00996.ots"
+  },
+
+  "responsibility": {
+    "actor": "infrastructure close-out",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
