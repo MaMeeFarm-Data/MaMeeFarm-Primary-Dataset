@@ -1,0 +1,48 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01034",
+  "file_path": "dataset/data-unit/01034/dataunit_01034.json",
+
+  "category": "daily_life",
+  "sub_category": "food_consumption",
+
+  "captured_at_local": "2026-02-06 18:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "evening_meal_consumption",
+  "summary": "Evening meal consumed using rice cooked on a wood-fired stove.",
+  "description": "This data unit records the consumption of an evening meal. The rice used was previously cooked on a wood-fired stove, referencing the earlier cooking activity.",
+
+  "reference": {
+    "dataunit_refs": ["01026"],
+    "proof_refs": [],
+    "note": "Rice source linked to wood-fired cooking record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihyfqvqzl6hojpgja4c5fgaxyevutrn6uswpqzdggw4atckaopkpy",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01034/hash/dataunit_01034.sha256",
+    "ots_file": "dataset/data-unit/01034/ots/dgcp_dataunit_01034.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
