@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01011",
+  "file_path": "dataset/data-unit/01011/dataunit_01011.json",
+
+  "category": "operations",
+  "sub_category": "power_system_operation",
+
+  "captured_at_local": "2026-02-06 08:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "INF",
+  "sub_zone": "power_system",
+
+  "data_type": "image",
+  "title": "inverter_power_on_screen_no_display_record",
+  "summary": "Inverter power-on state recorded with screen not displaying.",
+  "description": "This data unit records a power system operation observation where the inverter unit was in an active/power-on context while the display screen showed no visible output at the time of capture. The record reflects observed device state without attributing cause.",
+
+  "asset": {
+    "asset_id": "INV-01",
+    "asset_type": "power_inverter",
+    "related_assets": ["SPV-A-0001"]
+  },
+
+  "observation": {
+    "display_output_visible": false,
+    "indicator_lights_present_in_frame": true
+  },
+
+  "reference": {
+    "dataunit_refs": ["00999"],
+    "proof_refs": [],
+    "note": "Reference to prior power system shutdown record. No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicuxtxkh53e52hbkmtfwe7d5qgytvq2w5vnoctlub6v5hirtyvqfi",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01011/hash/dataunit_01011.sha256",
+    "ots_file": "dataset/data-unit/01011/ots/dgcp_dataunit_01011.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
