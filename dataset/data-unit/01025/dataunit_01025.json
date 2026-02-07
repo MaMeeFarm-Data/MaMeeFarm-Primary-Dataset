@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01025",
+  "file_path": "dataset/data-unit/01025/dataunit_01025.json",
+
+  "category": "operations",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-06 14:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "rice_pot_set_on_wood_stove",
+  "summary": "Rice pot placed on wood stove after ignition.",
+  "description": "This data unit records the placement of a rice pot on wood stove HZ-STV-0001 following afternoon ignition. Cooking preparation under normal farm operation.",
+
+  "asset": {
+    "asset_id": "HZ-STV-0001",
+    "asset_type": "wood_stove",
+    "status": "cooking_preparation"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01024"],
+    "proof_refs": [],
+    "note": "Sequential activity following stove ignition. Same day operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieid47bqf7k5xqpjuvpeinrgx7zvr4n4yu7gu3wmywq2mii5jhdki",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01025/hash/dataunit_01025.sha256",
+    "ots_file": "dataset/data-unit/01025/ots/dgcp_dataunit_01025.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
