@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01037",
+  "file_path": "dataset/data-unit/01037/dataunit_01037.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-07 06:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "morning_microclimate_record",
+  "summary": "Morning microclimate reading recorded at HZ-02-T1 (HTC-1).",
+
+  "source": {
+    "capture_method": "photo",
+    "sensor_asset_id": "HZ-02-HTC-1",
+    "sensor_name": "House Balcony Sensor",
+    "status": "active"
+  },
+
+  "measurements": {
+    "temperature_c": 17.0,
+    "humidity_percent": 69
+  },
+
+  "references": {
+    "ref_dataunit_ids": [
+      "01035"
+    ],
+    "external_reference_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidhafwnk4emqoly2uhldyvqcxog6v23c3oqslpwqvbg5l6cm6cykq"
+  },
+
+  "responsible_party": {
+    "name": "P'Toh",
+    "role": "Data Steward"
+  },
+
+  "integrity": {
+    "verifiable": true,
+    "mutable": false
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
