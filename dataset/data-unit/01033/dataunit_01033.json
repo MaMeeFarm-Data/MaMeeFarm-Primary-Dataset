@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01033",
+  "file_path": "dataset/data-unit/01033/dataunit_01033.json",
+
+  "category": "infrastructure",
+  "sub_category": "access_control",
+
+  "captured_at_local": "2026-02-06 18:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "close_gate_after_work",
+  "summary": "Gate INF-GATE-0003 closed after completion of daily work.",
+  "description": "This data unit records the closing of INF-GATE-0003 after daily activities were completed.",
+
+  "asset": {
+    "asset_id": "INF-GATE-0003",
+    "asset_type": "gate",
+    "status": "closed"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01004"],
+    "proof_refs": [],
+    "note": "Gate was opened earlier in the morning and closed after work completion."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifmgxc7bxyi7piqa2ma7bthpaxl3a5dpdowtc64iw2y7rapqlnmlu",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01033/hash/dataunit_01033.sha256",
+    "ots_file": "dataset/data-unit/01033/ots/dgcp_dataunit_01033.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
