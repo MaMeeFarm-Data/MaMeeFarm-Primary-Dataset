@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01008",
+  "file_path": "dataset/data-unit/01008/dataunit_01008.json",
+
+  "category": "operations",
+  "sub_category": "irrigation",
+
+  "captured_at_local": "2026-02-06 07:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_plot",
+
+  "data_type": "image",
+  "title": "morning_vegetable_watering_record",
+  "summary": "Morning vegetable watering recorded under actual conditions.",
+  "description": "This data unit records a morning watering activity in a vegetable plot as observed at the time of capture. The record reflects the physical irrigation action without interpretation or narrative.",
+
+  "reference": {
+    "dataunit_refs": ["01004"],
+    "proof_refs": [],
+    "note": "Reference to prior movement out to work. No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifclm7vqaht7jtr2ogy2p7se56edtyfjecly3ufbhexpwnvht5ovy",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01008/hash/dataunit_01008.sha256",
+    "ots_file": "dataset/data-unit/01008/ots/dgcp_dataunit_01008.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
