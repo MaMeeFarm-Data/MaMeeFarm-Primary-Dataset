@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01017",
+  "file_path": "dataset/data-unit/01017/dataunit_01017.json",
+
+  "category": "asset_management",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-06 12:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "PLT-PAP-0001",
+
+  "data_type": "image",
+  "title": "papaya_tree_asset_label_installed",
+  "summary": "Asset label installed on papaya tree PLT-PAP-0001.",
+  "description": "This data unit records the physical installation of an asset identification label on papaya tree PLT-PAP-0001. The label contains asset metadata and lifecycle status as observed at the time of recording.",
+
+  "asset_reference": {
+    "asset_id": "PLT-PAP-0001",
+    "asset_type": "plant",
+    "common_name": "papaya",
+    "lifecycle_stage": "fruiting"
+  },
+
+  "reference": {
+    "proof_refs": ["599"],
+    "dataunit_refs": [],
+    "note": "Asset labeling recorded as observed. No interpretation applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia65rqa5v7pj6pxvue773kc6vh4thenxwqa33r623dcqanpuuezj4",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01017/hash/dataunit_01017.sha256",
+    "ots_file": "dataset/data-unit/01017/ots/dgcp_dataunit_01017.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
