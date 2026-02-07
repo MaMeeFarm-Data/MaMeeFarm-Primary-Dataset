@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01024",
+  "file_path": "dataset/data-unit/01024/dataunit_01024.json",
+
+  "category": "operations",
+  "sub_category": "firewood_cooking",
+
+  "captured_at_local": "2026-02-06 14:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "wood_stove_ignition_afternoon",
+  "summary": "Wood stove ignition during afternoon operation.",
+  "description": "This data unit records the ignition of wood stove HZ-STV-0001 during afternoon operation at Zone HZ-02. Firewood arranged and ignited under normal working conditions.",
+
+  "asset": {
+    "asset_id": "HZ-STV-0001",
+    "asset_type": "wood_stove",
+    "status": "active_ignition"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01012"],
+    "proof_refs": [],
+    "note": "Continuation of stove usage on the same day. No cross-day merge."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibje2ycmuumeqqjpacqpxnzc6yfp5dulzw7ybu2z4kstxf2263tue",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01024/hash/dataunit_01024.sha256",
+    "ots_file": "dataset/data-unit/01024/ots/dgcp_dataunit_01024.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
