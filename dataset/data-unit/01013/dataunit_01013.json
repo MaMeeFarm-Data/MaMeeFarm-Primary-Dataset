@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01013",
+  "file_path": "dataset/data-unit/01013/dataunit_01013.json",
+
+  "category": "daily_life",
+  "sub_category": "animal_food_preparation",
+
+  "captured_at_local": "2026-02-06 10:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "stove_area",
+
+  "data_type": "image",
+  "title": "dog_food_warming_record",
+  "summary": "Dog food warming activity recorded.",
+  "description": "This data unit records a pot placed on a wood stove with visible heat application. The activity is observed as food warming for dogs. No nutritional or outcome interpretation is applied.",
+
+  "asset": {
+    "asset_id": "STV-0001",
+    "asset_type": "wood_stove",
+    "related_assets": []
+  },
+
+  "observation": {
+    "pot_on_stove": true,
+    "heat_applied": true,
+    "stove_in_use": true
+  },
+
+  "reference": {
+    "dataunit_refs": ["01012"],
+    "proof_refs": [],
+    "note": "Continuation of wood stove operation sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic7y7yeag6hkudv6zrboe6c4r3pgz7fgn2lyc2fjt27esyyj6lvwq",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01013/hash/dataunit_01013.sha256",
+    "ots_file": "dataset/data-unit/01013/ots/dgcp_dataunit_01013.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
