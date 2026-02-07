@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01006",
+  "file_path": "dataset/data-unit/01006/dataunit_01006.json",
+
+  "category": "operations",
+  "sub_category": "field_preparation",
+
+  "captured_at_local": "2026-02-06 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_plot",
+
+  "data_type": "image",
+  "title": "soil_tilling_vegetable_plot_record",
+  "summary": "Soil tilling activity recorded in vegetable plot.",
+  "description": "This data unit records a soil tilling activity in a vegetable plot as observed at the time of capture. The record reflects the physical field preparation activity without interpretation or narrative.",
+
+  "observation": {
+    "person_present_in_frame": true
+  },
+
+  "reference": {
+    "dataunit_refs": ["01004"],
+    "proof_refs": [],
+    "note": "Reference to prior related movement through gate record. No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicgbjjlfg6y5gluem72j27ekpgu3a4qxbabtya7lrpv6r3bsgbxum",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01006/hash/dataunit_01006.sha256",
+    "ots_file": "dataset/data-unit/01006/ots/dgcp_dataunit_01006.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
