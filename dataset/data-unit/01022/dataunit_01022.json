@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01022",
+  "file_path": "dataset/data-unit/01022/dataunit_01022.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-06 12:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+  "title": "duck_house_microclimate_no_ducks_midday",
+  "summary": "Duck house microclimate reading recorded in an empty duck house (no ducks).",
+  "description": "This data unit records indoor and outdoor temperature readings and relative humidity from sensor HTC-2 at Duck House Zone (FZ-03). Duck house condition at capture: no ducks present.",
+
+  "sensor": {
+    "asset_id": "HTC-2",
+    "sensor_type": "microclimate_sensor",
+    "placement": "duck_house",
+    "readings": {
+      "temperature_in_c": 33.3,
+      "temperature_out_c": 33.0,
+      "relative_humidity_percent": 45
+    }
+  },
+
+  "reference": {
+    "dataunit_refs": ["01005"],
+    "proof_refs": [],
+    "note": "Midday reading referenced to morning capture (01005). No cross-day merge."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidafcfcoludozgprqmknqrpjmeqqu5hlurcnjwcn7et4qzxcu747m",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01022/hash/dataunit_01022.sha256",
+    "ots_file": "dataset/data-unit/01022/ots/dgcp_dataunit_01022.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
