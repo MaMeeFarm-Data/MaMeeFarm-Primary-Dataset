@@ -1,0 +1,48 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01032",
+  "file_path": "dataset/data-unit/01032/dataunit_01032.json",
+
+  "category": "environment",
+  "sub_category": "observation",
+
+  "captured_at_local": "2026-02-06 18:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "unknown_hole_observation",
+  "summary": "Observation of an unknown hole in the ground.",
+  "description": "This data unit records the observation of a hole found in the ground. The source or cause of the hole is not identified.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Observed as-is. No identification or interpretation applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiae5rtohsr6tz2htsftjcpttzyarkhu2jqhg4lnkep2qrgaw3aiqa",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01032/hash/dataunit_01032.sha256",
+    "ots_file": "dataset/data-unit/01032/ots/dgcp_dataunit_01032.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
