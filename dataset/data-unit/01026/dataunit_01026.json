@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01026",
+  "file_path": "dataset/data-unit/01026/dataunit_01026.json",
+
+  "category": "operations",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-06 15:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "rice_cooked_on_wood_stove",
+  "summary": "Cooked rice observed after cooking on wood stove.",
+  "description": "This data unit records the cooked rice outcome following rice pot placement and cooking sequence on wood stove HZ-STV-0001.",
+
+  "asset": {
+    "asset_id": "HZ-STV-0001",
+    "asset_type": "wood_stove",
+    "status": "cooking_completed"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01025"],
+    "proof_refs": [],
+    "note": "Sequential outcome after rice pot placement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibsvm2pcbjobmd6vcpwntsldjafglhmhy4asrp6oaz653p3ctj4n4",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01026/hash/dataunit_01026.sha256",
+    "ots_file": "dataset/data-unit/01026/ots/dgcp_dataunit_01026.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
