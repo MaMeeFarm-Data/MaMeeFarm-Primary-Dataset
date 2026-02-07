@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01021",
+  "file_path": "dataset/data-unit/01021/dataunit_01021.json",
+
+  "category": "water_system",
+  "sub_category": "tank_overflow",
+
+  "captured_at_local": "2026-02-06 12:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "WT-F",
+
+  "data_type": "image",
+  "title": "water_tank_overflow_after_filling",
+  "summary": "Water overflow observed after tank filling operation.",
+  "description": "This data unit records the physical state where water overflows from tank WT-F-0001 following a completed water transfer operation. The record captures the outcome without interpretation.",
+
+  "asset": {
+    "asset_id": "WT-F-0001",
+    "asset_type": "water_tank",
+    "status_observed": "overflow"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01016"],
+    "proof_refs": [],
+    "note": "Outcome observed after water filling operation. No cross-day merge."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiddlejkosocwqqnife2ygwmjbox7ujbxbo7vj37xhxtu4pndommmy",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01021/hash/dataunit_01021.sha256",
+    "ots_file": "dataset/data-unit/01021/ots/dgcp_dataunit_01021.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
