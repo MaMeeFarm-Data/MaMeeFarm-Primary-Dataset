@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01030",
+  "file_path": "dataset/data-unit/01030/dataunit_01030.json",
+
+  "category": "agriculture",
+  "sub_category": "harvest",
+
+  "captured_at_local": "2026-02-06 18:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "banana_harvest_record",
+  "summary": "Banana harvested from farm plot.",
+  "description": "This data unit records the harvesting of banana fruit from MaMeeFarm plot FZ-04.",
+
+  "asset": {
+    "asset_id": "BAN-0004",
+    "asset_type": "plant",
+    "common_name": "banana"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["603"],
+    "note": "Proof recorded before harvest."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibd5f6ras2e6kzj4izy6w2j7iqcnsbokaideb46kw3ypxwsw5v6fq",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01030/hash/dataunit_01030.sha256",
+    "ots_file": "dataset/data-unit/01030/ots/dgcp_dataunit_01030.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
