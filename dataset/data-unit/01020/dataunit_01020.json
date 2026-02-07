@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01020",
+  "file_path": "dataset/data-unit/01020/dataunit_01020.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity",
+
+  "captured_at_local": "2026-02-06 12:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house",
+
+  "data_type": "image",
+  "title": "midday_temperature_humidity_record",
+  "summary": "Midday temperature and humidity record.",
+  "description": "This data unit records temperature and humidity measured at midday using a microclimate sensor. Values are recorded directly from the device display without interpretation.",
+
+  "measurement": {
+    "temperature_celsius": 25.7,
+    "humidity_percent": 53,
+    "device": "HTC-1 microclimate sensor"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01000"],
+    "proof_refs": [],
+    "note": "Same-day reference to morning record. No cross-day merge."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidsg3qomt54z73hy7bgyrnfsacblywq5a6fyxtihfkz7iotd24c3u",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01020/hash/dataunit_01020.sha256",
+    "ots_file": "dataset/data-unit/01020/ots/dgcp_dataunit_01020.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
