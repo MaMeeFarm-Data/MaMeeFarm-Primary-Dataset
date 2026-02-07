@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01031",
+  "file_path": "dataset/data-unit/01031/dataunit_01031.json",
+
+  "category": "agriculture",
+  "sub_category": "produce_record",
+
+  "captured_at_local": "2026-02-06 18:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "banana_produce_internal_use",
+  "summary": "Banana produce recorded for internal use.",
+  "description": "This data unit records banana produce from MaMeeFarm. The produce is not intended for sale and is recorded as part of internal farm management.",
+
+  "asset": {
+    "asset_id": "BAN-0004",
+    "asset_type": "plant",
+    "common_name": "banana"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00414"],
+    "proof_refs": ["512"],
+    "note": "Referenced to previous proof and data unit related to the same plant cycle."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia5auql6tk5gufetfxzud25asgwuearuzbduynrgsel5hh6uw5vja",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01031/hash/dataunit_01031.sha256",
+    "ots_file": "dataset/data-unit/01031/ots/dgcp_dataunit_01031.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
