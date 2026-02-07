@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01014",
+  "file_path": "dataset/data-unit/01014/dataunit_01014.json",
+
+  "category": "operations",
+  "sub_category": "site_sanitation",
+
+  "captured_at_local": "2026-02-06 11:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "yard_area",
+
+  "data_type": "image",
+  "title": "dog_waste_collection_record",
+  "summary": "Dog waste collection activity recorded in HZ-02.",
+  "description": "This data unit records a site sanitation activity involving collection of dog waste within the farm area. The record reflects observed labor activity without further interpretation.",
+
+  "activity": {
+    "activity_type": "waste_collection",
+    "subject": "dog_waste",
+    "method_observed": "manual_collection"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01001"],
+    "proof_refs": [],
+    "note": "Reference to prior dog care/feeding-related record. No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifl6mmvyg2ocjar55lyig5bcklwpu22gl4f25hgcuuh6g5l7vbqta",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "participants_visible": ["MaMee"],
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01014/hash/dataunit_01014.sha256",
+    "ots_file": "dataset/data-unit/01014/ots/dgcp_dataunit_01014.ots"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
