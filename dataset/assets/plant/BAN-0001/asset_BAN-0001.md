@@ -160,5 +160,30 @@ derived from verifiable DGCP evidence.
 DGCP | MMFARM-POL-2025  
 This snapshot is part of the MaMeeFarm™ Real-World Ground Truth Dataset.  
 Redistribution, citation, or derivative use must preserve attribution and license reference.
+---
 
+## Care Event — 04
 
+Asset ID: BAN-0001  
+Asset Type: Plant  
+Common Name: Banana  
+Lifecycle Stage: Fruiting  
+Zone: FZ-03  
+
+Recorded Action: Banana leaf trimming  
+DataUnit Reference: DataUnit_01010  
+Recorded Date (Local): 2026-02-06  
+Timezone: Asia/Bangkok  
+
+Project: MaMeeFarm™  
+Framework: DGCP™  
+
+---
+
+## Notes
+This care event records routine banana leaf trimming
+performed during the fruiting stage.
+The activity is supported by DataUnit_01010.
+
+No interpretation. No inferred outcome.
+- 2026-02-06 — Care Event 04: Banana leaf trimming (DataUnit_01010)
