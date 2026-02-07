@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01016",
+  "file_path": "dataset/data-unit/01016/dataunit_01016.json",
+
+  "category": "operations",
+  "sub_category": "water_distribution",
+
+  "captured_at_local": "2026-02-06 11:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "WT-F-0001",
+
+  "data_type": "image",
+  "title": "water_transfer_to_storage_tank",
+  "summary": "Water pumped to storage tank WT-F-0001.",
+  "description": "This data unit records water being transferred to storage tank WT-F-0001 under actual operating conditions. The record reflects observed operation without interpretation.",
+
+  "reference": {
+    "dataunit_refs": ["01015"],
+    "proof_refs": [],
+    "note": "Recorded as observed. No cross-day merge."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig4suxki7xwwv3fadxdhjfs6lpch2s46jsmbwff5yeyx5nhicdi5a",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01016/hash/dataunit_01016.sha256",
+    "ots_file": "dataset/data-unit/01016/ots/dgcp_dataunit_01016.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
