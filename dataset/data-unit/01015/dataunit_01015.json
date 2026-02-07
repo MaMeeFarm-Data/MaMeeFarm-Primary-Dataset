@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01015",
+  "file_path": "dataset/data-unit/01015/dataunit_01015.json",
+
+  "category": "operations",
+  "sub_category": "water_system_operation",
+
+  "captured_at_local": "2026-02-06 11:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "water_well_area",
+
+  "data_type": "image",
+  "title": "submersible_pump_preparation_record",
+  "summary": "Submersible pump preparation recorded near water well.",
+  "description": "This data unit records preparation of a submersible water pump near a water well. The pump unit and hose connection are visible at the time of capture. The record reflects observed setup activity without inferring pumping start or system outcome.",
+
+  "asset": {
+    "asset_id": "SUM-PMP-0003",
+    "asset_type": "submersible_pump",
+    "related_assets": []
+  },
+
+  "observation": {
+    "pump_visible": true,
+    "hose_connected_visible": true,
+    "water_well_visible": true,
+    "pump_in_water_confirmed": false,
+    "water_flow_visible": false
+  },
+
+  "reference": {
+    "dataunit_refs": ["01004"],
+    "proof_refs": [],
+    "note": "Reference to prior field activity record. No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia65btsyq3miqrtjalxbaogz6e533ew5ak5zeev3xl43y3f6ad45e",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01015/hash/dataunit_01015.sha256",
+    "ots_file": "dataset/data-unit/01015/ots/dgcp_dataunit_01015.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
