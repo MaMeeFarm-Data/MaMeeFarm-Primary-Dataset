@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01029",
+  "file_path": "dataset/data-unit/01029/dataunit_01029.json",
+
+  "category": "agriculture",
+  "sub_category": "plant_management",
+
+  "captured_at_local": "2026-02-06 18:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "banana_inflorescence_removed_record",
+  "summary": "Banana inflorescence removed after fruit set.",
+  "description": "This data unit records the removal of banana inflorescence (male bud) after fruit set as part of routine plant management.",
+
+  "asset": {
+    "asset_id": "BAN-0004",
+    "asset_type": "plant",
+    "common_name": "banana"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["602"],
+    "note": "Recorded after inflorescence removal."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigktkbobizyjppqukeezh7lp5qt43t2uck75ygq65gt3stxjjbzfi",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01029/hash/dataunit_01029.sha256",
+    "ots_file": "dataset/data-unit/01029/ots/dgcp_dataunit_01029.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
