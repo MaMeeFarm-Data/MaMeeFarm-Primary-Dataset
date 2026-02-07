@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01023",
+  "file_path": "dataset/data-unit/01023/dataunit_01023.json",
+
+  "category": "infrastructure",
+  "sub_category": "water_pump",
+
+  "captured_at_local": "2026-02-06 13:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "water_pump_storage_after_use",
+  "summary": "Water pump equipment stored after completing water transfer operation.",
+  "description": "This data unit records the condition of water pump HZ-PMP-0003 being stored after use at Zone HZ-02. Operation sequence completed and equipment returned to rest state.",
+
+  "asset": {
+    "asset_id": "HZ-PMP-0003",
+    "asset_type": "water_pump",
+    "status": "stored_after_use"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01015"],
+    "proof_refs": [],
+    "note": "Post-operation state following water transfer activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicyatvef2p2dg473p4c46nlvx4a4niirgrqlipxru2t7uu2m3shza",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01023/hash/dataunit_01023.sha256",
+    "ots_file": "dataset/data-unit/01023/ots/dgcp_dataunit_01023.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
