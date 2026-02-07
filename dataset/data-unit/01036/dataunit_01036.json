@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01036",
+  "file_path": "dataset/data-unit/01036/dataunit_01036.json",
+
+  "category": "energy",
+  "sub_category": "power_system",
+
+  "captured_at_local": "2026-02-07 00:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "INV-01",
+
+  "data_type": "image",
+  "title": "inverter_shutdown_fault_indicator",
+  "summary": "Inverter shutdown with fault indicator visible.",
+  "description": "This data unit records the inverter status at shutdown time. A red fault indicator is visible and the display is not active, as captured in the image.",
+
+  "system_status": {
+    "inverter_state": "off",
+    "fault_indicator": "red_light_on",
+    "display_status": "not_displaying"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01011"],
+    "proof_refs": [],
+    "note": "Same inverter unit. Reference indicates the system was active earlier in the day."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibjawozhna4f5ksocdof4eznj6gocnkih4elf7kxdoz6r3eogqaki",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01036/hash/dataunit_01036.sha256",
+    "ots_file": "dataset/data-unit/01036/ots/dgcp_dataunit_01036.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
