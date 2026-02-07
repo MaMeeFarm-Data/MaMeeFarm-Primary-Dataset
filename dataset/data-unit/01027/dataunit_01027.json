@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01027",
+  "file_path": "dataset/data-unit/01027/dataunit_01027.json",
+
+  "category": "animal_care",
+  "sub_category": "feeding",
+
+  "captured_at_local": "2026-02-06 17:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "evening_dog_feeding_kibble",
+  "summary": "Evening dog feeding with kibble.",
+  "description": "This data unit records the evening feeding activity for farm dogs using dry kibble.",
+
+  "asset": {
+    "asset_id": "",
+    "asset_type": "animal_care_supply",
+    "status": "in_use"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01001"],
+    "proof_refs": [],
+    "note": "Morning feeding reference provided."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaooh5xkl6jxgfe7pwnotwoynkzcqwbwls2wbydvkilo7aqm5rrxu",
+    "note": "External reference for image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01027/hash/dataunit_01027.sha256",
+    "ots_file": "dataset/data-unit/01027/ots/dgcp_dataunit_01027.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
