@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01010",
+  "file_path": "dataset/data-unit/01010/dataunit_01010.json",
+
+  "category": "operations",
+  "sub_category": "plant_care",
+
+  "captured_at_local": "2026-02-06 08:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "banana_plot",
+
+  "data_type": "image",
+  "title": "banana_leaf_pruning_care_event",
+  "summary": "Banana leaf pruning recorded as a care event.",
+  "description": "This data unit records a banana leaf pruning activity performed as part of routine plant care. The record reflects the physical care action as observed, without interpretation or outcome assessment.",
+
+  "asset": {
+    "asset_id": "BAN-0001",
+    "asset_type": "banana_plant"
+  },
+
+  "care_event": {
+    "event_id": "CARE-04",
+    "event_type": "leaf_pruning",
+    "sequence_note": "Follows CARE-03."
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["563"],
+    "note": "Reference to prior care event (CARE-03). No cross-day merge applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidk4w3tptoh5upn5prdnq6chrkkjxec63rghea7wufudqqtvk5zry",
+    "note": "IPFS reference to raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01010/hash/dataunit_01010.sha256",
+    "ots_file": "dataset/data-unit/01010/ots/dgcp_dataunit_01010.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
