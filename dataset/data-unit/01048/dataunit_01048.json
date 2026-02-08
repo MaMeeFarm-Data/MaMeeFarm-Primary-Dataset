@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01048",
+  "file_path": "dataset/data-unit/01048/dataunit_01048.json",
+
+  "category": "operations",
+  "sub_category": "fuelwood_preparation",
+
+  "captured_at_local": "2026-02-07 14:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "firewood_area",
+
+  "data_type": "image",
+  "title": "firewood_splitting_for_fire_use",
+  "summary": "Manual firewood splitting operation for fire preparation.",
+
+  "activity": {
+    "action": "firewood_splitting",
+    "purpose": "fuel_preparation",
+    "method": "manual_tool"
+  },
+
+  "people": {
+    "subject_in_frame": "MaMee",
+    "recorded_by": "P'Toh"
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "01024"
+    ],
+    "note": "Firewood used for fire preparation referenced to prior related record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeictikxok3ivnsrdp6k2sbn6nsc3y44ftmtsllpr3fh6dqmiicl5jy",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01048/hash/dataunit_01048.sha256",
+    "ots_file": "dataset/data-unit/01048/ots/dgcp_dataunit_01048.ots"
+  },
+
+  "responsibility": {
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
