@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01060",
+  "file_path": "dataset/data-unit/01060/dataunit_01060.json",
+
+  "category": "infrastructure",
+  "sub_category": "access_control",
+
+  "captured_at_local": "2026-02-07 18:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "INF",
+  "sub_zone": "INF-GATE-0003",
+
+  "data_type": "image",
+  "title": "gate_closure_record",
+  "summary": "Gate INF-GATE-0003 closed at end of daily operation.",
+  "description": "This data unit records the closure of infrastructure gate INF-GATE-0003 under actual field conditions. No interpretation applied.",
+
+  "reference": {
+    "dataunit_refs": ["01041"],
+    "proof_refs": [],
+    "note": "Gate was opened in the morning and closed in the evening of the same day."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiapt5souuvjpo23c3mht5tqv2me2xgg4ljqsvtdv3ho5stsnznsvy",
+    "note": "Image evidence stored externally."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01060/hash/dataunit_01060.sha256",
+    "ots_file": "dataset/data-unit/01060/ots/dgcp_dataunit_01060.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
