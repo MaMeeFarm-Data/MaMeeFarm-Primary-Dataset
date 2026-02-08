@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01038",
+  "file_path": "dataset/data-unit/01038/dataunit_01038.json",
+
+  "category": "operations",
+  "sub_category": "animal_feeding",
+
+  "captured_at_local": "2026-02-07 06:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "morning_dog_feeding_record",
+  "summary": "Morning dog feeding activity recorded at MaMeeFarm.",
+
+  "source": {
+    "capture_method": "photo",
+    "subject": "dogs",
+    "feed_type": "dry_food"
+  },
+
+  "references": {
+    "ref_dataunit_ids": [
+      "01027"
+    ],
+    "external_reference_url": "https://ivory-advanced-sparrow-679.mypinata.cloud/ipfs/bafybeidmj4gdzyjz5p5pzj4avyase43dw7ua65r2nng65ggmw6txw3obqa"
+  },
+
+  "responsible_party": {
+    "name": "P'Toh",
+    "role": "Data Steward"
+  },
+
+  "integrity": {
+    "verifiable": true,
+    "mutable": false
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
