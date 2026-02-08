@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01043",
+  "file_path": "dataset/data-unit/01043/dataunit_01043.json",
+
+  "category": "plant_observation",
+  "sub_category": "fruit_set_observation",
+
+  "captured_at_local": "2026-02-07 08:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "tomato_fruit_set_observation",
+  "summary": "Observation of tomato plant PLT-TOM-0001 showing initial fruit development.",
+
+  "asset": {
+    "asset_id": "PLT-TOM-0001",
+    "asset_type": "plant",
+    "common_name": "tomato",
+    "lifecycle_stage": "fruit_set",
+    "action": "observed_fruit_development"
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "00722"
+    ],
+    "proof_refs": [],
+    "note": "Reference to prior observation where flowering was recorded."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib4776fe4d3vw6n6jy5ppyfehx23jryvvtq7nlraipe7hq37yhcw4",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01043/hash/dataunit_01043.sha256",
+    "ots_file": "dataset/data-unit/01043/ots/dgcp_dataunit_01043.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
