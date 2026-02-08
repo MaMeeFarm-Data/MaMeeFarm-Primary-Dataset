@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01064",
+  "file_path": "dataset/data-unit/01064/dataunit_01064.json",
+
+  "category": "operations",
+  "sub_category": "microclimate_monitoring",
+
+  "captured_at_local": "2026-02-08 06:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house_balcony",
+
+  "data_type": "image",
+
+  "title": "morning_temperature_humidity_record",
+  "summary": "Microclimate sensor reading recorded in the morning: temperature 17.0 C, humidity 69%. Device label indicates Zone HZ-02, Sub-Unit HZ-02-T1, System House Line, Status Active.",
+
+  "reference": {
+    "dataunit_refs": ["01062"],
+    "proof_refs": [],
+    "note": "Reference to the latest prior temperature record data unit."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibka4mpznw5onfxzfki33kwb23nqxr2txvkx4gw3rsxnpaktdn73q",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01064/hash/dataunit_01064.sha256",
+    "ots_file": "dataset/data-unit/01064/ots/dgcp_dataunit_01064.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
