@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01071",
+  "file_path": "dataset/data-unit/01071/dataunit_01071.json",
+
+  "category": "operations",
+  "sub_category": "crop_watering",
+
+  "captured_at_local": "2026-02-08 07:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_bed",
+
+  "data_type": "image",
+
+  "title": "morning_vegetable_watering",
+  "summary": "Morning watering of vegetable crops using a handheld watering can. Water flow and leafy vegetable beds are visible during the activity.",
+
+  "reference": {
+    "dataunit_refs": ["01067"],
+    "proof_refs": [],
+    "note": "Reference to gate opening record indicating start of work activities."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibevl2n63b5fv2kmbcxkghhi2kajw5xelwjvxol5mfvukiwjfkfiu",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01071/hash/dataunit_01071.sha256",
+    "ots_file": "dataset/data-unit/01071/ots/dgcp_dataunit_01071.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
