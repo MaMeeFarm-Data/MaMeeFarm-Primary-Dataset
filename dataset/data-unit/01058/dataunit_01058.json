@@ -1,0 +1,67 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01058",
+  "file_path": "dataset/data-unit/01058/dataunit_01058.json",
+
+  "category": "operations",
+  "sub_category": "asset_label_update",
+
+  "captured_at_local": "2026-02-07 18:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+  "title": "asset_label_update_ban_0001",
+  "summary": "Label update evidence for BAN-0001 showing Care Event 04 reference (Banana leaf trimming) and prior care label context.",
+
+  "asset": {
+    "asset_id": "BAN-0001",
+    "asset_type": "plant",
+    "common_name": "banana",
+    "lifecycle_stage": "fruiting"
+  },
+
+  "label_update": {
+    "action": "attach_or_update_label_information",
+    "care_event_number": "04",
+    "care_action": "banana_leaf_trimming",
+    "care_event_recorded_date_local": "2026-02-06",
+    "care_event_reference_dataunit": "01010",
+    "prior_label_context": {
+      "care_event_number": "03",
+      "event_type": "selective_sucker_removal",
+      "reference_proof": "563"
+    }
+  },
+
+  "reference": {
+    "dataunit_ref": "01010",
+    "proof_ref": "563",
+    "note": "This record captures label state at the photographed timestamp. Care action itself is referenced to DataUnit 01010."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigrgufiskisbxvrc3k5fzw4ojtsb4krjz3dherkbiwfdjq7axftgm",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01058/hash/dataunit_01058.sha256",
+    "ots_file": "dataset/data-unit/01058/ots/dgcp_dataunit_01058.ots"
+  },
+
+  "responsibility": {
+    "operator": "unspecified",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
