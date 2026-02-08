@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01049",
+  "file_path": "dataset/data-unit/01049/dataunit_01049.json",
+
+  "category": "operations",
+  "sub_category": "fire_operation",
+
+  "captured_at_local": "2026-02-07 16:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-STV-0001",
+
+  "data_type": "image",
+  "title": "wood_stove_fire_ignition",
+  "summary": "Wood stove fire ignition using prepared firewood.",
+
+  "activity": {
+    "action": "fire_ignition",
+    "fuel_type": "firewood",
+    "equipment": "wood_stove"
+  },
+
+  "asset": {
+    "asset_id": "HZ-STV-0001",
+    "asset_type": "wood_stove"
+  },
+
+  "people": {
+    "recorded_by": "P'Toh",
+    "note": "Single-operator record"
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "01048"
+    ],
+    "note": "Firewood preparation referenced from prior data unit."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid2xpftrtub2lnztj23ebkjd7fipw453eifqkxavla775j75fwmsa",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01049/hash/dataunit_01049.sha256",
+    "ots_file": "dataset/data-unit/01049/ots/dgcp_dataunit_01049.ots"
+  },
+
+  "responsibility": {
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
