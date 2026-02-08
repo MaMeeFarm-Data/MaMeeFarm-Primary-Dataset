@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01054",
+  "file_path": "dataset/data-unit/01054/dataunit_01054.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity_record",
+
+  "captured_at_local": "2026-02-07 17:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+  "title": "evening_temperature_humidity_record",
+  "summary": "Evening temperature and humidity reading recorded from house line microclimate sensor.",
+
+  "measurement": {
+    "temperature_celsius": 28.3,
+    "humidity_percent": 50,
+    "period": "evening"
+  },
+
+  "sensor": {
+    "asset_id": "HZ-02-HTC-1",
+    "type": "microclimate_sensor",
+    "system": "house_line",
+    "status": "active"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01047"],
+    "note": "Continuation from daytime temperature record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid76cs7pgxk5lfzrk6tve3nnpuaupz63lxd4a5bcwma3424dxcoci",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01054/hash/dataunit_01054.sha256",
+    "ots_file": "dataset/data-unit/01054/ots/dgcp_dataunit_01054.ots"
+  },
+
+  "responsibility": {
+    "operator": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
