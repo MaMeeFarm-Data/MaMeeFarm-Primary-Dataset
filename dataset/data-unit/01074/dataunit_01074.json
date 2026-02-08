@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01074",
+  "file_path": "dataset/data-unit/01074/dataunit_01074.json",
+
+  "category": "operations",
+  "sub_category": "manual_bed_preparation",
+
+  "captured_at_local": "2026-02-08 08:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "new_vegetable_bed",
+
+  "data_type": "image",
+
+  "title": "manual_digging_new_vegetable_bed",
+  "summary": "Human labor activity observed with soil being manually dug to prepare a new vegetable bed. Hand tools, freshly turned soil, and surrounding farm area are visible.",
+
+  "reference": {
+    "dataunit_refs": ["01072"],
+    "proof_refs": [],
+    "note": "Reference to prior soil cultivation activity during the same work session."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigpddqsyfdjaoh34geazrbuibuida7al42ladbe2vzc5hm2d67yyq",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01074/hash/dataunit_01074.sha256",
+    "ots_file": "dataset/data-unit/01074/ots/dgcp_dataunit_01074.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
