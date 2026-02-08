@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01039",
+  "file_path": "dataset/data-unit/01039/dataunit_01039.json",
+
+  "category": "operations",
+  "sub_category": "animal_feeding_observation",
+
+  "captured_at_local": "2026-02-07 06:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "dogs_eating_after_feeding",
+  "summary": "Dogs observed eating after morning feeding.",
+
+  "reference": {
+    "dataunit_refs": [
+      "01038"
+    ],
+    "proof_refs": [],
+    "note": "Observed immediately after feeding event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihg7dayceab2eqx74drldki5z4d6u5n5zztalinfvpbzoyrdc5ydm",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01039/hash/dataunit_01039.sha256",
+    "ots_file": "dataset/data-unit/01039/ots/dgcp_dataunit_01039.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
