@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01059",
+  "file_path": "dataset/data-unit/01059/dataunit_01059.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_monitoring",
+
+  "captured_at_local": "2026-02-07 18:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "duck_house",
+
+  "data_type": "image",
+  "title": "duck_house_temperature_record_evening",
+  "summary": "Evening temperature and humidity recorded in duck house (no ducks present).",
+  "description": "Temperature and humidity values recorded from HTC-2 sensor inside duck house during evening. No animals present at time of recording.",
+
+  "measurements": {
+    "temperature_in_celsius": 26.7,
+    "temperature_out_celsius": 24.7,
+    "humidity_percent": 62
+  },
+
+  "reference": {
+    "dataunit_refs": ["01044"],
+    "proof_refs": [],
+    "note": "Morning reference only. No cross-day merge."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiauqnwobnrlg2xvr3avl4or4hiyac5jwo3oqlreerlhpb7pguckxm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01059/hash/dataunit_01059.sha256",
+    "ots_file": "dataset/data-unit/01059/ots/dgcp_dataunit_01059.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
