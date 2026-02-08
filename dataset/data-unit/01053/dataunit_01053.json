@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01053",
+  "file_path": "dataset/data-unit/01053/dataunit_01053.json",
+
+  "category": "operations",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-07 16:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "cooking_area",
+
+  "data_type": "image",
+  "title": "cooked_rice_ready",
+  "summary": "Cooked rice observed after completion of cooking process.",
+
+  "activity": {
+    "action": "observe_result",
+    "object": "cooked_rice",
+    "state": "ready"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01050"],
+    "note": "Result state following pot placement and cooking process."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiduv2afp2wkm47rabiaicv7gghifxrvqnrplq5mqhp3dwzvrmjaue",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01053/hash/dataunit_01053.sha256",
+    "ots_file": "dataset/data-unit/01053/ots/dgcp_dataunit_01053.ots"
+  },
+
+  "responsibility": {
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
