@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01067",
+  "file_path": "dataset/data-unit/01067/dataunit_01067.json",
+
+  "category": "operations",
+  "sub_category": "access_control",
+
+  "captured_at_local": "2026-02-08 07:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "INF",
+  "sub_zone": "INF-GATE-0003",
+
+  "data_type": "image",
+
+  "title": "gate_opening_record_to_fz_03_fz_04",
+  "summary": "Opening of INF-GATE-0003 providing access toward zones FZ-03 and FZ-04. Gate structure and surrounding farm pathways are visible.",
+
+  "reference": {
+    "dataunit_refs": ["01060"],
+    "proof_refs": [],
+    "note": "Reference to the previous gate closing record from the prior day."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiavhmoy6pthif6fapejgeksbtlww2a3rovpwh4xlnlp3onp6yrwim",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01067/hash/dataunit_01067.sha256",
+    "ots_file": "dataset/data-unit/01067/ots/dgcp_dataunit_01067.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
