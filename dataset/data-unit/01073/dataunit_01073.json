@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01073",
+  "file_path": "dataset/data-unit/01073/dataunit_01073.json",
+
+  "category": "operations",
+  "sub_category": "microclimate_monitoring",
+
+  "captured_at_local": "2026-02-08 07:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "duck_house",
+
+  "data_type": "image",
+
+  "title": "duck_house_temperature_humidity_no_animals",
+  "summary": "Microclimate sensor reading inside the duck house showing indoor temperature 17.0 C, outdoor temperature 16.2 C, and relative humidity 85 percent. No ducks present in the enclosure at the time of recording.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Standalone microclimate record at time of capture."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihzhetmzgqeuyv64ibdpr47dukr7fcimzlwgtq5pwpzyc76mgdpqi",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01073/hash/dataunit_01073.sha256",
+    "ots_file": "dataset/data-unit/01073/ots/dgcp_dataunit_01073.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
