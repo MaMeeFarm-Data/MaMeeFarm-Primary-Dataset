@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01055",
+  "file_path": "dataset/data-unit/01055/dataunit_01055.json",
+
+  "category": "operations",
+  "sub_category": "equipment_post_use",
+
+  "captured_at_local": "2026-02-07 17:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "water_system_area",
+
+  "data_type": "image",
+  "title": "pump_equipment_post_use_storage",
+  "summary": "Pump equipment stored after completion of water system operations.",
+
+  "equipment": {
+    "asset_id": "PMP-0001",
+    "type": "water_pump",
+    "operation_state": "post-use",
+    "action": "stored_after_use"
+  },
+
+  "reference": {
+    "proof_refs": ["604", "605", "606", "607", "608"],
+    "note": "Equipment storage after referenced operational use."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiedjga3nup3mceaek3c3qzxirjej4a233fvnh7xhia4j7oryug2fu",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01055/hash/dataunit_01055.sha256",
+    "ots_file": "dataset/data-unit/01055/ots/dgcp_dataunit_01055.ots"
+  },
+
+  "responsibility": {
+    "operator": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
