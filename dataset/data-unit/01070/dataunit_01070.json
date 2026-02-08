@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01070",
+  "file_path": "dataset/data-unit/01070/dataunit_01070.json",
+
+  "category": "operations",
+  "sub_category": "human_animal_co_presence",
+
+  "captured_at_local": "2026-02-08 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "garden_bed_area",
+
+  "data_type": "image",
+
+  "title": "human_and_dog_present_during_garden_work",
+  "summary": "Human and dog present together in the garden area during work activities. A watering can, garden beds, and surrounding crops are visible in the frame.",
+
+  "reference": {
+    "dataunit_refs": ["01067"],
+    "proof_refs": [],
+    "note": "Reference to gate opening record indicating joint access to the work area."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyv63uihg6cfxoimuz5kg6lszspzd4x7e67xqt2ackcrstjkq3bm",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01070/hash/dataunit_01070.sha256",
+    "ots_file": "dataset/data-unit/01070/ots/dgcp_dataunit_01070.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
