@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01075",
+  "file_path": "dataset/data-unit/01075/dataunit_01075.json",
+
+  "category": "operations",
+  "sub_category": "manual_water_transport",
+
+  "captured_at_local": "2026-02-08 08:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "garden_area",
+
+  "data_type": "image",
+
+  "title": "manual_water_carrying_continued_work",
+  "summary": "Human labor activity observed with water being manually carried using a bucket in the garden area. Water containers, crops, and surrounding farm infrastructure are visible.",
+
+  "reference": {
+    "dataunit_refs": ["01074"],
+    "proof_refs": [],
+    "note": "Reference to prior manual digging activity during the same continuous work session."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie7pqqtwd56vd3d4eylwvm3ljb4mrlvu2fs2uqubv5h6cju4vltqm",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01075/hash/dataunit_01075.sha256",
+    "ots_file": "dataset/data-unit/01075/ots/dgcp_dataunit_01075.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
