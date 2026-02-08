@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01066",
+  "file_path": "dataset/data-unit/01066/dataunit_01066.json",
+
+  "category": "operations",
+  "sub_category": "plant_observation",
+
+  "captured_at_local": "2026-02-08 07:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "tree_area",
+
+  "data_type": "image",
+
+  "title": "mango_fruit_set_observation",
+  "summary": "Observation of a mango tree with small green fruits visible on multiple flower panicles. Leaves and branches are present in the same frame.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "No prior reference data unit specified."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif4zdbeotuv6y7rcjgp37watomakmfrem2cfkcthlylwgi6wcoewu",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01066/hash/dataunit_01066.sha256",
+    "ots_file": "dataset/data-unit/01066/ots/dgcp_dataunit_01066.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
