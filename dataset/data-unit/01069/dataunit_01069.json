@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01069",
+  "file_path": "dataset/data-unit/01069/dataunit_01069.json",
+
+  "category": "operations",
+  "sub_category": "manual_land_maintenance",
+
+  "captured_at_local": "2026-02-08 07:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "fence_line",
+
+  "data_type": "image",
+
+  "title": "manual_grass_cutting_fence_line",
+  "summary": "Human labor activity observed with grass being manually cut along the fence line. Vegetation, tools, and surrounding crop areas are visible in the frame.",
+
+  "reference": {
+    "dataunit_refs": ["01067"],
+    "proof_refs": [],
+    "note": "Reference to gate opening record enabling access to work area."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiavt2amdzmgbmie3f5dmtfjt7muoqvek4eodouygrc7w3osebfsa4",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01069/hash/dataunit_01069.sha256",
+    "ots_file": "dataset/data-unit/01069/ots/dgcp_dataunit_01069.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
