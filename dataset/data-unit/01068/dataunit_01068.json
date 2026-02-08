@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01068",
+  "file_path": "dataset/data-unit/01068/dataunit_01068.json",
+
+  "category": "operations",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-08 07:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "plant_row",
+
+  "data_type": "image",
+
+  "title": "tomato_asset_label_attached",
+  "summary": "Physical asset label attached to a tomato plant identified as Asset ID PLT-TOM-0001. The label displays plant details including lifecycle stage and associated data unit references.",
+
+  "reference": {
+    "dataunit_refs": ["01043"],
+    "proof_refs": [],
+    "note": "Reference to the latest related tomato plant care and observation record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeietokwnoh2ehdhinl7nkujgtkmdhrvvrxfy46mvdexa7ophin4eka",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01068/hash/dataunit_01068.sha256",
+    "ots_file": "dataset/data-unit/01068/ots/dgcp_dataunit_01068.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
