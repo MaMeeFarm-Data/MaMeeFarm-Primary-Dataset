@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01061",
+  "file_path": "dataset/data-unit/01061/dataunit_01061.json",
+
+  "category": "operations",
+  "sub_category": "daily_labor",
+
+  "captured_at_local": "2026-02-07 18:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "yard_area",
+
+  "data_type": "image",
+  "title": "daily_dog_waste_collection_record",
+  "summary": "Routine daily dog waste collection activity.",
+  "description": "This data unit records a routine daily labor activity involving dog waste collection performed under normal operational conditions. No interpretation applied.",
+
+  "reference": {
+    "dataunit_refs": ["01014"],
+    "proof_refs": [],
+    "note": "Daily routine activity. Recorded as observed."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia2aildqylhkba5dq5myvmel4zrydvbyqoyzhtszhp7p3g4pabfwy",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01061/hash/dataunit_01061.sha256",
+    "ots_file": "dataset/data-unit/01061/ots/dgcp_dataunit_01061.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee (daily labor)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
