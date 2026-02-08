@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01046",
+  "file_path": "dataset/data-unit/01046/dataunit_01046.json",
+
+  "category": "infrastructure",
+  "sub_category": "power_system_operation",
+
+  "captured_at_local": "2026-02-07 08:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "power_system",
+
+  "data_type": "image",
+  "title": "inverter_power_on_display_failure",
+  "summary": "Inverter powered on; display not functioning due to wear from usage.",
+
+  "asset": {
+    "asset_id": "INV-01",
+    "asset_type": "power_inverter",
+    "system": "solar_power_system"
+  },
+
+  "operation": {
+    "activity": "power_on",
+    "observed_status": "display_not_working",
+    "indicator": "status_light_active",
+    "condition_note": "screen degradation from long-term use"
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "01036"
+    ],
+    "note": "Reference to inverter shutdown during previous night cycle."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicpbhtnaimznz6gqps5sz7htoot4daldqsrsra23rhlph5i4wahdq",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01046/hash/dataunit_01046.sha256",
+    "ots_file": "dataset/data-unit/01046/ots/dgcp_dataunit_01046.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
