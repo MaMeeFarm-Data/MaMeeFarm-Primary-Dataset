@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01042",
+  "file_path": "dataset/data-unit/01042/dataunit_01042.json",
+
+  "category": "asset_management",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-07 08:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "",
+
+  "data_type": "image",
+  "title": "attach_asset_id_label_banana_ban_0004",
+  "summary": "Physical attachment of Asset ID label to banana plant BAN-0004.",
+
+  "asset": {
+    "asset_id": "BAN-0004",
+    "asset_type": "plant",
+    "common_name": "banana",
+    "lifecycle_stage": "fruiting",
+    "action": "asset_id_label_attached"
+  },
+
+  "reference": {
+    "proof_refs": [
+      "602"
+    ],
+    "dataunit_refs": [],
+    "note": "Asset label references prior Proof 602 (banana blossom removal)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigng64ycr34x5of5xeojsbhiirsbu4edivst4cd723achsnpo22wm",
+    "note": "External reference for raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01042/hash/dataunit_01042.sha256",
+    "ots_file": "dataset/data-unit/01042/ots/dgcp_dataunit_01042.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
