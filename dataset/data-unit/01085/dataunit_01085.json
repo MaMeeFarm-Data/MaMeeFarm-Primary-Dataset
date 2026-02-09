@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01085",
+  "file_path": "dataset/data-unit/01085/dataunit_01085.json",
+
+  "category": "operations",
+  "sub_category": "animal_feeding",
+
+  "captured_at_local": "2026-02-08 17:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": null,
+
+  "data_type": "image",
+
+  "title": "dog_food_bag_empty",
+  "summary": "Dog food bag (20 kg) observed empty after feeding approximately 20 dogs.",
+
+  "quantitative_context": {
+    "item": "dog_food",
+    "initial_weight_kg": 20,
+    "status": "empty",
+    "animal_count": 20
+  },
+
+  "reference": {
+    "dataunit_refs": ["00959"],
+    "proof_refs": [],
+    "note": "Consumption completion following bag opening on 2026-02-04."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeickingu3uyg2fpldyd6aci3ydtfq5erh4ovtmcw7ng5gafnok2fwy",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01085/hash/dataunit_01085.sha256",
+    "ots_file": "dataset/data-unit/01085/ots/dgcp_dataunit_01085.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
