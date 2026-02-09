@@ -1,0 +1,63 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01091",
+  "file_path": "dataset/data-unit/01091/dataunit_01091.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity_record",
+
+  "captured_at_local": "2026-02-08 17:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "duck_house",
+
+  "data_type": "image",
+
+  "title": "duck_house_temperature_evening_record",
+  "summary": "Evening temperature and humidity record inside duck house area.",
+
+  "measurement": {
+    "temperature_in_celsius": 30.0,
+    "temperature_out_celsius": 28.9,
+    "humidity_percent": 49,
+    "sensor_asset_id": "HTC-2",
+    "sensor_type": "microclimate_sensor"
+  },
+
+  "context": {
+    "duck_present": false,
+    "note": "Evening measurement with no ducks inside the house."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01073", "01079"],
+    "proof_refs": [],
+    "note": "Referenced morning and midday temperature records."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihvec4f4hiiir3ucn5lcdfbzmgpd6phhmbptxkm4p63zytljn4rrq",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01091/hash/dataunit_01091.sha256",
+    "ots_file": "dataset/data-unit/01091/ots/dgcp_dataunit_01091.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
