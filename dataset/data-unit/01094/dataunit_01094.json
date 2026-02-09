@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01094",
+  "file_path": "dataset/data-unit/01094/dataunit_01094.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_temperature_humidity",
+
+  "captured_at_local": "2026-02-09 00:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "night_microclimate_record",
+  "summary": "Nighttime microclimate reading showing temperature and humidity values.",
+
+  "reference": {
+    "dataunit_refs": ["01088"],
+    "proof_refs": [],
+    "note": "Referenced evening microclimate record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaibtlzxiuhf74huciermoqcmnbighhi43ptw6vuizmcl5n45yqna",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01094/hash/dataunit_01094.sha256",
+    "ots_file": "dataset/data-unit/01094/ots/dgcp_dataunit_01094.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
