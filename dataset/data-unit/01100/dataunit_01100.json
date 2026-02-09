@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01100",
+  "file_path": "dataset/data-unit/01100/dataunit_01100.json",
+
+  "category": "operations",
+  "sub_category": "gate_operation",
+
+  "captured_at_local": "2026-02-09 07:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "INF-GATE-0003",
+
+  "data_type": "image",
+
+  "title": "farm_gate_opening",
+  "summary": "Farm gate INF-GATE-0003 is opened.",
+
+  "reference": {
+    "dataunit_refs": ["01092"],
+    "proof_refs": [],
+    "note": "Gate was closed the previous day."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihnpg4pv7m2ruymk55ofm4xh7vb7oiltyxo7pgyne2z3odto4fdni",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01100/hash/dataunit_01100.sha256",
+    "ots_file": "dataset/data-unit/01100/ots/dgcp_dataunit_01100.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
