@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01104",
+  "file_path": "dataset/data-unit/01104/dataunit_01104.json",
+
+  "category": "agriculture",
+  "sub_category": "crop_observation",
+
+  "captured_at_local": "2026-02-09 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "green_caterpillar_observed_on_kale_leaf",
+  "summary": "Green caterpillar observed on kale leaf. Species not identified.",
+
+  "reference": {
+    "dataunit_refs": ["01103"],
+    "proof_refs": [],
+    "note": "Observation only. No classification applied."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigaakizziukaqrrorzsddbtjrjoacijwdv6nptmui5kauf7vfr4di",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01104/hash/dataunit_01104.sha256",
+    "ots_file": "dataset/data-unit/01104/ots/dgcp_dataunit_01104.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
