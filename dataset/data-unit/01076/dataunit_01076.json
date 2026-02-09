@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01076",
+  "file_path": "dataset/data-unit/01076/dataunit_01076.json",
+
+  "category": "operations",
+  "sub_category": "power_system_operation",
+
+  "captured_at_local": "2026-02-08 08:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "power_system_area",
+
+  "data_type": "image",
+
+  "title": "power_system_start_inverter_display_not_visible",
+  "summary": "Power system started. Inverter front panel is visible with indicator lights present, while the main display screen appears not showing readable output. Labels on the unit reference INV-01 power inverter, SPV-A-0001 solar panel array, and PWR-BAT-0001/0002 storage.",
+
+  "reference": {
+    "dataunit_refs": ["01063"],
+    "proof_refs": [],
+    "note": "Reference to the previous power system shutdown record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidgyvnfv3342qkvd2flmbmktcdzavcw2zdv5nw4jhjeq7tg5geko4",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01076/hash/dataunit_01076.sha256",
+    "ots_file": "dataset/data-unit/01076/ots/dgcp_dataunit_01076.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
