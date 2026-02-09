@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01101",
+  "file_path": "dataset/data-unit/01101/dataunit_01101.json",
+
+  "category": "operations",
+  "sub_category": "soil_preparation",
+
+  "captured_at_local": "2026-02-09 07:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_bed_area",
+
+  "data_type": "image",
+
+  "title": "digging_soil_for_vegetable_bed",
+  "summary": "Soil is dug to prepare a vegetable planting bed.",
+
+  "reference": {
+    "dataunit_refs": ["01100"],
+    "proof_refs": [],
+    "note": "Activity occurred after farm gate opening."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigix6wfl4oetnp7hcdek3rc37dkhc6fl6bi4cyppthoqqzsadroqq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01101/hash/dataunit_01101.sha256",
+    "ots_file": "dataset/data-unit/01101/ots/dgcp_dataunit_01101.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
