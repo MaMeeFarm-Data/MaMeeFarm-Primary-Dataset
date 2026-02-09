@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01089",
+  "file_path": "dataset/data-unit/01089/dataunit_01089.json",
+
+  "category": "operations",
+  "sub_category": "crop_observation",
+
+  "captured_at_local": "2026-02-08 17:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_bed",
+
+  "data_type": "image",
+
+  "title": "evening_pre_watering_crop_observation_fz03",
+  "summary": "Visual observation of vegetable beds in FZ-03 during evening before watering. No watering action performed at time of capture.",
+
+  "reference": {
+    "dataunit_refs": ["01071"],
+    "proof_refs": [],
+    "note": "Referenced morning watering event for same zone."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia75pmzrmfrqxzjyinqfu5yd4uehbectbsx7sn5wgn34k7zk6th4y",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01089/hash/dataunit_01089.sha256",
+    "ots_file": "dataset/data-unit/01089/ots/dgcp_dataunit_01089.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
