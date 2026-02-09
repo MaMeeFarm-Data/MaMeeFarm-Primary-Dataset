@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01083",
+  "file_path": "dataset/data-unit/01083/dataunit_01083.json",
+
+  "category": "operations",
+  "sub_category": "animal_feeding_observation",
+
+  "captured_at_local": "2026-02-08 17:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": null,
+
+  "data_type": "image",
+
+  "title": "dogs_consuming_food",
+  "summary": "Dogs observed consuming dry food on ground in HZ-02 zone.",
+
+  "reference": {
+    "dataunit_refs": ["01082"],
+    "proof_refs": [],
+    "note": "Observation following evening feeding."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeielkulhc6fh57fvruutrxhe65qhb3sjn64ho35rchsn7zoltjhvq4",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01083/hash/dataunit_01083.sha256",
+    "ots_file": "dataset/data-unit/01083/ots/dgcp_dataunit_01083.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
