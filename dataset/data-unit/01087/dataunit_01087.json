@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01087",
+  "file_path": "dataset/data-unit/01087/dataunit_01087.json",
+
+  "category": "asset_management",
+  "sub_category": "plant_identification",
+
+  "captured_at_local": "2026-02-08 17:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": null,
+
+  "data_type": "image",
+
+  "title": "mango_tree_asset_id_attached_khiao_sawoey",
+  "summary": "Asset identification label attached to second mango tree (Khiao Sawoey variety).",
+
+  "reference": {
+    "dataunit_refs": ["01066"],
+    "proof_refs": [],
+    "note": "Morning observation recorded fruiting prior to asset identification."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibttklbg2uibibaptxl2l53elxp5iikwgckbkik5ijdwghtx5uqam",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01087/hash/dataunit_01087.sha256",
+    "ots_file": "dataset/data-unit/01087/ots/dgcp_dataunit_01087.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
