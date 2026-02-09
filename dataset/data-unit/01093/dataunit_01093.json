@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01093",
+  "file_path": "dataset/data-unit/01093/dataunit_01093.json",
+
+  "category": "daily_labor",
+  "sub_category": "sanitation_animal_care",
+
+  "captured_at_local": "2026-02-08 18:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "dog_area",
+
+  "data_type": "image",
+
+  "title": "evening_dog_sanitation_activity",
+  "summary": "Human labor observed collecting dog waste for sanitation and animal care.",
+
+  "reference": {
+    "dataunit_refs": ["01082", "01083"],
+    "proof_refs": [],
+    "note": "Referenced dog feeding and water supply records."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia55hc7tomttqr3fbhw3qqfczzxvmt4y2uo4grpmd4m7lp5oexul4",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01093/hash/dataunit_01093.sha256",
+    "ots_file": "dataset/data-unit/01093/ots/dgcp_dataunit_01093.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee (human labor)",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
