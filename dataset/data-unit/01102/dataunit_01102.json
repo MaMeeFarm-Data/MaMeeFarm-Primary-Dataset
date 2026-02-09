@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01102",
+  "file_path": "dataset/data-unit/01102/dataunit_01102.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_measurement",
+
+  "captured_at_local": "2026-02-09 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "duck_house_temperature_morning_empty",
+  "summary": "Temperature and humidity measured inside and outside duck house in the morning with no ducks present.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Morning measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiefurxy5hzyeeahwkd5peeavysnj4uivs2hs7eemjzafvjn7fjnca",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01102/hash/dataunit_01102.sha256",
+    "ots_file": "dataset/data-unit/01102/ots/dgcp_dataunit_01102.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
