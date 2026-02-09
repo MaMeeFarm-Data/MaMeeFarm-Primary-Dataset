@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01084",
+  "file_path": "dataset/data-unit/01084/dataunit_01084.json",
+
+  "category": "operations",
+  "sub_category": "water_supply",
+
+  "captured_at_local": "2026-02-08 17:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": null,
+
+  "data_type": "image",
+
+  "title": "fill_dog_water_tank",
+  "summary": "Water flow observed filling dog water tank WT-M-0005 in HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01083"],
+    "proof_refs": [],
+    "note": "Continuation following feeding observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig7yem2qrur7c4ralkcjxajxxeh3h5pjg6mkxfqfjt67lc6dwdr5y",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01084/hash/dataunit_01084.sha256",
+    "ots_file": "dataset/data-unit/01084/ots/dgcp_dataunit_01084.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
