@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01078",
+  "file_path": "dataset/data-unit/01078/dataunit_01078.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_measurement",
+
+  "captured_at_local": "2026-02-08 12:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "temperature_humidity_record_hz_02_t1_midday",
+  "summary": "Midday microclimate measurement recorded by HTC-1 sensor at HZ-02-T1.",
+
+  "measurement": {
+    "temperature_celsius": 25.4,
+    "humidity_percent": 57,
+    "sensor_id": "HTC-1",
+    "sensor_type": "microclimate_sensor"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01064"],
+    "proof_refs": [],
+    "note": "Referenced earlier morning measurement for same zone."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidi5gffrnhtwlyes3jmandpjl2yqkbc4u44p3y66pst5lnd6uetni",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01078/hash/dataunit_01078.sha256",
+    "ots_file": "dataset/data-unit/01078/ots/dgcp_dataunit_01078.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
