@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01097",
+  "file_path": "dataset/data-unit/01097/dataunit_01097.json",
+
+  "category": "environment",
+  "sub_category": "sky_observation",
+
+  "captured_at_local": "2026-02-09 07:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "adjacent_farm_area",
+
+  "data_type": "image",
+
+  "title": "morning_sky_adjacent_farm",
+  "summary": "Morning sky condition observed adjacent to the farm area.",
+
+  "reference": {
+    "dataunit_refs": ["01096"],
+    "proof_refs": [],
+    "note": "Sky observation recorded in relation to temperature data unit."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifxyur2yhecesgjtnglflxxq4yh7zpxm3nzutxnqdeus5hpf35dbu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01097/hash/dataunit_01097.sha256",
+    "ots_file": "dataset/data-unit/01097/ots/dgcp_dataunit_01097.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
