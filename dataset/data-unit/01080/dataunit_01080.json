@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01080",
+  "file_path": "dataset/data-unit/01080/dataunit_01080.json",
+
+  "category": "operations",
+  "sub_category": "ground_maintenance",
+
+  "captured_at_local": "2026-02-08 13:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": null,
+
+  "data_type": "image",
+
+  "title": "mango_tree_ground_clearing",
+  "summary": "Manual grass clearing performed around mango tree base.",
+
+  "activity": {
+    "action": "grass_clearing",
+    "method": "manual_tool",
+    "tool": "hoe",
+    "target": "mango_tree_base"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif6f745ctrh2pcvtuheq3og2fvimfrerohipavxs37727yxglzqqa",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01080/hash/dataunit_01080.sha256",
+    "ots_file": "dataset/data-unit/01080/ots/dgcp_dataunit_01080.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
