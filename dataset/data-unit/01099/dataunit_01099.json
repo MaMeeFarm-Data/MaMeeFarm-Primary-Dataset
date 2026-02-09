@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01099",
+  "file_path": "dataset/data-unit/01099/dataunit_01099.json",
+
+  "category": "operations",
+  "sub_category": "animal_feeding",
+
+  "captured_at_local": "2026-02-09 07:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "dog_feeding_area",
+
+  "data_type": "image",
+
+  "title": "morning_dog_feeding",
+  "summary": "Dry dog food is provided to dogs during the morning feeding round.",
+
+  "reference": {
+    "dataunit_refs": ["01098"],
+    "proof_refs": [],
+    "note": "Feeding uses dog food from the bag opened earlier."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicf2nblo7ttbua2guo53mkrmovyhjrhafztlzcjxwwqjwmbsf5vg4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01099/hash/dataunit_01099.sha256",
+    "ots_file": "dataset/data-unit/01099/ots/dgcp_dataunit_01099.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
