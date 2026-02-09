@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01077",
+  "file_path": "dataset/data-unit/01077/dataunit_01077.json",
+
+  "category": "operations",
+  "sub_category": "human_animal_interaction",
+
+  "captured_at_local": "2026-02-08 08:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house_yard_area",
+
+  "data_type": "image",
+
+  "title": "human_dog_interaction_hz_02",
+  "summary": "Human and dogs present together in Zone HZ-02 with direct interaction visible between a person and a dog. Additional dogs are present in the same area.",
+
+  "reference": {
+    "dataunit_refs": ["01065"],
+    "proof_refs": [],
+    "note": "Reference to the earlier morning dog feeding record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid33iraqpku6z773sz5pnzgakngj7vfofpvhijs57uzi2a3hozbwu",
+    "note": "Raw image evidence stored on IPFS via Pinata gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01077/hash/dataunit_01077.sha256",
+    "ots_file": "dataset/data-unit/01077/ots/dgcp_dataunit_01077.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
