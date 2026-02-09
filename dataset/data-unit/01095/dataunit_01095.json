@@ -1,0 +1,95 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01095",
+  "file_path": "dataset/data-unit/01095/dataunit_01095.json",
+
+  "category": "energy",
+  "sub_category": "solar_power_system_shutdown",
+
+  "captured_at_local": "2026-02-09 00:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "power_control_area",
+
+  "data_type": "image",
+
+  "title": "solar_power_system_shutdown",
+  "summary": "Solar power system shutdown with equipment identification labels visible.",
+
+  "assets": [
+    {
+      "asset_id": "SPV-A-0001",
+      "asset_type": "solar_panel_array",
+      "details": {
+        "panels": 4,
+        "system": "power_generation",
+        "location": "farm",
+        "status": "inactive_at_shutdown"
+      }
+    },
+    {
+      "asset_id": "INV-01",
+      "asset_type": "power_inverter",
+      "details": {
+        "input": "DC from SPV-A-0001",
+        "output": "AC for farm systems",
+        "system": "power_conversion",
+        "status": "powered_off"
+      }
+    },
+    {
+      "asset_id": "PWR-BAT-0001",
+      "asset_type": "battery_storage",
+      "details": {
+        "system": "energy_storage",
+        "status": "standby"
+      }
+    },
+    {
+      "asset_id": "PWR-BAT-0002",
+      "asset_type": "battery_storage",
+      "details": {
+        "system": "energy_storage",
+        "status": "standby"
+      }
+    }
+  ],
+
+  "affected_systems": [
+    "farm_pumps",
+    "lighting",
+    "kitchen_power",
+    "network_equipment"
+  ],
+
+  "reference": {
+    "dataunit_refs": ["01076"],
+    "note": "Referenced morning solar system activation record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidxbt63lmthsdaoelkknitnyfm4fhkl37zevm2jocmldj56ord5mu",
+    "note": "Image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01095/hash/dataunit_01095.sha256",
+    "ots_file": "dataset/data-unit/01095/ots/dgcp_dataunit_01095.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
