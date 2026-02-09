@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01088",
+  "file_path": "dataset/data-unit/01088/dataunit_01088.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity_record",
+
+  "captured_at_local": "2026-02-08 17:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "evening_temperature_humidity_record_hz02",
+  "summary": "Digital thermometer display showing temperature 28.4°C and humidity 50% at HZ-02 during evening.",
+
+  "reference": {
+    "dataunit_refs": ["01078"],
+    "proof_refs": [],
+    "note": "Midday temperature record referenced for same sensor and zone."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidyhex63zunlbwvdtlwkufv423nli6fzord4mdfbh2cn4pxmunxsi",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01088/hash/dataunit_01088.sha256",
+    "ots_file": "dataset/data-unit/01088/ots/dgcp_dataunit_01088.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
