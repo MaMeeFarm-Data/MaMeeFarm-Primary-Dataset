@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01090",
+  "file_path": "dataset/data-unit/01090/dataunit_01090.json",
+
+  "category": "operations",
+  "sub_category": "irrigation",
+
+  "captured_at_local": "2026-02-08 17:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_bed",
+
+  "data_type": "image",
+
+  "title": "evening_watering_completed_fz03",
+  "summary": "Vegetable beds in FZ-03 observed after watering during evening.",
+
+  "reference": {
+    "dataunit_refs": ["01089"],
+    "proof_refs": [],
+    "note": "Post-watering record following evening pre-watering observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiedhpz5ssaiz35pmvpsdh2h63pbnqnfzffrw7uz6p4hfanqgr3yoe",
+    "note": "Raw image evidence stored on IPFS via Pinata."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01090/hash/dataunit_01090.sha256",
+    "ots_file": "dataset/data-unit/01090/ots/dgcp_dataunit_01090.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
