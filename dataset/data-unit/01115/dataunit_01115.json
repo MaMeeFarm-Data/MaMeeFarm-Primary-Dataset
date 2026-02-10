@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01115",
+  "file_path": "dataset/data-unit/01115/dataunit_01115.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_record",
+
+  "captured_at_local": "2026-02-09 17:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "evening temperature and humidity record",
+  "summary": "Microclimate sensor reading showing temperature 27.8°C and humidity 53%.",
+
+  "reference": {
+    "dataunit_refs": ["01112"],
+    "proof_refs": [],
+    "note": "Evening record referenced against afternoon measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigr62lghafxkgyyq6bssdk4fkzxbox6h34brhcuwbuzsu3wdk5354",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01115/hash/dataunit_01115.sha256",
+    "ots_file": "dataset/data-unit/01115/ots/dgcp_dataunit_01115.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
