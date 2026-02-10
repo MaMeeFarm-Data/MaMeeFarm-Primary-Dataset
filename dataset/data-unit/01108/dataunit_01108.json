@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01108",
+  "file_path": "dataset/data-unit/01108/dataunit_01108.json",
+
+  "category": "agriculture",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-09 11:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-STV-0001",
+
+  "data_type": "image",
+
+  "title": "kale_boiled_for_internal_consumption",
+  "summary": "Kale harvested from FZ-03 boiled for internal consumption.",
+
+  "reference": {
+    "dataunit_refs": ["01103", "01105", "01107"],
+    "proof_refs": [],
+    "note": "Food preparation using farm-produced vegetables."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic6aqyodstrztkpifhg2p2ehytxsgpmcftzgydnax6wdecdqv45py",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01108/hash/dataunit_01108.sha256",
+    "ots_file": "dataset/data-unit/01108/ots/dgcp_dataunit_01108.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
