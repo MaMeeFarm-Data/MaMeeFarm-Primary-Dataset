@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01123",
+  "file_path": "dataset/data-unit/01123/dataunit_01123.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_record",
+
+  "captured_at_local": "2026-02-09 18:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "duck house evening temperature record",
+  "summary": "Duck house microclimate record showing indoor and outdoor temperature with humidity.",
+
+  "reference": {
+    "dataunit_refs": ["01102", "01113"],
+    "proof_refs": [],
+    "note": "Continuation of morning and midday temperature records."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigolrcpgrpjeqybqc6wctpcik6p6gvxlri6lalwkinippdmt3obdm",
+    "note": "Raw image evidence of HTC-2 sensor display."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01123/hash/dataunit_01123.sha256",
+    "ots_file": "dataset/data-unit/01123/ots/dgcp_dataunit_01123.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
