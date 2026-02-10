@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01129",
+  "file_path": "dataset/data-unit/01129/dataunit_01129.json",
+
+  "category": "animal_care",
+  "sub_category": "feeding",
+
+  "captured_at_local": "2026-02-10 07:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "morning_feeding_event",
+  "summary": "Morning feeding provided to dogs at HZ-02 area.",
+
+  "reference": {
+    "dataunit_refs": ["01114"],
+    "proof_refs": [],
+    "note": "Continuous feeding routine."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiehkmxw5z3ckdiceunyfhwgleulkmxu5h6jppjgfvulfi47dkpdvi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01129/hash/dataunit_01129.sha256",
+    "ots_file": "dataset/data-unit/01129/ots/dgcp_dataunit_01129.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
