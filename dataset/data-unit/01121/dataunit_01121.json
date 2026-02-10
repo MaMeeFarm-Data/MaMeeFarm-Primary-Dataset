@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01121",
+  "file_path": "dataset/data-unit/01121/dataunit_01121.json",
+
+  "category": "operations",
+  "sub_category": "soil_preparation",
+
+  "captured_at_local": "2026-02-09 17:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": null,
+
+  "data_type": "image",
+
+  "title": "soil preparation completed vegetable bed",
+  "summary": "Vegetable bed fully dug and prepared after kale harvest.",
+
+  "reference": {
+    "dataunit_refs": ["01120"],
+    "proof_refs": [],
+    "note": "Completion state of soil preparation. Same plot continuity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicpmyz2q6fwfwx2gge6awgbcf2tn374vyvlfedwicshlhnydgjtxe",
+    "note": "Image showing completed soil preparation."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01121/hash/dataunit_01121.sha256",
+    "ots_file": "dataset/data-unit/01121/ots/dgcp_dataunit_01121.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
