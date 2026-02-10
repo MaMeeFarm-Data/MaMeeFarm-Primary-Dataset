@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01133",
+  "file_path": "dataset/data-unit/01133/dataunit_01133.json",
+
+  "category": "asset_management",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-10 07:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "plant_bed",
+
+  "data_type": "image",
+
+  "title": "attach_asset_id_plt_rph_0001",
+  "summary": "MaMee attaches asset ID label PLT-RPH-0001 to plant in FZ-03.",
+
+  "asset_reference": {
+    "asset_id": "PLT-RPH-0001",
+    "asset_type": "plant"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01132"],
+    "proof_refs": [],
+    "note": "Continuous daily operation. Data flows in time order."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid6n4yu25l3vm4rbtgfv5efozfgtrhy5mtbhkmec4malo6zgg5lqe",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01133/hash/dataunit_01133.sha256",
+    "ots_file": "dataset/data-unit/01133/ots/dgcp_dataunit_01133.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
