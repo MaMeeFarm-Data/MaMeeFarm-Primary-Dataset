@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01134",
+  "file_path": "dataset/data-unit/01134/dataunit_01134.json",
+
+  "category": "asset_management",
+  "sub_category": "asset_identification",
+
+  "captured_at_local": "2026-02-10 07:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "plant_bed",
+
+  "data_type": "image",
+
+  "title": "asset_id_label_after_attachment_plt_rph_0001",
+  "summary": "Close-up image of asset ID label PLT-RPH-0001 after physical attachment to plant.",
+
+  "reference": {
+    "dataunit_refs": ["01133"],
+    "proof_refs": [],
+    "note": "Continuous event. Same asset. Recorded by single operator."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiecoyauku7h7t2vr4ntkssh46vog6tnrsm5z7uzale7xpmjh7peky",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01134/hash/dataunit_01134.sha256",
+    "ots_file": "dataset/data-unit/01134/ots/dgcp_dataunit_01134.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
