@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01131",
+  "file_path": "dataset/data-unit/01131/dataunit_01131.json",
+
+  "category": "animal_care",
+  "sub_category": "water_supply",
+
+  "captured_at_local": "2026-02-10 07:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "refill_water_bowl_for_dogs",
+  "summary": "Refilling water container WT-M 0005 for dogs at HZ-02.",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0005",
+    "asset_type": "water_container"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01130"],
+    "proof_refs": [],
+    "note": "Continuous event following feeding. Data flows in time order."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif5f2cqhge4rrujqmkgwgzzka5p2uqqwvywga4aehf4m4rx2tefzu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01131/hash/dataunit_01131.sha256",
+    "ots_file": "dataset/data-unit/01131/ots/dgcp_dataunit_01131.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
