@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01111",
+  "file_path": "dataset/data-unit/01111/dataunit_01111.json",
+
+  "category": "agriculture",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-09 12:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-STV-0001",
+
+  "data_type": "image",
+
+  "title": "rice_cooking_completed",
+  "summary": "Rice cooked and visible in pot on wood stove.",
+
+  "reference": {
+    "dataunit_refs": ["01110"],
+    "proof_refs": [],
+    "note": "Continuation of rice cooking process."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiabpeensjoe473pcprc5ju5l3kq3cxwovacvsn2y7ldbfo5lh7qru",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01111/hash/dataunit_01111.sha256",
+    "ots_file": "dataset/data-unit/01111/ots/dgcp_dataunit_01111.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
