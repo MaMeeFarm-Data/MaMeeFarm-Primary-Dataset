@@ -1,0 +1,76 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01127",
+  "file_path": "dataset/data-unit/01127/dataunit_01127.json",
+
+  "category": "energy",
+  "sub_category": "solar_power_operation",
+
+  "captured_at_local": "2026-02-10 00:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "power_system",
+
+  "data_type": "image",
+
+  "title": "solar power system shutdown record",
+  "summary": "Solar power system recorded in shutdown state due to limited energy availability.",
+
+  "assets_involved": [
+    {
+      "asset_id": "INV-01",
+      "asset_type": "power_inverter",
+      "role": "power conversion",
+      "status": "inactive"
+    },
+    {
+      "asset_id": "SPV-A-0001",
+      "asset_type": "solar_panel_array",
+      "role": "power generation",
+      "status": "inactive"
+    },
+    {
+      "asset_id": "PWR-BAT-0001",
+      "asset_type": "battery_storage",
+      "role": "energy storage",
+      "status": "inactive"
+    },
+    {
+      "asset_id": "PWR-BAT-0002",
+      "asset_type": "battery_storage",
+      "role": "energy storage",
+      "status": "inactive"
+    }
+  ],
+
+  "reference": {
+    "dataunit_refs": ["01106"],
+    "note": "Reference to system opening record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia46ride7xzuvk5k3exqzplqjpb2mf2nryvgzccvu7xbrhay54zw4",
+    "note": "Image evidence of inverter panel at shutdown time."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01127/hash/dataunit_01127.sha256",
+    "ots_file": "dataset/data-unit/01127/ots/dgcp_dataunit_01127.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
