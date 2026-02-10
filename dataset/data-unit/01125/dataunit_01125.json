@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01125",
+  "file_path": "dataset/data-unit/01125/dataunit_01125.json",
+
+  "category": "operations",
+  "sub_category": "meal_consumption",
+
+  "captured_at_local": "2026-02-09 19:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house_meal_area",
+
+  "data_type": "image",
+
+  "title": "meal record — pork minced rice porridge",
+  "summary": "Single meal consumed: pork minced rice porridge. Operation continued under constrained resources.",
+
+  "reference": {
+    "dataunit_refs": ["01111"],
+    "proof_refs": [],
+    "note": "Rice source referenced from prior cooked-rice data unit."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiekgmzj4qvkfirqsjnbausfaveifly3sepc3qcqau6gqaoplttlla",
+    "note": "Image evidence of meal."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01125/hash/dataunit_01125.sha256",
+    "ots_file": "dataset/data-unit/01125/ots/dgcp_dataunit_01125.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
