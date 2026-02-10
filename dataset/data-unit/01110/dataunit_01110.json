@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01110",
+  "file_path": "dataset/data-unit/01110/dataunit_01110.json",
+
+  "category": "agriculture",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-09 12:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-STV-0001",
+
+  "data_type": "image",
+
+  "title": "rice_cooking_started",
+  "summary": "Rice cooking started using wood stove.",
+
+  "reference": {
+    "dataunit_refs": ["01107"],
+    "proof_refs": [],
+    "note": "Wood stove previously activated."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidmmjdbeh7zr7bbjn6p3ytlztfuuh2pdnaiafcapri5zb2ryiwnyi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01110/hash/dataunit_01110.sha256",
+    "ots_file": "dataset/data-unit/01110/ots/dgcp_dataunit_01110.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
