@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01122",
+  "file_path": "dataset/data-unit/01122/dataunit_01122.json",
+
+  "category": "operations",
+  "sub_category": "crop_care",
+
+  "captured_at_local": "2026-02-09 17:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": null,
+
+  "data_type": "image",
+
+  "title": "straw mulching vegetable bed",
+  "summary": "Straw mulch applied to vegetable bed after planting.",
+
+  "reference": {
+    "dataunit_refs": ["01118", "01119"],
+    "proof_refs": [],
+    "note": "Post-plant care step. Continuation of same vegetable bed."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihf6eerg4euk64kgg6zdmxp33pritnprepq467adzifjxewwmiuea",
+    "note": "Image showing straw mulching on planted bed."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01122/hash/dataunit_01122.sha256",
+    "ots_file": "dataset/data-unit/01122/ots/dgcp_dataunit_01122.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
