@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01109",
+  "file_path": "dataset/data-unit/01109/dataunit_01109.json",
+
+  "category": "agriculture",
+  "sub_category": "food_preparation_result",
+
+  "captured_at_local": "2026-02-09 12:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-STV-0001",
+
+  "data_type": "image",
+
+  "title": "kale_boiling_completed",
+  "summary": "Boiling of kale completed using wood stove.",
+
+  "reference": {
+    "dataunit_refs": ["01108"],
+    "proof_refs": [],
+    "note": "Completion state of food preparation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidsveocaxthrmevfogihbz77ha4pb4k66he57nmr4b4awfiz5zcvq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01109/hash/dataunit_01109.sha256",
+    "ots_file": "dataset/data-unit/01109/ots/dgcp_dataunit_01109.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
