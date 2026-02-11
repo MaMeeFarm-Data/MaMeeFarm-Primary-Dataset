@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01138",
+  "file_path": "dataset/data-unit/01138/dataunit_01138.json",
+
+  "category": "farm_operations",
+  "sub_category": "planting",
+
+  "captured_at_local": "2026-02-10 07:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_bed",
+
+  "data_type": "image",
+
+  "title": "replanting_red_onion_in_prepared_bed",
+  "summary": "Image showing red onion bulbs being replanted into prepared soil bed in FZ-03 following stem cutting process.",
+
+  "reference": {
+    "dataunit_refs": ["01137"],
+    "proof_refs": [],
+    "note": "Continuous operational sequence from stem cutting to replanting."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibpizalg2au5sk6ywo4b3gaklrvebru63bu4xwnskgzhzeoxemilu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01138/hash/dataunit_01138.sha256",
+    "ots_file": "dataset/data-unit/01138/ots/dgcp_dataunit_01138.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "performed_by": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "dual-actor (operation and recording separated)",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
