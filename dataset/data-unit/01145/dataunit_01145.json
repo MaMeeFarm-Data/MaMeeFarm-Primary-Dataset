@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01145",
+  "file_path": "dataset/data-unit/01145/dataunit_01145.json",
+
+  "category": "Plant",
+  "sub_category": "Field Observation",
+
+  "captured_at_local": "2026-02-10 13:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Vegetable Bed Observation FZ-03",
+  "summary": "Visual observation of vegetable bed in FZ-03. Leaf condition and plant posture recorded under direct daylight conditions.",
+
+  "reference": {
+    "dataunit_refs": ["01144"],
+    "proof_refs": [],
+    "note": "Same-day continuity sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih3ugx3rbop5kjflm77e2zkwsefx5dncdu3onqbjzxc7z7brgfipe",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01145/hash/dataunit_01145.sha256",
+    "ots_file": "dataset/data-unit/01145/ots/dgcp_dataunit_01145.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
