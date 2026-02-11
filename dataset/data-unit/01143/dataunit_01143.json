@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01143",
+  "file_path": "dataset/data-unit/01143/dataunit_01143.json",
+
+  "category": "Microclimate",
+  "sub_category": "Temperature Log",
+
+  "captured_at_local": "2026-02-10 12:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Midday Temperature HZ-02",
+  "summary": "Microclimate sensor reading at HZ-02-T1. Temperature 27.1°C. Humidity 56%.",
+
+  "reference": {
+    "dataunit_refs": ["01128"],
+    "proof_refs": [],
+    "note": "Midday reading. Continuity of same-day temperature log."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibik7uodoyhskqlcqjuigb7yr3uxnsqx256tqbi7pmtdgvarysuti",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01143/hash/dataunit_01143.sha256",
+    "ots_file": "dataset/data-unit/01143/ots/dgcp_dataunit_01143.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
