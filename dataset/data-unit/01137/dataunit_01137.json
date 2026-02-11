@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01137",
+  "file_path": "dataset/data-unit/01137/dataunit_01137.json",
+
+  "category": "farm_operations",
+  "sub_category": "post_harvest_preparation",
+
+  "captured_at_local": "2026-02-10 07:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_bed",
+
+  "data_type": "image",
+
+  "title": "cutting_red_onion_stems_for_replanting",
+  "summary": "Image showing red onion stems being cut after pulling from bed in FZ-03 for preparation before replanting.",
+
+  "reference": {
+    "dataunit_refs": ["01136"],
+    "proof_refs": [],
+    "note": "Continuous sequence from previous harvest event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihhqj755ylkcnik7xphs44zrskqcc2vflarcryyivj6hsf3wmxr7u",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01137/hash/dataunit_01137.sha256",
+    "ots_file": "dataset/data-unit/01137/ots/dgcp_dataunit_01137.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "performed_by": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator recording",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
