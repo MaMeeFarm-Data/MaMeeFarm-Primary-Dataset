@@ -34,3 +34,30 @@ modification.
 Project: MaMeeFarm™  
 Framework: DGCP™  
 DGCP | MMFARM-POL-2025
+---
+
+## Care Event — 01
+
+Recorded Action: Pruning and routine plant maintenance  
+Lifecycle Update: Flowering → Early Fruiting  
+Observed Result: First fruit observed  
+
+DataUnit: 01043  
+Recorded Date (Local): 2026-02-07  
+Timezone: Asia/Bangkok  
+Zone: FZ-03  
+
+Note:
+- Asset record entry created after the actual event date.
+- Event timing follows DataUnit and Proof records.
+- No retroactive modification applied to baseline section.
+
+Project: MaMeeFarm™  
+Framework: DGCP™  
+
+DGCP | MMFARM-POL-2025  
+This work is licensed under the DGCP (Data Governance & Continuous Proof) framework.  
+All content is part of the MaMeeFarm™ Real-Work Data & Philosophy archive.  
+Redistribution, citation, or derivative use must preserve attribution and license reference.
+
+
