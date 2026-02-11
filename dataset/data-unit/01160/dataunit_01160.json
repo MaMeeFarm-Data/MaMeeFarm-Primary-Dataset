@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01160",
+  "file_path": "dataset/data-unit/01160/dataunit_01160.json",
+
+  "category": "plant",
+  "sub_category": "asset_identification",
+
+  "captured_at_local": "2026-02-11 07:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "red-shallot-bed",
+
+  "data_type": "image",
+
+  "title": "Asset label placement PLT-SHL-0001",
+  "summary": "Physical asset label PLT-SHL-0001 attached to stake in red shallot planting area at 07:17.",
+
+  "reference": {
+    "dataunit_refs": ["01139"],
+    "proof_refs": [],
+    "note": "Tracking start reference to planting record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihsmfukowzk7syedhiasikhyak3w7yehxuu4mqm75bhfnr4oncpdu",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01160/hash/dataunit_01160.sha256",
+    "ots_file": "dataset/data-unit/01160/ots/dgcp_dataunit_01160.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
