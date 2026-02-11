@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01135",
+  "file_path": "dataset/data-unit/01135/dataunit_01135.json",
+
+  "category": "farm_operations",
+  "sub_category": "soil_preparation",
+
+  "captured_at_local": "2026-02-10 07:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "vegetable_bed",
+
+  "data_type": "image",
+
+  "title": "digging_vegetable_bed_previous_kale_bed",
+  "summary": "Image of MaMee digging and preparing a vegetable bed (previous kale bed).",
+
+  "reference": {
+    "dataunit_refs": ["01105", "01120", "01121"],
+    "proof_refs": [],
+    "note": "Continuous event. Same bed context. Recorded by P'Toh."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihhgl4lxct3qoh7m5wtbzici7ehs3hku6um4iuliezlkha6f5fd7e",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01135/hash/dataunit_01135.sha256",
+    "ots_file": "dataset/data-unit/01135/ots/dgcp_dataunit_01135.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "performed_by": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator recording",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
