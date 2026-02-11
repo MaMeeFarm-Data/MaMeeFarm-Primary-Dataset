@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01154",
+  "file_path": "dataset/data-unit/01154/dataunit_01154.json",
+
+  "category": "Infrastructure",
+  "sub_category": "Power System Status",
+
+  "captured_at_local": "2026-02-11 00:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FARM",
+  "sub_zone": "INV-01",
+
+  "data_type": "image",
+
+  "title": "Solar Inverter Night Shutdown Status",
+  "summary": "Solar inverter powered off. Red warning indicator light visible. Display screen not showing output.",
+
+  "reference": {
+    "dataunit_refs": ["01141"],
+    "proof_refs": [],
+    "note": ""
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeighln2gf573rdrahl2mrf4h23pkfa5brwsohqi2edizewtjqlhw2y",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01154/hash/dataunit_01154.sha256",
+    "ots_file": "dataset/data-unit/01154/ots/dgcp_dataunit_01154.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
+
