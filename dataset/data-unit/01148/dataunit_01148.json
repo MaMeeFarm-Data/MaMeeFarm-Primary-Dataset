@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01148",
+  "file_path": "dataset/data-unit/01148/dataunit_01148.json",
+
+  "category": "Environmental Observation",
+  "sub_category": "Wildlife Presence",
+
+  "captured_at_local": "2026-02-10 18:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Animal Observed on Papaya Tree",
+  "summary": "An unidentified animal observed attached to trunk of papaya tree during evening observation.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": ""
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihlpfwwqp2gxtya4i5xxgrgkyf7vvenv7xaknt2lka6vl5jhafkn4",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01148/hash/dataunit_01148.sha256",
+    "ots_file": "dataset/data-unit/01148/ots/dgcp_dataunit_01148.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
