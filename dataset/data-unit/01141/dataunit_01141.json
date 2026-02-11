@@ -1,0 +1,79 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01141",
+  "file_path": "dataset/data-unit/01141/dataunit_01141.json",
+
+  "category": "energy_system",
+  "sub_category": "solar_power_inverter_status",
+
+  "captured_at_local": "2026-02-10 08:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Energy-System",
+
+  "data_type": "image",
+
+  "title": "solar_inverter_screen_not_displaying",
+  "summary": "INV-01 power inverter powered on. Front panel active. Display screen not showing output. System labels visible: SPV-A-0001 (Solar Panel Array, 4 panels), PWR-BAT-0001/0002 (Storage), INV-01 (Inverter).",
+
+  "system_components": {
+    "solar_array": {
+      "asset_id": "SPV-A-0001",
+      "type": "Solar Panel Array",
+      "panel_count": 4,
+      "status": "Active"
+    },
+    "battery_storage": [
+      {
+        "asset_id": "PWR-BAT-0001",
+        "type": "Battery Storage"
+      },
+      {
+        "asset_id": "PWR-BAT-0002",
+        "type": "Battery Storage"
+      }
+    ],
+    "inverter": {
+      "asset_id": "INV-01",
+      "type": "Power Inverter",
+      "function": "DC to AC conversion for farm systems"
+    }
+  },
+
+  "observed_condition": {
+    "power_button": "On",
+    "display_status": "No visible output on screen",
+    "fault_indicator": "Not confirmed"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01127"],
+    "proof_refs": [],
+    "note": "Continuation from previous system shutdown on 2026-02-09."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaqyuziup6pq5mymclutmgtst7cwc3gr7t5ssxfjh5yyauo66uwyu",
+    "note": "Raw inverter status image."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01141/hash/dataunit_01141.sha256",
+    "ots_file": "dataset/data-unit/01141/ots/dgcp_dataunit_01141.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
