@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01147",
+  "file_path": "dataset/data-unit/01147/dataunit_01147.json",
+
+  "category": "Animal Care",
+  "sub_category": "Feeding",
+
+  "captured_at_local": "2026-02-10 17:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dogs Consuming Evening Meal",
+  "summary": "Multiple dogs consuming dry food on ground surface during evening feeding round.",
+
+  "reference": {
+    "dataunit_refs": ["01146"],
+    "proof_refs": [],
+    "note": "Same-session feeding continuity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigghq5sh7hj66kdbj3qs25ahj7nrgnmwqyvndiahmkiut556pzhuy",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01147/hash/dataunit_01147.sha256",
+    "ots_file": "dataset/data-unit/01147/ots/dgcp_dataunit_01147.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
