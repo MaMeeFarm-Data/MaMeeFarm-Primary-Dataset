@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01149",
+  "file_path": "dataset/data-unit/01149/dataunit_01149.json",
+
+  "category": "Farm Operation",
+  "sub_category": "Crop Maintenance",
+
+  "captured_at_local": "2026-02-10 18:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Manual Watering of Vegetable Plot",
+  "summary": "Water applied manually to vegetable plot using watering can during evening operation.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": ""
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidl7dmb4p7upry5siqq4ekuli4k5rifvj7dqqppnidug5qu4xtqci",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01149/hash/dataunit_01149.sha256",
+    "ots_file": "dataset/data-unit/01149/ots/dgcp_dataunit_01149.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
