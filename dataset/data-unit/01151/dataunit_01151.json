@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01151",
+  "file_path": "dataset/data-unit/01151/dataunit_01151.json",
+
+  "category": "Microclimate",
+  "sub_category": "Duck House Temperature Log",
+
+  "captured_at_local": "2026-02-10 18:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Duck House Evening Temperature Record",
+  "summary": "Temperature record at duck house in the evening. IN: 26.6°C, OUT: 25.3°C, RH: 69%.",
+
+  "reference": {
+    "dataunit_refs": ["01144"],
+    "proof_refs": [],
+    "note": ""
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicashsiql5obyiuo43pvzogaxj2spl5mleqv6lyyhazxzggogq4re",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01151/hash/dataunit_01151.sha256",
+    "ots_file": "dataset/data-unit/01151/ots/dgcp_dataunit_01151.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
