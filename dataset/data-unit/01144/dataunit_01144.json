@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01144",
+  "file_path": "dataset/data-unit/01144/dataunit_01144.json",
+
+  "category": "Microclimate",
+  "sub_category": "Temperature Log",
+
+  "captured_at_local": "2026-02-10 13:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Midday Temperature FZ-03",
+  "summary": "Duck house microclimate sensor reading. Indoor temperature 34.2°C. Outdoor temperature 33.4°C. Humidity 47%. No ducks present in housing at time of capture.",
+
+  "reference": {
+    "dataunit_refs": ["01140"],
+    "proof_refs": [],
+    "note": "Midday reading. Continuity of same-day temperature log."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieskxtwdd6eym74qquxplahqs22hrvo3dfgdq7nryet6r2h73jode",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01144/hash/dataunit_01144.sha256",
+    "ots_file": "dataset/data-unit/01144/ots/dgcp_dataunit_01144.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
