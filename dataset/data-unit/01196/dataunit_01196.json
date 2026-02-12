@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01196",
+  "file_path": "dataset/data-unit/01196/dataunit_01196.json",
+
+  "category": "animal_care",
+  "sub_category": "feeding",
+
+  "captured_at_local": "2026-02-12 07:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house-yard",
+
+  "data_type": "image",
+
+  "title": "Dogs eating dry food",
+  "summary": "Dogs consuming dry dog food distributed on ground surface in HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01195"],
+    "proof_refs": [],
+    "note": "Direct continuation of the feeding sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidxreeuksh3xd3ue4kdrti55dd4uc5xwhn5qnrrwp3n5q7cxcdmba",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01196/hash/dataunit_01196.sha256",
+    "ots_file": "dataset/data-unit/01196/ots/dgcp_dataunit_01196.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
