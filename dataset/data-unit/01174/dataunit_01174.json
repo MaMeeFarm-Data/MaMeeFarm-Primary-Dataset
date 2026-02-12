@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01174",
+  "file_path": "dataset/data-unit/01174/dataunit_01174.json",
+
+  "category": "water_system",
+  "sub_category": "pump_operation_status",
+
+  "captured_at_local": "2026-02-11 12:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "WT-UW-0001-0002",
+
+  "data_type": "image",
+
+  "title": "Pump operation stopped due to low groundwater inflow",
+  "summary": "Water level inside underground well WT-UW-0001-0002 observed low. Pump operation stopped to prevent dry running.",
+
+  "asset_reference": {
+    "well_id": "WT-UW-0001-0002"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01170", "01171", "01173"],
+    "proof_refs": [],
+    "note": "Sequential continuation of water distribution event. Operational adjustment recorded."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihfszw7b5wyzzcyg2gvqiwj27y2zyzjorfcxwqmd7qmqxbsisdapm",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01174/hash/dataunit_01174.sha256",
+    "ots_file": "dataset/data-unit/01174/ots/dgcp_dataunit_01174.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
