@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01205",
+  "file_path": "dataset/data-unit/01205/dataunit_01205.json",
+
+  "category": "care_event",
+  "sub_category": "grass_clearing_completion",
+
+  "captured_at_local": "2026-02-12 11:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "papaya_area",
+
+  "data_type": "image",
+
+  "title": "Grass clearing completed around papaya base",
+  "summary": "Grass clearing around the papaya tree base completed. Soil surface visible and cleared of surrounding vegetation.",
+
+  "care_event": {
+    "target_type": "plant",
+    "target_common_name": "Papaya",
+    "asset_id": "pending",
+    "action": "grass_clearing_completed",
+    "tools_observed": ["hoe"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01204"],
+    "note": "Continuation of grass clearing preparation event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie5mpg4ge4nk2cf4alzgcg7aaiafw7frzfmzi6wft5apo5byida6q",
+    "note": "Raw image evidence with timestamp overlay."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01205/hash/dataunit_01205.sha256",
+    "ots_file": "dataset/data-unit/01205/ots/dgcp_dataunit_01205.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
