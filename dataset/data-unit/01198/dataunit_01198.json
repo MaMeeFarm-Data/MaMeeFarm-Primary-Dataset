@@ -1,0 +1,63 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01198",
+  "file_path": "dataset/data-unit/01198/dataunit_01198.json",
+
+  "category": "asset_event",
+  "sub_category": "care_event",
+
+  "captured_at_local": "2026-02-12 07:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "plant-area",
+
+  "data_type": "image",
+
+  "title": "Care event label attached: PLT-PAP-0003 harvest reference",
+  "summary": "Event label attached to papaya plant PLT-PAP-0003 referencing harvest activity (Proof 627).",
+
+  "asset": {
+    "asset_id": "PLT-PAP-0003",
+    "asset_type": "plant",
+    "common_name": "papaya"
+  },
+
+  "event": {
+    "event_type": "care_event",
+    "event_code": "01",
+    "event_name": "harvest",
+    "proof_reference": "627"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01197"],
+    "proof_refs": ["627"],
+    "note": "Chronological continuity preserved."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigrs35nzeznvizyaqzwolfw6xunv5oet44dppmn4ye3hlzk6epfhu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01198/hash/dataunit_01198.sha256",
+    "ots_file": "dataset/data-unit/01198/ots/dgcp_dataunit_01198.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
