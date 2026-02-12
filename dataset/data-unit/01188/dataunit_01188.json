@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01188",
+  "file_path": "dataset/data-unit/01188/dataunit_01188.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_record",
+
+  "captured_at_local": "2026-02-11 18:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Evening temperature record (corrected timestamp reference)",
+  "summary": "Temperature and humidity reading recorded from device display. Timestamp verified directly from device display in image. This record corrects previous invalid entry DU 01182 without deletion or overwrite.",
+
+  "sensor_data": {
+    "device_id": "HTC-1",
+    "temperature_celsius": 27.9,
+    "humidity_percent": 61,
+    "time_display": "18:04",
+    "source_of_truth": "device_display_in_image"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01182"],
+    "correction_type": "timestamp_mismatch_correction",
+    "note": "Corrects DU 01182 where captured_at_local did not match the device display timestamp in the image. This entry preserves chronological integrity without deletion or overwrite."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicls7o2kusuazuzngppiq2gkuppyzduc35aevztww6lxsvyscwjt4",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01188/hash/dataunit_01188.sha256",
+    "ots_file": "dataset/data-unit/01188/ots/dgcp_dataunit_01188.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "governance_note": "No retroactive modification performed. Correction issued as additive record.",
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
