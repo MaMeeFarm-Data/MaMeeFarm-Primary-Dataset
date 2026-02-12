@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01178",
+  "file_path": "dataset/data-unit/01178/dataunit_01178.json",
+
+  "category": "infrastructure",
+  "sub_category": "equipment_handling",
+
+  "captured_at_local": "2026-02-11 16:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Pump PMP-0003 stored after operation",
+  "summary": "Submersible pump PMP-0003 positioned beside farm water tank after use. Hose and cable visible. Operation concluded.",
+
+  "asset_reference": {
+    "asset_id": "PMP-0003",
+    "asset_type": "water_pump",
+    "status": "post-operation standby"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01169"],
+    "proof_refs": [],
+    "note": "Sequential event following water transfer activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibyfdl4gamlwpnpdyucseqzmetcvsrqfy5dzfyovep77ro3h7y6gy",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01178/hash/dataunit_01178.sha256",
+    "ots_file": "dataset/data-unit/01178/ots/dgcp_dataunit_01178.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
