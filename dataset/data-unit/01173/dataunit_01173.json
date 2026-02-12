@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01173",
+  "file_path": "dataset/data-unit/01173/dataunit_01173.json",
+
+  "category": "water_flow",
+  "sub_category": "gravity_distribution",
+
+  "captured_at_local": "2026-02-11 12:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "Adjacent to duck house",
+
+  "data_type": "image",
+
+  "title": "Water flow arrival from HZ-02 to FZ-03",
+  "summary": "Surface water visibly flowing through channel from HZ-02 into FZ-03 beside duck house structure. Flow continuity confirmed.",
+
+  "asset_reference": {
+    "source_zone": "HZ-02",
+    "destination_zone": "FZ-03"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01170", "01171"],
+    "proof_refs": [],
+    "note": "Sequential continuation of water distribution event. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiecgtfdp3eyv72tnuvfg4qgg6j3ylezs5bv2vrfcbg2jzpnnxhhsm",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01173/hash/dataunit_01173.sha256",
+    "ots_file": "dataset/data-unit/01173/ots/dgcp_dataunit_01173.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
