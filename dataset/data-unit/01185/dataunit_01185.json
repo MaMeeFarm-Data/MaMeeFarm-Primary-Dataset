@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01185",
+  "file_path": "dataset/data-unit/01185/dataunit_01185.json",
+
+  "category": "asset_management",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-11 17:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset ID label applied to house water pump",
+  "summary": "Asset label applied to water pump unit. Label text shows Asset ID PMP-H-0004, system House Water Supply, zone HZ-02, status Fault / Maintenance Required.",
+
+  "asset": {
+    "asset_id": "PMP-H-0004",
+    "asset_type": "Water Pump",
+    "system": "House Water Supply",
+    "zone_label": "HZ-02",
+    "status": "Fault / Maintenance Required"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01184"],
+    "proof_refs": [],
+    "note": "Connected to previous filtration system asset labeling."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidnaewdqhzsbv3iqdhu3ibjxn2trtfrjssfknc222edqs4y7wbtf4",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01185/hash/dataunit_01185.sha256",
+    "ots_file": "dataset/data-unit/01185/ots/dgcp_dataunit_01185.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
