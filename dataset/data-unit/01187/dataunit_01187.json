@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01187",
+  "file_path": "dataset/data-unit/01187/dataunit_01187.json",
+
+  "category": "infrastructure",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-11 17:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Additional water system label attached to WTR-FLT-0001",
+  "summary": "Additional printed label attached to water filtration tank WTR-FLT-0001 showing system linkage: WT-H-0001 / WT-H-0002 (gravity source), WTR-FLT-0001 (filter), PMP-H-0004 (pressure support), House distribution status: Flow active, Pressure low.",
+
+  "asset": {
+    "primary_asset": "WTR-FLT-0001",
+    "linked_assets": [
+      "WT-H-0001",
+      "WT-H-0002",
+      "PMP-H-0004"
+    ],
+    "system": "House Water System",
+    "zone_label": "HZ-02"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01181"],
+    "proof_refs": [],
+    "note": "System linkage label installed after initial filter ID registration."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaxhqkwidflfrhvi65roirobylllokygch6z2id4uqt2t5p57lzzm",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01187/hash/dataunit_01187.sha256",
+    "ots_file": "dataset/data-unit/01187/ots/dgcp_dataunit_01187.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
