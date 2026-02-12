@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01192",
+  "file_path": "dataset/data-unit/01192/dataunit_01192.json",
+
+  "category": "environment",
+  "sub_category": "microclimate_record",
+
+  "captured_at_local": "2026-02-12 00:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Midnight microclimate record – HZ-02",
+  "summary": "Microclimate reading captured directly from device display during midnight round.",
+
+  "measurement": {
+    "temperature_celsius": 21.4,
+    "humidity_percent": 68,
+    "device_id": "HZ-02-HTC-1",
+    "verification": "timestamp verified from device display in image"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01188"],
+    "proof_refs": [],
+    "note": "Chronological continuation. No overwrite performed."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihvgzqayxh2g3eotkjloqqqxx753j3uj6pxxxgaanzgm4vvixqwrq",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01192/hash/dataunit_01192.sha256",
+    "ots_file": "dataset/data-unit/01192/ots/dgcp_dataunit_01192.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "continuity_note": "Chronological sequence preserved.",
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
