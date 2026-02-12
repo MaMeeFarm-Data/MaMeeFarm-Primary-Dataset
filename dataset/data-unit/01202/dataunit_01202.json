@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01202",
+  "file_path": "dataset/data-unit/01202/dataunit_01202.json",
+
+  "category": "care_event",
+  "sub_category": "environment_sanitation",
+
+  "captured_at_local": "2026-02-12 10:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "yard_path",
+
+  "data_type": "image",
+
+  "title": "Dog waste collection (environment sanitation)",
+  "summary": "MaMee performs routine dog waste collection to maintain cleanliness and reduce biohazard risk in HZ-02.",
+
+  "care": {
+    "care_type": "sanitation",
+    "scope": "environment",
+    "target": "dog_waste",
+    "method": "manual_collection",
+    "intended_outcome": "cleanliness_and_hygiene"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01163", "01201"],
+    "note": "References DU 01163 as prior related sanitation activity. Chronological continuity preserved."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidcln57l5izsyqe5gpu4ieyf7h7zglgcgof2lz5nm2cg3h7dpqxga",
+    "note": "Raw image evidence with timestamp overlay."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01202/hash/dataunit_01202.sha256",
+    "ots_file": "dataset/data-unit/01202/ots/dgcp_dataunit_01202.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
