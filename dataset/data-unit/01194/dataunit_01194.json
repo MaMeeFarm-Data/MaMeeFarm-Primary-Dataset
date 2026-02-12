@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01194",
+  "file_path": "dataset/data-unit/01194/dataunit_01194.json",
+
+  "category": "environment",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-12 07:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Morning temperature and humidity record",
+  "summary": "Device display shows 19.0°C temperature and 71% relative humidity.",
+
+  "reference": {
+    "dataunit_refs": ["01192"],
+    "proof_refs": [],
+    "note": "Chronological continuation from previous HZ-02 microclimate record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaech5yrqzmqesdeoo4u6pfklrek7wa4ww52nzj5qpgrqqzg3hjcu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01194/hash/dataunit_01194.sha256",
+    "ots_file": "dataset/data-unit/01194/ots/dgcp_dataunit_01194.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
