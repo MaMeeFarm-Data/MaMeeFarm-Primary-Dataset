@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01163",
+  "file_path": "dataset/data-unit/01163/dataunit_01163.json",
+
+  "category": "farm_operation",
+  "sub_category": "area_cleaning",
+
+  "captured_at_local": "2026-02-11 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "general-area",
+
+  "data_type": "image",
+
+  "title": "Area cleaning activity in HZ-02",
+  "summary": "MaMee performing ground cleaning activity in HZ-02 area. Multiple dogs present. Recorded by P'Toh at 08:09.",
+
+  "reference": {
+    "dataunit_refs": ["01142"],
+    "proof_refs": [],
+    "note": "Continuation of routine area maintenance record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigyc76haej3rosba4q6rn22hz65t62bumu37pdh2ooklhmbnnyjiq",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01163/hash/dataunit_01163.sha256",
+    "ots_file": "dataset/data-unit/01163/ots/dgcp_dataunit_01163.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
