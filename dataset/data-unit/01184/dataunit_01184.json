@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01184",
+  "file_path": "dataset/data-unit/01184/dataunit_01184.json",
+
+  "category": "asset_management",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-11 17:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset ID label applied to water filtration system",
+  "summary": "Asset label applied to filtration system unit. Label text shows Asset ID WTR-FLT-0001 and zone marked as Utility-System.",
+
+  "asset": {
+    "asset_id": "WTR-FLT-0001",
+    "asset_type": "Water",
+    "system": "Filtration System",
+    "zone_label": "Utility-System"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01181"],
+    "proof_refs": [],
+    "note": "Reference data unit 01181."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihstdzhljmf3r7wqooj5fphh6qpjsmfhfhexhuzj3pvgdhosfgvny",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01184/hash/dataunit_01184.sha256",
+    "ots_file": "dataset/data-unit/01184/ots/dgcp_dataunit_01184.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
