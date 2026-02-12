@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01200",
+  "file_path": "dataset/data-unit/01200/dataunit_01200.json",
+
+  "category": "environment_record",
+  "sub_category": "microclimate_sensor",
+
+  "captured_at_local": "2026-02-12 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Duck house microclimate record (HTC-2)",
+  "summary": "Morning microclimate record at duck house sensor HTC-2: IN 19.1°C, OUT 18.5°C, RH 85%.",
+
+  "sensor": {
+    "sensor_id": "HTC-2",
+    "sensor_type": "microclimate_sensor",
+    "placement": "duck_house",
+    "metrics": ["temperature_in_c", "temperature_out_c", "relative_humidity_percent"]
+  },
+
+  "observations": {
+    "temperature_in_c": 19.1,
+    "temperature_out_c": 18.5,
+    "relative_humidity_percent": 85
+  },
+
+  "reference": {
+    "dataunit_refs": ["01199", "01190"],
+    "note": "Chronological continuity preserved. References DU 01190 as prior related record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigi7t674ilnegufbrhegnwpcnaynepvu6h6j46zxbavwfkb3n3l3e",
+    "note": "Raw image evidence with device display."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01200/hash/dataunit_01200.sha256",
+    "ots_file": "dataset/data-unit/01200/ots/dgcp_dataunit_01200.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
