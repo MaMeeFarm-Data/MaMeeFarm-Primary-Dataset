@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01167",
+  "file_path": "dataset/data-unit/01167/dataunit_01167.json",
+
+  "category": "farm_operation",
+  "sub_category": "cooking_completion",
+
+  "captured_at_local": "2026-02-11 09:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-STV-0001",
+
+  "data_type": "image",
+
+  "title": "Cooked rice on wood stove HZ-STV-0001",
+  "summary": "Rice fully cooked in pot positioned on wood stove HZ-STV-0001 at 09:13.",
+
+  "reference": {
+    "dataunit_refs": ["01166"],
+    "proof_refs": [],
+    "note": "Continuation of rice cooking sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib2x564u2cgbhpsm6g4tp2hj3krp2eqvw7tvqbi5q4moqssnrqulm",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01167/hash/dataunit_01167.sha256",
+    "ots_file": "dataset/data-unit/01167/ots/dgcp_dataunit_01167.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
