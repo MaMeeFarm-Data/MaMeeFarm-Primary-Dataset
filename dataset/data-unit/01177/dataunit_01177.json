@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01177",
+  "file_path": "dataset/data-unit/01177/dataunit_01177.json",
+
+  "category": "infrastructure",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-11 16:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "WT-F-0002 physical asset ID label installed",
+  "summary": "Permanent farm water tank WT-F-0002 (2000L) labeled and visibly marked as active asset in HZ-02.",
+
+  "asset_reference": {
+    "asset_id": "WT-F-0002",
+    "asset_type": "water_tank",
+    "capacity_liters": 2000,
+    "status": "active"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01176"],
+    "proof_refs": [],
+    "note": "Second permanent tank labeling event in sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihfrszuqdxbivdrueeuco7vnjp5zzou5etzjtqdz6fsbt5chlt7fy",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01177/hash/dataunit_01177.sha256",
+    "ots_file": "dataset/data-unit/01177/ots/dgcp_dataunit_01177.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
