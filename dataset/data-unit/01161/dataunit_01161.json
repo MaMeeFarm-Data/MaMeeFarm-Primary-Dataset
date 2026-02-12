@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01161",
+  "file_path": "dataset/data-unit/01161/dataunit_01161.json",
+
+  "category": "environment",
+  "sub_category": "temperature_humidity",
+
+  "captured_at_local": "2026-02-11 07:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Duck house temperature and humidity reading",
+  "summary": "Device display shows indoor temperature 18.3°C, outdoor temperature 17.7°C, and relative humidity 87% at 07:22. No ducks visible in enclosure.",
+
+  "reference": {
+    "dataunit_refs": ["01151"],
+    "proof_refs": [],
+    "note": "Continuation of environmental monitoring sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig7en34gzinqaak7xrdzdzs4cucyvcn2sgfo4nyefhcxnyjve4xhy",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01161/hash/dataunit_01161.sha256",
+    "ots_file": "dataset/data-unit/01161/ots/dgcp_dataunit_01161.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
