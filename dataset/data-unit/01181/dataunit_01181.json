@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01181",
+  "file_path": "dataset/data-unit/01181/dataunit_01181.json",
+
+  "category": "infrastructure",
+  "sub_category": "water_filtration_system",
+
+  "captured_at_local": "2026-02-11 16:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water filtration tank installed in HZ-02",
+  "summary": "Vertical water filtration tank with multi-valve piping configuration connected to house water system. Unit positioned adjacent to structure wall in HZ-02.",
+
+  "asset_reference": {
+    "asset_type": "water_filtration_unit",
+    "system": "house_water_system",
+    "status": "active",
+    "linked_assets": ["WT-H-0001", "WT-H-0002"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01179", "01180"],
+    "proof_refs": [],
+    "note": "Part of connected house water storage and distribution system."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidnzyts6yxijw6nuliguge3fa6yzx4a4fl3l7gjx5o4dd6yj5dwqy",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01181/hash/dataunit_01181.sha256",
+    "ots_file": "dataset/data-unit/01181/ots/dgcp_dataunit_01181.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
