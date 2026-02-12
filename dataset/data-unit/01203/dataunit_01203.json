@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01203",
+  "file_path": "dataset/data-unit/01203/dataunit_01203.json",
+
+  "category": "plant_event",
+  "sub_category": "phenology_observation",
+
+  "captured_at_local": "2026-02-12 11:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "garden_area",
+
+  "data_type": "image",
+
+  "title": "Rose blooming observation (Event-01)",
+  "summary": "Observation record of rose plant (PLT-ROS-001) blooming. Flower in open stage documented under natural light conditions.",
+
+  "plant": {
+    "asset_id": "PLT-ROS-001",
+    "common_name": "Rose",
+    "event_type": "flower_bloom",
+    "event_id": "Event-01",
+    "lifecycle_stage": "flowering"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01202"],
+    "note": "Chronological sequence preserved."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic2uemw3vc2ocvtdtzdj5fv6sd54p3vvsg6if6rnummdttfkc4buy",
+    "note": "Raw image evidence with timestamp overlay."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01203/hash/dataunit_01203.sha256",
+    "ots_file": "dataset/data-unit/01203/ots/dgcp_dataunit_01203.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
