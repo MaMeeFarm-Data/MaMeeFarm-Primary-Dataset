@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01162",
+  "file_path": "dataset/data-unit/01162/dataunit_01162.json",
+
+  "category": "infrastructure",
+  "sub_category": "power_system",
+
+  "captured_at_local": "2026-02-11 08:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "solar-control",
+
+  "data_type": "image",
+
+  "title": "Solar inverter system activated",
+  "summary": "Hybrid solar inverter unit powered on at 08:08. Indicator lights active on control panel.",
+
+  "reference": {
+    "dataunit_refs": ["01154"],
+    "proof_refs": [],
+    "note": "Previous record indicates system shutdown state."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihqojutyh2q52deefhcakdgqiheow47f4vwz6pl3tenwvenvkkezu",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01162/hash/dataunit_01162.sha256",
+    "ots_file": "dataset/data-unit/01162/ots/dgcp_dataunit_01162.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
