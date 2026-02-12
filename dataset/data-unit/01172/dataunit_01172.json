@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01172",
+  "file_path": "dataset/data-unit/01172/dataunit_01172.json",
+
+  "category": "environment_monitoring",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-02-11 12:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Midday temperature record – duck house (no ducks)",
+  "summary": "Microclimate sensor HTC-2 displays indoor temperature 33.5°C, outdoor temperature 33.3°C, relative humidity 46% at duck house zone without animals present.",
+
+  "asset_reference": {
+    "primary_asset": "HTC-2"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01161"],
+    "proof_refs": [],
+    "note": "Sequential environmental monitoring. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigv53f3y7353uaxuf23uxv2wk23j2ok2adv5vtwxsauq2ubizkmim",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01172/hash/dataunit_01172.sha256",
+    "ots_file": "dataset/data-unit/01172/ots/dgcp_dataunit_01172.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
