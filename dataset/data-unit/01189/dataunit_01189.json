@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01189",
+  "file_path": "dataset/data-unit/01189/dataunit_01189.json",
+
+  "category": "agriculture",
+  "sub_category": "irrigation_event",
+
+  "captured_at_local": "2026-02-11 18:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "open_plot",
+
+  "data_type": "image",
+
+  "title": "Evening irrigation – vegetable plot FZ-03",
+  "summary": "Water applied manually to vegetable plant in FZ-03 during evening hours. Hose visible delivering water directly to plant base.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Chronological sequence preserved."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiapopebsbyxinfvuicl4u3bttdqjny4g7qmav4kqi6yq335fug7ri",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01189/hash/dataunit_01189.sha256",
+    "ots_file": "dataset/data-unit/01189/ots/dgcp_dataunit_01189.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "continuity_note": "Chronological sequence preserved.",
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
