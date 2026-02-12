@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01193",
+  "file_path": "dataset/data-unit/01193/dataunit_01193.json",
+
+  "category": "infrastructure",
+  "sub_category": "energy_system",
+
+  "captured_at_local": "2026-02-12 00:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "Power-System",
+
+  "data_type": "image",
+
+  "title": "Solar inverter shutdown – HZ-02",
+  "summary": "Solar inverter system manually shut down during midnight round. Battery capacity did not sustain full 24-hour cycle.",
+
+  "system_state": {
+    "system_id": "INV-01",
+    "solar_array_id": "SPV-A-0001",
+    "battery_storage_ids": ["PWR-BAT-0001", "PWR-BAT-0002"],
+    "status": "manual_shutdown",
+    "battery_cycle_status": "incomplete_24h_support",
+    "operation_note": "System closed after battery discharge period."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01141"],
+    "proof_refs": [],
+    "note": "Chronological continuation from system open event (DU 01141). No overwrite performed."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidx5kwrrefpu4bmqezvyxk45mzn5nhn3pbxf523uyyhwngjxqoreq",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01193/hash/dataunit_01193.sha256",
+    "ots_file": "dataset/data-unit/01193/ots/dgcp_dataunit_01193.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "continuity_note": "Chronological sequence preserved.",
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
