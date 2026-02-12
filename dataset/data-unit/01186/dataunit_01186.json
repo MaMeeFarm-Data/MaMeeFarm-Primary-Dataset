@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01186",
+  "file_path": "dataset/data-unit/01186/dataunit_01186.json",
+
+  "category": "infrastructure",
+  "sub_category": "structural_support",
+
+  "captured_at_local": "2026-02-11 17:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Structural base supporting WT-H-0001 and WT-H-0002",
+  "summary": "Elevated structural platform supporting house water tanks WT-H-0001 and WT-H-0002. Approximate height ~3 meters. Located in HZ-02.",
+
+  "asset": {
+    "related_assets": [
+      "WT-H-0001",
+      "WT-H-0002"
+    ],
+    "structure_type": "Elevated water tank platform",
+    "approx_height_meters": 3,
+    "system": "House Water Supply",
+    "zone_label": "HZ-02"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01179", "01180"],
+    "proof_refs": [],
+    "note": "Structural base associated with previously labeled water tanks."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeify3ehes627lwkl772mzeopijr5xfqtyd4xzn7ffvsm6sitbijl5i",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01186/hash/dataunit_01186.sha256",
+    "ots_file": "dataset/data-unit/01186/ots/dgcp_dataunit_01186.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
