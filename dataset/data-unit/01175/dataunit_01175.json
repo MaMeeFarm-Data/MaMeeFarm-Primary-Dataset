@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01175",
+  "file_path": "dataset/data-unit/01175/dataunit_01175.json",
+
+  "category": "plant_observation",
+  "sub_category": "post_irrigation_condition",
+
+  "captured_at_local": "2026-02-11 12:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Plant condition observation after surface water release",
+  "summary": "Visual observation of plant and surrounding soil condition after water was released onto ground surface from HZ-02 distribution flow.",
+
+  "asset_reference": {
+    "related_water_event": ["01170", "01171", "01174"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01170", "01171", "01174"],
+    "proof_refs": [],
+    "note": "Sequential field observation following water flow event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidyxgs6btzqsqo7mlyzl2x65l4423h6q33hjvcdqx2wubfdypf3ke",
+    "note": "Raw image evidence stored via IPFS gateway."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01175/hash/dataunit_01175.sha256",
+    "ots_file": "dataset/data-unit/01175/ots/dgcp_dataunit_01175.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
