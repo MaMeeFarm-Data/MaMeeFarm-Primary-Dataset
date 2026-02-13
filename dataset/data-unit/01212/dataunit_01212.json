@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01212",
+  "file_path": "dataset/data-unit/01212/dataunit_01212.json",
+
+  "category": "environment_record",
+  "sub_category": "temperature_humidity_measurement",
+
+  "captured_at_local": "2026-02-12 12:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Duck house temperature record",
+  "summary": "Temperature IN: 35.0°C. Temperature OUT: 33.9°C. Relative Humidity: 45%. No ducks present.",
+
+  "reference": {
+    "dataunit_refs": ["01200"],
+    "proof_refs": [],
+    "note": "Chronological continuation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicckyvab6aa7tznrfdwqbtdaj7em7npuorxrk3izslhklvu3yv64q",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01212/hash/dataunit_01212.sha256",
+    "ots_file": "dataset/data-unit/01212/ots/dgcp_dataunit_01212.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
