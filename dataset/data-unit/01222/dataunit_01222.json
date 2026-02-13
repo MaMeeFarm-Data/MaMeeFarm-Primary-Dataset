@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01222",
+  "file_path": "dataset/data-unit/01222/dataunit_01222.json",
+
+  "category": "infrastructure_event",
+  "sub_category": "gate_operation",
+
+  "captured_at_local": "2026-02-12 18:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "INF-GATE-0003 closed",
+  "summary": "Closing of infrastructure gate INF-GATE-0003 during evening period.",
+
+  "asset_reference": {
+    "asset_id": "INF-GATE-0003",
+    "status": "closed"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01199"],
+    "proof_refs": [],
+    "note": "Gate was opened in the morning (DU 01199)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih2tgbo33svnmbjvwtxtqn6prxcmrwn6etemeln2i2a66kxcqaov4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01222/hash/dataunit_01222.sha256",
+    "ots_file": "dataset/data-unit/01222/ots/dgcp_dataunit_01222.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
