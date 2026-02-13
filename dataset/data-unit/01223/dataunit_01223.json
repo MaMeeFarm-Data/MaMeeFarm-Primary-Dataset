@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01223",
+  "file_path": "dataset/data-unit/01223/dataunit_01223.json",
+
+  "category": "environment_record",
+  "sub_category": "microclimate_temperature",
+
+  "captured_at_local": "2026-02-13 01:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "HZ-02-T1 temperature record 01:22",
+  "summary": "Microclimate sensor reading showing 19.6°C and 61% RH at 01:22.",
+
+  "asset_reference": {
+    "asset_id": "HZ-02-HTC-1",
+    "status": "active"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01194"],
+    "proof_refs": [],
+    "note": "Morning reference DU 01194."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiflt2mwn66ucfvjss7dmevbhsetbsz54ayuygiuirlbb6ocagxzdi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01223/hash/dataunit_01223.sha256",
+    "ots_file": "dataset/data-unit/01223/ots/dgcp_dataunit_01223.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
