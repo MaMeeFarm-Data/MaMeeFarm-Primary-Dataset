@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01211",
+  "file_path": "dataset/data-unit/01211/dataunit_01211.json",
+
+  "category": "animal_care_event",
+  "sub_category": "post_bathing_state",
+
+  "captured_at_local": "2026-02-12 12:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Puppy after bathing",
+  "summary": "Post-bathing state of puppy. Mamee and puppy visible in frame.",
+
+  "reference": {
+    "dataunit_refs": ["01210"],
+    "proof_refs": [],
+    "note": "Chronological continuation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibfbovbpusfpsemonfviwrzrjjnwcfyh7zyybwzthj4hi7uskmsbi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01211/hash/dataunit_01211.sha256",
+    "ots_file": "dataset/data-unit/01211/ots/dgcp_dataunit_01211.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
