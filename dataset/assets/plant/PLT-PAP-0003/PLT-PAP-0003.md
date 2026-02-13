@@ -25,3 +25,21 @@ Project: MaMeeFarm™
 Framework: DGCP™  
 
 DGCP | MMFARM-POL-2025
+
+---
+
+## Event Log — Care Event 01
+
+Care Event: 01 — Harvest  
+Description: Ripe fruit collected  
+
+Proof Reference: 627  
+
+Recorded Date (Local): 2026-02-11  
+Recorded Time (Local): 15:26  
+Timezone: Asia/Bangkok  
+
+Event Type: Produce Harvest  
+Traceability: Linked to Proof 627  
+
+DGCP | MMFARM-POL-2025
