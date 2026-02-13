@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01228",
+  "file_path": "dataset/data-unit/01228/dataunit_01228.json",
+
+  "category": "animal_care",
+  "sub_category": "water_supply",
+
+  "captured_at_local": "2026-02-13 06:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog water refill WT-M-0005 HZ-02",
+  "summary": "Manual refill of mobile water container WT-M-0005 for dogs at HZ-02.",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0005",
+    "asset_type": "Mobile Water Tank",
+    "status": "Active"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01227"],
+    "proof_refs": [],
+    "note": "Sequential morning care continuation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibhsyozvcy5xc7c3fkenpbrnx4tsls3bemnnee57g6z4nwbbi4yu4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01228/hash/dataunit_01228.sha256",
+    "ots_file": "dataset/data-unit/01228/ots/dgcp_dataunit_01228.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
