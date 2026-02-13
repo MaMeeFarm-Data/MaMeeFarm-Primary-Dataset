@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01230",
+  "file_path": "dataset/data-unit/01230/dataunit_01230.json",
+
+  "category": "asset_management",
+  "sub_category": "asset_label_installation",
+
+  "captured_at_local": "2026-02-13 07:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset ID label installation PLT-PAP-0006",
+  "summary": "Physical installation of printed asset identification label on plant asset PLT-PAP-0006 (Papaya) at HZ-02.",
+
+  "asset_reference": {
+    "asset_id": "PLT-PAP-0006",
+    "asset_type": "Plant",
+    "common_name": "Papaya",
+    "registration_reference": "DataUnit 01204",
+    "status": "Active"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01204"],
+    "proof_refs": [],
+    "note": "Asset ID visibility confirmation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihzzgeulzt3ucoh3yk3t7jmfwfyi72vtuoe2pp6pucopys7x2x6bu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01230/hash/dataunit_01230.sha256",
+    "ots_file": "dataset/data-unit/01230/ots/dgcp_dataunit_01230.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
