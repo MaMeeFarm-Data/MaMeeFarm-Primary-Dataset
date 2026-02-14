@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01247",
+  "file_path": "dataset/data-unit/01247/dataunit_01247.json",
+
+  "category": "energy_use_event",
+  "sub_category": "manual_fire_ignition",
+
+  "captured_at_local": "2026-02-13 12:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Manual fire ignition — STV-0001",
+  "summary": "Wood stove ignition initiated using prepared fuel. Flame visible at ignition stage.",
+
+  "asset_involved": {
+    "related_assets": ["STV-0001"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01243"],
+    "proof_refs": [],
+    "note": "Continuation of stove preparation and wood handling sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiebw56uquczpmfzel4fwh235ez4als77q6cfw2qgq6g4d432cmutm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01247/hash/dataunit_01247.sha256",
+    "ots_file": "dataset/data-unit/01247/ots/dgcp_dataunit_01247.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
