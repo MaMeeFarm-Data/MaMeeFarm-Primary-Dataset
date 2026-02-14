@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01252",
+  "file_path": "dataset/data-unit/01252/dataunit_01252.json",
+
+  "category": "human_sustenance_event",
+  "sub_category": "meal_record",
+
+  "captured_at_local": "2026-02-13 13:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal consumption record — P'Toh",
+  "summary": "Cooked rice prepared earlier (DU 01249) served as meal for P'Toh.",
+
+  "asset_involved": {
+    "related_dataunit": "01249"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01249"],
+    "proof_refs": [],
+    "note": "Continuity of food preparation to consumption."
+  },
+
+  "operation": {
+    "event_type": "meal_record",
+    "consumption_subject": "P'Toh",
+    "quantitative_value": null,
+    "instrumentation": "visual documentation only"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifttauo5qy3mbpx6bzno4fhm5nvzn2n2axtyhbfqzrpmunj5gixvu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01252/hash/dataunit_01252.sha256",
+    "ots_file": "dataset/data-unit/01252/ots/dgcp_dataunit_01252.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "self-recorded",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
