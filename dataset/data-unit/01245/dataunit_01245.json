@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01245",
+  "file_path": "dataset/data-unit/01245/dataunit_01245.json",
+
+  "category": "water_system_observation",
+  "sub_category": "underground_level_change",
+
+  "captured_at_local": "2026-02-13 12:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Underground water level observation — level decreased",
+  "summary": "Visual observation of underground water level in WT-UW-0001 / WT-UW-0002. Level appears reduced compared to prior record. No measuring instrument used.",
+
+  "asset_involved": {
+    "primary_assets": ["WT-UW-0001", "WT-UW-0002"],
+    "related_asset": "PMP-0003"
+  },
+
+  "measurement": {
+    "method": "visual inspection",
+    "quantified": false,
+    "comparison_reference": "01240",
+    "note": "No measuring instrument available. Relative decrease observed visually."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01240"],
+    "proof_refs": [],
+    "note": "Sequential continuation of underground water monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib3pueuqvpu3fylqqq7g6ugkxgfcgiwtpme673x7nkvtzzgmolm4i",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01245/hash/dataunit_01245.sha256",
+    "ots_file": "dataset/data-unit/01245/ots/dgcp_dataunit_01245.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
