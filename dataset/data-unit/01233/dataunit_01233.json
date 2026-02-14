@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01233",
+  "file_path": "dataset/data-unit/01233/dataunit_01233.json",
+
+  "category": "agriculture_event",
+  "sub_category": "plant_harvest_activity",
+
+  "captured_at_local": "2026-02-13 07:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Basil cutting activity — FZ-03",
+  "summary": "Field activity record: Mamee cutting basil plant branches in FZ-03 area.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Operational morning field activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicpdiwudqorvuflnqjavdihdyjatpgaheftoyiyg6sugdzvvdrtmy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01233/hash/dataunit_01233.sha256",
+    "ots_file": "dataset/data-unit/01233/ots/dgcp_dataunit_01233.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
