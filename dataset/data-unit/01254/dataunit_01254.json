@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01254",
+  "file_path": "dataset/data-unit/01254/dataunit_01254.json",
+
+  "category": "equipment_handling_event",
+  "sub_category": "post_operation_storage",
+
+  "captured_at_local": "2026-02-13 13:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Equipment storage after pump operation — PMP-0003",
+  "summary": "Pump PMP-0003 stored after water transfer sequence completion.",
+
+  "asset_involved": {
+    "asset_id": "PMP-0003",
+    "related_dataunit": "01238"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01238", "01253"],
+    "proof_refs": [],
+    "note": "Post-operation handling following water overflow event."
+  },
+
+  "operation": {
+    "event_type": "post_operation_storage",
+    "quantitative_value": null,
+    "instrumentation": "visual documentation only"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyylrkro6xvuc62umynccb366ntfltp5myvrsu6t5i7malnezgiq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01254/hash/dataunit_01254.sha256",
+    "ots_file": "dataset/data-unit/01254/ots/dgcp_dataunit_01254.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
