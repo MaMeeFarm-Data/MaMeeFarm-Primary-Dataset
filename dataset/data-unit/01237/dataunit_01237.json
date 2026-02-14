@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01237",
+  "file_path": "dataset/data-unit/01237/dataunit_01237.json",
+
+  "category": "animal_care_event",
+  "sub_category": "waste_management",
+
+  "captured_at_local": "2026-02-13 09:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog waste cleaning activity — HZ-02",
+  "summary": "Routine animal care activity: dog waste collected in HZ-02. Mamee present in frame. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01226"],
+    "proof_refs": [],
+    "note": "Care sequence continuation following feeding record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihxrufc3uc6zarwx35ml5jugh4oe5k3smhjountbg6oxgqiimrqc4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01237/hash/dataunit_01237.sha256",
+    "ots_file": "dataset/data-unit/01237/ots/dgcp_dataunit_01237.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
