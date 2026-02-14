@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01263",
+  "file_path": "dataset/data-unit/01263/dataunit_01263.json",
+
+  "category": "agriculture_activity",
+  "sub_category": "post_planting_watering",
+
+  "captured_at_local": "2026-02-13 18:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Post-planting watering activity",
+  "summary": "Watering soil immediately after planting in FZ-03 cultivation bed.",
+
+  "activity_data": {
+    "activity_type": "manual watering",
+    "water_source": "manual container",
+    "purpose": "soil moisture stabilization",
+    "related_crop_reference": "DU 01260"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01260"],
+    "proof_refs": [],
+    "note": "Watering performed immediately after planting event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif4yawafqv6tywmakaqkcofx4zomy4fpppsrdyaof3q7vgh36pnom",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01263/hash/dataunit_01263.sha256",
+    "ots_file": "dataset/data-unit/01263/ots/dgcp_dataunit_01263.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
