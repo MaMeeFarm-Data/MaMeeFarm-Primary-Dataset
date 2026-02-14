@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01255",
+  "file_path": "dataset/data-unit/01255/dataunit_01255.json",
+
+  "category": "water_system_event",
+  "sub_category": "tank_full_state",
+
+  "captured_at_local": "2026-02-13 13:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water tank full state confirmed — WT-F-0001 & WT-F-0002",
+  "summary": "Visual confirmation of full water level in connected tanks WT-F-0001 and WT-F-0002.",
+
+  "asset_involved": {
+    "asset_ids": ["WT-F-0001", "WT-F-0002"],
+    "capacity_liters_per_unit": 2000,
+    "connection_type": "linked storage system"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01253"],
+    "proof_refs": [],
+    "note": "Post-overflow full-level confirmation."
+  },
+
+  "operation": {
+    "event_type": "tank_full_state_confirmation",
+    "quantitative_value": null,
+    "instrumentation": "visual observation only"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid5q2sk5epjlw6fxberae2tupmdr6u3lyutswxfpcvlqs2f6bbd4e",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01255/hash/dataunit_01255.sha256",
+    "ots_file": "dataset/data-unit/01255/ots/dgcp_dataunit_01255.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
