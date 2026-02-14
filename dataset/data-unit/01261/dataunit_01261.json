@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01261",
+  "file_path": "dataset/data-unit/01261/dataunit_01261.json",
+
+  "category": "agricultural_metadata",
+  "sub_category": "seed_identification",
+
+  "captured_at_local": "2026-02-13 18:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Vegetable variety identification — Big Lao",
+  "summary": "Seed packet documentation confirming planted vegetable variety.",
+
+  "crop_information": {
+    "crop_type": "Chinese kale",
+    "local_name": "ผักชีกลาว",
+    "variety_name": "บิ๊กลาวเด้อ",
+    "source_type": "commercial seed packet",
+    "related_planting_event": "DU 01260"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01260"],
+    "proof_refs": [],
+    "note": "Seed variety confirmation for previously recorded planting event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiahst3nvh725wy2zg6lvzmlykxjdwg5uk3uqf7gogakqicjgl2m2q",
+    "note": "Raw image evidence of seed packet."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01261/hash/dataunit_01261.sha256",
+    "ots_file": "dataset/data-unit/01261/ots/dgcp_dataunit_01261.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
