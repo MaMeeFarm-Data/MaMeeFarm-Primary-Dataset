@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01238",
+  "file_path": "dataset/data-unit/01238/dataunit_01238.json",
+
+  "category": "water_system_event",
+  "sub_category": "pump_deployment",
+
+  "captured_at_local": "2026-02-13 11:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Pump PMP-0003 deployed to underground water tank",
+  "summary": "Pump PMP-0003 installed into WT-UW-0001 / WT-UW-0002 in HZ-02. Recorded following water depletion reference.",
+
+  "asset_involved": {
+    "primary_asset": "PMP-0003",
+    "related_assets": ["WT-UW-0001", "WT-UW-0002"]
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["638"],
+    "note": "Operational response following water depletion event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeielxiw47ofi3x3qukdt37raqqe7aicrrtojg5i2ri76fl3zs66ek4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01238/hash/dataunit_01238.sha256",
+    "ots_file": "dataset/data-unit/01238/ots/dgcp_dataunit_01238.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
