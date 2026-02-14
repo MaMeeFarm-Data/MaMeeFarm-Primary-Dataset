@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01248",
+  "file_path": "dataset/data-unit/01248/dataunit_01248.json",
+
+  "category": "food_preparation_event",
+  "sub_category": "manual_rice_cooking",
+
+  "captured_at_local": "2026-02-13 12:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rice cooking initiated — STV-0001",
+  "summary": "Rice pot placed over active wood stove. Cooking process initiated using biomass energy source.",
+
+  "asset_involved": {
+    "related_assets": ["STV-0001"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01247"],
+    "proof_refs": [],
+    "note": "Continuation from manual fire ignition sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieb66gc6ezooque2hf4rbdo56bxkrzsxp5ufb6wqmxwa2ldv4lrai",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01248/hash/dataunit_01248.sha256",
+    "ots_file": "dataset/data-unit/01248/ots/dgcp_dataunit_01248.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
