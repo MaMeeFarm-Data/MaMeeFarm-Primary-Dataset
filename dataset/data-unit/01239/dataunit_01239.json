@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01239",
+  "file_path": "dataset/data-unit/01239/dataunit_01239.json",
+
+  "category": "water_system_event",
+  "sub_category": "tank_refill",
+
+  "captured_at_local": "2026-02-13 11:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water refill — WT-F-0001",
+  "summary": "Water refilling activity into storage tank WT-F-0001 following pump deployment event.",
+
+  "asset_involved": {
+    "primary_asset": "WT-F-0001",
+    "related_assets": ["PMP-0003"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01238"],
+    "proof_refs": [],
+    "note": "Sequential continuation of water system operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigzkairfslv3zw73uoizmfc4cv4ufi4vvlkuz5ngsxgufuq5g62ny",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01239/hash/dataunit_01239.sha256",
+    "ots_file": "dataset/data-unit/01239/ots/dgcp_dataunit_01239.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
