@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01244",
+  "file_path": "dataset/data-unit/01244/dataunit_01244.json",
+
+  "category": "water_system_observation",
+  "sub_category": "tank_level_visual_check",
+
+  "captured_at_local": "2026-02-13 12:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Visual water level observation — WT-F-0001",
+  "summary": "Manual visual observation of water level in WT-F-0001 during refill process. No measuring instrument used.",
+
+  "asset_involved": {
+    "primary_asset": "WT-F-0001",
+    "related_asset": "PMP-0003"
+  },
+
+  "measurement": {
+    "method": "visual inspection",
+    "quantified": false,
+    "note": "Water level observed visually. Volume not specified."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01239"],
+    "proof_refs": [],
+    "note": "Sequential continuation of water refill event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiadhlns5hto2l6o6fpaqf7qk3bpoq7zstjwgpez6vchhyspczzo7m",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01244/hash/dataunit_01244.sha256",
+    "ots_file": "dataset/data-unit/01244/ots/dgcp_dataunit_01244.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
