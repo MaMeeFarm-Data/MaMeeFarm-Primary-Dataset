@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01256",
+  "file_path": "dataset/data-unit/01256/dataunit_01256.json",
+
+  "category": "animal_care_event",
+  "sub_category": "evening_feeding",
+
+  "captured_at_local": "2026-02-13 17:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Evening feeding — dog group",
+  "summary": "Evening feeding event for dog group at MaMeeFarm.",
+
+  "asset_involved": {
+    "animal_group": "MaMeeFarm dog group",
+    "feeding_type": "dry food",
+    "estimated_quantity": null
+  },
+
+  "reference": {
+    "dataunit_refs": ["01226"],
+    "proof_refs": [],
+    "note": "Morning feeding recorded in DU 01226."
+  },
+
+  "operation": {
+    "event_type": "feeding",
+    "schedule": "evening_cycle",
+    "instrumentation": "visual documentation only"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibzsgzq5iokf55cg7ih4zaxhja46jwg6vlnqs2sl4vi7t6iqtquxm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01256/hash/dataunit_01256.sha256",
+    "ots_file": "dataset/data-unit/01256/ots/dgcp_dataunit_01256.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
