@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01253",
+  "file_path": "dataset/data-unit/01253/dataunit_01253.json",
+
+  "category": "water_management_event",
+  "sub_category": "overflow_record",
+
+  "captured_at_local": "2026-02-13 13:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water overflow — WT-F 0001",
+  "summary": "Water overflow observed from storage tank WT-F 0001 following pump fill sequence.",
+
+  "asset_involved": {
+    "asset_id": "WT-F 0001",
+    "related_dataunit": "01251"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01251"],
+    "proof_refs": [],
+    "note": "Continuation of pump fill sequence."
+  },
+
+  "operation": {
+    "event_type": "overflow_record",
+    "pump_unit": "PMP-0003",
+    "quantitative_value": null,
+    "instrumentation": "visual documentation only"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiccptx74l7fzmwfjcd7c4z3jdprpiguayndg6cmrnd5fcbhz6t4de",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01253/hash/dataunit_01253.sha256",
+    "ots_file": "dataset/data-unit/01253/ots/dgcp_dataunit_01253.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
