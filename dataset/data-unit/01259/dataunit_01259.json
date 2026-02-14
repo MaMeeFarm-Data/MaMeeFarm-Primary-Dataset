@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01259",
+  "file_path": "dataset/data-unit/01259/dataunit_01259.json",
+
+  "category": "water_flow_record",
+  "sub_category": "agricultural_runoff_observation",
+
+  "captured_at_local": "2026-02-13 18:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+
+  "data_type": "image",
+
+  "title": "Corn field water runoff entering farm canal — FZ-04",
+  "summary": "Observed surface water flow from corn field channel entering internal farm canal.",
+
+  "observation": {
+    "event_type": "water_flow",
+    "direction": "field_to_canal",
+    "visual_characteristic": "visible flow with sediment presence",
+    "measurement_device": "none",
+    "quantitative_measurement": "not available"
+  },
+
+  "reference": {
+    "dataunit_refs": ["00890"],
+    "proof_refs": [],
+    "note": "Sequential environmental water condition record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieshkm5pkiztstn65wal7za6e2rvewoncamyqjuahk2s27c6fyvxa",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01259/hash/dataunit_01259.sha256",
+    "ots_file": "dataset/data-unit/01259/ots/dgcp_dataunit_01259.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
