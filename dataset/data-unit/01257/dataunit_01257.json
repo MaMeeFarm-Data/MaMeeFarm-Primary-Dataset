@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01257",
+  "file_path": "dataset/data-unit/01257/dataunit_01257.json",
+
+  "category": "animal_care_event",
+  "sub_category": "feeding_consumption_observed",
+
+  "captured_at_local": "2026-02-13 17:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding consumption observed — HZ-02",
+  "summary": "Dog group consuming dry food distributed on ground surface.",
+
+  "asset_involved": {
+    "animal_group": "MaMeeFarm dog group",
+    "feeding_surface": "ground",
+    "feeding_type": "dry food"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01256"],
+    "proof_refs": [],
+    "note": "Continuation of evening feeding cycle."
+  },
+
+  "operation": {
+    "event_type": "feeding_consumption",
+    "cycle": "evening",
+    "instrumentation": "visual documentation only"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieaclpqacnp34t6fct6akzjw5ul7i2kymg34gafiz6fqc4ncg2dau",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01257/hash/dataunit_01257.sha256",
+    "ots_file": "dataset/data-unit/01257/ots/dgcp_dataunit_01257.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
