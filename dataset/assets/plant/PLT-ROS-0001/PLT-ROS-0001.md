@@ -34,3 +34,21 @@ retroactively to this asset without modification.
 Project: MaMeeFarm™  
 Framework: DGCP™  
 DGCP | MMFARM-POL-2025
+
+---
+
+## Event Log — Care Event 01
+
+Care Event: 01 — Flower Observation  
+Description: One rose bloom observed  
+
+DataUnit Reference: 01203  
+
+Recorded Date (Local): 2026-02-12  
+Recorded Time (Local): 11:29  
+Timezone: Asia/Bangkok  
+
+Event Type: Growth Observation  
+Traceability: Linked to DataUnit 01203  
+
+DGCP | MMFARM-POL-2025
