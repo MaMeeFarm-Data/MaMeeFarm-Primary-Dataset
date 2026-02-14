@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01243",
+  "file_path": "dataset/data-unit/01243/dataunit_01243.json",
+
+  "category": "fuel_preparation_event",
+  "sub_category": "firewood_cutting",
+
+  "captured_at_local": "2026-02-13 12:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Firewood cutting activity — HZ-02",
+  "summary": "Manual firewood cutting by Mamee. Recorded as fuel preparation related to STV-0001 stove operations.",
+
+  "asset_involved": {
+    "related_asset": "STV-0001"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01165"],
+    "proof_refs": [],
+    "note": "Fuel preparation linked to stove ignition record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicj2dzs5eeulu4havpai62ykutslmp5jqxlyvjd4hffqzyobiezdu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01243/hash/dataunit_01243.sha256",
+    "ots_file": "dataset/data-unit/01243/ots/dgcp_dataunit_01243.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
