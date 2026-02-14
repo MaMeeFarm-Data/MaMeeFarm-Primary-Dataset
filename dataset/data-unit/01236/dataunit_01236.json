@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01236",
+  "file_path": "dataset/data-unit/01236/dataunit_01236.json",
+
+  "category": "energy_system_event",
+  "sub_category": "inverter_power_on",
+
+  "captured_at_local": "2026-02-13 08:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Energy System",
+
+  "data_type": "image",
+
+  "title": "Solar inverter power on event",
+  "summary": "Inverter INV-01 powered on. System status lights visible. Sequential event following prior shutdown.",
+
+  "asset_involved": {
+    "asset_id": "INV-01",
+    "asset_type": "Power Inverter",
+    "related_assets": ["SPV-A-0001", "PWB-BAT-0001", "PWB-BAT-0002"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01224"],
+    "proof_refs": [],
+    "note": "Continuation of inverter power sequence (previously powered off)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie7gumji6mddzf3ylvp2wqpvvjoli7ivwgbrlgjtqcdtdha2gjzne",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01236/hash/dataunit_01236.sha256",
+    "ots_file": "dataset/data-unit/01236/ots/dgcp_dataunit_01236.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
