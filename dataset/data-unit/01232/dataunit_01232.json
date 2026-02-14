@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01232",
+  "file_path": "dataset/data-unit/01232/dataunit_01232.json",
+
+  "category": "agriculture_event",
+  "sub_category": "plant_care_observation",
+
+  "captured_at_local": "2026-02-13 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Care Event-03 — PLT-RPH-0001 flowering observation",
+  "summary": "Observation record: PLT-RPH-0001 (radish plant) beginning flowering stage.",
+
+  "asset_reference": {
+    "asset_id": "PLT-RPH-0001",
+    "asset_type": "Plant",
+    "growth_stage": "flowering_start",
+    "care_event": "Care Event-03"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["618"],
+    "note": "Continuation of plant lifecycle trace."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibhogzw3fskn72b45w42hsphsnam5bhivyaglnxtcfgb7463di2b4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01232/hash/dataunit_01232.sha256",
+    "ots_file": "dataset/data-unit/01232/ots/dgcp_dataunit_01232.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
