@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01266",
+  "file_path": "dataset/data-unit/01266/dataunit_01266.json",
+
+  "category": "environment_record",
+  "sub_category": "microclimate_night_observation",
+
+  "captured_at_local": "2026-02-14 01:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Night temperature and humidity record — HZ-02",
+  "summary": "Microclimate reading recorded at night from House Balcony Sensor.",
+
+  "sensor_reference": {
+    "asset_id": "HZ-02-HTC-1",
+    "sensor_type": "microclimate_sensor",
+    "temperature_celsius": 20.6,
+    "humidity_percent": 63
+  },
+
+  "reference": {
+    "dataunit_refs": ["01258"],
+    "proof_refs": [],
+    "note": "Sequential night observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiasbwfr2heevlpuut3xxa3synbqqvqtj25jf6lcoak5qjo4dyygla",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01266/hash/dataunit_01266.sha256",
+    "ots_file": "dataset/data-unit/01266/ots/dgcp_dataunit_01266.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
