@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01306",
+  "file_path": "dataset/data-unit/01306/dataunit_01306.json",
+
+  "category": "resource_transformation",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-14 18:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Boiling kale — STV-0001",
+  "summary": "Thermal preparation of kale harvested from FZ-03 using stove STV-0001.",
+
+  "asset_reference": [
+    {
+      "asset_id": "STV-0001",
+      "asset_type": "stove_unit"
+    }
+  ],
+
+  "material_flow": {
+    "input_source_zone": "FZ-03",
+    "input_material": "kale",
+    "energy_source": "solid_fuel_fire"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01303"],
+    "sequence_note": "Cooking event following harvest record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdwtkmfjsxw4v2fumizk4ltszcgzxu2cyc3hcigm2ijqtt7p5dce",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01306/hash/dataunit_01306.sha256",
+    "ots_file": "dataset/data-unit/01306/ots/dgcp_dataunit_01306.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "household_food_cycle",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
