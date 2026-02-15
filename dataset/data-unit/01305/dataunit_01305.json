@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01305",
+  "file_path": "dataset/data-unit/01305/dataunit_01305.json",
+
+  "category": "infrastructure_event",
+  "sub_category": "gate_closure",
+
+  "captured_at_local": "2026-02-14 18:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "INF-GATE-0003",
+
+  "data_type": "image",
+
+  "title": "Gate closure — INF-GATE-0003",
+  "summary": "Visual confirmation of gate closure at end-of-day operation cycle.",
+
+  "asset_reference": {
+    "asset_id": "INF-GATE-0003",
+    "asset_type": "infrastructure_gate"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01296"],
+    "sequence_note": "Closure following prior gate opening record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiafbeynj2jrpjtqqmrencjmmzsyjkhcjplptomircnrc3lk7gcbhi",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01305/hash/dataunit_01305.sha256",
+    "ots_file": "dataset/data-unit/01305/ots/dgcp_dataunit_01305.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "infrastructure control",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
