@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01295",
+  "file_path": "dataset/data-unit/01295/dataunit_01295.json",
+
+  "category": "food_preparation_event",
+  "sub_category": "rice_cooking_completion",
+
+  "captured_at_local": "2026-02-14 13:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rice cooking completed",
+  "summary": "Visual confirmation of cooked rice following prior cooking stage.",
+
+  "reference": {
+    "dataunit_refs": ["01290"],
+    "sequence_note": "Completion stage of rice cooking process."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifm3qkodr4sttmuotqrt65ciljbi6xh4zj2wjl64xzbz2osxgfgz4",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01295/hash/dataunit_01295.sha256",
+    "ots_file": "dataset/data-unit/01295/ots/dgcp_dataunit_01295.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "daily food preparation",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
