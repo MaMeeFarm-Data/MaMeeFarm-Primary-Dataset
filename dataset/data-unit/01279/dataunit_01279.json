@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01279",
+  "file_path": "dataset/data-unit/01279/dataunit_01279.json",
+
+  "category": "resource_monitoring",
+  "sub_category": "water_level_observation",
+
+  "captured_at_local": "2026-02-14 10:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0002",
+    "asset_type": "water_tank",
+    "capacity_liters": 200
+  },
+
+  "observation": {
+    "measurement_method": "visual_estimation",
+    "instrument_used": "none",
+    "water_level_status": "low",
+    "note": "No measurement tool available at time of capture."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibkp2og735pdgf4a5crtwfnnijlcqerutapdpb2lfm7xuhau36jc4",
+    "note": "Raw image evidence of water level."
+  },
+
+  "reference": {
+    "sequence_note": "Sequential continuation of 2026-02-14 field operations."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01279/hash/dataunit_01279.sha256",
+    "ots_file": "dataset/data-unit/01279/ots/dgcp_dataunit_01279.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
