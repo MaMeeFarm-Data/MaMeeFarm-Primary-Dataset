@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01297",
+  "file_path": "dataset/data-unit/01297/dataunit_01297.json",
+
+  "category": "environmental_record",
+  "sub_category": "microclimate_measurement",
+
+  "captured_at_local": "2026-02-14 15:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Afternoon temperature and humidity record",
+  "summary": "Microclimate sensor reading captured during afternoon cycle.",
+
+  "measurement": {
+    "temperature_celsius": 29.7,
+    "humidity_percent": 37,
+    "sensor_id": "HZ-02-HTC-1"
+  },
+
+  "reference": {
+    "proof_refs": ["639"],
+    "sequence_note": "Afternoon continuation of daily environmental monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiapqe35ob6xzcccku4z5tdbpbu4ziuaeaqkjt5woeno23lkhw2esa",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01297/hash/dataunit_01297.sha256",
+    "ots_file": "dataset/data-unit/01297/ots/dgcp_dataunit_01297.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "system_scope": "microclimate monitoring",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
