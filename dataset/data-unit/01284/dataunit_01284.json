@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01284",
+  "file_path": "dataset/data-unit/01284/dataunit_01284.json",
+
+  "category": "energy_operation",
+  "sub_category": "electrical_connection",
+
+  "captured_at_local": "2026-02-14 10:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "asset_reference": {
+    "primary_asset": {
+      "asset_id": "PMP-SUB-001",
+      "asset_type": "submersible_pump"
+    },
+    "power_source": {
+      "asset_id": "INV-01",
+      "asset_type": "inverter"
+    }
+  },
+
+  "operation": {
+    "action": "plug connected",
+    "system_sequence": "inverter → plug → pump",
+    "purpose": "activate water transfer",
+    "status": "connection established at capture time"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01277"],
+    "sequence_note": "Sequential continuation after inverter activation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigve7lcepf2lfhf2tpj4mtylzn3doidefakiyjepc6iz772qjyupe",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01284/hash/dataunit_01284.sha256",
+    "ots_file": "dataset/data-unit/01284/ots/dgcp_dataunit_01284.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
