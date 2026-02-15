@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01291",
+  "file_path": "dataset/data-unit/01291/dataunit_01291.json",
+
+  "category": "resource_management",
+  "sub_category": "water_storage",
+
+  "captured_at_local": "2026-02-14 13:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+
+  "data_type": "image",
+
+  "title": "Water level record — WT-M-0003",
+  "summary": "Water storage observation for WT-M-0003 at FZ-04. Sequential record after refill event.",
+
+  "asset_related": {
+    "asset_id": "WT-M-0003",
+    "asset_type": "water_tank",
+    "zone": "FZ-04",
+    "status": "filled / active"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01283"],
+    "sequence_note": "Sequential continuation after refill event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibxk7q7b2juk6mxpq6ffdbeefyfu7pbrs2a66wzx5oj4ppsehsnym",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01291/hash/dataunit_01291.sha256",
+    "ots_file": "dataset/data-unit/01291/ots/dgcp_dataunit_01291.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "water management",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
