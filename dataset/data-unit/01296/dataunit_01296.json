@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01296",
+  "file_path": "dataset/data-unit/01296/dataunit_01296.json",
+
+  "category": "daily_life_event",
+  "sub_category": "food_consumption",
+
+  "captured_at_local": "2026-02-14 14:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal consumption record",
+  "summary": "Visual record of prepared meal following cooking completion.",
+
+  "reference": {
+    "dataunit_refs": ["01295"],
+    "sequence_note": "Consumption stage following rice cooking completion."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie2wjansglgg5jycvsv5rn7pfmceffqzyf343r3rkxk2ghizdndyu",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01296/hash/dataunit_01296.sha256",
+    "ots_file": "dataset/data-unit/01296/ots/dgcp_dataunit_01296.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "daily life documentation",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
