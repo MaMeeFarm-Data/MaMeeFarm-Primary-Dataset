@@ -1,0 +1,46 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01280",
+  "file_path": "dataset/data-unit/01280/dataunit_01280.json",
+
+  "category": "environment_observation",
+  "sub_category": "sunlight_exposure",
+
+  "captured_at_local": "2026-02-14 10:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "observation": {
+    "condition": "direct sunlight",
+    "note": "Visual record of sunlight exposure over vegetable plots."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiczboe6kstqdp5fn75fwotgxs7cvjnx3iokls34uin7qhf6velz3q",
+    "note": "Raw image evidence."
+  },
+
+  "reference": {
+    "sequence_note": "Sequential continuation of field monitoring events on 2026-02-14."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01280/hash/dataunit_01280.sha256",
+    "ots_file": "dataset/data-unit/01280/ots/dgcp_dataunit_01280.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
