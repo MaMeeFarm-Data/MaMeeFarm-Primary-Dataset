@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01282",
+  "file_path": "dataset/data-unit/01282/dataunit_01282.json",
+
+  "category": "microclimate_record",
+  "sub_category": "temperature_humidity_measurement",
+
+  "captured_at_local": "2026-02-14 10:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "asset_reference": {
+    "asset_id": "HTC-2",
+    "asset_type": "microclimate_sensor",
+    "sub_zone": "FZ-03-T1"
+  },
+
+  "measurement": {
+    "temperature_in_celsius": 29.4,
+    "temperature_out_celsius": 30.7,
+    "humidity_percent": 50,
+    "duck_presence": "none observed"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01280"],
+    "sequence_note": "Sequential continuation of same-day environmental monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihxh7c53k3ezz3v7likingsny77fcji27nc3yiwvekk3ivo7ruwlm",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01282/hash/dataunit_01282.sha256",
+    "ots_file": "dataset/data-unit/01282/ots/dgcp_dataunit_01282.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
