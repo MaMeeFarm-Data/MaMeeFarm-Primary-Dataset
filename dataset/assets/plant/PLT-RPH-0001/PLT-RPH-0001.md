@@ -46,3 +46,15 @@ DGCP | MMFARM-POL-2025
 This work is licensed under the DGCP (Data Governance & Continuous Proof) framework.  
 All content is part of the MaMeeFarm™ Real-Work Data & Philosophy archive.  
 Redistribution, citation, or derivative use must preserve attribution and license reference.
+
+## Care Event — 03
+
+Recorded Action: Insect presence observation (unidentified)  
+DataUnit Reference: 01271  
+Proof Reference: 618  
+Recorded Date (Local): 2026-02-14  
+Recorded Time (Local): 07:28  
+Timezone: Asia/Bangkok  
+
+Chemical Usage: None  
+Note: Insect species not identified at time of recording.
