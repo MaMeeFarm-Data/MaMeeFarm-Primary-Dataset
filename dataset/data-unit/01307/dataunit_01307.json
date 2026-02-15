@@ -1,0 +1,48 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01307",
+  "file_path": "dataset/data-unit/01307/dataunit_01307.json",
+
+  "category": "environment_record",
+  "sub_category": "microclimate_evening",
+
+  "captured_at_local": "2026-02-14 18:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "sensor_data": {
+    "device_id": "HTC-1",
+    "temperature_celsius": 26.0,
+    "humidity_percent": 55
+  },
+
+  "reference": {
+    "dataunit_refs": ["01297"],
+    "sequence_note": "Evening microclimate record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiae5qgyfuod67wcjlqxbls5ttpwzktxshahi2g5ivpecajzscmzoq",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01307/hash/dataunit_01307.sha256",
+    "ots_file": "dataset/data-unit/01307/ots/dgcp_dataunit_01307.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "microclimate_monitoring",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
