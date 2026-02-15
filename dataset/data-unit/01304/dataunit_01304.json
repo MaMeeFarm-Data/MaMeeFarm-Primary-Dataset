@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01304",
+  "file_path": "dataset/data-unit/01304/dataunit_01304.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "flowering_stage",
+
+  "captured_at_local": "2026-02-14 18:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Pumpkin flowering observation",
+  "summary": "Observation of pumpkin plant showing active flower development. Asset ID pending registration.",
+
+  "activity_detail": {
+    "crop_type": "pumpkin",
+    "growth_stage": "flowering",
+    "asset_registration_status": "pending",
+    "next_action": "attach asset ID label and continue lifecycle tracking"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01303"],
+    "sequence_note": "Observation recorded after kale harvest activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifpybk5uw7zqoeur7n3zpugjxg5ngocqqu2luuyckv3iylhlxf5vm",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01304/hash/dataunit_01304.sha256",
+    "ots_file": "dataset/data-unit/01304/ots/dgcp_dataunit_01304.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "plant growth observation",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
