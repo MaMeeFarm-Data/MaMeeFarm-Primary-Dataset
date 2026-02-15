@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01274",
+  "file_path": "dataset/data-unit/01274/dataunit_01274.json",
+
+  "category": "environment_record",
+  "sub_category": "water_flow_observation",
+
+  "captured_at_local": "2026-02-14 07:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+
+  "data_type": "image",
+
+  "title": "Water inflow observation — adjacent cornfield to FZ-04",
+  "summary": "Water observed flowing from adjacent cornfield area into FZ-04 drainage section. Standing water present at time of recording. Recorded by P'Toh.",
+
+  "environment_context": {
+    "source": "adjacent cornfield",
+    "condition": "inflow observed",
+    "standing_water": true,
+    "surface_state": "water accumulation visible"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01259"],
+    "proof_refs": [],
+    "note": "Sequential continuation from prior inflow observation (DU 01259)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicwark7o2n5ha5dfcyoowzl2hdcxfjqs7hqjmqlxydlha6i5snm2u",
+    "note": "Raw image evidence (water condition)."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01274/hash/dataunit_01274.sha256",
+    "ots_file": "dataset/data-unit/01274/ots/dgcp_dataunit_01274.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
