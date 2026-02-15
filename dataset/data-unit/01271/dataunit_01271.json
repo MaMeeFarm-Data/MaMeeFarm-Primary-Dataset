@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01271",
+  "file_path": "dataset/data-unit/01271/dataunit_01271.json",
+
+  "category": "agriculture_event",
+  "sub_category": "care_event_observation",
+
+  "captured_at_local": "2026-02-14 07:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Care Event 03 — Insect presence observation (unidentified) on PLT-RPH-0001",
+  "summary": "Observation record of unidentified insects present on plant asset PLT-RPH-0001 in FZ-03. Farm operates without chemical usage. Recorded by P'Toh.",
+
+  "asset_context": {
+    "asset_id": "PLT-RPH-0001",
+    "asset_type": "plant",
+    "event_sequence": "Care Event 03",
+    "chemical_usage": "none",
+    "note": "Insect species not identified at time of recording."
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["618"],
+    "note": "Sequential continuation from Care Event 02 (Proof 618)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigizgawllgs4g64xx4gyhd4vgycoauuwbvef54vis6yptsy4e3qwa",
+    "note": "Raw image evidence (insect observation)."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01271/hash/dataunit_01271.sha256",
+    "ots_file": "dataset/data-unit/01271/ots/dgcp_dataunit_01271.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
