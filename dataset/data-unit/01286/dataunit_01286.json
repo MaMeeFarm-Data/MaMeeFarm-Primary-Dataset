@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01286",
+  "file_path": "dataset/data-unit/01286/dataunit_01286.json",
+
+  "category": "water_operation",
+  "sub_category": "tank_fill_state_full",
+
+  "captured_at_local": "2026-02-14 12:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "asset_reference": {
+    "primary_asset": {
+      "asset_id": "WT-M-0002",
+      "asset_type": "water_tank",
+      "capacity_liters": 200
+    }
+  },
+
+  "observation": {
+    "state": "full",
+    "method": "visual water level observation",
+    "note": "Water level observed near tank rim at capture time."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01285"],
+    "sequence_note": "Sequential continuation after active refill record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigbbtivdbvgcgfwrlobb4hggpuhscjlzkbdba4p35pk5wf6zjbqp4",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01286/hash/dataunit_01286.sha256",
+    "ots_file": "dataset/data-unit/01286/ots/dgcp_dataunit_01286.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
