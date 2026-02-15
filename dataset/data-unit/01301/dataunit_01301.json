@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01301",
+  "file_path": "dataset/data-unit/01301/dataunit_01301.json",
+
+  "category": "agriculture_operation",
+  "sub_category": "manual_irrigation",
+
+  "captured_at_local": "2026-02-14 17:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Manual watering activity in FZ-03",
+  "summary": "Vegetable irrigation using hose watering head. Soil moisture support event.",
+
+  "activity_detail": {
+    "method": "manual hose irrigation",
+    "water_source": "farm system",
+    "purpose": "soil moisture stabilization"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01300"],
+    "sequence_note": "Post environmental risk observation → routine agricultural stabilization."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiap3vilfgkgep3n6hewnpvtf2tkf7bi3ox3ro663z4maqe22oci3q",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01301/hash/dataunit_01301.sha256",
+    "ots_file": "dataset/data-unit/01301/ots/dgcp_dataunit_01301.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "crop maintenance",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
