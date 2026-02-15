@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01302",
+  "file_path": "dataset/data-unit/01302/dataunit_01302.json",
+
+  "category": "environmental_monitoring",
+  "sub_category": "microclimate_evening_record",
+
+  "captured_at_local": "2026-02-14 18:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Duck house evening microclimate record",
+  "summary": "Temperature and humidity reading inside duck housing area (HTC-2).",
+
+  "measurement": {
+    "device_id": "HTC-2",
+    "temperature_in_celsius": 29.1,
+    "temperature_out_celsius": 27.5,
+    "humidity_percent": 57
+  },
+
+  "reference": {
+    "dataunit_refs": ["01287"],
+    "sequence_note": "Evening environmental follow-up record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiflv7okg4oqu2ss2xy4tjqkuzmlr5zlqrhfibrinclumu4sfp4epy",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01302/hash/dataunit_01302.sha256",
+    "ots_file": "dataset/data-unit/01302/ots/dgcp_dataunit_01302.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "duck house monitoring",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
