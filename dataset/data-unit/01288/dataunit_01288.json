@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01288",
+  "file_path": "dataset/data-unit/01288/dataunit_01288.json",
+
+  "category": "labor_activity",
+  "sub_category": "firewood_preparation",
+
+  "captured_at_local": "2026-02-14 12:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Firewood cutting activity — HZ-02",
+  "summary": "Field labor record. Mamee cutting firewood. Recorded by P'Toh.",
+
+  "activity_detail": {
+    "actor_in_frame": "Mamee",
+    "recorded_by": "P'Toh",
+    "material": "wood",
+    "purpose_scope": "fuel preparation",
+    "system_scope": "daily labor"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01287"],
+    "sequence_note": "Sequential continuation after microclimate log."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic47pssudd7tn5fxrgu7kddzvwgpghubmcyufm4fojbzsrkkfb3ya",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01288/hash/dataunit_01288.sha256",
+    "ots_file": "dataset/data-unit/01288/ots/dgcp_dataunit_01288.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
