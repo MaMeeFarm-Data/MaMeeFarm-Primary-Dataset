@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01269",
+  "file_path": "dataset/data-unit/01269/dataunit_01269.json",
+
+  "category": "infrastructure_event",
+  "sub_category": "gate_opening",
+
+  "captured_at_local": "2026-02-14 07:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "INF-GATE-0003",
+
+  "data_type": "image",
+
+  "title": "Gate opening — INF-GATE-0003 (morning access to FZ-03 / FZ-04)",
+  "summary": "Morning opening record of gate INF-GATE-0003 to allow access toward FZ-03 and FZ-04. Sequential continuation from DU 01265 (evening closure reference). Recorded by P'Toh.",
+
+  "asset_context": {
+    "asset_id": "INF-GATE-0003",
+    "asset_type": "infrastructure",
+    "function": "access control between zones",
+    "connected_zones": ["FZ-03", "FZ-04"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01265"],
+    "proof_refs": [],
+    "note": "Previous state recorded as evening closure in DU 01265. Current record reflects morning opening."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihzpurcdtqnc7vufanggovqmz66lcj5rn7tbvg44llq6m2swc3otm",
+    "note": "Raw image evidence of gate state."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01269/hash/dataunit_01269.sha256",
+    "ots_file": "dataset/data-unit/01269/ots/dgcp_dataunit_01269.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
