@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01299",
+  "file_path": "dataset/data-unit/01299/dataunit_01299.json",
+
+  "category": "animal_care_event",
+  "sub_category": "feeding_activity_observation",
+
+  "captured_at_local": "2026-02-14 17:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding in progress — HZ-02",
+  "summary": "Observation record of dogs consuming feed during evening cycle in HZ-02.",
+
+  "feeding_context": {
+    "animal_type": "dog",
+    "cycle": "evening",
+    "activity_state": "consumption_in_progress",
+    "inventory_reference": "Feed bag depleted in DU 01298"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01298"],
+    "sequence_note": "Continuation of evening feeding cycle."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibjclm6ujttyb5ctmezi5yejblnuq65ymkbbqtaqfw5adk3jr3pmy",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01299/hash/dataunit_01299.sha256",
+    "ots_file": "dataset/data-unit/01299/ots/dgcp_dataunit_01299.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "animal care",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
