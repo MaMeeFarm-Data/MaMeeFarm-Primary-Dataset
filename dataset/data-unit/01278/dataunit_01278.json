@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01278",
+  "file_path": "dataset/data-unit/01278/dataunit_01278.json",
+
+  "category": "farm_operation",
+  "sub_category": "routine_field_maintenance",
+
+  "captured_at_local": "2026-02-14 10:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": ["FZ-03", "FZ-04"],
+
+  "data_type": "image",
+
+  "title": "Routine garden maintenance — FZ-03 / FZ-04",
+  "summary": "Field maintenance activity performed by MaMee across FZ-03 and FZ-04 zones. Recorded by P'Toh.",
+
+  "operation_context": {
+    "performed_by": "MaMee",
+    "activity_type": "general garden care",
+    "scope": ["plant area", "ground surface", "surrounding infrastructure"],
+    "system_state": "daytime operation"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Sequential continuation of morning field activities."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidl3ev36n5xunqlubbkbb44hmjcr6gzgmsmfyau6lsjtkbvczrnaq",
+    "note": "Raw image evidence (field activity)."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01278/hash/dataunit_01278.sha256",
+    "ots_file": "dataset/data-unit/01278/ots/dgcp_dataunit_01278.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
