@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01268",
+  "file_path": "dataset/data-unit/01268/dataunit_01268.json",
+
+  "category": "agriculture_event",
+  "sub_category": "asset_label_attachment",
+
+  "captured_at_local": "2026-02-14 07:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Care Event label attached — Rose (PLT-ROS-0001)",
+  "summary": "Physical label attachment record for rose care event tracking. Label text references Care Event 01 (Flower Observation) and links to DataUnit 01203 (captured 2026-02-12 11:29). Recorded by P'Toh.",
+
+  "asset_context": {
+    "asset_id": "PLT-ROS-0001",
+    "asset_type": "plant",
+    "common_name": "rose",
+    "note": "Label attached to support traceability of prior care event reference."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01203"],
+    "proof_refs": ["639", "640", "641", "642", "643"],
+    "note": "Traceability label references Care Event 01 and links to DU 01203 as printed on the label. Event chain continues from recent proofs."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifzperyrxuidbwzghmfxfhexb5gh4dovdavebxfkfbkg2lwnshmyi",
+    "note": "Raw image evidence (label attachment)."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01268/hash/dataunit_01268.sha256",
+    "ots_file": "dataset/data-unit/01268/ots/dgcp_dataunit_01268.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
