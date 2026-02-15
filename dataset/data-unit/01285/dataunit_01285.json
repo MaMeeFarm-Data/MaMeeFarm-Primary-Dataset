@@ -1,0 +1,65 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01285",
+  "file_path": "dataset/data-unit/01285/dataunit_01285.json",
+
+  "category": "water_operation",
+  "sub_category": "tank_refill",
+
+  "captured_at_local": "2026-02-14 10:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "asset_reference": {
+    "primary_asset": {
+      "asset_id": "WT-M-0002",
+      "asset_type": "water_tank",
+      "capacity_liters": 200
+    },
+    "water_source": {
+      "asset_id": "WT-F-0001",
+      "asset_type": "water_tank"
+    },
+    "pump": {
+      "asset_id": "PMP-SUB-001",
+      "asset_type": "submersible_pump"
+    }
+  },
+
+  "operation": {
+    "action": "tank refilling",
+    "flow_direction": "WT-F-0001 → WT-M-0002",
+    "status_at_capture": "water actively flowing into tank",
+    "sequence_position": "after cleaning and pump activation"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01281"],
+    "sequence_note": "Sequential continuation after tank cleaning."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidyjspircbulbq5dzfc73sz7dtbfs2ci2quqftneuyrxq5wxia4ju",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01285/hash/dataunit_01285.sha256",
+    "ots_file": "dataset/data-unit/01285/ots/dgcp_dataunit_01285.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
