@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01283",
+  "file_path": "dataset/data-unit/01283/dataunit_01283.json",
+
+  "category": "water_management",
+  "sub_category": "pump_operation",
+
+  "captured_at_local": "2026-02-14 10:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "asset_reference": {
+    "primary_asset": {
+      "asset_id": "PMP-SUB-001",
+      "asset_type": "submersible_pump"
+    },
+    "source_tank": {
+      "asset_id": "WT-F-0001",
+      "asset_type": "water_tank"
+    },
+    "destination_zone": "FZ-03"
+  },
+
+  "operation": {
+    "action": "pump placed into tank",
+    "flow_direction": "HZ-02 → FZ-03",
+    "purpose": "water transfer",
+    "status": "active at capture time"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01281"],
+    "sequence_note": "Sequential continuation of same-day water system activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicixxxu2chtpqck7zbi7ya7w4iqdpegv5y7y54fwqwlpyg2mhh4uq",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01283/hash/dataunit_01283.sha256",
+    "ots_file": "dataset/data-unit/01283/ots/dgcp_dataunit_01283.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
