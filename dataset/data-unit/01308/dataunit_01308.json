@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01308",
+  "file_path": "dataset/data-unit/01308/dataunit_01308.json",
+
+  "category": "food_processing",
+  "sub_category": "vegetable_boiled_completed",
+
+  "captured_at_local": "2026-02-14 19:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "event_details": {
+    "activity": "Vegetable boiling completed",
+    "cooking_device_id": "STV-0001",
+    "source_zone_of_vegetable": "FZ-03",
+    "status": "Cooked"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01306"],
+    "sequence_note": "Continuation of boiling process."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiexpa7k23s2lrqcao25jc2mcbl2rs6irmvgxksdz34d6nhxisshnq",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01308/hash/dataunit_01308.sha256",
+    "ots_file": "dataset/data-unit/01308/ots/dgcp_dataunit_01308.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "food_preparation",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
