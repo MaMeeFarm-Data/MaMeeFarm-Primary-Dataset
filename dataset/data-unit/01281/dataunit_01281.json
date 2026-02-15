@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01281",
+  "file_path": "dataset/data-unit/01281/dataunit_01281.json",
+
+  "category": "asset_maintenance",
+  "sub_category": "water_container_cleaning",
+
+  "captured_at_local": "2026-02-14 10:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0002",
+    "asset_type": "water_container",
+    "capacity_liters": 200
+  },
+
+  "activity": {
+    "type": "cleaning",
+    "note": "Water container WT-M-0002 cleaned. Interior surface visible."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01279"],
+    "sequence_note": "Sequential continuation of water monitoring and usage log."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicl7hwkfmyg6mdnyer6gias2zkw2xrrdnpuv2a3x4p32r2ifqfqda",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01281/hash/dataunit_01281.sha256",
+    "ots_file": "dataset/data-unit/01281/ots/dgcp_dataunit_01281.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™",
+    "accountability": "single-operator responsibility"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
