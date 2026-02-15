@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01275",
+  "file_path": "dataset/data-unit/01275/dataunit_01275.json",
+
+  "category": "agriculture_event",
+  "sub_category": "care_event_pruning",
+
+  "captured_at_local": "2026-02-14 07:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+
+  "data_type": "image",
+
+  "title": "Care Event 01 — Banana leaf cutting (BAN-0002)",
+  "summary": "Care activity record: Mamee cutting banana leaves from asset BAN-0002 in FZ-04. Recorded by P'Toh.",
+
+  "asset_context": {
+    "asset_id": "BAN-0002",
+    "asset_type": "plant",
+    "event_sequence": "Care Event 01",
+    "activity": "leaf cutting",
+    "performed_by": "Mamee"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["543"],
+    "note": "Reference to prior banana-related activity recorded in Proof 543 (2026-01-25)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyfi52htufurtzvmylx24k7tdogouui4slah5wwvf443drhadwsa",
+    "note": "Raw image evidence (care activity)."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01275/hash/dataunit_01275.sha256",
+    "ots_file": "dataset/data-unit/01275/ots/dgcp_dataunit_01275.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
