@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01300",
+  "file_path": "dataset/data-unit/01300/dataunit_01300.json",
+
+  "category": "environmental_event",
+  "sub_category": "wildlife_detection",
+
+  "captured_at_local": "2026-02-14 17:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "INF-GATE-0003",
+
+  "data_type": "image",
+
+  "title": "Snake observed near gate INF-GATE-0003",
+  "summary": "Wildlife detection event. Snake observed near entrance gate area. Cause unknown.",
+
+  "risk_classification": {
+    "type": "wild_animal_presence",
+    "immediate_action_recorded": "none documented in this frame",
+    "proximity": "near gate access point"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01299"],
+    "sequence_note": "Environmental observation following feeding cycle."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigylif2n4oscyyvuttntmp6fb77xvlqhbzdcebdpj3zsabouzdjsu",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01300/hash/dataunit_01300.sha256",
+    "ots_file": "dataset/data-unit/01300/ots/dgcp_dataunit_01300.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "environmental monitoring",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
