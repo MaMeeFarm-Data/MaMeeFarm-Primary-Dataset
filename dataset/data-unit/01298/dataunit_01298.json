@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01298",
+  "file_path": "dataset/data-unit/01298/dataunit_01298.json",
+
+  "category": "animal_care_event",
+  "sub_category": "feeding_cycle_completion",
+
+  "captured_at_local": "2026-02-14 17:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Evening dog feeding cycle — bag fully consumed",
+  "summary": "Evening feeding event completed. 20 kg feed bag fully consumed by 20 dogs.",
+
+  "feeding_record": {
+    "animal_type": "dog",
+    "animal_count": 20,
+    "feed_weight_kg": 20,
+    "cycle": "evening",
+    "inventory_status": "bag depleted"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01098"],
+    "sequence_note": "Completion of feed bag opened in DU 01098."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigtu2us5dhnovtepbakyvsstbhtdm4w4mqqwzbgkdeyvjmfts2iem",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01298/hash/dataunit_01298.sha256",
+    "ots_file": "dataset/data-unit/01298/ots/dgcp_dataunit_01298.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "animal care",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
