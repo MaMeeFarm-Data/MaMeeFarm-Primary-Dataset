@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01270",
+  "file_path": "dataset/data-unit/01270/dataunit_01270.json",
+
+  "category": "agriculture_event",
+  "sub_category": "asset_label_attachment",
+
+  "captured_at_local": "2026-02-14 07:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Asset label attachment — PLT-YLB-0001 (Yardlong Bean)",
+  "summary": "Physical asset identification label attached for PLT-YLB-0001 in FZ-03. Label includes planting reference DU 00415, germination DU 00610, and support structure Proof 632. Recorded by P'Toh.",
+
+  "asset_context": {
+    "asset_id": "PLT-YLB-0001",
+    "asset_type": "plant",
+    "common_name": "yardlong bean",
+    "zone": "FZ-03",
+    "traceability_links": {
+      "planting_dataunit": "00415",
+      "germination_dataunit": "00610",
+      "support_structure_proof": "632"
+    }
+  },
+
+  "reference": {
+    "dataunit_refs": ["00415", "00610"],
+    "proof_refs": ["632"],
+    "note": "Asset traceability information printed on physical label."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibzv6qpvqdcvtzxqc2b63dgb2oikjr4d7cchx4ne34z3347fgh2r4",
+    "note": "Raw image evidence (asset label attachment)."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01270/hash/dataunit_01270.sha256",
+    "ots_file": "dataset/data-unit/01270/ots/dgcp_dataunit_01270.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
