@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01303",
+  "file_path": "dataset/data-unit/01303/dataunit_01303.json",
+
+  "category": "agriculture_event",
+  "sub_category": "vegetable_harvest",
+
+  "captured_at_local": "2026-02-14 18:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Kale harvest in FZ-03",
+  "summary": "Fresh kale leaves harvested from cultivation zone FZ-03. Post-irrigation crop activity.",
+
+  "activity_detail": {
+    "crop_type": "kale",
+    "harvest_method": "manual cutting",
+    "intended_use": "farm consumption"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01301", "01302"],
+    "sequence_note": "Evening irrigation followed by harvest activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihyai77vewloi23wilshujugsh2yd5ey25xctjvwrtkc3ul7nkdwi",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01303/hash/dataunit_01303.sha256",
+    "ots_file": "dataset/data-unit/01303/ots/dgcp_dataunit_01303.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "operation_scope": "crop harvest",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
