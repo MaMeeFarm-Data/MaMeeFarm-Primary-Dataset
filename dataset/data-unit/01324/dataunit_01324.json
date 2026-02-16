@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01324",
+  "file_path": "dataset/data-unit/01324/dataunit_01324.json",
+
+  "category": "agriculture_event",
+  "sub_category": "fruit_observation",
+
+  "captured_at_local": "2026-02-15 12:29",
+  "timezone": "Asia/Bangkok",
+
+  "zone": "FZ-03",
+  "asset_id": "PLT-MNG-0001",
+
+  "data_type": "image",
+
+  "title": "Mango fruit observation — PLT-MNG-0001",
+  "summary": "Visual record of early-stage mango fruit observed on tree canopy. No interpretation applied.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifxowr7njymjlsinmvsz4v6bhzsckxllncwdxxl6zk2f6uwgoqrra",
+    "note": "Raw image evidence."
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01324/hash/dataunit_01324.sha256",
+    "ots_file": "dataset/data-unit/01324/ots/dgcp_dataunit_01324.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
