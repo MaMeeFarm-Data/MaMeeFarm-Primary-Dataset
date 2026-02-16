@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01317",
+  "file_path": "dataset/data-unit/01317/dataunit_01317.json",
+
+  "category": "agriculture_event",
+  "sub_category": "soil_preparation_activity",
+
+  "captured_at_local": "2026-02-15 07:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Soil preparation for vegetable bed — FZ-03",
+  "summary": "Field activity record: Soil manually turned and prepared for vegetable planting. Timestamp visible in frame. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01316"],
+    "proof_refs": [],
+    "note": "Sequential continuation after gate access."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifqgu65nfp3j6ryrf3b2wog5ot46zpjdfa2ugqgcucliabtwcjlji",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01317/hash/dataunit_01317.sha256",
+    "ots_file": "dataset/data-unit/01317/ots/dgcp_dataunit_01317.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
