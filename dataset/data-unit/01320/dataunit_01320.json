@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01320",
+  "file_path": "dataset/data-unit/01320/dataunit_01320.json",
+
+  "category": "asset_management_event",
+  "sub_category": "asset_label_attachment",
+
+  "captured_at_local": "2026-02-15 10:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Asset ID label attached — PLT-RPH-0001",
+  "summary": "Operational record: Physical Asset ID label attached to plant PLT-RPH-0001. Timestamp visible in frame. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01319"],
+    "proof_refs": [],
+    "note": "Sequential continuation of morning operations."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigbpdi3eqiops53enogdsgniqk3qqo4rcnhk6oq72pogpwpgxoyzi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01320/hash/dataunit_01320.sha256",
+    "ots_file": "dataset/data-unit/01320/ots/dgcp_dataunit_01320.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "asset_reference": {
+    "asset_id": "PLT-RPH-0001",
+    "asset_type": "plant",
+    "note": "Care Event 03 label visible."
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
