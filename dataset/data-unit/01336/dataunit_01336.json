@@ -1,0 +1,49 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01336",
+"file_path": "dataset/data-unit/01336/dataunit_01336.json",
+
+"category": "environment_record",
+"sub_category": "temperature_humidity_record",
+
+"captured_at_local": "2026-02-16 05:56",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "HZ-02",
+
+"data_type": "image",
+
+"title": "Morning temperature record — HZ-02",
+"summary": "Microclimate record. Temperature 18.8°C, Humidity 67%. Recorded from HZ-02-T1 sensor.",
+
+"reference": {
+"dataunit_refs": [],
+"proof_refs": [],
+"note": "Chronological continuation."
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeif3i4ilaf4tiafcqxebvbyk4pn7hrfwxuys2u3ty5tgyatcnjieb4",
+"note": "Raw image evidence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01336/hash/dataunit_01336.sha256",
+"ots_file": "dataset/data-unit/01336/ots/dgcp_dataunit_01336.ots"
+},
+
+"responsibility": {
+"actor": "MaMeeFarm operation",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
