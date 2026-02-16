@@ -1,0 +1,52 @@
+{
+"dgcp_version":"DGCP-DATASET-1.0",
+"dataset":"MaMeeFarm-Primary-Dataset",
+"data_unit_id":"01335",
+"file_path":"dataset/data-unit/01335/dataunit_01335.json",
+
+"category":"infrastructure_event",
+"sub_category":"power_system_alert",
+
+"captured_at_local":"2026-02-15 23:20",
+"timezone":"Asia/Bangkok",
+"location":"MaMeeFarm",
+"zone":"HZ-02",
+
+"asset_id":"INV-01",
+"related_asset":["SPV-A-0001"],
+
+"data_type":"image",
+
+"title":"Solar inverter alert indicator active",
+"summary":"Hybrid solar inverter showing alert indicator. Reference to Proof 648 (system activation earlier).",
+
+"reference":{
+"dataunit_refs":["01334"],
+"proof_refs":["648"],
+"note":"Alert observed after prior activation event."
+},
+
+"external_reference":{
+"binding":"non-binding",
+"storage":"pinata",
+"cid":"bafybeiasdhscj5rscqisaaquqzkytzbzpysvm5sqtqbr5pxbcp26dh3igy",
+"note":"Raw image evidence."
+},
+
+"media_count":1,
+
+"integrity":{
+"hash_algorithm":"SHA-256",
+"hash_file":"dataset/data-unit/01335/hash/dataunit_01335.sha256",
+"ots_file":"dataset/data-unit/01335/ots/dgcp_dataunit_01335.ots"
+},
+
+"responsibility":{
+"actor":"MaMeeFarm operation",
+"recorded_by":"P'Toh",
+"accountability":"single-operator responsibility",
+"data_framework":"DGCP™"
+},
+
+"license":"DGCP | MMFARM-POL-2025"
+}
