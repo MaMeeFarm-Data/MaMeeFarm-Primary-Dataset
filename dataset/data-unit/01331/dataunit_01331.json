@@ -1,0 +1,56 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01331",
+"file_path": "dataset/data-unit/01331/dataunit_01331.json",
+
+"category": "agriculture_care_event",
+"sub_category": "vegetable_watering",
+
+"captured_at_local": "2026-02-15 18:40",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "FZ-03",
+
+"data_type": "image",
+
+"title": "Vegetable watering — evening",
+"summary": "Field activity record: Mamee watering vegetables in FZ-03. Recorded by P'Toh.",
+
+"reference": {
+"dataunit_refs": ["01330"],
+"proof_refs": [],
+"note": "Sequential continuation following DU 01330."
+},
+
+"actor_observation": {
+"primary_actor": "Mamee",
+"recorded_by": "P'Toh",
+"tools_visible": ["watering_can"],
+"chemical_usage": "none_observed"
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeicrflfj7tcyqtwcw7xhke3t62dpexxvi3slpdqfw7jpn3wahkpiq4",
+"note": "Raw image evidence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01331/hash/dataunit_01331.sha256",
+"ots_file": "dataset/data-unit/01331/ots/dgcp_dataunit_01331.ots"
+},
+
+"responsibility": {
+"actor": "MaMeeFarm operation",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
