@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01371",
+  "file_path": "dataset/data-unit/01371/dataunit_01371.json",
+
+  "category": "environmental_data",
+  "sub_category": "microclimate_record",
+
+  "captured_at_local": "2026-02-17 07:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Morning microclimate record — Duck house (no ducks present)",
+  "summary": "Microclimate reading captured in duck house zone FZ-03. No ducks present at time of recording.",
+
+  "sensor_data": {
+    "asset_id": "HTC-2",
+    "sub_zone": "FZ-03-T1",
+    "temperature_in_c": 16.6,
+    "temperature_out_c": 15.9,
+    "humidity_percent": 82
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih7vfcbidbgc6ddty5uvevhd4tjrud44stzgkfkxsiozhkc6oyjb4",
+    "note": "Raw sensor image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01371/hash/dataunit_01371.sha256",
+    "ots_file": "dataset/data-unit/01371/ots/dgcp_dataunit_01371.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "environmental log",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
