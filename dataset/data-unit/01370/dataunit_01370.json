@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01370",
+  "file_path": "dataset/data-unit/01370/dataunit_01370.json",
+
+  "category": "infrastructure_event",
+  "sub_category": "gate_opening",
+
+  "captured_at_local": "2026-02-17 07:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Gate opened — INF-GATE-0003",
+  "summary": "INF-GATE-0003 opened during morning operation cycle. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01361"],
+    "proof_refs": [],
+    "note": "Sequential state change from previously closed condition."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaplc23yie7s637vj3hmp2xnoszhuzzpbixh6pyzzziea7dzp2gbe",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01370/hash/dataunit_01370.sha256",
+    "ots_file": "dataset/data-unit/01370/ots/dgcp_dataunit_01370.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "infrastructure state log",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
