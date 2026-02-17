@@ -1,0 +1,56 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01343",
+"file_path": "dataset/data-unit/01343/dataunit_01343.json",
+
+"category": "asset_registration_event",
+"sub_category": "physical_asset_observation",
+
+"captured_at_local": "2026-02-16 08:13",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "FZ-05",
+
+"data_type": "image",
+
+"title": "Initial physical condition record — soil canal (FZ-05)",
+"summary": "Physical observation of soil canal in zone FZ-05 for asset registration preparation. Chronological continuation.",
+
+"asset_reference": {
+"asset_id": "FZ-05-CANAL-0001",
+"asset_type": "soil_canal",
+"zone": "FZ-05",
+"event_type": "pre-registration_observation",
+"chemical_usage": "None"
+},
+
+"reference": {
+"proof_refs": ["649","650","651","652","653"],
+"note": "Sequential continuation following referenced proofs."
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeibrf6jvxp7yczev7s2dc4v3pwo4vp2zpxxy7svwp2f32fsddvvogy",
+"note": "Raw image evidence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01343/hash/dataunit_01343.sha256",
+"ots_file": "dataset/data-unit/01343/ots/dgcp_dataunit_01343.ots"
+},
+
+"responsibility": {
+"actor": "MaMeeFarm operation",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
