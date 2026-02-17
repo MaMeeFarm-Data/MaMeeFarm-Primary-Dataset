@@ -1,0 +1,51 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01347",
+"file_path": "dataset/data-unit/01347/dataunit_01347.json",
+
+"category": "farm_activity",
+"sub_category": "cooking_process",
+
+"captured_at_local": "2026-02-16 09:43",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "HZ-02",
+
+"data_type": "image",
+
+"title": "Rice cooking on wood stove",
+"summary": "Rice cooking process using wood stove STV-0001. Manual biomass cooking operation recorded.",
+
+"asset_reference": {
+"asset_id": "STV-0001",
+"asset_type": "wood_stove",
+"zone": "HZ-02",
+"event_type": "cooking",
+"chemical_usage": "None"
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeiec73kredqdml75m7rr7yusoka7xf5yhw26nbidrebu5u44by2htm",
+"note": "Raw image evidence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01347/hash/dataunit_01347.sha256",
+"ots_file": "dataset/data-unit/01347/ots/dgcp_dataunit_01347.ots"
+},
+
+"responsibility": {
+"actor": "Mamee",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
