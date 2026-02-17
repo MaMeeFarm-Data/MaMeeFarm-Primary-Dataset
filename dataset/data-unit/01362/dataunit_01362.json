@@ -1,0 +1,49 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01362",
+"file_path": "dataset/data-unit/01362/dataunit_01362.json",
+
+"category": "animal_management",
+"sub_category": "perimeter_guard",
+
+"captured_at_local": "2026-02-16 18:54",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "HZ-02",
+
+"data_type": "image",
+
+"title": "Evening perimeter guard presence",
+"summary": "20 dogs present in HZ-02 during evening perimeter period.",
+
+"animal_record": {
+"species": "canine",
+"count_observed": 20,
+"role": "perimeter guard"
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeiecrj3mm3xncafrk6kanncp47wf2tkxxb2ak5dbzz63fxg4l5i3ue",
+"note": "Visual confirmation of guard presence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01362/hash/dataunit_01362.sha256",
+"ots_file": "dataset/data-unit/01362/ots/dgcp_dataunit_01362.ots"
+},
+
+"responsibility": {
+"actor": "P'Toh",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
