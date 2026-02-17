@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01372",
+  "file_path": "dataset/data-unit/01372/dataunit_01372.json",
+
+  "category": "environmental_observation",
+  "sub_category": "surface_moisture",
+
+  "captured_at_local": "2026-02-17 07:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+
+  "data_type": "image",
+
+  "title": "Morning dew observed on banana leaf",
+  "summary": "Visible dew droplets observed on banana leaf surface in zone FZ-04.",
+
+  "observation": {
+    "object_type": "plant_leaf",
+    "plant_type": "banana",
+    "condition": "dew_present",
+    "measurement_device": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiasvudpaknkcjmdjcrifpzlnigg4jkaewqrfj4aswt3fxlse7wf44",
+    "note": "Raw image evidence of surface moisture."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01372/hash/dataunit_01372.sha256",
+    "ots_file": "dataset/data-unit/01372/ots/dgcp_dataunit_01372.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "environmental observation",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
