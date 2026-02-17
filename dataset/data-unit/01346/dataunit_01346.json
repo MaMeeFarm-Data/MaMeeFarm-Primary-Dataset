@@ -1,0 +1,51 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01346",
+"file_path": "dataset/data-unit/01346/dataunit_01346.json",
+
+"category": "farm_activity",
+"sub_category": "cooking_energy_preparation",
+
+"captured_at_local": "2026-02-16 09:42",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "HZ-02",
+
+"data_type": "image",
+
+"title": "Wood stove ignition preparation",
+"summary": "Mamee preparing wood stove STV-0001 for cooking. Manual biomass ignition setup recorded.",
+
+"asset_reference": {
+"asset_id": "STV-0001",
+"asset_type": "wood_stove",
+"zone": "HZ-02",
+"event_type": "ignition_preparation",
+"chemical_usage": "None"
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeig5gonvojqeged2wrhjktle4opde7qztizp3y5nxmtebimu63w5iq",
+"note": "Raw image evidence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01346/hash/dataunit_01346.sha256",
+"ots_file": "dataset/data-unit/01346/ots/dgcp_dataunit_01346.ots"
+},
+
+"responsibility": {
+"actor": "Mamee",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
