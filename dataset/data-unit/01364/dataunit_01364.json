@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01364",
+  "file_path": "dataset/data-unit/01364/dataunit_01364.json",
+
+  "category": "infrastructure",
+  "sub_category": "power_system_status",
+
+  "captured_at_local": "2026-02-17 00:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Inverter fault indicator active",
+  "summary": "INV-01 fault light (red) observed during system state check.",
+
+  "power_system_record": {
+    "asset_id": "INV-01",
+    "component": "Solar Inverter",
+    "indicator_status": {
+      "pv": "unknown",
+      "ac": "unknown",
+      "inv": "on",
+      "fault": "red_active"
+    }
+  },
+
+  "reference": {
+    "ref_data_unit": "01345",
+    "relation": "previous system activation record"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicrbcs4nbmfzricjrdeitpgujhtu5tjtv5bxapaeckairbmglmcka",
+    "note": "Visual confirmation of inverter panel state."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01364/hash/dataunit_01364.sha256",
+    "ots_file": "dataset/data-unit/01364/ots/dgcp_dataunit_01364.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
