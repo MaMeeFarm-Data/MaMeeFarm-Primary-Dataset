@@ -1,0 +1,55 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01344",
+"file_path": "dataset/data-unit/01344/dataunit_01344.json",
+
+"category": "asset_registration_event",
+"sub_category": "physical_asset_observation",
+
+"captured_at_local": "2026-02-16 08:15",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "FZ-05",
+
+"data_type": "image",
+
+"title": "Initial physical condition record — steel bridge (FZ-05)",
+"summary": "Physical observation of steel bridge structure for asset registration under DGCP™ sequence protocol.",
+
+"asset_reference": {
+"asset_id": "FZ-05-BRIDGE-0001",
+"asset_type": "steel_bridge",
+"zone": "FZ-05",
+"event_type": "pre-registration_observation",
+"chemical_usage": "None"
+},
+
+"reference": {
+"note": "Chronological continuation following DU 01343."
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeicrp5tagddixc2ju2vixcalvukrtwbxh7bhetf7a5mlf46gp7luoa",
+"note": "Raw image evidence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01344/hash/dataunit_01344.sha256",
+"ots_file": "dataset/data-unit/01344/ots/dgcp_dataunit_01344.ots"
+},
+
+"responsibility": {
+"actor": "MaMeeFarm operation",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
