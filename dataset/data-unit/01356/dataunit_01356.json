@@ -1,0 +1,51 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01356",
+"file_path": "dataset/data-unit/01356/dataunit_01356.json",
+
+"category": "environment_observation",
+"sub_category": "soil_moisture_visual_observation",
+
+"captured_at_local": "2026-02-16 13:53",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "FZ-03",
+
+"data_type": "image",
+
+"title": "Soil moisture observed after water release",
+"summary": "Visual confirmation of soil moisture condition after irrigation flow through canal line.",
+
+"operational_context": {
+"related_event": "irrigation_flow_release",
+"water_source_zone": "HZ-02",
+"flow_direction": "toward FZ-03",
+"observation_type": "visual only",
+"interpretation": "none"
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeigigy6a4mb36i5noetkv5c26x2fghwjqn4gm2sxfacz25fd7cflbq",
+"note": "Soil surface condition after water flow."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01356/hash/dataunit_01356.sha256",
+"ots_file": "dataset/data-unit/01356/ots/dgcp_dataunit_01356.ots"
+},
+
+"responsibility": {
+"actor": "P'Toh",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
