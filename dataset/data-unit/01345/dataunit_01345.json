@@ -1,0 +1,56 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01345",
+"file_path": "dataset/data-unit/01345/dataunit_01345.json",
+
+"category": "energy_system_event",
+"sub_category": "inverter_operation",
+
+"captured_at_local": "2026-02-16 08:18",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "HZ-02",
+
+"data_type": "image",
+
+"title": "Inverter system turned ON",
+"summary": "Power inverter INV-01 switched ON. Chronological continuation following DU 01335 (system OFF state reference).",
+
+"asset_reference": {
+"asset_id": "INV-01",
+"related_assets": ["SPV-A-0001", "PVN-BAT-0001", "PVN-BAT-0002"],
+"zone": "HZ-02",
+"event_type": "power_on",
+"chemical_usage": "None"
+},
+
+"reference": {
+"previous_data_unit": "01335",
+"note": "System state transition from OFF to ON."
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeihfpztxfnvue5b4bpeqkygf4tuxzpivbqbkpsz6jmkksv4c35uine",
+"note": "Raw image evidence."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01345/hash/dataunit_01345.sha256",
+"ots_file": "dataset/data-unit/01345/ots/dgcp_dataunit_01345.ots"
+},
+
+"responsibility": {
+"actor": "MaMeeFarm operation",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
