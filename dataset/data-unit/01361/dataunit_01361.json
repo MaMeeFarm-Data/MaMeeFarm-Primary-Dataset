@@ -1,0 +1,50 @@
+{
+"dgcp_version": "DGCP-DATASET-1.0",
+"dataset": "MaMeeFarm-Primary-Dataset",
+"data_unit_id": "01361",
+"file_path": "dataset/data-unit/01361/dataunit_01361.json",
+
+"category": "infrastructure",
+"sub_category": "access_control",
+
+"captured_at_local": "2026-02-16 18:24",
+"timezone": "Asia/Bangkok",
+"location": "MaMeeFarm",
+"zone": "HZ-02",
+
+"data_type": "image",
+
+"title": "Evening gate closure record",
+"summary": "INF-GATE-0003 closed during evening round. Reference proof 650 (previous open state).",
+
+"asset_reference": {
+"asset_id": "INF-GATE-0003",
+"related_proof": "650",
+"previous_state": "open",
+"current_state": "closed"
+},
+
+"external_reference": {
+"binding": "non-binding",
+"storage": "pinata",
+"cid": "bafybeiaplc23yie7s637vj3hmp2xnoszhuzzpbixh6pyzzziea7dzp2gbe",
+"note": "Gate status visual confirmation."
+},
+
+"media_count": 1,
+
+"integrity": {
+"hash_algorithm": "SHA-256",
+"hash_file": "dataset/data-unit/01361/hash/dataunit_01361.sha256",
+"ots_file": "dataset/data-unit/01361/ots/dgcp_dataunit_01361.ots"
+},
+
+"responsibility": {
+"actor": "P'Toh",
+"recorded_by": "P'Toh",
+"accountability": "single-operator responsibility",
+"data_framework": "DGCP™"
+},
+
+"license": "DGCP | MMFARM-POL-2025"
+}
