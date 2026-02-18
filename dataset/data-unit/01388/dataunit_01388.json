@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01388",
+  "file_path": "dataset/data-unit/01388/dataunit_01388.json",
+
+  "category": "asset_pre_registration",
+  "sub_category": "mechanical_equipment",
+
+  "captured_at_local": "2026-02-17 18:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+
+  "data_type": "image",
+
+  "title": "2-stroke brush cutter pre-asset registration",
+  "summary": "Two-stroke grass cutter prepared for DGCP™ asset ID registration.",
+
+  "observation": {
+    "equipment_type": "brush_cutter",
+    "engine_type": "2-stroke",
+    "registration_status": "pending_asset_id",
+    "physical_state": "visible_post_operation"
+  },
+
+  "activity": {
+    "actor": "P'Toh",
+    "action": "asset_preparation_record",
+    "operation_status": "documentation_started"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia3dhqi5mv23kc2v575yciow25mpngogtebthc4pxudkko7fl7wxe",
+    "note": "Raw image evidence for future asset registration."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01388/hash/dataunit_01388.sha256",
+    "ots_file": "dataset/data-unit/01388/ots/dgcp_dataunit_01388.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
