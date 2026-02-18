@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01380",
+  "file_path": "dataset/data-unit/01380/dataunit_01380.json",
+
+  "category": "daily_labor",
+  "sub_category": "meal_record",
+
+  "captured_at_local": "2026-02-17 13:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "related_asset": "STV-0001",
+
+  "data_type": "image",
+
+  "title": "Meal record – cooked rice served",
+  "summary": "Cooked rice served with prepared food. Consumption stage recorded.",
+
+  "activity": {
+    "actor": "P'Toh",
+    "action": "record_meal",
+    "interpretation": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihcpcqx666fhtxajmcx62mmtvnmbguydv7d3hpcmaed4tyjokcd5u",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01380/hash/dataunit_01380.sha256",
+    "ots_file": "dataset/data-unit/01380/ots/dgcp_dataunit_01380.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
