@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01383",
+  "file_path": "dataset/data-unit/01383/dataunit_01383.json",
+
+  "category": "plant_observation",
+  "sub_category": "insect_presence",
+
+  "captured_at_local": "2026-02-17 15:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "related_asset": "PLT-PKN-0001",
+
+  "data_type": "image",
+
+  "title": "Insect observed on pumpkin leaf",
+  "summary": "Unidentified insect present on leaf surface of PLT-PKN-0001.",
+
+  "observation": {
+    "insect_presence": true,
+    "species_identified": false,
+    "chemical_used": false
+  },
+
+  "context": {
+    "plant_condition": "leaf intact",
+    "interpretation": "none"
+  },
+
+  "activity": {
+    "actor": "P'Toh",
+    "action": "visual_record",
+    "intervention": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib2uzpnvexxtcqgliccu2ymkzkviw5jh4g6xecnvwvxoesu2ml6bq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01383/hash/dataunit_01383.sha256",
+    "ots_file": "dataset/data-unit/01383/ots/dgcp_dataunit_01383.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
