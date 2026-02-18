@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01384",
+  "file_path": "dataset/data-unit/01384/dataunit_01384.json",
+
+  "category": "animal_care",
+  "sub_category": "feeding",
+
+  "captured_at_local": "2026-02-17 17:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "related_reference": "01366",
+
+  "data_type": "image",
+
+  "title": "Evening dog feeding",
+  "summary": "Dog feeding activity recorded in HZ-02 during evening cycle.",
+
+  "observation": {
+    "animal_type": "dog",
+    "feeding_cycle": "evening",
+    "feed_type": "dry_food",
+    "chemical_used": false
+  },
+
+  "activity": {
+    "actor": "P'Toh",
+    "action": "feeding",
+    "intervention": "routine_care"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigrbyekp7qlhmi2qsdbwsuz4hyi2g526lv3fcu7gkxn46fc73bfd4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01384/hash/dataunit_01384.sha256",
+    "ots_file": "dataset/data-unit/01384/ots/dgcp_dataunit_01384.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
