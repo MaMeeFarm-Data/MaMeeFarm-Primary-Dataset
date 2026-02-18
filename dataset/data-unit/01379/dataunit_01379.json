@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01379",
+  "file_path": "dataset/data-unit/01379/dataunit_01379.json",
+
+  "category": "daily_labor",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-17 13:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "related_asset": "STV-0001",
+
+  "data_type": "image",
+
+  "title": "Cooked rice completed on stove",
+  "summary": "Rice fully cooked in pot on STV-0001 stove.",
+
+  "activity": {
+    "actor": "P'Toh",
+    "action": "record_cooked_rice",
+    "interpretation": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicpcntzz3xegucntjqtoztthbrog4uaoxwrheio6ihsakluau5x7e",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01379/hash/dataunit_01379.sha256",
+    "ots_file": "dataset/data-unit/01379/ots/dgcp_dataunit_01379.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
