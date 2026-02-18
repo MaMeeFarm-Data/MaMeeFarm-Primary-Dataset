@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01378",
+  "file_path": "dataset/data-unit/01378/dataunit_01378.json",
+
+  "category": "daily_labor",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-17 12:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "related_asset": "STV-0001",
+
+  "data_type": "image",
+
+  "title": "Cooking pot positioned on stove",
+  "summary": "Pot placed on active stove for rice preparation.",
+
+  "activity": {
+    "actor": "Mamee",
+    "action": "place_cooking_pot",
+    "interpretation": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiecjxoo2cbjzpxzybxn46obgphgsc4qvvpbo5s4jiddb72t7k7e5i",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01378/hash/dataunit_01378.sha256",
+    "ots_file": "dataset/data-unit/01378/ots/dgcp_dataunit_01378.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
