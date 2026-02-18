@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01373",
+  "file_path": "dataset/data-unit/01373/dataunit_01373.json",
+
+  "category": "daily_labor",
+  "sub_category": "crop_watering",
+
+  "captured_at_local": "2026-02-17 08:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Manual watering activity in crop zone FZ-03",
+  "summary": "Watering vegetable beds using manual watering can in FZ-03.",
+
+  "activity": {
+    "actor": "Mamee",
+    "recorded_by": "P'Toh",
+    "method": "manual_watering_can",
+    "irrigation_type": "surface_application",
+    "crop_type": "vegetable_beds",
+    "interpretation": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigxfcvwxnl3juagmdoqnhtldcn4mvycayvjgbtnx3nftec46he55i",
+    "note": "Raw image evidence of watering activity."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01373/hash/dataunit_01373.sha256",
+    "ots_file": "dataset/data-unit/01373/ots/dgcp_dataunit_01373.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "accountability": "field-based operation",
+    "append_only": true
+  },
+
+  "reference_continuity": [
+    "654",
+    "655",
+    "656",
+    "657",
+    "658"
+  ],
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
