@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01377",
+  "file_path": "dataset/data-unit/01377/dataunit_01377.json",
+
+  "category": "daily_labor",
+  "sub_category": "stove_ignition",
+
+  "captured_at_local": "2026-02-17 12:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_id": "STV-0001",
+
+  "data_type": "image",
+
+  "title": "Stove ignition initiated — STV-0001",
+  "summary": "Initial ignition of wood fuel inside stove unit STV-0001.",
+
+  "activity": {
+    "actor": "Mamee",
+    "action": "ignite_stove",
+    "fuel_type": "wood",
+    "interpretation": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicowfyegfbhqag342zvzdv6k5wpsbqsl35m4i2u2phrqnspujzm2u",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01377/hash/dataunit_01377.sha256",
+    "ots_file": "dataset/data-unit/01377/ots/dgcp_dataunit_01377.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
