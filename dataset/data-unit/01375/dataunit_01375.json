@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01375",
+  "file_path": "dataset/data-unit/01375/dataunit_01375.json",
+
+  "category": "animal_activity",
+  "sub_category": "perimeter_guard_rest_state",
+
+  "captured_at_local": "2026-02-17 12:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog resting at house entrance — HZ-02",
+  "summary": "Perimeter dog positioned at doorway. Rest state observed during daytime.",
+
+  "activity": {
+    "actor": "perimeter_unit",
+    "action": "resting_position",
+    "state": "monitoring_passive",
+    "interpretation": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih7xds4jgfjwof5m2xmsax6pamfv5axfnv6s2q2pd5cm2xphlxx5a",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01375/hash/dataunit_01375.sha256",
+    "ots_file": "dataset/data-unit/01375/ots/dgcp_dataunit_01375.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
