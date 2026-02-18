@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01387",
+  "file_path": "dataset/data-unit/01387/dataunit_01387.json",
+
+  "category": "daily_labor",
+  "sub_category": "field_maintenance",
+
+  "captured_at_local": "2026-02-17 18:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+
+  "data_type": "image",
+
+  "title": "Grass cutting completed FZ-05",
+  "summary": "Brush cutter positioned after grass cutting operation.",
+
+  "observation": {
+    "equipment_type": "brush_cutter",
+    "status": "post-operation",
+    "field_condition": "grass_cut",
+    "intervention": "completed"
+  },
+
+  "activity": {
+    "actor": "P'Toh",
+    "action": "grass_cutting",
+    "operation_status": "finished"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeianpvlwvr4crdclvn6lq6rcqg4ne22sqvkoi23jkkota6m2256r2e",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01387/hash/dataunit_01387.sha256",
+    "ots_file": "dataset/data-unit/01387/ots/dgcp_dataunit_01387.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "recorded_by": "P'Toh",
+    "append_only": true
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
