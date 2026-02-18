@@ -1,0 +1,63 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01374",
+  "file_path": "dataset/data-unit/01374/dataunit_01374.json",
+
+  "category": "infrastructure",
+  "sub_category": "power_system_activation",
+
+  "captured_at_local": "2026-02-17 08:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Power System",
+
+  "data_type": "image",
+
+  "title": "Power inverter activation INV-01",
+  "summary": "Manual activation of inverter INV-01 within farm power system.",
+
+  "asset": {
+    "asset_id": "INV-01",
+    "type": "Power Inverter",
+    "linked_assets": [
+      "SPV-A-0001",
+      "PWR-BAT-0001",
+      "PWR-BAT-0002"
+    ]
+  },
+
+  "activity": {
+    "actor": "P'Toh",
+    "action": "manual_power_on",
+    "system_state": "active",
+    "interpretation": "none"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihjmyyjc2vw3rbdttm7r6qswcc2vbggjxysl4sx64j5lnbdalu43q",
+    "note": "Raw image evidence of inverter activation."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01374/hash/dataunit_01374.sha256",
+    "ots_file": "dataset/data-unit/01374/ots/dgcp_dataunit_01374.ots"
+  },
+
+  "responsibility": {
+    "framework": "DGCP™",
+    "accountability": "field-based operation",
+    "append_only": true
+  },
+
+  "reference_continuity": [
+    "01364"
+  ],
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
