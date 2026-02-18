@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01394",
+  "file_path": "dataset/data-unit/01394/dataunit_01394.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "inverter_power_on",
+
+  "captured_at_local": "2026-02-18 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Inverter power on — INV-01 HZ-02",
+  "summary": "Operational record: Inverter INV-01 powered on at HZ-02. RefDu 01392 closed. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01392"],
+    "proof_refs": [],
+    "note": "Operational continuation after closure of DU 01392."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibfg34dbu6z2ytg2omhmxllmtkbr5mv6fzfwcg6y4uk5ryemjtebq",
+    "note": "Raw image evidence of inverter status."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01394/hash/dataunit_01394.sha256",
+    "ots_file": "dataset/data-unit/01394/ots/dgcp_dataunit_01394.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
