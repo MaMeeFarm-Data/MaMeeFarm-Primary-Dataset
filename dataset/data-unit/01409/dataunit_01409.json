@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01409",
+  "file_path": "dataset/data-unit/01409/dataunit_01409.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "fruit_ripening_detected",
+
+  "captured_at_local": "2026-02-18 13:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "asset": {
+    "asset_id": "PLT-PAP-0003",
+    "asset_type": "Papaya Plant",
+    "status": "Active"
+  },
+
+  "data_type": "image",
+
+  "title": "Papaya ripening observed — PLT-PAP-0003",
+  "summary": "Field observation: One papaya fruit showing ripening stage (color transition visible) among green fruits. No harvesting action performed.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaat7fln46n2fengf6woetzkzzcpwxcer2r3xmyzxxfup5txt7mpm",
+    "note": "Raw image evidence of ripening stage."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01409/hash/dataunit_01409.sha256",
+    "ots_file": "dataset/data-unit/01409/ots/dgcp_dataunit_01409.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
