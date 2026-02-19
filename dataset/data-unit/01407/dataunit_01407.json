@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01407",
+  "file_path": "dataset/data-unit/01407/dataunit_01407.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "wood_stove_activation",
+
+  "captured_at_local": "2026-02-18 13:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset": {
+    "asset_id": "STV-0001",
+    "asset_type": "Wood Stove",
+    "status": "Activated"
+  },
+
+  "data_type": "image",
+
+  "title": "Wood stove ignition — STV-0001",
+  "summary": "Manual ignition of wood stove using dry bamboo and wood fragments. Initial flame visible. Recorded as routine farm operation.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidwoxw4nica7rbrta3lzqdu2oxr65tgkc5hhsskblp4d2w4kd2ya4",
+    "note": "Raw image evidence of ignition state."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01407/hash/dataunit_01407.sha256",
+    "ots_file": "dataset/data-unit/01407/ots/dgcp_dataunit_01407.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
