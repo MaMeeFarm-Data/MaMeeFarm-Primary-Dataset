@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01401",
+  "file_path": "dataset/data-unit/01401/dataunit_01401.json",
+
+  "category": "zone_identity",
+  "sub_category": "zone_label_attached",
+
+  "captured_at_local": "2026-02-18 10:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+
+  "data_type": "image",
+
+  "title": "Zone label attached — FZ-05 (Field Zone)",
+  "summary": "Zone identity record: Label confirming Zone ID FZ-05 as Field Zone. Status: Active Operational Zone. Location: MaMeeFarm. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Zone operational status explicitly stated on label."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig2xn2ag3t4hqeh7nb5z3lcxp7uioknpywo3gw7374knpzbswfrzm",
+    "note": "Raw image evidence of zone label."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01401/hash/dataunit_01401.sha256",
+    "ots_file": "dataset/data-unit/01401/ots/dgcp_dataunit_01401.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
