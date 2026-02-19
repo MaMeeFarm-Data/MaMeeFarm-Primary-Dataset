@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01422",
+  "file_path": "dataset/data-unit/01422/dataunit_01422.json",
+
+  "category": "environment_record",
+  "sub_category": "microclimate_temperature",
+
+  "captured_at_local": "2026-02-19 00:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Midnight microclimate record — HZ-02",
+  "summary": "Temperature and humidity recorded at HZ-02 balcony sensor during midnight round.",
+
+  "sensor_reference": {
+    "asset_id": "HZ-02-HTC-1",
+    "sub_unit": "HZ-02-T1",
+    "sensor_type": "Microclimate Sensor",
+    "status": "active"
+  },
+
+  "measurement": {
+    "temperature_celsius": 23.2,
+    "humidity_percent": 66,
+    "unit": "Celsius / Percent RH"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Night round environmental monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicb5kgamvtwtm7wqdjz7dkzklxjx7xpxi62roxuxasqv643cwggii",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01422/hash/dataunit_01422.sha256",
+    "ots_file": "dataset/data-unit/01422/ots/dgcp_dataunit_01422.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
