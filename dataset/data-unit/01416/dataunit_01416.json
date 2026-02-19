@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01416",
+  "file_path": "dataset/data-unit/01416/dataunit_01416.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_activity",
+
+  "captured_at_local": "2026-02-18 17:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dogs feeding activity — HZ-02",
+  "summary": "Animal care record: Dogs consuming dry food during evening feeding cycle. Recorded as part of continuous daily care log.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["660"],
+    "note": "Time-sequential continuation of feeding log."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia3sxfy2dxd3kzkwfgaslmdgcelh6kccmzx2avfhlss6qt33jxcji",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01416/hash/dataunit_01416.sha256",
+    "ots_file": "dataset/data-unit/01416/ots/dgcp_dataunit_01416.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
