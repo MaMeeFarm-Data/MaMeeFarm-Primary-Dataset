@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01418",
+  "file_path": "dataset/data-unit/01418/dataunit_01418.json",
+
+  "category": "lifecycle_record",
+  "sub_category": "meal_consumption",
+
+  "captured_at_local": "2026-02-18 17:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal record — rice with fried chicken frame",
+  "summary": "Meal record: cooked rice with fried chicken frame (25 THB). Continuation from DU 01414 (cooked rice).",
+
+  "reference": {
+    "dataunit_refs": ["01414"],
+    "proof_refs": [],
+    "note": "Food lifecycle continuation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiglbyafvkmlj7hlajm3nq4pwisvu6jx2go7lnwkgdk5yytckwjuh4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01418/hash/dataunit_01418.sha256",
+    "ots_file": "dataset/data-unit/01418/ots/dgcp_dataunit_01418.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
