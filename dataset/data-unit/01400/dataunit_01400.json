@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01400",
+  "file_path": "dataset/data-unit/01400/dataunit_01400.json",
+
+  "category": "asset_identity",
+  "sub_category": "asset_label_attached",
+
+  "captured_at_local": "2026-02-18 10:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+
+  "data_type": "image",
+
+  "title": "Asset label attached — FZ-05-BRIDGE-0001 (Steel Bridge)",
+  "summary": "Asset identity record: Asset label attached for FZ-05-BRIDGE-0001 (Steel Bridge) in FZ-05. Initial DU 01344. Registration DU 01343–01344. Status: Registered. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01343", "01344"],
+    "proof_refs": [],
+    "note": "Label references initial and registration data units."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihgfeelue7lozwnldxuhe763ef5hxpqoevuroyx3ekestqyoh23ae",
+    "note": "Raw image evidence of steel bridge asset label."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01400/hash/dataunit_01400.sha256",
+    "ots_file": "dataset/data-unit/01400/ots/dgcp_dataunit_01400.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
