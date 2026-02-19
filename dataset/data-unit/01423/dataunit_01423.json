@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01423",
+  "file_path": "dataset/data-unit/01423/dataunit_01423.json",
+
+  "category": "infrastructure_event",
+  "sub_category": "power_system_shutdown",
+
+  "captured_at_local": "2026-02-19 00:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm Power System",
+
+  "data_type": "image",
+
+  "title": "Inverter system shutdown — fault indicator red",
+  "summary": "Solar inverter shutdown event recorded. Red fault indicator visible. System turned off at 00:14.",
+
+  "asset_reference": {
+    "inverter_id": "INV-01",
+    "solar_array": "SPV-A-0001",
+    "battery_storage": "PWR-BAT-0001/0002",
+    "system_status": "shutdown"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01394"],
+    "proof_refs": [],
+    "note": "System previously activated. Current state: powered off."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia2awesrtckg7yw2kco6t26i3bdlkq2akpnre4hmn6cy4xapx64zm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01423/hash/dataunit_01423.sha256",
+    "ots_file": "dataset/data-unit/01423/ots/dgcp_dataunit_01423.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
