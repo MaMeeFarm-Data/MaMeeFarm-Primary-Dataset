@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01408",
+  "file_path": "dataset/data-unit/01408/dataunit_01408.json",
+
+  "category": "daily_life_operation",
+  "sub_category": "rice_cooking",
+
+  "captured_at_local": "2026-02-18 13:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset": {
+    "asset_id": "STV-0001",
+    "asset_type": "Wood Stove",
+    "status": "In Use"
+  },
+
+  "data_type": "image",
+
+  "title": "Rice cooking on wood stove — HZ-02",
+  "summary": "Cooking rice using metal pot over wood stove STV-0001. Active flame and steam visible. Continuation of ignition record DU 01407.",
+
+  "reference": {
+    "dataunit_refs": ["01407"],
+    "proof_refs": [],
+    "note": "Operational continuation of wood stove activation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib57ppvqy6v2pzbpzs7244jyaps5mmpfnwm4xvbslaaox6gwgomty",
+    "note": "Raw image evidence of cooking activity."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01408/hash/dataunit_01408.sha256",
+    "ots_file": "dataset/data-unit/01408/ots/dgcp_dataunit_01408.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
