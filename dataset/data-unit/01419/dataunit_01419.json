@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01419",
+  "file_path": "dataset/data-unit/01419/dataunit_01419.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "field_condition_monitoring",
+
+  "captured_at_local": "2026-02-18 18:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Field observation record — FZ-03 vegetable plot",
+  "summary": "Routine field observation of vegetable plot FZ-03. Structural condition and surrounding environment recorded. No intervention applied.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Time-sequence monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifbgfrvpp3yk5xvg4qcxyhvdg4rqua4n2wm62jrh7jwtuq6dnvmi4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01419/hash/dataunit_01419.sha256",
+    "ots_file": "dataset/data-unit/01419/ots/dgcp_dataunit_01419.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
