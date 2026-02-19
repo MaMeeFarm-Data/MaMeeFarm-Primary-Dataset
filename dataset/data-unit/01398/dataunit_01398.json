@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01398",
+  "file_path": "dataset/data-unit/01398/dataunit_01398.json",
+
+  "category": "asset_identity",
+  "sub_category": "asset_label_attached",
+
+  "captured_at_local": "2026-02-18 10:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Asset label attached — PLT-DIL-0001 (Dill, Big Lao) FZ-03",
+  "summary": "Asset identity record: Asset label attached for PLT-DIL-0001 (Dill, Anethum graveolens, variety Big Lao) in FZ-03. Lifecycle: Early Vegetative. Seed reference DU 01260–01261. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01260", "01261"],
+    "proof_refs": [],
+    "note": "Seed reference explicitly stated on asset label."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifshbs6pocl4y556o32jm7bh3ivpof2jsurqqdblvt7oldit3trwy",
+    "note": "Raw image evidence of asset label attachment."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01398/hash/dataunit_01398.sha256",
+    "ots_file": "dataset/data-unit/01398/ots/dgcp_dataunit_01398.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
