@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01414",
+  "file_path": "dataset/data-unit/01414/dataunit_01414.json",
+
+  "category": "daily_labor_record",
+  "sub_category": "food_preparation",
+
+  "captured_at_local": "2026-02-18 14:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "related_data_unit": "01408",
+
+  "asset": {
+    "asset_id": "STV-0001",
+    "asset_type": "Wood Stove",
+    "status": "Active"
+  },
+
+  "process_status": {
+    "activity": "Rice cooking",
+    "state": "Completed",
+    "result": "Rice cooked"
+  },
+
+  "context": {
+    "note": "Wood stove rice cooking completed."
+  },
+
+  "data_type": "image",
+
+  "title": "Rice Cooking Completed — STV-0001",
+  "summary": "Cooked rice observed after wood stove operation.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicsss7uwjydkqer5of7g7ouzhbuzwciceec6t2hdgsx36alvaunsa",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01414/hash/dataunit_01414.sha256",
+    "ots_file": "dataset/data-unit/01414/ots/dgcp_dataunit_01414.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
