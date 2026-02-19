@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01396",
+  "file_path": "dataset/data-unit/01396/dataunit_01396.json",
+
+  "category": "asset_identity",
+  "sub_category": "asset_label_attached",
+
+  "captured_at_local": "2026-02-18 10:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset label attached — PLT-PKC-0001 (Green Pak Choy) HZ-02",
+  "summary": "Asset identity record: Asset label attached for PLT-PKC-0001 (Green Pak Choy / เขียวกวางตุ้ง) in HZ-02. Label references DU 01118–01119. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01118", "01119"],
+    "proof_refs": [],
+    "note": "Label explicitly references prior data units on the tag."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifxkibangsbwue3mnhczwxpmnoxn3oc4rhirexk3aglajtjmvfhp4",
+    "note": "Raw image evidence of attached asset label."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01396/hash/dataunit_01396.sha256",
+    "ots_file": "dataset/data-unit/01396/ots/dgcp_dataunit_01396.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
