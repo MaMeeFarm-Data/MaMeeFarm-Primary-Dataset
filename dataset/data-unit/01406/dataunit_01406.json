@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01406",
+  "file_path": "dataset/data-unit/01406/dataunit_01406.json",
+
+  "category": "animal_care_event",
+  "sub_category": "tick_prevention_application",
+
+  "captured_at_local": "2026-02-18 11:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Tick treatment application — HZ-02",
+  "summary": "MaMee applying tick prevention medication to dogs. Recorded by P'Toh. Multiple dogs present in frame.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Routine animal health maintenance."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifgr3ixkrxbb7zxzg6jje2u6pxtqdglkbfbnn2rzrfsmobzzhbfzu",
+    "note": "Raw image evidence of tick medication application."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01406/hash/dataunit_01406.sha256",
+    "ots_file": "dataset/data-unit/01406/ots/dgcp_dataunit_01406.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
