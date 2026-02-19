@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01395",
+  "file_path": "dataset/data-unit/01395/dataunit_01395.json",
+
+  "category": "agriculture_operation",
+  "sub_category": "bamboo_cutting",
+
+  "captured_at_local": "2026-02-18 10:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Bamboo cutting activity — HZ-02",
+  "summary": "Field operation record: Bamboo cut at HZ-02. Manual tool visible in frame. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Routine vegetation management activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib7erpvhfjo7k72yrnoeqqiq3mzknkke4yovnnle2k7f4r5l3smwu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01395/hash/dataunit_01395.sha256",
+    "ots_file": "dataset/data-unit/01395/ots/dgcp_dataunit_01395.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
