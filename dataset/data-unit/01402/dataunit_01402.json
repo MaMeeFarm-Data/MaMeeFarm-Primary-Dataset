@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01402",
+  "file_path": "dataset/data-unit/01402/dataunit_01402.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "post_cut_material_observation",
+
+  "captured_at_local": "2026-02-18 10:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-04",
+
+  "data_type": "image",
+
+  "title": "Post-cut bamboo remains — FZ-04",
+  "summary": "Field observation record: Remaining bamboo segments photographed in FZ-04. Reference to bamboo cutting activity DU 01395 (HZ-02). Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01395"],
+    "proof_refs": [],
+    "note": "Continuation after bamboo cutting operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihjp5h6qm43viqw3wghrdh6i33n5n2vcjfgc4wzbziimz3xsfblte",
+    "note": "Raw image evidence of remaining bamboo segments."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01402/hash/dataunit_01402.sha256",
+    "ots_file": "dataset/data-unit/01402/ots/dgcp_dataunit_01402.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
