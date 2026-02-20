@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01444",
+  "file_path": "dataset/data-unit/01444/dataunit_01444.json",
+
+  "category": "lifecycle_activity",
+  "sub_category": "produce_consumption",
+
+  "captured_at_local": "2026-02-19 15:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Consumption — Papaya from PLT-PAP0003",
+  "summary": "Observation record: Harvested papaya (PLT-PAP0003) prepared and consumed by P'Toh. Produce sourced from on-site garden.",
+
+  "reference": {
+    "dataunit_refs": ["01440"],
+    "proof_refs": [],
+    "note": "Post-harvest consumption of papaya asset."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih6s4xnchaswfrqpgwed4jqi23urj37fvoutqi54tgbiakt2eja7m",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01444/hash/dataunit_01444.sha256",
+    "ots_file": "dataset/data-unit/01444/ots/dgcp_dataunit_01444.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
