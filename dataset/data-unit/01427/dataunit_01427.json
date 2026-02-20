@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01427",
+  "file_path": "dataset/data-unit/01427/dataunit_01427.json",
+
+  "category": "resource_event",
+  "sub_category": "animal_feed_opening",
+
+  "captured_at_local": "2026-02-19 07:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feed bag opened — 20kg",
+  "summary": "New 20kg dog feed bag opened. Feeding group: 20 dogs.",
+
+  "reference": {
+    "dataunit_refs": ["01426"],
+    "proof_refs": [],
+    "note": "Sequential continuation after depletion of previous 20kg bag."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihym7pb7s6rnyqfcssmkl6ifyf6yuur2lp2qihfjgisr6t5oqiwom",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01427/hash/dataunit_01427.sha256",
+    "ots_file": "dataset/data-unit/01427/ots/dgcp_dataunit_01427.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
