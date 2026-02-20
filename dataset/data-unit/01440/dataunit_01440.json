@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01440",
+  "file_path": "dataset/data-unit/01440/dataunit_01440.json",
+
+  "category": "agriculture_event",
+  "sub_category": "plant_harvest_completion",
+
+  "captured_at_local": "2026-02-19 12:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Harvest completed — Papaya PLT-PAP0003",
+  "summary": "Event record: Ripe papaya (PLT-PAP0003) harvested. Fruit detached from plant. Asset state updated to harvested.",
+
+  "reference": {
+    "dataunit_refs": ["01409", "01439"],
+    "proof_refs": [],
+    "note": "Harvest execution following pre-harvest observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibcarsymb4dpf2edweksorigmpe7e4it5wcvxaerurs4j5hmu3bne",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01440/hash/dataunit_01440.sha256",
+    "ots_file": "dataset/data-unit/01440/ots/dgcp_dataunit_01440.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
