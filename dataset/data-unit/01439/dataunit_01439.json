@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01439",
+  "file_path": "dataset/data-unit/01439/dataunit_01439.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "pre_harvest_condition",
+
+  "captured_at_local": "2026-02-19 12:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Pre-harvest observation — Papaya PLT-PAP0003",
+  "summary": "Observation record: Papaya fruit (PLT-PAP0003) documented prior to harvest. External condition visually recorded.",
+
+  "reference": {
+    "dataunit_refs": ["01409"],
+    "proof_refs": [],
+    "note": "Follow-up observation before harvest event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib3j5enhsripnxm5k3buvaghsjdneqtgnld4qp46rft2lekflticy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01439/hash/dataunit_01439.sha256",
+    "ots_file": "dataset/data-unit/01439/ots/dgcp_dataunit_01439.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
