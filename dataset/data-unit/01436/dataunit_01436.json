@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01436",
+  "file_path": "dataset/data-unit/01436/dataunit_01436.json",
+
+  "category": "lifecycle_activity",
+  "sub_category": "meal_consumption",
+
+  "captured_at_local": "2026-02-19 10:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal consumption — rice and cooked dish",
+  "summary": "Observation record: Cooked rice and prepared dish consumed by P'Toh. Post-cooking lifecycle stage recorded.",
+
+  "reference": {
+    "dataunit_refs": ["01431", "01432", "01433", "01434", "01435"],
+    "proof_refs": [],
+    "note": "Continuation of cooking lifecycle sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieno7c43lt6tmjhiehpfd27px27bkykbpzyhrewxld4kd55jpms2y",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01436/hash/dataunit_01436.sha256",
+    "ots_file": "dataset/data-unit/01436/ots/dgcp_dataunit_01436.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
