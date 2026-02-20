@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01431",
+  "file_path": "dataset/data-unit/01431/dataunit_01431.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "wood_stove_ignition",
+
+  "captured_at_local": "2026-02-19 09:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Wood stove ignition — STV-0001",
+  "summary": "Manual ignition of wood stove unit STV-0001 using firewood. Mamee present in frame. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01430"],
+    "proof_refs": [],
+    "note": "Continuation after firewood cutting activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih7xkj7kfxbnumcvn2zuux2vhscfc24lfbewemk6dk6lme3hvqdie",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01431/hash/dataunit_01431.sha256",
+    "ots_file": "dataset/data-unit/01431/ots/dgcp_dataunit_01431.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
