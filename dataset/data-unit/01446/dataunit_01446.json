@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01446",
+  "file_path": "dataset/data-unit/01446/dataunit_01446.json",
+
+  "category": "environmental_measurement",
+  "sub_category": "temperature_humidity_record",
+
+  "captured_at_local": "2026-02-19 18:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Microclimate record — Duck House Evening FZ-03",
+  "summary": "Evening temperature and humidity reading recorded at FZ-03 duck house. No ducks present.",
+
+  "measurement": {
+    "temperature_in_c": 28.4,
+    "temperature_out_c": 28.2,
+    "humidity_percent": 65,
+    "unit_temperature": "Celsius",
+    "device_model": "HTC-2",
+    "sensor_zone_label": "FZ-03-HTC-2"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01441"],
+    "proof_refs": [],
+    "note": "Evening follow-up to earlier FZ-03 measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiafkr4fbrikfsy7xkkyuy7ojkcsn33p2s5e6ndikyop3uanjvplja",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01446/hash/dataunit_01446.sha256",
+    "ots_file": "dataset/data-unit/01446/ots/dgcp_dataunit_01446.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
