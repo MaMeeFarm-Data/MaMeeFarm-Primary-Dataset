@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01447",
+  "file_path": "dataset/data-unit/01447/dataunit_01447.json",
+
+  "category": "agriculture_activity",
+  "sub_category": "manual_watering_evening",
+
+  "captured_at_local": "2026-02-19 18:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Manual Watering — Evening FZ-03",
+  "summary": "Evening manual watering of vegetable plot at FZ-03.",
+
+  "reference": {
+    "dataunit_refs": ["01446"],
+    "proof_refs": [],
+    "note": "Activity following evening microclimate measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibesnmy6zqo2x4onx7fti5dgxewwnwkhjmhl4cifmqmsbcxq7kdya",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01447/hash/dataunit_01447.sha256",
+    "ots_file": "dataset/data-unit/01447/ots/dgcp_dataunit_01447.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
