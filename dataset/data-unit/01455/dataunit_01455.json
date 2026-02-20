@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01455",
+  "file_path": "dataset/data-unit/01455/dataunit_01455.json",
+
+  "category": "infrastructure_record",
+  "sub_category": "solar_panel_array_status",
+
+  "captured_at_local": "2026-02-20 07:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm System",
+
+  "data_type": "image",
+
+  "title": "Solar panel array SPV-A-0001 — rooftop configuration",
+  "summary": "Visual record of SPV-A-0001 solar panel array. Total panels: 4. System active under morning conditions. Recorded by P'Toh.",
+
+  "asset_reference": {
+    "asset_id": "SPV-A-0001",
+    "component_count": 4,
+    "component_type": "solar panels"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01454"],
+    "proof_refs": [],
+    "note": "Infrastructure visual confirmation during morning cycle."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicjdza4lc5okkjgooggju4toj3qabshy4j3pv5czoyxuwc2ph5hzy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01455/hash/dataunit_01455.sha256",
+    "ots_file": "dataset/data-unit/01455/ots/dgcp_dataunit_01455.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
