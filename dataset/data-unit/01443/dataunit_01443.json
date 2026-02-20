@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01443",
+  "file_path": "dataset/data-unit/01443/dataunit_01443.json",
+
+  "category": "environmental_measurement",
+  "sub_category": "temperature_humidity_record",
+
+  "captured_at_local": "2026-02-19 12:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Microclimate record — Indoor HZ-02",
+  "summary": "Temperature and humidity reading recorded inside house (HZ-02 indoor sensor).",
+
+  "measurement": {
+    "temperature_c": 30.2,
+    "humidity_percent": 58,
+    "unit_temperature": "Celsius",
+    "device_model": "HTC-1",
+    "sensor_id": "HZ-02-HTC-2"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01442"],
+    "proof_refs": [],
+    "note": "Indoor comparison following balcony measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiar4aaguu4ww7levjxtjpyrkvzagyetbd5uebzt7nz2bm7qgor4hq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01443/hash/dataunit_01443.sha256",
+    "ots_file": "dataset/data-unit/01443/ots/dgcp_dataunit_01443.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
