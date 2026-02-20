@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01441",
+  "file_path": "dataset/data-unit/01441/dataunit_01441.json",
+
+  "category": "environmental_measurement",
+  "sub_category": "temperature_humidity_record",
+
+  "captured_at_local": "2026-02-19 12:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Microclimate record — FZ-03 (no ducks present)",
+  "summary": "Temperature and humidity reading recorded in duck house zone FZ-03. No ducks present at time of measurement.",
+
+  "measurement": {
+    "temperature_inside_c": 33.9,
+    "temperature_outside_c": 34.6,
+    "humidity_percent": 49,
+    "unit_temperature": "Celsius",
+    "device_model": "HTC-2"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Environmental baseline without livestock presence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibuzybbshbrcqa5a3vkf6un732mdgpcidjjoh4bm4zi75h2s6wbey",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01441/hash/dataunit_01441.sha256",
+    "ots_file": "dataset/data-unit/01441/ots/dgcp_dataunit_01441.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
