@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01463",
+  "file_path": "dataset/data-unit/01463/dataunit_01463.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "electrical_connection",
+
+  "captured_at_local": "2026-02-20 11:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Electrical plug connection — HZ-02",
+  "summary": "Power plug connected in HZ-02. Cable visible.",
+
+  "reference": {
+    "dataunit_refs": ["01462"],
+    "proof_refs": [],
+    "note": "Sequential operation following pump transfer record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigofyk2oz2hc25s2xhtz6ooofnuwwo2baxbecsstemc7ku4hbtyfi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01463/hash/dataunit_01463.sha256",
+    "ots_file": "dataset/data-unit/01463/ots/dgcp_dataunit_01463.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
