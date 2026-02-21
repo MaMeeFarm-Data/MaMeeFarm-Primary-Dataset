@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01462",
+  "file_path": "dataset/data-unit/01462/dataunit_01462.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "water_pumping_transfer",
+
+  "captured_at_local": "2026-02-20 11:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water pump operation — PMP-0003 to WT-F-0001",
+  "summary": "Pump PMP-0003 used to transfer water into tank WT-F-0001.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Sequence follows local time order."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibj4dpnbkiw3xmdzf4gml7rlhgi6urny4dnjkilz2346quxxyjksm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01462/hash/dataunit_01462.sha256",
+    "ots_file": "dataset/data-unit/01462/ots/dgcp_dataunit_01462.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
