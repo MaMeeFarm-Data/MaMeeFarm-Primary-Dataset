@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01461",
+  "file_path": "dataset/data-unit/01461/dataunit_01461.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "inverter_activation_status",
+
+  "captured_at_local": "2026-02-20 07:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Inverter powered on — display degraded",
+  "summary": "INV-01 powered on. Screen display not readable. Device operational.",
+
+  "reference": {
+    "dataunit_refs": ["01451"],
+    "proof_refs": [],
+    "note": "Follow-up to previous inverter record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic4wnwgbgpwqiko3guwiifqu7da4o5yqhfplbr2yqu7z3fy5m44qq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01461/hash/dataunit_01461.sha256",
+    "ots_file": "dataset/data-unit/01461/ots/dgcp_dataunit_01461.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
