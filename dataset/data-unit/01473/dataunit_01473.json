@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01473",
+  "file_path": "dataset/data-unit/01473/dataunit_01473.json",
+
+  "category": "water_system_observation",
+  "sub_category": "underground_water_level_observation_no_gauge",
+
+  "captured_at_local": "2026-02-20 12:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Underground water unit level observation (no measuring instrument)",
+  "summary": "Water level observed in UW-0001-0002. No measuring instrument present.",
+
+  "assets": {
+    "underground_water_unit": ["UW-0001", "UW-0002"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01472"],
+    "proof_refs": [],
+    "note": "Sequential observation after pump deployment."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibp2j7jiipzpxnczjopeg4ifw3m6n2l573bi2gtfprflpofgmnnse",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01473/hash/dataunit_01473.sha256",
+    "ots_file": "dataset/data-unit/01473/ots/dgcp_dataunit_01473.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
