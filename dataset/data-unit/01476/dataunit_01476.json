@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01476",
+  "file_path": "dataset/data-unit/01476/dataunit_01476.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_evening",
+
+  "captured_at_local": "2026-02-20 17:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Evening dog feeding — dry food prepared",
+  "summary": "Evening dog feeding event recorded. Dry dog food prepared in a container with dogs present.",
+
+  "assets": {
+    "dogs": []
+  },
+
+  "reference": {
+    "dataunit_refs": ["01456"],
+    "proof_refs": [],
+    "note": "Evening feeding record referencing morning feeding."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigoucevawbnvtzkr5wewi4fqa5mav6dgyl5d6nuvpypnr5rjb6zla",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01476/hash/dataunit_01476.sha256",
+    "ots_file": "dataset/data-unit/01476/ots/dgcp_dataunit_01476.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
