@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01484",
+  "file_path": "dataset/data-unit/01484/dataunit_01484.json",
+
+  "category": "equipment_operation",
+  "sub_category": "equipment_storage_after_use",
+
+  "captured_at_local": "2026-02-20 18:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Equipment stored after use — EQR-GRC-0001",
+  "summary": "Grass cutter equipment stored after use at HZ-02.",
+
+  "assets": {
+    "equipment": ["EQR-GRC-0001"]
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["669", "671", "672"],
+    "note": "Post-use storage record following related proofs."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihs2wgcqzfndvacsl4rknohs2nwdecayrrjm4ziytju2u65ggsitq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01484/hash/dataunit_01484.sha256",
+    "ots_file": "dataset/data-unit/01484/ots/dgcp_dataunit_01484.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
