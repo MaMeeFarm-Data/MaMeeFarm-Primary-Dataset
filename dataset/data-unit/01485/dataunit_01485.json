@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01485",
+  "file_path": "dataset/data-unit/01485/dataunit_01485.json",
+
+  "category": "environmental_measurement",
+  "sub_category": "house_temperature_record_evening",
+
+  "captured_at_local": "2026-02-20 18:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Evening temperature record — HZ-02",
+  "summary": "Temperature and humidity reading recorded at house balcony sensor.",
+
+  "measurement": {
+    "temperature_celsius": 28.7,
+    "relative_humidity_percent": 61,
+    "device_id": "HTC-1",
+    "sensor_zone_label": "HZ-02-T1"
+  },
+
+  "assets": {
+    "sensor": ["HTC-1"]
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Routine evening environmental monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicgsbafpt2nf3fbkcfd6ahjyuzoavyz57cx7sjcucdshbavjtodfi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01485/hash/dataunit_01485.sha256",
+    "ots_file": "dataset/data-unit/01485/ots/dgcp_dataunit_01485.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
