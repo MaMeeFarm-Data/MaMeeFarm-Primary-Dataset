@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01480",
+  "file_path": "dataset/data-unit/01480/dataunit_01480.json",
+
+  "category": "resource_usage_event",
+  "sub_category": "water_usage_for_irrigation",
+
+  "captured_at_local": "2026-02-20 17:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Water usage recorded — WT-M-0001, WT-M-0002",
+  "summary": "Water drawn from mobile water tanks WT-M-0001 and WT-M-0002 for plant irrigation in FZ-03.",
+
+  "assets": {
+    "water_tanks": ["WT-M-0001", "WT-M-0002"]
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Water used for plant watering in FZ-03."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid6fp5twkyxtkgh2gqiijbx4b7vipiqr72c735kg22bzi4jzb6sia",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01480/hash/dataunit_01480.sha256",
+    "ots_file": "dataset/data-unit/01480/ots/dgcp_dataunit_01480.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
