@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01486",
+  "file_path": "dataset/data-unit/01486/dataunit_01486.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "inverter_shutdown",
+
+  "captured_at_local": "2026-02-21 01:06",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm System",
+
+  "data_type": "image",
+
+  "title": "Hybrid solar inverter shutdown — end of daily cycle",
+  "summary": "Manual shutdown of hybrid solar inverter at end of operational day.",
+
+  "assets": {
+    "inverter": ["INV-01"],
+    "solar_array": ["SPV-A-0001"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01461"],
+    "proof_refs": [],
+    "note": "01461 recorded inverter active/open state."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifdus425m3f6uf5yxbpbrpcc2kwcenqrqidp3dve3k4etzobp3nsq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01486/hash/dataunit_01486.sha256",
+    "ots_file": "dataset/data-unit/01486/ots/dgcp_dataunit_01486.ots"
+  },
+
+  "responsibility": {
+    "actor": "Manual operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
