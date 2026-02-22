@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01505",
+  "file_path": "dataset/data-unit/01505/dataunit_01505.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_kibble_prepared_bucket",
+
+  "captured_at_local": "2026-02-21 17:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding — evening round (kibble prepared)",
+  "summary": "Dry dog food in bucket observed. Dogs present and awaiting feeding.",
+
+  "reference": {
+    "dataunit_refs": ["01489"],
+    "proof_refs": [],
+    "note": "Evening round; linked to morning feeding record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicvkozkw23p2ttucuuv6xnixigpsjtiwvjdypsyhgbsi6xychjcsa",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01505/hash/dataunit_01505.sha256",
+    "ots_file": "dataset/data-unit/01505/ots/dgcp_dataunit_01505.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
