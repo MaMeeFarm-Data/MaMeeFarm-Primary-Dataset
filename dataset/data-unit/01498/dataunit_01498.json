@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01498",
+  "file_path": "dataset/data-unit/01498/dataunit_01498.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "cooking_process_completed",
+
+  "captured_at_local": "2026-02-21 10:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rice cooking completed on STV-0001",
+  "summary": "Cooked rice observed inside metal pot on wood stove STV-0001. Cooking process completed.",
+
+  "asset_reference": {
+    "asset_id": "STV-0001",
+    "related_dataunits": ["01495", "01496", "01497"]
+  },
+
+  "operation_status": {
+    "cooking_state": "completed",
+    "rice_visible": true,
+    "steam_present": false
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigsigpimg4awxswkekcqtbgbfknc57hdsoxjrycvl6fao36kco3fy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01498/hash/dataunit_01498.sha256",
+    "ots_file": "dataset/data-unit/01498/ots/dgcp_dataunit_01498.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
