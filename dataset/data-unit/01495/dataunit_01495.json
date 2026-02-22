@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01495",
+  "file_path": "dataset/data-unit/01495/dataunit_01495.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "wood_stove_ignition",
+
+  "captured_at_local": "2026-02-21 10:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "STV-0001 wood stove ignition",
+  "summary": "Wood stove STV-0001 ignited. Firewood arranged and ignition initiated.",
+
+  "asset_reference": {
+    "asset_id": "STV-0001",
+    "asset_type": "Wood Stove"
+  },
+
+  "operation_status": {
+    "state": "ignition_initiated",
+    "fuel_type": "firewood",
+    "manual_operation": true
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihmnrck6jq6hqss6lhlvo3rjzzvyj3fziiftt5wj7fme6cnyg2524",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01495/hash/dataunit_01495.sha256",
+    "ots_file": "dataset/data-unit/01495/ots/dgcp_dataunit_01495.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
