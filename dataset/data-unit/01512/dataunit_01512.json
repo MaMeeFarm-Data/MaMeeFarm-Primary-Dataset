@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01512",
+  "file_path": "dataset/data-unit/01512/dataunit_01512.json",
+
+  "category": "environment_measurement",
+  "sub_category": "balcony_temperature_humidity_record",
+
+  "captured_at_local": "2026-02-22 07:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Balcony temperature & humidity — morning record",
+  "summary": "Device display shows temperature 21.3°C and humidity 73% RH. Timestamp overlay: 2026-02-22 07:42. Sensor label visible: HZ-02-HTC-1.",
+
+  "reference": {
+    "dataunit_refs": ["01509"],
+    "proof_refs": [],
+    "note": "Morning balcony microclimate reading. Environmental data sequence continuation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibtkhdimhn32jawd54zqj23mkcui6fagbsxoxh2wkngt53oyvojuy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01512/hash/dataunit_01512.sha256",
+    "ots_file": "dataset/data-unit/01512/ots/dgcp_dataunit_01512.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
