@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01506",
+  "file_path": "dataset/data-unit/01506/dataunit_01506.json",
+
+  "category": "agriculture_operation",
+  "sub_category": "manual_watering",
+
+  "captured_at_local": "2026-02-21 18:31",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Manual watering — vegetable area FZ-03",
+  "summary": "Water applied manually to vegetable plants using hose with spray head.",
+
+  "operation_details": {
+    "method": "manual_hose_spray",
+    "water_flow_visible": true,
+    "time_of_day": "evening"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiadu2mpsfswo4sqfkeqwbcpaktwid3gjypsgk42s6cxnthao5revq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01506/hash/dataunit_01506.sha256",
+    "ots_file": "dataset/data-unit/01506/ots/dgcp_dataunit_01506.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
