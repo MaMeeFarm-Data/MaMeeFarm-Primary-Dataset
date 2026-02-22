@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01499",
+  "file_path": "dataset/data-unit/01499/dataunit_01499.json",
+
+  "category": "daily_life_record",
+  "sub_category": "meal_consumption",
+
+  "captured_at_local": "2026-02-21 11:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal consumption after wood stove cooking sequence",
+  "summary": "Cooked rice and prepared food observed during meal consumption. Continuation of cooking sequence recorded earlier.",
+
+  "reference": {
+    "dataunit_refs": ["01495", "01496", "01497", "01498"],
+    "proof_refs": [],
+    "note": "Food prepared from prior wood stove operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigyd3la3fxedcnntjidgdwpw3ul432p2nou3hfoznid3b2c4pp7ji",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01499/hash/dataunit_01499.sha256",
+    "ots_file": "dataset/data-unit/01499/ots/dgcp_dataunit_01499.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm daily life",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
