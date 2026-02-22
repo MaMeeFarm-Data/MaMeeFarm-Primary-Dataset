@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01488",
+  "file_path": "dataset/data-unit/01488/dataunit_01488.json",
+
+  "category": "environmental_observation",
+  "sub_category": "sky_condition_record",
+
+  "captured_at_local": "2026-02-21 07:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm Perimeter",
+
+  "data_type": "image",
+
+  "title": "Morning sky observation — farm perimeter",
+  "summary": "Visual sky condition record surrounding farm landscape.",
+
+  "observation": {
+    "cloud_presence": "visible",
+    "visibility": "clear-to-moderate",
+    "precipitation": "none observed",
+    "light_condition": "morning ambient light"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Routine environmental observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidpv3bpsj5aaj45vrjl7yzg5ezlge5uwfuf4siyvot5glf7jgzfwe",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01488/hash/dataunit_01488.sha256",
+    "ots_file": "dataset/data-unit/01488/ots/dgcp_dataunit_01488.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
