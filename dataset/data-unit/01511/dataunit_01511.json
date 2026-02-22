@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01511",
+  "file_path": "dataset/data-unit/01511/dataunit_01511.json",
+
+  "category": "environment_observation",
+  "sub_category": "sky_condition_morning_record",
+
+  "captured_at_local": "2026-02-22 07:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Field perimeter",
+
+  "data_type": "image",
+
+  "title": "Sky observation — morning field record",
+  "summary": "Visual record of sky condition over cultivated field. Cloud cover visible. Timestamp overlay: 2026-02-22 07:10.",
+
+  "reference": {
+    "dataunit_refs": ["01509"],
+    "proof_refs": [],
+    "note": "Sequential environmental observation. Data flow aligned with prior indoor temperature and humidity record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihn3syaeb6aopume2hnaeg76uuxrx7hwmxa2llukfnfypi7p5lfpy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01511/hash/dataunit_01511.sha256",
+    "ots_file": "dataset/data-unit/01511/ots/dgcp_dataunit_01511.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
