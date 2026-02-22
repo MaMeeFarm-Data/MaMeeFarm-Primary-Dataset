@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01492",
+  "file_path": "dataset/data-unit/01492/dataunit_01492.json",
+
+  "category": "plant_growth_observation",
+  "sub_category": "pod_initiation_stage",
+
+  "captured_at_local": "2026-02-21 08:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "PLT-RPH-0001 — pod initiation observed",
+  "summary": "First pod formation observed on plant asset PLT-RPH-0001.",
+
+  "asset_reference": {
+    "plant_id": "PLT-RPH-0001"
+  },
+
+  "growth_stage": {
+    "stage": "pod_emergence",
+    "flower_presence": "visible",
+    "physical_damage": "leaf perforations observed"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Routine plant development monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiesvsfbcby4erpjtq2lqd7ttilqjidvxe5cgsyqo2tfw22hvyjxha",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01492/hash/dataunit_01492.sha256",
+    "ots_file": "dataset/data-unit/01492/ots/dgcp_dataunit_01492.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
