@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01504",
+  "file_path": "dataset/data-unit/01504/dataunit_01504.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "water_tank_refill_completed",
+
+  "captured_at_local": "2026-02-21 14:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "WT-M-0002 water refill completed",
+  "summary": "Mobile water tank WT-M-0002 observed full after refill process.",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0002",
+    "asset_type": "Mobile Water Tank"
+  },
+
+  "operation_status": {
+    "refill_state": "completed",
+    "water_level": "full"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01501"],
+    "note": "Refill completion following in-progress record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia3pubpkpfpj5tiiujwhbwmaxqi5aqetfmn5abe5j42g75ouzmvzy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01504/hash/dataunit_01504.sha256",
+    "ots_file": "dataset/data-unit/01504/ots/dgcp_dataunit_01504.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
