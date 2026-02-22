@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01490",
+  "file_path": "dataset/data-unit/01490/dataunit_01490.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_ground_distribution",
+
+  "captured_at_local": "2026-02-21 07:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding — ground distribution HZ-02",
+  "summary": "Dry food distributed on ground surface. Dogs actively feeding.",
+
+  "assets": {
+    "animal_group": ["Perimeter Unit"],
+    "food_type": "dry_kibble"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01489"],
+    "proof_refs": [],
+    "note": "Continuation of morning feeding cycle."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidivfbjqgeruvzzqmtxrawlt3fkiqerhdzq73cwwh5cchrthbovom",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01490/hash/dataunit_01490.sha256",
+    "ots_file": "dataset/data-unit/01490/ots/dgcp_dataunit_01490.ots"
+  },
+
+  "responsibility": {
+    "actor": "Manual feeding operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
