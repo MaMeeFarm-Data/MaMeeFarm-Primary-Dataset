@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01500",
+  "file_path": "dataset/data-unit/01500/dataunit_01500.json",
+
+  "category": "infrastructure_record",
+  "sub_category": "water_tank_status",
+
+  "captured_at_local": "2026-02-21 12:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water tanks WT-F-0001 and WT-F-0002 status record",
+  "summary": "Visual record of farm water tanks WT-F-0001 and WT-F-0002. Tanks labeled and active within farm water system.",
+
+  "asset_reference": {
+    "asset_ids": ["WT-F-0001", "WT-F-0002"],
+    "system": "Farm Water System"
+  },
+
+  "operational_status": {
+    "label_visible": true,
+    "external_condition": "intact",
+    "connection_hose_present": true
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihiw2d5dpmqrkyusphjnoyzglxaq5o3vn7wynfyir75zkmv5imojm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01500/hash/dataunit_01500.sha256",
+    "ots_file": "dataset/data-unit/01500/ots/dgcp_dataunit_01500.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm infrastructure observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
