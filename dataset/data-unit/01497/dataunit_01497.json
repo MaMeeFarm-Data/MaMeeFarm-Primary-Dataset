@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01497",
+  "file_path": "dataset/data-unit/01497/dataunit_01497.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "cooking_process_initiated",
+
+  "captured_at_local": "2026-02-21 10:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Cooking vessel placed on STV-0001",
+  "summary": "Metal pot positioned on active wood stove STV-0001. Steam visible. Cooking process initiated.",
+
+  "asset_reference": {
+    "asset_id": "STV-0001"
+  },
+
+  "operation_status": {
+    "combustion_active": true,
+    "vessel_present": true,
+    "steam_visible": true
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihwg5i745xmruizjkb6lnnsjyfkethhi2dpet3yd5kehol43br7z4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01497/hash/dataunit_01497.sha256",
+    "ots_file": "dataset/data-unit/01497/ots/dgcp_dataunit_01497.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
