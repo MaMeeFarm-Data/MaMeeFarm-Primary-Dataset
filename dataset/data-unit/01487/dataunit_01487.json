@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01487",
+  "file_path": "dataset/data-unit/01487/dataunit_01487.json",
+
+  "category": "environmental_measurement",
+  "sub_category": "house_temperature_record_morning",
+
+  "captured_at_local": "2026-02-21 07:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Morning indoor temperature record — HZ-02-T2",
+  "summary": "Indoor temperature and humidity reading recorded at house sensor.",
+
+  "measurement": {
+    "temperature_celsius": 23.2,
+    "relative_humidity_percent": 78,
+    "device_id": "HTC-1",
+    "sensor_zone_label": "HZ-02-T2"
+  },
+
+  "assets": {
+    "sensor": ["HTC-1"]
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Routine morning environmental monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiejzbhsdsfxzsont3dxoz5ghxqmx5zdrtr5wwo2zoh6rjdkyiysq4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01487/hash/dataunit_01487.sha256",
+    "ots_file": "dataset/data-unit/01487/ots/dgcp_dataunit_01487.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
