@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01501",
+  "file_path": "dataset/data-unit/01501/dataunit_01501.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "water_tank_refill",
+
+  "captured_at_local": "2026-02-21 12:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "WT-M-0002 water refill in progress",
+  "summary": "Water observed inside mobile tank WT-M-0002 during refill process. Hose inserted. Surface water visible.",
+
+  "asset_reference": {
+    "asset_id": "WT-M-0002",
+    "asset_type": "Mobile Water Tank"
+  },
+
+  "operation_status": {
+    "refill_state": "in_progress",
+    "hose_present": true,
+    "water_visible": true
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigtnq5txlnwkdkyjfyjt6goq4xhonubicpgeva34kfkoba23us6tu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01501/hash/dataunit_01501.sha256",
+    "ots_file": "dataset/data-unit/01501/ots/dgcp_dataunit_01501.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
