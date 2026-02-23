@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01516",
+  "file_path": "dataset/data-unit/01516/dataunit_01516.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "solar_inverter_activation_daily",
+
+  "captured_at_local": "2026-02-22 07:47",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Solar system activation — INV-01 daily start",
+  "summary": "Daily system activation record for inverter INV-01 (HZ-02). Indicator lights visible. Display screen not showing output (non-functional). Timestamp overlay: 2026-02-22 07:47.",
+
+  "reference": {
+    "dataunit_refs": ["01508"],
+    "proof_refs": [],
+    "note": "Daily operational sequence. Prior state recorded as system off (DU 01508)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid5q7ewiwdf3dxmlstjmvaaugzkthpk6wc4dlklxi7al4sh7g6jdq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01516/hash/dataunit_01516.sha256",
+    "ots_file": "dataset/data-unit/01516/ots/dgcp_dataunit_01516.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
