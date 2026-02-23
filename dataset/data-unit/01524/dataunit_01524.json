@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01524",
+  "file_path": "dataset/data-unit/01524/dataunit_01524.json",
+
+  "category": "environment_record",
+  "sub_category": "temperature_humidity_duck_house",
+
+  "captured_at_local": "2026-02-22 18:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Duck house temperature and humidity record — FZ-03",
+  "summary": "Digital sensor reading in duck house zone. IN: 25.5°C, OUT: 24.2°C, RH: 71%. Timestamp overlay: 2026-02-22 18:36.",
+
+  "sensor": {
+    "device_model": "HTC-2",
+    "zone_label": "FZ-03",
+    "placement": "Duck House Zone",
+    "scope": "Animal housing microclimate"
+  },
+
+  "measurement": {
+    "temperature_inside_celsius": 25.5,
+    "temperature_outside_celsius": 24.2,
+    "humidity_percent": 71
+  },
+
+  "context_note": "Duck house currently without ducks.",
+
+  "reference": {
+    "dataunit_refs": ["01523"],
+    "proof_refs": [],
+    "note": "Sequential environmental monitoring across zones."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidkwl33h4zufn2jqe62atlony4qvvzt4qffea2uupoijnt6i3vnge",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01524/hash/dataunit_01524.sha256",
+    "ots_file": "dataset/data-unit/01524/ots/dgcp_dataunit_01524.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
