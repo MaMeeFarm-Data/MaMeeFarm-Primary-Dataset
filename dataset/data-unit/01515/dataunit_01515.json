@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01515",
+  "file_path": "dataset/data-unit/01515/dataunit_01515.json",
+
+  "category": "plant_observation",
+  "sub_category": "leaf_damage_insect_presence",
+
+  "captured_at_local": "2026-02-22 07:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Pumpkin leaf observation — insect presence and leaf damage",
+  "summary": "Observation of pumpkin plant leaf (Asset: PLT-PKN-0001). Leaf shows visible damage and discoloration. Insect visible on leaf surface. No chemical application recorded at time of capture. Timestamp overlay: 2026-02-22 07:45.",
+
+  "reference": {
+    "dataunit_refs": ["01514"],
+    "proof_refs": [],
+    "note": "Sequential environmental and crop monitoring record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibm4yd3tb2rd2lz3ei5yv3camy4dnvhxxuhithtd4qokzwwufbfwe",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01515/hash/dataunit_01515.sha256",
+    "ots_file": "dataset/data-unit/01515/ots/dgcp_dataunit_01515.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
