@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01525",
+  "file_path": "dataset/data-unit/01525/dataunit_01525.json",
+
+  "category": "environment_record",
+  "sub_category": "field_environment_observation",
+
+  "captured_at_local": "2026-02-22 18:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Field environment observation — FZ-03",
+  "summary": "Visual record of field area including planting beds, banana trees, water containers, and surrounding landscape. Timestamp overlay: 2026-02-22 18:37.",
+
+  "reference": {
+    "dataunit_refs": ["01524"],
+    "proof_refs": [],
+    "note": "Sequential continuation of environmental monitoring."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifzgruxbw6xasftn3dutdv7ay7lmf6cczaz5xfhsyrqup2cnz7rie",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01525/hash/dataunit_01525.sha256",
+    "ots_file": "dataset/data-unit/01525/ots/dgcp_dataunit_01525.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
