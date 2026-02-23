@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01517",
+  "file_path": "dataset/data-unit/01517/dataunit_01517.json",
+
+  "category": "daily_activity",
+  "sub_category": "wood_stove_fire_preparation",
+
+  "captured_at_local": "2026-02-22 12:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Wood stove ignition — STV-0001",
+  "summary": "Mamee igniting wood-fired stove (Asset: STV-0001). Firewood arranged inside stove. Open flame visible. Timestamp overlay: 2026-02-22 12:32.",
+
+  "reference": {
+    "dataunit_refs": ["01516"],
+    "proof_refs": [],
+    "note": "Midday household activity record. Sequential continuation from prior infrastructure operation log."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiewvet6zdox4leks3yvdqvle43vlcdwl5dborj5rh6ggdf2zf6s5a",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01517/hash/dataunit_01517.sha256",
+    "ots_file": "dataset/data-unit/01517/ots/dgcp_dataunit_01517.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
