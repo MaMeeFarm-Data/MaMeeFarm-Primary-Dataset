@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01532",
+  "file_path": "dataset/data-unit/01532/dataunit_01532.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "inverter_activation",
+
+  "captured_at_local": "2026-02-23 08:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Solar inverter activation — farm power system",
+  "summary": "Power inverter (INV-01) activated. Indicator lights visible. Timestamp overlay: 2026-02-23 08:04.",
+
+  "asset": {
+    "asset_id": "INV-01",
+    "system_reference": "SPV-A-0001",
+    "system_type": "solar power conversion",
+    "status_observed": "active indicator visible"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01527"],
+    "proof_refs": [],
+    "note": "System state transition from prior inverter shutdown record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiczluq743z6iikfhn5ejipncl6gx7bi6a4nc27o6tx7ejskp6jrcu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01532/hash/dataunit_01532.sha256",
+    "ots_file": "dataset/data-unit/01532/ots/dgcp_dataunit_01532.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
