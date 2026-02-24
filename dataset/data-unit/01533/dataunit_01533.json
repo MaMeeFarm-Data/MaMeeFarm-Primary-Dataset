@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01533",
+  "file_path": "dataset/data-unit/01533/dataunit_01533.json",
+
+  "category": "daily_life_operation",
+  "sub_category": "water_boiling",
+
+  "captured_at_local": "2026-02-23 10:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Boiling drinking water — STV-0001",
+  "summary": "Metal kettle placed on stove (STV-0001). Firewood combustion visible. Water boiling in progress. Timestamp overlay: 2026-02-23 10:16.",
+
+  "asset": {
+    "stove_id": "STV-0001",
+    "fuel_type": "wood",
+    "operation_state": "active flame observed"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01532"],
+    "proof_refs": [],
+    "note": "Sequential continuation of morning operational activities."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeico5l2hp326abh3divzx3yogqmzfguciliny5hwheafpdj5tcgsue",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01533/hash/dataunit_01533.sha256",
+    "ots_file": "dataset/data-unit/01533/ots/dgcp_dataunit_01533.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
