@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01546",
+  "file_path": "dataset/data-unit/01546/dataunit_01546.json",
+
+  "category": "asset_registration_event",
+  "sub_category": "infrastructure_pre_registration_record",
+
+  "captured_at_local": "2026-02-23 17:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Boiling equipment record — pending asset ID registration",
+  "summary": "Portable gas stove with butane canister and metal kettle observed in operational setup. Recorded for asset ID registration preparation. Timestamp overlay: 2026-02-23 17:55.",
+
+  "asset_candidate": {
+    "components": [
+      "portable gas stove",
+      "butane gas canister",
+      "metal boiling kettle"
+    ],
+    "intended_function": ["water boiling", "coffee preparation"],
+    "registration_status": "pending asset ID assignment"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01545"],
+    "proof_refs": [],
+    "note": "Pre-registration documentation prior to formal asset ID issuance."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifcc35xy2kbngrdzqpvzgqqdlkno3wsppuepcgs7cr2jb6rr3476m",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01546/hash/dataunit_01546.sha256",
+    "ots_file": "dataset/data-unit/01546/ots/dgcp_dataunit_01546.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
