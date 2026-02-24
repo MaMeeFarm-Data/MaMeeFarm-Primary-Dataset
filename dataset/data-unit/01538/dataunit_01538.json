@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01538",
+  "file_path": "dataset/data-unit/01538/dataunit_01538.json",
+
+  "category": "daily_life_operation",
+  "sub_category": "meal_consumption",
+
+  "captured_at_local": "2026-02-23 12:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal consumption — rice and Chinese sausage",
+  "summary": "Cooked rice served with sliced Chinese pork sausage. Recorded as mid-day meal consumption by P'Toh. Timestamp overlay: 2026-02-23 12:02.",
+
+  "reference": {
+    "dataunit_refs": ["01537"],
+    "proof_refs": [],
+    "note": "Sequential continuation after rice cooking completion."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeichvla53db62nfuirwhhw4kc4acpfye64o3mka47xenffczxfj55u",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01538/hash/dataunit_01538.sha256",
+    "ots_file": "dataset/data-unit/01538/ots/dgcp_dataunit_01538.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
