@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01547",
+  "file_path": "dataset/data-unit/01547/dataunit_01547.json",
+
+  "category": "asset_registration_event",
+  "sub_category": "infrastructure_asset_registration",
+
+  "captured_at_local": "2026-02-23 18:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset registration — INF-GASSTOVE-0001 portable gas stove",
+  "summary": "Formal asset registration of portable gas stove. Asset card visible showing ID INF-GASSTOVE-0001. Fuel type: butane canister. Function: water boiling. Zone: HZ-02. Status: operational. Timestamp overlay: 2026-02-23 18:09.",
+
+  "asset": {
+    "asset_id": "INF-GASSTOVE-0001",
+    "common_name": "Portable Gas Stove",
+    "fuel_type": "Butane Canister",
+    "function": "Water Boiling",
+    "zone": "HZ-02",
+    "environment": "Indoor",
+    "location_detail": "Command Center",
+    "status": "Operational"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01546"],
+    "proof_refs": [],
+    "note": "Formal asset ID issuance following pre-registration documentation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig5rrohs7orgsevbnd4k2beqscgow5djgbzwsvsm66mvgocduu33i",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01547/hash/dataunit_01547.sha256",
+    "ots_file": "dataset/data-unit/01547/ots/dgcp_dataunit_01547.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
