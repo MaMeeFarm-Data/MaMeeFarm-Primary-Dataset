@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01534",
+  "file_path": "dataset/data-unit/01534/dataunit_01534.json",
+
+  "category": "environment_record",
+  "sub_category": "temperature_humidity_house_balcony",
+
+  "captured_at_local": "2026-02-23 10:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Temperature and humidity record — HZ-02-T1",
+  "summary": "Microclimate sensor reading. Temperature: 23.5°C. Humidity: 73%. Timestamp overlay: 2026-02-23 10:25.",
+
+  "sensor": {
+    "device_model": "HTC-1",
+    "asset_id": "HZ-02-HTC-1",
+    "sub_unit": "HZ-02-T1",
+    "placement": "House Balcony Sensor",
+    "status": "active"
+  },
+
+  "measurement": {
+    "temperature_celsius": 23.5,
+    "humidity_percent": 73
+  },
+
+  "reference": {
+    "dataunit_refs": ["01533"],
+    "proof_refs": [],
+    "note": "Sequential environmental monitoring continuation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiazg33kvq52shqi3jlgaphchpjlxymk73qq2l4t4wgveqyj6sjfnu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01534/hash/dataunit_01534.sha256",
+    "ots_file": "dataset/data-unit/01534/ots/dgcp_dataunit_01534.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
