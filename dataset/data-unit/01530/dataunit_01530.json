@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01530",
+  "file_path": "dataset/data-unit/01530/dataunit_01530.json",
+
+  "category": "agriculture_activity",
+  "sub_category": "soil_preparation_manual",
+
+  "captured_at_local": "2026-02-23 07:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Manual soil digging — vegetable plot FZ-03",
+  "summary": "Manual soil preparation using hoe tool in vegetable plot area. Timestamp overlay: 2026-02-23 07:50.",
+
+  "activity": {
+    "tool_type": "hoe",
+    "method": "manual labor",
+    "surface_condition": "dry soil surface",
+    "vegetation_presence": "partial ground cover visible"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01529"],
+    "proof_refs": [],
+    "note": "Morning field work continuation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib6hu5kdrftme265dqegnlnedhh6hw4evzw6ps2mjvx6lsokujxmu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01530/hash/dataunit_01530.sha256",
+    "ots_file": "dataset/data-unit/01530/ots/dgcp_dataunit_01530.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
