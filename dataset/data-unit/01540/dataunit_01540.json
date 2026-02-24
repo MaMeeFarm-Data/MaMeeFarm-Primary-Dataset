@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01540",
+  "file_path": "dataset/data-unit/01540/dataunit_01540.json",
+
+  "category": "agriculture_asset_management",
+  "sub_category": "event_label_attachment",
+
+  "captured_at_local": "2026-02-23 17:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Papaya asset event label attachment — PLT-PAP-0003",
+  "summary": "Event label attached to papaya tree asset PLT-PAP-0003. Labels reference prior harvest events and linked DataUnit records. Timestamp overlay: 2026-02-23 17:01.",
+
+  "asset": {
+    "asset_id": "PLT-PAP-0003",
+    "common_name": "Papaya",
+    "zone": "HZ-02",
+    "action": "event label attached",
+    "traceability_reference": ["DU-01440"]
+  },
+
+  "reference": {
+    "dataunit_refs": ["01539"],
+    "proof_refs": [],
+    "note": "Sequential continuation of same-day operational record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifw5hxsh4flaxnuvbt3e3irkbcpc2u4i3xgksritrqeknrfh746wy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01540/hash/dataunit_01540.sha256",
+    "ots_file": "dataset/data-unit/01540/ots/dgcp_dataunit_01540.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
