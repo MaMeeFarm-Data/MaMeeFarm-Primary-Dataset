@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01548",
+  "file_path": "dataset/data-unit/01548/dataunit_01548.json",
+
+  "category": "asset_registration_event",
+  "sub_category": "infrastructure_asset_registration",
+
+  "captured_at_local": "2026-02-23 18:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset registration — INF-KET-0001 metal boiling kettle",
+  "summary": "Formal asset registration of metal boiling kettle. Asset card visible showing ID INF-KET-0001. Function: water heating. Zone: HZ-02. Status: operational. Timestamp overlay: 2026-02-23 18:09.",
+
+  "asset": {
+    "asset_id": "INF-KET-0001",
+    "common_name": "Kettle",
+    "type": "Metal Boiling Kettle",
+    "function": "Water Heating",
+    "zone": "HZ-02",
+    "environment": "Indoor",
+    "location_detail": "Command Center",
+    "status": "Operational"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01547"],
+    "proof_refs": [],
+    "note": "Asset registration following stove registration sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeievcdmblgomigy2b6bbxzlnrnlrcnrbtq4jcno2r3tgfnttesk5bu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01548/hash/dataunit_01548.sha256",
+    "ots_file": "dataset/data-unit/01548/ots/dgcp_dataunit_01548.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
