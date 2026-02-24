@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01543",
+  "file_path": "dataset/data-unit/01543/dataunit_01543.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "seedling_emergence_record",
+
+  "captured_at_local": "2026-02-23 17:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Long bean seedling emergence — newly planted row",
+  "summary": "Newly planted long bean (yardlong bean) seedlings observed emerging along mulched planting row. Timestamp overlay: 2026-02-23 17:24.",
+
+  "crop": {
+    "common_name": "Long bean",
+    "local_name": "ถั่วฝักยาว",
+    "growth_stage": "seedling emergence",
+    "bed_condition": "mulched row",
+    "planting_status": "new planting cycle"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01542"],
+    "proof_refs": [],
+    "note": "Sequential continuation of same-day operational record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifh67ibg7drxesbnqrnzautdtnmx46mlbuuyewzlh5cphcnb6z32a",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01543/hash/dataunit_01543.sha256",
+    "ots_file": "dataset/data-unit/01543/ots/dgcp_dataunit_01543.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
