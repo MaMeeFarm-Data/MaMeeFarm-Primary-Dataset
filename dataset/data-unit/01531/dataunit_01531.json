@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01531",
+  "file_path": "dataset/data-unit/01531/dataunit_01531.json",
+
+  "category": "agriculture_activity",
+  "sub_category": "soil_preparation_progress",
+
+  "captured_at_local": "2026-02-23 08:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Soil preparation progress — 1 small plot completed FZ-03",
+  "summary": "Manual digging progress recorded. One small plot visibly turned and loosened. Timestamp overlay: 2026-02-23 08:02.",
+
+  "activity": {
+    "tool_type": "hoe",
+    "method": "manual labor",
+    "plot_status": "1 small plot prepared",
+    "surface_condition": "soil turned and loosened"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01530"],
+    "proof_refs": [],
+    "note": "Sequential continuation of morning soil preparation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiby6lroawgeinlrqiio2j2lavbx4bvellawjtltjlnp4rjico3izq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01531/hash/dataunit_01531.sha256",
+    "ots_file": "dataset/data-unit/01531/ots/dgcp_dataunit_01531.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
