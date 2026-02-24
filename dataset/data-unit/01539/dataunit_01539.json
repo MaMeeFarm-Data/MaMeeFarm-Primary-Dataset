@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01539",
+  "file_path": "dataset/data-unit/01539/dataunit_01539.json",
+
+  "category": "environmental_monitoring",
+  "sub_category": "indoor_temperature_humidity_record",
+
+  "captured_at_local": "2026-02-23 16:01",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T2",
+
+  "data_type": "image",
+
+  "title": "Indoor temperature and humidity record — HZ-02-T2",
+  "summary": "Digital sensor display observed. Temperature: 27.3°C. Humidity: 73%. Timestamp overlay: 2026-02-23 16:01.",
+
+  "sensor": {
+    "device_model": "HTC-1",
+    "sensor_id": "HZ-02-HTC-2",
+    "sensor_point": "HZ-02-T2",
+    "measurement_type": ["temperature", "humidity"],
+    "temperature_celsius": 27.3,
+    "humidity_percent": 73
+  },
+
+  "reference": {
+    "dataunit_refs": ["01538"],
+    "proof_refs": [],
+    "note": "Sequential continuation of same-day operational record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigq6fjx6jvft3ncbbbqzhpeme4ucn4i3rwofl5xcino7cigqkmha4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01539/hash/dataunit_01539.sha256",
+    "ots_file": "dataset/data-unit/01539/ots/dgcp_dataunit_01539.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
