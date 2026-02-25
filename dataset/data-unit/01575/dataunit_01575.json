@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01575",
+  "file_path": "dataset/data-unit/01575/dataunit_01575.json",
+
+  "category": "environment_record",
+  "sub_category": "temperature_humidity_log",
+
+  "captured_at_local": "2026-02-24 16:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_unit": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Balcony microclimate record — HZ-02-T1 (afternoon)",
+  "summary": "Temperature and humidity reading from balcony sensor HTC-1.",
+
+  "measurement": {
+    "temperature_celsius": 28.4,
+    "humidity_percent": 44,
+    "device_model": "HTC-1",
+    "sensor_label": "HZ-02-HTC-1",
+    "system": "House Line",
+    "status": "Active"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01570"],
+    "proof_refs": [],
+    "note": "Subsequent balcony reading same day."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiavs3gozb54nm7ry5ctxiwkp4e56akxm7pvizbxg5st6uqp6n4dxi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01575/hash/dataunit_01575.sha256",
+    "ots_file": "dataset/data-unit/01575/ots/dgcp_dataunit_01575.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
