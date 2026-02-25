@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01555",
+  "file_path": "dataset/data-unit/01555/dataunit_01555.json",
+
+  "category": "plant_care_event",
+  "sub_category": "manual_watering",
+
+  "captured_at_local": "2026-02-24 07:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Morning watering — FZ-03",
+  "summary": "Manual watering observed in FZ-03 at 07:52. Water flow from watering tool directed to soil base of plants. Surface soil visibly wet.",
+
+  "asset": {
+    "asset_type": "Plant Zone",
+    "zone_id": "FZ-03",
+    "care_action": "watering",
+    "method": "manual",
+    "water_flow_visible": true,
+    "soil_condition_after": "wet surface"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01554"],
+    "proof_refs": [],
+    "note": "Sequential morning field operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidgwflso5ezs4ynjynqfjflec444oslgivt2wndnowb32kymmh6zy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01555/hash/dataunit_01555.sha256",
+    "ots_file": "dataset/data-unit/01555/ots/dgcp_dataunit_01555.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
