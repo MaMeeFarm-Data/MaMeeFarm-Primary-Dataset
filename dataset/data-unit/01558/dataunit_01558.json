@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01558",
+  "file_path": "dataset/data-unit/01558/dataunit_01558.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feed_preparation",
+
+  "captured_at_local": "2026-02-24 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feed preparation — dry pellets",
+  "summary": "Dry dog food pellets placed in container at 07:57. No weighing instrument used. Quantity not measured.",
+
+  "asset": {
+    "asset_type": "Dog Feed",
+    "feed_form": "dry pellets",
+    "measurement_method": "visual estimation",
+    "weighing_instrument_present": false
+  },
+
+  "reference": {
+    "dataunit_refs": ["01557"],
+    "proof_refs": [],
+    "note": "Sequential morning animal care operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiek7igdksuhv43wymokizsjek4tqrrzdy544bhc4plqbkorqa6mta",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01558/hash/dataunit_01558.sha256",
+    "ots_file": "dataset/data-unit/01558/ots/dgcp_dataunit_01558.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
