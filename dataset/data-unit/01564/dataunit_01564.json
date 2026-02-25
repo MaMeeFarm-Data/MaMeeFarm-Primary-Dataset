@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01564",
+  "file_path": "dataset/data-unit/01564/dataunit_01564.json",
+
+  "category": "animal_care_event",
+  "sub_category": "ground_cleaning_dog_area",
+
+  "captured_at_local": "2026-02-24 11:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Ground cleaning — dog area HZ-02",
+  "summary": "Manual ground cleaning activity in HZ-02 dog area. Waste collection observed. Mamee present performing area maintenance. Recorded by P'Toh.",
+
+  "asset": {
+    "asset_type": "Ground Area",
+    "zone": "HZ-02",
+    "operation": "manual waste collection",
+    "maintenance_type": "hygiene maintenance"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01559"],
+    "proof_refs": [],
+    "note": "Daily area maintenance sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibil6ri6wo6sracnsbi7yr6udf6fju6ggfe52g5ijlfaj6lgpduju",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01564/hash/dataunit_01564.sha256",
+    "ots_file": "dataset/data-unit/01564/ots/dgcp_dataunit_01564.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
