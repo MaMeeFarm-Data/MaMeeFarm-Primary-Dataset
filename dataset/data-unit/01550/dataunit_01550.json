@@ -1,0 +1,64 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01550",
+  "file_path": "dataset/data-unit/01550/dataunit_01550.json",
+
+  "category": "environmental_monitoring",
+  "sub_category": "indoor_microclimate_record",
+
+  "captured_at_local": "2026-02-24 07:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T2",
+
+  "data_type": "image",
+
+  "title": "Indoor temperature and humidity record — morning",
+  "summary": "Indoor sensor display HTC-1 showing temperature 22.8°C and humidity 83% at 07:25 AM. Timestamp overlay: 2026-02-24 07:25.",
+
+  "sensor": {
+    "device_model": "HTC-1",
+    "asset_label": "HZ-02-HTC-2",
+    "measurement_type": ["temperature", "humidity"],
+    "temperature_celsius": 22.8,
+    "humidity_percent": 83
+  },
+
+  "context": {
+    "environment": "Indoor",
+    "house_zone": "HZ-02",
+    "measurement_period": "morning"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01549"],
+    "proof_refs": [],
+    "note": "Sequential continuation of environmental monitoring for 2026-02-24."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicnrgeulsvg26jqamxxamv5r5hikbgjqglpkjlxih7ogllbfxutaa",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01550/hash/dataunit_01550.sha256",
+    "ots_file": "dataset/data-unit/01550/ots/dgcp_dataunit_01550.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
