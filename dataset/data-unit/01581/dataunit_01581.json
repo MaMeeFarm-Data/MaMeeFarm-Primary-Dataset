@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01581",
+  "file_path": "dataset/data-unit/01581/dataunit_01581.json",
+
+  "category": "microclimate_record",
+  "sub_category": "temperature_humidity",
+
+  "captured_at_local": "2026-02-24 22:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_unit": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Temperature record — HZ-02 House Line",
+  "summary": "Microclimate reading captured from HTC-1 sensor.",
+
+  "sensor_reference": {
+    "asset_id": "HZ-02-HTC-1",
+    "device_model": "HTC-1",
+    "sensor_type": "Temperature / Humidity",
+    "system": "House Line",
+    "status": "Active"
+  },
+
+  "measurement": {
+    "temperature_celsius": 24.2,
+    "humidity_percent": 66,
+    "display_time": "22:15",
+    "unit": {
+      "temperature": "°C",
+      "humidity": "%"
+    }
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifqhczwyu2jodmlwskqw26s3bkwlvnit6wvykug3qfelajpceuvhe",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01581/hash/dataunit_01581.sha256",
+    "ots_file": "dataset/data-unit/01581/ots/dgcp_dataunit_01581.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
