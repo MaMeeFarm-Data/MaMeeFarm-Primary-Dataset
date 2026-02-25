@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01579",
+  "file_path": "dataset/data-unit/01579/dataunit_01579.json",
+
+  "category": "plant_observation",
+  "sub_category": "flower_bloom_stage",
+
+  "captured_at_local": "2026-02-24 17:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rose new bloom — PLT-ROS-0001",
+  "summary": "New rose bloom observed beginning to open.",
+
+  "plant_reference": {
+    "asset_id": "PLT-ROS-0001",
+    "common_name": "Rose"
+  },
+
+  "event_details": {
+    "event_type": "care_event_03",
+    "stage": "Early bloom",
+    "flower_condition": "Fresh / Opening",
+    "note": "Lifecycle continuation recorded."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01203", "01578"],
+    "note": "Post-pruning lifecycle progression."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicn4qtft6lotojrb4pg34tbgfy7gsvbk5nqq5cqsbis7rnkpipsja",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01579/hash/dataunit_01579.sha256",
+    "ots_file": "dataset/data-unit/01579/ots/dgcp_dataunit_01579.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
