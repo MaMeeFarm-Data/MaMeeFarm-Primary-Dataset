@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01552",
+  "file_path": "dataset/data-unit/01552/dataunit_01552.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "inverter_activation_with_display_degradation",
+
+  "captured_at_local": "2026-02-24 07:46",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Inverter activation — display not functioning, system operational",
+  "summary": "Power inverter INV-01 activated at 07:46. Indicator lights active. Front display panel not showing readable output. Physical screen degradation observed. System reported operational.",
+
+  "asset": {
+    "asset_id": "INV-01",
+    "asset_type": "Power Inverter",
+    "system": "Power Conversion",
+    "linked_assets": ["SPV-A-0001", "PWR-BAT-0001", "PWR-BAT-0002"],
+    "operation_state": "active",
+    "display_status": "not readable",
+    "physical_condition_note": "front display panel degraded"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01551"],
+    "related_dataunit": "01549",
+    "proof_refs": [],
+    "note": "Morning activation corresponding to prior shutdown DU 01549."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyugwurtmrp5ipb2l6yl45v7ch7jkswm3bjalj4rgng7yleyonf4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01552/hash/dataunit_01552.sha256",
+    "ots_file": "dataset/data-unit/01552/ots/dgcp_dataunit_01552.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
