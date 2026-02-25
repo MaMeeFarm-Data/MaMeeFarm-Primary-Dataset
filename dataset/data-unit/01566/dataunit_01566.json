@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01566",
+  "file_path": "dataset/data-unit/01566/dataunit_01566.json",
+
+  "category": "infrastructure_operation_event",
+  "sub_category": "wood_stove_ignition",
+
+  "captured_at_local": "2026-02-24 12:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Wood stove ignition — STV-0001",
+  "summary": "Manual ignition of wood stove (Asset ID: STV-0001) in HZ-02. Flame initiation observed. Recorded by P'Toh.",
+
+  "asset": {
+    "asset_id": "STV-0001",
+    "asset_type": "Wood Stove",
+    "zone": "HZ-02",
+    "operation": "manual ignition",
+    "fuel_type": "wood"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01565"],
+    "proof_refs": [],
+    "note": "Sequential daily operational record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidhhh7yhbgfxrn6u6m5zszc4yt5n47g7zlksbauftisopjsto4vda",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01566/hash/dataunit_01566.sha256",
+    "ots_file": "dataset/data-unit/01566/ots/dgcp_dataunit_01566.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
