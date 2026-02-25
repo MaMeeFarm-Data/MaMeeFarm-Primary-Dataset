@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01554",
+  "file_path": "dataset/data-unit/01554/dataunit_01554.json",
+
+  "category": "plant_observation",
+  "sub_category": "fruiting_stage_record",
+
+  "captured_at_local": "2026-02-24 07:48",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "PLT-RPH-0001 fruiting observation",
+  "summary": "Plant asset PLT-RPH-0001 observed with visible pod development. Multiple green pods present on stems. Flower structures also visible.",
+
+  "asset": {
+    "asset_id": "PLT-RPH-0001",
+    "asset_type": "Plant",
+    "growth_stage": "fruiting",
+    "observable_output": "green pods present",
+    "condition_note": "foliage intact, surface perforations visible"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01553"],
+    "proof_refs": [],
+    "note": "Morning plant production observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieb64s2ipwhyw2lwn3q5d3nbmyp7gbvnucipmrmwdspu76gp7tb5m",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01554/hash/dataunit_01554.sha256",
+    "ots_file": "dataset/data-unit/01554/ots/dgcp_dataunit_01554.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
