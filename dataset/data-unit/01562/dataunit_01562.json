@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01562",
+  "file_path": "dataset/data-unit/01562/dataunit_01562.json",
+
+  "category": "planting_event",
+  "sub_category": "seed_sowing",
+
+  "captured_at_local": "2026-02-24 09:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Seed sowing — FZ-03 vegetable bed",
+  "summary": "Seeds manually placed into soil furrow in prepared planting bed FZ-03. Seeds visible along linear trench prior to soil cover.",
+
+  "asset": {
+    "asset_type": "Seed",
+    "planting_zone": "FZ-03",
+    "operation": "manual sowing",
+    "method": "linear furrow placement",
+    "stage": "sowing"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01560", "01561"],
+    "proof_refs": [],
+    "note": "Sequential planting documentation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibpynhw7wo2e3lhnfen4hcguvibabj2iwansep4vlhgzc4ym6wjr4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01562/hash/dataunit_01562.sha256",
+    "ots_file": "dataset/data-unit/01562/ots/dgcp_dataunit_01562.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
