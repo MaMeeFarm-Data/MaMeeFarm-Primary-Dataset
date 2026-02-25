@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01551",
+  "file_path": "dataset/data-unit/01551/dataunit_01551.json",
+
+  "category": "environmental_observation",
+  "sub_category": "sky_and_surrounding_landscape_record",
+
+  "captured_at_local": "2026-02-24 07:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Sky and surrounding farmland observation — morning",
+  "summary": "Visual record of sky conditions and surrounding agricultural landscape captured from HZ-02. Vegetation and distant hills visible. Timestamp overlay: 2026-02-24 07:25.",
+
+  "context": {
+    "observation_type": "visual environmental record",
+    "camera_position": "HZ-02",
+    "time_period": "morning"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01550"],
+    "proof_refs": [],
+    "note": "Sequential continuation of 2026-02-24 morning observation set."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieq6bjygziznkxsep6zdikvmh7kqbhuonbo5ji7c66v7m6gi7fdhm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01551/hash/dataunit_01551.sha256",
+    "ots_file": "dataset/data-unit/01551/ots/dgcp_dataunit_01551.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
