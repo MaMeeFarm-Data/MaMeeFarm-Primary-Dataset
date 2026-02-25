@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01574",
+  "file_path": "dataset/data-unit/01574/dataunit_01574.json",
+
+  "category": "environment_observation",
+  "sub_category": "sky_condition_record",
+
+  "captured_at_local": "2026-02-24 15:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Sky observation from HZ-02",
+  "summary": "Visual sky condition observed from inside HZ-02. Cloud coverage visible over agricultural field and surrounding hills.",
+
+  "observation": {
+    "viewpoint": "From inside house HZ-02",
+    "foreground": "Fence line",
+    "midground": "Agricultural field",
+    "background": "Hills",
+    "cloud_presence": "Visible",
+    "precipitation": "Not observed at time of capture"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig5vrgt7vw3ah5g4yy6yrjprxwomqske2vo55mfp4ihfoca62gsla",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01574/hash/dataunit_01574.sha256",
+    "ots_file": "dataset/data-unit/01574/ots/dgcp_dataunit_01574.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
