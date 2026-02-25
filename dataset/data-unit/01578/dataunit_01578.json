@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01578",
+  "file_path": "dataset/data-unit/01578/dataunit_01578.json",
+
+  "category": "plant_care_event",
+  "sub_category": "flower_pruning",
+
+  "captured_at_local": "2026-02-24 17:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rose pruning — PLT-ROS-0001",
+  "summary": "Removal of wilted rose bloom. Manual pruning observed.",
+
+  "plant_reference": {
+    "asset_id": "PLT-ROS-0001",
+    "common_name": "Rose",
+    "previous_reference_du": "01203",
+    "previous_observation_date": "2026-02-12"
+  },
+
+  "event_details": {
+    "event_type": "care_event_02",
+    "action": "Wilted flower cut",
+    "tool_observed": "Hand pruner",
+    "flower_state": "Wilted / Post-bloom",
+    "reason": "Post-bloom maintenance"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig7q6zi4upkfvjzm23vsckexpu2g67ztgo6ylluvlbte42juhaf2a",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01578/hash/dataunit_01578.sha256",
+    "ots_file": "dataset/data-unit/01578/ots/dgcp_dataunit_01578.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
