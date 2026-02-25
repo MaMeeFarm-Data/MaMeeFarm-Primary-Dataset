@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01572",
+  "file_path": "dataset/data-unit/01572/dataunit_01572.json",
+
+  "category": "human_activity_event",
+  "sub_category": "meal_consumption",
+
+  "captured_at_local": "2026-02-24 14:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal consumption — cooked rice from STV-0001 cycle",
+  "summary": "Cooked rice served and consumed. Rice previously recorded in DU 01569 (thermal cycle complete).",
+
+  "reference": {
+    "dataunit_refs": ["01569"],
+    "proof_refs": [],
+    "note": "Consumption event following cooking process."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidbcl5yfu4b2l3gwgmfhupxuti6t5t76dxv6m2qoy3247kfxrljoy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01572/hash/dataunit_01572.sha256",
+    "ots_file": "dataset/data-unit/01572/ots/dgcp_dataunit_01572.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
