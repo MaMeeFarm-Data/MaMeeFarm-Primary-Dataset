@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01563",
+  "file_path": "dataset/data-unit/01563/dataunit_01563.json",
+
+  "category": "asset_registration_preparation",
+  "sub_category": "plant_asset_pre_registration",
+
+  "captured_at_local": "2026-02-24 09:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Asset pre-registration — Yard Long Bean (Purple)",
+  "summary": "Seed packet labeled 'ถั่วฝักยาวพุ่มม่วง / Yard Long Bean' documented in FZ-03. Image recorded for upcoming asset ID registration.",
+
+  "asset": {
+    "asset_type": "Plant Seed",
+    "common_name_th": "ถั่วฝักยาวพุ่มม่วง",
+    "common_name_en": "Yard Long Bean",
+    "registration_status": "pre-registration",
+    "zone": "FZ-03"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01560", "01561", "01562"],
+    "proof_refs": [],
+    "note": "Sequential agricultural activity record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiexoozyd4suexuwghzmi6fvssn4jc57mcofrqu4yokefhnh4pqvfa",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01563/hash/dataunit_01563.sha256",
+    "ots_file": "dataset/data-unit/01563/ots/dgcp_dataunit_01563.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
