@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01567",
+  "file_path": "dataset/data-unit/01567/dataunit_01567.json",
+
+  "category": "infrastructure_operation_event",
+  "sub_category": "wood_stove_flame_active",
+
+  "captured_at_local": "2026-02-24 12:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Wood stove flame active — STV-0001",
+  "summary": "Visible sustained flame inside wood stove (Asset ID: STV-0001) in HZ-02. Combustion active following ignition.",
+
+  "asset": {
+    "asset_id": "STV-0001",
+    "asset_type": "Wood Stove",
+    "zone": "HZ-02",
+    "operation_state": "flame active",
+    "fuel_type": "wood"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01566"],
+    "proof_refs": [],
+    "note": "Sequential continuation of stove ignition event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibkjogep6ulksluoviafauzv7hygfn6veoj3jjizd2ycb4rgm3iyu",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01567/hash/dataunit_01567.sha256",
+    "ots_file": "dataset/data-unit/01567/ots/dgcp_dataunit_01567.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
