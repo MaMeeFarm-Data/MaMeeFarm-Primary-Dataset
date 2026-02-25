@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01573",
+  "file_path": "dataset/data-unit/01573/dataunit_01573.json",
+
+  "category": "asset_management_event",
+  "sub_category": "asset_labeling",
+
+  "captured_at_local": "2026-02-24 14:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset labeling — INF-SACK20-0002 (Dog feed sack)",
+  "summary": "Label attached to woven PP sack (20 kg). Status active-standby. Condition unopened. Located in HZ-02.",
+
+  "asset": {
+    "asset_id": "INF-SACK20-0002",
+    "asset_type": "Woven PP Sack",
+    "capacity_kg": 20,
+    "origin": "Recycled feed bag",
+    "status": "Active-Standby",
+    "condition": "Unopened",
+    "location": "HZ-02"
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["692"],
+    "note": "Physical labeling aligned with Proof 692."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihmdjwbtywk3i2ik2f43gwfitz73aanxomyac4rcdetdpbulryhqq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01573/hash/dataunit_01573.sha256",
+    "ots_file": "dataset/data-unit/01573/ots/dgcp_dataunit_01573.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
