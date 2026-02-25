@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01559",
+  "file_path": "dataset/data-unit/01559/dataunit_01559.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_ground_distribution",
+
+  "captured_at_local": "2026-02-24 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding — ground distribution HZ-02",
+  "summary": "Dry dog food pellets distributed on ground surface. Multiple dogs observed consuming feed at 07:58.",
+
+  "asset": {
+    "asset_type": "Dog Group",
+    "feeding_method": "ground distribution",
+    "feed_form": "dry pellets",
+    "animal_presence": "multiple dogs visible",
+    "consumption_observed": true
+  },
+
+  "reference": {
+    "dataunit_refs": ["01558"],
+    "proof_refs": [],
+    "note": "Sequential feeding event following feed preparation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibx7sceq6eye4qrdhl6wbczofylk3bmt4mssyrel7vzpxuym5uoje",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01559/hash/dataunit_01559.sha256",
+    "ots_file": "dataset/data-unit/01559/ots/dgcp_dataunit_01559.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
