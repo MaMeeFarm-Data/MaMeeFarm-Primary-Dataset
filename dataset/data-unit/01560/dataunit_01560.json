@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01560",
+  "file_path": "dataset/data-unit/01560/dataunit_01560.json",
+
+  "category": "agriculture_event",
+  "sub_category": "bed_preparation_for_planting",
+
+  "captured_at_local": "2026-02-24 09:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Soil bed preparation — FZ-03",
+  "summary": "Soil bed manually prepared in FZ-03 for vegetable planting. Surface loosened and leveled. Mamee present performing ground preparation. Recorded by P'Toh.",
+
+  "asset": {
+    "asset_type": "Planting Bed",
+    "zone_id": "FZ-03",
+    "operation": "manual soil preparation",
+    "surface_condition": "loosened",
+    "planting_stage": "pre-planting"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01559"],
+    "proof_refs": [],
+    "note": "Continuation of morning field activity sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifgb4wrtmwpxlrtkqbmoz7dal7vtyvoyqnzklmaw2z3y55cbj4j2q",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01560/hash/dataunit_01560.sha256",
+    "ots_file": "dataset/data-unit/01560/ots/dgcp_dataunit_01560.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
