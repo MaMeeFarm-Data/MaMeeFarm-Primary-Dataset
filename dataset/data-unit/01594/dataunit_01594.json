@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01594",
+  "file_path": "dataset/data-unit/01594/dataunit_01594.json",
+
+  "category": "food_preparation_event",
+  "sub_category": "rice_cooking_complete",
+
+  "captured_at_local": "2026-02-25 13:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rice cooking complete — STO-0001",
+  "summary": "Rice fully cooked on wood stove STO-0001.",
+
+  "asset_reference": {
+    "stove_asset_id": "STO-0001",
+    "stove_type": "Wood Stove",
+    "zone": "HZ-02",
+    "status": "Operational"
+  },
+
+  "operation_sequence": {
+    "event_type": "Cooking complete",
+    "previous_dataunit_refs": ["01593"],
+    "state": "Rice cooked",
+    "fuel_type": "Firewood",
+    "note": "Food preparation cycle completion."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic6c6egxxi6cntt3ti53qgbqpkl7i6wk66v6utpqedaq2sbcor6mi",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01594/hash/dataunit_01594.sha256",
+    "ots_file": "dataset/data-unit/01594/ots/dgcp_dataunit_01594.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm daily operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
