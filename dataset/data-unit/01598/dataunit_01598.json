@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01598",
+  "file_path": "dataset/data-unit/01598/dataunit_01598.json",
+
+  "category": "agriculture_activity",
+  "sub_category": "manual_watering",
+
+  "captured_at_local": "2026-02-25 18:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Manual watering — vegetable plot FZ-03",
+  "summary": "Manual watering of vegetable bed in FZ-03 using watering container. Activity performed by MaMee.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Routine irrigation activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid3l2wpt42hhy2cnvatnfbu4xf2etcv5eup5uio34lj44zy3mt2we",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01598/hash/dataunit_01598.sha256",
+    "ots_file": "dataset/data-unit/01598/ots/dgcp_dataunit_01598.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator documentation",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
