@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01604",
+  "file_path": "dataset/data-unit/01604/dataunit_01604.json",
+
+  "category": "energy_event",
+  "sub_category": "inverter_shutdown",
+
+  "captured_at_local": "2026-02-25 22:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Energy-System",
+
+  "data_type": "image",
+
+  "title": "Inverter shutdown indicator active",
+  "summary": "Red indicator light visible. Inverter shutdown time recorded.",
+
+  "reference": {
+    "dataunit_refs": ["01584"],
+    "note": "Follow-up from inverter activation record."
+  },
+
+  "device": {
+    "system": "Solar Inverter",
+    "status": "Shutdown"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib3mp5jamhfj6vtxdlsn4egehux4s2l5zcwcvooe5ln5vweb4jknm"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01604/hash/dataunit_01604.sha256",
+    "ots_file": "dataset/data-unit/01604/ots/dgcp_dataunit_01604.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
