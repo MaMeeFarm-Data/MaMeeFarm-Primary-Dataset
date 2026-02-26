@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01590",
+  "file_path": "dataset/data-unit/01590/dataunit_01590.json",
+
+  "category": "field_observation",
+  "sub_category": "soil_disturbance_detected",
+
+  "captured_at_local": "2026-02-25 12:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Soil disturbance observed — Vegetable plot FZ-03",
+  "summary": "Surface soil disturbance detected in vegetable bed area. Digging marks visible.",
+
+  "observation_details": {
+    "condition": "Soil displaced",
+    "visible_sign": "Digging marks",
+    "crop_damage_status": "Vegetable plot area affected",
+    "cause": "Undetermined",
+    "action_taken": "Observation only",
+    "note": "No assumption recorded. Visual evidence only."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01560"],
+    "proof_refs": [],
+    "note": "Sequence continuity reference."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaxxlr6xkxtztzpspgeyi2qzelsyz2hxwsfqnehlw7fkggmhrdc7a",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01590/hash/dataunit_01590.sha256",
+    "ots_file": "dataset/data-unit/01590/ots/dgcp_dataunit_01590.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm field observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
