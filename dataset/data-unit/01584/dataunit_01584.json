@@ -1,0 +1,65 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01584",
+  "file_path": "dataset/data-unit/01584/dataunit_01584.json",
+
+  "category": "energy_system_event",
+  "sub_category": "inverter_status_change",
+
+  "captured_at_local": "2026-02-25 07:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "Farm System",
+
+  "data_type": "image",
+
+  "title": "Inverter power on — INV-01 (display not visible)",
+  "summary": "Solar inverter INV-01 powered on. Display panel not readable due to wear.",
+
+  "asset_reference": {
+    "asset_id": "INV-01",
+    "asset_type": "Power Inverter",
+    "connected_system": "SPV-A-0001",
+    "previous_reference_du": "01582",
+    "previous_event": "System shutdown"
+  },
+
+  "event_details": {
+    "event_type": "status_change",
+    "action": "Power On",
+    "display_status": "Screen not visible / degraded",
+    "indicator_lights": ["PV", "AC", "INV"],
+    "cycle": "Start-of-day energy cycle"
+  },
+
+  "condition_observation": {
+    "display_panel_condition": "Faded / unreadable",
+    "operational_state": "Indicators active",
+    "maintenance_flag": "Monitor display degradation"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidbqgqgzkya2w6bmtok672fpa5kafb7qxyyeuvhraipwi5h2edux4",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01584/hash/dataunit_01584.sha256",
+    "ots_file": "dataset/data-unit/01584/ots/dgcp_dataunit_01584.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
