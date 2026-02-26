@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01596",
+  "file_path": "dataset/data-unit/01596/dataunit_01596.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_ground_distribution",
+
+  "captured_at_local": "2026-02-25 16:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding — ground distribution HZ-02",
+  "summary": "Dry dog food distributed on ground surface. Dogs actively eating.",
+
+  "reference": {
+    "proof_refs": ["696"],
+    "dataunit_refs": ["01595"],
+    "note": "Continuation of evening feeding round."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiapsyjzg5j4hzcqlqdwxzpem6bgzshxpknpq5lwzus5zvy3vavhzy",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01596/hash/dataunit_01596.sha256",
+    "ots_file": "dataset/data-unit/01596/ots/dgcp_dataunit_01596.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm daily animal care",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
