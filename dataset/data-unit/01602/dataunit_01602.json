@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01602",
+  "file_path": "dataset/data-unit/01602/dataunit_01602.json",
+
+  "category": "infrastructure_usage_event",
+  "sub_category": "water_boiling",
+
+  "captured_at_local": "2026-02-25 21:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water boiling — STV-0001",
+  "summary": "Water boiling for drinking on wood stove STV-0001.",
+
+  "asset_reference": {
+    "asset_id": "STV-0001",
+    "asset_type": "Wood Stove",
+    "fuel_type": "Firewood",
+    "status": "Active"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifkj3kqejcroj5fawbmqa6lybsk34g6scrdufn7tzh36mgwo5slre"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01602/hash/dataunit_01602.sha256",
+    "ots_file": "dataset/data-unit/01602/ots/dgcp_dataunit_01602.ots"
+  },
+
+  "responsibility": {
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
