@@ -1,0 +1,68 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01589",
+  "file_path": "dataset/data-unit/01589/dataunit_01589.json",
+
+  "category": "microclimate_record",
+  "sub_category": "temperature_humidity",
+
+  "captured_at_local": "2026-02-25 12:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_unit": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Midday temperature record — Duck House (no ducks present)",
+  "summary": "Microclimate reading captured from HTC-2 sensor. No ducks present at time of record.",
+
+  "sensor_reference": {
+    "asset_id": "HTC-2",
+    "device_model": "HTC-2",
+    "sensor_type": "Temperature / Humidity",
+    "system": "Duck House",
+    "status": "Active"
+  },
+
+  "measurement": {
+    "temperature_inside_celsius": 27.1,
+    "temperature_outside_celsius": 27.1,
+    "humidity_percent": 56,
+    "display_time": "12:42",
+    "unit": {
+      "temperature": "°C",
+      "humidity": "%"
+    }
+  },
+
+  "environment_context": {
+    "animal_presence": "None",
+    "note": "Duck house empty during measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeia4o6btiacoud3fiqa63pwrr3vqlrnpgomoep7xkvg25pd2isgvji",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01589/hash/dataunit_01589.sha256",
+    "ots_file": "dataset/data-unit/01589/ots/dgcp_dataunit_01589.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
