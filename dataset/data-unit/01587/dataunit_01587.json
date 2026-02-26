@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01587",
+  "file_path": "dataset/data-unit/01587/dataunit_01587.json",
+
+  "category": "plant_care_event",
+  "sub_category": "weed_removal",
+
+  "captured_at_local": "2026-02-25 09:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Care Event 02 — Weed removal around PLT-YLB-0001",
+  "summary": "Manual weed removal performed around yellow bean plant base.",
+
+  "plant_reference": {
+    "asset_id": "PLT-YLB-0001",
+    "common_name": "Yellow Bean",
+    "zone": "FZ-03",
+    "status": "Active"
+  },
+
+  "event_details": {
+    "care_event_number": 2,
+    "care_type": "Manual weed removal",
+    "performed_by": "Mamee",
+    "method": "Hand removal around plant base",
+    "related_proof": "Proof 632 (Care Event 01)"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiej6ozd2g6trafvwyij3jmwkeuhtsqqmukj6nive5zjnf76yy3jcm",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01587/hash/dataunit_01587.sha256",
+    "ots_file": "dataset/data-unit/01587/ots/dgcp_dataunit_01587.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm field activity",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
