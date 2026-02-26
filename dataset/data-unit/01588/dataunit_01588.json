@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01588",
+  "file_path": "dataset/data-unit/01588/dataunit_01588.json",
+
+  "category": "plant_observation",
+  "sub_category": "post_care_followup_observation",
+
+  "captured_at_local": "2026-02-25 12:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Post-care observation — PLT-YLB-0001 area (time flow)",
+  "summary": "Follow-up visual observation after earlier care work. Plant area and trellis line visible.",
+
+  "plant_reference": {
+    "asset_id": "PLT-YLB-0001",
+    "zone": "FZ-03",
+    "status": "Active",
+    "note": "Observation only. No new care action recorded in this unit."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01587"],
+    "proof_refs": [],
+    "note": "Sequence continuation: post-care follow-up observation after Care Event 02."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihg6r5hjchyvhmfc5e5g2b6jvrkdlhvmldfghlvleewnayaxlbah4",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01588/hash/dataunit_01588.sha256",
+    "ots_file": "dataset/data-unit/01588/ots/dgcp_dataunit_01588.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm field observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
