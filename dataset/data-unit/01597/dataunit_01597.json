@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01597",
+  "file_path": "dataset/data-unit/01597/dataunit_01597.json",
+
+  "category": "daily_life_event",
+  "sub_category": "meal_consumption_record",
+
+  "captured_at_local": "2026-02-25 17:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal consumption — rice with side dish",
+  "summary": "Cooked rice (Ref DU-01594) consumed with prepared side dish. Total side dish cost 30 THB shared by 2 persons.",
+
+  "reference": {
+    "dataunit_refs": ["01594"],
+    "proof_refs": [],
+    "note": "Rice source referenced from DU-01594."
+  },
+
+  "economic_note": {
+    "side_dish_cost_thb": 30,
+    "shared_by_persons": 2,
+    "cost_structure_type": "shared_meal"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibdaepje7rrvnvpskl4ggfkas57mvxfmsldil42andrdajjtyirpe",
+    "note": "Image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01597/hash/dataunit_01597.sha256",
+    "ots_file": "dataset/data-unit/01597/ots/dgcp_dataunit_01597.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
