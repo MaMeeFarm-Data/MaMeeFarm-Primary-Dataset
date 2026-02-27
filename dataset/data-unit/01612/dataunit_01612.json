@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01612",
+  "file_path": "dataset/data-unit/01612/dataunit_01612.json",
+
+  "category": "agriculture_event",
+  "sub_category": "banana_natural_ripening_observation",
+
+  "captured_at_local": "2026-02-26 07:03",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Banana natural ripening observation — FZ-03",
+  "summary": "Image record: harvested banana bunch showing natural ripening progression. Timestamp visible in frame.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["677"],
+    "note": "Reference to cutting proof 677 dated 2026-02-21."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiejy7qzlnnxslolb4zqxrnmtlbj7uta6d5ebwp46bvvzbly4zm35y",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01612/hash/dataunit_01612.sha256",
+    "ots_file": "dataset/data-unit/01612/ots/dgcp_dataunit_01612.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
