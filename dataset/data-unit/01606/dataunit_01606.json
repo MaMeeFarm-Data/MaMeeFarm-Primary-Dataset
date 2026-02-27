@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01606",
+  "file_path": "dataset/data-unit/01606/dataunit_01606.json",
+
+  "category": "environment_monitoring_event",
+  "sub_category": "temperature_humidity_morning_record",
+
+  "captured_at_local": "2026-02-26 06:41",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Indoor temperature & humidity record — HZ-02",
+  "summary": "Temperature reading 20.4°C. Humidity reading 76%. Device label HTC-1 visible in frame. Timestamp visible in image.",
+
+  "reference": {
+    "dataunit_refs": ["01605"],
+    "proof_refs": [],
+    "note": "Sequential time-based environmental record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiguaup5noitfy7juryk47f774glyotlkpwqjg5abcsknids2salhm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01606/hash/dataunit_01606.sha256",
+    "ots_file": "dataset/data-unit/01606/ots/dgcp_dataunit_01606.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
