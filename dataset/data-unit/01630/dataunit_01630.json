@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01630",
+  "file_path": "dataset/data-unit/01630/dataunit_01630.json",
+
+  "category": "infrastructure_operation_event",
+  "sub_category": "wood_stove_fire_cycle_round2",
+
+  "captured_at_local": "2026-02-26 15:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Wood stove ignition — round 2 (STV-0001)",
+  "summary": "Image record: Wood stove STV-0001 ignited for second cycle of the day. Visible flame and wood load. Zone HZ-02.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": ["700"],
+    "note": "Second fire cycle of the day. Reference to first cycle proof 700."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifqvn5wxe7macg3bnx3cmtayill3edq4dunuhma6wzjahapr5wirm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01630/hash/dataunit_01630.sha256",
+    "ots_file": "dataset/data-unit/01630/ots/dgcp_dataunit_01630.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
