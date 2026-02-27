@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01633",
+  "file_path": "dataset/data-unit/01633/dataunit_01633.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_evening_round_pre_distribution",
+
+  "captured_at_local": "2026-02-26 17:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding — evening round (pre-distribution) HZ-02",
+  "summary": "Image record: Dry dog food prepared for evening feeding round. Multiple dogs visible in frame. Reference to morning round DU 01609.",
+
+  "reference": {
+    "dataunit_refs": ["01609"],
+    "proof_refs": [],
+    "note": "Evening feeding round. Morning reference DU 01609."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigwub5dmwxsga2q2wa3ee5px4khs2h36uk2qoocrfsm634t35inwy",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01633/hash/dataunit_01633.sha256",
+    "ots_file": "dataset/data-unit/01633/ots/dgcp_dataunit_01633.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
