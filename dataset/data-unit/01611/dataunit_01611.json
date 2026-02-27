@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01611",
+  "file_path": "dataset/data-unit/01611/dataunit_01611.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_water_refill",
+
+  "captured_at_local": "2026-02-26 06:45",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog water refill — HZ-02",
+  "summary": "Image record: two water containers filled with water placed on ground surface in HZ-02. Timestamp visible in frame.",
+
+  "reference": {
+    "dataunit_refs": ["01610"],
+    "proof_refs": [],
+    "note": "Sequential continuation of morning care routine."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiau5rhvyqgxfj7u7rkchfxjk5b3ixcpuiwhjn6l56bgdq5szebueq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01611/hash/dataunit_01611.sha256",
+    "ots_file": "dataset/data-unit/01611/ots/dgcp_dataunit_01611.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
