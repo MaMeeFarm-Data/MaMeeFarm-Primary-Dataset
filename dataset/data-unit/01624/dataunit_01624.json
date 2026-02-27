@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01624",
+  "file_path": "dataset/data-unit/01624/dataunit_01624.json",
+
+  "category": "consumption_event",
+  "sub_category": "meal_record_with_farm_produce",
+
+  "captured_at_local": "2026-02-26 09:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Meal record — minced pork rice porridge with coriander from FZ-03",
+  "summary": "Image record: P'Toh meal (minced pork rice porridge). Coriander used from FZ-03 vegetable plot. Timestamp visible in frame.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Food consumption including farm produce."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiajpvgzpjtae2vihcjhfn2mhgc6abvkb5iwtuoggsjt4qirt4ipcq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01624/hash/dataunit_01624.sha256",
+    "ots_file": "dataset/data-unit/01624/ots/dgcp_dataunit_01624.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
