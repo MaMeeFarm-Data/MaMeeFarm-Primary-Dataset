@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01619",
+  "file_path": "dataset/data-unit/01619/dataunit_01619.json",
+
+  "category": "tool_record",
+  "sub_category": "banana_cutting_tool",
+
+  "captured_at_local": "2026-02-26 07:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Banana cutting tool record — FZ-03",
+  "summary": "Image record: banana cutting tool positioned in FZ-03. Timestamp visible in frame.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Tool documentation record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihk2ik4z632rbmjhlqwtnrz4ezruzsenr4rbdmoufvggahto2zjxe",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01619/hash/dataunit_01619.sha256",
+    "ots_file": "dataset/data-unit/01619/ots/dgcp_dataunit_01619.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
