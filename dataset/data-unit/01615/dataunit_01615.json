@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01615",
+  "file_path": "dataset/data-unit/01615/dataunit_01615.json",
+
+  "category": "agriculture_event",
+  "sub_category": "rose_dew_observation",
+
+  "captured_at_local": "2026-02-26 07:50",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rose dew observation PLT ROS-0001 — HZ-02",
+  "summary": "Image record: rose flower (Asset ID PLT ROS-0001) with visible dew droplets on petals. Timestamp visible in frame.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Plant observation record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihzjsok3k3gde6hflnumrl55fs7bwghtc4vy6as5rnuvxsj7zmptm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01615/hash/dataunit_01615.sha256",
+    "ots_file": "dataset/data-unit/01615/ots/dgcp_dataunit_01615.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
