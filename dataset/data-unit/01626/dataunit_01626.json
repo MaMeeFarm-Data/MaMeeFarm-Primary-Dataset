@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01626",
+  "file_path": "dataset/data-unit/01626/dataunit_01626.json",
+
+  "category": "asset_registration_event",
+  "sub_category": "infrastructure_timer_id_attached",
+
+  "captured_at_local": "2026-02-26 11:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Asset ID attached — INF-TIM-0001 (Kitchen Timer)",
+  "summary": "Image record: Asset ID label 'HZ-02 INF-TIM-0001' physically attached to timer device. Registration visible in frame.",
+
+  "reference": {
+    "dataunit_refs": ["01625"],
+    "proof_refs": [],
+    "note": "Continuation of timer asset registration sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieqqvh343vvf55el3g3wwnfqgzw4vodnqfemppkgg7kl3ssgnlbqi",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01626/hash/dataunit_01626.sha256",
+    "ots_file": "dataset/data-unit/01626/ots/dgcp_dataunit_01626.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
