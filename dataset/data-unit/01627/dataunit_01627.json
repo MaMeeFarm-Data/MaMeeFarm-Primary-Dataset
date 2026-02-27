@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01627",
+  "file_path": "dataset/data-unit/01627/dataunit_01627.json",
+
+  "category": "maintenance_event",
+  "sub_category": "yard_cleaning_dog_waste_collection",
+
+  "captured_at_local": "2026-02-26 11:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Yard cleaning activity — dog waste collection HZ-02",
+  "summary": "Image record: Household zone maintenance activity. Mamee performing yard cleaning. Dogs visible in area. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01626"],
+    "proof_refs": [],
+    "note": "Continuation of household operational log."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiecxhu3uzye3hjqwb2hrdcygdk4xowfdy2uh2dphom66pdwfqalsa",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01627/hash/dataunit_01627.sha256",
+    "ots_file": "dataset/data-unit/01627/ots/dgcp_dataunit_01627.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
