@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01621",
+  "file_path": "dataset/data-unit/01621/dataunit_01621.json",
+
+  "category": "agriculture_event",
+  "sub_category": "banana_harvest_activity",
+
+  "captured_at_local": "2026-02-26 07:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Banana harvest activity — FZ-03",
+  "summary": "Image record: banana harvesting in progress in FZ-03. Mamee visible using cutting tool. Timestamp visible in frame. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01620"],
+    "proof_refs": [],
+    "note": "Sequential continuation of banana pre-harvest observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiec7lqzicnetx6me3ybwnuqs2ekfwss3jxbutodjqy4gb4sbrqn6u",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01621/hash/dataunit_01621.sha256",
+    "ots_file": "dataset/data-unit/01621/ots/dgcp_dataunit_01621.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
