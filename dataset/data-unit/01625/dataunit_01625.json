@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01625",
+  "file_path": "dataset/data-unit/01625/dataunit_01625.json",
+
+  "category": "asset_preparation_event",
+  "sub_category": "timer_device_registration_pending",
+
+  "captured_at_local": "2026-02-26 11:26",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Kitchen timer device — pending asset ID registration",
+  "summary": "Image record: kitchen timer device (model JS-118) documented prior to Asset ID assignment. Timestamp visible in frame.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Asset documentation before ID issuance."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihmuy3s4cajosql424ybeejkybjghkkjqxh5esvxxkddb3az63roq",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01625/hash/dataunit_01625.sha256",
+    "ots_file": "dataset/data-unit/01625/ots/dgcp_dataunit_01625.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
