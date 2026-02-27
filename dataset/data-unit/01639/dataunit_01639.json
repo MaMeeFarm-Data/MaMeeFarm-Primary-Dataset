@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01639",
+  "file_path": "dataset/data-unit/01639/dataunit_01639.json",
+
+  "category": "environment_record",
+  "sub_category": "indoor_night_temperature_humidity_record",
+
+  "captured_at_local": "2026-02-26 23:19",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Indoor temperature & humidity record — night HZ-02",
+  "summary": "Image record: Temperature 25.4°C, humidity 71% RH at HZ-02 indoor sensor during night round.",
+
+  "reference": {
+    "dataunit_refs": ["01637"],
+    "proof_refs": [],
+    "note": "Indoor night microclimate measurement. Related zone HZ-02."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibhzp2qofo5k6jt4xnmcowhmlkgmkyrxuz7xxnpmbokhi2w7k6ktm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01639/hash/dataunit_01639.sha256",
+    "ots_file": "dataset/data-unit/01639/ots/dgcp_dataunit_01639.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
