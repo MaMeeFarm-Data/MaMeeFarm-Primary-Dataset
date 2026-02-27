@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01622",
+  "file_path": "dataset/data-unit/01622/dataunit_01622.json",
+
+  "category": "agriculture_event",
+  "sub_category": "banana_harvest_output_record",
+
+  "captured_at_local": "2026-02-26 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Banana harvest output — FZ-03",
+  "summary": "Image record: harvested banana bunch on ground surface after cutting. Timestamp visible in frame. Recorded as production output from tree.",
+
+  "reference": {
+    "dataunit_refs": ["01621"],
+    "proof_refs": [],
+    "note": "Sequential continuation of banana harvest activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaiycl3q7nkleyhcqovh4ayb53etquvqcigjp27dsbcyvtypdwhh4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01622/hash/dataunit_01622.sha256",
+    "ots_file": "dataset/data-unit/01622/ots/dgcp_dataunit_01622.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
