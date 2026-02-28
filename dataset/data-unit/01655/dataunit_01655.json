@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01655",
+  "file_path": "dataset/data-unit/01655/dataunit_01655.json",
+  "category": "household_activity_event",
+  "sub_category": "wood_stove_fire_maintenance",
+  "captured_at_local": "2026-02-27 17:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "Wood stove fire maintenance — STV-0001",
+  "summary": "Image record: Mamee adding firewood to wood stove STV-0001 at HZ-02.",
+  "reference": {
+    "dataunit_refs": ["01654"],
+    "proof_refs": [],
+    "note": "Sequential continuation of HZ-02 cooking activity."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibgdwhxud2r7brmwk6evtsttzpflx3ovkxhgfcvra3weqokwwemsy",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01655/hash/dataunit_01655.sha256",
+    "ots_file": "dataset/data-unit/01655/ots/dgcp_dataunit_01655.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
