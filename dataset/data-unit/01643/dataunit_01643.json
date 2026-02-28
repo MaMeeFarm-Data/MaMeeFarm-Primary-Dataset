@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01643",
+  "file_path": "dataset/data-unit/01643/dataunit_01643.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_feeding_morning",
+
+  "captured_at_local": "2026-02-27 07:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding — morning HZ-02",
+  "summary": "Image record: Morning feeding round for 20 dogs at HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01642", "01633"],
+    "proof_refs": [],
+    "note": "Continuation of feeding cycle. Reference DU 01633 (previous evening round)."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicft7jra4ganyrsorqrz4paclfx2fa5dfltnvdpq34cthnxumz7ya",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01643/hash/dataunit_01643.sha256",
+    "ots_file": "dataset/data-unit/01643/ots/dgcp_dataunit_01643.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
