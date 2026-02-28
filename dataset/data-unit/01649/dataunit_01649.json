@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01649",
+  "file_path": "dataset/data-unit/01649/dataunit_01649.json",
+
+  "category": "environment_record",
+  "sub_category": "indoor_temperature_afternoon_record",
+
+  "captured_at_local": "2026-02-27 16:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Indoor temperature & humidity — HZ-02 afternoon",
+  "summary": "Image record: Indoor temperature 32.0°C, humidity 53% RH at HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01641"],
+    "proof_refs": [],
+    "note": "Afternoon indoor environmental measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib7euc2ujjfcuh6xcvtldxiskvajortuvxsczevasioc4mf7kd4v4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01649/hash/dataunit_01649.sha256",
+    "ots_file": "dataset/data-unit/01649/ots/dgcp_dataunit_01649.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
