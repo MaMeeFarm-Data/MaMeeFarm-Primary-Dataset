@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01645",
+  "file_path": "dataset/data-unit/01645/dataunit_01645.json",
+
+  "category": "maintenance_event",
+  "sub_category": "waste_collection_area_cleanup",
+
+  "captured_at_local": "2026-02-27 07:34",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Area maintenance — HZ-02",
+  "summary": "Image record: Area maintenance activity in HZ-02. Waste collection performed. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01644"],
+    "proof_refs": [],
+    "note": "Continuation of morning operations sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyehcvqs57aq375lvexv6stwkdz5cpsbrd3mdlgufbou4whdk6ma",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01645/hash/dataunit_01645.sha256",
+    "ots_file": "dataset/data-unit/01645/ots/dgcp_dataunit_01645.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
