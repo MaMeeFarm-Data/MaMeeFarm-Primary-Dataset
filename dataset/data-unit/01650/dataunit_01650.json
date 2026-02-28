@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01650",
+  "file_path": "dataset/data-unit/01650/dataunit_01650.json",
+
+  "category": "environment_record",
+  "sub_category": "balcony_temperature_afternoon_record",
+
+  "captured_at_local": "2026-02-27 16:21",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Balcony temperature & humidity — HZ-02 afternoon",
+  "summary": "Image record: Balcony temperature 31.2°C, humidity 43% RH at HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01649"],
+    "proof_refs": [],
+    "note": "Afternoon balcony environmental measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidkjdxwzsjdujdiilj7rlixeg6pj63rqgd4obkneqh5g4redwgyk4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01650/hash/dataunit_01650.sha256",
+    "ots_file": "dataset/data-unit/01650/ots/dgcp_dataunit_01650.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
