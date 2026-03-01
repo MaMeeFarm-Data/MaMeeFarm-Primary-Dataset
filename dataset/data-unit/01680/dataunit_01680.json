@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01680",
+  "file_path": "dataset/data-unit/01680/dataunit_01680.json",
+  "category": "energy_usage",
+  "sub_category": "wood_stove_cooking_start",
+  "captured_at_local": "2026-02-28 13:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "STV-0001",
+  "related_assets": [
+    "INF-TIM-0001"
+  ],
+  "data_type": "image",
+  "title": "Rice pot placed on wood stove — HZ-02",
+  "summary": "Image record of rice pot placed on active wood stove STV-0001 in HZ-02.",
+  "reference": {
+    "dataunit_refs": [
+      "01679"
+    ],
+    "proof_refs": [],
+    "note": "Sequential cooking process. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigh7rnmntacrdzspvoeuy5gadwojrcxocgvmc2j2olrrhezbembim",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01680/hash/dataunit_01680.sha256",
+    "ots_file": "dataset/data-unit/01680/ots/dgcp_dataunit_01680.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
