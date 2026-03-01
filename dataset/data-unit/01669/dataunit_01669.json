@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01669",
+  "file_path": "dataset/data-unit/01669/dataunit_01669.json",
+  "category": "agriculture_observation",
+  "sub_category": "plant_flowering_stage",
+  "captured_at_local": "2026-02-28 07:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "asset_id": "PLT-PKN-0001",
+  "data_type": "image",
+  "title": "Plant observation — flowering stage with unidentified insect",
+  "summary": "Image record of PLT-PKN-0001 showing flowering stage and presence of unidentified insect.",
+  "reference": {
+    "dataunit_refs": [
+      "01668"
+    ],
+    "proof_refs": [],
+    "note": "Morning agricultural observation block 2026-02-28."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeievdg7n2j5aitfolzxj2acv4b6kxrp6eaaqkpjdugaooepxse3qwq",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01669/hash/dataunit_01669.sha256",
+    "ots_file": "dataset/data-unit/01669/ots/dgcp_dataunit_01669.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
