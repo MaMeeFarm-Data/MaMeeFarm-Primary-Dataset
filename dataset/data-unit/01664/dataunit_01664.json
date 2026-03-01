@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01664",
+  "file_path": "dataset/data-unit/01664/dataunit_01664.json",
+  "category": "household_operation_event",
+  "sub_category": "morning_feed_preparation",
+  "captured_at_local": "2026-02-28 07:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-SACK20-0001",
+  "data_type": "image",
+  "title": "Morning feed preparation — HZ-02",
+  "summary": "Image record of feed sack (INF-SACK20-0001) in active use during morning preparation.",
+  "reference": {
+    "dataunit_refs": [
+      "01662",
+      "01663"
+    ],
+    "proof_refs": [],
+    "note": "Continuation of 2026-02-28 morning operational sequence."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicnwmlusb6fwasywtfkbl4hygpcxckavc6nqkopfbexhpql6cntha",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01664/hash/dataunit_01664.sha256",
+    "ots_file": "dataset/data-unit/01664/ots/dgcp_dataunit_01664.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
