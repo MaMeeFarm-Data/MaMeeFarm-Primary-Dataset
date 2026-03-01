@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01667",
+  "file_path": "dataset/data-unit/01667/dataunit_01667.json",
+  "category": "infrastructure_event",
+  "sub_category": "gate_status_change",
+  "captured_at_local": "2026-02-28 07:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "asset_id": "INF-GATE-0003",
+  "event": "open",
+  "data_type": "image",
+  "title": "Gate open record — INF-GATE-0003",
+  "summary": "Image record of INF-GATE-0003 opened in the morning.",
+  "reference": {
+    "dataunit_refs": [
+      "01660"
+    ],
+    "proof_refs": [],
+    "note": "Ref 01660 is previous close event (evening)."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiaqzuan6fsoycaczapjlvaa7thqguikic3ym44whcfnrj6nrfiita",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01667/hash/dataunit_01667.sha256",
+    "ots_file": "dataset/data-unit/01667/ots/dgcp_dataunit_01667.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
