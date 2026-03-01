@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01671",
+  "file_path": "dataset/data-unit/01671/dataunit_01671.json",
+  "category": "agriculture_event",
+  "sub_category": "manual_land_clearing",
+  "captured_at_local": "2026-02-28 09:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": null,
+  "data_type": "image",
+  "title": "Manual grass clearing around papaya tree — HZ-02",
+  "summary": "Image record of manual grass clearing activity around papaya tree in HZ-02.",
+  "reference": {
+    "dataunit_refs": [
+      "01670"
+    ],
+    "proof_refs": [],
+    "note": "Morning agricultural labor block 2026-02-28."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiecvn4n7tvb6o7j6lvc3wkihdeetygohdmi5w6lnmdu36vrix73fe",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01671/hash/dataunit_01671.sha256",
+    "ots_file": "dataset/data-unit/01671/ots/dgcp_dataunit_01671.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
