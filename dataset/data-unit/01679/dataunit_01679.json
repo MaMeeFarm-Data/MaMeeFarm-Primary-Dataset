@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01679",
+  "file_path": "dataset/data-unit/01679/dataunit_01679.json",
+  "category": "energy_usage",
+  "sub_category": "wood_stove_ignition",
+  "captured_at_local": "2026-02-28 13:38",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "STV-0001",
+  "related_assets": [],
+  "data_type": "image",
+  "title": "Wood stove ignition status — HZ-02",
+  "summary": "Image record confirming ignition of wood stove STV-0001 in HZ-02.",
+  "reference": {
+    "dataunit_refs": [
+      "01678"
+    ],
+    "proof_refs": [],
+    "note": "Sequential cooking operation. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicdssecyiyhxhnkedt7qy5whbdyvnzbdiqwkplgfkrwr4wmlw2eqm",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01679/hash/dataunit_01679.sha256",
+    "ots_file": "dataset/data-unit/01679/ots/dgcp_dataunit_01679.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
