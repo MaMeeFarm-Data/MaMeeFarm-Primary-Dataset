@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01678",
+  "file_path": "dataset/data-unit/01678/dataunit_01678.json",
+  "category": "energy_usage",
+  "sub_category": "wood_stove_cooking_timer",
+  "captured_at_local": "2026-02-28 13:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-TIM-0001",
+  "related_assets": [
+    "STV-0001"
+  ],
+  "data_type": "image",
+  "title": "Wood stove rice cooking timer capture — HZ-02",
+  "summary": "Image record of timer device INF-TIM-0001 used for measuring rice cooking duration on wood stove in HZ-02.",
+  "reference": {
+    "dataunit_refs": [
+      "01677"
+    ],
+    "proof_refs": [],
+    "note": "Energy usage observation. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeianhhsybnlc522l4522aez35jeu4s5wih77zx2gkhykcnzakovx5a",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01678/hash/dataunit_01678.sha256",
+    "ots_file": "dataset/data-unit/01678/ots/dgcp_dataunit_01678.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
