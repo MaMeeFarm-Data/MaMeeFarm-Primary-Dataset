@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01677",
+  "file_path": "dataset/data-unit/01677/dataunit_01677.json",
+  "category": "water_operation",
+  "sub_category": "tank_status_full",
+  "captured_at_local": "2026-02-28 10:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-04",
+  "asset_id": "WT-M-0004",
+  "related_assets": [],
+  "data_type": "image",
+  "title": "Water tank WT-M-0004 full status — HZ-04",
+  "summary": "Image record confirming water tank WT-M-0004 reached full level.",
+  "reference": {
+    "dataunit_refs": [
+      "01676"
+    ],
+    "proof_refs": [],
+    "note": "Sequential continuation of water filling operation. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiehv4ikt6cvlnymnqiimw6fzgo32kcvv4tvmjrn77yeqbr4dictmu",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01677/hash/dataunit_01677.sha256",
+    "ots_file": "dataset/data-unit/01677/ots/dgcp_dataunit_01677.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
