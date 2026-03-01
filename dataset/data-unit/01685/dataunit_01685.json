@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01685",
+  "file_path": "dataset/data-unit/01685/dataunit_01685.json",
+  "category": "inventory_event",
+  "sub_category": "feed_sack_opening",
+  "captured_at_local": "2026-02-28 17:44",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-SACK20-0002",
+  "related_assets": [],
+  "data_type": "image",
+  "title": "Feed sack opening record — HZ-02",
+  "summary": "Image record confirming opening of feed sack INF-SACK20-0002.",
+  "reference": {
+    "dataunit_refs": [
+      "01684"
+    ],
+    "proof_refs": [],
+    "note": "Inventory continuation event."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibqzoxxzvsnsgzliyq5lg5fhi74cc43fykgfb4rxvad2a76krwl4m",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01685/hash/dataunit_01685.sha256",
+    "ots_file": "dataset/data-unit/01685/ots/dgcp_dataunit_01685.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
