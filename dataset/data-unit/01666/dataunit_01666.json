@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01666",
+  "file_path": "dataset/data-unit/01666/dataunit_01666.json",
+  "category": "agriculture_observation",
+  "sub_category": "banana_fruit_cluster_monitoring",
+  "captured_at_local": "2026-02-28 07:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": null,
+  "data_type": "image",
+  "title": "Banana fruit cluster observation — HZ-02",
+  "summary": "Image record of banana fruit cluster condition at HZ-02.",
+  "reference": {
+    "dataunit_refs": [
+      "01662",
+      "01663",
+      "01664",
+      "01665"
+    ],
+    "proof_refs": [],
+    "note": "Continuation of 2026-02-28 morning operational and environmental observations."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidba2oef7adrk33x57tqw7oggp7jktk3f5mzpxjk2w4p4ebaafqmu",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01666/hash/dataunit_01666.sha256",
+    "ots_file": "dataset/data-unit/01666/ots/dgcp_dataunit_01666.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
