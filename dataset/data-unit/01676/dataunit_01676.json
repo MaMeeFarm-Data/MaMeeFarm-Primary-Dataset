@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01676",
+  "file_path": "dataset/data-unit/01676/dataunit_01676.json",
+  "category": "water_operation",
+  "sub_category": "tank_fill",
+  "captured_at_local": "2026-02-28 09:57",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-04",
+  "asset_id": "WT-M-0004",
+  "related_assets": [],
+  "data_type": "image",
+  "title": "Water filling operation to WT-M-0004 — HZ-04",
+  "summary": "Image record of water filling into WT-M-0004 tank in HZ-04.",
+  "reference": {
+    "dataunit_refs": [
+      "01675"
+    ],
+    "proof_refs": [],
+    "note": "Sequential water flow operation. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiceixivtv72futku4u7wynxgh2njkglfrwvaorulfsfe7blsd2uzq",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01676/hash/dataunit_01676.sha256",
+    "ots_file": "dataset/data-unit/01676/ots/dgcp_dataunit_01676.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
