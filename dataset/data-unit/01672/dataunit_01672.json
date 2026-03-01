@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01672",
+  "file_path": "dataset/data-unit/01672/dataunit_01672.json",
+  "category": "agriculture_event",
+  "sub_category": "manual_land_clearing",
+  "captured_at_local": "2026-02-28 09:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": null,
+  "data_type": "image",
+  "title": "Manual grass clearing observation — HZ-02",
+  "summary": "Image record of manual grass clearing activity in HZ-02.",
+  "reference": {
+    "dataunit_refs": [
+      "01671"
+    ],
+    "proof_refs": [],
+    "note": "Sequential agricultural labor record. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiahkots5qk2mebijewvvhgtvhhbzkpxfzuytp7q3ccv27dwk6qbdq",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01672/hash/dataunit_01672.sha256",
+    "ots_file": "dataset/data-unit/01672/ots/dgcp_dataunit_01672.ots"
+  },
+  "responsibility": {
+    "actor": "Mamee",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
