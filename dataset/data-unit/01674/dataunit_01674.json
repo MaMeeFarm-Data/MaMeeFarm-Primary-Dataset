@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01674",
+  "file_path": "dataset/data-unit/01674/dataunit_01674.json",
+  "category": "environment_observation",
+  "sub_category": "water_level_visual_record",
+  "captured_at_local": "2026-02-28 09:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": null,
+  "data_type": "image",
+  "title": "Underground well water status — visual observation",
+  "summary": "Image record of underground well water condition. No measuring instrument used.",
+  "reference": {
+    "dataunit_refs": [
+      "01673"
+    ],
+    "proof_refs": [],
+    "note": "Sequential infrastructure-water observation block. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibwrvtcklp2mkfre5ivom6hnabx327hucwxxrmpxk4ff5qkxow7na",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01674/hash/dataunit_01674.sha256",
+    "ots_file": "dataset/data-unit/01674/ots/dgcp_dataunit_01674.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
