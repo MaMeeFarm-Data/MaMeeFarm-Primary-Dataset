@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01684",
+  "file_path": "dataset/data-unit/01684/dataunit_01684.json",
+  "category": "inventory_event",
+  "sub_category": "feed_sack_depletion",
+  "captured_at_local": "2026-02-28 17:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-SACK20-0001",
+  "related_assets": [],
+  "data_type": "image",
+  "title": "Feed sack depletion record — HZ-02",
+  "summary": "Image record confirming feed sack INF-SACK20-0001 depleted. Proof reference opened.",
+  "reference": {
+    "dataunit_refs": [
+      "01683"
+    ],
+    "proof_refs": [
+      "689"
+    ],
+    "note": "Inventory depletion event. Data flows according to time."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih7withgvk3wc7sowqp6mdqoxqhyfl7barpggwz4nnzdh4vrtgna4",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01684/hash/dataunit_01684.sha256",
+    "ots_file": "dataset/data-unit/01684/ots/dgcp_dataunit_01684.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
