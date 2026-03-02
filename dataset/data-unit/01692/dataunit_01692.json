@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01692",
+  "file_path": "dataset/data-unit/01692/dataunit_01692.json",
+  "category": "inventory_event",
+  "sub_category": "fuel_supply_pre_registration",
+  "captured_at_local": "2026-03-01 06:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "data_type": "image",
+  "title": "Portable butane gas canister prepared for registration — HZ-02",
+  "summary": "Butane gas canister (Net 250 g) staged for asset registration. Indoor record.",
+  "reference": {
+    "dataunit_refs": [
+      "01691"
+    ],
+    "proof_refs": [],
+    "note": "Inventory preparation sequence."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiftzuvm6nblvjcwqpqa62foitv7ljgast4zy45kexlzpoz7nbrbsa",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01692/hash/dataunit_01692.sha256",
+    "ots_file": "dataset/data-unit/01692/ots/dgcp_dataunit_01692.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
