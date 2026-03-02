@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01706",
+  "file_path": "dataset/data-unit/01706/dataunit_01706.json",
+  "category": "operation_event",
+  "sub_category": "dog_feeding_evening",
+  "captured_at_local": "2026-03-01 17:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-SACK20-0002",
+  "data_type": "image",
+  "title": "Dog feeding — evening round",
+  "summary": "Evening dog feeding round at HZ-02. Evidence captured as part of time-sequenced operational cycle.",
+  "reference": {
+    "dataunit_refs": [
+      "01705",
+      "01695"
+    ],
+    "note": "Evening feeding follows evening preparation (DU 01705). Morning cycle reference: DU 01695."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigpsgkyhebmrbvhfcnrxshwuxvysyizks3kf2xh3zas34krm7l2zy",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01706/hash/dataunit_01706.sha256",
+    "ots_file": "dataset/data-unit/01706/ots/dgcp_dataunit_01706.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
