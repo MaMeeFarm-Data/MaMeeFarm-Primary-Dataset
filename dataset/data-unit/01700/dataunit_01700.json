@@ -1,0 +1,45 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01700",
+  "file_path": "dataset/data-unit/01700/dataunit_01700.json",
+  "category": "infrastructure_event",
+  "sub_category": "wood_stove_cooking_progress",
+  "captured_at_local": "2026-03-01 12:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-TIM-0001",
+  "related_assets": [
+    "STV-0001"
+  ],
+  "data_type": "image",
+  "title": "Wood stove rice cooking progress — HZ-02",
+  "summary": "Manual timer INF-TIM-0001 displaying 00:28 during rice cooking on wood stove STV-0001. Fire active and pot positioned.",
+  "reference": {
+    "dataunit_refs": [
+      "01699"
+    ],
+    "proof_refs": [],
+    "note": "Cooking progress sequence."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihmsofcttdtejsslc47i2d7f5z2l5bwsgpwybpieu5lzvsjxk5c7m",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01700/hash/dataunit_01700.sha256",
+    "ots_file": "dataset/data-unit/01700/ots/dgcp_dataunit_01700.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
