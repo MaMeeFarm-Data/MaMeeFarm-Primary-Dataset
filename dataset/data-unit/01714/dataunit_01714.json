@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01714",
+  "file_path": "dataset/data-unit/01714/dataunit_01714.json",
+  "category": "energy_system_record",
+  "sub_category": "inverter_status_alert",
+  "captured_at_local": "2026-03-01 23:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INV-01",
+  "asset_type": "solar_inverter",
+  "event_type": "red_alert_indicator",
+  "system_status": {
+    "indicator_light": "red_on",
+    "instruction_context": "shutdown_required",
+    "note": "Red alert indicating inverter shutdown required."
+  },
+  "data_type": "image",
+  "title": "Solar inverter red alert indicator — INV-01",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih6lagtiqcm3os6bhoppsgapzqcbtjqjsmliucadzubzp6xa26k4i",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01714/hash/dataunit_01714.sha256",
+    "ots_file": "dataset/data-unit/01714/ots/dgcp_dataunit_01714.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
