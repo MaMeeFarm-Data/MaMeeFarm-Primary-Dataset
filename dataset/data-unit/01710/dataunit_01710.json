@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01710",
+  "file_path": "dataset/data-unit/01710/dataunit_01710.json",
+  "category": "asset_activity_record",
+  "sub_category": "harvest_or_removal",
+  "captured_at_local": "2026-03-01 17:18",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_type": "plant",
+  "common_name": "Banana",
+  "related_event_ref": "01708",
+  "event_type": "banana_cut_from_collapsed_plant",
+  "condition_status": "cut_detached",
+  "data_type": "image",
+  "title": "Banana cut from plant — HZ-02",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidn7gipu5v2lgwgitm7d3cgxbasjtnsacrer5h6pcw5jfddnpfdve",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01710/hash/dataunit_01710.sha256",
+    "ots_file": "dataset/data-unit/01710/ots/dgcp_dataunit_01710.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
