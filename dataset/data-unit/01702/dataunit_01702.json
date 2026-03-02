@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01702",
+  "file_path": "dataset/data-unit/01702/dataunit_01702.json",
+  "category": "environmental_record",
+  "sub_category": "microclimate_temperature_humidity",
+  "captured_at_local": "2026-03-01 12:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "HZ-02-T1",
+  "device_id": "HZ-02-HTC-1",
+  "data_type": "image",
+  "title": "Balcony microclimate record — HZ-02",
+  "measurement": {
+    "temperature_celsius": 29.2,
+    "humidity_percent": 39,
+    "unit": {
+      "temperature": "°C",
+      "humidity": "%"
+    }
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid76ixxrx5qg6yhh62tbxuxptj5dr62v36hhgaeekt5tjt4jldxtu",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01702/hash/dataunit_01702.sha256",
+    "ots_file": "dataset/data-unit/01702/ots/dgcp_dataunit_01702.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
