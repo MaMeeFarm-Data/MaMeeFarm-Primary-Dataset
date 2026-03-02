@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01701",
+  "file_path": "dataset/data-unit/01701/dataunit_01701.json",
+  "category": "infrastructure_event",
+  "sub_category": "wood_stove_cooking_result",
+  "captured_at_local": "2026-03-01 12:36",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-TIM-0001",
+  "related_assets": [
+    "STV-0001"
+  ],
+  "data_type": "image",
+  "title": "Wood stove rice cooking completion — HZ-02",
+  "summary": "Rice cooked on wood stove STV-0001. Timer INF-TIM-0001 displaying 21 minutes 20 seconds.",
+  "measurement": {
+    "duration_minutes": 21,
+    "duration_seconds": 20,
+    "total_seconds": 1280,
+    "unit": "time"
+  },
+  "reference": {
+    "dataunit_refs": [
+      "01700"
+    ],
+    "proof_refs": [],
+    "note": "Cooking sequence completion."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihn72qasg7grqfmfxcjk7ulyohk742wanyg46ibm4robo5vvwqoma",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01701/hash/dataunit_01701.sha256",
+    "ots_file": "dataset/data-unit/01701/ots/dgcp_dataunit_01701.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
