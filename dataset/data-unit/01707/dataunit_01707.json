@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01707",
+  "file_path": "dataset/data-unit/01707/dataunit_01707.json",
+  "category": "environmental_record",
+  "sub_category": "indoor_temperature_humidity",
+  "captured_at_local": "2026-03-01 17:15",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T2",
+  "asset_id": "HZ-02-HTC-0002",
+  "device_model": "HTC-1",
+  "data_type": "image",
+  "title": "Indoor microclimate record — evening",
+  "measurement": {
+    "temperature_celsius": 31.1,
+    "humidity_percent": 48,
+    "unit": {
+      "temperature": "°C",
+      "humidity": "%"
+    }
+  },
+  "reference": {
+    "dataunit_refs": [
+      "01703"
+    ],
+    "note": "Same indoor sensor earlier reading at 12:38."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieetgd75kdht5g45mfl7ld4bkqdtrd25r7n5m7swggjxgbnueenfy",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01707/hash/dataunit_01707.sha256",
+    "ots_file": "dataset/data-unit/01707/ots/dgcp_dataunit_01707.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
