@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01704",
+  "file_path": "dataset/data-unit/01704/dataunit_01704.json",
+  "category": "consumption_event",
+  "sub_category": "meal_from_wood_stove",
+  "captured_at_local": "2026-03-01 13:02",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "related_data_units": [
+    "01701"
+  ],
+  "related_assets": [
+    "STV-0001"
+  ],
+  "data_type": "image",
+  "title": "Meal consumption — rice cooked on wood stove",
+  "summary": "Meal consumed using rice previously cooked on wood stove (Ref DU 01701).",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiclopdabvcdpouvpmffwhoi75kn52e2xgbo7tughuadyfwoy755fq",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01704/hash/dataunit_01704.sha256",
+    "ots_file": "dataset/data-unit/01704/ots/dgcp_dataunit_01704.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
