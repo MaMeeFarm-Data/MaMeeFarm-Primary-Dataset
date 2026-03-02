@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01705",
+  "file_path": "dataset/data-unit/01705/dataunit_01705.json",
+  "category": "operation_event",
+  "sub_category": "dog_feed_preparation_evening",
+  "captured_at_local": "2026-03-01 17:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-SACK20-0002",
+  "data_type": "image",
+  "title": "Dog feed preparation — evening cycle",
+  "summary": "Preparation of dog feed for evening round. Feed sack INF-SACK20-0002 active. Reference to prior morning cycle (DU 01695).",
+  "reference": {
+    "dataunit_refs": [
+      "01695"
+    ],
+    "note": "Evening operational cycle."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeictud56ibazw3ek3zjw7yq6s3bqegx2wbplqzacawpboy7gkbry5m",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01705/hash/dataunit_01705.sha256",
+    "ots_file": "dataset/data-unit/01705/ots/dgcp_dataunit_01705.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
