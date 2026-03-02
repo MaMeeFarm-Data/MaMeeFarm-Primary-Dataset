@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01711",
+  "file_path": "dataset/data-unit/01711/dataunit_01711.json",
+  "category": "asset_output_record",
+  "sub_category": "harvest_quantification",
+  "captured_at_local": "2026-03-01 17:22",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_type": "plant",
+  "common_name": "Banana",
+  "related_event_ref": "01708-01710",
+  "event_type": "banana_cluster_divided_and_counted",
+  "quantity": {
+    "unit": "cluster_hand",
+    "count": 14
+  },
+  "data_type": "image",
+  "title": "Banana divided and counted — 14 hands — HZ-02",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid375pf7hlci6lkto2vxhc4mqjgzuucmd2huzta4ghxtoshdthxa4",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01711/hash/dataunit_01711.sha256",
+    "ots_file": "dataset/data-unit/01711/ots/dgcp_dataunit_01711.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
