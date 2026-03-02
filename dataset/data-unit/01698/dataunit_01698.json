@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01698",
+  "file_path": "dataset/data-unit/01698/dataunit_01698.json",
+  "category": "consumption_event",
+  "sub_category": "farm_produce_consumption",
+  "captured_at_local": "2026-03-01 11:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "PLT-PAP-0001",
+  "related_assets": [],
+  "data_type": "image",
+  "title": "Papaya consumption — HZ-02",
+  "summary": "Papaya harvested from PLT-PAP-0001 prepared and consumed. Internal farm consumption record.",
+  "reference": {
+    "dataunit_refs": [
+      "01697"
+    ],
+    "proof_refs": [],
+    "note": "Post-harvest consumption sequence."
+  },
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibgfgx272flzloatebagans76ruhug47eoovka66mcny2fsxsq7bi",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01698/hash/dataunit_01698.sha256",
+    "ots_file": "dataset/data-unit/01698/ots/dgcp_dataunit_01698.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
