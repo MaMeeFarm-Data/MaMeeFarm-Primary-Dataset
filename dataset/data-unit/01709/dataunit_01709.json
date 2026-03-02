@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01709",
+  "file_path": "dataset/data-unit/01709/dataunit_01709.json",
+  "category": "asset_output_record",
+  "sub_category": "plant_fruit_state",
+  "captured_at_local": "2026-03-01 17:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_type": "plant",
+  "common_name": "Banana",
+  "related_event_ref": "01708",
+  "event_type": "fruit_status_after_collapse",
+  "condition_status": "fruit_intact_unharvested",
+  "data_type": "image",
+  "title": "Banana fruit cluster from collapsed plant — HZ-02",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig56n3ukqdd3x275swxwringvrb6y5ybgvuzav2bkeqler5ug3m7q",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01709/hash/dataunit_01709.sha256",
+    "ots_file": "dataset/data-unit/01709/ots/dgcp_dataunit_01709.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
