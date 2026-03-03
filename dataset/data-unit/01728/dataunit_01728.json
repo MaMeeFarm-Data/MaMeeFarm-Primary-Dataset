@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01728",
+  "file_path": "dataset/data-unit/01728/dataunit_01728.json",
+  "category": "agriculture_operation_record",
+  "sub_category": "manual_watering",
+  "captured_at_local": "2026-03-02 18:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "event_type": "evening_watering_execution",
+  "operation_data": {
+    "watering_method": "manual_hose",
+    "flow_type": "spray_head",
+    "visual_confirmation": "active_water_flow"
+  },
+  "data_type": "image",
+  "title": "Vegetable watering — FZ-03 evening round",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif77hmdxu7bo6z5dfrnaljncwf5adb7sl6minrlskygeomkkm74i4",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01728/hash/dataunit_01728.sha256",
+    "ots_file": "dataset/data-unit/01728/ots/dgcp_dataunit_01728.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
