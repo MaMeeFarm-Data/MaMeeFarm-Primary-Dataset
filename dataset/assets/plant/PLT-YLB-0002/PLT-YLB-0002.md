@@ -37,3 +37,30 @@ No retroactive modification performed.
 Project: MaMeeFarm™  
 Framework: DGCP™  
 DGCP | MMFARM-POL-2025
+
+## Label Installation Record
+
+Proof Reference:
+- proof_713  
+
+Evidence Date (Local): 2026-02-28  
+Evidence Time (Local): 08:58  
+Timezone: Asia/Bangkok  
+
+Description:
+Physical asset label installed on site
+to formalize lifecycle traceability.
+
+---
+
+## Traceability
+
+Future stages (Vegetative, Flowering, Fruiting, Harvest)
+must be recorded via new DataUnits.
+No retroactive modification performed.
+
+---
+
+Project: MaMeeFarm™  
+Framework: DGCP™  
+DGCP | MMFARM-POL-2025
