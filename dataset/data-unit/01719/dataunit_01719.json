@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01719",
+  "file_path": "dataset/data-unit/01719/dataunit_01719.json",
+  "category": "operation_record",
+  "sub_category": "dog_feeding_ground_distribution",
+  "captured_at_local": "2026-03-02 06:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "related_data_unit": "01718",
+  "event_type": "feeding_consumption_observed",
+  "operation_data": {
+    "food_type": "dry_kibble",
+    "distribution_method": "ground_scatter",
+    "visual_confirmation": "multiple_dogs_consuming"
+  },
+  "data_type": "image",
+  "title": "Dog feeding consumption on ground — HZ-02",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigs2pijm4ejnfwooouiseyindoeyhewna53kg2r27ckuxzulz6l5a",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01719/hash/dataunit_01719.sha256",
+    "ots_file": "dataset/data-unit/01719/ots/dgcp_dataunit_01719.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
