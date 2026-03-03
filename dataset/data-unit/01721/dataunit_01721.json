@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01721",
+  "file_path": "dataset/data-unit/01721/dataunit_01721.json",
+  "category": "energy_system_record",
+  "sub_category": "inverter_status_observation",
+  "captured_at_local": "2026-03-02 07:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INV-01",
+  "asset_type": "power_inverter",
+  "related_data_unit": "01714",
+  "event_type": "inverter_power_on_observed",
+  "system_status": {
+    "front_panel_indicator": "inv_light_on",
+    "display_screen": "no_visible_output",
+    "operational_note": "machine_operational"
+  },
+  "data_type": "image",
+  "title": "Inverter INV-01 powered on — screen not displaying",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibmazc22x35fdz4wd5ii6eb7db7f3pu5lzednlgb6b4k36tprcsgu",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01721/hash/dataunit_01721.sha256",
+    "ots_file": "dataset/data-unit/01721/ots/dgcp_dataunit_01721.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
