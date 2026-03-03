@@ -1,0 +1,41 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01717",
+  "file_path": "dataset/data-unit/01717/dataunit_01717.json",
+  "category": "operation_record",
+  "sub_category": "dog_food_preparation",
+  "captured_at_local": "2026-03-02 06:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INF-SACK20-0002",
+  "asset_type": "woven_pp_sack",
+  "event_type": "morning_feeding_preparation",
+  "operation_data": {
+    "capacity_kg": 20,
+    "origin": "recycled_feed_bag",
+    "status_label": "Active - Standby",
+    "condition_label": "Unopened"
+  },
+  "data_type": "image",
+  "title": "Dog food preparation morning round — Sack 0002",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieol7cg4smk5a5763lsckyqavw2y4y5pfjnpz6jqqcgwqa7ftcbly",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01717/hash/dataunit_01717.sha256",
+    "ots_file": "dataset/data-unit/01717/ots/dgcp_dataunit_01717.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
