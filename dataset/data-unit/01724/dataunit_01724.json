@@ -1,0 +1,40 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01724",
+  "file_path": "dataset/data-unit/01724/dataunit_01724.json",
+  "category": "agriculture_record",
+  "sub_category": "plant_harvest_event",
+  "captured_at_local": "2026-03-02 08:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "asset_id": "PLT-RPH-0001",
+  "asset_type": "plant",
+  "event_type": "harvest_collected",
+  "harvest_data": {
+    "harvest_action": "manual_collection",
+    "person_performing_action": "MaMee",
+    "recorded_by": "P'Toh"
+  },
+  "data_type": "image",
+  "title": "Harvest collection from PLT-RPH-0001 — FZ-03",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeightjdlsyrehl7hfp7fdxs3y4ohyazeh5vf5mhegperkgwd435m5y",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01724/hash/dataunit_01724.sha256",
+    "ots_file": "dataset/data-unit/01724/ots/dgcp_dataunit_01724.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
