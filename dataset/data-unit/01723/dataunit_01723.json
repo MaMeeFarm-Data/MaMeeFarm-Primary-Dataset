@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01723",
+  "file_path": "dataset/data-unit/01723/dataunit_01723.json",
+  "category": "environment_record",
+  "sub_category": "animal_presence_observation",
+  "captured_at_local": "2026-03-02 08:42",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "event_type": "dog_guard_presence",
+  "observation_data": {
+    "animals_visible": "dog",
+    "person_visible_in_image": "MaMee",
+    "activity_context": "garden_area_presence"
+  },
+  "data_type": "image",
+  "title": "Dog presence in backyard garden — FZ-03",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidleglpxpyi5wqvntpleu3j7uffblxb6lsjkzjwhkamnpheye35dm",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01723/hash/dataunit_01723.sha256",
+    "ots_file": "dataset/data-unit/01723/ots/dgcp_dataunit_01723.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
