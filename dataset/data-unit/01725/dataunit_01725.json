@@ -1,0 +1,38 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01725",
+  "file_path": "dataset/data-unit/01725/dataunit_01725.json",
+  "category": "agriculture_record",
+  "sub_category": "harvest_output_observation",
+  "captured_at_local": "2026-03-02 08:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "event_type": "harvest_output_collected",
+  "harvest_data": {
+    "visual_state": "fresh_green_pods",
+    "chemical_treatment_statement": "no_chemical_used_statement",
+    "continuity_note": "time_sequence_continued"
+  },
+  "data_type": "image",
+  "title": "Harvest output observation — FZ-03",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiama7wtb2quftmghiqpvhtyln2xltemsyhvzj7ljhkobmdbxxcjmq",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01725/hash/dataunit_01725.sha256",
+    "ots_file": "dataset/data-unit/01725/ots/dgcp_dataunit_01725.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
