@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01727",
+  "file_path": "dataset/data-unit/01727/dataunit_01727.json",
+  "category": "operation_record",
+  "sub_category": "dog_feeding_round",
+  "captured_at_local": "2026-03-02 17:28",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "related_data_unit": "01718",
+  "event_type": "evening_feeding_execution",
+  "operation_data": {
+    "food_type": "dry_kibble",
+    "feeding_round": "evening",
+    "visual_confirmation": "multiple_dogs_waiting"
+  },
+  "data_type": "image",
+  "title": "Dog feeding evening round — HZ-02",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibcqviy6rdshmn2fixw7xenrof7wwa6kgakaeu7wtadogqytyymeu",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01727/hash/dataunit_01727.sha256",
+    "ots_file": "dataset/data-unit/01727/ots/dgcp_dataunit_01727.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
