@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01720",
+  "file_path": "dataset/data-unit/01720/dataunit_01720.json",
+  "category": "asset_record",
+  "sub_category": "plant_registration_label",
+  "captured_at_local": "2026-03-02 07:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "PLT-PAP-0007",
+  "asset_type": "papaya_tree",
+  "event_type": "registration_label_attached",
+  "asset_details": {
+    "plant_name": "Papaya",
+    "scientific_name": "Carica papaya",
+    "status": "Active",
+    "action_note": "Ground Clearing Completed; Preparation for Registration",
+    "reference_data_unit": "01671-01672",
+    "reference_date": "2026-02-28"
+  },
+  "data_type": "image",
+  "title": "Papaya tree registration label attached — PLT-PAP-0007",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibmazc22x35fdz4wd5ii6eb7db7f3pu5lzednlgb6b4k36tprcsgu",
+    "note": "Raw image evidence."
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01720/hash/dataunit_01720.sha256",
+    "ots_file": "dataset/data-unit/01720/ots/dgcp_dataunit_01720.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
