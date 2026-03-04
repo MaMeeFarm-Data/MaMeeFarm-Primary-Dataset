@@ -1,0 +1,39 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01735",
+  "file_path": "dataset/data-unit/01735/dataunit_01735.json",
+  "category": "operation_log",
+  "sub_category": "dog_feeding",
+  "captured_at_local": "2026-03-03 06:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "operation_context": "morning_dog_feeding",
+  "related_data_units": [
+    {
+      "relation": "paired_cycle_reference",
+      "data_unit_id": "01727",
+      "note": "Evening feeding reference (user-provided)"
+    }
+  ],
+  "data_type": "image",
+  "title": "Morning dog feeding record (kibble preparation/ready state)",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiabaws2zrhntvxxuhnj547iagzwau5wp6goixgi45qguyydfsw73u"
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01735/hash/dataunit_01735.sha256",
+    "ots_file": "dataset/data-unit/01735/ots/dgcp_dataunit_01735.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
