@@ -1,0 +1,44 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01746",
+  "file_path": "dataset/data-unit/01746/dataunit_01746.json",
+  "category": "energy_system_record",
+  "sub_category": "inverter_status_observation",
+  "captured_at_local": "2026-03-03 23:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "asset_id": "INV-01",
+  "asset_type": "solar_power_inverter",
+  "operation_event": "night_shutdown_status",
+  "status_indicator": {
+    "warning_light": "red",
+    "system_state": "no_solar_input_detected"
+  },
+  "related_data_units": [
+    {
+      "relation": "morning_activation_reference",
+      "data_unit_id": "01738"
+    }
+  ],
+  "data_type": "image",
+  "title": "Solar inverter night shutdown status INV-01",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifoop22v7r4giwrbloavwbnvafiavcp7wsepq4po6zfleusc2ts7q"
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01746/hash/dataunit_01746.sha256",
+    "ots_file": "dataset/data-unit/01746/ots/dgcp_dataunit_01746.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
