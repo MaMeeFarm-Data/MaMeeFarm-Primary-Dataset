@@ -1,0 +1,34 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01740",
+  "file_path": "dataset/data-unit/01740/dataunit_01740.json",
+  "category": "environmental_record",
+  "sub_category": "canal_water_observation",
+  "captured_at_local": "2026-03-03 08:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+  "asset_id": "FZ-05-CANAL-0001",
+  "asset_type": "farm_canal",
+  "observation_event": "water_presence_observed",
+  "data_type": "image",
+  "title": "Canal water observation FZ-05-CANAL-0001",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibods7pc6xqsp2c65zkdm43zu62uqdbnmfhieqz6rhcvg5y3blflq"
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01740/hash/dataunit_01740.sha256",
+    "ots_file": "dataset/data-unit/01740/ots/dgcp_dataunit_01740.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
