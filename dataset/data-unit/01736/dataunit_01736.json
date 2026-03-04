@@ -1,0 +1,32 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01736",
+  "file_path": "dataset/data-unit/01736/dataunit_01736.json",
+  "category": "environment_record",
+  "sub_category": "sky_observation",
+  "captured_at_local": "2026-03-03 06:56",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02_perimeter_view",
+  "observation_context": "morning_sky_scan",
+  "data_type": "image",
+  "title": "Morning sky observation record",
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidiedu5zkkp4nnbi4tlek5bioivq3mbroy2anuya3woouud27x4ua"
+  },
+  "media_count": 1,
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01736/hash/dataunit_01736.sha256",
+    "ots_file": "dataset/data-unit/01736/ots/dgcp_dataunit_01736.ots"
+  },
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+  "license": "DGCP | MMFARM-POL-2025"
+}
