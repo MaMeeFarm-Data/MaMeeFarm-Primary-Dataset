@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01751",
+  "file_path": "dataset/data-unit/01751/dataunit_01751.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_water_refill",
+
+  "captured_at_local": "2026-03-04 07:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog water refill from tap — HZ-02",
+  "summary": "Water observed flowing from tap into plastic containers used as drinking bowls for dogs in HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01750"],
+    "proof_refs": [],
+    "note": "Continuation of morning animal care sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicof2bu6ufp5feqa7poahiwgbfqrpjuul3vnfukvapxftqqebftty",
+    "note": "Image evidence stored on IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01751/hash/dataunit_01751.sha256",
+    "ots_file": "dataset/data-unit/01751/ots/dgcp_dataunit_01751.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
