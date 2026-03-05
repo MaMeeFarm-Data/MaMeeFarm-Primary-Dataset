@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01767",
+  "file_path": "dataset/data-unit/01767/dataunit_01767.json",
+
+  "category": "agriculture_event",
+  "sub_category": "vegetable_watering",
+
+  "captured_at_local": "2026-03-04 18:58",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "operation_state": {
+    "event": "watering",
+    "crop_context": "vegetable plants"
+  },
+
+  "data_type": "image",
+
+  "title": "Vegetable watering — FZ-03",
+  "summary": "Watering activity performed on vegetable plants in zone FZ-03.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "note": "Routine plant care activity."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibrl6nbsqucttpejpczilwnra2g7z5l5tmfbl7i6f3kon6j6vxm5y",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01767/hash/dataunit_01767.sha256",
+    "ots_file": "dataset/data-unit/01767/ots/dgcp_dataunit_01767.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
