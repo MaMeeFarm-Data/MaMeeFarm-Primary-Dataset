@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01763",
+  "file_path": "dataset/data-unit/01763/dataunit_01763.json",
+
+  "category": "human_activity",
+  "sub_category": "meal_consumption",
+
+  "captured_at_local": "2026-03-04 12:33",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "actor": {
+    "person_id": "P'Toh",
+    "role": "operator"
+  },
+
+  "operation_context": {
+    "event": "meal consumption",
+    "food_item": "cooked rice",
+    "process_reference": "wood stove rice cooking sequence"
+  },
+
+  "data_type": "image",
+
+  "title": "Meal consumption after rice cooking",
+  "summary": "Cooked rice prepared using wood stove STV-0001 consumed by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01760", "01761", "01762"],
+    "note": "Continuation of rice cooking process sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihz4dp36geq7pvawdu6yrrgpwa6wca3qstegdvdq3orvjv43ziiwu",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01763/hash/dataunit_01763.sha256",
+    "ots_file": "dataset/data-unit/01763/ots/dgcp_dataunit_01763.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
