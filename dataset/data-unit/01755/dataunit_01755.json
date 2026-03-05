@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01755",
+  "file_path": "dataset/data-unit/01755/dataunit_01755.json",
+
+  "category": "agriculture_event",
+  "sub_category": "plant_branch_removal",
+
+  "captured_at_local": "2026-03-04 11:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Broken mango branch removal — PLT-MNG-0002",
+  "summary": "Broken branch removed from mango tree PLT-MNG-0002. Larval insect observed within damaged wood. Species not identified.",
+
+  "reference": {
+    "dataunit_refs": ["01754"],
+    "proof_refs": [],
+    "note": "Follow-up action after broken branch observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihdjuorjpfrol3edd2z3poyr4rxyadbim5adm2jcvqc7zrgw4nhuu",
+    "note": "Image evidence stored on IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01755/hash/dataunit_01755.sha256",
+    "ots_file": "dataset/data-unit/01755/ots/dgcp_dataunit_01755.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
