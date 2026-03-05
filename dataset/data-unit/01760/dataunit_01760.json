@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01760",
+  "file_path": "dataset/data-unit/01760/dataunit_01760.json",
+
+  "category": "farm_operation",
+  "sub_category": "wood_stove_ignition_timer_start",
+
+  "captured_at_local": "2026-03-04 11:31",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_reference": {
+    "timer_device_id": "INF-TIM-0001",
+    "stove_id": "STV-0001",
+    "stove_type": "wood stove"
+  },
+
+  "operation_state": {
+    "timer_state": "start",
+    "timer_display": "00:00"
+  },
+
+  "data_type": "image",
+
+  "title": "Wood stove ignition timer start",
+  "summary": "Timer INF-TIM-0001 started to measure ignition time for wood stove STV-0001.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihbzxvdqgnzlhwvtc2dosrmuufndm5xmbk7prvz7m5u67aqy5tvai",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01760/hash/dataunit_01760.sha256",
+    "ots_file": "dataset/data-unit/01760/ots/dgcp_dataunit_01760.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
