@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01758",
+  "file_path": "dataset/data-unit/01758/dataunit_01758.json",
+
+  "category": "farm_operation",
+  "sub_category": "equipment_storage",
+
+  "captured_at_local": "2026-03-04 11:27",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "asset_reference": {
+    "equipment_id": "EQR-GRC-0001",
+    "equipment_type": "grass cutter"
+  },
+
+  "data_type": "image",
+
+  "title": "Grass cutter stored after operation",
+  "summary": "Grass cutting equipment EQR-GRC-0001 stored inside duck house structure in FZ-03. No ducks present at time of recording.",
+
+  "reference": {
+    "dataunit_refs": ["01756", "01757"],
+    "note": "Equipment storage following grass cutting operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigge2la4pqdkvvhd5o7rpxqfoj753wgmr5jzk7qrzistzsmcy5dra",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01758/hash/dataunit_01758.sha256",
+    "ots_file": "dataset/data-unit/01758/ots/dgcp_dataunit_01758.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
