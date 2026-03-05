@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01764",
+  "file_path": "dataset/data-unit/01764/dataunit_01764.json",
+
+  "category": "resource_usage",
+  "sub_category": "animal_feed_bag_consumption_completed",
+
+  "captured_at_local": "2026-03-04 16:31",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_reference": {
+    "asset_id": "INF-SACK20-0002",
+    "asset_type": "woven_pp_sack",
+    "capacity": "20 kg"
+  },
+
+  "operation_state": {
+    "event": "feed bag consumed",
+    "status": "empty"
+  },
+
+  "data_type": "image",
+
+  "title": "Dog feed bag INF-SACK20-0002 consumed",
+  "summary": "Animal feed sack INF-SACK20-0002 recorded as empty after feeding cycle.",
+
+  "reference": {
+    "asset_refs": ["INF-SACK20-0002"],
+    "note": "Resource usage completion event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiforlv7zsgmpdwdwxq7hn5ytwbdkwrjssx6ktqb5azio7dbhtzp4q",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01764/hash/dataunit_01764.sha256",
+    "ots_file": "dataset/data-unit/01764/ots/dgcp_dataunit_01764.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
