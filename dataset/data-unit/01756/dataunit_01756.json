@@ -1,0 +1,48 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01756",
+  "file_path": "dataset/data-unit/01756/dataunit_01756.json",
+
+  "category": "farm_operation",
+  "sub_category": "grass_cutting_preparation",
+
+  "captured_at_local": "2026-03-04 11:17",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "asset_reference": {
+    "equipment_id": "EQR-GRC-0001",
+    "equipment_type": "grass cutter"
+  },
+
+  "data_type": "image",
+
+  "title": "Pre-operation observation before grass cutting",
+  "summary": "Grass cutter equipment positioned in FZ-03 prior to grass cutting operation.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigto55mmdxnggiqbpthglkhxthrhqgzupla43dmb2athpf63xtdem",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01756/hash/dataunit_01756.sha256",
+    "ots_file": "dataset/data-unit/01756/ots/dgcp_dataunit_01756.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
