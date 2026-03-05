@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01747",
+  "file_path": "dataset/data-unit/01747/dataunit_01747.json",
+
+  "category": "environment_record",
+  "sub_category": "temperature_humidity_reading",
+
+  "captured_at_local": "2026-03-04 07:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Indoor temperature and humidity record — HZ-02",
+  "summary": "Indoor environmental reading recorded from HTC-1 temperature and humidity sensor.",
+
+  "reference": {
+    "dataunit_refs": ["01746"],
+    "proof_refs": [],
+    "note": "Sequential environmental monitoring record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif7oglgrky4nzfn3nd6bqwdsmq2ms33utl3mxyql34byo27z7oy6u",
+    "note": "Image evidence stored on IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01747/hash/dataunit_01747.sha256",
+    "ots_file": "dataset/data-unit/01747/ots/dgcp_dataunit_01747.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
