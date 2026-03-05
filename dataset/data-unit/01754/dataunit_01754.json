@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01754",
+  "file_path": "dataset/data-unit/01754/dataunit_01754.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "plant_damage_observation",
+
+  "captured_at_local": "2026-03-04 11:13",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Broken mango branch observation — PLT-MNG-0002",
+  "summary": "Broken branch observed on mango tree PLT-MNG-0002 in HZ-02. Cause not determined.",
+
+  "reference": {
+    "dataunit_refs": ["01753"],
+    "proof_refs": [],
+    "note": "Plant condition observation during farm inspection."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifda6o26pd5p5i43mviap3yrrs7h7qtwwdvdgorurpelp4egqpz4u",
+    "note": "Image evidence stored on IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01754/hash/dataunit_01754.sha256",
+    "ots_file": "dataset/data-unit/01754/ots/dgcp_dataunit_01754.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
