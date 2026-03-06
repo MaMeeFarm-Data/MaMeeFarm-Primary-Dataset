@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01782",
+  "file_path": "dataset/data-unit/01782/dataunit_01782.json",
+
+  "category": "farm_operation",
+  "sub_category": "wood_stove_ignition_timer_start",
+
+  "captured_at_local": "2026-03-05 13:46",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_reference": {
+    "timer_device_id": "INF-TIM-0001",
+    "stove_id": "STV-0001",
+    "stove_type": "wood_stove"
+  },
+
+  "operation_state": {
+    "event": "timer_start",
+    "timer_display": "00:00",
+    "purpose": "rice_cooking_timing"
+  },
+
+  "data_type": "image",
+
+  "title": "Wood stove rice cooking timer start",
+  "summary": "Timer INF-TIM-0001 started for rice cooking process on wood stove STV-0001 in HZ-02.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Start of wood stove rice cooking timing sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihzabj2gvz5qz7pyonvruadbs4li5e5axrdbdm3hhu2jxdceq2nda",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01782/hash/dataunit_01782.sha256",
+    "ots_file": "dataset/data-unit/01782/ots/dgcp_dataunit_01782.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
