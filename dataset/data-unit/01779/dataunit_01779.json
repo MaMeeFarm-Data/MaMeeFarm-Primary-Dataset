@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01779",
+  "file_path": "dataset/data-unit/01779/dataunit_01779.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "water_pump_deployment",
+
+  "captured_at_local": "2026-03-05 11:50",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_reference": {
+    "primary_asset": "PMP-SUM-0001",
+    "asset_type": "submersible_water_pump",
+    "target_asset": "WT-F-0001",
+    "target_type": "water_tank"
+  },
+
+  "operation_state": {
+    "event": "pump_deployed_into_water_tank",
+    "purpose": "water extraction / farm water use"
+  },
+
+  "data_type": "image",
+
+  "title": "Submersible pump PMP-SUM-0001 deployed into WT-F-0001",
+  "summary": "Water pump PMP-SUM-0001 placed into farm water tank WT-F-0001 for operational water use.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": []
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicpqi2zuw2a4ve4tat42au5z4eczlwhtmeo4xkk2vcdpslxzokemm",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01779/hash/dataunit_01779.sha256",
+    "ots_file": "dataset/data-unit/01779/ots/dgcp_dataunit_01779.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
