@@ -1,0 +1,69 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01777",
+  "file_path": "dataset/data-unit/01777/dataunit_01777.json",
+
+  "category": "agriculture_event",
+  "sub_category": "plant_cycle_closure",
+
+  "captured_at_local": "2026-03-05 08:19",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "asset_reference": {
+    "asset_id": "PLT-CKC-0001",
+    "asset_type": "crop_unit"
+  },
+
+  "operation_state": {
+    "event": "plant_cycle_closed",
+    "reason": "crop did not germinate successfully"
+  },
+
+  "context": {
+    "field_zone": "FZ-03",
+    "crop_status": "unsuccessful germination"
+  },
+
+  "data_type": "image",
+
+  "title": "Plant cycle closure PLT-CKC-0001",
+  "summary": "Crop unit PLT-CKC-0001 cycle closed after unsuccessful germination in FZ-03.",
+
+  "reference": {
+    "proof_refs": [
+      "654",
+      "655",
+      "656",
+      "711"
+    ],
+    "note": "Previous observation and planting attempts recorded in referenced proofs."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiczuonlf2olnmokzm4z3tetwgwkravohczuz65turcjbfe7kvgvme",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01777/hash/dataunit_01777.sha256",
+    "ots_file": "dataset/data-unit/01777/ots/dgcp_dataunit_01777.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
