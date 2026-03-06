@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01783",
+  "file_path": "dataset/data-unit/01783/dataunit_01783.json",
+
+  "category": "farm_operation",
+  "sub_category": "wood_stove_ignition_observation",
+
+  "captured_at_local": "2026-03-05 13:47",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_reference": {
+    "timer_device_id": "INF-TIM-0001",
+    "stove_id": "STV-0001",
+    "stove_type": "wood_stove"
+  },
+
+  "operation_state": {
+    "event": "fire_ignition_observed",
+    "timer_display": "00:03",
+    "status": "fire_established"
+  },
+
+  "data_type": "image",
+
+  "title": "Wood stove ignition observation",
+  "summary": "Fire ignition observed on wood stove STV-0001 shortly after timer start.",
+
+  "reference": {
+    "dataunit_refs": ["01782"],
+    "note": "Timer start event recorded in DU 01782."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiff4fdtdsvn7qvcvf5bqgnbuowr6nqo4amcgmh6awsnia74pax6w4",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01783/hash/dataunit_01783.sha256",
+    "ots_file": "dataset/data-unit/01783/ots/dgcp_dataunit_01783.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
