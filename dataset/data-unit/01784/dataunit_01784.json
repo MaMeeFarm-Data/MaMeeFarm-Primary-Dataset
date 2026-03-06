@@ -1,0 +1,61 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01784",
+  "file_path": "dataset/data-unit/01784/dataunit_01784.json",
+
+  "category": "farm_operation",
+  "sub_category": "wood_stove_pot_placement",
+
+  "captured_at_local": "2026-03-05 13:47",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_reference": {
+    "timer_device_id": "INF-TIM-0001",
+    "stove_id": "STV-0001",
+    "stove_type": "wood_stove"
+  },
+
+  "operation_state": {
+    "event": "pot_placed_on_stove",
+    "timer_display": "00:41",
+    "process": "rice_cooking"
+  },
+
+  "data_type": "image",
+
+  "title": "Rice pot placed on wood stove",
+  "summary": "Rice cooking pot placed on wood stove STV-0001 after fire ignition.",
+
+  "reference": {
+    "dataunit_refs": ["01782","01783"],
+    "note": "Continuation of wood stove rice cooking sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicxxudud4n7o2gt7hobbde4exmvgyfbulk2rji72pkjgyaq4hs5xi",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01784/hash/dataunit_01784.sha256",
+    "ots_file": "dataset/data-unit/01784/ots/dgcp_dataunit_01784.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
