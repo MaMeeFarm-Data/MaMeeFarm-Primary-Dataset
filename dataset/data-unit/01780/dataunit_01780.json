@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01780",
+  "file_path": "dataset/data-unit/01780/dataunit_01780.json",
+
+  "category": "infrastructure_record",
+  "sub_category": "water_tank_state_observation",
+
+  "captured_at_local": "2026-03-05 11:50",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_reference": {
+    "asset_id": "WT-F-0001",
+    "asset_type": "water_tank",
+    "capacity": "2000L"
+  },
+
+  "system_context": {
+    "related_asset": "PMP-SUM-0001",
+    "operation": "water storage for farm use"
+  },
+
+  "data_type": "image",
+
+  "title": "Water tank WT-F-0001 observation",
+  "summary": "Operational water tank WT-F-0001 recorded in house zone HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01779"],
+    "note": "Pump deployment recorded in DU 01779."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiabmazvmm4o7rkvvijgh7bfihmnuqdmqkuq7su3durxhj4gmaqx74",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01780/hash/dataunit_01780.sha256",
+    "ots_file": "dataset/data-unit/01780/ots/dgcp_dataunit_01780.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
