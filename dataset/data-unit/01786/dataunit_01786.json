@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01786",
+  "file_path": "dataset/data-unit/01786/dataunit_01786.json",
+
+  "category": "farm_operation",
+  "sub_category": "water_tank_refill_observation",
+
+  "captured_at_local": "2026-03-05 15:32",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "asset_reference": {
+    "water_tank_id": "WT-M-0002"
+  },
+
+  "operation_state": {
+    "event": "water_refill_observed",
+    "status": "tank_refilled"
+  },
+
+  "data_type": "image",
+
+  "title": "Water tank refill recorded WT-M-0002",
+  "summary": "Water level observed in water tank WT-M-0002 in zone FZ-03.",
+
+  "reference": {
+    "dataunit_refs": ["01779"],
+    "proof_refs": [],
+    "note": "Water refill continuation from previous tank operation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidhdg34zjtoftmpnwdgsli7wfp6lu4em7u6lfh5gxtw2urbnxutuu",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01786/hash/dataunit_01786.sha256",
+    "ots_file": "dataset/data-unit/01786/ots/dgcp_dataunit_01786.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
