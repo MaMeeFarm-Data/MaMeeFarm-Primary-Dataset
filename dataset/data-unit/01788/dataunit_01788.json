@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01788",
+  "file_path": "dataset/data-unit/01788/dataunit_01788.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "soil_disturbance_detected",
+
+  "captured_at_local": "2026-03-05 18:11",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "asset_reference": {
+    "plant_id": "PLT-DIL-0001",
+    "crop_type": "dill"
+  },
+
+  "observation": {
+    "event": "soil_disturbance",
+    "description": "Digging marks observed in planting area"
+  },
+
+  "data_type": "image",
+
+  "title": "Soil disturbance observed in dill plot",
+  "summary": "Digging marks detected on soil surface within PLT-DIL-0001 planting area.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Observation record only. Cause not determined."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifist4x26qesg5sskr7dcznwfvcr4fjppxg7nwcwtqp2uajwzh7te",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01788/hash/dataunit_01788.sha256",
+    "ots_file": "dataset/data-unit/01788/ots/dgcp_dataunit_01788.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
