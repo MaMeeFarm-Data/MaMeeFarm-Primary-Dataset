@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01789",
+  "file_path": "dataset/data-unit/01789/dataunit_01789.json",
+
+  "category": "farm_observation",
+  "sub_category": "dog_presence_observation",
+
+  "captured_at_local": "2026-03-05 18:12",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "asset_reference": {
+    "animal_group": "farm_dogs",
+    "count_observed": 1
+  },
+
+  "observation": {
+    "event": "dog_present",
+    "context": "farm_member_dog_observed_in_field_zone"
+  },
+
+  "data_type": "image",
+
+  "title": "Farm dog presence observed in FZ-03",
+  "summary": "One farm dog observed in field zone FZ-03 during evening observation.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Observation only. No behavioral interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibvjwxrgtwu56n2jsbc53xfwx2dxvs35crress4udnt7krhcjvbdi",
+    "note": "Image evidence stored on IPFS"
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01789/hash/dataunit_01789.sha256",
+    "ots_file": "dataset/data-unit/01789/ots/dgcp_dataunit_01789.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
