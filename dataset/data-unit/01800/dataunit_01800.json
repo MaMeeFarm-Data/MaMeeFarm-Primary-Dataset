@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01800",
+  "file_path": "dataset/data-unit/01800/dataunit_01800.json",
+
+  "category": "asset_pre_registration",
+  "sub_category": "water_tank_structure_observation",
+
+  "captured_at_local": "2026-03-06 08:10",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water tank base observation before asset registration",
+  "summary": "Observation record of elevated water tank base structure prior to asset registration for WT-H-0001 and WT-H-0002.",
+
+  "reference": {
+    "dataunit_refs": ["01799"],
+    "proof_refs": [],
+    "note": "Pre-registration documentation for water tank base structure."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeickbwbieolue7whi2cjsgtsh64w7k6uobaq3yap42ky5ibiqvdwku",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01800/hash/dataunit_01800.sha256",
+    "ots_file": "dataset/data-unit/01800/ots/dgcp_dataunit_01800.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm infrastructure observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
