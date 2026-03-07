@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01802",
+  "file_path": "dataset/data-unit/01802/dataunit_01802.json",
+
+  "category": "farm_operation",
+  "sub_category": "gate_operation",
+
+  "captured_at_local": "2026-03-06 08:11",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Morning gate opening INF-GATE-0003",
+  "summary": "Morning gate opening connecting HZ-02 to FZ-03, FZ-04 and FZ-05.",
+
+  "reference": {
+    "dataunit_refs": ["01791"],
+    "proof_refs": [],
+    "note": "Previous gate closing recorded in DU 01791."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigg4tt65ddheueko3wqq427byzn7mxi6j2cwsoq6x3cmm52gajfra",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01802/hash/dataunit_01802.sha256",
+    "ots_file": "dataset/data-unit/01802/ots/dgcp_dataunit_01802.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
