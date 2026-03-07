@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01806",
+  "file_path": "dataset/data-unit/01806/dataunit_01806.json",
+
+  "category": "farm_operation",
+  "sub_category": "rice_pot_placement",
+
+  "captured_at_local": "2026-03-06 16:24",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rice pot placed on wood stove — HZ-02",
+  "summary": "Cooking activity record: Rice pot placed on wood stove. Timer INF-TIM-0001 recorded elapsed time 01.12. Recorded by P'Toh.",
+
+  "reference": {
+    "dataunit_refs": ["01805"],
+    "proof_refs": [],
+    "note": "Continuation of wood stove cooking sequence."
+  },
+
+  "measurement": {
+    "timer_device": "INF-TIM-0001",
+    "elapsed_time": "01.12"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibowxjslf6q3pcuca4fbqvb7rjtcbqsvh7qcbv4ruxmjqukfz7o5a",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01806/hash/dataunit_01806.sha256",
+    "ots_file": "dataset/data-unit/01806/ots/dgcp_dataunit_01806.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
