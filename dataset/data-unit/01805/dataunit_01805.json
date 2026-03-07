@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01805",
+  "file_path": "dataset/data-unit/01805/dataunit_01805.json",
+
+  "category": "farm_operation",
+  "sub_category": "wood_stove_fire_start",
+
+  "captured_at_local": "2026-03-06 16:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Fire ignition at wood stove STV-0001",
+  "summary": "Initial ignition of firewood at wood stove STV-0001. Timer device INF-TIM-0001 used for ignition timing.",
+
+  "reference": {
+    "dataunit_refs": ["01804"],
+    "proof_refs": [],
+    "note": "Continuation of cooking preparation sequence."
+  },
+
+  "measurement": {
+    "timer_device": "INF-TIM-0001",
+    "elapsed_time": "0.05 s"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihus4ozmsqbqaxsgnqk6hrsrdzlom4ymq4hvkmtjfbefrd3jymvfm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01805/hash/dataunit_01805.sha256",
+    "ots_file": "dataset/data-unit/01805/ots/dgcp_dataunit_01805.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
