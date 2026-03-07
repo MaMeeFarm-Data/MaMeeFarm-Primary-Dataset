@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01809",
+  "file_path": "dataset/data-unit/01809/dataunit_01809.json",
+
+  "category": "environment_record",
+  "sub_category": "indoor_temperature_humidity_measurement",
+
+  "captured_at_local": "2026-03-06 16:49",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "House indoor temperature and humidity measurement",
+  "summary": "Indoor environment measurement recorded using HTC-1 sensor installed in HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01808"],
+    "proof_refs": [],
+    "note": "Indoor house microclimate observation."
+  },
+
+  "measurement": {
+    "temperature_c": 29.6,
+    "relative_humidity_percent": 54
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeielnl7mfyhgalct4klpkn2wt6bbcnh5ilxswnwn7pgefcjvfejrhm",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01809/hash/dataunit_01809.sha256",
+    "ots_file": "dataset/data-unit/01809/ots/dgcp_dataunit_01809.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
