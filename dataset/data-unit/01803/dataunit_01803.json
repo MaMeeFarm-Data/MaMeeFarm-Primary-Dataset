@@ -1,0 +1,55 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01803",
+  "file_path": "dataset/data-unit/01803/dataunit_01803.json",
+
+  "category": "environment_record",
+  "sub_category": "temperature_humidity_measurement",
+
+  "captured_at_local": "2026-03-06 08:14",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Duck house microclimate measurement",
+  "summary": "Temperature and humidity measurement recorded at duck house zone. No ducks present at time of recording.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Microclimate sensor HTC-2 installed in duck house zone."
+  },
+
+  "measurement": {
+    "temperature_inside_c": 19.7,
+    "temperature_outside_c": 19.3,
+    "relative_humidity_percent": 77
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiepva36llstfvrweuy6pzd7tqnkyjzptq7hlkiypbc2zmrd6e434a",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01803/hash/dataunit_01803.sha256",
+    "ots_file": "dataset/data-unit/01803/ots/dgcp_dataunit_01803.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
