@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01799",
+  "file_path": "dataset/data-unit/01799/dataunit_01799.json",
+
+  "category": "energy_system",
+  "sub_category": "inverter_operation_record",
+
+  "captured_at_local": "2026-03-06 08:09",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "INV-01 power inverter activation",
+  "summary": "Operational record: INV-01 turned ON. Display screen not functioning.",
+
+  "reference": {
+    "dataunit_refs": ["01792"],
+    "proof_refs": [],
+    "note": "Previous system state recorded as inverter OFF."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieb5d2wpuq4ljgojvifurgjjcbl32nuhmvkprahfibkcijt3zb7ne",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01799/hash/dataunit_01799.sha256",
+    "ots_file": "dataset/data-unit/01799/ots/dgcp_dataunit_01799.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm energy system",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
