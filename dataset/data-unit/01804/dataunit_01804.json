@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01804",
+  "file_path": "dataset/data-unit/01804/dataunit_01804.json",
+
+  "category": "farm_operation",
+  "sub_category": "cooking_time_measurement",
+
+  "captured_at_local": "2026-03-06 16:23",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Rice cooking timer start",
+  "summary": "Timer record for rice cooking using stopwatch INF-TIM-0001.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Cooking activity timing recorded."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihskm3plszku2gzlwt4vgu7x6zgkywlpfzsdqdbyn7nvj47gbu2l4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01804/hash/dataunit_01804.sha256",
+    "ots_file": "dataset/data-unit/01804/ots/dgcp_dataunit_01804.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
