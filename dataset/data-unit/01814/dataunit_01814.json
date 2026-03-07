@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01814",
+  "file_path": "dataset/data-unit/01814/dataunit_01814.json",
+
+  "category": "human_activity_record",
+  "sub_category": "meal_record",
+
+  "captured_at_local": "2026-03-06 18:25",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Evening meal record — P'Toh",
+  "summary": "Evening meal consumed by P'Toh at MaMeeFarm. Rice meal prepared following earlier cooked rice record.",
+
+  "reference": {
+    "dataunit_refs": ["01813","01807"],
+    "proof_refs": [],
+    "note": "Cooked rice recorded earlier under DU 01807."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifawmdijzydq572zaajyaedwcyfxxxlqmixh7er3iwzebt56klf64",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01814/hash/dataunit_01814.sha256",
+    "ots_file": "dataset/data-unit/01814/ots/dgcp_dataunit_01814.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
