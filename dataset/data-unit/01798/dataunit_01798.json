@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01798",
+  "file_path": "dataset/data-unit/01798/dataunit_01798.json",
+
+  "category": "human_activity",
+  "sub_category": "food_consumption",
+
+  "captured_at_local": "2026-03-06 07:52",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Breakfast consumption record",
+  "summary": "Breakfast meal of P'Toh: pork congee with pork floss and coriander from FZ-03. Rice reference DU 01785.",
+
+  "reference": {
+    "dataunit_refs": ["01785"],
+    "proof_refs": [],
+    "note": "Rice source previously recorded."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifmw6udcoewkxeq3i4rfnuoam7in7hln5riggmjvzpdkrsxuhv7z4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01798/hash/dataunit_01798.sha256",
+    "ots_file": "dataset/data-unit/01798/ots/dgcp_dataunit_01798.ots"
+  },
+
+  "responsibility": {
+    "actor": "P'Toh",
+    "recorded_by": "P'Toh",
+    "accountability": "self-recorded activity",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
