@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01832",
+  "file_path": "dataset/data-unit/01832/dataunit_01832.json",
+
+  "category": "resource_observation",
+  "sub_category": "feed_content_observation",
+
+  "captured_at_local": "2026-03-07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+
+  "data_type": "image",
+
+  "title": "Feed pellet observation inside opened sack",
+  "summary": "Observation of feed pellets contained in newly opened feed sack INF-SACK20-0004.",
+
+  "asset_reference": {
+    "asset_id": "INF-SACK20-0004",
+    "asset_type": "woven_pp_feed_sack",
+    "capacity": "20kg"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01831"],
+    "note": "Feed bag opened under DU 01831."
+  },
+
+  "operation": {
+    "action": "content_observation",
+    "object": "feed_pellets"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih66ft4tqtfs74oxsuwr7fjrjlw2z2ou6jcvvqkitiwwpioiaej6m",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01832/hash/dataunit_01832.sha256",
+    "ots_file": "dataset/data-unit/01832/ots/dgcp_dataunit_01832.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
