@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01831",
+  "file_path": "dataset/data-unit/01831/dataunit_01831.json",
+
+  "category": "resource_preparation",
+  "sub_category": "feed_bag_opening",
+
+  "captured_at_local": "2026-03-07 17:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Feed bag opened — INF-SACK20-0004",
+  "summary": "Feed sack INF-SACK20-0004 opened for use in HZ-02.",
+
+  "asset_reference": {
+    "asset_id": "INF-SACK20-0004",
+    "asset_type": "woven_pp_feed_sack",
+    "capacity": "20kg"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01830"],
+    "proof_refs": [],
+    "note": "Previous feed bag INF-SACK20-0003 recorded empty under DU 01830."
+  },
+
+  "operation": {
+    "action": "feed_bag_opened",
+    "status": "active_for_use"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigg5nh472lzgqxuqrrd7dusarzkkaz757wipbuggm6xjnq6ecwk5m",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01831/hash/dataunit_01831.sha256",
+    "ots_file": "dataset/data-unit/01831/ots/dgcp_dataunit_01831.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
