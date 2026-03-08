@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01821",
+  "file_path": "dataset/data-unit/01821/dataunit_01821.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "solar_inverter_start",
+
+  "captured_at_local": "2026-03-07 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Solar inverter start recorded — INV-01",
+  "summary": "Morning inverter activation recorded. Display screen not functioning but inverter operational.",
+
+  "reference": {
+    "dataunit_refs": ["01820","01815"],
+    "proof_refs": [],
+    "note": "Previous shutdown recorded under DU 01815."
+  },
+
+  "asset_reference": {
+    "asset_id": "INV-01",
+    "asset_type": "power_inverter",
+    "operation": "system_start"
+  },
+
+  "status_observation": {
+    "display_screen": "not functioning",
+    "inverter_operation": "operational"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeif33273yw7w6mqe6zdqdysz4jgyv7tljqnpagi3q7c4q4f33rs4o4",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01821/hash/dataunit_01821.sha256",
+    "ots_file": "dataset/data-unit/01821/ots/dgcp_dataunit_01821.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
