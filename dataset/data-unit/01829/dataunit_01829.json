@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01829",
+  "file_path": "dataset/data-unit/01829/dataunit_01829.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "equipment_retrieval",
+
+  "captured_at_local": "2026-03-07 13:32",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Water pump equipment stored after operation — PMP-0003",
+  "summary": "Pump PMP-0003 placed back near water tank after completing pumping operation.",
+
+  "asset_reference": {
+    "pump_id": "PMP-0003"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01825"],
+    "note": "Pump previously deployed in DU 01825."
+  },
+
+  "operation": {
+    "action": "equipment_retrieved_and_stored",
+    "status": "operation_completed"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeib72e4osgmmktcwu4zkdkja3aose75u2m55x3xagta4lognmor2ji",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01829/hash/dataunit_01829.sha256",
+    "ots_file": "dataset/data-unit/01829/ots/dgcp_dataunit_01829.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
