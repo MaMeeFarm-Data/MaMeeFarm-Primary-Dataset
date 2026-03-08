@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01822",
+  "file_path": "dataset/data-unit/01822/dataunit_01822.json",
+
+  "category": "infrastructure_operation",
+  "sub_category": "gate_open_event",
+
+  "captured_at_local": "2026-03-07 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Morning gate opening — INF-GATE-0003",
+  "summary": "Farm gate INF-GATE-0003 opened in the morning.",
+
+  "asset_reference": {
+    "asset_id": "INF-GATE-0003",
+    "asset_type": "farm_gate",
+    "operation": "open"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01821","01813"],
+    "note": "Previous gate closure recorded under DU-01813."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeift3qtuoggqhkzpio47plsumaripakru4ft7gtqc53g7uhnusklxe",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01822/hash/dataunit_01822.sha256",
+    "ots_file": "dataset/data-unit/01822/ots/dgcp_dataunit_01822.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
