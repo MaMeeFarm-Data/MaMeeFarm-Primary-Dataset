@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01834",
+  "file_path": "dataset/data-unit/01834/dataunit_01834.json",
+
+  "category": "agriculture_observation",
+  "sub_category": "plant_growth_observation",
+
+  "captured_at_local": "2026-03-07 18:16",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Tomato plant observation — PLT-TOM-0001",
+  "summary": "Observation record of tomato plant PLT-TOM-0001 showing fruit development in FZ-03.",
+
+  "asset_reference": {
+    "asset_id": "PLT-TOM-0001",
+    "asset_type": "tomato_plant"
+  },
+
+  "operation": {
+    "action": "plant_observation",
+    "object": "fruit_development"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibrlvm623knblrjlr6gwo5qfzcax7ynwbk7cwgtbpjdb7vayt7ata",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01834/hash/dataunit_01834.sha256",
+    "ots_file": "dataset/data-unit/01834/ots/dgcp_dataunit_01834.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
