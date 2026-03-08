@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01817",
+  "file_path": "dataset/data-unit/01817/dataunit_01817.json",
+
+  "category": "environment_record",
+  "sub_category": "balcony_temperature_measurement",
+
+  "captured_at_local": "2026-03-07 06:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Balcony temperature measurement — HZ-02",
+  "summary": "Temperature and humidity measurement recorded at house balcony sensor location.",
+
+  "reference": {
+    "dataunit_refs": ["01816"],
+    "proof_refs": [],
+    "note": "Morning balcony microclimate observation."
+  },
+
+  "measurement": {
+    "temperature_c": 19.1,
+    "relative_humidity_percent": 71
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidmmfkbndsghcoo73cg6jrumjihoxqfye4vndieypmnr5fhgw5uty",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01817/hash/dataunit_01817.sha256",
+    "ots_file": "dataset/data-unit/01817/ots/dgcp_dataunit_01817.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
