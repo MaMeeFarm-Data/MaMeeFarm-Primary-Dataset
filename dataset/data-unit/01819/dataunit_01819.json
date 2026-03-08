@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01819",
+  "file_path": "dataset/data-unit/01819/dataunit_01819.json",
+
+  "category": "animal_care_event",
+  "sub_category": "dog_water_preparation",
+
+  "captured_at_local": "2026-03-07 06:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog water preparation — HZ-02",
+  "summary": "Water containers prepared for dogs at house zone HZ-02.",
+
+  "reference": {
+    "dataunit_refs": ["01818"],
+    "proof_refs": [],
+    "note": "Morning dog care sequence."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiamnz5mwb6uszmfeohjokgl2skvz3oyalikg3lnzsthgwkqiu6vim",
+    "note": "Raw image evidence."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01819/hash/dataunit_01819.sha256",
+    "ots_file": "dataset/data-unit/01819/ots/dgcp_dataunit_01819.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
