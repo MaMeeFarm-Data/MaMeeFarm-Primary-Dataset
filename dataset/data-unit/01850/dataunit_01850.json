@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01850",
+  "file_path": "dataset/data-unit/01850/dataunit_01850.json",
+
+  "category": "operation",
+  "sub_category": "power-system",
+
+  "captured_at_local": "2026-03-08 22:17",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Inverter shutdown INV-01",
+  "summary": "Solar power inverter INV-01 recorded during evening shutdown. Ref du 01841 morning activation.",
+
+  "reference": {
+    "dataunit_refs": ["01841"],
+    "proof_refs": [],
+    "note": "Optional. Use only if needed. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigfj6dytg6gt6ypjqdqskftr3rc25qf2kspkhryibryfhidcvj3vu",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01850/hash/dataunit_01850.sha256",
+    "ots_file": "dataset/data-unit/01850/ots/dgcp_dataunit_01850.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
