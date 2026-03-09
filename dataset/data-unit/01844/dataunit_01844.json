@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01844",
+  "file_path": "dataset/data-unit/01844/dataunit_01844.json",
+
+  "category": "daily-life",
+  "sub_category": "meal",
+
+  "captured_at_local": "2026-03-08 09:40",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Breakfast rice porridge with minced pork",
+  "summary": "Breakfast meal of rice porridge with minced pork and coriander recorded for P'Toh.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Optional. Use only if needed. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifszbc32c5fpfnneykgfedc75zxavcpzuke2frutfxm6er55uivre",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01844/hash/dataunit_01844.sha256",
+    "ots_file": "dataset/data-unit/01844/ots/dgcp_dataunit_01844.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
