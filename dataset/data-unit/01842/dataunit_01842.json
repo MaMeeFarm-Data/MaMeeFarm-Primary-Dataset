@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01842",
+  "file_path": "dataset/data-unit/01842/dataunit_01842.json",
+
+  "category": "operation",
+  "sub_category": "infrastructure-gate",
+
+  "captured_at_local": "2026-03-08 09:04",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Morning gate opening INF-GATE-0003",
+  "summary": "INF-GATE-0003 recorded during morning gate opening. Ref du 01836 evening state.",
+
+  "reference": {
+    "dataunit_refs": ["01836"],
+    "proof_refs": [],
+    "note": "Optional. Use only if needed. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigxdzdp2dok25l3zrj6dozunaw24odovqqzp5l7tnk6czkblcwfce",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01842/hash/dataunit_01842.sha256",
+    "ots_file": "dataset/data-unit/01842/ots/dgcp_dataunit_01842.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
