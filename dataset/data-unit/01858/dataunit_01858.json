@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01858",
+  "file_path": "dataset/data-unit/01858/dataunit_01858.json",
+
+  "category": "operation",
+  "sub_category": "infrastructure-access",
+
+  "captured_at_local": "2026-03-09 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Gate opening INF-GATE-0003",
+  "summary": "Gate INF-GATE-0003 opened for access from HZ-02 toward farm zones FZ-03, FZ-04, and FZ-05. Reference previous closing event.",
+
+  "reference": {
+    "dataunit_refs": ["01849"],
+    "proof_refs": [],
+    "note": "Optional. Use only if needed. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibjtzaw5jssjxk7jrav7brvo7el4ntcngotlsjmhirwvednfcv7ky",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01858/hash/dataunit_01858.sha256",
+    "ots_file": "dataset/data-unit/01858/ots/dgcp_dataunit_01858.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
