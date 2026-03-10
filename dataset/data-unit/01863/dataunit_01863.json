@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01863",
+  "file_path": "dataset/data-unit/01863/dataunit_01863.json",
+
+  "category": "daily-life",
+  "sub_category": "meal-record",
+
+  "captured_at_local": "2026-03-09 08:33",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Breakfast meal rice porridge with minced pork",
+  "summary": "Breakfast meal of rice porridge with minced pork served. Cilantro used from farm zone FZ-03.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Food consumption record."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifkf3rkqf5ymqk4eilrhsuutlrom5hp6osqdxww56rqzcdgryc6m4",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01863/hash/dataunit_01863.sha256",
+    "ots_file": "dataset/data-unit/01863/ots/dgcp_dataunit_01863.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
