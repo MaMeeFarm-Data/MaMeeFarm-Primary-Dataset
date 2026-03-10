@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01859",
+  "file_path": "dataset/data-unit/01859/dataunit_01859.json",
+
+  "category": "agriculture",
+  "sub_category": "plant-observation",
+
+  "captured_at_local": "2026-03-09 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Long bean flowering observation PLT-YLB-0001",
+  "summary": "Observation of long bean plant PLT-YLB-0001 showing flowering stage.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Observation only."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiandagjkllmg4lh67cb7s5y3vdy3kvrkhnyhlelt7r3ib6bhadg3q",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01859/hash/dataunit_01859.sha256",
+    "ots_file": "dataset/data-unit/01859/ots/dgcp_dataunit_01859.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
