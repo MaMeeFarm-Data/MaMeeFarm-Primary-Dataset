@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01862",
+  "file_path": "dataset/data-unit/01862/dataunit_01862.json",
+
+  "category": "environment",
+  "sub_category": "water-flow-observation",
+
+  "captured_at_local": "2026-03-09 07:53",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+  "sub_zone": "CANAL-0001",
+
+  "data_type": "image",
+
+  "title": "Water present in canal CANAL-0001",
+  "summary": "Water observed in canal CANAL-0001 adjacent to the farm boundary with neighboring corn field.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Observation only. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibk7xhtlbkj5mwuk7eakbs375jhlsxatg7fnb5bw6kqlwcyy2cbia",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01862/hash/dataunit_01862.sha256",
+    "ots_file": "dataset/data-unit/01862/ots/dgcp_dataunit_01862.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
