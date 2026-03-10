@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01860",
+  "file_path": "dataset/data-unit/01860/dataunit_01860.json",
+
+  "category": "agriculture",
+  "sub_category": "plant-cycle-observation",
+
+  "captured_at_local": "2026-03-09 07:51",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Dill planting cycle observation PLT-DIL-0001",
+  "summary": "Observation of planting area PLT-DIL-0001 showing no dill germination. Surface vegetation present from surrounding plants.",
+
+  "reference": {
+    "dataunit_refs": ["01260", "01261"],
+    "proof_refs": [],
+    "note": "Reference previous planting observations."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid4noespl7mq4uy7svp2bxdj5nv3xkd55ftf6b6ezndcuvrbswsse",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01860/hash/dataunit_01860.sha256",
+    "ots_file": "dataset/data-unit/01860/ots/dgcp_dataunit_01860.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
