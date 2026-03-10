@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01853",
+  "file_path": "dataset/data-unit/01853/dataunit_01853.json",
+
+  "category": "operation",
+  "sub_category": "fuel-usage",
+
+  "captured_at_local": "2026-03-09 06:59",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "FUEL-BUT-0002 used for coffee boiling",
+  "summary": "Butane gas canister FUEL-BUT-0002 used with INF-KET-0001 and INF-GASSTOVE-0001 in HZ-02 for coffee boiling.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Optional. Use only if needed. No interpretation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidz7g2thnxyxknnikeskojegyyccraemzfmtsx573d7me4wu25cba",
+    "note": "Raw evidence reference, if applicable."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01853/hash/dataunit_01853.sha256",
+    "ots_file": "dataset/data-unit/01853/ots/dgcp_dataunit_01853.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
