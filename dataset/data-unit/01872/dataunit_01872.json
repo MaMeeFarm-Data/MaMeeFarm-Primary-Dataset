@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01872",
+  "file_path": "dataset/data-unit/01872/dataunit_01872.json",
+
+  "category": "human",
+  "sub_category": "food-consumption",
+
+  "captured_at_local": "2026-03-10 10:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Breakfast food consumption record",
+  "summary": "Consumption of minced pork rice soup recorded at house zone HZ-02. Dish contains coriander sourced from farm zone FZ-03.",
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Food prepared and consumed on-site."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieed3foeolg4o3gu75cczdoqqmh2cf3yc66h66e65fqe35hk777n4",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01872/hash/dataunit_01872.sha256",
+    "ots_file": "dataset/data-unit/01872/ots/dgcp_dataunit_01872.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
