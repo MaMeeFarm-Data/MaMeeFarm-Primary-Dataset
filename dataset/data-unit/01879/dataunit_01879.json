@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01879",
+  "file_path": "dataset/data-unit/01879/dataunit_01879.json",
+
+  "category": "environment",
+  "sub_category": "weather-observation",
+
+  "captured_at_local": "2026-03-10 22:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+
+  "data_type": "image",
+
+  "title": "Rainfall observation at farm",
+  "summary": "Nighttime rainfall observed at MaMeeFarm environment.",
+
+  "observation": {
+    "weather_event": "rainfall",
+    "intensity": "observed rainfall",
+    "note": "Rainfall observed during nighttime field observation."
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Weather condition observation."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeid7hpepmu3mecbadi47c7mox2wvgad6gbk33srv353jyqsqwvp5xa",
+    "note": "Raw image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01879/hash/dataunit_01879.sha256",
+    "ots_file": "dataset/data-unit/01879/ots/dgcp_dataunit_01879.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
