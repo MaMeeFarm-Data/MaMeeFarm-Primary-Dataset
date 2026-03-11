@@ -1,0 +1,57 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01875",
+  "file_path": "dataset/data-unit/01875/dataunit_01875.json",
+
+  "category": "environment",
+  "sub_category": "microclimate-measurement",
+
+  "captured_at_local": "2026-03-10 17:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "data_type": "image",
+
+  "title": "Duck house microclimate measurement evening",
+  "summary": "Evening microclimate measurement recorded at duck house zone FZ-03 using HTC-2 sensor. No ducks present during observation.",
+
+  "measurement": {
+    "sensor": "HTC-2",
+    "temperature_in_c": 31.4,
+    "temperature_out_c": 31.3,
+    "humidity_percent": 52
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Observation indicates duck house empty at time of measurement."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibajvlizqc7khuhyh6yqghzp3vnp3ef55xwv3pojh7zf4b3hmokm4",
+    "note": "Raw image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01875/hash/dataunit_01875.sha256",
+    "ots_file": "dataset/data-unit/01875/ots/dgcp_dataunit_01875.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
