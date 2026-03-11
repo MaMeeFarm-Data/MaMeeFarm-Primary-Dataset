@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01876",
+  "file_path": "dataset/data-unit/01876/dataunit_01876.json",
+
+  "category": "plant",
+  "sub_category": "plant-condition-observation",
+
+  "captured_at_local": "2026-03-10 17:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "data_type": "image",
+
+  "title": "Plant observation insect presence",
+  "summary": "Observation of unidentified insects present on leaf surface of plant asset PLT-PKN-0001.",
+
+  "plant_asset": {
+    "plant_id": "PLT-PKN-0001"
+  },
+
+  "observation": {
+    "condition": "leaf surface insect presence",
+    "organism_type": "unidentified insect",
+    "note": "Multiple insects observed on leaf surface."
+  },
+
+  "reference": {
+    "dataunit_refs": [],
+    "proof_refs": [],
+    "note": "Field observation recorded during evening inspection."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigwmw2pdl25zebuf25fdbniie6vnsehr6hzh66ndcykchu2h3urlu",
+    "note": "Raw evidence image stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01876/hash/dataunit_01876.sha256",
+    "ots_file": "dataset/data-unit/01876/ots/dgcp_dataunit_01876.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
