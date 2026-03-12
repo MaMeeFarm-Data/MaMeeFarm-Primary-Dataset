@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01886",
+  "file_path": "dataset/data-unit/01886/dataunit_01886.json",
+
+  "category": "infrastructure",
+  "sub_category": "gate-operation",
+
+  "captured_at_local": "2026-03-11 08:20",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+
+  "zone": "HZ-02",
+  "access_route": ["FZ-03", "FZ-04", "FZ-05"],
+
+  "data_type": "image",
+
+  "title": "Morning gate opening operation",
+  "summary": "Farm gate INF-GATE-0003 opened to allow access from HZ-02 to field zones.",
+
+  "infrastructure_asset": {
+    "asset_id": "INF-GATE-0003",
+    "type": "farm access gate",
+    "status": "open"
+  },
+
+  "operation": {
+    "event": "gate opened",
+    "direction": "HZ-02 → FZ-03 / FZ-04 / FZ-05",
+    "note": "Morning operational opening of farm gate."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01877"],
+    "note": "Previous record documented evening gate closing."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeield2xq6dos6zykakjscyioa77t5jbvhdvbdkzcxpjxntpj6wu4oy",
+    "note": "Image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01886/hash/dataunit_01886.sha256",
+    "ots_file": "dataset/data-unit/01886/ots/dgcp_dataunit_01886.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
