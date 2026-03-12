@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01898",
+  "file_path": "dataset/data-unit/01898/dataunit_01898.json",
+
+  "category": "asset-management",
+  "sub_category": "asset-id-labeling",
+
+  "captured_at_local": "2026-03-11 19:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Fuel canister asset ID labeling and operational start",
+  "summary": "Asset ID label FUEL-BUT-0002 applied to butane fuel canister.",
+
+  "asset": {
+    "asset_id": "FUEL-BUT-0002",
+    "type": "butane fuel canister"
+  },
+
+  "operation": {
+    "event": "asset id label applied",
+    "status": "operational start"
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "01851",
+      "01853"
+    ]
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidximh2mckajopbeydltiicjfuj7eawnnqzwtzzutd5azm2thxpxq",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01898/hash/dataunit_01898.sha256",
+    "ots_file": "dataset/data-unit/01898/ots/dgcp_dataunit_01898.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
