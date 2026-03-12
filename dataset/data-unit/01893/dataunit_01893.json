@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01893",
+  "file_path": "dataset/data-unit/01893/dataunit_01893.json",
+
+  "category": "animal-care",
+  "sub_category": "dog-feeding-cycle",
+
+  "captured_at_local": "2026-03-11 17:12",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Evening dog feeding cycle",
+  "summary": "Dogs at MaMeeFarm receiving evening feeding with dry dog food.",
+
+  "animal_group": {
+    "species": "dog",
+    "group_context": "farm dogs",
+    "feeding_cycle": "evening"
+  },
+
+  "operation": {
+    "event": "dog feeding",
+    "food_type": "dry dog food",
+    "note": "Evening feeding cycle for farm dogs."
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "01881"
+    ],
+    "note": "Morning feeding cycle recorded earlier."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih36etiwnad7v3ut7khtumfkm4vj73e2myvfykcaxxf7e2kfzihzi",
+    "note": "Image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01893/hash/dataunit_01893.sha256",
+    "ots_file": "dataset/data-unit/01893/ots/dgcp_dataunit_01893.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
