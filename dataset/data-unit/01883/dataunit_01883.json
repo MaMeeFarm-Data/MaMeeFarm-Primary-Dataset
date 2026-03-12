@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01883",
+  "file_path": "dataset/data-unit/01883/dataunit_01883.json",
+
+  "category": "infrastructure",
+  "sub_category": "resource-observation",
+
+  "captured_at_local": "2026-03-11 07:08",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feed pellet observation inside sack",
+  "summary": "Visual observation of feed pellets inside opened feed sack INF-SACK20-0005.",
+
+  "infrastructure_asset": {
+    "asset_id": "INF-SACK20-0005",
+    "type": "woven PP sack",
+    "capacity_kg": 20,
+    "status": "active",
+    "condition": "opened"
+  },
+
+  "operation": {
+    "event": "resource condition observation",
+    "note": "Feed pellets visually observed inside opened sack after activation."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01882"],
+    "proof_refs": [],
+    "note": "Observation follows feed sack activation event."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifyf756mdoaijqesocd4maq22prcyamiudrdfiwchqpesa7hprdry",
+    "note": "Image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01883/hash/dataunit_01883.sha256",
+    "ots_file": "dataset/data-unit/01883/ots/dgcp_dataunit_01883.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
