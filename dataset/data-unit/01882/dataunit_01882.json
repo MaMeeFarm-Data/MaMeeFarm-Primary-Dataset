@@ -1,0 +1,62 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01882",
+  "file_path": "dataset/data-unit/01882/dataunit_01882.json",
+
+  "category": "infrastructure",
+  "sub_category": "resource-activation",
+
+  "captured_at_local": "2026-03-11 07:07",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Feed sack activation record",
+  "summary": "Feed sack INF-SACK20-0005 opened and activated for dog feeding operations.",
+
+  "infrastructure_asset": {
+    "asset_id": "INF-SACK20-0005",
+    "type": "woven PP sack",
+    "capacity_kg": 20,
+    "status": "active",
+    "condition": "opened"
+  },
+
+  "operation": {
+    "event": "feed sack opened",
+    "note": "New feed sack number 5 opened following depletion of previous sack."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01880"],
+    "proof_refs": [],
+    "note": "Previous feed sack INF-SACK20-0004 recorded as consumed."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihcwcx6rfvyv2pf65jm4xltkimpo24rtp7u6hs5cyouyyl4ilptvy",
+    "note": "Raw image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01882/hash/dataunit_01882.sha256",
+    "ots_file": "dataset/data-unit/01882/ots/dgcp_dataunit_01882.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
