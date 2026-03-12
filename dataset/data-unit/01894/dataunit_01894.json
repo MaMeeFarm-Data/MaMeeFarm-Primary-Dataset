@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01894",
+  "file_path": "dataset/data-unit/01894/dataunit_01894.json",
+
+  "category": "human-activity",
+  "sub_category": "food-consumption",
+
+  "captured_at_local": "2026-03-11 17:35",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Evening meal consumption record",
+  "summary": "Evening meal consumed by P'Toh. Cooked rice and fried chicken bones priced at 25 baht visible.",
+
+  "reference": {
+    "dataunit_refs": ["01892"],
+    "proof_refs": [],
+    "note": "Cooked rice reference."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidzwzyis5yopx2bpbprfkrnd4j5qtdcsawqwh6rapiyjw45wxvt2m",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01894/hash/dataunit_01894.sha256",
+    "ots_file": "dataset/data-unit/01894/ots/dgcp_dataunit_01894.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
