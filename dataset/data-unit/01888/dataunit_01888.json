@@ -1,0 +1,70 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01888",
+  "file_path": "dataset/data-unit/01888/dataunit_01888.json",
+
+  "category": "infrastructure",
+  "sub_category": "power-system-operation",
+
+  "captured_at_local": "2026-03-11 08:43",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Solar inverter activation with display malfunction",
+  "summary": "Power inverter INV-01 activated while display screen not functioning but system operational.",
+
+  "infrastructure_asset": {
+    "asset_id": "INV-01",
+    "type": "power inverter",
+    "input_source": "DC from SPV-A-0001",
+    "output": "AC power for farm systems",
+    "status": "active"
+  },
+
+  "related_system": {
+    "solar_array": "SPV-A-0001",
+    "battery_storage": ["PWR-BAT-0001", "PWR-BAT-0002"],
+    "system_role": "farm energy conversion"
+  },
+
+  "operation": {
+    "event": "system activation",
+    "note": "Inverter turned on for farm energy system."
+  },
+
+  "anomaly_observation": {
+    "component": "display panel",
+    "condition": "screen not displaying information",
+    "system_state": "inverter still operational",
+    "note": "Operational indicators active despite display malfunction."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeih52aib5qf6napme2afvjmk6462m5xwcjdlgadajmep47bmz64m5u",
+    "note": "Image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01888/hash/dataunit_01888.sha256",
+    "ots_file": "dataset/data-unit/01888/ots/dgcp_dataunit_01888.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
