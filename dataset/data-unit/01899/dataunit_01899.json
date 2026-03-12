@@ -1,0 +1,59 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01899",
+  "file_path": "dataset/data-unit/01899/dataunit_01899.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "power-system-operation",
+
+  "captured_at_local": "2026-03-11 21:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Inverter shutdown record",
+  "summary": "Solar inverter INV-01 shutdown recorded.",
+
+  "infrastructure_asset": {
+    "asset_id": "INV-01",
+    "type": "solar power inverter"
+  },
+
+  "operation": {
+    "event": "inverter shutdown",
+    "cycle": "evening"
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "01888"
+    ]
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeig7azsk7ncxzawbt2b5h5sbnd56ur4f673jckiumoszwlroou5b6u",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01899/hash/dataunit_01899.sha256",
+    "ots_file": "dataset/data-unit/01899/ots/dgcp_dataunit_01899.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
