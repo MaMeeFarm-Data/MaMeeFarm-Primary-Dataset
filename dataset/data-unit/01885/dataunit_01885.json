@@ -1,0 +1,66 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01885",
+  "file_path": "dataset/data-unit/01885/dataunit_01885.json",
+
+  "category": "environment",
+  "sub_category": "temperature-humidity-record",
+
+  "captured_at_local": "2026-03-11 07:58",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "HZ-02-T1",
+
+  "data_type": "image",
+
+  "title": "Balcony temperature humidity observation",
+  "summary": "Temperature and humidity recorded from balcony HTC-1 sensor.",
+
+  "sensor": {
+    "asset_id": "HZ-02-HTC-1",
+    "device_model": "HTC-1",
+    "sensor_type": "temperature-humidity",
+    "location": "house balcony"
+  },
+
+  "measurement": {
+    "temperature_celsius": 20.7,
+    "humidity_percent": 76
+  },
+
+  "operation": {
+    "event": "environment observation",
+    "note": "Balcony environmental condition recorded from installed HTC-1 sensor."
+  },
+
+  "reference": {
+    "dataunit_refs": ["01884"],
+    "note": "Parallel environmental measurement recorded within the same observation period."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidi6gx5rwkhpgp3ebydwliqty5tnmsuvvyvnzeypotzkitty2apem",
+    "note": "Image evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01885/hash/dataunit_01885.sha256",
+    "ots_file": "dataset/data-unit/01885/ots/dgcp_dataunit_01885.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
