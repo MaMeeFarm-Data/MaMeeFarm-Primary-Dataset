@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01880",
+  "file_path": "dataset/data-unit/01880/dataunit_01880.json",
+
+  "category": "infrastructure",
+  "sub_category": "resource-consumption",
+
+  "captured_at_local": "2026-03-11 07:05",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Feed sack consumption record",
+  "summary": "Feed sack INF-SACK20-0004 recorded as fully consumed during farm operation.",
+
+  "infrastructure_asset": {
+    "asset_id": "INF-SACK20-0004",
+    "type": "woven PP sack",
+    "capacity_kg": 20,
+    "status": "consumed",
+    "condition": "empty sack observed"
+  },
+
+  "operation": {
+    "event": "feed sack depletion",
+    "note": "Feed sack number 4 recorded as finished."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifdjff7qz6ocsfcwt7cslwnfc24emin2fpo2ecnv3lhc6hrwgikga",
+    "note": "Raw evidence stored via IPFS."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01880/hash/dataunit_01880.sha256",
+    "ots_file": "dataset/data-unit/01880/ots/dgcp_dataunit_01880.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
