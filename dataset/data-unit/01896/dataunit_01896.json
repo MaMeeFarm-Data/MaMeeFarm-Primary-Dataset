@@ -1,0 +1,58 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01896",
+  "file_path": "dataset/data-unit/01896/dataunit_01896.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "gate-operation",
+
+  "captured_at_local": "2026-03-11 17:55",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Farm gate closing event",
+  "summary": "Evening gate closing recorded for asset INF-GATE-0003.",
+
+  "infrastructure_asset": {
+    "asset_id": "INF-GATE-0003",
+    "type": "farm gate"
+  },
+
+  "operation": {
+    "event": "gate closed",
+    "cycle": "evening"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01886"],
+    "note": "Morning gate opening reference."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicpuytqug5d5faeypig7kcdbwnjqqf6bjplhvxssitsn7dlb6rdiq",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01896/hash/dataunit_01896.sha256",
+    "ots_file": "dataset/data-unit/01896/ots/dgcp_dataunit_01896.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
