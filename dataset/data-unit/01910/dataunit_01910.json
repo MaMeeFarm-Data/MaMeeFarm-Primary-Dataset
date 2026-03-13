@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01910",
+  "file_path": "dataset/data-unit/01910/dataunit_01910.json",
+
+  "category": "farm-operation",
+  "sub_category": "tree-pruning",
+
+  "captured_at_local": "2026-03-12 09:29",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Tree branch cutting operation",
+  "summary": "P'Toh cutting tree branch using tool TOL-MCH-0001.",
+
+  "asset_reference": {
+    "tool_id": "TOL-MCH-0001"
+  },
+
+  "actor": {
+    "operator": "P'Toh",
+    "recorder": "P'Toh"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibqrhyyrwqyaokax2pk2lzqstafok2a2wgecragolio2n7djwebua",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01910/hash/dataunit_01910.sha256",
+    "ots_file": "dataset/data-unit/01910/ots/dgcp_dataunit_01910.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
