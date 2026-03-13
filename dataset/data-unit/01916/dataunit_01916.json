@@ -1,0 +1,48 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01916",
+  "file_path": "dataset/data-unit/01916/dataunit_01916.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "time-measurement",
+
+  "captured_at_local": "2026-03-12 17:27",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Operation timing observation",
+  "summary": "Manual timer observation associated with wood stove operation.",
+
+  "assets": {
+    "timer": "INF-TIM-0001",
+    "stove": "STV-0001"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiht45wbru7htpe2zpvbmza6m37sn4r52zvp42cjvjm36ohujwfdwi",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01916/hash/dataunit_01916.sha256",
+    "ots_file": "dataset/data-unit/01916/ots/dgcp_dataunit_01916.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
