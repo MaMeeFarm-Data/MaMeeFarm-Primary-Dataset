@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01907",
+  "file_path": "dataset/data-unit/01907/dataunit_01907.json",
+
+  "category": "environmental",
+  "sub_category": "zone-observation",
+
+  "captured_at_local": "2026-03-12 07:54",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+
+  "data_type": "image",
+
+  "title": "Zone observation record",
+  "summary": "Visual observation recorded in zone FZ-05.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeieymft2jzz4dzmvjfi3tb6tagyo6axmhytzb2fpmrn3tujw6weo74",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01907/hash/dataunit_01907.sha256",
+    "ots_file": "dataset/data-unit/01907/ots/dgcp_dataunit_01907.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
