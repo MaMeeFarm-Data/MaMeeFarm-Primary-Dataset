@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01912",
+  "file_path": "dataset/data-unit/01912/dataunit_01912.json",
+
+  "category": "environmental",
+  "sub_category": "zone-observation",
+
+  "captured_at_local": "2026-03-12 09:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Zone observation record",
+  "summary": "Observation of cut tree branches on ground following pruning activity.",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihtp642oegxdaqwbv4l5q3c3ca7lnkpvsackukhnpkeqs6w745tvi",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01912/hash/dataunit_01912.sha256",
+    "ots_file": "dataset/data-unit/01912/ots/dgcp_dataunit_01912.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
