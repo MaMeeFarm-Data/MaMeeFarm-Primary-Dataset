@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01906",
+  "file_path": "dataset/data-unit/01906/dataunit_01906.json",
+
+  "category": "environmental",
+  "sub_category": "water-condition",
+
+  "captured_at_local": "2026-03-12 08:00",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "FZ-05",
+  "sub_zone": "CANAL-0001",
+
+  "data_type": "image",
+
+  "title": "Canal water condition observation",
+  "summary": "Visual observation of canal CANAL-0001 showing no water present.",
+
+  "reference": {
+    "dataunit_refs": ["01862"],
+    "proof_refs": [],
+    "note": "Previous observation recorded water present."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifc2jtqkfwgo5g2mbg2uh6yf7twe25tk5ckweeb37d5xmmy7z7peq",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01906/hash/dataunit_01906.sha256",
+    "ots_file": "dataset/data-unit/01906/ots/dgcp_dataunit_01906.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
