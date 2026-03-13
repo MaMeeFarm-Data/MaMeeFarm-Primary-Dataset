@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01911",
+  "file_path": "dataset/data-unit/01911/dataunit_01911.json",
+
+  "category": "farm-operation",
+  "sub_category": "tree-pruning-observation",
+
+  "captured_at_local": "2026-03-12 09:37",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Tree branch cutting observation",
+  "summary": "Observation after tree branches were cut. Activity continuity from previous pruning operation.",
+
+  "asset_reference": {
+    "tool_id": "TOL-MCH-0001"
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihvouwu5ofor6wmwit4cprrtdgeprequpi54ao5cizty3e3umgpcq",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01911/hash/dataunit_01911.sha256",
+    "ots_file": "dataset/data-unit/01911/ots/dgcp_dataunit_01911.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
