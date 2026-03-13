@@ -1,0 +1,60 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01903",
+  "file_path": "dataset/data-unit/01903/dataunit_01903.json",
+
+  "category": "animal-care",
+  "sub_category": "dog-feeding-cycle",
+
+  "captured_at_local": "2026-03-12 06:39",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Dog feeding cycle morning",
+  "summary": "Morning feeding activity for farm dogs.",
+
+  "animal_group": {
+    "species": "dog",
+    "activity": "feeding"
+  },
+
+  "operation": {
+    "event": "morning feeding",
+    "cycle": "daily"
+  },
+
+  "reference": {
+    "dataunit_refs": [
+      "01893"
+    ],
+    "note": "Previous feeding cycle recorded in evening."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeidebejupefhvnxx3dpaqut3sedrqcvqq4bfamfrbp7nklmls65mmy",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01903/hash/dataunit_01903.sha256",
+    "ots_file": "dataset/data-unit/01903/ots/dgcp_dataunit_01903.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
