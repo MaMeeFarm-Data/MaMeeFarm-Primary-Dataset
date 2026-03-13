@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01908",
+  "file_path": "dataset/data-unit/01908/dataunit_01908.json",
+
+  "category": "farm-infrastructure",
+  "sub_category": "power-system-operation",
+
+  "captured_at_local": "2026-03-12 08:30",
+  "timezone": "Asia/Bangkok",
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "data_type": "image",
+
+  "title": "Inverter start operation record",
+  "summary": "Morning activation of inverter INV-01.",
+
+  "asset_reference": {
+    "asset_id": "INV-01"
+  },
+
+  "reference": {
+    "dataunit_refs": ["01899"],
+    "note": "Previous record indicates inverter off state."
+  },
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibfmjbowc4ojandvrbvikrygysn4ykjzuloegnpi2ds43botlhfge",
+    "note": "Raw evidence reference."
+  },
+
+  "media_count": 1,
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01908/hash/dataunit_01908.sha256",
+    "ots_file": "dataset/data-unit/01908/ots/dgcp_dataunit_01908.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "accountability": "single-operator responsibility",
+    "data_framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
