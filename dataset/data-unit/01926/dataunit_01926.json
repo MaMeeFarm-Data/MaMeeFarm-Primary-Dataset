@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01926",
+  "file_path": "dataset/data-unit/01926/dataunit_01926.json",
+
+  "category": "plant-observation",
+  "sub_category": "fruiting-stage",
+
+  "captured_at_local": "2026-03-13 08:13",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "plant_id": "PLT-YLB-0001",
+  "plant_type": "yardlong bean",
+
+  "observation": "pod formation observed",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigwemxkv3xjod4gidg5twcve5munycgmp6v2hqyucdb63bphfzbp4",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01926/hash/dataunit_01926.sha256",
+    "ots_file": "dataset/data-unit/01926/ots/dgcp_dataunit_01926.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
