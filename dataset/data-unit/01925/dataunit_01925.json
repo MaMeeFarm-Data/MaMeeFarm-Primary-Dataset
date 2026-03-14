@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01925",
+  "file_path": "dataset/data-unit/01925/dataunit_01925.json",
+
+  "category": "environment",
+  "sub_category": "weather-observation",
+
+  "captured_at_local": "2026-03-13 08:12",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "observation_type": "rain-event",
+
+  "description": "Duck house roof surface observed wet indicating rainfall.",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibo5bfsrkr2knpytsclvdyxcszws7iacrhmwyh6pkdwn6idb3i4ki",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01925/hash/dataunit_01925.sha256",
+    "ots_file": "dataset/data-unit/01925/ots/dgcp_dataunit_01925.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
