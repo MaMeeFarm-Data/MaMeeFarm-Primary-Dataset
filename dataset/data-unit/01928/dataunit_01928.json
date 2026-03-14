@@ -1,0 +1,42 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01928",
+  "file_path": "dataset/data-unit/01928/dataunit_01928.json",
+
+  "category": "plant-observation",
+  "sub_category": "leaf-stage",
+
+  "captured_at_local": "2026-03-13 08:28",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+
+  "plant_type": "coriander",
+
+  "observation": "leaf structure observed",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibhu2qjfh7q2m75f2id3nok2lv5htdttyz5vtrdejabpnk56wqwxq",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01928/hash/dataunit_01928.sha256",
+    "ots_file": "dataset/data-unit/01928/ots/dgcp_dataunit_01928.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
