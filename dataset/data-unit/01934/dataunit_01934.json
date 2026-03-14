@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01934",
+  "file_path": "dataset/data-unit/01934/dataunit_01934.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "cooking-process-observation",
+
+  "captured_at_local": "2026-03-13 12:43",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_id": "STV-0001",
+  "asset_type": "wood fire stove",
+
+  "timer_device": "INF-TIM-0001",
+
+  "activity": "rice cooking completion observation",
+
+  "timer_state": {
+    "display_time": "25:42",
+    "unit": "mm:ss",
+    "event": "rice cooked observation"
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihtg6sq6yl6cnc3oel7l2qlojej74plajfdtoxjvt6cjnj7pguory",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01934/hash/dataunit_01934.sha256",
+    "ots_file": "dataset/data-unit/01934/ots/dgcp_dataunit_01934.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
