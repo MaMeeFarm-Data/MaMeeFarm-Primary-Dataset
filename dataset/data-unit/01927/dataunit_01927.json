@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01927",
+  "file_path": "dataset/data-unit/01927/dataunit_01927.json",
+
+  "category": "environment",
+  "sub_category": "temperature-humidity-record",
+
+  "captured_at_local": "2026-03-13 08:14",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "sensor_id": "HTC-2",
+  "sensor_type": "Duck house microclimate sensor",
+
+  "measurement": {
+    "temperature_inside_celsius": 20.1,
+    "temperature_outside_celsius": 19.9,
+    "humidity_percent": 86
+  },
+
+  "context": {
+    "duck_presence": "none_observed"
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihsw2fcdtllhqv3ctc5j7q3lt7vr5xt2yladipp7uvohebb3nclem",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01927/hash/dataunit_01927.sha256",
+    "ots_file": "dataset/data-unit/01927/ots/dgcp_dataunit_01927.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
