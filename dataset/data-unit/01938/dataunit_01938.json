@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01938",
+  "file_path": "dataset/data-unit/01938/dataunit_01938.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "gate-status",
+
+  "captured_at_local": "2026-03-13 18:54",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_id": "INF-GATE-0003",
+  "asset_type": "farm gate",
+
+  "activity": "gate closed observation",
+
+  "reference": {
+    "morning_open_data_unit": "01924"
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeic2434ksqkbq7srpmc6zy5h3rn7rmcyeyb3f3tdmdhmjwlw52n4fu",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01938/hash/dataunit_01938.sha256",
+    "ots_file": "dataset/data-unit/01938/ots/dgcp_dataunit_01938.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
