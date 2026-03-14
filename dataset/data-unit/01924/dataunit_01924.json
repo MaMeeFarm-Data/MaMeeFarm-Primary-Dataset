@@ -1,0 +1,43 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01924",
+  "file_path": "dataset/data-unit/01924/dataunit_01924.json",
+
+  "category": "infrastructure",
+  "sub_category": "gate-operation",
+
+  "captured_at_local": "2026-03-13 08:12",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_id": "INF-GATE-0003",
+  "asset_type": "farm gate",
+
+  "activity": "gate opening",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicy2ete2dmzz2rbwim5mgtjgwgkzwrrp3cwwybwlsefbqeee4kfdi",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01924/hash/dataunit_01924.sha256",
+    "ots_file": "dataset/data-unit/01924/ots/dgcp_dataunit_01924.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
