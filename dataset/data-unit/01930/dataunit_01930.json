@@ -1,0 +1,49 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01930",
+  "file_path": "dataset/data-unit/01930/dataunit_01930.json",
+
+  "category": "human-activity",
+  "sub_category": "food-consumption-observation",
+
+  "captured_at_local": "2026-03-13 08:36",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+
+  "actor": "P'Toh",
+
+  "food_item": "minced pork rice porridge",
+
+  "ingredient_reference": {
+    "plant": "coriander",
+    "zone": "FZ-03",
+    "reference_data_unit": "01928"
+  },
+
+  "observation": "meal consumption observation",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigigvycscfclljlnideff3faq7ess3kgwk27bizhfyoxizgq5xbbe",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01930/hash/dataunit_01930.sha256",
+    "ots_file": "dataset/data-unit/01930/ots/dgcp_dataunit_01930.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
