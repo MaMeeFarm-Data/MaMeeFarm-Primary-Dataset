@@ -1,0 +1,51 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01932",
+  "file_path": "dataset/data-unit/01932/dataunit_01932.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "fire-stove-ignition",
+
+  "captured_at_local": "2026-03-13 12:18",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset_id": "STV-0001",
+  "asset_type": "wood fire stove",
+
+  "timer_device": "INF-TIM-0001",
+
+  "activity": "fire ignition observation",
+
+  "timer_state": {
+    "display_time": "01:05",
+    "unit": "mm:ss",
+    "event": "fire visible"
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeibs4sdgq3vmht4fjkdamfrwibtnpjnfivxrjri4jmtscmpnjuho64",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01932/hash/dataunit_01932.sha256",
+    "ots_file": "dataset/data-unit/01932/ots/dgcp_dataunit_01932.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
