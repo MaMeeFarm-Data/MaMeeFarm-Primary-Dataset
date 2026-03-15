@@ -1,0 +1,54 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01954",
+  "file_path": "dataset/data-unit/01954/dataunit_01954.json",
+
+  "category": "environment-observation",
+  "sub_category": "microclimate",
+
+  "captured_at_local": "2026-03-14 18:00",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "FZ-03",
+  "sub_zone": "FZ-03-T1",
+
+  "sensor": {
+    "asset_id": "HTC-2",
+    "type": "microclimate sensor",
+    "name": "Duck House Microclimate Sensor",
+    "status": "active"
+  },
+
+  "environmental_observation": {
+    "temperature_in": "25.8 C",
+    "temperature_out": "25.7 C",
+    "relative_humidity": "62 %"
+  },
+
+  "context_note": "duck house currently without ducks",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigcoayp2kcnmaqullq4fwm4yb6osmnlg3gu525fqgdvunstf52k64",
+    "note": "raw evidence image"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01954/hash/dataunit_01954.sha256",
+    "ots_file": "dataset/data-unit/01954/ots/dgcp_dataunit_01954.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
