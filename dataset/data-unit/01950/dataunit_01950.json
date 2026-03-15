@@ -1,0 +1,47 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01950",
+  "file_path": "dataset/data-unit/01950/dataunit_01950.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "water-system",
+
+  "captured_at_local": "2026-03-14 09:52",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "system_context": {
+    "water_tank": "WT-F-0001",
+    "system_type": "farm water storage"
+  },
+
+  "activity": "water inflow to storage tank",
+
+  "observation_note": "water observed flowing into storage tank over time",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeicao3nzar2oa5zpi5umezuhnsr3h3apsa2b6zpatd23kimd77h7iu",
+    "note": "raw evidence image"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01950/hash/dataunit_01950.sha256",
+    "ots_file": "dataset/data-unit/01950/ots/dgcp_dataunit_01950.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
