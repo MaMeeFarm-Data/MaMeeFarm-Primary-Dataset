@@ -1,0 +1,46 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01944",
+  "file_path": "dataset/data-unit/01944/dataunit_01944.json",
+
+  "category": "environment-observation",
+  "sub_category": "temperature-humidity-record",
+
+  "captured_at_local": "2026-03-14 07:51",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "house balcony",
+
+  "sensor_device": "HTC-1 temperature and humidity sensor",
+
+  "environment_reading": {
+    "temperature_celsius": 19.1,
+    "humidity_percent": 74
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeifvd5lqck7yuixgcqg2o45nm4vg3nrpdkndy4ndm2smvpmiymx5lm",
+    "note": "Raw evidence reference"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01944/hash/dataunit_01944.sha256",
+    "ots_file": "dataset/data-unit/01944/ots/dgcp_dataunit_01944.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm observation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
