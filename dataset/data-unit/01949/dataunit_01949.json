@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01949",
+  "file_path": "dataset/data-unit/01949/dataunit_01949.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "water-system",
+
+  "captured_at_local": "2026-03-14 09:50",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "equipment": {
+    "asset_id": "PMP-0003",
+    "type": "water pump"
+  },
+
+  "system_context": {
+    "water_source": [
+      "WT-UW-0001",
+      "WT-UW-0002"
+    ],
+    "system_type": "underground water well"
+  },
+
+  "activity": "water pump placed into underground well",
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeie2weg5xgqunwqujhe6wcaxw7zr5efa2k5vaejjcgaxybgtos3rwe",
+    "note": "raw evidence image"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01949/hash/dataunit_01949.sha256",
+    "ots_file": "dataset/data-unit/01949/ots/dgcp_dataunit_01949.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
