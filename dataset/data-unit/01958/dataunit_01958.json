@@ -1,0 +1,56 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01958",
+  "file_path": "dataset/data-unit/01958/dataunit_01958.json",
+
+  "category": "infrastructure-operation",
+  "sub_category": "energy-system",
+
+  "captured_at_local": "2026-03-14 22:34",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+  "sub_zone": "power-system",
+
+  "asset": {
+    "asset_id": "INV-01",
+    "type": "solar hybrid inverter",
+    "system": "farm power system",
+    "status": "active"
+  },
+
+  "activity": {
+    "type": "system shutdown",
+    "system_component": "solar inverter",
+    "time_of_day": "night"
+  },
+
+  "reference": {
+    "morning_startup_data_unit": "01945"
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihjwnzd7dpnzdfs3u52hirixij2as3kbmy4nn2tdkufvjz5yjr4py",
+    "note": "raw evidence image"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01958/hash/dataunit_01958.sha256",
+    "ots_file": "dataset/data-unit/01958/ots/dgcp_dataunit_01958.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
