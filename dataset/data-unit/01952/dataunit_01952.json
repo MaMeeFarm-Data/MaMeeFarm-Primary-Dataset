@@ -1,0 +1,50 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01952",
+  "file_path": "dataset/data-unit/01952/dataunit_01952.json",
+
+  "category": "inventory-observation",
+  "sub_category": "animal-feed",
+
+  "captured_at_local": "2026-03-14 17:34",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "asset": {
+    "asset_id": "INF-SACK20-0005",
+    "type": "woven PP sack",
+    "capacity": "20 kg",
+    "origin": "feed bag"
+  },
+
+  "observation": {
+    "state": "feed bag observed empty",
+    "context": "animal feed used during the day"
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeigqd3x4ttejbuixzyyzk2yn4nfft5wenfsckofodezoopi75joqse",
+    "note": "raw evidence image"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01952/hash/dataunit_01952.sha256",
+    "ots_file": "dataset/data-unit/01952/ots/dgcp_dataunit_01952.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
