@@ -1,0 +1,52 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01953",
+  "file_path": "dataset/data-unit/01953/dataunit_01953.json",
+
+  "category": "animal-operation",
+  "sub_category": "feeding",
+
+  "captured_at_local": "2026-03-14 17:34",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-02",
+
+  "actor": {
+    "name": "P'Toh",
+    "role": "farm operation"
+  },
+
+  "activity": {
+    "type": "dog feeding",
+    "time_of_day": "evening"
+  },
+
+  "reference": {
+    "morning_feeding_data_unit": "01943"
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeiguuip5xcin5dis5tcnbomttuekww5nenhahqkbfjadshkcky2iky",
+    "note": "raw evidence image"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01953/hash/dataunit_01953.sha256",
+    "ots_file": "dataset/data-unit/01953/ots/dgcp_dataunit_01953.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
