@@ -1,0 +1,53 @@
+{
+  "dgcp_version": "DGCP-DATASET-1.0",
+  "dataset": "MaMeeFarm-Primary-Dataset",
+  "data_unit_id": "01948",
+  "file_path": "dataset/data-unit/01948/dataunit_01948.json",
+
+  "category": "human-activity",
+  "sub_category": "meal-observation",
+
+  "captured_at_local": "2026-03-14 09:04",
+  "timezone": "Asia/Bangkok",
+
+  "location": "MaMeeFarm",
+  "zone": "HZ-01",
+  "sub_zone": "kitchen",
+
+  "actor": {
+    "name": "P'Toh",
+    "role": "system architect"
+  },
+
+  "observation": {
+    "meal_type": "breakfast",
+    "food": "rice porridge with minced pork",
+    "additional_items": [
+      "boiled egg",
+      "boiled egg"
+    ]
+  },
+
+  "data_type": "image",
+
+  "external_reference": {
+    "binding": "non-binding",
+    "storage": "pinata",
+    "cid": "bafybeihjqnx7es74rxnfpqq4qpwuloqwx3wt4dkz627xvay7qzfb2qxwey",
+    "note": "raw evidence image"
+  },
+
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "hash_file": "dataset/data-unit/01948/hash/dataunit_01948.sha256",
+    "ots_file": "dataset/data-unit/01948/ots/dgcp_dataunit_01948.ots"
+  },
+
+  "responsibility": {
+    "actor": "MaMeeFarm operation",
+    "recorded_by": "P'Toh",
+    "framework": "DGCP™"
+  },
+
+  "license": "DGCP | MMFARM-POL-2025"
+}
